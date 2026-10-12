@@ -2,7 +2,7 @@
   "scope": "SOUL",
   "source_date": "2026-10-12",
   "selection": "Reports, scripts, schemas, selected static evidence and standalone demos; no REA source/history, original APKs, downloaded tools, or large regenerable indexes.",
-  "bytes_before_portable_document_edits": 30599071,
+  "bytes_before_portable_document_edits": 30601164,
   "files": [
     {
       "path": "analysis/.gitattributes",
@@ -833,6 +833,11 @@
       "path": "analysis/room-contracts.json",
       "bytes": 5473259,
       "sha256": "4cb0fbc5f5a04e61427910c390ee703deeb976b318c0e137a64299cdff99a543"
+    },
+    {
+      "path": "APK-INFO.md",
+      "bytes": 2093,
+      "sha256": "456af7f4fbc0c7722d8233458bc11038beff27f0d04e40e6cc06a2b136b2a4eb"
     }
   ],
   "excluded": [

@@ -2,7 +2,7 @@
   "scope": "Xijing",
   "source_date": "2026-10-12",
   "selection": "Reports, scripts, schemas, selected static evidence and standalone demos; no REA source/history, original APKs, downloaded tools, or large regenerable indexes.",
-  "bytes_before_portable_document_edits": 20069145,
+  "bytes_before_portable_document_edits": 20070866,
   "files": [
     {
       "path": "AndroidManifest.xml",
@@ -198,6 +198,11 @@
       "path": "source/provenance.json",
       "bytes": 630,
       "sha256": "8e4fc1b462f1b90f69da59cc81261f54f9d41b61152d79fb7aab1cd315f47977"
+    },
+    {
+      "path": "APK-INFO.md",
+      "bytes": 1721,
+      "sha256": "bcff786f08baa17113a18c25ee113bdf23c4ca8639a7dc23675a4303ad025410"
     }
   ],
   "excluded": [

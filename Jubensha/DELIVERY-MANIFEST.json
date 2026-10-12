@@ -2,7 +2,7 @@
   "scope": "Jubensha",
   "source_date": "2026-10-12",
   "selection": "Reports, scripts, schemas, selected static evidence and standalone demos; no REA source/history, original APKs, downloaded tools, or large regenerable indexes.",
-  "bytes_before_portable_document_edits": 127838046,
+  "bytes_before_portable_document_edits": 127840585,
   "files": [
     {
       "path": "README.md",
@@ -758,6 +758,11 @@
       "path": "demo/verification/mobile-vote.png",
       "bytes": 83045,
       "sha256": "8ec6bdf5874db0d66b8af0fb4b809adab2c17f9ae3852cea774f7c356dee0951"
+    },
+    {
+      "path": "APK-INFO.md",
+      "bytes": 2539,
+      "sha256": "8289385310595398c2b7cdd8af9653e2dc24e7c34c5d2a646ca33c52785a777e"
     }
   ],
   "excluded": [

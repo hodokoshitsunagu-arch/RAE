@@ -2,7 +2,7 @@
   "scope": "Werewolf",
   "source_date": "2026-10-12",
   "selection": "Reports, scripts, schemas, selected static evidence and standalone demos; no REA source/history, original APKs, downloaded tools, or large regenerable indexes.",
-  "bytes_before_portable_document_edits": 59071107,
+  "bytes_before_portable_document_edits": 59072967,
   "files": [
     {
       "path": "analysis/AndroidManifest.xml",
@@ -21768,6 +21768,11 @@
       "path": "demo/tests/game.test.mjs",
       "bytes": 7371,
       "sha256": "62563fcbc17d3d9abc9d81a8d4c70d229166285f775196496d13ffca6f14459e"
+    },
+    {
+      "path": "APK-INFO.md",
+      "bytes": 1860,
+      "sha256": "0e64222260a8f1be0c5bb0ffca7a4dccb36bb46849a9d3d78099b2d6a54073a2"
     }
   ],
   "excluded": [
