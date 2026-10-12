@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2457164499910357602
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4876250164307161112
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -337973697683624889
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Shapeshifting_tips",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

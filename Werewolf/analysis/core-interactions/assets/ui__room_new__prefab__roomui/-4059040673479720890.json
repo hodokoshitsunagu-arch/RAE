@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2674997360300309329
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4671343153955658384
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4191896164311526454
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4295098573029558913
+      }
+    }
+  ],
+  "m_Layer": 0,
+  "m_Name": "upButton",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

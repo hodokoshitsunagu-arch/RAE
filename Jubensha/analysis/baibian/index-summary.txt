@@ -1,0 +1,15 @@
+{
+  "path": "/Users/mark/Projects/REA/Jubensha/apks/baibian-6.45.2.apk",
+  "sha256": "8522e582689c462c2746ffad8dcf7190e98b52d6d93c79468a239005fe8d9fe3",
+  "md5": "fb4f30e3c2c20d2a4248255af53bf660",
+  "size": 458176062,
+  "zip_crc_failure": null,
+  "dex": [
+    {
+      "member": "classes.dex",
+      "sha256": "88db616e55f0903660a2bb86f3f1cb5c09e0aa0a876d1cb3709ee36e0cbf3c13",
+      "classes": 30,
+      "strings": 1377
+    }
+  ]
+}

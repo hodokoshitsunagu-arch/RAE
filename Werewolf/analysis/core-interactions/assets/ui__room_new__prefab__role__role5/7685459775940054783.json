@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2515214495787213683
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5339658086406228578
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6166906757211072680
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "NoMedicine",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

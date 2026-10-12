@@ -1,0 +1,2459 @@
+name: "im.proto"
+dependency: "draw-something.proto"
+message_type {
+  name: "SauthMessage"
+  field {
+    name: "soulId"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "uid"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "sid"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "clientType"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".ClientType"
+  }
+  field {
+    name: "clientVersion"
+    number: 5
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "deviceId"
+    number: 6
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "deviceVendor"
+    number: 7
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "deviceModel"
+    number: 8
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "deviceOsName"
+    number: 9
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "deviceOsVersion"
+    number: 10
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "isRetrying"
+    number: 11
+    label: LABEL_OPTIONAL
+    type: TYPE_BOOL
+  }
+  field {
+    name: "label"
+    number: 12
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".Label"
+  }
+}
+message_type {
+  name: "Label"
+  field {
+    name: "business"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".Label.Business"
+  }
+  field {
+    name: "channelType"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".Label.ChannelType"
+  }
+  enum_type {
+    name: "Business"
+    value {
+      name: "DEFAULT_BUSINESS"
+      number: 0
+    }
+    value {
+      name: "IM"
+      number: 1
+    }
+    value {
+      name: "GAME"
+      number: 2
+    }
+  }
+  enum_type {
+    name: "ChannelType"
+    value {
+      name: "DEFAULT_CHANNEL_TYPE"
+      number: 0
+    }
+    value {
+      name: "SOULAPP"
+      number: 1
+    }
+    value {
+      name: "WECHAT"
+      number: 2
+    }
+    value {
+      name: "FACEBOOK"
+      number: 3
+    }
+  }
+}
+message_type {
+  name: "CommandMessage"
+  field {
+    name: "soulId"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "cmd_id"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "type"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".CommandMessage.Type"
+  }
+  field {
+    name: "acceptedMsgId"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "msgCommand"
+    number: 5
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".MsgCommand"
+    oneof_index: 0
+  }
+  field {
+    name: "respCommand"
+    number: 6
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".RespCommand"
+    oneof_index: 0
+  }
+  field {
+    name: "pshCommand"
+    number: 7
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".PshCommand"
+    oneof_index: 0
+  }
+  field {
+    name: "ackCommand"
+    number: 8
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".AckCommand"
+    oneof_index: 0
+  }
+  field {
+    name: "syncCommand"
+    number: 9
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".SyncCommand"
+    oneof_index: 0
+  }
+  field {
+    name: "finCommand"
+    number: 10
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".FinCommand"
+    oneof_index: 0
+  }
+  field {
+    name: "notifyCommand"
+    number: 11
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".NotifyCommand"
+    oneof_index: 0
+  }
+  field {
+    name: "pushMessage"
+    number: 12
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".PushMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "syncFin"
+    number: 13
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".SyncFin"
+    oneof_index: 0
+  }
+  field {
+    name: "msgFin"
+    number: 14
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".MsgFin"
+    oneof_index: 0
+  }
+  field {
+    name: "transCommand"
+    number: 15
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".TransCommand"
+    oneof_index: 0
+  }
+  field {
+    name: "reportCommand"
+    number: 16
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".ReportCommand"
+    oneof_index: 0
+  }
+  field {
+    name: "orderCommand"
+    number: 17
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".OrderCommand"
+    oneof_index: 0
+  }
+  field {
+    name: "chatRoomCommand"
+    number: 21
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".ChatRoomCommand"
+    oneof_index: 0
+  }
+  field {
+    name: "mapCommand"
+    number: 23
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".MapCommand"
+    oneof_index: 0
+  }
+  field {
+    name: "roamCommand"
+    number: 24
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".RoamCommand"
+    oneof_index: 0
+  }
+  field {
+    name: "groupCommand"
+    number: 26
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".GroupCommand"
+    oneof_index: 0
+  }
+  field {
+    name: "clientType"
+    number: 18
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".ClientType"
+  }
+  field {
+    name: "crc"
+    number: 19
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "encryptedUserId"
+    number: 20
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "timestamp"
+    number: 25
+    label: LABEL_OPTIONAL
+    type: TYPE_INT64
+  }
+  enum_type {
+    name: "Type"
+    value {
+      name: "MSG"
+      number: 0
+    }
+    value {
+      name: "SYNC"
+      number: 1
+    }
+    value {
+      name: "PSH"
+      number: 2
+    }
+    value {
+      name: "ACK"
+      number: 3
+    }
+    value {
+      name: "FIN"
+      number: 4
+    }
+    value {
+      name: "RESP"
+      number: 5
+    }
+    value {
+      name: "NOTIFY"
+      number: 6
+    }
+    value {
+      name: "PUSH"
+      number: 7
+    }
+    value {
+      name: "SYNC_FIN"
+      number: 8
+    }
+    value {
+      name: "MSG_FIN"
+      number: 9
+    }
+    value {
+      name: "FIRST_SYNC"
+      number: 10
+    }
+    value {
+      name: "TRANS_CMD"
+      number: 11
+    }
+    value {
+      name: "REPORT"
+      number: 12
+    }
+    value {
+      name: "ORDER"
+      number: 13
+    }
+    value {
+      name: "CHAT_ROOM"
+      number: 14
+    }
+    value {
+      name: "MAP"
+      number: 15
+    }
+    value {
+      name: "ROAM"
+      number: 16
+    }
+    value {
+      name: "GROUP"
+      number: 17
+    }
+  }
+  oneof_decl {
+    name: "cmd"
+  }
+}
+message_type {
+  name: "CommandGroup"
+  field {
+    name: "commands"
+    number: 1
+    label: LABEL_REPEATED
+    type: TYPE_MESSAGE
+    type_name: ".CommandMessage"
+  }
+}
+message_type {
+  name: "OrderCommand"
+  field {
+    name: "type"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".OrderCommand.Type"
+  }
+  field {
+    name: "kickoutOrderCommand"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".KickoutOrderCommand"
+    oneof_index: 0
+  }
+  field {
+    name: "DeleteOrderCommand"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".DeleteOrderCommand"
+    oneof_index: 0
+  }
+  enum_type {
+    name: "Type"
+    value {
+      name: "KICKOUT"
+      number: 0
+    }
+    value {
+      name: "DELETE"
+      number: 1
+    }
+  }
+  oneof_decl {
+    name: "order"
+  }
+}
+message_type {
+  name: "KickoutOrderCommand"
+  field {
+    name: "userId"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "kicker"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".ClientType"
+  }
+  field {
+    name: "asser"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".ClientType"
+  }
+  field {
+    name: "timestamp"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+}
+message_type {
+  name: "DeleteOrderCommand"
+  field {
+    name: "userId"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "deleteItem"
+    number: 2
+    label: LABEL_REPEATED
+    type: TYPE_MESSAGE
+    type_name: ".DeleteItemOrderCommand"
+  }
+}
+message_type {
+  name: "DeleteItemOrderCommand"
+  field {
+    name: "msg_from"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "msg_to"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "cmd_id"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+}
+message_type {
+  name: "ReportCommand"
+  field {
+    name: "type"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".ReportCommand.Type"
+  }
+  field {
+    name: "loginReportCommand"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".LoginReportCommand"
+    oneof_index: 0
+  }
+  field {
+    name: "relationReportCommand"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".RelationReportCommand"
+    oneof_index: 0
+  }
+  enum_type {
+    name: "Type"
+    value {
+      name: "LOGIN_REPORT"
+      number: 0
+    }
+    value {
+      name: "RELATION_REPORT"
+      number: 3
+    }
+  }
+  oneof_decl {
+    name: "report"
+  }
+}
+message_type {
+  name: "LoginReportCommand"
+  field {
+    name: "loginType"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".LoginReportCommand.LoginType"
+  }
+  field {
+    name: "clientType"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".ClientType"
+  }
+  field {
+    name: "from"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "to"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "timestamp"
+    number: 5
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "deviceId"
+    number: 6
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "viceId"
+    number: 7
+    label: LABEL_REPEATED
+    type: TYPE_STRING
+  }
+  enum_type {
+    name: "LoginType"
+    value {
+      name: "CONNECT"
+      number: 0
+    }
+    value {
+      name: "DISCONNECT"
+      number: 1
+    }
+    value {
+      name: "LOGIN"
+      number: 2
+    }
+    value {
+      name: "LOGOUT"
+      number: 3
+    }
+    value {
+      name: "VICE_LOGOUT"
+      number: 4
+    }
+  }
+}
+message_type {
+  name: "RelationReportCommand"
+  field {
+    name: "masterId"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "viceId"
+    number: 2
+    label: LABEL_REPEATED
+    type: TYPE_STRING
+  }
+  field {
+    name: "deleteMasterId"
+    number: 3
+    label: LABEL_REPEATED
+    type: TYPE_STRING
+  }
+  field {
+    name: "deleteViceId"
+    number: 4
+    label: LABEL_REPEATED
+    type: TYPE_STRING
+  }
+}
+message_type {
+  name: "PshCommand"
+  field {
+    name: "type"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".PshCommand.Type"
+  }
+  field {
+    name: "errorMsg"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  enum_type {
+    name: "Type"
+    value {
+      name: "SYNC"
+      number: 0
+    }
+    value {
+      name: "KICK"
+      number: 1
+    }
+  }
+}
+message_type {
+  name: "AckCommand"
+  field {
+    name: "remain"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_BOOL
+  }
+  field {
+    name: "readLastMsgId"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "timestamp"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "type"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".AckCommand.Type"
+  }
+  enum_type {
+    name: "Type"
+    value {
+      name: "MSG"
+      number: 0
+    }
+    value {
+      name: "SYNC"
+      number: 1
+    }
+  }
+}
+message_type {
+  name: "SyncCommand"
+  field {
+    name: "startMsgId"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "endMsgId"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "startTimestamp"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "endTimestamp"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "withFrom"
+    number: 5
+    label: LABEL_OPTIONAL
+    type: TYPE_BOOL
+  }
+  field {
+    name: "type"
+    number: 6
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".SyncCommand.Type"
+  }
+  field {
+    name: "roomId"
+    number: 7
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "roamUserId"
+    number: 8
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "requestId"
+    number: 9
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "viceId"
+    number: 10
+    label: LABEL_REPEATED
+    type: TYPE_STRING
+  }
+  enum_type {
+    name: "Type"
+    value {
+      name: "SINGLECHAT"
+      number: 0
+    }
+    value {
+      name: "ROOMCHAT"
+      number: 1
+    }
+    value {
+      name: "ROAMINGCHAT"
+      number: 2
+    }
+    value {
+      name: "VICE_UNREAD"
+      number: 3
+    }
+  }
+}
+message_type {
+  name: "FinCommand"
+  field {
+    name: "syncFin"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".SyncFin"
+    oneof_index: 0
+  }
+  field {
+    name: "msgFin"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".MsgFin"
+    oneof_index: 0
+  }
+  oneof_decl {
+    name: "cmd"
+  }
+}
+message_type {
+  name: "SyncFin"
+  field {
+    name: "readLastMsgId"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "timestamp"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+}
+message_type {
+  name: "MsgFin"
+  field {
+    name: "readLastMsgId"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "timestamp"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "status"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".MsgFin.Status"
+  }
+  enum_type {
+    name: "Status"
+    value {
+      name: "TODO"
+      number: 0
+    }
+    value {
+      name: "DOING"
+      number: 1
+    }
+    value {
+      name: "DONE"
+      number: 2
+    }
+  }
+}
+message_type {
+  name: "MsgCommand"
+  field {
+    name: "type"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".MsgCommand.Type"
+  }
+  field {
+    name: "from"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "to"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "timestamp"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_INT64
+  }
+  field {
+    name: "textMsg"
+    number: 6
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".TextMsg"
+    oneof_index: 0
+  }
+  field {
+    name: "picMessage"
+    number: 7
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".PicMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "PicMessages"
+    number: 8
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".PicMessages"
+    oneof_index: 0
+  }
+  field {
+    name: "videoMessage"
+    number: 9
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".VideoMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "voiceMessage"
+    number: 10
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".VoiceMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "repostMessge"
+    number: 11
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".RepostMessge"
+    oneof_index: 0
+  }
+  field {
+    name: "expressionMessage"
+    number: 12
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".ExpressionMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "userExpressionMessage"
+    number: 13
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".UserExpressionMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "userCardMessage"
+    number: 14
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".UserCardMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "fingerGuessMessage"
+    number: 15
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".FingerGuessMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "rollDiceMessage"
+    number: 16
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".RollDiceMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "soulmateCardMessage"
+    number: 17
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".SoulmateCardMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "sensitiveWordMessage"
+    number: 18
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".SensitiveWordMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "snapChatMessage"
+    number: 20
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".SnapChatMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "extChatMessage"
+    number: 21
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".ExtChatMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "voiceChatMessage"
+    number: 22
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".VoiceChatMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "shareTagMessage"
+    number: 23
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".ShareTagMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "positionMessage"
+    number: 25
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".PositionMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "musicMessage"
+    number: 26
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".MusicMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "commonMessage"
+    number: 28
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".CommonMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "unReadCountMessage"
+    number: 29
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".UnReadCountMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "gameMessage"
+    number: 31
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".GameMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "CallMessage"
+    number: 32
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".CallMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "statMessage"
+    number: 33
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".StatMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "snapChat"
+    number: 19
+    label: LABEL_OPTIONAL
+    type: TYPE_INT32
+  }
+  field {
+    name: "notice"
+    number: 24
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "extMap"
+    number: 30
+    label: LABEL_REPEATED
+    type: TYPE_MESSAGE
+    type_name: ".MsgCommand.ExtMapEntry"
+  }
+  nested_type {
+    name: "ExtMapEntry"
+    field {
+      name: "key"
+      number: 1
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    field {
+      name: "value"
+      number: 2
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    options {
+      map_entry: true
+    }
+  }
+  enum_type {
+    name: "Type"
+    value {
+      name: "TEXT"
+      number: 0
+    }
+    value {
+      name: "PIC"
+      number: 1
+    }
+    value {
+      name: "MULTI_PIC"
+      number: 2
+    }
+    value {
+      name: "VIDEO"
+      number: 3
+    }
+    value {
+      name: "VOICE"
+      number: 4
+    }
+    value {
+      name: "REPOST"
+      number: 5
+    }
+    value {
+      name: "EXPRESSION"
+      number: 6
+    }
+    value {
+      name: "USER_EXPRESSION"
+      number: 7
+    }
+    value {
+      name: "RECALL"
+      number: 8
+    }
+    value {
+      name: "PROMPT"
+      number: 9
+    }
+    value {
+      name: "USER_CARD"
+      number: 10
+    }
+    value {
+      name: "FINGER_GUESS"
+      number: 11
+    }
+    value {
+      name: "ROLL_DICE"
+      number: 12
+    }
+    value {
+      name: "CUSTOM"
+      number: 13
+    }
+    value {
+      name: "SOULMATE_CARD"
+      number: 14
+    }
+    value {
+      name: "FOLLOW_TOAST"
+      number: 15
+    }
+    value {
+      name: "SHAREBG_INVITATION"
+      number: 16
+    }
+    value {
+      name: "SENSITIVE_WORD"
+      number: 17
+    }
+    value {
+      name: "INPUTSTART"
+      number: 18
+    }
+    value {
+      name: "INPUTEND"
+      number: 19
+    }
+    value {
+      name: "READALL"
+      number: 20
+    }
+    value {
+      name: "READ"
+      number: 21
+    }
+    value {
+      name: "SNAPCHAT"
+      number: 22
+    }
+    value {
+      name: "MATCH_CARD"
+      number: 23
+    }
+    value {
+      name: "EXT_CMD"
+      number: 24
+    }
+    value {
+      name: "VOICE_CHAT"
+      number: 25
+    }
+    value {
+      name: "REPORT"
+      number: 26
+    }
+    value {
+      name: "TAG"
+      number: 27
+    }
+    value {
+      name: "POST"
+      number: 28
+    }
+    value {
+      name: "POSITION"
+      number: 29
+    }
+    value {
+      name: "MUSIC"
+      number: 30
+    }
+    value {
+      name: "COMMON"
+      number: 32
+    }
+    value {
+      name: "UNREADCOUNT"
+      number: 33
+    }
+    value {
+      name: "GAME"
+      number: 34
+    }
+    value {
+      name: "MEDIACALL"
+      number: 35
+    }
+    value {
+      name: "STATISTICS"
+      number: 36
+    }
+  }
+  oneof_decl {
+    name: "msg"
+  }
+}
+message_type {
+  name: "GroupCommand"
+  field {
+    name: "type"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_INT32
+  }
+  field {
+    name: "savedb"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_BOOL
+  }
+  field {
+    name: "text"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "userId"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "dataMap"
+    number: 5
+    label: LABEL_REPEATED
+    type: TYPE_MESSAGE
+    type_name: ".GroupCommand.DataMapEntry"
+  }
+  field {
+    name: "userInfoMap"
+    number: 6
+    label: LABEL_REPEATED
+    type: TYPE_MESSAGE
+    type_name: ".GroupCommand.UserInfoMapEntry"
+  }
+  field {
+    name: "groupId"
+    number: 7
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "timestamp"
+    number: 8
+    label: LABEL_OPTIONAL
+    type: TYPE_INT64
+  }
+  field {
+    name: "toUids"
+    number: 9
+    label: LABEL_REPEATED
+    type: TYPE_STRING
+  }
+  field {
+    name: "offlinePush"
+    number: 10
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".GroupCommand.OfflinePush"
+  }
+  nested_type {
+    name: "DataMapEntry"
+    field {
+      name: "key"
+      number: 1
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    field {
+      name: "value"
+      number: 2
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    options {
+      map_entry: true
+    }
+  }
+  nested_type {
+    name: "UserInfoMapEntry"
+    field {
+      name: "key"
+      number: 1
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    field {
+      name: "value"
+      number: 2
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    options {
+      map_entry: true
+    }
+  }
+  enum_type {
+    name: "OfflinePush"
+    value {
+      name: "PushAndMark"
+      number: 0
+    }
+    value {
+      name: "PushNoneMark"
+      number: 1
+    }
+    value {
+      name: "NonePushMark"
+      number: 2
+    }
+  }
+}
+message_type {
+  name: "ChatRoomCommand"
+  field {
+    name: "type"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".ChatRoomCommand.Type"
+  }
+  field {
+    name: "roomId"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "userId"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "timestamp"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_INT64
+  }
+  field {
+    name: "chatRoomMsg"
+    number: 5
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".ChatRoomMsg"
+    oneof_index: 0
+  }
+  field {
+    name: "chatRoomOrder"
+    number: 6
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".ChatRoomOrder"
+    oneof_index: 0
+  }
+  field {
+    name: "chatRoomNofity"
+    number: 7
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".ChatRoomNofity"
+    oneof_index: 0
+  }
+  field {
+    name: "avatar"
+    number: 8
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "bgColor"
+    number: 9
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "nickName"
+    number: 10
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "roomMap"
+    number: 11
+    label: LABEL_REPEATED
+    type: TYPE_MESSAGE
+    type_name: ".ChatRoomCommand.RoomMapEntry"
+  }
+  nested_type {
+    name: "RoomMapEntry"
+    field {
+      name: "key"
+      number: 1
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    field {
+      name: "value"
+      number: 2
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    options {
+      map_entry: true
+    }
+  }
+  enum_type {
+    name: "Type"
+    value {
+      name: "MSG"
+      number: 0
+    }
+    value {
+      name: "ORDER"
+      number: 1
+    }
+    value {
+      name: "NOTIFY"
+      number: 2
+    }
+    value {
+      name: "PING"
+      number: 3
+    }
+    value {
+      name: "ROOMINFO"
+      number: 4
+    }
+  }
+  oneof_decl {
+    name: "room"
+  }
+}
+message_type {
+  name: "MapCommand"
+  field {
+    name: "type"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "contentMap"
+    number: 2
+    label: LABEL_REPEATED
+    type: TYPE_MESSAGE
+    type_name: ".MapCommand.ContentMapEntry"
+  }
+  nested_type {
+    name: "ContentMapEntry"
+    field {
+      name: "key"
+      number: 1
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    field {
+      name: "value"
+      number: 2
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    options {
+      map_entry: true
+    }
+  }
+}
+message_type {
+  name: "RoamCommand"
+  field {
+    name: "requestId"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "commandMessage"
+    number: 2
+    label: LABEL_REPEATED
+    type: TYPE_MESSAGE
+    type_name: ".CommandMessage"
+  }
+}
+message_type {
+  name: "ChatRoomMsg"
+  field {
+    name: "textMsg"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".TextMsg"
+    oneof_index: 0
+  }
+  field {
+    name: "picMessage"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".PicMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "commonMessage"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".CommonMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "type"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".ChatRoomMsg.Type"
+  }
+  field {
+    name: "notice"
+    number: 5
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  enum_type {
+    name: "Type"
+    value {
+      name: "TEXT"
+      number: 0
+    }
+    value {
+      name: "PIC"
+      number: 1
+    }
+    value {
+      name: "COMMON"
+      number: 2
+    }
+  }
+  oneof_decl {
+    name: "msg"
+  }
+}
+message_type {
+  name: "ChatRoomOrder"
+  field {
+    name: "orderType"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_INT32
+  }
+}
+message_type {
+  name: "ChatRoomNofity"
+  field {
+    name: "type"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".ChatRoomNofity.Type"
+  }
+  field {
+    name: "nofityType"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_INT32
+  }
+  field {
+    name: "to"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  enum_type {
+    name: "Type"
+    value {
+      name: "ALL"
+      number: 0
+    }
+    value {
+      name: "OTHERS"
+      number: 1
+    }
+    value {
+      name: "ROOMOWNER"
+      number: 2
+    }
+    value {
+      name: "APPOINTED"
+      number: 3
+    }
+  }
+}
+message_type {
+  name: "UnReadCountMessage"
+  field {
+    name: "unReadCount"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_INT32
+  }
+  field {
+    name: "type"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_INT32
+  }
+}
+message_type {
+  name: "CommonMessage"
+  field {
+    name: "messageType"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "content"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+}
+message_type {
+  name: "TransCommand"
+  field {
+    name: "from"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "to"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "timestamp"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_INT64
+  }
+  field {
+    name: "messageType"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "content"
+    number: 5
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+}
+message_type {
+  name: "PositionMessage"
+  field {
+    name: "title"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "address"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "lng"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_DOUBLE
+  }
+  field {
+    name: "lat"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_DOUBLE
+  }
+}
+message_type {
+  name: "MusicMessage"
+  field {
+    name: "coverUrl"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "author"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "name"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "url"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "duration"
+    number: 5
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "platform"
+    number: 6
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+}
+message_type {
+  name: "VoiceChatMessage"
+  field {
+    name: "signature"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "avatarColor"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "avatarName"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "channelId"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "content"
+    number: 5
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "type"
+    number: 6
+    label: LABEL_OPTIONAL
+    type: TYPE_INT32
+  }
+  field {
+    name: "firstRequestTimeStamp"
+    number: 7
+    label: LABEL_OPTIONAL
+    type: TYPE_INT64
+  }
+}
+message_type {
+  name: "CallMessage"
+  field {
+    name: "type"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".CallMessage.Type"
+  }
+  field {
+    name: "callType"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".CallMessage.CallType"
+  }
+  field {
+    name: "voiceChatMessage"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".VoiceChatMessage"
+  }
+  enum_type {
+    name: "Type"
+    value {
+      name: "Voice"
+      number: 0
+    }
+    value {
+      name: "Video"
+      number: 1
+    }
+    value {
+      name: "SwitchVideo"
+      number: 2
+    }
+    value {
+      name: "PermitVideo"
+      number: 3
+    }
+    value {
+      name: "RefuseVideo"
+      number: 4
+    }
+    value {
+      name: "SwitchAudio"
+      number: 5
+    }
+    value {
+      name: "PermitAudio"
+      number: 6
+    }
+    value {
+      name: "RefuseAudio"
+      number: 7
+    }
+  }
+  enum_type {
+    name: "CallType"
+    value {
+      name: "CallUp"
+      number: 0
+    }
+    value {
+      name: "Call_No_Res"
+      number: 1
+    }
+    value {
+      name: "Call_Reject"
+      number: 2
+    }
+    value {
+      name: "Call_Cancel"
+      number: 3
+    }
+    value {
+      name: "Call_Busy"
+      number: 4
+    }
+  }
+}
+message_type {
+  name: "StatMessage"
+  field {
+    name: "device"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".StatMessage.Device"
+  }
+  field {
+    name: "msgId"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  enum_type {
+    name: "Device"
+    value {
+      name: "Ios"
+      number: 0
+    }
+    value {
+      name: "Android"
+      number: 1
+    }
+  }
+}
+message_type {
+  name: "SnapChatMessage"
+  field {
+    name: "mark"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_INT32
+  }
+}
+message_type {
+  name: "SensitiveWordMessage"
+  field {
+    name: "content"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+}
+message_type {
+  name: "SoulmateCardMessage"
+  field {
+    name: "status"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_INT32
+  }
+}
+message_type {
+  name: "RollDiceMessage"
+  field {
+    name: "dicePoints"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_INT32
+  }
+}
+message_type {
+  name: "FingerGuessMessage"
+  field {
+    name: "finger"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_INT32
+  }
+}
+message_type {
+  name: "UserExpressionMessage"
+  field {
+    name: "imageW"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_FLOAT
+  }
+  field {
+    name: "imageH"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_FLOAT
+  }
+  field {
+    name: "imageUrl"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+}
+message_type {
+  name: "ExpressionMessage"
+  field {
+    name: "info"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+}
+message_type {
+  name: "RepostMessge"
+  field {
+    name: "info"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+}
+message_type {
+  name: "ShareTagMessage"
+  field {
+    name: "tagId"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "tagName"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+}
+message_type {
+  name: "UserCardMessage"
+  field {
+    name: "userInfo"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+}
+message_type {
+  name: "UserExpression"
+  field {
+    name: "url"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+}
+message_type {
+  name: "PicMessages"
+  field {
+    name: "picMessages"
+    number: 1
+    label: LABEL_REPEATED
+    type: TYPE_MESSAGE
+    type_name: ".PicMessage"
+  }
+}
+message_type {
+  name: "VoiceMessage"
+  field {
+    name: "remoteUrl"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "duration"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_INT32
+  }
+  field {
+    name: "word"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+}
+message_type {
+  name: "PicMessage"
+  field {
+    name: "imageW"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_FLOAT
+  }
+  field {
+    name: "imageH"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_FLOAT
+  }
+  field {
+    name: "imageUrl"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+}
+message_type {
+  name: "VideoMessage"
+  field {
+    name: "remoteUrl"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "width"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_INT32
+  }
+  field {
+    name: "height"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_INT32
+  }
+}
+message_type {
+  name: "PushMessage"
+  field {
+    name: "title"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "text"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "extMap"
+    number: 3
+    label: LABEL_REPEATED
+    type: TYPE_MESSAGE
+    type_name: ".PushMessage.ExtMapEntry"
+  }
+  field {
+    name: "sender"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "receiver"
+    number: 5
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  nested_type {
+    name: "ExtMapEntry"
+    field {
+      name: "key"
+      number: 1
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    field {
+      name: "value"
+      number: 2
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    options {
+      map_entry: true
+    }
+  }
+}
+message_type {
+  name: "TextMsg"
+  field {
+    name: "text"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "type"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_INT32
+  }
+}
+message_type {
+  name: "ExtChatMessage"
+  field {
+    name: "content"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "type"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_INT32
+  }
+}
+message_type {
+  name: "RespCommand"
+  field {
+    name: "type"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".RespCommand.Type"
+  }
+  field {
+    name: "status"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".RespCommand.Status"
+  }
+  field {
+    name: "errorMsg"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "timestamp"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_INT64
+  }
+  field {
+    name: "errorCode"
+    number: 6
+    label: LABEL_OPTIONAL
+    type: TYPE_INT32
+  }
+  field {
+    name: "sauthParam"
+    number: 5
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".SauthParam"
+    oneof_index: 0
+  }
+  enum_type {
+    name: "Type"
+    value {
+      name: "SAUTH"
+      number: 0
+    }
+    value {
+      name: "MSG"
+      number: 1
+    }
+    value {
+      name: "GENERAL"
+      number: 2
+    }
+    value {
+      name: "CHATROOM"
+      number: 3
+    }
+    value {
+      name: "Group"
+      number: 4
+    }
+    value {
+      name: "REPORT"
+      number: 5
+    }
+  }
+  enum_type {
+    name: "Status"
+    value {
+      name: "SUCCESS"
+      number: 0
+    }
+    value {
+      name: "ERROR"
+      number: 1
+    }
+  }
+  oneof_decl {
+    name: "resp"
+  }
+}
+message_type {
+  name: "SauthParam"
+  field {
+    name: "key"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+}
+message_type {
+  name: "NotifyCommand"
+  field {
+    name: "content"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "type"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".NotifyCommand.Type"
+  }
+  field {
+    name: "from"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "to"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "messageType"
+    number: 5
+    label: LABEL_OPTIONAL
+    type: TYPE_INT32
+  }
+  field {
+    name: "extMap"
+    number: 6
+    label: LABEL_REPEATED
+    type: TYPE_MESSAGE
+    type_name: ".NotifyCommand.ExtMapEntry"
+  }
+  nested_type {
+    name: "ExtMapEntry"
+    field {
+      name: "key"
+      number: 1
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    field {
+      name: "value"
+      number: 2
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    options {
+      map_entry: true
+    }
+  }
+  enum_type {
+    name: "Type"
+    value {
+      name: "NORMAL"
+      number: 0
+    }
+    value {
+      name: "BLOCK"
+      number: 1
+    }
+  }
+}
+enum_type {
+  name: "MessageType"
+  value {
+    name: "Ping"
+    number: 0
+  }
+  value {
+    name: "SAUTH"
+    number: 1
+  }
+  value {
+    name: "COMMAND"
+    number: 2
+  }
+  value {
+    name: "MESSAGE"
+    number: 3
+  }
+}
+enum_type {
+  name: "ClientType"
+  value {
+    name: "APP"
+    number: 0
+  }
+  value {
+    name: "WEB"
+    number: 1
+  }
+  value {
+    name: "PC"
+    number: 2
+  }
+  value {
+    name: "PAD"
+    number: 3
+  }
+  value {
+    name: "GAME"
+    number: 4
+  }
+  value {
+    name: "WEB_SOCKET"
+    number: 5
+  }
+  value {
+    name: "QUICKAPP"
+    number: 6
+  }
+  value {
+    name: "MICROAPP"
+    number: 7
+  }
+  value {
+    name: "WECHAT_MICROAPP"
+    number: 8
+  }
+}
+options {
+  java_package: "com.soul.im.protos"
+  java_multiple_files: true
+  go_package: "protos"
+  objc_class_prefix: "IMP"
+}
+syntax: "proto3"

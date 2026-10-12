@@ -1,0 +1,6894 @@
+[
+  {
+    "image": "Tools.dll",
+    "type_index": 15964,
+    "namespace": "",
+    "name": "GameDownloadAssetBase",
+    "metadata_offset": 19955972,
+    "methods": [
+      {
+        "name": "GetTestUrl",
+        "parameter_count": 0,
+        "token": "0x6000038",
+        "metadata_offset": 9854552
+      },
+      {
+        "name": "GetReleaseUrl",
+        "parameter_count": 0,
+        "token": "0x6000039",
+        "metadata_offset": 9854588
+      },
+      {
+        "name": "GetPreReleaseUrl",
+        "parameter_count": 0,
+        "token": "0x600003a",
+        "metadata_offset": 9854624
+      },
+      {
+        "name": "GetDistUrl",
+        "parameter_count": 2,
+        "token": "0x600003b",
+        "metadata_offset": 9854660
+      },
+      {
+        "name": "GetDistUrl",
+        "parameter_count": 2,
+        "token": "0x600003c",
+        "metadata_offset": 9854696
+      },
+      {
+        "name": "GetStaticUrl",
+        "parameter_count": 2,
+        "token": "0x600003d",
+        "metadata_offset": 9854732
+      },
+      {
+        "name": "_GetGameBaseUrl",
+        "parameter_count": 0,
+        "token": "0x600003e",
+        "metadata_offset": 9854768
+      },
+      {
+        "name": "_GetConfigUrl",
+        "parameter_count": 0,
+        "token": "0x600003f",
+        "metadata_offset": 9854804
+      },
+      {
+        "name": "setRemoteUrl",
+        "parameter_count": 0,
+        "token": "0x6000040",
+        "metadata_offset": 9854840
+      },
+      {
+        "name": "PatchedAOTAssemblyList",
+        "parameter_count": 0,
+        "token": "0x6000041",
+        "metadata_offset": 9854876
+      },
+      {
+        "name": "LoadAOTAssembly",
+        "parameter_count": 0,
+        "token": "0x6000042",
+        "metadata_offset": 9854912
+      },
+      {
+        "name": "GetDownLoadSizeAndKeys",
+        "parameter_count": 0,
+        "token": "0x6000043",
+        "metadata_offset": 9854948
+      },
+      {
+        "name": "GetName",
+        "parameter_count": 0,
+        "token": "0x6000044",
+        "metadata_offset": 9854984
+      },
+      {
+        "name": "OnError",
+        "parameter_count": 2,
+        "token": "0x6000045",
+        "metadata_offset": 9855020
+      },
+      {
+        "name": "_ShowRetry",
+        "parameter_count": 0,
+        "token": "0x6000046",
+        "metadata_offset": 9855056
+      },
+      {
+        "name": "LoadSceneName",
+        "parameter_count": 0,
+        "token": "0x6000047",
+        "metadata_offset": 9855092
+      },
+      {
+        "name": "UpdateProgress",
+        "parameter_count": 1,
+        "token": "0x6000048",
+        "metadata_offset": 9855128
+      },
+      {
+        "name": "LoadScene",
+        "parameter_count": 0,
+        "token": "0x6000049",
+        "metadata_offset": 9855164
+      },
+      {
+        "name": "GetAssemblyName",
+        "parameter_count": 0,
+        "token": "0x600004a",
+        "metadata_offset": 9855200
+      },
+      {
+        "name": "HasAndroidLoad",
+        "parameter_count": 0,
+        "token": "0x600004b",
+        "metadata_offset": 9855236
+      },
+      {
+        "name": "SetAndroidLoad",
+        "parameter_count": 0,
+        "token": "0x600004c",
+        "metadata_offset": 9855272
+      },
+      {
+        "name": "EnterGame",
+        "parameter_count": 0,
+        "token": "0x600004d",
+        "metadata_offset": 9855308
+      },
+      {
+        "name": "_OnLoadAssemblyComplete",
+        "parameter_count": 0,
+        "token": "0x600004e",
+        "metadata_offset": 9855344
+      },
+      {
+        "name": "GetGameInfo",
+        "parameter_count": 0,
+        "token": "0x600004f",
+        "metadata_offset": 9855380
+      },
+      {
+        "name": "_IsBasicBundle",
+        "parameter_count": 1,
+        "token": "0x6000050",
+        "metadata_offset": 9855416
+      },
+      {
+        "name": "_GetDownloadKeys",
+        "parameter_count": 0,
+        "token": "0x6000051",
+        "metadata_offset": 9855452
+      },
+      {
+        "name": "_GetBasicBundleDownloadSize",
+        "parameter_count": 0,
+        "token": "0x6000052",
+        "metadata_offset": 9855488
+      },
+      {
+        "name": "startDownload",
+        "parameter_count": 0,
+        "token": "0x6000053",
+        "metadata_offset": 9855524
+      },
+      {
+        "name": "_GetException",
+        "parameter_count": 1,
+        "token": "0x6000054",
+        "metadata_offset": 9855560
+      },
+      {
+        "name": "_ResetCatalogProvider",
+        "parameter_count": 0,
+        "token": "0x6000055",
+        "metadata_offset": 9855596
+      },
+      {
+        "name": "_LoadNew",
+        "parameter_count": 1,
+        "token": "0x6000056",
+        "metadata_offset": 9855632
+      },
+      {
+        "name": "GetGameType",
+        "parameter_count": 0,
+        "token": "0x6000057",
+        "metadata_offset": 9855668
+      },
+      {
+        "name": "GetUnityGameMode",
+        "parameter_count": 0,
+        "token": "0x6000058",
+        "metadata_offset": 9855704
+      },
+      {
+        "name": "Start",
+        "parameter_count": 0,
+        "token": "0x6000059",
+        "metadata_offset": 9855740
+      },
+      {
+        "name": "_EnterSameGame",
+        "parameter_count": 0,
+        "token": "0x600005a",
+        "metadata_offset": 9855776
+      },
+      {
+        "name": "_OnLoadConfigComplete",
+        "parameter_count": 1,
+        "token": "0x600005b",
+        "metadata_offset": 9855812
+      },
+      {
+        "name": "_OnLoadConfigError",
+        "parameter_count": 1,
+        "token": "0x600005c",
+        "metadata_offset": 9855848
+      },
+      {
+        "name": "_OnCloseButtonClikck",
+        "parameter_count": 0,
+        "token": "0x600005d",
+        "metadata_offset": 9855884
+      },
+      {
+        "name": "WebRequestOverride",
+        "parameter_count": 1,
+        "token": "0x600005e",
+        "metadata_offset": 9855920
+      },
+      {
+        "name": "Awake",
+        "parameter_count": 0,
+        "token": "0x600005f",
+        "metadata_offset": 9855956
+      },
+      {
+        "name": "InitScreen",
+        "parameter_count": 0,
+        "token": "0x6000060",
+        "metadata_offset": 9855992
+      },
+      {
+        "name": "Update",
+        "parameter_count": 0,
+        "token": "0x6000061",
+        "metadata_offset": 9856028
+      },
+      {
+        "name": "_Clean",
+        "parameter_count": 0,
+        "token": "0x6000062",
+        "metadata_offset": 9856064
+      },
+      {
+        "name": "OnDestroy",
+        "parameter_count": 0,
+        "token": "0x6000063",
+        "metadata_offset": 9856100
+      },
+      {
+        "name": "_RetryLoad",
+        "parameter_count": 0,
+        "token": "0x6000064",
+        "metadata_offset": 9856136
+      },
+      {
+        "name": "_HandleNativeMsg",
+        "parameter_count": 2,
+        "token": "0x6000065",
+        "metadata_offset": 9856172
+      },
+      {
+        "name": "_CheckEnterGame",
+        "parameter_count": 0,
+        "token": "0x6000066",
+        "metadata_offset": 9856208
+      },
+      {
+        "name": "_CheckPopRestartDlg",
+        "parameter_count": 0,
+        "token": "0x6000067",
+        "metadata_offset": 9856244
+      },
+      {
+        "name": "_PopRestartDlg",
+        "parameter_count": 0,
+        "token": "0x6000068",
+        "metadata_offset": 9856280
+      },
+      {
+        "name": "_GetResVerionNum",
+        "parameter_count": 0,
+        "token": "0x6000069",
+        "metadata_offset": 9856316
+      },
+      {
+        "name": "_QuitGame",
+        "parameter_count": 0,
+        "token": "0x600006a",
+        "metadata_offset": 9856352
+      },
+      {
+        "name": "_GetWhiteList",
+        "parameter_count": 0,
+        "token": "0x600006b",
+        "metadata_offset": 9856388
+      },
+      {
+        "name": "_IsInWhiteList",
+        "parameter_count": 0,
+        "token": "0x600006c",
+        "metadata_offset": 9856424
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x600006d",
+        "metadata_offset": 9856460
+      },
+      {
+        "name": ".cctor",
+        "parameter_count": 0,
+        "token": "0x600006e",
+        "metadata_offset": 9856496
+      },
+      {
+        "name": "<LoadScene>b__25_0",
+        "parameter_count": 1,
+        "token": "0x600006f",
+        "metadata_offset": 9856532
+      },
+      {
+        "name": "<_LoadNew>b__40_0",
+        "parameter_count": 0,
+        "token": "0x6000070",
+        "metadata_offset": 9856568
+      },
+      {
+        "name": "<Start>b__48_0",
+        "parameter_count": 1,
+        "token": "0x6000071",
+        "metadata_offset": 9856604
+      },
+      {
+        "name": "<Start>b__48_1",
+        "parameter_count": 0,
+        "token": "0x6000072",
+        "metadata_offset": 9856640
+      },
+      {
+        "name": "<_EnterSameGame>b__49_0",
+        "parameter_count": 0,
+        "token": "0x6000073",
+        "metadata_offset": 9856676
+      },
+      {
+        "name": "<_PopRestartDlg>b__67_1",
+        "parameter_count": 0,
+        "token": "0x6000074",
+        "metadata_offset": 9856712
+      }
+    ],
+    "fields": [
+      "remoteCatalogUrl",
+      "_loadConfigEnd",
+      "_configData",
+      "_loadAOTAssemblySet",
+      "resourceLocator",
+      "totalDownloadSize",
+      "loadCatalogHandle",
+      "handle",
+      "downloadHandle",
+      "_addressableInited",
+      "_loadCatlogComplete",
+      "retryBtn",
+      "loadingIcon",
+      "closeButton",
+      "_loadCoroutine",
+      "enterCnt",
+      "_timer",
+      "_isDestroy",
+      "_restartDlgPrefab"
+    ]
+  },
+  {
+    "image": "Tools.dll",
+    "type_index": 15976,
+    "namespace": "",
+    "name": "ClientActionHandler",
+    "metadata_offset": 19957028,
+    "methods": [
+      {
+        "name": "analytics",
+        "parameter_count": 2,
+        "token": "0x60000c6",
+        "metadata_offset": 9859664
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x60000c7",
+        "metadata_offset": 9859700
+      },
+      {
+        "name": "clientCallback",
+        "parameter_count": 2,
+        "token": "0x60000c8",
+        "metadata_offset": 9859736
+      },
+      {
+        "name": "NotifyShowHideUnity",
+        "parameter_count": 1,
+        "token": "0x60000c9",
+        "metadata_offset": 9859772
+      },
+      {
+        "name": "NotifyLoadingComlete",
+        "parameter_count": 2,
+        "token": "0x60000ca",
+        "metadata_offset": 9859808
+      },
+      {
+        "name": "NotifyQuitApp",
+        "parameter_count": 0,
+        "token": "0x60000cb",
+        "metadata_offset": 9859844
+      },
+      {
+        "name": ".cctor",
+        "parameter_count": 0,
+        "token": "0x60000cc",
+        "metadata_offset": 9859880
+      }
+    ],
+    "fields": [
+      "sendAvatarPoint",
+      "sendHttpRequest",
+      "pushUri",
+      "aliCloudLog",
+      "Analytics",
+      "getUserinfo",
+      "getUserInfo_Response",
+      "networkError",
+      "errorLog",
+      "ActionConnectLost",
+      "ActionToast",
+      "ActionUserClick",
+      "ActionFollowuser",
+      "NewGame",
+      "roomInfo",
+      "ActionGameResult",
+      "ShowIntroduce",
+      "ActionClientError",
+      "ActionClientVibrate",
+      "ActionClientLog",
+      "NetworkErrorGameReset",
+      "ActionShowMask",
+      "UnityStart",
+      "PanelAvatarClick",
+      "ReadyCustomSeting",
+      "ReadyCoinJoingame",
+      "ClientSchemaAction",
+      "ActionAndroidConnect",
+      "ActionAndroidDisconnect",
+      "AndroidEnterGame",
+      "loadingComplete",
+      "showHideUnity",
+      "quitGame",
+      "quitApp",
+      "getGameBasicInfo",
+      "getGameBasicInfo_Response",
+      "unityEventReceiver"
+    ]
+  },
+  {
+    "image": "Tools.dll",
+    "type_index": 15978,
+    "namespace": "",
+    "name": "NativeClient",
+    "metadata_offset": 19957204,
+    "methods": [
+      {
+        "name": "get_Instance",
+        "parameter_count": 0,
+        "token": "0x60000cd",
+        "metadata_offset": 9859916
+      },
+      {
+        "name": "get_userInfo",
+        "parameter_count": 0,
+        "token": "0x60000ce",
+        "metadata_offset": 9859952
+      },
+      {
+        "name": "set_userInfo",
+        "parameter_count": 1,
+        "token": "0x60000cf",
+        "metadata_offset": 9859988
+      },
+      {
+        "name": "OnActionEvent",
+        "parameter_count": 1,
+        "token": "0x60000d0",
+        "metadata_offset": 9860024
+      },
+      {
+        "name": "RequestUserInfo",
+        "parameter_count": 0,
+        "token": "0x60000d1",
+        "metadata_offset": 9860060
+      },
+      {
+        "name": "_HandleGetUserInfo",
+        "parameter_count": 1,
+        "token": "0x60000d2",
+        "metadata_offset": 9860096
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x60000d3",
+        "metadata_offset": 9860132
+      }
+    ],
+    "fields": [
+      "_instance",
+      "<userInfo>k__BackingField"
+    ]
+  },
+  {
+    "image": "Tools.dll",
+    "type_index": 15989,
+    "namespace": "",
+    "name": "NetworkManage",
+    "metadata_offset": 19958172,
+    "methods": [
+      {
+        "name": "Post",
+        "parameter_count": 3,
+        "token": "0x60000d6",
+        "metadata_offset": 9860240
+      },
+      {
+        "name": "Post2",
+        "parameter_count": 3,
+        "token": "0x60000d7",
+        "metadata_offset": 9860276
+      },
+      {
+        "name": "Post",
+        "parameter_count": 4,
+        "token": "0x60000d8",
+        "metadata_offset": 9860312
+      },
+      {
+        "name": "Post2",
+        "parameter_count": 4,
+        "token": "0x60000d9",
+        "metadata_offset": 9860348
+      },
+      {
+        "name": "Delete",
+        "parameter_count": 2,
+        "token": "0x60000da",
+        "metadata_offset": 9860384
+      },
+      {
+        "name": "PostArray",
+        "parameter_count": 3,
+        "token": "0x60000db",
+        "metadata_offset": 9860420
+      },
+      {
+        "name": "PostArray2",
+        "parameter_count": 3,
+        "token": "0x60000dc",
+        "metadata_offset": 9860456
+      },
+      {
+        "name": "Get",
+        "parameter_count": 3,
+        "token": "0x60000dd",
+        "metadata_offset": 9860492
+      },
+      {
+        "name": "GetArray",
+        "parameter_count": 3,
+        "token": "0x60000de",
+        "metadata_offset": 9860528
+      },
+      {
+        "name": "processingError",
+        "parameter_count": 1,
+        "token": "0x60000df",
+        "metadata_offset": 9860564
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x60000e0",
+        "metadata_offset": 9860600
+      }
+    ],
+    "fields": [
+      "config"
+    ]
+  },
+  {
+    "image": "Tools.dll",
+    "type_index": 16040,
+    "namespace": "",
+    "name": "UnityGameInfo",
+    "metadata_offset": 19962660,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000257",
+        "metadata_offset": 9874100
+      }
+    ],
+    "fields": [
+      "IsLoaded",
+      "resVerNum",
+      "UpdateTwice",
+      "loadDll"
+    ]
+  },
+  {
+    "image": "Tools.dll",
+    "type_index": 16042,
+    "namespace": "",
+    "name": "UnityIns",
+    "metadata_offset": 19962836,
+    "methods": [
+      {
+        "name": "GetGameInfo",
+        "parameter_count": 1,
+        "token": "0x6000258",
+        "metadata_offset": 9874136
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000259",
+        "metadata_offset": 9874172
+      },
+      {
+        "name": "getInstance",
+        "parameter_count": 0,
+        "token": "0x600025a",
+        "metadata_offset": 9874208
+      },
+      {
+        "name": "isHant",
+        "parameter_count": 0,
+        "token": "0x600025b",
+        "metadata_offset": 9874244
+      },
+      {
+        "name": "onEnterUnity",
+        "parameter_count": 1,
+        "token": "0x600025c",
+        "metadata_offset": 9874280
+      },
+      {
+        "name": "getCurrentModeBean",
+        "parameter_count": 0,
+        "token": "0x600025d",
+        "metadata_offset": 9874316
+      },
+      {
+        "name": "onExitGame",
+        "parameter_count": 0,
+        "token": "0x600025e",
+        "metadata_offset": 9874352
+      },
+      {
+        "name": "release",
+        "parameter_count": 0,
+        "token": "0x600025f",
+        "metadata_offset": 9874388
+      },
+      {
+        "name": "initUnityMode",
+        "parameter_count": 1,
+        "token": "0x6000260",
+        "metadata_offset": 9874424
+      },
+      {
+        "name": "GetBasicInfoByGameType",
+        "parameter_count": 1,
+        "token": "0x6000261",
+        "metadata_offset": 9874460
+      },
+      {
+        "name": "ParseBasicInfoFromResponse",
+        "parameter_count": 1,
+        "token": "0x6000262",
+        "metadata_offset": 9874496
+      },
+      {
+        "name": "LoadScene",
+        "parameter_count": 1,
+        "token": "0x6000263",
+        "metadata_offset": 9874532
+      },
+      {
+        "name": "_LoadScene",
+        "parameter_count": 1,
+        "token": "0x6000264",
+        "metadata_offset": 9874568
+      },
+      {
+        "name": ".cctor",
+        "parameter_count": 0,
+        "token": "0x6000265",
+        "metadata_offset": 9874604
+      }
+    ],
+    "fields": [
+      "gameInfos",
+      "unityState",
+      "instance",
+      "HANS",
+      "HANT",
+      "gameLanguage",
+      "currentMode",
+      "basicInfos",
+      "currGameType",
+      "needSwitchGameType"
+    ]
+  },
+  {
+    "image": "Tools.dll",
+    "type_index": 16044,
+    "namespace": "",
+    "name": "UnityGameBasicInfo",
+    "metadata_offset": 19963012,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000268",
+        "metadata_offset": 9874712
+      }
+    ],
+    "fields": [
+      "gameType",
+      "gameMode",
+      "gameName",
+      "dllName",
+      "bgImage"
+    ]
+  },
+  {
+    "image": "Tools.dll",
+    "type_index": 16048,
+    "namespace": "",
+    "name": "UnityGameMode",
+    "metadata_offset": 19963364,
+    "methods": [],
+    "fields": [
+      "value__",
+      "Monopoly",
+      "Dream",
+      "GoldDragon",
+      "Pet",
+      "PoolBall",
+      "GoBang",
+      "VoiceGuess",
+      "AeroplaneChess",
+      "BraggingTavern",
+      "Party2D",
+      "UndercoverGuess",
+      "BombCat",
+      "SniperElite",
+      "Mode13",
+      "Mode14",
+      "Mode15",
+      "Mode16",
+      "Mode17",
+      "Mode18",
+      "Mode19",
+      "Mode20",
+      "Mode21",
+      "Mode22",
+      "Mode23",
+      "Mode24"
+    ]
+  },
+  {
+    "image": "Tools.dll",
+    "type_index": 16049,
+    "namespace": "",
+    "name": "UnityGameType",
+    "metadata_offset": 19963452,
+    "methods": [],
+    "fields": [
+      "value__",
+      "Monopoly",
+      "Dream",
+      "GoldDragon",
+      "Pet",
+      "PoolBall",
+      "Party",
+      "GoBang",
+      "VoiceGuess",
+      "AeroplaneChess",
+      "BraggingTavern",
+      "Party2D",
+      "UndercoverGuess",
+      "BombCat",
+      "SniperElite",
+      "Type14",
+      "Type15",
+      "Type16",
+      "Type17",
+      "Type18",
+      "Type19",
+      "Type20",
+      "Type21",
+      "Type22",
+      "Type23",
+      "Type24",
+      "Type25"
+    ]
+  },
+  {
+    "image": "Tools.dll",
+    "type_index": 16054,
+    "namespace": "",
+    "name": "GrpcUtils",
+    "metadata_offset": 19963892,
+    "methods": [
+      {
+        "name": "generateChannel",
+        "parameter_count": 1,
+        "token": "0x6000276",
+        "metadata_offset": 9875216
+      },
+      {
+        "name": "disposeException",
+        "parameter_count": 1,
+        "token": "0x6000277",
+        "metadata_offset": 9875252
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000278",
+        "metadata_offset": 9875288
+      }
+    ],
+    "fields": []
+  },
+  {
+    "image": "Tools.dll",
+    "type_index": 16116,
+    "namespace": "MSZM",
+    "name": "Route",
+    "metadata_offset": 19969348,
+    "methods": [
+      {
+        "name": "OnEnable",
+        "parameter_count": 0,
+        "token": "0x6000395",
+        "metadata_offset": 9885548
+      },
+      {
+        "name": "OnDisable",
+        "parameter_count": 0,
+        "token": "0x6000396",
+        "metadata_offset": 9885584
+      },
+      {
+        "name": "OnSceneLoaded",
+        "parameter_count": 2,
+        "token": "0x6000397",
+        "metadata_offset": 9885620
+      },
+      {
+        "name": "Start",
+        "parameter_count": 0,
+        "token": "0x6000398",
+        "metadata_offset": 9885656
+      },
+      {
+        "name": "Awake",
+        "parameter_count": 0,
+        "token": "0x6000399",
+        "metadata_offset": 9885692
+      },
+      {
+        "name": "OnSetUnityInsBasicInfo",
+        "parameter_count": 0,
+        "token": "0x600039a",
+        "metadata_offset": 9885728
+      },
+      {
+        "name": "getGameType",
+        "parameter_count": 1,
+        "token": "0x600039b",
+        "metadata_offset": 9885764
+      },
+      {
+        "name": "OnSceneUnloaded",
+        "parameter_count": 0,
+        "token": "0x600039c",
+        "metadata_offset": 9885800
+      },
+      {
+        "name": "receiveMessages",
+        "parameter_count": 1,
+        "token": "0x600039d",
+        "metadata_offset": 9885836
+      },
+      {
+        "name": "CheckDebug",
+        "parameter_count": 1,
+        "token": "0x600039e",
+        "metadata_offset": 9885872
+      },
+      {
+        "name": "getDownloadSceneName",
+        "parameter_count": 1,
+        "token": "0x600039f",
+        "metadata_offset": 9885908
+      },
+      {
+        "name": "createUnityScene",
+        "parameter_count": 1,
+        "token": "0x60003a0",
+        "metadata_offset": 9885944
+      },
+      {
+        "name": "getSceneName",
+        "parameter_count": 1,
+        "token": "0x60003a1",
+        "metadata_offset": 9885980
+      },
+      {
+        "name": "ShowCurrentSceneOnly",
+        "parameter_count": 0,
+        "token": "0x60003a2",
+        "metadata_offset": 9886016
+      },
+      {
+        "name": "SwitchAndroidEmpty",
+        "parameter_count": 1,
+        "token": "0x60003a3",
+        "metadata_offset": 9886052
+      },
+      {
+        "name": "OnDestroy",
+        "parameter_count": 0,
+        "token": "0x60003a4",
+        "metadata_offset": 9886088
+      },
+      {
+        "name": "autoDestroy",
+        "parameter_count": 0,
+        "token": "0x60003a5",
+        "metadata_offset": 9886124
+      },
+      {
+        "name": "Update",
+        "parameter_count": 0,
+        "token": "0x60003a6",
+        "metadata_offset": 9886160
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x60003a7",
+        "metadata_offset": 9886196
+      }
+    ],
+    "fields": [
+      "ingameDebugConsole",
+      "isDebug",
+      "sceneModels",
+      "currentGameType",
+      "releasCountdown",
+      "needRelease"
+    ]
+  },
+  {
+    "image": "Assembly-CSharp.dll",
+    "type_index": 21066,
+    "namespace": "",
+    "name": "Party2DDownloadAsset",
+    "metadata_offset": 20404948,
+    "methods": [
+      {
+        "name": "GetName",
+        "parameter_count": 0,
+        "token": "0x6000001",
+        "metadata_offset": 11367128
+      },
+      {
+        "name": "GetGameType",
+        "parameter_count": 0,
+        "token": "0x6000002",
+        "metadata_offset": 11367164
+      },
+      {
+        "name": "GetUnityGameMode",
+        "parameter_count": 0,
+        "token": "0x6000003",
+        "metadata_offset": 11367200
+      },
+      {
+        "name": "GetAssemblyName",
+        "parameter_count": 0,
+        "token": "0x6000004",
+        "metadata_offset": 11367236
+      },
+      {
+        "name": "HasAndroidLoad",
+        "parameter_count": 0,
+        "token": "0x6000005",
+        "metadata_offset": 11367272
+      },
+      {
+        "name": "SetAndroidLoad",
+        "parameter_count": 0,
+        "token": "0x6000006",
+        "metadata_offset": 11367308
+      },
+      {
+        "name": "LoadSceneName",
+        "parameter_count": 0,
+        "token": "0x6000007",
+        "metadata_offset": 11367344
+      },
+      {
+        "name": "UpdateProgress",
+        "parameter_count": 1,
+        "token": "0x6000008",
+        "metadata_offset": 11367380
+      },
+      {
+        "name": "_ShowRetry",
+        "parameter_count": 0,
+        "token": "0x6000009",
+        "metadata_offset": 11367416
+      },
+      {
+        "name": "PatchedAOTAssemblyList",
+        "parameter_count": 0,
+        "token": "0x600000a",
+        "metadata_offset": 11367452
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x600000b",
+        "metadata_offset": 11367488
+      }
+    ],
+    "fields": [
+      "slider",
+      "hasAndroidLoad"
+    ]
+  },
+  {
+    "image": "Assembly-CSharp.dll",
+    "type_index": 21067,
+    "namespace": "",
+    "name": "ACDownloadAsset",
+    "metadata_offset": 20405036,
+    "methods": [
+      {
+        "name": "GetName",
+        "parameter_count": 0,
+        "token": "0x600000c",
+        "metadata_offset": 11367524
+      },
+      {
+        "name": "GetGameType",
+        "parameter_count": 0,
+        "token": "0x600000d",
+        "metadata_offset": 11367560
+      },
+      {
+        "name": "GetUnityGameMode",
+        "parameter_count": 0,
+        "token": "0x600000e",
+        "metadata_offset": 11367596
+      },
+      {
+        "name": "GetAssemblyName",
+        "parameter_count": 0,
+        "token": "0x600000f",
+        "metadata_offset": 11367632
+      },
+      {
+        "name": "HasAndroidLoad",
+        "parameter_count": 0,
+        "token": "0x6000010",
+        "metadata_offset": 11367668
+      },
+      {
+        "name": "SetAndroidLoad",
+        "parameter_count": 0,
+        "token": "0x6000011",
+        "metadata_offset": 11367704
+      },
+      {
+        "name": "LoadSceneName",
+        "parameter_count": 0,
+        "token": "0x6000012",
+        "metadata_offset": 11367740
+      },
+      {
+        "name": "UpdateProgress",
+        "parameter_count": 1,
+        "token": "0x6000013",
+        "metadata_offset": 11367776
+      },
+      {
+        "name": "_ShowRetry",
+        "parameter_count": 0,
+        "token": "0x6000014",
+        "metadata_offset": 11367812
+      },
+      {
+        "name": "PatchedAOTAssemblyList",
+        "parameter_count": 0,
+        "token": "0x6000015",
+        "metadata_offset": 11367848
+      },
+      {
+        "name": "_HandleNativeMsg",
+        "parameter_count": 2,
+        "token": "0x6000016",
+        "metadata_offset": 11367884
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000017",
+        "metadata_offset": 11367920
+      }
+    ],
+    "fields": [
+      "slider",
+      "hasAndroidLoad"
+    ]
+  },
+  {
+    "image": "Assembly-CSharp.dll",
+    "type_index": 21068,
+    "namespace": "",
+    "name": "BCDownloadAsset",
+    "metadata_offset": 20405124,
+    "methods": [
+      {
+        "name": "GetName",
+        "parameter_count": 0,
+        "token": "0x6000018",
+        "metadata_offset": 11367956
+      },
+      {
+        "name": "GetGameType",
+        "parameter_count": 0,
+        "token": "0x6000019",
+        "metadata_offset": 11367992
+      },
+      {
+        "name": "GetUnityGameMode",
+        "parameter_count": 0,
+        "token": "0x600001a",
+        "metadata_offset": 11368028
+      },
+      {
+        "name": "GetAssemblyName",
+        "parameter_count": 0,
+        "token": "0x600001b",
+        "metadata_offset": 11368064
+      },
+      {
+        "name": "HasAndroidLoad",
+        "parameter_count": 0,
+        "token": "0x600001c",
+        "metadata_offset": 11368100
+      },
+      {
+        "name": "SetAndroidLoad",
+        "parameter_count": 0,
+        "token": "0x600001d",
+        "metadata_offset": 11368136
+      },
+      {
+        "name": "LoadSceneName",
+        "parameter_count": 0,
+        "token": "0x600001e",
+        "metadata_offset": 11368172
+      },
+      {
+        "name": "UpdateProgress",
+        "parameter_count": 1,
+        "token": "0x600001f",
+        "metadata_offset": 11368208
+      },
+      {
+        "name": "_ShowRetry",
+        "parameter_count": 0,
+        "token": "0x6000020",
+        "metadata_offset": 11368244
+      },
+      {
+        "name": "PatchedAOTAssemblyList",
+        "parameter_count": 0,
+        "token": "0x6000021",
+        "metadata_offset": 11368280
+      },
+      {
+        "name": "_HandleNativeMsg",
+        "parameter_count": 2,
+        "token": "0x6000022",
+        "metadata_offset": 11368316
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000023",
+        "metadata_offset": 11368352
+      }
+    ],
+    "fields": [
+      "slider",
+      "hasAndroidLoad"
+    ]
+  },
+  {
+    "image": "Assembly-CSharp.dll",
+    "type_index": 21069,
+    "namespace": "",
+    "name": "BTDownloadAsset",
+    "metadata_offset": 20405212,
+    "methods": [
+      {
+        "name": "GetName",
+        "parameter_count": 0,
+        "token": "0x6000024",
+        "metadata_offset": 11368388
+      },
+      {
+        "name": "GetGameType",
+        "parameter_count": 0,
+        "token": "0x6000025",
+        "metadata_offset": 11368424
+      },
+      {
+        "name": "GetUnityGameMode",
+        "parameter_count": 0,
+        "token": "0x6000026",
+        "metadata_offset": 11368460
+      },
+      {
+        "name": "GetAssemblyName",
+        "parameter_count": 0,
+        "token": "0x6000027",
+        "metadata_offset": 11368496
+      },
+      {
+        "name": "HasAndroidLoad",
+        "parameter_count": 0,
+        "token": "0x6000028",
+        "metadata_offset": 11368532
+      },
+      {
+        "name": "SetAndroidLoad",
+        "parameter_count": 0,
+        "token": "0x6000029",
+        "metadata_offset": 11368568
+      },
+      {
+        "name": "LoadSceneName",
+        "parameter_count": 0,
+        "token": "0x600002a",
+        "metadata_offset": 11368604
+      },
+      {
+        "name": "UpdateProgress",
+        "parameter_count": 1,
+        "token": "0x600002b",
+        "metadata_offset": 11368640
+      },
+      {
+        "name": "_ShowRetry",
+        "parameter_count": 0,
+        "token": "0x600002c",
+        "metadata_offset": 11368676
+      },
+      {
+        "name": "PatchedAOTAssemblyList",
+        "parameter_count": 0,
+        "token": "0x600002d",
+        "metadata_offset": 11368712
+      },
+      {
+        "name": "_HandleNativeMsg",
+        "parameter_count": 2,
+        "token": "0x600002e",
+        "metadata_offset": 11368748
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x600002f",
+        "metadata_offset": 11368784
+      }
+    ],
+    "fields": [
+      "slider",
+      "hasAndroidLoad"
+    ]
+  },
+  {
+    "image": "Assembly-CSharp.dll",
+    "type_index": 21070,
+    "namespace": "",
+    "name": "DreamDownloadAsset",
+    "metadata_offset": 20405300,
+    "methods": [
+      {
+        "name": "GetName",
+        "parameter_count": 0,
+        "token": "0x6000030",
+        "metadata_offset": 11368820
+      },
+      {
+        "name": "GetGameType",
+        "parameter_count": 0,
+        "token": "0x6000031",
+        "metadata_offset": 11368856
+      },
+      {
+        "name": "PatchedAOTAssemblyList",
+        "parameter_count": 0,
+        "token": "0x6000032",
+        "metadata_offset": 11368892
+      },
+      {
+        "name": "GetUnityGameMode",
+        "parameter_count": 0,
+        "token": "0x6000033",
+        "metadata_offset": 11368928
+      },
+      {
+        "name": "GetAssemblyName",
+        "parameter_count": 0,
+        "token": "0x6000034",
+        "metadata_offset": 11368964
+      },
+      {
+        "name": "HasAndroidLoad",
+        "parameter_count": 0,
+        "token": "0x6000035",
+        "metadata_offset": 11369000
+      },
+      {
+        "name": "SetAndroidLoad",
+        "parameter_count": 0,
+        "token": "0x6000036",
+        "metadata_offset": 11369036
+      },
+      {
+        "name": "LoadSceneName",
+        "parameter_count": 0,
+        "token": "0x6000037",
+        "metadata_offset": 11369072
+      },
+      {
+        "name": "UpdateProgress",
+        "parameter_count": 1,
+        "token": "0x6000038",
+        "metadata_offset": 11369108
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000039",
+        "metadata_offset": 11369144
+      }
+    ],
+    "fields": [
+      "loadingBg",
+      "loadingProgrees",
+      "hasAndroidLoad"
+    ]
+  },
+  {
+    "image": "Assembly-CSharp.dll",
+    "type_index": 21071,
+    "namespace": "",
+    "name": "GbDownloadAsset",
+    "metadata_offset": 20405388,
+    "methods": [
+      {
+        "name": "GetName",
+        "parameter_count": 0,
+        "token": "0x600003a",
+        "metadata_offset": 11369180
+      },
+      {
+        "name": "GetGameType",
+        "parameter_count": 0,
+        "token": "0x600003b",
+        "metadata_offset": 11369216
+      },
+      {
+        "name": "GetUnityGameMode",
+        "parameter_count": 0,
+        "token": "0x600003c",
+        "metadata_offset": 11369252
+      },
+      {
+        "name": "GetAssemblyName",
+        "parameter_count": 0,
+        "token": "0x600003d",
+        "metadata_offset": 11369288
+      },
+      {
+        "name": "HasAndroidLoad",
+        "parameter_count": 0,
+        "token": "0x600003e",
+        "metadata_offset": 11369324
+      },
+      {
+        "name": "SetAndroidLoad",
+        "parameter_count": 0,
+        "token": "0x600003f",
+        "metadata_offset": 11369360
+      },
+      {
+        "name": "LoadSceneName",
+        "parameter_count": 0,
+        "token": "0x6000040",
+        "metadata_offset": 11369396
+      },
+      {
+        "name": "UpdateProgress",
+        "parameter_count": 1,
+        "token": "0x6000041",
+        "metadata_offset": 11369432
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000042",
+        "metadata_offset": 11369468
+      }
+    ],
+    "fields": [
+      "loadingBg",
+      "loadingProgrees",
+      "slider",
+      "hasAndroidLoad"
+    ]
+  },
+  {
+    "image": "Assembly-CSharp.dll",
+    "type_index": 21073,
+    "namespace": "",
+    "name": "LoadingScene",
+    "metadata_offset": 20405564,
+    "methods": [
+      {
+        "name": "Awake",
+        "parameter_count": 0,
+        "token": "0x6000046",
+        "metadata_offset": 11369612
+      },
+      {
+        "name": "Start",
+        "parameter_count": 0,
+        "token": "0x6000047",
+        "metadata_offset": 11369648
+      },
+      {
+        "name": "Update",
+        "parameter_count": 0,
+        "token": "0x6000048",
+        "metadata_offset": 11369684
+      },
+      {
+        "name": "GetDownLoadSizeAndKeys",
+        "parameter_count": 0,
+        "token": "0x6000049",
+        "metadata_offset": 11369720
+      },
+      {
+        "name": "StartDownload",
+        "parameter_count": 0,
+        "token": "0x600004a",
+        "metadata_offset": 11369756
+      },
+      {
+        "name": "CancelDownload",
+        "parameter_count": 0,
+        "token": "0x600004b",
+        "metadata_offset": 11369792
+      },
+      {
+        "name": "AgreeUseFlowDownload",
+        "parameter_count": 0,
+        "token": "0x600004c",
+        "metadata_offset": 11369828
+      },
+      {
+        "name": "DisagreeUseFlowDownload",
+        "parameter_count": 0,
+        "token": "0x600004d",
+        "metadata_offset": 11369864
+      },
+      {
+        "name": "LoadDllAndScene",
+        "parameter_count": 0,
+        "token": "0x600004e",
+        "metadata_offset": 11369900
+      },
+      {
+        "name": "LoadAOTAssembly",
+        "parameter_count": 0,
+        "token": "0x600004f",
+        "metadata_offset": 11369936
+      },
+      {
+        "name": "LoadDll",
+        "parameter_count": 1,
+        "token": "0x6000050",
+        "metadata_offset": 11369972
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000051",
+        "metadata_offset": 11370008
+      }
+    ],
+    "fields": [
+      "progress",
+      "percent",
+      "number",
+      "remoteCatalogUrl",
+      "developUrl",
+      "productUrl",
+      "baseUrl",
+      "downloadHandle",
+      "resourceLocator",
+      "isDownloading",
+      "totalDownloadSize",
+      "loadMark",
+      "isDownloadComplete",
+      "_agreeUseFlowStatus",
+      "_toastController",
+      "PatchedAOTAssemblyList",
+      "isPartyAOTLoad",
+      "hasAndroidLoad"
+    ]
+  },
+  {
+    "image": "Assembly-CSharp.dll",
+    "type_index": 21076,
+    "namespace": "",
+    "name": "PHDownloadAsset",
+    "metadata_offset": 20405828,
+    "methods": [
+      {
+        "name": "GetName",
+        "parameter_count": 0,
+        "token": "0x600005b",
+        "metadata_offset": 11370368
+      },
+      {
+        "name": "GetGameType",
+        "parameter_count": 0,
+        "token": "0x600005c",
+        "metadata_offset": 11370404
+      },
+      {
+        "name": "GetUnityGameMode",
+        "parameter_count": 0,
+        "token": "0x600005d",
+        "metadata_offset": 11370440
+      },
+      {
+        "name": "GetAssemblyName",
+        "parameter_count": 0,
+        "token": "0x600005e",
+        "metadata_offset": 11370476
+      },
+      {
+        "name": "HasAndroidLoad",
+        "parameter_count": 0,
+        "token": "0x600005f",
+        "metadata_offset": 11370512
+      },
+      {
+        "name": "SetAndroidLoad",
+        "parameter_count": 0,
+        "token": "0x6000060",
+        "metadata_offset": 11370548
+      },
+      {
+        "name": "LoadSceneName",
+        "parameter_count": 0,
+        "token": "0x6000061",
+        "metadata_offset": 11370584
+      },
+      {
+        "name": "UpdateProgress",
+        "parameter_count": 1,
+        "token": "0x6000062",
+        "metadata_offset": 11370620
+      },
+      {
+        "name": "_OnCloseButtonClikck",
+        "parameter_count": 0,
+        "token": "0x6000063",
+        "metadata_offset": 11370656
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000064",
+        "metadata_offset": 11370692
+      }
+    ],
+    "fields": [
+      "loadingBg",
+      "loadingProgrees",
+      "hasAndroidLoad"
+    ]
+  },
+  {
+    "image": "Assembly-CSharp.dll",
+    "type_index": 21083,
+    "namespace": "",
+    "name": "BPDownloadAsset",
+    "metadata_offset": 20406444,
+    "methods": [
+      {
+        "name": "GetName",
+        "parameter_count": 0,
+        "token": "0x6000074",
+        "metadata_offset": 11371268
+      },
+      {
+        "name": "GetGameType",
+        "parameter_count": 0,
+        "token": "0x6000075",
+        "metadata_offset": 11371304
+      },
+      {
+        "name": "GetUnityGameMode",
+        "parameter_count": 0,
+        "token": "0x6000076",
+        "metadata_offset": 11371340
+      },
+      {
+        "name": "GetAssemblyName",
+        "parameter_count": 0,
+        "token": "0x6000077",
+        "metadata_offset": 11371376
+      },
+      {
+        "name": "HasAndroidLoad",
+        "parameter_count": 0,
+        "token": "0x6000078",
+        "metadata_offset": 11371412
+      },
+      {
+        "name": "SetAndroidLoad",
+        "parameter_count": 0,
+        "token": "0x6000079",
+        "metadata_offset": 11371448
+      },
+      {
+        "name": "LoadSceneName",
+        "parameter_count": 0,
+        "token": "0x600007a",
+        "metadata_offset": 11371484
+      },
+      {
+        "name": "UpdateProgress",
+        "parameter_count": 1,
+        "token": "0x600007b",
+        "metadata_offset": 11371520
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x600007c",
+        "metadata_offset": 11371556
+      }
+    ],
+    "fields": [
+      "loadingBg",
+      "loadingProgrees",
+      "hasAndroidLoad"
+    ]
+  },
+  {
+    "image": "Assembly-CSharp.dll",
+    "type_index": 21092,
+    "namespace": "",
+    "name": "GameMain",
+    "metadata_offset": 20407236,
+    "methods": [
+      {
+        "name": "get_currWorld",
+        "parameter_count": 0,
+        "token": "0x60000a3",
+        "metadata_offset": 11372960
+      },
+      {
+        "name": "get_mainCavas",
+        "parameter_count": 0,
+        "token": "0x60000a4",
+        "metadata_offset": 11372996
+      },
+      {
+        "name": "get_currMap",
+        "parameter_count": 0,
+        "token": "0x60000a5",
+        "metadata_offset": 11373032
+      },
+      {
+        "name": "get_slimCavas",
+        "parameter_count": 0,
+        "token": "0x60000a6",
+        "metadata_offset": 11373068
+      },
+      {
+        "name": "get_slimGameManager",
+        "parameter_count": 0,
+        "token": "0x60000a7",
+        "metadata_offset": 11373104
+      },
+      {
+        "name": "set_slimGameManager",
+        "parameter_count": 1,
+        "token": "0x60000a8",
+        "metadata_offset": 11373140
+      },
+      {
+        "name": "get_gameConfig",
+        "parameter_count": 0,
+        "token": "0x60000a9",
+        "metadata_offset": 11373176
+      },
+      {
+        "name": "get_gameResource",
+        "parameter_count": 0,
+        "token": "0x60000aa",
+        "metadata_offset": 11373212
+      },
+      {
+        "name": "get_cameraController",
+        "parameter_count": 0,
+        "token": "0x60000ab",
+        "metadata_offset": 11373248
+      },
+      {
+        "name": "get_tipManager",
+        "parameter_count": 0,
+        "token": "0x60000ac",
+        "metadata_offset": 11373284
+      },
+      {
+        "name": "get_inputController",
+        "parameter_count": 0,
+        "token": "0x60000ad",
+        "metadata_offset": 11373320
+      },
+      {
+        "name": "get_itemData",
+        "parameter_count": 0,
+        "token": "0x60000ae",
+        "metadata_offset": 11373356
+      },
+      {
+        "name": "set_itemData",
+        "parameter_count": 1,
+        "token": "0x60000af",
+        "metadata_offset": 11373392
+      },
+      {
+        "name": "Awake",
+        "parameter_count": 0,
+        "token": "0x60000b0",
+        "metadata_offset": 11373428
+      },
+      {
+        "name": "_Create",
+        "parameter_count": 0,
+        "token": "0x60000b1",
+        "metadata_offset": 11373464
+      },
+      {
+        "name": "_Init",
+        "parameter_count": 0,
+        "token": "0x60000b2",
+        "metadata_offset": 11373500
+      },
+      {
+        "name": "_StartGame",
+        "parameter_count": 0,
+        "token": "0x60000b3",
+        "metadata_offset": 11373536
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x60000b4",
+        "metadata_offset": 11373572
+      }
+    ],
+    "fields": [
+      "_currWorld",
+      "_mainCavas",
+      "_slimCavas",
+      "_gameConfig",
+      "_gameResource",
+      "_cameraController",
+      "_tipManager",
+      "_inputControler",
+      "<slimGameManager>k__BackingField",
+      "<itemData>k__BackingField"
+    ]
+  },
+  {
+    "image": "Assembly-CSharp.dll",
+    "type_index": 21139,
+    "namespace": "",
+    "name": "SlimScoketManage",
+    "metadata_offset": 20411372,
+    "methods": [
+      {
+        "name": "Start",
+        "parameter_count": 0,
+        "token": "0x60001db",
+        "metadata_offset": 11384192
+      },
+      {
+        "name": "createScoket",
+        "parameter_count": 0,
+        "token": "0x60001dc",
+        "metadata_offset": 11384228
+      },
+      {
+        "name": "sendMsg",
+        "parameter_count": 1,
+        "token": "0x60001dd",
+        "metadata_offset": 11384264
+      },
+      {
+        "name": "sendMsg",
+        "parameter_count": 1,
+        "token": "0x60001de",
+        "metadata_offset": 11384300
+      },
+      {
+        "name": "Update",
+        "parameter_count": 0,
+        "token": "0x60001df",
+        "metadata_offset": 11384336
+      },
+      {
+        "name": "OnDestroy",
+        "parameter_count": 0,
+        "token": "0x60001e0",
+        "metadata_offset": 11384372
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x60001e1",
+        "metadata_offset": 11384408
+      },
+      {
+        "name": "<createScoket>b__3_1",
+        "parameter_count": 2,
+        "token": "0x60001e2",
+        "metadata_offset": 11384444
+      }
+    ],
+    "fields": [
+      "webSocket",
+      "messageList"
+    ]
+  },
+  {
+    "image": "Assembly-CSharp.dll",
+    "type_index": 21154,
+    "namespace": "",
+    "name": "World",
+    "metadata_offset": 20412692,
+    "methods": [
+      {
+        "name": "get_currMap",
+        "parameter_count": 0,
+        "token": "0x600020b",
+        "metadata_offset": 11385920
+      },
+      {
+        "name": "set_currMap",
+        "parameter_count": 1,
+        "token": "0x600020c",
+        "metadata_offset": 11385956
+      },
+      {
+        "name": "get_currPlayer",
+        "parameter_count": 0,
+        "token": "0x600020d",
+        "metadata_offset": 11385992
+      },
+      {
+        "name": "OnCreate",
+        "parameter_count": 0,
+        "token": "0x600020e",
+        "metadata_offset": 11386028
+      },
+      {
+        "name": "Init",
+        "parameter_count": 0,
+        "token": "0x600020f",
+        "metadata_offset": 11386064
+      },
+      {
+        "name": "OnEnter",
+        "parameter_count": 0,
+        "token": "0x6000210",
+        "metadata_offset": 11386100
+      },
+      {
+        "name": "OnExit",
+        "parameter_count": 0,
+        "token": "0x6000211",
+        "metadata_offset": 11386136
+      },
+      {
+        "name": "ChangeState",
+        "parameter_count": 2,
+        "token": "0x6000212",
+        "metadata_offset": 11386172
+      },
+      {
+        "name": "Update",
+        "parameter_count": 0,
+        "token": "0x6000213",
+        "metadata_offset": 11386208
+      },
+      {
+        "name": "GetCurrState",
+        "parameter_count": 0,
+        "token": "0x6000214",
+        "metadata_offset": 11386244
+      },
+      {
+        "name": "_GetMap",
+        "parameter_count": 1,
+        "token": "0x6000215",
+        "metadata_offset": 11386280
+      },
+      {
+        "name": "ChangeMap",
+        "parameter_count": 1,
+        "token": "0x6000216",
+        "metadata_offset": 11386316
+      },
+      {
+        "name": "QuitCurrMap",
+        "parameter_count": 0,
+        "token": "0x6000217",
+        "metadata_offset": 11386352
+      },
+      {
+        "name": "JoinCurrMap",
+        "parameter_count": 0,
+        "token": "0x6000218",
+        "metadata_offset": 11386388
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000219",
+        "metadata_offset": 11386424
+      }
+    ],
+    "fields": [
+      "_maps",
+      "_mapDic",
+      "<currMap>k__BackingField",
+      "fsm",
+      "onChangeMap",
+      "_currPlayer"
+    ]
+  },
+  {
+    "image": "Assembly-CSharp.dll",
+    "type_index": 21167,
+    "namespace": "",
+    "name": "UGDownloadAsset",
+    "metadata_offset": 20413836,
+    "methods": [
+      {
+        "name": "GetName",
+        "parameter_count": 0,
+        "token": "0x600027c",
+        "metadata_offset": 11389988
+      },
+      {
+        "name": "GetGameType",
+        "parameter_count": 0,
+        "token": "0x600027d",
+        "metadata_offset": 11390024
+      },
+      {
+        "name": "GetUnityGameMode",
+        "parameter_count": 0,
+        "token": "0x600027e",
+        "metadata_offset": 11390060
+      },
+      {
+        "name": "GetAssemblyName",
+        "parameter_count": 0,
+        "token": "0x600027f",
+        "metadata_offset": 11390096
+      },
+      {
+        "name": "HasAndroidLoad",
+        "parameter_count": 0,
+        "token": "0x6000280",
+        "metadata_offset": 11390132
+      },
+      {
+        "name": "SetAndroidLoad",
+        "parameter_count": 0,
+        "token": "0x6000281",
+        "metadata_offset": 11390168
+      },
+      {
+        "name": "LoadSceneName",
+        "parameter_count": 0,
+        "token": "0x6000282",
+        "metadata_offset": 11390204
+      },
+      {
+        "name": "UpdateProgress",
+        "parameter_count": 1,
+        "token": "0x6000283",
+        "metadata_offset": 11390240
+      },
+      {
+        "name": "_ShowRetry",
+        "parameter_count": 0,
+        "token": "0x6000284",
+        "metadata_offset": 11390276
+      },
+      {
+        "name": "PatchedAOTAssemblyList",
+        "parameter_count": 0,
+        "token": "0x6000285",
+        "metadata_offset": 11390312
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000286",
+        "metadata_offset": 11390348
+      }
+    ],
+    "fields": [
+      "slider",
+      "hasAndroidLoad"
+    ]
+  },
+  {
+    "image": "Assembly-CSharp.dll",
+    "type_index": 21168,
+    "namespace": "",
+    "name": "RCDownloadAsset",
+    "metadata_offset": 20413924,
+    "methods": [
+      {
+        "name": "GetName",
+        "parameter_count": 0,
+        "token": "0x6000287",
+        "metadata_offset": 11390384
+      },
+      {
+        "name": "PatchedAOTAssemblyList",
+        "parameter_count": 0,
+        "token": "0x6000288",
+        "metadata_offset": 11390420
+      },
+      {
+        "name": "OnDestroy",
+        "parameter_count": 0,
+        "token": "0x6000289",
+        "metadata_offset": 11390456
+      },
+      {
+        "name": "GetGameType",
+        "parameter_count": 0,
+        "token": "0x600028a",
+        "metadata_offset": 11390492
+      },
+      {
+        "name": "GetUnityGameMode",
+        "parameter_count": 0,
+        "token": "0x600028b",
+        "metadata_offset": 11390528
+      },
+      {
+        "name": "Start",
+        "parameter_count": 0,
+        "token": "0x600028c",
+        "metadata_offset": 11390564
+      },
+      {
+        "name": "GetAssemblyName",
+        "parameter_count": 0,
+        "token": "0x600028d",
+        "metadata_offset": 11390600
+      },
+      {
+        "name": "HasAndroidLoad",
+        "parameter_count": 0,
+        "token": "0x600028e",
+        "metadata_offset": 11390636
+      },
+      {
+        "name": "SetAndroidLoad",
+        "parameter_count": 0,
+        "token": "0x600028f",
+        "metadata_offset": 11390672
+      },
+      {
+        "name": "LoadSceneName",
+        "parameter_count": 0,
+        "token": "0x6000290",
+        "metadata_offset": 11390708
+      },
+      {
+        "name": "UpdateProgress",
+        "parameter_count": 1,
+        "token": "0x6000291",
+        "metadata_offset": 11390744
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000292",
+        "metadata_offset": 11390780
+      }
+    ],
+    "fields": [
+      "loadingBg",
+      "slider",
+      "animationImage1",
+      "animationImage2",
+      "animationImage3",
+      "raw",
+      "quence",
+      "hasAndroidLoad"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21450,
+    "namespace": "",
+    "name": "<Module>",
+    "metadata_offset": 20438740,
+    "methods": [],
+    "fields": []
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21451,
+    "namespace": "Microsoft.CodeAnalysis",
+    "name": "EmbeddedAttribute",
+    "metadata_offset": 20438828,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000001",
+        "metadata_offset": 11489528
+      }
+    ],
+    "fields": []
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21452,
+    "namespace": "System.Runtime.CompilerServices",
+    "name": "NullableAttribute",
+    "metadata_offset": 20438916,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 1,
+        "token": "0x6000002",
+        "metadata_offset": 11489564
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 1,
+        "token": "0x6000003",
+        "metadata_offset": 11489600
+      }
+    ],
+    "fields": [
+      "NullableFlags"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21453,
+    "namespace": "System.Runtime.CompilerServices",
+    "name": "NullableContextAttribute",
+    "metadata_offset": 20439004,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 1,
+        "token": "0x6000004",
+        "metadata_offset": 11489636
+      }
+    ],
+    "fields": [
+      "Flag"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21454,
+    "namespace": "",
+    "name": "<>c",
+    "metadata_offset": 20439092,
+    "methods": [
+      {
+        "name": ".cctor",
+        "parameter_count": 0,
+        "token": "0x600000b",
+        "metadata_offset": 11489888
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x600000c",
+        "metadata_offset": 11489924
+      },
+      {
+        "name": "<show>b__6_0",
+        "parameter_count": 0,
+        "token": "0x600000d",
+        "metadata_offset": 11489960
+      }
+    ],
+    "fields": [
+      "<>9",
+      "<>9__6_0"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21455,
+    "namespace": "",
+    "name": "GD_AlertController",
+    "metadata_offset": 20439180,
+    "methods": [
+      {
+        "name": "Awake",
+        "parameter_count": 0,
+        "token": "0x6000005",
+        "metadata_offset": 11489672
+      },
+      {
+        "name": "show",
+        "parameter_count": 0,
+        "token": "0x6000006",
+        "metadata_offset": 11489708
+      },
+      {
+        "name": "dissmiss",
+        "parameter_count": 0,
+        "token": "0x6000007",
+        "metadata_offset": 11489744
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000008",
+        "metadata_offset": 11489780
+      },
+      {
+        "name": "<Awake>b__5_0",
+        "parameter_count": 0,
+        "token": "0x6000009",
+        "metadata_offset": 11489816
+      },
+      {
+        "name": "<dissmiss>b__7_0",
+        "parameter_count": 0,
+        "token": "0x600000a",
+        "metadata_offset": 11489852
+      }
+    ],
+    "fields": [
+      "content",
+      "leftbtn",
+      "rightbtn",
+      "confirmAction",
+      "backImv"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21456,
+    "namespace": "",
+    "name": "GD_AndroidOnlyReceiver",
+    "metadata_offset": 20439268,
+    "methods": [
+      {
+        "name": "Start",
+        "parameter_count": 0,
+        "token": "0x600000e",
+        "metadata_offset": 11489996
+      },
+      {
+        "name": "receiveProtoByte",
+        "parameter_count": 1,
+        "token": "0x600000f",
+        "metadata_offset": 11490032
+      },
+      {
+        "name": "switchAwaitMoudle",
+        "parameter_count": 1,
+        "token": "0x6000010",
+        "metadata_offset": 11490068
+      },
+      {
+        "name": "Update",
+        "parameter_count": 0,
+        "token": "0x6000011",
+        "metadata_offset": 11490104
+      },
+      {
+        "name": "OnDestroy",
+        "parameter_count": 0,
+        "token": "0x6000012",
+        "metadata_offset": 11490140
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000013",
+        "metadata_offset": 11490176
+      }
+    ],
+    "fields": []
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21457,
+    "namespace": "",
+    "name": "<>c__DisplayClass8_0",
+    "metadata_offset": 20439356,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x600001a",
+        "metadata_offset": 11490428
+      },
+      {
+        "name": "<refreshCards>b__0",
+        "parameter_count": 0,
+        "token": "0x600001b",
+        "metadata_offset": 11490464
+      }
+    ],
+    "fields": [
+      "img",
+      "imgSprite"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21458,
+    "namespace": "",
+    "name": "<>c__DisplayClass9_0",
+    "metadata_offset": 20439444,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x600001c",
+        "metadata_offset": 11490500
+      },
+      {
+        "name": "<resetCards>b__0",
+        "parameter_count": 0,
+        "token": "0x600001d",
+        "metadata_offset": 11490536
+      }
+    ],
+    "fields": [
+      "img",
+      "imgSprite"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21459,
+    "namespace": "",
+    "name": "GD_BadListController",
+    "metadata_offset": 20439532,
+    "methods": [
+      {
+        "name": "Awake",
+        "parameter_count": 0,
+        "token": "0x6000014",
+        "metadata_offset": 11490212
+      },
+      {
+        "name": "refreshCards",
+        "parameter_count": 1,
+        "token": "0x6000015",
+        "metadata_offset": 11490248
+      },
+      {
+        "name": "resetCards",
+        "parameter_count": 0,
+        "token": "0x6000016",
+        "metadata_offset": 11490284
+      },
+      {
+        "name": "Start",
+        "parameter_count": 0,
+        "token": "0x6000017",
+        "metadata_offset": 11490320
+      },
+      {
+        "name": "Update",
+        "parameter_count": 0,
+        "token": "0x6000018",
+        "metadata_offset": 11490356
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000019",
+        "metadata_offset": 11490392
+      }
+    ],
+    "fields": [
+      "badImages",
+      "fire",
+      "earth",
+      "poison",
+      "ice",
+      "wind",
+      "badState"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21460,
+    "namespace": "",
+    "name": "GD_CommonAlertStyle",
+    "metadata_offset": 20439620,
+    "methods": [],
+    "fields": [
+      "value__",
+      "title",
+      "titleAndDes"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21461,
+    "namespace": "",
+    "name": "<>c__DisplayClass6_0",
+    "metadata_offset": 20439708,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000025",
+        "metadata_offset": 11490824
+      },
+      {
+        "name": "<show>b__0",
+        "parameter_count": 0,
+        "token": "0x6000026",
+        "metadata_offset": 11490860
+      }
+    ],
+    "fields": [
+      "<>4__this",
+      "showTime"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21462,
+    "namespace": "",
+    "name": "GD_CommonAlert",
+    "metadata_offset": 20439796,
+    "methods": [
+      {
+        "name": "setType",
+        "parameter_count": 1,
+        "token": "0x600001e",
+        "metadata_offset": 11490572
+      },
+      {
+        "name": "Awake",
+        "parameter_count": 0,
+        "token": "0x600001f",
+        "metadata_offset": 11490608
+      },
+      {
+        "name": "show",
+        "parameter_count": 1,
+        "token": "0x6000020",
+        "metadata_offset": 11490644
+      },
+      {
+        "name": "FixedUpdate",
+        "parameter_count": 0,
+        "token": "0x6000021",
+        "metadata_offset": 11490680
+      },
+      {
+        "name": "dissmiss",
+        "parameter_count": 0,
+        "token": "0x6000022",
+        "metadata_offset": 11490716
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000023",
+        "metadata_offset": 11490752
+      },
+      {
+        "name": "<dissmiss>b__8_0",
+        "parameter_count": 0,
+        "token": "0x6000024",
+        "metadata_offset": 11490788
+      }
+    ],
+    "fields": [
+      "dismissAction",
+      "downTimer",
+      "title",
+      "des"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21463,
+    "namespace": "",
+    "name": "GD_CommonAlert2Style",
+    "metadata_offset": 20439884,
+    "methods": [],
+    "fields": [
+      "value__",
+      "title",
+      "titleAndIcon",
+      "titleAndDesPannel"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21464,
+    "namespace": "",
+    "name": "<>c__DisplayClass11_0",
+    "metadata_offset": 20439972,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x600002f",
+        "metadata_offset": 11491184
+      },
+      {
+        "name": "<show>b__0",
+        "parameter_count": 0,
+        "token": "0x6000030",
+        "metadata_offset": 11491220
+      }
+    ],
+    "fields": [
+      "<>4__this",
+      "timerOut"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21465,
+    "namespace": "",
+    "name": "GD_CommonAlert2",
+    "metadata_offset": 20440060,
+    "methods": [
+      {
+        "name": "setType",
+        "parameter_count": 1,
+        "token": "0x6000027",
+        "metadata_offset": 11490896
+      },
+      {
+        "name": "Awake",
+        "parameter_count": 0,
+        "token": "0x6000028",
+        "metadata_offset": 11490932
+      },
+      {
+        "name": "show",
+        "parameter_count": 1,
+        "token": "0x6000029",
+        "metadata_offset": 11490968
+      },
+      {
+        "name": "FixedUpdate",
+        "parameter_count": 0,
+        "token": "0x600002a",
+        "metadata_offset": 11491004
+      },
+      {
+        "name": "dissmiss",
+        "parameter_count": 0,
+        "token": "0x600002b",
+        "metadata_offset": 11491040
+      },
+      {
+        "name": "DecisionFinished",
+        "parameter_count": 1,
+        "token": "0x600002c",
+        "metadata_offset": 11491076
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x600002d",
+        "metadata_offset": 11491112
+      },
+      {
+        "name": "<dissmiss>b__13_0",
+        "parameter_count": 0,
+        "token": "0x600002e",
+        "metadata_offset": 11491148
+      }
+    ],
+    "fields": [
+      "dismissAction",
+      "timerOut",
+      "centerTitle",
+      "title",
+      "des",
+      "taopaoIcon",
+      "kuangs",
+      "avatars",
+      "avatarPanel"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21466,
+    "namespace": "",
+    "name": "GD_CurrentPlayerController",
+    "metadata_offset": 20440148,
+    "methods": [
+      {
+        "name": "Awake",
+        "parameter_count": 0,
+        "token": "0x6000031",
+        "metadata_offset": 11491256
+      },
+      {
+        "name": "Start",
+        "parameter_count": 0,
+        "token": "0x6000032",
+        "metadata_offset": 11491292
+      },
+      {
+        "name": "showspeakIcon",
+        "parameter_count": 0,
+        "token": "0x6000033",
+        "metadata_offset": 11491328
+      },
+      {
+        "name": "FixedUpdate",
+        "parameter_count": 0,
+        "token": "0x6000034",
+        "metadata_offset": 11491364
+      },
+      {
+        "name": "refreshPlayer",
+        "parameter_count": 1,
+        "token": "0x6000035",
+        "metadata_offset": 11491400
+      },
+      {
+        "name": "Update",
+        "parameter_count": 0,
+        "token": "0x6000036",
+        "metadata_offset": 11491436
+      },
+      {
+        "name": "DecisionStart",
+        "parameter_count": 1,
+        "token": "0x6000037",
+        "metadata_offset": 11491472
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000038",
+        "metadata_offset": 11491508
+      },
+      {
+        "name": "<Awake>b__13_0",
+        "parameter_count": 0,
+        "token": "0x6000039",
+        "metadata_offset": 11491544
+      }
+    ],
+    "fields": [
+      "avatar",
+      "name",
+      "atCoin",
+      "allCoin",
+      "nameBack",
+      "yellowWallet",
+      "blueWallet",
+      "yellowCoinBack",
+      "blueCoinBack",
+      "hasReturn",
+      "voiceDot",
+      "offlineImg",
+      "offlineTxt",
+      "after",
+      "mPlayer"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21467,
+    "namespace": "",
+    "name": "GD_DecisionAlert",
+    "metadata_offset": 20440236,
+    "methods": [
+      {
+        "name": "Awake",
+        "parameter_count": 0,
+        "token": "0x600003a",
+        "metadata_offset": 11491580
+      },
+      {
+        "name": "escapeClick",
+        "parameter_count": 0,
+        "token": "0x600003b",
+        "metadata_offset": 11491616
+      },
+      {
+        "name": "continueClick",
+        "parameter_count": 0,
+        "token": "0x600003c",
+        "metadata_offset": 11491652
+      },
+      {
+        "name": "DecisionStart",
+        "parameter_count": 1,
+        "token": "0x600003d",
+        "metadata_offset": 11491688
+      },
+      {
+        "name": "FixedUpdate",
+        "parameter_count": 0,
+        "token": "0x600003e",
+        "metadata_offset": 11491724
+      },
+      {
+        "name": "show",
+        "parameter_count": 1,
+        "token": "0x600003f",
+        "metadata_offset": 11491760
+      },
+      {
+        "name": "sendBulled",
+        "parameter_count": 0,
+        "token": "0x6000040",
+        "metadata_offset": 11491796
+      },
+      {
+        "name": "OnDestroy",
+        "parameter_count": 0,
+        "token": "0x6000041",
+        "metadata_offset": 11491832
+      },
+      {
+        "name": "dissmiss",
+        "parameter_count": 0,
+        "token": "0x6000042",
+        "metadata_offset": 11491868
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000043",
+        "metadata_offset": 11491904
+      },
+      {
+        "name": "<Awake>b__13_0",
+        "parameter_count": 0,
+        "token": "0x6000044",
+        "metadata_offset": 11491940
+      },
+      {
+        "name": "<show>b__18_0",
+        "parameter_count": 0,
+        "token": "0x6000045",
+        "metadata_offset": 11491976
+      },
+      {
+        "name": "<sendBulled>b__19_0",
+        "parameter_count": 0,
+        "token": "0x6000046",
+        "metadata_offset": 11492012
+      },
+      {
+        "name": "<dissmiss>b__22_0",
+        "parameter_count": 0,
+        "token": "0x6000047",
+        "metadata_offset": 11492048
+      }
+    ],
+    "fields": [
+      "TimeoutMs",
+      "backImage",
+      "availableCoin",
+      "foreProgreeCS",
+      "leftBtn",
+      "rightBtn",
+      "mostCoinText",
+      "decisionFinshStrtWaitAction",
+      "showFinshAction",
+      "fireCS",
+      "badlistCS",
+      "executeBadAction",
+      "downTimer",
+      "delayTimer"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21468,
+    "namespace": "",
+    "name": "GD_DrawSpinController",
+    "metadata_offset": 20440324,
+    "methods": [
+      {
+        "name": "sendBulled",
+        "parameter_count": 0,
+        "token": "0x6000048",
+        "metadata_offset": 11492084
+      },
+      {
+        "name": "OnDestroy",
+        "parameter_count": 0,
+        "token": "0x6000049",
+        "metadata_offset": 11492120
+      },
+      {
+        "name": "GetObject",
+        "parameter_count": 1,
+        "token": "0x600004a",
+        "metadata_offset": 11492156
+      },
+      {
+        "name": "ReturnObject",
+        "parameter_count": 1,
+        "token": "0x600004b",
+        "metadata_offset": 11492192
+      },
+      {
+        "name": "ProvideData",
+        "parameter_count": 2,
+        "token": "0x600004c",
+        "metadata_offset": 11492228
+      },
+      {
+        "name": "Start",
+        "parameter_count": 0,
+        "token": "0x600004d",
+        "metadata_offset": 11492264
+      },
+      {
+        "name": "FreshItem",
+        "parameter_count": 0,
+        "token": "0x600004e",
+        "metadata_offset": 11492300
+      },
+      {
+        "name": "showScrollerCardIdx",
+        "parameter_count": 1,
+        "token": "0x600004f",
+        "metadata_offset": 11492336
+      },
+      {
+        "name": "startDidScroller",
+        "parameter_count": 0,
+        "token": "0x6000050",
+        "metadata_offset": 11492372
+      },
+      {
+        "name": "dissmiss",
+        "parameter_count": 0,
+        "token": "0x6000051",
+        "metadata_offset": 11492408
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000052",
+        "metadata_offset": 11492444
+      },
+      {
+        "name": "<sendBulled>b__1_0",
+        "parameter_count": 0,
+        "token": "0x6000053",
+        "metadata_offset": 11492480
+      },
+      {
+        "name": "<Start>b__17_0",
+        "parameter_count": 1,
+        "token": "0x6000054",
+        "metadata_offset": 11492516
+      },
+      {
+        "name": "<showScrollerCardIdx>b__19_0",
+        "parameter_count": 0,
+        "token": "0x6000055",
+        "metadata_offset": 11492552
+      },
+      {
+        "name": "<startDidScroller>b__21_0",
+        "parameter_count": 0,
+        "token": "0x6000056",
+        "metadata_offset": 11492588
+      },
+      {
+        "name": "<dissmiss>b__22_0",
+        "parameter_count": 0,
+        "token": "0x6000057",
+        "metadata_offset": 11492624
+      }
+    ],
+    "fields": [
+      "badlistCS",
+      "mTimer",
+      "supObj",
+      "jilu",
+      "item",
+      "totalCount",
+      "conten",
+      "fireCS",
+      "scrollerFinsh",
+      "scrollerCardIdx",
+      "pool",
+      "ls",
+      "endX"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21469,
+    "namespace": "",
+    "name": "GD_DrawSpinItem",
+    "metadata_offset": 20440412,
+    "methods": [
+      {
+        "name": "Awake",
+        "parameter_count": 0,
+        "token": "0x6000058",
+        "metadata_offset": 11492660
+      },
+      {
+        "name": "ScrollCellIndex",
+        "parameter_count": 1,
+        "token": "0x6000059",
+        "metadata_offset": 11492696
+      },
+      {
+        "name": "ScrollCellReturn",
+        "parameter_count": 0,
+        "token": "0x600005a",
+        "metadata_offset": 11492732
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x600005b",
+        "metadata_offset": 11492768
+      }
+    ],
+    "fields": [
+      "backImage",
+      "availableCoin",
+      "element"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21470,
+    "namespace": "",
+    "name": "GD_EnterCoinSetType",
+    "metadata_offset": 20440500,
+    "methods": [],
+    "fields": [
+      "value__",
+      "set",
+      "alert"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21471,
+    "namespace": "",
+    "name": "<>c",
+    "metadata_offset": 20440588,
+    "methods": [
+      {
+        "name": ".cctor",
+        "parameter_count": 0,
+        "token": "0x6000066",
+        "metadata_offset": 11493164
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000067",
+        "metadata_offset": 11493200
+      },
+      {
+        "name": "<showSetingEnterCoin>b__16_0",
+        "parameter_count": 0,
+        "token": "0x6000068",
+        "metadata_offset": 11493236
+      }
+    ],
+    "fields": [
+      "<>9",
+      "<>9__16_0"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21472,
+    "namespace": "",
+    "name": "GD_EnterCoinSeting",
+    "metadata_offset": 20440676,
+    "methods": [
+      {
+        "name": "Awake",
+        "parameter_count": 0,
+        "token": "0x600005c",
+        "metadata_offset": 11492804
+      },
+      {
+        "name": "refreshItem",
+        "parameter_count": 1,
+        "token": "0x600005d",
+        "metadata_offset": 11492840
+      },
+      {
+        "name": "setType",
+        "parameter_count": 2,
+        "token": "0x600005e",
+        "metadata_offset": 11492876
+      },
+      {
+        "name": "showSetingEnterCoin",
+        "parameter_count": 0,
+        "token": "0x600005f",
+        "metadata_offset": 11492912
+      },
+      {
+        "name": "dissmiss",
+        "parameter_count": 0,
+        "token": "0x6000060",
+        "metadata_offset": 11492948
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000061",
+        "metadata_offset": 11492984
+      },
+      {
+        "name": "<Awake>b__13_0",
+        "parameter_count": 0,
+        "token": "0x6000062",
+        "metadata_offset": 11493020
+      },
+      {
+        "name": "<Awake>b__13_1",
+        "parameter_count": 0,
+        "token": "0x6000063",
+        "metadata_offset": 11493056
+      },
+      {
+        "name": "<setType>b__15_0",
+        "parameter_count": 1,
+        "token": "0x6000064",
+        "metadata_offset": 11493092
+      },
+      {
+        "name": "<dissmiss>b__17_0",
+        "parameter_count": 0,
+        "token": "0x6000065",
+        "metadata_offset": 11493128
+      }
+    ],
+    "fields": [
+      "type",
+      "enterCoinText",
+      "enterTextPanel",
+      "content",
+      "itemPrefab",
+      "leftBtn",
+      "rightBtn",
+      "coinPanel",
+      "coinbalance",
+      "joinGameAction",
+      "setGameFeeAction",
+      "itemControllers",
+      "currentFee"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21473,
+    "namespace": "",
+    "name": "<ExecuteNextFrame>d__6",
+    "metadata_offset": 20440764,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 1,
+        "token": "0x6000070",
+        "metadata_offset": 11493524
+      },
+      {
+        "name": "System.IDisposable.Dispose",
+        "parameter_count": 0,
+        "token": "0x6000071",
+        "metadata_offset": 11493560
+      },
+      {
+        "name": "MoveNext",
+        "parameter_count": 0,
+        "token": "0x6000072",
+        "metadata_offset": 11493596
+      },
+      {
+        "name": "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+        "parameter_count": 0,
+        "token": "0x6000073",
+        "metadata_offset": 11493632
+      },
+      {
+        "name": "System.Collections.IEnumerator.Reset",
+        "parameter_count": 0,
+        "token": "0x6000074",
+        "metadata_offset": 11493668
+      },
+      {
+        "name": "System.Collections.IEnumerator.get_Current",
+        "parameter_count": 0,
+        "token": "0x6000075",
+        "metadata_offset": 11493704
+      }
+    ],
+    "fields": [
+      "<>1__state",
+      "<>2__current",
+      "cs"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21474,
+    "namespace": "",
+    "name": "<>c",
+    "metadata_offset": 20440852,
+    "methods": [
+      {
+        "name": ".cctor",
+        "parameter_count": 0,
+        "token": "0x6000076",
+        "metadata_offset": 11493740
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000077",
+        "metadata_offset": 11493776
+      },
+      {
+        "name": "<startProgree>b__10_0",
+        "parameter_count": 0,
+        "token": "0x6000078",
+        "metadata_offset": 11493812
+      }
+    ],
+    "fields": [
+      "<>9",
+      "<>9__10_0"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21475,
+    "namespace": "",
+    "name": "GD_FireProgree",
+    "metadata_offset": 20440940,
+    "methods": [
+      {
+        "name": "Awake",
+        "parameter_count": 0,
+        "token": "0x6000069",
+        "metadata_offset": 11493272
+      },
+      {
+        "name": "ExecuteNextFrame",
+        "parameter_count": 1,
+        "token": "0x600006a",
+        "metadata_offset": 11493308
+      },
+      {
+        "name": "OnDestroy",
+        "parameter_count": 0,
+        "token": "0x600006b",
+        "metadata_offset": 11493344
+      },
+      {
+        "name": "startProgree",
+        "parameter_count": 1,
+        "token": "0x600006c",
+        "metadata_offset": 11493380
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x600006d",
+        "metadata_offset": 11493416
+      },
+      {
+        "name": "<startProgree>b__10_1",
+        "parameter_count": 1,
+        "token": "0x600006e",
+        "metadata_offset": 11493452
+      },
+      {
+        "name": "<startProgree>b__10_2",
+        "parameter_count": 0,
+        "token": "0x600006f",
+        "metadata_offset": 11493488
+      }
+    ],
+    "fields": [
+      "rope",
+      "leftFire",
+      "rightFire",
+      "mask2d",
+      "allLength",
+      "quence",
+      "timerEndAction"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21476,
+    "namespace": "",
+    "name": "GD_GameResultPanel",
+    "metadata_offset": 20441028,
+    "methods": [
+      {
+        "name": "Start",
+        "parameter_count": 0,
+        "token": "0x6000079",
+        "metadata_offset": 11493848
+      },
+      {
+        "name": "setGameResult",
+        "parameter_count": 2,
+        "token": "0x600007a",
+        "metadata_offset": 11493884
+      },
+      {
+        "name": "loadGameResult",
+        "parameter_count": 2,
+        "token": "0x600007b",
+        "metadata_offset": 11493920
+      },
+      {
+        "name": "Update",
+        "parameter_count": 0,
+        "token": "0x600007c",
+        "metadata_offset": 11493956
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x600007d",
+        "metadata_offset": 11493992
+      },
+      {
+        "name": "<Start>b__4_0",
+        "parameter_count": 0,
+        "token": "0x600007e",
+        "metadata_offset": 11494028
+      }
+    ],
+    "fields": [
+      "bgImg",
+      "solidImg",
+      "cancelImg",
+      "players",
+      "gameResult",
+      "followMap"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21477,
+    "namespace": "",
+    "name": "GD_GameResultPlayer",
+    "metadata_offset": 20441116,
+    "methods": [
+      {
+        "name": "Start",
+        "parameter_count": 0,
+        "token": "0x600007f",
+        "metadata_offset": 11494064
+      },
+      {
+        "name": "load",
+        "parameter_count": 3,
+        "token": "0x6000080",
+        "metadata_offset": 11494100
+      },
+      {
+        "name": "Update",
+        "parameter_count": 0,
+        "token": "0x6000081",
+        "metadata_offset": 11494136
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000082",
+        "metadata_offset": 11494172
+      },
+      {
+        "name": "<Start>b__9_0",
+        "parameter_count": 0,
+        "token": "0x6000083",
+        "metadata_offset": 11494208
+      },
+      {
+        "name": "<Start>b__9_1",
+        "parameter_count": 0,
+        "token": "0x6000084",
+        "metadata_offset": 11494244
+      }
+    ],
+    "fields": [
+      "avatar",
+      "index",
+      "wallet",
+      "nickname",
+      "goldImg",
+      "goldCnt",
+      "follow",
+      "goldPercent",
+      "container",
+      "mPlayer"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21478,
+    "namespace": "",
+    "name": "<>c",
+    "metadata_offset": 20441204,
+    "methods": [
+      {
+        "name": ".cctor",
+        "parameter_count": 0,
+        "token": "0x600009f",
+        "metadata_offset": 11495216
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x60000a0",
+        "metadata_offset": 11495252
+      },
+      {
+        "name": "<closeGame>b__30_0",
+        "parameter_count": 0,
+        "token": "0x60000a1",
+        "metadata_offset": 11495288
+      },
+      {
+        "name": "<showWaitOtherAlert>b__38_0",
+        "parameter_count": 0,
+        "token": "0x60000a2",
+        "metadata_offset": 11495324
+      },
+      {
+        "name": "<DecisionFinished2>b__40_0",
+        "parameter_count": 0,
+        "token": "0x60000a3",
+        "metadata_offset": 11495360
+      }
+    ],
+    "fields": [
+      "<>9",
+      "<>9__30_0",
+      "<>9__38_0",
+      "<>9__40_0"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21479,
+    "namespace": "",
+    "name": "<>c__DisplayClass33_0",
+    "metadata_offset": 20441292,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x60000a4",
+        "metadata_offset": 11495396
+      },
+      {
+        "name": "<CardPublic>b__0",
+        "parameter_count": 0,
+        "token": "0x60000a5",
+        "metadata_offset": 11495432
+      }
+    ],
+    "fields": [
+      "<>4__this",
+      "publicCard"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21480,
+    "namespace": "",
+    "name": "<>c__DisplayClass34_0",
+    "metadata_offset": 20441380,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x60000a6",
+        "metadata_offset": 11495468
+      },
+      {
+        "name": "<startPublicCard>b__0",
+        "parameter_count": 0,
+        "token": "0x60000a7",
+        "metadata_offset": 11495504
+      }
+    ],
+    "fields": [
+      "<>4__this",
+      "publicCard",
+      "cs"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21481,
+    "namespace": "",
+    "name": "<>c__DisplayClass36_0",
+    "metadata_offset": 20441468,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x60000a8",
+        "metadata_offset": 11495540
+      },
+      {
+        "name": "<DecisionStart>b__0",
+        "parameter_count": 1,
+        "token": "0x60000a9",
+        "metadata_offset": 11495576
+      },
+      {
+        "name": "<DecisionStart>b__1",
+        "parameter_count": 0,
+        "token": "0x60000aa",
+        "metadata_offset": 11495612
+      },
+      {
+        "name": "<DecisionStart>b__2",
+        "parameter_count": 0,
+        "token": "0x60000ab",
+        "metadata_offset": 11495648
+      }
+    ],
+    "fields": [
+      "<>4__this",
+      "decisionStart"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21482,
+    "namespace": "",
+    "name": "<>c__DisplayClass39_0",
+    "metadata_offset": 20441556,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x60000ac",
+        "metadata_offset": 11495684
+      },
+      {
+        "name": "<DecisionFinished>b__0",
+        "parameter_count": 0,
+        "token": "0x60000ad",
+        "metadata_offset": 11495720
+      }
+    ],
+    "fields": [
+      "<>4__this",
+      "finshed"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21483,
+    "namespace": "",
+    "name": "<showGameResult>d__42",
+    "metadata_offset": 20441644,
+    "methods": [
+      {
+        "name": "MoveNext",
+        "parameter_count": 0,
+        "token": "0x60000ae",
+        "metadata_offset": 11495756
+      },
+      {
+        "name": "SetStateMachine",
+        "parameter_count": 1,
+        "token": "0x60000af",
+        "metadata_offset": 11495792
+      }
+    ],
+    "fields": [
+      "<>1__state",
+      "<>t__builder",
+      "<>4__this",
+      "followMap",
+      "<task>5__2",
+      "<>u__1"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21484,
+    "namespace": "",
+    "name": "GD_GamingController",
+    "metadata_offset": 20441732,
+    "methods": [
+      {
+        "name": "OnApplicationPause",
+        "parameter_count": 1,
+        "token": "0x6000085",
+        "metadata_offset": 11494280
+      },
+      {
+        "name": "Start",
+        "parameter_count": 0,
+        "token": "0x6000086",
+        "metadata_offset": 11494316
+      },
+      {
+        "name": "Awake",
+        "parameter_count": 0,
+        "token": "0x6000087",
+        "metadata_offset": 11494352
+      },
+      {
+        "name": "closeGame",
+        "parameter_count": 0,
+        "token": "0x6000088",
+        "metadata_offset": 11494388
+      },
+      {
+        "name": "NewGame",
+        "parameter_count": 1,
+        "token": "0x6000089",
+        "metadata_offset": 11494424
+      },
+      {
+        "name": "RoundStart",
+        "parameter_count": 1,
+        "token": "0x600008a",
+        "metadata_offset": 11494460
+      },
+      {
+        "name": "CardPublic",
+        "parameter_count": 1,
+        "token": "0x600008b",
+        "metadata_offset": 11494496
+      },
+      {
+        "name": "startPublicCard",
+        "parameter_count": 1,
+        "token": "0x600008c",
+        "metadata_offset": 11494532
+      },
+      {
+        "name": "publicScrollerFinsh",
+        "parameter_count": 2,
+        "token": "0x600008d",
+        "metadata_offset": 11494568
+      },
+      {
+        "name": "DecisionStart",
+        "parameter_count": 1,
+        "token": "0x600008e",
+        "metadata_offset": 11494604
+      },
+      {
+        "name": "sendOutCoin",
+        "parameter_count": 1,
+        "token": "0x600008f",
+        "metadata_offset": 11494640
+      },
+      {
+        "name": "showWaitOtherAlert",
+        "parameter_count": 1,
+        "token": "0x6000090",
+        "metadata_offset": 11494676
+      },
+      {
+        "name": "DecisionFinished",
+        "parameter_count": 1,
+        "token": "0x6000091",
+        "metadata_offset": 11494712
+      },
+      {
+        "name": "DecisionFinished2",
+        "parameter_count": 1,
+        "token": "0x6000092",
+        "metadata_offset": 11494748
+      },
+      {
+        "name": "showGameResult",
+        "parameter_count": 1,
+        "token": "0x6000093",
+        "metadata_offset": 11494784
+      },
+      {
+        "name": "onClientAction",
+        "parameter_count": 1,
+        "token": "0x6000094",
+        "metadata_offset": 11494820
+      },
+      {
+        "name": "refreshPlayer",
+        "parameter_count": 1,
+        "token": "0x6000095",
+        "metadata_offset": 11494856
+      },
+      {
+        "name": "onLoadRoomInfo",
+        "parameter_count": 2,
+        "token": "0x6000096",
+        "metadata_offset": 11494892
+      },
+      {
+        "name": "showRandomDraw",
+        "parameter_count": 0,
+        "token": "0x6000097",
+        "metadata_offset": 11494928
+      },
+      {
+        "name": "showCommon2Alert",
+        "parameter_count": 0,
+        "token": "0x6000098",
+        "metadata_offset": 11494964
+      },
+      {
+        "name": "showCommonAlert",
+        "parameter_count": 0,
+        "token": "0x6000099",
+        "metadata_offset": 11495000
+      },
+      {
+        "name": "setCurrentAlert",
+        "parameter_count": 1,
+        "token": "0x600009a",
+        "metadata_offset": 11495036
+      },
+      {
+        "name": "OnDestroy",
+        "parameter_count": 0,
+        "token": "0x600009b",
+        "metadata_offset": 11495072
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x600009c",
+        "metadata_offset": 11495108
+      },
+      {
+        "name": "<Awake>b__29_0",
+        "parameter_count": 1,
+        "token": "0x600009d",
+        "metadata_offset": 11495144
+      },
+      {
+        "name": "<onLoadRoomInfo>b__45_0",
+        "parameter_count": 0,
+        "token": "0x600009e",
+        "metadata_offset": 11495180
+      }
+    ],
+    "fields": [
+      "bottomBarCS",
+      "navBarCS",
+      "canvas",
+      "guidePrefab",
+      "preparePrefab",
+      "roundAlertPrefab",
+      "commonAlertPrefab",
+      "commonAlert2Prefab",
+      "waitOtherAlertPrefab",
+      "randomDrawCardPrefab",
+      "decisionAlertPrefab",
+      "alertPrefab",
+      "gameResultPrefab",
+      "currentAlert",
+      "currentPlayerCS",
+      "topUserItemsCS",
+      "settingCS",
+      "badlistCS",
+      "sendountCoinCS",
+      "musicCS",
+      "atSorageBack",
+      "atSorageJintIcon",
+      "atSorageChestIcon",
+      "manager",
+      "jintiao",
+      "chest",
+      "testBtn",
+      "gameResultObj"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21485,
+    "namespace": "",
+    "name": "GD_GamingTopUserController",
+    "metadata_offset": 20441820,
+    "methods": [
+      {
+        "name": "getUserItem",
+        "parameter_count": 1,
+        "token": "0x60000b0",
+        "metadata_offset": 11495828
+      },
+      {
+        "name": "DecisionStart",
+        "parameter_count": 1,
+        "token": "0x60000b1",
+        "metadata_offset": 11495864
+      },
+      {
+        "name": "showVoiceDots",
+        "parameter_count": 1,
+        "token": "0x60000b2",
+        "metadata_offset": 11495900
+      },
+      {
+        "name": "refreshPlayers",
+        "parameter_count": 1,
+        "token": "0x60000b3",
+        "metadata_offset": 11495936
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x60000b4",
+        "metadata_offset": 11495972
+      }
+    ],
+    "fields": [
+      "userItems"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21486,
+    "namespace": "",
+    "name": "GD_GamingUserItem",
+    "metadata_offset": 20441908,
+    "methods": [
+      {
+        "name": "Start",
+        "parameter_count": 0,
+        "token": "0x60000b5",
+        "metadata_offset": 11496008
+      },
+      {
+        "name": "refreshPlayer",
+        "parameter_count": 1,
+        "token": "0x60000b6",
+        "metadata_offset": 11496044
+      },
+      {
+        "name": "showspeakIcon",
+        "parameter_count": 0,
+        "token": "0x60000b7",
+        "metadata_offset": 11496080
+      },
+      {
+        "name": "FixedUpdate",
+        "parameter_count": 0,
+        "token": "0x60000b8",
+        "metadata_offset": 11496116
+      },
+      {
+        "name": "onGoldAdd",
+        "parameter_count": 1,
+        "token": "0x60000b9",
+        "metadata_offset": 11496152
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x60000ba",
+        "metadata_offset": 11496188
+      },
+      {
+        "name": "<Start>b__10_0",
+        "parameter_count": 0,
+        "token": "0x60000bb",
+        "metadata_offset": 11496224
+      },
+      {
+        "name": "<onGoldAdd>b__16_0",
+        "parameter_count": 0,
+        "token": "0x60000bc",
+        "metadata_offset": 11496260
+      }
+    ],
+    "fields": [
+      "kuang",
+      "avatar",
+      "name",
+      "walletIcon",
+      "coin",
+      "animGold",
+      "textColor",
+      "voiceDot",
+      "offlineImg",
+      "offlineTxt",
+      "mPlayer",
+      "after"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21487,
+    "namespace": "",
+    "name": "GD_GuideItem",
+    "metadata_offset": 20441996,
+    "methods": [
+      {
+        "name": "Start",
+        "parameter_count": 0,
+        "token": "0x60000bd",
+        "metadata_offset": 11496296
+      },
+      {
+        "name": "setImage",
+        "parameter_count": 1,
+        "token": "0x60000be",
+        "metadata_offset": 11496332
+      },
+      {
+        "name": "requestAvatarUrl",
+        "parameter_count": 1,
+        "token": "0x60000bf",
+        "metadata_offset": 11496368
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x60000c0",
+        "metadata_offset": 11496404
+      }
+    ],
+    "fields": [
+      "image",
+      "loadedReferences",
+      "s"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21488,
+    "namespace": "",
+    "name": "GD_GuideTipsPage",
+    "metadata_offset": 20442084,
+    "methods": [
+      {
+        "name": "loadGuide",
+        "parameter_count": 0,
+        "token": "0x60000c1",
+        "metadata_offset": 11496440
+      },
+      {
+        "name": "Awake",
+        "parameter_count": 0,
+        "token": "0x60000c2",
+        "metadata_offset": 11496476
+      },
+      {
+        "name": "Start",
+        "parameter_count": 0,
+        "token": "0x60000c3",
+        "metadata_offset": 11496512
+      },
+      {
+        "name": "GetNumberOfCells",
+        "parameter_count": 1,
+        "token": "0x60000c4",
+        "metadata_offset": 11496548
+      },
+      {
+        "name": "GetCellViewSize",
+        "parameter_count": 2,
+        "token": "0x60000c5",
+        "metadata_offset": 11496584
+      },
+      {
+        "name": "GetCellView",
+        "parameter_count": 3,
+        "token": "0x60000c6",
+        "metadata_offset": 11496620
+      },
+      {
+        "name": "OnPointerClick",
+        "parameter_count": 1,
+        "token": "0x60000c7",
+        "metadata_offset": 11496656
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x60000c8",
+        "metadata_offset": 11496692
+      }
+    ],
+    "fields": [
+      "canvas",
+      "scroller",
+      "cellViewPrefab",
+      "flickSnap",
+      "cellViewSize"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21489,
+    "namespace": "",
+    "name": "GD_ActionCallback",
+    "metadata_offset": 20442172,
+    "methods": [
+      {
+        "name": "onClientAction",
+        "parameter_count": 1,
+        "token": "0x60000c9",
+        "metadata_offset": 11496728
+      },
+      {
+        "name": "onLoadRoomInfo",
+        "parameter_count": 2,
+        "token": "0x60000ca",
+        "metadata_offset": 11496764
+      }
+    ],
+    "fields": []
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21490,
+    "namespace": "",
+    "name": "GD_GameClientImp",
+    "metadata_offset": 20442260,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 1,
+        "token": "0x60000cb",
+        "metadata_offset": 11496800
+      },
+      {
+        "name": "DisposeServer",
+        "parameter_count": 0,
+        "token": "0x60000cc",
+        "metadata_offset": 11496836
+      },
+      {
+        "name": "getClient",
+        "parameter_count": 0,
+        "token": "0x60000cd",
+        "metadata_offset": 11496872
+      }
+    ],
+    "fields": [
+      "client",
+      "channel"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21491,
+    "namespace": "",
+    "name": "GD_GameTips",
+    "metadata_offset": 20442348,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x60000ce",
+        "metadata_offset": 11496908
+      }
+    ],
+    "fields": [
+      "tips",
+      "showRedpoint"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21492,
+    "namespace": "",
+    "name": "<getGameInfo>d__34",
+    "metadata_offset": 20442436,
+    "methods": [
+      {
+        "name": "MoveNext",
+        "parameter_count": 0,
+        "token": "0x60000ed",
+        "metadata_offset": 11498024
+      },
+      {
+        "name": "SetStateMachine",
+        "parameter_count": 1,
+        "token": "0x60000ee",
+        "metadata_offset": 11498060
+      }
+    ],
+    "fields": [
+      "<>1__state",
+      "<>t__builder",
+      "<>4__this",
+      "request",
+      "<>u__1"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21493,
+    "namespace": "",
+    "name": "<connectGameAsync>d__37",
+    "metadata_offset": 20442524,
+    "methods": [
+      {
+        "name": "MoveNext",
+        "parameter_count": 0,
+        "token": "0x60000ef",
+        "metadata_offset": 11498096
+      },
+      {
+        "name": "SetStateMachine",
+        "parameter_count": 1,
+        "token": "0x60000f0",
+        "metadata_offset": 11498132
+      }
+    ],
+    "fields": [
+      "<>1__state",
+      "<>t__builder",
+      "<>4__this",
+      "<>u__1",
+      "<>u__2"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21494,
+    "namespace": "",
+    "name": "<joinGame>d__45",
+    "metadata_offset": 20442612,
+    "methods": [
+      {
+        "name": "MoveNext",
+        "parameter_count": 0,
+        "token": "0x60000f1",
+        "metadata_offset": 11498168
+      },
+      {
+        "name": "SetStateMachine",
+        "parameter_count": 1,
+        "token": "0x60000f2",
+        "metadata_offset": 11498204
+      }
+    ],
+    "fields": [
+      "<>1__state",
+      "<>t__builder",
+      "<>4__this",
+      "request",
+      "<>u__1"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21495,
+    "namespace": "",
+    "name": "<HeartbeatInvokeAction>d__49",
+    "metadata_offset": 20442700,
+    "methods": [
+      {
+        "name": "MoveNext",
+        "parameter_count": 0,
+        "token": "0x60000f3",
+        "metadata_offset": 11498240
+      },
+      {
+        "name": "SetStateMachine",
+        "parameter_count": 1,
+        "token": "0x60000f4",
+        "metadata_offset": 11498276
+      }
+    ],
+    "fields": [
+      "<>1__state",
+      "<>t__builder",
+      "<>4__this",
+      "<call>5__2",
+      "<>u__1"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21496,
+    "namespace": "",
+    "name": "<quitGame>d__50",
+    "metadata_offset": 20442788,
+    "methods": [
+      {
+        "name": "MoveNext",
+        "parameter_count": 0,
+        "token": "0x60000f5",
+        "metadata_offset": 11498312
+      },
+      {
+        "name": "SetStateMachine",
+        "parameter_count": 1,
+        "token": "0x60000f6",
+        "metadata_offset": 11498348
+      }
+    ],
+    "fields": [
+      "<>1__state",
+      "<>t__builder",
+      "<>4__this",
+      "request",
+      "<>u__1"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21497,
+    "namespace": "",
+    "name": "<getGameResult>d__51",
+    "metadata_offset": 20442876,
+    "methods": [
+      {
+        "name": "MoveNext",
+        "parameter_count": 0,
+        "token": "0x60000f7",
+        "metadata_offset": 11498384
+      },
+      {
+        "name": "SetStateMachine",
+        "parameter_count": 1,
+        "token": "0x60000f8",
+        "metadata_offset": 11498420
+      }
+    ],
+    "fields": [
+      "<>1__state",
+      "<>t__builder",
+      "<>4__this",
+      "request",
+      "<>u__1"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21498,
+    "namespace": "",
+    "name": "<invokeAction>d__52",
+    "metadata_offset": 20442964,
+    "methods": [
+      {
+        "name": "MoveNext",
+        "parameter_count": 0,
+        "token": "0x60000f9",
+        "metadata_offset": 11498456
+      },
+      {
+        "name": "SetStateMachine",
+        "parameter_count": 1,
+        "token": "0x60000fa",
+        "metadata_offset": 11498492
+      }
+    ],
+    "fields": [
+      "<>1__state",
+      "<>t__builder",
+      "request",
+      "<>4__this",
+      "<resposne>5__2",
+      "<>u__1"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21499,
+    "namespace": "",
+    "name": "<>c",
+    "metadata_offset": 20443052,
+    "methods": [
+      {
+        "name": ".cctor",
+        "parameter_count": 0,
+        "token": "0x60000fb",
+        "metadata_offset": 11498528
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x60000fc",
+        "metadata_offset": 11498564
+      },
+      {
+        "name": "<.cctor>b__57_0",
+        "parameter_count": 0,
+        "token": "0x60000fd",
+        "metadata_offset": 11498600
+      }
+    ],
+    "fields": [
+      "<>9"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21500,
+    "namespace": "",
+    "name": "GD_Manager",
+    "metadata_offset": 20443140,
+    "methods": [
+      {
+        "name": "SetTextWithEllipsis",
+        "parameter_count": 2,
+        "token": "0x60000cf",
+        "metadata_offset": 11496944
+      },
+      {
+        "name": "get_Instance",
+        "parameter_count": 0,
+        "token": "0x60000d0",
+        "metadata_offset": 11496980
+      },
+      {
+        "name": "get_IsInitialized",
+        "parameter_count": 0,
+        "token": "0x60000d1",
+        "metadata_offset": 11497016
+      },
+      {
+        "name": "set_gameInfo",
+        "parameter_count": 1,
+        "token": "0x60000d2",
+        "metadata_offset": 11497052
+      },
+      {
+        "name": "get_gameInfo",
+        "parameter_count": 0,
+        "token": "0x60000d3",
+        "metadata_offset": 11497088
+      },
+      {
+        "name": "getPlayerWithID",
+        "parameter_count": 1,
+        "token": "0x60000d4",
+        "metadata_offset": 11497124
+      },
+      {
+        "name": "isplayer",
+        "parameter_count": 0,
+        "token": "0x60000d5",
+        "metadata_offset": 11497160
+      },
+      {
+        "name": "get_isOwner",
+        "parameter_count": 0,
+        "token": "0x60000d6",
+        "metadata_offset": 11497196
+      },
+      {
+        "name": "initChannel",
+        "parameter_count": 1,
+        "token": "0x60000d7",
+        "metadata_offset": 11497232
+      },
+      {
+        "name": "getGameInfo",
+        "parameter_count": 1,
+        "token": "0x60000d8",
+        "metadata_offset": 11497268
+      },
+      {
+        "name": "disposeException",
+        "parameter_count": 1,
+        "token": "0x60000d9",
+        "metadata_offset": 11497304
+      },
+      {
+        "name": "getRpcHeader",
+        "parameter_count": 0,
+        "token": "0x60000da",
+        "metadata_offset": 11497340
+      },
+      {
+        "name": "connectGameAsync",
+        "parameter_count": 0,
+        "token": "0x60000db",
+        "metadata_offset": 11497376
+      },
+      {
+        "name": "parseByte",
+        "parameter_count": 1,
+        "token": "0x60000dc",
+        "metadata_offset": 11497412
+      },
+      {
+        "name": "registerDreamAction",
+        "parameter_count": 2,
+        "token": "0x60000dd",
+        "metadata_offset": 11497448
+      },
+      {
+        "name": "checkRoomStateAndSpeakingState",
+        "parameter_count": 0,
+        "token": "0x60000de",
+        "metadata_offset": 11497484
+      },
+      {
+        "name": "handleAction",
+        "parameter_count": 1,
+        "token": "0x60000df",
+        "metadata_offset": 11497520
+      },
+      {
+        "name": "joinGame",
+        "parameter_count": 1,
+        "token": "0x60000e0",
+        "metadata_offset": 11497556
+      },
+      {
+        "name": "startHeartbeat",
+        "parameter_count": 0,
+        "token": "0x60000e1",
+        "metadata_offset": 11497592
+      },
+      {
+        "name": "stopHearBeat",
+        "parameter_count": 0,
+        "token": "0x60000e2",
+        "metadata_offset": 11497628
+      },
+      {
+        "name": "HeartbeatInvokeAction",
+        "parameter_count": 0,
+        "token": "0x60000e3",
+        "metadata_offset": 11497664
+      },
+      {
+        "name": "quitGame",
+        "parameter_count": 1,
+        "token": "0x60000e4",
+        "metadata_offset": 11497700
+      },
+      {
+        "name": "getGameResult",
+        "parameter_count": 1,
+        "token": "0x60000e5",
+        "metadata_offset": 11497736
+      },
+      {
+        "name": "invokeAction",
+        "parameter_count": 1,
+        "token": "0x60000e6",
+        "metadata_offset": 11497772
+      },
+      {
+        "name": "OnDestroy",
+        "parameter_count": 0,
+        "token": "0x60000e7",
+        "metadata_offset": 11497808
+      },
+      {
+        "name": "disposed",
+        "parameter_count": 1,
+        "token": "0x60000e8",
+        "metadata_offset": 11497844
+      },
+      {
+        "name": "release",
+        "parameter_count": 0,
+        "token": "0x60000e9",
+        "metadata_offset": 11497880
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x60000ea",
+        "metadata_offset": 11497916
+      },
+      {
+        "name": ".cctor",
+        "parameter_count": 0,
+        "token": "0x60000eb",
+        "metadata_offset": 11497952
+      },
+      {
+        "name": "<startHeartbeat>b__47_0",
+        "parameter_count": 0,
+        "token": "0x60000ec",
+        "metadata_offset": 11497988
+      }
+    ],
+    "fields": [
+      "instance",
+      "coin",
+      "serverModel",
+      "_gameInfo",
+      "musicMute",
+      "btnMute",
+      "hasJoined",
+      "musicName",
+      "musicModel",
+      "gameVersion",
+      "appVersion",
+      "userID",
+      "gameID",
+      "userToken",
+      "tips",
+      "urlSpCache",
+      "broadcasters",
+      "maxHeartBeatFailedCnt",
+      "currentPlayer",
+      "addRess",
+      "clientImp",
+      "_parser",
+      "actionCallbacks",
+      "streamingCall",
+      "heartBeatTimer"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21501,
+    "namespace": "",
+    "name": "GD_MusicModel",
+    "metadata_offset": 20443228,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x60000fe",
+        "metadata_offset": 11498636
+      }
+    ],
+    "fields": [
+      "owner",
+      "musicName",
+      "isPlay"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21502,
+    "namespace": "",
+    "name": "<>c",
+    "metadata_offset": 20443316,
+    "methods": [
+      {
+        "name": ".cctor",
+        "parameter_count": 0,
+        "token": "0x6000102",
+        "metadata_offset": 11498780
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000103",
+        "metadata_offset": 11498816
+      },
+      {
+        "name": "<Awake>b__4_0",
+        "parameter_count": 0,
+        "token": "0x6000104",
+        "metadata_offset": 11498852
+      }
+    ],
+    "fields": [
+      "<>9",
+      "<>9__4_0"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21503,
+    "namespace": "",
+    "name": "GD_MusicController",
+    "metadata_offset": 20443404,
+    "methods": [
+      {
+        "name": "Awake",
+        "parameter_count": 0,
+        "token": "0x60000ff",
+        "metadata_offset": 11498672
+      },
+      {
+        "name": "setMusicName",
+        "parameter_count": 1,
+        "token": "0x6000100",
+        "metadata_offset": 11498708
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000101",
+        "metadata_offset": 11498744
+      }
+    ],
+    "fields": [
+      "icon",
+      "btn",
+      "tw",
+      "danmu"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21504,
+    "namespace": "",
+    "name": "GD_GameServer",
+    "metadata_offset": 20443492,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000105",
+        "metadata_offset": 11498888
+      }
+    ],
+    "fields": [
+      "app_version",
+      "game_id",
+      "user_id",
+      "server",
+      "token",
+      "debug_mode",
+      "from",
+      "entrance_fee_list"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21505,
+    "namespace": "",
+    "name": "GD_GameServerFeeModel",
+    "metadata_offset": 20443580,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000106",
+        "metadata_offset": 11498924
+      }
+    ],
+    "fields": [
+      "name",
+      "value"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21506,
+    "namespace": "",
+    "name": "GD_FollowStateRes",
+    "metadata_offset": 20443668,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000107",
+        "metadata_offset": 11498960
+      }
+    ],
+    "fields": [
+      "items"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21507,
+    "namespace": "",
+    "name": "GD_FollowItem",
+    "metadata_offset": 20443756,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000108",
+        "metadata_offset": 11498996
+      }
+    ],
+    "fields": [
+      "uid",
+      "showFollow"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21508,
+    "namespace": "",
+    "name": "GD_GameSpeak",
+    "metadata_offset": 20443844,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000109",
+        "metadata_offset": 11499032
+      }
+    ],
+    "fields": [
+      "uid"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21509,
+    "namespace": "",
+    "name": "GDBroadcasterList",
+    "metadata_offset": 20443932,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x600010a",
+        "metadata_offset": 11499068
+      }
+    ],
+    "fields": [
+      "broadcasters"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21510,
+    "namespace": "",
+    "name": "GDBroadcaster",
+    "metadata_offset": 20444020,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x600010b",
+        "metadata_offset": 11499104
+      }
+    ],
+    "fields": [
+      "idx",
+      "uid",
+      "avatar",
+      "avatarMask",
+      "name"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21511,
+    "namespace": "",
+    "name": "<>c",
+    "metadata_offset": 20444108,
+    "methods": [
+      {
+        "name": ".cctor",
+        "parameter_count": 0,
+        "token": "0x6000128",
+        "metadata_offset": 11500148
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000129",
+        "metadata_offset": 11500184
+      },
+      {
+        "name": "<Awake>b__20_0",
+        "parameter_count": 0,
+        "token": "0x600012a",
+        "metadata_offset": 11500220
+      },
+      {
+        "name": "<setUIAndEvent>b__26_0",
+        "parameter_count": 0,
+        "token": "0x600012b",
+        "metadata_offset": 11500256
+      },
+      {
+        "name": "<setGameFee>b__28_0",
+        "parameter_count": 0,
+        "token": "0x600012c",
+        "metadata_offset": 11500292
+      }
+    ],
+    "fields": [
+      "<>9",
+      "<>9__20_0",
+      "<>9__26_0",
+      "<>9__28_0"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21512,
+    "namespace": "",
+    "name": "GD_PrepareController",
+    "metadata_offset": 20444196,
+    "methods": [
+      {
+        "name": "Awake",
+        "parameter_count": 0,
+        "token": "0x600010c",
+        "metadata_offset": 11499140
+      },
+      {
+        "name": "changePlayerIdx",
+        "parameter_count": 1,
+        "token": "0x600010d",
+        "metadata_offset": 11499176
+      },
+      {
+        "name": "joinGame",
+        "parameter_count": 2,
+        "token": "0x600010e",
+        "metadata_offset": 11499212
+      },
+      {
+        "name": "joinGame2",
+        "parameter_count": 2,
+        "token": "0x600010f",
+        "metadata_offset": 11499248
+      },
+      {
+        "name": "leaveGame",
+        "parameter_count": 0,
+        "token": "0x6000110",
+        "metadata_offset": 11499284
+      },
+      {
+        "name": "Start",
+        "parameter_count": 0,
+        "token": "0x6000111",
+        "metadata_offset": 11499320
+      },
+      {
+        "name": "setUIAndEvent",
+        "parameter_count": 0,
+        "token": "0x6000112",
+        "metadata_offset": 11499356
+      },
+      {
+        "name": "editEnterCoin",
+        "parameter_count": 0,
+        "token": "0x6000113",
+        "metadata_offset": 11499392
+      },
+      {
+        "name": "setGameFee",
+        "parameter_count": 1,
+        "token": "0x6000114",
+        "metadata_offset": 11499428
+      },
+      {
+        "name": "inviteFriend",
+        "parameter_count": 0,
+        "token": "0x6000115",
+        "metadata_offset": 11499464
+      },
+      {
+        "name": "mainClick",
+        "parameter_count": 0,
+        "token": "0x6000116",
+        "metadata_offset": 11499500
+      },
+      {
+        "name": "transCoin",
+        "parameter_count": 1,
+        "token": "0x6000117",
+        "metadata_offset": 11499536
+      },
+      {
+        "name": "findBroadcaster",
+        "parameter_count": 2,
+        "token": "0x6000118",
+        "metadata_offset": 11499572
+      },
+      {
+        "name": "initGameInfo",
+        "parameter_count": 0,
+        "token": "0x6000119",
+        "metadata_offset": 11499608
+      },
+      {
+        "name": "checkPlayerIsJoingame",
+        "parameter_count": 0,
+        "token": "0x600011a",
+        "metadata_offset": 11499644
+      },
+      {
+        "name": "caJoinUserids",
+        "parameter_count": 1,
+        "token": "0x600011b",
+        "metadata_offset": 11499680
+      },
+      {
+        "name": "gameStart",
+        "parameter_count": 0,
+        "token": "0x600011c",
+        "metadata_offset": 11499716
+      },
+      {
+        "name": "onClientAction",
+        "parameter_count": 1,
+        "token": "0x600011d",
+        "metadata_offset": 11499752
+      },
+      {
+        "name": "onLoadRoomInfo",
+        "parameter_count": 2,
+        "token": "0x600011e",
+        "metadata_offset": 11499788
+      },
+      {
+        "name": "OnDestroy",
+        "parameter_count": 0,
+        "token": "0x600011f",
+        "metadata_offset": 11499824
+      },
+      {
+        "name": "refreshVersionTxt",
+        "parameter_count": 1,
+        "token": "0x6000120",
+        "metadata_offset": 11499860
+      },
+      {
+        "name": "unityGameSetting",
+        "parameter_count": 0,
+        "token": "0x6000121",
+        "metadata_offset": 11499896
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000122",
+        "metadata_offset": 11499932
+      },
+      {
+        "name": "<Awake>b__20_1",
+        "parameter_count": 1,
+        "token": "0x6000123",
+        "metadata_offset": 11499968
+      },
+      {
+        "name": "<Start>b__25_0",
+        "parameter_count": 0,
+        "token": "0x6000124",
+        "metadata_offset": 11500004
+      },
+      {
+        "name": "<editEnterCoin>b__27_0",
+        "parameter_count": 1,
+        "token": "0x6000125",
+        "metadata_offset": 11500040
+      },
+      {
+        "name": "<mainClick>b__30_0",
+        "parameter_count": 0,
+        "token": "0x6000126",
+        "metadata_offset": 11500076
+      },
+      {
+        "name": "<initGameInfo>b__33_0",
+        "parameter_count": 1,
+        "token": "0x6000127",
+        "metadata_offset": 11500112
+      }
+    ],
+    "fields": [
+      "setEntercoinPrefab",
+      "gamePrefab",
+      "alertPrefab",
+      "bottomBarCS",
+      "navBarCS",
+      "settingCs",
+      "musicCS",
+      "residueConin",
+      "residueBtn",
+      "residueAddIcon",
+      "userItems",
+      "inviteBtn",
+      "mainBtn",
+      "enterCoin",
+      "editEnterBtn",
+      "canvas",
+      "testBtn",
+      "manage",
+      "versionTxt",
+      "rejoinUids",
+      "activeState"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21513,
+    "namespace": "",
+    "name": "GD_PrepareUserItemController",
+    "metadata_offset": 20444284,
+    "methods": [
+      {
+        "name": "Awake",
+        "parameter_count": 0,
+        "token": "0x600012d",
+        "metadata_offset": 11500328
+      },
+      {
+        "name": "Start",
+        "parameter_count": 0,
+        "token": "0x600012e",
+        "metadata_offset": 11500364
+      },
+      {
+        "name": "refreshPlayer",
+        "parameter_count": 1,
+        "token": "0x600012f",
+        "metadata_offset": 11500400
+      },
+      {
+        "name": "loadPlayer",
+        "parameter_count": 1,
+        "token": "0x6000130",
+        "metadata_offset": 11500436
+      },
+      {
+        "name": "showspeakIcon",
+        "parameter_count": 0,
+        "token": "0x6000131",
+        "metadata_offset": 11500472
+      },
+      {
+        "name": "FixedUpdate",
+        "parameter_count": 0,
+        "token": "0x6000132",
+        "metadata_offset": 11500508
+      },
+      {
+        "name": "SetTextWithEllipsis",
+        "parameter_count": 2,
+        "token": "0x6000133",
+        "metadata_offset": 11500544
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000134",
+        "metadata_offset": 11500580
+      },
+      {
+        "name": "<Start>b__11_0",
+        "parameter_count": 0,
+        "token": "0x6000135",
+        "metadata_offset": 11500616
+      }
+    ],
+    "fields": [
+      "avatar",
+      "ownerIcon",
+      "name",
+      "readyIcon",
+      "wingImg",
+      "addImg",
+      "voiceDot",
+      "index",
+      "namePanel",
+      "joinGameAction",
+      "mPlayer",
+      "after"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21514,
+    "namespace": "",
+    "name": "<DownloadImage>d__1",
+    "metadata_offset": 20444372,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 1,
+        "token": "0x6000139",
+        "metadata_offset": 11500760
+      },
+      {
+        "name": "System.IDisposable.Dispose",
+        "parameter_count": 0,
+        "token": "0x600013a",
+        "metadata_offset": 11500796
+      },
+      {
+        "name": "MoveNext",
+        "parameter_count": 0,
+        "token": "0x600013b",
+        "metadata_offset": 11500832
+      },
+      {
+        "name": "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+        "parameter_count": 0,
+        "token": "0x600013c",
+        "metadata_offset": 11500868
+      },
+      {
+        "name": "System.Collections.IEnumerator.Reset",
+        "parameter_count": 0,
+        "token": "0x600013d",
+        "metadata_offset": 11500904
+      },
+      {
+        "name": "System.Collections.IEnumerator.get_Current",
+        "parameter_count": 0,
+        "token": "0x600013e",
+        "metadata_offset": 11500940
+      }
+    ],
+    "fields": [
+      "<>1__state",
+      "<>2__current",
+      "MediaUrl",
+      "avatar",
+      "<request>5__2"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21515,
+    "namespace": "",
+    "name": "GD_ResManage",
+    "metadata_offset": 20444460,
+    "methods": [
+      {
+        "name": "GetSpriteFromCache",
+        "parameter_count": 2,
+        "token": "0x6000136",
+        "metadata_offset": 11500652
+      },
+      {
+        "name": "DownloadImage",
+        "parameter_count": 2,
+        "token": "0x6000137",
+        "metadata_offset": 11500688
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000138",
+        "metadata_offset": 11500724
+      }
+    ],
+    "fields": []
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21516,
+    "namespace": "",
+    "name": "<>c",
+    "metadata_offset": 20444548,
+    "methods": [
+      {
+        "name": ".cctor",
+        "parameter_count": 0,
+        "token": "0x6000147",
+        "metadata_offset": 11501264
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000148",
+        "metadata_offset": 11501300
+      },
+      {
+        "name": "<show>b__3_0",
+        "parameter_count": 0,
+        "token": "0x6000149",
+        "metadata_offset": 11501336
+      },
+      {
+        "name": "<Rel>b__7_0",
+        "parameter_count": 1,
+        "token": "0x600014a",
+        "metadata_offset": 11501372
+      }
+    ],
+    "fields": [
+      "<>9",
+      "<>9__3_0",
+      "<>9__7_0"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21517,
+    "namespace": "",
+    "name": "<>c__DisplayClass7_0",
+    "metadata_offset": 20444636,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x600014b",
+        "metadata_offset": 11501408
+      },
+      {
+        "name": "<Rel>b__1",
+        "parameter_count": 1,
+        "token": "0x600014c",
+        "metadata_offset": 11501444
+      }
+    ],
+    "fields": [
+      "resource",
+      "unit"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21518,
+    "namespace": "",
+    "name": "GD_RoundAlert",
+    "metadata_offset": 20444724,
+    "methods": [
+      {
+        "name": "Awake",
+        "parameter_count": 0,
+        "token": "0x600013f",
+        "metadata_offset": 11500976
+      },
+      {
+        "name": "show",
+        "parameter_count": 0,
+        "token": "0x6000140",
+        "metadata_offset": 11501012
+      },
+      {
+        "name": "FixedUpdate",
+        "parameter_count": 0,
+        "token": "0x6000141",
+        "metadata_offset": 11501048
+      },
+      {
+        "name": "dissmiss",
+        "parameter_count": 0,
+        "token": "0x6000142",
+        "metadata_offset": 11501084
+      },
+      {
+        "name": "RoundStart",
+        "parameter_count": 1,
+        "token": "0x6000143",
+        "metadata_offset": 11501120
+      },
+      {
+        "name": "Rel",
+        "parameter_count": 1,
+        "token": "0x6000144",
+        "metadata_offset": 11501156
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000145",
+        "metadata_offset": 11501192
+      },
+      {
+        "name": "<dissmiss>b__5_0",
+        "parameter_count": 0,
+        "token": "0x6000146",
+        "metadata_offset": 11501228
+      }
+    ],
+    "fields": [
+      "downTimer",
+      "currentRound"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21519,
+    "namespace": "",
+    "name": "<>c__DisplayClass2_0",
+    "metadata_offset": 20444812,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000150",
+        "metadata_offset": 11501588
+      },
+      {
+        "name": "<dealOnAnimation>b__0",
+        "parameter_count": 0,
+        "token": "0x6000151",
+        "metadata_offset": 11501624
+      }
+    ],
+    "fields": [
+      "newImage"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21520,
+    "namespace": "",
+    "name": "<dealOnAnimation>d__2",
+    "metadata_offset": 20444900,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 1,
+        "token": "0x6000152",
+        "metadata_offset": 11501660
+      },
+      {
+        "name": "System.IDisposable.Dispose",
+        "parameter_count": 0,
+        "token": "0x6000153",
+        "metadata_offset": 11501696
+      },
+      {
+        "name": "MoveNext",
+        "parameter_count": 0,
+        "token": "0x6000154",
+        "metadata_offset": 11501732
+      },
+      {
+        "name": "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+        "parameter_count": 0,
+        "token": "0x6000155",
+        "metadata_offset": 11501768
+      },
+      {
+        "name": "System.Collections.IEnumerator.Reset",
+        "parameter_count": 0,
+        "token": "0x6000156",
+        "metadata_offset": 11501804
+      },
+      {
+        "name": "System.Collections.IEnumerator.get_Current",
+        "parameter_count": 0,
+        "token": "0x6000157",
+        "metadata_offset": 11501840
+      }
+    ],
+    "fields": [
+      "<>1__state",
+      "<>2__current",
+      "endSize",
+      "<>4__this",
+      "playerPostion",
+      "mRate",
+      "sendCount",
+      "<initSize>5__2",
+      "<currentCount>5__3",
+      "<scaleFactor>5__4",
+      "<generateTime>5__5"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21521,
+    "namespace": "",
+    "name": "GD_SendoutCoin",
+    "metadata_offset": 20444988,
+    "methods": [
+      {
+        "name": "sendoutCoin",
+        "parameter_count": 4,
+        "token": "0x600014d",
+        "metadata_offset": 11501480
+      },
+      {
+        "name": "dealOnAnimation",
+        "parameter_count": 4,
+        "token": "0x600014e",
+        "metadata_offset": 11501516
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x600014f",
+        "metadata_offset": 11501552
+      }
+    ],
+    "fields": [
+      "animationDuration"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21522,
+    "namespace": "",
+    "name": "GD_SetEnterCostItem",
+    "metadata_offset": 20445076,
+    "methods": [
+      {
+        "name": "Awake",
+        "parameter_count": 0,
+        "token": "0x6000158",
+        "metadata_offset": 11501876
+      },
+      {
+        "name": "setCoin",
+        "parameter_count": 1,
+        "token": "0x6000159",
+        "metadata_offset": 11501912
+      },
+      {
+        "name": "setSelecat",
+        "parameter_count": 1,
+        "token": "0x600015a",
+        "metadata_offset": 11501948
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x600015b",
+        "metadata_offset": 11501984
+      },
+      {
+        "name": "<Awake>b__6_0",
+        "parameter_count": 0,
+        "token": "0x600015c",
+        "metadata_offset": 11502020
+      }
+    ],
+    "fields": [
+      "outLine",
+      "coin",
+      "image",
+      "index",
+      "fee",
+      "clickAction"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21523,
+    "namespace": "",
+    "name": "GD_SetTextFont",
+    "metadata_offset": 20445164,
+    "methods": [
+      {
+        "name": "Start",
+        "parameter_count": 0,
+        "token": "0x600015d",
+        "metadata_offset": 11502056
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x600015e",
+        "metadata_offset": 11502092
+      }
+    ],
+    "fields": [
+      "ffff"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21524,
+    "namespace": "",
+    "name": "<>c__DisplayClass5_0",
+    "metadata_offset": 20445252,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000165",
+        "metadata_offset": 11502344
+      },
+      {
+        "name": "<show>b__0",
+        "parameter_count": 0,
+        "token": "0x6000166",
+        "metadata_offset": 11502380
+      }
+    ],
+    "fields": [
+      "<>4__this",
+      "showDownTime"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21525,
+    "namespace": "",
+    "name": "GD_WaitOtherPlayerSel",
+    "metadata_offset": 20445340,
+    "methods": [
+      {
+        "name": "Start",
+        "parameter_count": 0,
+        "token": "0x600015f",
+        "metadata_offset": 11502128
+      },
+      {
+        "name": "show",
+        "parameter_count": 1,
+        "token": "0x6000160",
+        "metadata_offset": 11502164
+      },
+      {
+        "name": "dissmiss",
+        "parameter_count": 0,
+        "token": "0x6000161",
+        "metadata_offset": 11502200
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000162",
+        "metadata_offset": 11502236
+      },
+      {
+        "name": "<Start>b__4_0",
+        "parameter_count": 0,
+        "token": "0x6000163",
+        "metadata_offset": 11502272
+      },
+      {
+        "name": "<dissmiss>b__6_0",
+        "parameter_count": 0,
+        "token": "0x6000164",
+        "metadata_offset": 11502308
+      }
+    ],
+    "fields": [
+      "downTime",
+      "timerEndAction",
+      "alert",
+      "foreProgreeCS"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21526,
+    "namespace": "",
+    "name": "G_DragonSettingController",
+    "metadata_offset": 20445428,
+    "methods": [
+      {
+        "name": "FixedUpdate",
+        "parameter_count": 0,
+        "token": "0x6000167",
+        "metadata_offset": 11502416
+      },
+      {
+        "name": "Start",
+        "parameter_count": 0,
+        "token": "0x6000168",
+        "metadata_offset": 11502452
+      },
+      {
+        "name": "setShowRedpoint",
+        "parameter_count": 0,
+        "token": "0x6000169",
+        "metadata_offset": 11502488
+      },
+      {
+        "name": "setTips",
+        "parameter_count": 0,
+        "token": "0x600016a",
+        "metadata_offset": 11502524
+      },
+      {
+        "name": "setMute",
+        "parameter_count": 1,
+        "token": "0x600016b",
+        "metadata_offset": 11502560
+      },
+      {
+        "name": "setBtnMute",
+        "parameter_count": 1,
+        "token": "0x600016c",
+        "metadata_offset": 11502596
+      },
+      {
+        "name": "settingClick",
+        "parameter_count": 0,
+        "token": "0x600016d",
+        "metadata_offset": 11502632
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x600016e",
+        "metadata_offset": 11502668
+      },
+      {
+        "name": "<Start>b__12_0",
+        "parameter_count": 0,
+        "token": "0x600016f",
+        "metadata_offset": 11502704
+      },
+      {
+        "name": "<Start>b__12_1",
+        "parameter_count": 0,
+        "token": "0x6000170",
+        "metadata_offset": 11502740
+      },
+      {
+        "name": "<Start>b__12_2",
+        "parameter_count": 0,
+        "token": "0x6000171",
+        "metadata_offset": 11502776
+      },
+      {
+        "name": "<Start>b__12_3",
+        "parameter_count": 1,
+        "token": "0x6000172",
+        "metadata_offset": 11502812
+      },
+      {
+        "name": "<settingClick>b__18_0",
+        "parameter_count": 0,
+        "token": "0x6000173",
+        "metadata_offset": 11502848
+      },
+      {
+        "name": "<settingClick>b__18_1",
+        "parameter_count": 1,
+        "token": "0x6000174",
+        "metadata_offset": 11502884
+      },
+      {
+        "name": "<settingClick>b__18_2",
+        "parameter_count": 0,
+        "token": "0x6000175",
+        "metadata_offset": 11502920
+      },
+      {
+        "name": "<settingClick>b__18_3",
+        "parameter_count": 1,
+        "token": "0x6000176",
+        "metadata_offset": 11502956
+      },
+      {
+        "name": "<settingClick>b__18_4",
+        "parameter_count": 0,
+        "token": "0x6000177",
+        "metadata_offset": 11502992
+      }
+    ],
+    "fields": [
+      "guidePrefab",
+      "settingBtn",
+      "muteBtn",
+      "guideBtn",
+      "btnMureBtn",
+      "backImage",
+      "layoutGroup",
+      "isShowMore",
+      "guideAction",
+      "redPoint",
+      "redPoint2",
+      "quence"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21527,
+    "namespace": "",
+    "name": "JumpingNumberTextComponent",
+    "metadata_offset": 20445516,
+    "methods": [
+      {
+        "name": "Start",
+        "parameter_count": 0,
+        "token": "0x6000178",
+        "metadata_offset": 11503028
+      },
+      {
+        "name": "ChangeTo",
+        "parameter_count": 4,
+        "token": "0x6000179",
+        "metadata_offset": 11503064
+      },
+      {
+        "name": "Update",
+        "parameter_count": 0,
+        "token": "0x600017a",
+        "metadata_offset": 11503100
+      },
+      {
+        "name": "UpdateBehaviour",
+        "parameter_count": 0,
+        "token": "0x600017b",
+        "metadata_offset": 11503136
+      },
+      {
+        "name": "UpdateText",
+        "parameter_count": 0,
+        "token": "0x600017c",
+        "metadata_offset": 11503172
+      },
+      {
+        "name": "IsInt",
+        "parameter_count": 1,
+        "token": "0x600017d",
+        "metadata_offset": 11503208
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x600017e",
+        "metadata_offset": 11503244
+      }
+    ],
+    "fields": [
+      "changeType",
+      "mText",
+      "startNum",
+      "currTime",
+      "targetNum",
+      "duration",
+      "isStartChange",
+      "time",
+      "prefix",
+      "changeText"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21528,
+    "namespace": "",
+    "name": "JumpingNumberTextComponentTypeBase",
+    "metadata_offset": 20445604,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 3,
+        "token": "0x600017f",
+        "metadata_offset": 11503280
+      },
+      {
+        "name": "ChangeText",
+        "parameter_count": 1,
+        "token": "0x6000180",
+        "metadata_offset": 11503316
+      }
+    ],
+    "fields": [
+      "startNum",
+      "targetNum",
+      "duration"
+    ]
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21529,
+    "namespace": "",
+    "name": "JumpingNumberTextComponentLinearType",
+    "metadata_offset": 20445692,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 3,
+        "token": "0x6000181",
+        "metadata_offset": 11503352
+      },
+      {
+        "name": "ChangeText",
+        "parameter_count": 1,
+        "token": "0x6000182",
+        "metadata_offset": 11503388
+      }
+    ],
+    "fields": []
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21530,
+    "namespace": "",
+    "name": "JumpingNumberTextComponentEaseinType",
+    "metadata_offset": 20445780,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 3,
+        "token": "0x6000183",
+        "metadata_offset": 11503424
+      },
+      {
+        "name": "ChangeText",
+        "parameter_count": 1,
+        "token": "0x6000184",
+        "metadata_offset": 11503460
+      }
+    ],
+    "fields": []
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21531,
+    "namespace": "",
+    "name": "JumpingNumberTextComponentEaseoutType",
+    "metadata_offset": 20445868,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 3,
+        "token": "0x6000185",
+        "metadata_offset": 11503496
+      },
+      {
+        "name": "ChangeText",
+        "parameter_count": 1,
+        "token": "0x6000186",
+        "metadata_offset": 11503532
+      }
+    ],
+    "fields": []
+  },
+  {
+    "image": "GlodDragonDll.dll",
+    "type_index": 21532,
+    "namespace": "",
+    "name": "JumpingNumberTextComponentType",
+    "metadata_offset": 20445956,
+    "methods": [],
+    "fields": [
+      "value__",
+      "Linear",
+      "Easein",
+      "Easeout"
+    ]
+  },
+  {
+    "image": "MonopolyLoca.dll",
+    "type_index": 22535,
+    "namespace": "",
+    "name": "<Module>",
+    "metadata_offset": 20534220,
+    "methods": [],
+    "fields": []
+  },
+  {
+    "image": "MonopolyLoca.dll",
+    "type_index": 22536,
+    "namespace": "",
+    "name": "AddressableManager",
+    "metadata_offset": 20534308,
+    "methods": [
+      {
+        "name": "GetName",
+        "parameter_count": 0,
+        "token": "0x6000001",
+        "metadata_offset": 11748980
+      },
+      {
+        "name": "InitScreen",
+        "parameter_count": 0,
+        "token": "0x6000002",
+        "metadata_offset": 11749016
+      },
+      {
+        "name": "GetGameType",
+        "parameter_count": 0,
+        "token": "0x6000003",
+        "metadata_offset": 11749052
+      },
+      {
+        "name": "GetUnityGameMode",
+        "parameter_count": 0,
+        "token": "0x6000004",
+        "metadata_offset": 11749088
+      },
+      {
+        "name": "Start",
+        "parameter_count": 0,
+        "token": "0x6000005",
+        "metadata_offset": 11749124
+      },
+      {
+        "name": "GetAssemblyName",
+        "parameter_count": 0,
+        "token": "0x6000006",
+        "metadata_offset": 11749160
+      },
+      {
+        "name": "HasAndroidLoad",
+        "parameter_count": 0,
+        "token": "0x6000007",
+        "metadata_offset": 11749196
+      },
+      {
+        "name": "SetAndroidLoad",
+        "parameter_count": 0,
+        "token": "0x6000008",
+        "metadata_offset": 11749232
+      },
+      {
+        "name": "_OnLoadAssemblyComplete",
+        "parameter_count": 0,
+        "token": "0x6000009",
+        "metadata_offset": 11749268
+      },
+      {
+        "name": "AddressableLoadCallback.onLoad",
+        "parameter_count": 1,
+        "token": "0x600000a",
+        "metadata_offset": 11749304
+      },
+      {
+        "name": "LoadSceneName",
+        "parameter_count": 0,
+        "token": "0x600000b",
+        "metadata_offset": 11749340
+      },
+      {
+        "name": "UpdateProgress",
+        "parameter_count": 1,
+        "token": "0x600000c",
+        "metadata_offset": 11749376
+      },
+      {
+        "name": "PatchedAOTAssemblyList",
+        "parameter_count": 0,
+        "token": "0x600000d",
+        "metadata_offset": 11749412
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x600000e",
+        "metadata_offset": 11749448
+      }
+    ],
+    "fields": [
+      "iconimg",
+      "loadingBg",
+      "loadingProgrees",
+      "hasAndroidLoad"
+    ]
+  },
+  {
+    "image": "MonopolyLoca.dll",
+    "type_index": 22537,
+    "namespace": "",
+    "name": "addressableLoadSpriteBlock`1",
+    "metadata_offset": 20534396,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 2,
+        "token": "0x600000f",
+        "metadata_offset": 11749484
+      },
+      {
+        "name": "Invoke",
+        "parameter_count": 1,
+        "token": "0x6000010",
+        "metadata_offset": 11749520
+      },
+      {
+        "name": "BeginInvoke",
+        "parameter_count": 3,
+        "token": "0x6000011",
+        "metadata_offset": 11749556
+      },
+      {
+        "name": "EndInvoke",
+        "parameter_count": 1,
+        "token": "0x6000012",
+        "metadata_offset": 11749592
+      }
+    ],
+    "fields": []
+  },
+  {
+    "image": "MonopolyLoca.dll",
+    "type_index": 22538,
+    "namespace": "",
+    "name": "MonoBehaviourExtension",
+    "metadata_offset": 20534484,
+    "methods": [
+      {
+        "name": "addressablesLoad",
+        "parameter_count": 4,
+        "token": "0x6000013",
+        "metadata_offset": 11749628
+      },
+      {
+        "name": "addressablesMusic",
+        "parameter_count": 3,
+        "token": "0x6000014",
+        "metadata_offset": 11749664
+      }
+    ],
+    "fields": []
+  },
+  {
+    "image": "MonopolyLoca.dll",
+    "type_index": 22539,
+    "namespace": "",
+    "name": "<>c__DisplayClass16_0",
+    "metadata_offset": 20534572,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000023",
+        "metadata_offset": 11750204
+      },
+      {
+        "name": "<LoadSprites>b__0",
+        "parameter_count": 1,
+        "token": "0x6000024",
+        "metadata_offset": 11750240
+      },
+      {
+        "name": "<LoadSprites>b__1",
+        "parameter_count": 1,
+        "token": "0x6000025",
+        "metadata_offset": 11750276
+      },
+      {
+        "name": "<LoadSprites>b__2",
+        "parameter_count": 1,
+        "token": "0x6000026",
+        "metadata_offset": 11750312
+      },
+      {
+        "name": "<LoadSprites>b__3",
+        "parameter_count": 1,
+        "token": "0x6000027",
+        "metadata_offset": 11750348
+      },
+      {
+        "name": "<LoadSprites>b__4",
+        "parameter_count": 1,
+        "token": "0x6000028",
+        "metadata_offset": 11750384
+      }
+    ],
+    "fields": [
+      "<>4__this",
+      "loadCallback"
+    ]
+  },
+  {
+    "image": "MonopolyLoca.dll",
+    "type_index": 22540,
+    "namespace": "",
+    "name": "<>c__DisplayClass18_0",
+    "metadata_offset": 20534660,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000029",
+        "metadata_offset": 11750420
+      },
+      {
+        "name": "<loadResources>b__0",
+        "parameter_count": 1,
+        "token": "0x600002a",
+        "metadata_offset": 11750456
+      },
+      {
+        "name": "<loadResources>b__1",
+        "parameter_count": 1,
+        "token": "0x600002b",
+        "metadata_offset": 11750492
+      },
+      {
+        "name": "<loadResources>b__2",
+        "parameter_count": 1,
+        "token": "0x600002c",
+        "metadata_offset": 11750528
+      },
+      {
+        "name": "<loadResources>b__3",
+        "parameter_count": 1,
+        "token": "0x600002d",
+        "metadata_offset": 11750564
+      },
+      {
+        "name": "<loadResources>b__4",
+        "parameter_count": 1,
+        "token": "0x600002e",
+        "metadata_offset": 11750600
+      }
+    ],
+    "fields": [
+      "<>4__this",
+      "loadCallback"
+    ]
+  },
+  {
+    "image": "MonopolyLoca.dll",
+    "type_index": 22541,
+    "namespace": "",
+    "name": "<loadResources>d__18",
+    "metadata_offset": 20534748,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 1,
+        "token": "0x600002f",
+        "metadata_offset": 11750636
+      },
+      {
+        "name": "System.IDisposable.Dispose",
+        "parameter_count": 0,
+        "token": "0x6000030",
+        "metadata_offset": 11750672
+      },
+      {
+        "name": "MoveNext",
+        "parameter_count": 0,
+        "token": "0x6000031",
+        "metadata_offset": 11750708
+      },
+      {
+        "name": "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+        "parameter_count": 0,
+        "token": "0x6000032",
+        "metadata_offset": 11750744
+      },
+      {
+        "name": "System.Collections.IEnumerator.Reset",
+        "parameter_count": 0,
+        "token": "0x6000033",
+        "metadata_offset": 11750780
+      },
+      {
+        "name": "System.Collections.IEnumerator.get_Current",
+        "parameter_count": 0,
+        "token": "0x6000034",
+        "metadata_offset": 11750816
+      }
+    ],
+    "fields": [
+      "<>1__state",
+      "<>2__current",
+      "<>4__this",
+      "loadCallback"
+    ]
+  },
+  {
+    "image": "MonopolyLoca.dll",
+    "type_index": 22542,
+    "namespace": "",
+    "name": "RoadResManager",
+    "metadata_offset": 20534836,
+    "methods": [
+      {
+        "name": "getInstance",
+        "parameter_count": 0,
+        "token": "0x6000015",
+        "metadata_offset": 11749700
+      },
+      {
+        "name": "initLocalizationTxt",
+        "parameter_count": 0,
+        "token": "0x6000016",
+        "metadata_offset": 11749736
+      },
+      {
+        "name": "getText",
+        "parameter_count": 1,
+        "token": "0x6000017",
+        "metadata_offset": 11749772
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000018",
+        "metadata_offset": 11749808
+      },
+      {
+        "name": "getRewardCardSprite",
+        "parameter_count": 0,
+        "token": "0x6000019",
+        "metadata_offset": 11749844
+      },
+      {
+        "name": "getOwnColors",
+        "parameter_count": 0,
+        "token": "0x600001a",
+        "metadata_offset": 11749880
+      },
+      {
+        "name": "getBGColors",
+        "parameter_count": 0,
+        "token": "0x600001b",
+        "metadata_offset": 11749916
+      },
+      {
+        "name": "getIndexByName",
+        "parameter_count": 1,
+        "token": "0x600001c",
+        "metadata_offset": 11749952
+      },
+      {
+        "name": "LoadSprites",
+        "parameter_count": 1,
+        "token": "0x600001d",
+        "metadata_offset": 11749988
+      },
+      {
+        "name": "checkLoadComplete",
+        "parameter_count": 1,
+        "token": "0x600001e",
+        "metadata_offset": 11750024
+      },
+      {
+        "name": "loadResources",
+        "parameter_count": 1,
+        "token": "0x600001f",
+        "metadata_offset": 11750060
+      },
+      {
+        "name": "initRes",
+        "parameter_count": 0,
+        "token": "0x6000020",
+        "metadata_offset": 11750096
+      },
+      {
+        "name": "getResBean",
+        "parameter_count": 1,
+        "token": "0x6000021",
+        "metadata_offset": 11750132
+      },
+      {
+        "name": "release",
+        "parameter_count": 0,
+        "token": "0x6000022",
+        "metadata_offset": 11750168
+      }
+    ],
+    "fields": [
+      "manager",
+      "bgSprites",
+      "fgSprites",
+      "txtSprites",
+      "ownColorSprites",
+      "hasInit",
+      "rewardCard",
+      "loadCnt",
+      "resDictionary"
+    ]
+  },
+  {
+    "image": "MonopolyLoca.dll",
+    "type_index": 22543,
+    "namespace": "",
+    "name": "RoadResBean",
+    "metadata_offset": 20534924,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 3,
+        "token": "0x6000035",
+        "metadata_offset": 11750852
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 4,
+        "token": "0x6000036",
+        "metadata_offset": 11750888
+      },
+      {
+        "name": "isSpecialBlock",
+        "parameter_count": 0,
+        "token": "0x6000037",
+        "metadata_offset": 11750924
+      },
+      {
+        "name": "getBg",
+        "parameter_count": 0,
+        "token": "0x6000038",
+        "metadata_offset": 11750960
+      },
+      {
+        "name": "getTxt",
+        "parameter_count": 0,
+        "token": "0x6000039",
+        "metadata_offset": 11750996
+      },
+      {
+        "name": "getFg",
+        "parameter_count": 0,
+        "token": "0x600003a",
+        "metadata_offset": 11751032
+      }
+    ],
+    "fields": [
+      "bg",
+      "txt",
+      "fg",
+      "specialBlock"
+    ]
+  },
+  {
+    "image": "GoldDragonLocal.dll",
+    "type_index": 22720,
+    "namespace": "",
+    "name": "<Module>",
+    "metadata_offset": 20550500,
+    "methods": [],
+    "fields": []
+  },
+  {
+    "image": "GoldDragonLocal.dll",
+    "type_index": 22721,
+    "namespace": "",
+    "name": "G_DragonRoomInfoModel",
+    "metadata_offset": 20550588,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000001",
+        "metadata_offset": 11773964
+      }
+    ],
+    "fields": [
+      "hot",
+      "onLineCount",
+      "rootName",
+      "rootId",
+      "isMute",
+      "unReadCount",
+      "isCloseMic",
+      "navMargin",
+      "tabbarMargin"
+    ]
+  },
+  {
+    "image": "GoldDragonLocal.dll",
+    "type_index": 22722,
+    "namespace": "",
+    "name": "<>c",
+    "metadata_offset": 20550676,
+    "methods": [
+      {
+        "name": ".cctor",
+        "parameter_count": 0,
+        "token": "0x6000009",
+        "metadata_offset": 11774252
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x600000a",
+        "metadata_offset": 11774288
+      },
+      {
+        "name": "<Awake>b__9_0",
+        "parameter_count": 0,
+        "token": "0x600000b",
+        "metadata_offset": 11774324
+      },
+      {
+        "name": "<Awake>b__9_1",
+        "parameter_count": 0,
+        "token": "0x600000c",
+        "metadata_offset": 11774360
+      },
+      {
+        "name": "<Awake>b__9_2",
+        "parameter_count": 0,
+        "token": "0x600000d",
+        "metadata_offset": 11774396
+      },
+      {
+        "name": "<Awake>b__9_5",
+        "parameter_count": 0,
+        "token": "0x600000e",
+        "metadata_offset": 11774432
+      },
+      {
+        "name": "<Awake>b__9_6",
+        "parameter_count": 0,
+        "token": "0x600000f",
+        "metadata_offset": 11774468
+      }
+    ],
+    "fields": [
+      "<>9",
+      "<>9__9_0",
+      "<>9__9_1",
+      "<>9__9_2",
+      "<>9__9_5",
+      "<>9__9_6"
+    ]
+  },
+  {
+    "image": "GoldDragonLocal.dll",
+    "type_index": 22723,
+    "namespace": "",
+    "name": "G_DragonBottomBarController",
+    "metadata_offset": 20550764,
+    "methods": [
+      {
+        "name": "Awake",
+        "parameter_count": 0,
+        "token": "0x6000002",
+        "metadata_offset": 11774000
+      },
+      {
+        "name": "downLoadScenesStyle",
+        "parameter_count": 0,
+        "token": "0x6000003",
+        "metadata_offset": 11774036
+      },
+      {
+        "name": "onLoadRoomInfo",
+        "parameter_count": 3,
+        "token": "0x6000004",
+        "metadata_offset": 11774072
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000005",
+        "metadata_offset": 11774108
+      },
+      {
+        "name": "<Awake>b__9_3",
+        "parameter_count": 0,
+        "token": "0x6000006",
+        "metadata_offset": 11774144
+      },
+      {
+        "name": "<Awake>b__9_4",
+        "parameter_count": 0,
+        "token": "0x6000007",
+        "metadata_offset": 11774180
+      },
+      {
+        "name": "<Awake>b__9_7",
+        "parameter_count": 1,
+        "token": "0x6000008",
+        "metadata_offset": 11774216
+      }
+    ],
+    "fields": [
+      "micBtn",
+      "msgBtn",
+      "msgBigBtn",
+      "closeGameBtn",
+      "micUpBtn",
+      "setPanelBtn",
+      "giftBtn",
+      "upDownMicAction",
+      "closeAction"
+    ]
+  },
+  {
+    "image": "GoldDragonLocal.dll",
+    "type_index": 22724,
+    "namespace": "",
+    "name": "<LoadScene>d__13",
+    "metadata_offset": 20550852,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 1,
+        "token": "0x600001e",
+        "metadata_offset": 11775008
+      },
+      {
+        "name": "System.IDisposable.Dispose",
+        "parameter_count": 0,
+        "token": "0x600001f",
+        "metadata_offset": 11775044
+      },
+      {
+        "name": "MoveNext",
+        "parameter_count": 0,
+        "token": "0x6000020",
+        "metadata_offset": 11775080
+      },
+      {
+        "name": "System.Collections.Generic.IEnumerator<System.Object>.get_Current",
+        "parameter_count": 0,
+        "token": "0x6000021",
+        "metadata_offset": 11775116
+      },
+      {
+        "name": "System.Collections.IEnumerator.Reset",
+        "parameter_count": 0,
+        "token": "0x6000022",
+        "metadata_offset": 11775152
+      },
+      {
+        "name": "System.Collections.IEnumerator.get_Current",
+        "parameter_count": 0,
+        "token": "0x6000023",
+        "metadata_offset": 11775188
+      }
+    ],
+    "fields": [
+      "<>1__state",
+      "<>2__current",
+      "<>4__this"
+    ]
+  },
+  {
+    "image": "GoldDragonLocal.dll",
+    "type_index": 22725,
+    "namespace": "",
+    "name": "G_DragonDownloadAsset",
+    "metadata_offset": 20550940,
+    "methods": [
+      {
+        "name": "updateResoures",
+        "parameter_count": 0,
+        "token": "0x6000010",
+        "metadata_offset": 11774504
+      },
+      {
+        "name": "Update",
+        "parameter_count": 0,
+        "token": "0x6000011",
+        "metadata_offset": 11774540
+      },
+      {
+        "name": "Start",
+        "parameter_count": 0,
+        "token": "0x6000012",
+        "metadata_offset": 11774576
+      },
+      {
+        "name": "OnError",
+        "parameter_count": 1,
+        "token": "0x6000013",
+        "metadata_offset": 11774612
+      },
+      {
+        "name": "EnterGame",
+        "parameter_count": 0,
+        "token": "0x6000014",
+        "metadata_offset": 11774648
+      },
+      {
+        "name": "LoadScene",
+        "parameter_count": 0,
+        "token": "0x6000015",
+        "metadata_offset": 11774684
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000016",
+        "metadata_offset": 11774720
+      },
+      {
+        "name": "<updateResoures>b__6_0",
+        "parameter_count": 1,
+        "token": "0x6000017",
+        "metadata_offset": 11774756
+      },
+      {
+        "name": "<updateResoures>b__6_1",
+        "parameter_count": 1,
+        "token": "0x6000018",
+        "metadata_offset": 11774792
+      },
+      {
+        "name": "<updateResoures>b__6_2",
+        "parameter_count": 0,
+        "token": "0x6000019",
+        "metadata_offset": 11774828
+      },
+      {
+        "name": "<Start>b__8_0",
+        "parameter_count": 1,
+        "token": "0x600001a",
+        "metadata_offset": 11774864
+      },
+      {
+        "name": "<Start>b__8_1",
+        "parameter_count": 0,
+        "token": "0x600001b",
+        "metadata_offset": 11774900
+      },
+      {
+        "name": "<EnterGame>b__11_0",
+        "parameter_count": 1,
+        "token": "0x600001c",
+        "metadata_offset": 11774936
+      },
+      {
+        "name": "<LoadScene>b__13_0",
+        "parameter_count": 1,
+        "token": "0x600001d",
+        "metadata_offset": 11774972
+      }
+    ],
+    "fields": [
+      "retryBtn",
+      "loadingBg",
+      "loadingProgrees",
+      "loadingIcon",
+      "bottomBarCS",
+      "navBarCS",
+      "hasAndroidLoad",
+      "handle"
+    ]
+  },
+  {
+    "image": "GoldDragonLocal.dll",
+    "type_index": 22726,
+    "namespace": "",
+    "name": "<>c",
+    "metadata_offset": 20551028,
+    "methods": [
+      {
+        "name": ".cctor",
+        "parameter_count": 0,
+        "token": "0x600002a",
+        "metadata_offset": 11775440
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x600002b",
+        "metadata_offset": 11775476
+      },
+      {
+        "name": "<Awake>b__11_0",
+        "parameter_count": 0,
+        "token": "0x600002c",
+        "metadata_offset": 11775512
+      },
+      {
+        "name": "<Awake>b__11_1",
+        "parameter_count": 0,
+        "token": "0x600002d",
+        "metadata_offset": 11775548
+      },
+      {
+        "name": "<Awake>b__11_2",
+        "parameter_count": 0,
+        "token": "0x600002e",
+        "metadata_offset": 11775584
+      },
+      {
+        "name": "<Awake>b__11_3",
+        "parameter_count": 0,
+        "token": "0x600002f",
+        "metadata_offset": 11775620
+      },
+      {
+        "name": "<Awake>b__11_4",
+        "parameter_count": 0,
+        "token": "0x6000030",
+        "metadata_offset": 11775656
+      },
+      {
+        "name": "<Awake>b__11_5",
+        "parameter_count": 0,
+        "token": "0x6000031",
+        "metadata_offset": 11775692
+      },
+      {
+        "name": "<Rel>b__14_0",
+        "parameter_count": 1,
+        "token": "0x6000032",
+        "metadata_offset": 11775728
+      }
+    ],
+    "fields": [
+      "<>9",
+      "<>9__11_0",
+      "<>9__11_1",
+      "<>9__11_2",
+      "<>9__11_3",
+      "<>9__11_4",
+      "<>9__11_5",
+      "<>9__14_0"
+    ]
+  },
+  {
+    "image": "GoldDragonLocal.dll",
+    "type_index": 22727,
+    "namespace": "",
+    "name": "<>c__DisplayClass14_0",
+    "metadata_offset": 20551116,
+    "methods": [
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000033",
+        "metadata_offset": 11775764
+      },
+      {
+        "name": "<Rel>b__1",
+        "parameter_count": 1,
+        "token": "0x6000034",
+        "metadata_offset": 11775800
+      }
+    ],
+    "fields": [
+      "resource",
+      "unit"
+    ]
+  },
+  {
+    "image": "GoldDragonLocal.dll",
+    "type_index": 22728,
+    "namespace": "",
+    "name": "G_DragonNavController",
+    "metadata_offset": 20551204,
+    "methods": [
+      {
+        "name": "Awake",
+        "parameter_count": 0,
+        "token": "0x6000024",
+        "metadata_offset": 11775224
+      },
+      {
+        "name": "loadRound",
+        "parameter_count": 1,
+        "token": "0x6000025",
+        "metadata_offset": 11775260
+      },
+      {
+        "name": "SetTextWithEllipsis",
+        "parameter_count": 2,
+        "token": "0x6000026",
+        "metadata_offset": 11775296
+      },
+      {
+        "name": "Rel",
+        "parameter_count": 1,
+        "token": "0x6000027",
+        "metadata_offset": 11775332
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 0,
+        "token": "0x6000028",
+        "metadata_offset": 11775368
+      },
+      {
+        "name": "<Awake>b__11_6",
+        "parameter_count": 1,
+        "token": "0x6000029",
+        "metadata_offset": 11775404
+      }
+    ],
+    "fields": [
+      "backBtn",
+      "moreBtn",
+      "msgBtn",
+      "muteBtn",
+      "hotLB",
+      "onlineLB",
+      "roomNameLB",
+      "roomIDLB",
+      "readPoint",
+      "roundBg",
+      "roundText"
+    ]
+  },
+  {
+    "image": "HybridCLR.Runtime.dll",
+    "type_index": 22938,
+    "namespace": "",
+    "name": "<Module>",
+    "metadata_offset": 20569684,
+    "methods": [],
+    "fields": []
+  },
+  {
+    "image": "HybridCLR.Runtime.dll",
+    "type_index": 22939,
+    "namespace": "HybridCLR",
+    "name": "HomologousImageMode",
+    "metadata_offset": 20569772,
+    "methods": [],
+    "fields": [
+      "value__",
+      "Consistent",
+      "SuperSet"
+    ]
+  },
+  {
+    "image": "HybridCLR.Runtime.dll",
+    "type_index": 22940,
+    "namespace": "HybridCLR",
+    "name": "LoadImageErrorCode",
+    "metadata_offset": 20569860,
+    "methods": [],
+    "fields": [
+      "value__",
+      "OK",
+      "BAD_IMAGE",
+      "NOT_IMPLEMENT",
+      "AOT_ASSEMBLY_NOT_FIND",
+      "HOMOLOGOUS_ONLY_SUPPORT_AOT_ASSEMBLY",
+      "HOMOLOGOUS_ASSEMBLY_HAS_LOADED",
+      "INVALID_HOMOLOGOUS_MODE",
+      "PDB_BAD_FILE"
+    ]
+  },
+  {
+    "image": "HybridCLR.Runtime.dll",
+    "type_index": 22941,
+    "namespace": "HybridCLR",
+    "name": "ReversePInvokeWrapperGenerationAttribute",
+    "metadata_offset": 20569948,
+    "methods": [
+      {
+        "name": "get_ReserveWrapperCount",
+        "parameter_count": 0,
+        "token": "0x6000001",
+        "metadata_offset": 11800892
+      },
+      {
+        "name": ".ctor",
+        "parameter_count": 1,
+        "token": "0x6000002",
+        "metadata_offset": 11800928
+      }
+    ],
+    "fields": [
+      "<ReserveWrapperCount>k__BackingField"
+    ]
+  },
+  {
+    "image": "HybridCLR.Runtime.dll",
+    "type_index": 22942,
+    "namespace": "HybridCLR",
+    "name": "RuntimeApi",
+    "metadata_offset": 20570036,
+    "methods": [
+      {
+        "name": "LoadMetadataForAOTAssembly",
+        "parameter_count": 2,
+        "token": "0x6000003",
+        "metadata_offset": 11800964
+      },
+      {
+        "name": "GetInterpreterThreadObjectStackSize",
+        "parameter_count": 0,
+        "token": "0x6000004",
+        "metadata_offset": 11801000
+      },
+      {
+        "name": "SetInterpreterThreadObjectStackSize",
+        "parameter_count": 1,
+        "token": "0x6000005",
+        "metadata_offset": 11801036
+      },
+      {
+        "name": "GetInterpreterThreadFrameStackSize",
+        "parameter_count": 0,
+        "token": "0x6000006",
+        "metadata_offset": 11801072
+      },
+      {
+        "name": "SetInterpreterThreadFrameStackSize",
+        "parameter_count": 1,
+        "token": "0x6000007",
+        "metadata_offset": 11801108
+      },
+      {
+        "name": "SetRuntimeOption",
+        "parameter_count": 2,
+        "token": "0x6000008",
+        "metadata_offset": 11801144
+      },
+      {
+        "name": "GetRuntimeOption",
+        "parameter_count": 1,
+        "token": "0x6000009",
+        "metadata_offset": 11801180
+      }
+    ],
+    "fields": []
+  },
+  {
+    "image": "HybridCLR.Runtime.dll",
+    "type_index": 22943,
+    "namespace": "HybridCLR",
+    "name": "RuntimeOptionId",
+    "metadata_offset": 20570124,
+    "methods": [],
+    "fields": [
+      "value__",
+      "InterpreterThreadObjectStackSize",
+      "InterpreterThreadFrameStackSize",
+      "ThreadExceptionFlowSize"
+    ]
+  }
+]

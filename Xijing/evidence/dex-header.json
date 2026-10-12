@@ -1,0 +1,1551 @@
+{
+  "artifact_path": "/private/tmp/rea-xijing-20261012/xijing.apk",
+  "member": "classes.dex",
+  "member_bytes": 62114360,
+  "member_sha256": "4ebc7605c1e626b7a66518002be9ddb6bbe99d885b052691bd422a858fae8a9b",
+  "magic_hex": "6465780a30333500",
+  "fixed_header": {
+    "file_size": 62114360,
+    "header_size": 112,
+    "endian_tag": 305419896,
+    "link_size": 0,
+    "link_off": 0,
+    "map_off": 102372,
+    "string_ids_size": 2021,
+    "string_ids_off": 112,
+    "type_ids_size": 133,
+    "type_ids_off": 8196,
+    "proto_ids_size": 836,
+    "proto_ids_off": 8728,
+    "field_ids_size": 75,
+    "field_ids_off": 18760,
+    "method_ids_size": 1138,
+    "method_ids_off": 19360,
+    "class_defs_size": 30,
+    "class_defs_off": 28464,
+    "data_size": 73144,
+    "data_off": 29424
+  },
+  "declared_file_size_difference": 0,
+  "trailing_bytes_after_declared_file_size": 0,
+  "dex_magic_candidates": [
+    {
+      "offset": 0,
+      "magic_hex": "6465780a30333500",
+      "fixed_header": {
+        "file_size": 62114360,
+        "header_size": 112,
+        "endian_tag": 305419896,
+        "link_size": 0,
+        "link_off": 0,
+        "map_off": 102372,
+        "string_ids_size": 2021,
+        "string_ids_off": 112,
+        "type_ids_size": 133,
+        "type_ids_off": 8196,
+        "proto_ids_size": 836,
+        "proto_ids_off": 8728,
+        "field_ids_size": 75,
+        "field_ids_off": 18760,
+        "method_ids_size": 1138,
+        "method_ids_off": 19360,
+        "class_defs_size": 30,
+        "class_defs_off": 28464,
+        "data_size": 73144,
+        "data_off": 29424
+      },
+      "fixed_header_range_checks": [],
+      "candidate_status": "passes limited fixed-header checks",
+      "sha1_signature_matches": true,
+      "adler32_matches": true
+    }
+  ],
+  "limitations": [
+    "Only DEX fixed header, table range and checksum checks; no class/code interpretation or APK execution.",
+    "Trailing bytes and embedded magic matches do not establish an encrypted payload, decryptability, original business code, or reachability."
+  ],
+  "map_list": [
+    {
+      "type": 0,
+      "unused": 0,
+      "size": 1,
+      "offset": 0
+    },
+    {
+      "type": 1,
+      "unused": 0,
+      "size": 2021,
+      "offset": 112
+    },
+    {
+      "type": 2,
+      "unused": 0,
+      "size": 133,
+      "offset": 8196
+    },
+    {
+      "type": 3,
+      "unused": 0,
+      "size": 836,
+      "offset": 8728
+    },
+    {
+      "type": 4,
+      "unused": 0,
+      "size": 75,
+      "offset": 18760
+    },
+    {
+      "type": 5,
+      "unused": 0,
+      "size": 1138,
+      "offset": 19360
+    },
+    {
+      "type": 6,
+      "unused": 0,
+      "size": 30,
+      "offset": 28464
+    },
+    {
+      "type": 8194,
+      "unused": 0,
+      "size": 2021,
+      "offset": 29424
+    },
+    {
+      "type": 4097,
+      "unused": 0,
+      "size": 565,
+      "offset": 58344
+    },
+    {
+      "type": 8197,
+      "unused": 0,
+      "size": 8,
+      "offset": 69110
+    },
+    {
+      "type": 8196,
+      "unused": 0,
+      "size": 2,
+      "offset": 69173
+    },
+    {
+      "type": 4099,
+      "unused": 0,
+      "size": 4,
+      "offset": 69188
+    },
+    {
+      "type": 8198,
+      "unused": 0,
+      "size": 1,
+      "offset": 69212
+    },
+    {
+      "type": 8193,
+      "unused": 0,
+      "size": 143,
+      "offset": 69236
+    },
+    {
+      "type": 8192,
+      "unused": 0,
+      "size": 30,
+      "offset": 98278
+    },
+    {
+      "type": 4096,
+      "unused": 0,
+      "size": 1,
+      "offset": 102372
+    }
+  ],
+  "declared_data_end": 102568,
+  "bytes_after_declared_data_section": 62011792,
+  "post_data_prefix_64_hex": "fdbde8e1ca000000579253e09e801d683b0863a9908bcf31688f5d636abcb995403c9d05f544904559fbbfe562b17cfa4a0c47e5cb0636ea9e28dab2084b5339",
+  "member_suffix_64_hex": "362b390005200000ea000000b3533c0003100000c00a000054923c000210000003000000cc073d00062000008b070000e8073d00001000000100000020193e00",
+  "asset_header_inventory": [
+    {
+      "path": "assets/dexopt/baseline.prof",
+      "bytes": 4873,
+      "prefix_16_hex": "70726f00303130000859c60100f81200",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/dexopt/baseline.profm",
+      "bytes": 539,
+      "prefix_16_hex": "70726d00303032000800590400000902",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/PLACEHOLDER",
+      "bytes": 8,
+      "prefix_16_hex": "696e636c7564650a",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/amin_read_default.pag",
+      "bytes": 779,
+      "prefix_16_hex": "504147010203000055f407e09a9ca59f",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/anim_drift_bottle.pag",
+      "bytes": 138169,
+      "prefix_16_hex": "50414701b01b020055f40790c3e7c4cb",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/anim_drift_home_star.pag",
+      "bytes": 380927,
+      "prefix_16_hex": "50414701f6cf050055f4078089eccecb",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/anim_drift_love.pag",
+      "bytes": 8828,
+      "prefix_16_hex": "504147017322000055f407f0deacbcad",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/anim_frag_gift.pag",
+      "bytes": 1615,
+      "prefix_16_hex": "504147014606000055f507a097bde7b3",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/aria_config.xml",
+      "bytes": 7130,
+      "prefix_16_hex": "3c3f786d6c2076657273696f6e3d2231",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/audio/audio_mute.mp3",
+      "bytes": 1413,
+      "prefix_16_hex": "49443304000000000023545353450000",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/audio/turntable_music.mp3",
+      "bytes": 121049,
+      "prefix_16_hex": "49443303000000000028545353450000",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/audio_wolf_all_voice.mp3",
+      "bytes": 122512,
+      "prefix_16_hex": "49443303000000000028545353450000",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/audio_wolf_day_coming.mp3",
+      "bytes": 122512,
+      "prefix_16_hex": "49443303000000000028545353450000",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/audio_wolf_game_end.mp3",
+      "bytes": 15152,
+      "prefix_16_hex": "49443303000000000016000000000000",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/audio_wolf_good_win.mp3",
+      "bytes": 31136,
+      "prefix_16_hex": "49443303000000000016000000000000",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/audio_wolf_rob_role.mp3",
+      "bytes": 45392,
+      "prefix_16_hex": "49443303000000000016000000000000",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/audio_wolf_skill_voice.MP3",
+      "bytes": 38920,
+      "prefix_16_hex": "49443303000000000028545353450000",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/audio_wolf_start_voting.mp3",
+      "bytes": 24656,
+      "prefix_16_hex": "49443303000000000016000000000000",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/audio_wolf_wolf_voice.mp3",
+      "bytes": 86432,
+      "prefix_16_hex": "49443303000000000016000000000000",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/audio_wolf_wolf_win.mp3",
+      "bytes": 33728,
+      "prefix_16_hex": "49443303000000000016000000000000",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/broadcast_progress.json",
+      "bytes": 7058,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/btn_voice_play.json",
+      "bytes": 7244,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/bubble_new.pag",
+      "bytes": 1846,
+      "prefix_16_hex": "504147012d07000055f5079099c9cc9f",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/call.bnf",
+      "bytes": 313,
+      "prefix_16_hex": "23424e462b49415420312e3020555446",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/capsule_bottle.pag",
+      "bytes": 247031,
+      "prefix_16_hex": "50414701eec4030055f40780efa0dccb",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/capsule_bottle_tips.pag",
+      "bytes": 30998,
+      "prefix_16_hex": "504147010d79000055f407a09684bba6",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/clap_button_prompt.pag",
+      "bytes": 10586,
+      "prefix_16_hex": "504147015129000055f507a0e5adcfe2",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/collaboration_home_heart.pag",
+      "bytes": 296954,
+      "prefix_16_hex": "50414701f187040055f407d0a9cc94a0",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/collaboration_love_lamp.pag",
+      "bytes": 467555,
+      "prefix_16_hex": "504147015a22070055f407a0b2f6beae",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/collaboration_matchmaking.json",
+      "bytes": 17100,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/collection_dub_video_animation.json",
+      "bytes": 11825,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/collection_dub_video_animation_night.json",
+      "bytes": 11792,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/collection_video_white_animation.json",
+      "bytes": 11962,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/coloured_ribbon.mp4",
+      "bytes": 287537,
+      "prefix_16_hex": "000000206674797069736f6d00000200",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/com.piaxiya.app.cert.pem",
+      "bytes": 1992,
+      "prefix_16_hex": "2d2d2d2d2d424547494e204345525449",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/confession_starlight.json",
+      "bytes": 13969,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/dramafan_send_gift.json",
+      "bytes": 1749145,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/dramafan_small_fish.json",
+      "bytes": 354357,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/drift_bottom_special_time.mp4",
+      "bytes": 512814,
+      "prefix_16_hex": "000000206674797069736f6d00000200",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/drift_chat_star.json",
+      "bytes": 360058,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/drift_home_fish_v2.mp4",
+      "bytes": 381989,
+      "prefix_16_hex": "000000206674797069736f6d00000200",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/drift_remove_bottle.pag",
+      "bytes": 47980,
+      "prefix_16_hex": "5041470163bb000055f407f0c49cd6da",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/drift_starlight.mp4",
+      "bytes": 17453,
+      "prefix_16_hex": "000000206674797069736f6d00000200",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/drift_throw.pag",
+      "bytes": 80345,
+      "prefix_16_hex": "50414701d039010055f40780c593b8da",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/dub_home_btn_bg.json",
+      "bytes": 1078411,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/emoji/emoji.xml",
+      "bytes": 13010,
+      "prefix_16_hex": "3c3f786d6c2076657273696f6e3d2231",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/emoji/xj_emoji.xml",
+      "bytes": 5163,
+      "prefix_16_hex": "3c3f786d6c2076657273696f6e3d2231",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/exposure_video_animation.json",
+      "bytes": 5011,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/face_blink_eyes.wav",
+      "bytes": 117708,
+      "prefix_16_hex": "52494646c4cb010057415645666d7420",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/face_open_mouth.wav",
+      "bytes": 104220,
+      "prefix_16_hex": "524946461497010057415645666d7420",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/face_turn_head_to_left.wav",
+      "bytes": 189614,
+      "prefix_16_hex": "52494646a6e4020057415645666d7420",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/face_turn_head_to_right.wav",
+      "bytes": 176660,
+      "prefix_16_hex": "524946460cb2020057415645666d7420",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/five_seconds_countdown.pag",
+      "bytes": 15826,
+      "prefix_16_hex": "50414701c93d000055f507d0aac3ecef",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/game_failure_prompt.mp3",
+      "bytes": 48945,
+      "prefix_16_hex": "49443304000000000023545353450000",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/game_victory_sound_effect.mp3",
+      "bytes": 33062,
+      "prefix_16_hex": "49443304000000000023545353450000",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/grammar_sample.abnf",
+      "bytes": 158,
+      "prefix_16_hex": "2341424e4620312e30205554462d383b",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/grs_sdk_global_route_config_opendevicesdk.json",
+      "bytes": 7356,
+      "prefix_16_hex": "7b0a20202020226170706c6963617469",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/grs_sdk_global_route_config_opensdkService.json",
+      "bytes": 10277,
+      "prefix_16_hex": "7b0d0a20202020226170706c69636174",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/grs_sdk_server_config.json",
+      "bytes": 370,
+      "prefix_16_hex": "7b0a2020226772735f73657276657222",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/grs_sp.bks",
+      "bytes": 1470,
+      "prefix_16_hex": "0000000200000014458e3bef5e09a5eb",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/hmsincas.bks",
+      "bytes": 3670,
+      "prefix_16_hex": "0000000200000014ca5dbd0f9d823f0d",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/hmsrootcas.bks",
+      "bytes": 34118,
+      "prefix_16_hex": "00000002000000144dc8cdffdb5ed6b4",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/home_broadcast_mic_female.json",
+      "bytes": 202176,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/home_broadcast_mic_male.json",
+      "bytes": 202027,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/home_top_aim.json",
+      "bytes": 15400,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/home_top_anim.json",
+      "bytes": 15400,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/iattest.wav",
+      "bytes": 111360,
+      "prefix_16_hex": "52494646f8b2010057415645666d7420",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/ic_club_ding.json",
+      "bytes": 7356,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/identify_result_expand_prompt.json",
+      "bytes": 10666,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/identify_result_top.json",
+      "bytes": 69007,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/iflytek/recognize.xml",
+      "bytes": 2584,
+      "prefix_16_hex": "03000800180a000001001c0050020000",
+      "recognizable_container_magic": "Android binary XML"
+    },
+    {
+      "path": "assets/isetest.wav",
+      "bytes": 327680,
+      "prefix_16_hex": "52494646f8ff040057415645666d7420",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/keys",
+      "bytes": 10516,
+      "prefix_16_hex": "fffe3f96cc91715c999fc6802c00666d",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/like_dub_video_animation.json",
+      "bytes": 10685,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/like_dub_video_animation_night.json",
+      "bytes": 10652,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/like_dynamic_animation.json",
+      "bytes": 10704,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/like_dynamic_animation_dark.json",
+      "bytes": 10672,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/like_dynamic_animation_white.json",
+      "bytes": 10661,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/like_masked_animation.json",
+      "bytes": 113166,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/like_shell.pag",
+      "bytes": 36361,
+      "prefix_16_hex": "50414701008e000055f507c0f9dfc3c2",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/like_sound_island.json",
+      "bytes": 37225,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/like_video_white_animation.json",
+      "bytes": 11502,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/live_gift.json",
+      "bytes": 243203,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/live_random_room_in.pag",
+      "bytes": 338850,
+      "prefix_16_hex": "50414701992b050055f407d0c4e2ffff",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/live_random_room_out.mp4",
+      "bytes": 1822040,
+      "prefix_16_hex": "000000206674797069736f6d00000200",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/live_wedding_love.json",
+      "bytes": 1259110,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/login_anim.mp4",
+      "bytes": 3207155,
+      "prefix_16_hex": "000000206674797069736f6d00000200",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/main_tab_dub.json",
+      "bytes": 15043,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/main_tab_dub_dark.json",
+      "bytes": 15488,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/main_tab_home.json",
+      "bytes": 24220,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/main_tab_home_dark.json",
+      "bytes": 24108,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/main_tab_msg.json",
+      "bytes": 15780,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/main_tab_msg_dark.json",
+      "bytes": 15973,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/main_tab_my.json",
+      "bytes": 16417,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/main_tab_my_dark.json",
+      "bytes": 16532,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/main_tab_plaza.json",
+      "bytes": 13337,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/main_tab_plaza_dark.json",
+      "bytes": 13490,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/mandarin_sound_play.json",
+      "bytes": 11007,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/masked_home_anim.pag",
+      "bytes": 426246,
+      "prefix_16_hex": "50414701fd80060055f507c0a1d9bca9",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/masked_matching_anim.pag",
+      "bytes": 599940,
+      "prefix_16_hex": "504147017b27090055f407a0e8e897a2",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/matching_head_female_bmp.pag",
+      "bytes": 27952,
+      "prefix_16_hex": "50414701276d000055f407b097f0a6a2",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/matching_head_male_bmp.pag",
+      "bytes": 263866,
+      "prefix_16_hex": "50414701b106040055ff0783000000f0",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/mine_product_star.json",
+      "bytes": 50306,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/mobile.v2.29.2.html",
+      "bytes": 46068,
+      "prefix_16_hex": "3c21444f43545950452068746d6c3e0a",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/models/blink_mobilenetv2_sim_fp16.mnn",
+      "bytes": 156928,
+      "prefix_16_hex": "1c00000018001c000800000000000c00",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/models/detect.caffemodel",
+      "bytes": 965430,
+      "prefix_16_hex": "0a00a206220a04646174611205496e70",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/models/detect.prototxt",
+      "bytes": 42656,
+      "prefix_16_hex": "6c61796572207b0a20206e616d653a20",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/models/fd-quant.mnn",
+      "bytes": 316148,
+      "prefix_16_hex": "1c000000000016001800080000000000",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/models/mouth_gaze_mobilenetv2_sim_fp16.mnn",
+      "bytes": 158984,
+      "prefix_16_hex": "1c00000018001c000800000000000c00",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/models/sr.caffemodel",
+      "bytes": 23929,
+      "prefix_16_hex": "0a00a206220a04646174611205496e70",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/models/sr.prototxt",
+      "bytes": 5984,
+      "prefix_16_hex": "6c61796572207b0a20206e616d653a20",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/music_playing_anim.pag",
+      "bytes": 240376,
+      "prefix_16_hex": "50414701efaa030055f507e08c8dea95",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/nim/cacert",
+      "bytes": 213092,
+      "prefix_16_hex": "46466f46464527100b010900450a0345",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/nim/nim_keystore",
+      "bytes": 166,
+      "prefix_16_hex": "0000000030819f300d06092a864886f7",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/nim/nim_keystore2",
+      "bytes": 166,
+      "prefix_16_hex": "0000000030819f300d06092a864886f7",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/nim/rsa/r.jks",
+      "bytes": 174,
+      "prefix_16_hex": "00000000b08d00340000000030819f30",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/nim/rsa/t.jks",
+      "bytes": 174,
+      "prefix_16_hex": "000000008760e1670000000030819f30",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/nim/sm2/r.jks",
+      "bytes": 77,
+      "prefix_16_hex": "000000009b4f1d4b0000000004dd47b9",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/nim/sm2/t.jks",
+      "bytes": 77,
+      "prefix_16_hex": "000000003c2d34300000000004f1a239",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_audience_rubber_rotates.pag",
+      "bytes": 31901,
+      "prefix_16_hex": "50414701947c000055ff0bdc3c0000c8",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_audience_voice.pag",
+      "bytes": 170603,
+      "prefix_16_hex": "50414701629a020055bf0c229a0200e8",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_avatar_loading.pag",
+      "bytes": 10146,
+      "prefix_16_hex": "504147019927000055f507c0c3e0b1ad",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_bursting_light.pag",
+      "bytes": 87563,
+      "prefix_16_hex": "504147010256010055bf0cfa55010091",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_business_button.pag",
+      "bytes": 5030,
+      "prefix_16_hex": "504147019d13000055f50790e79cbbc3",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_chamber_mic_circle.pag",
+      "bytes": 537,
+      "prefix_16_hex": "504147011002000055f507b0b6bcb3d6",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_chamber_sound_wave.pag",
+      "bytes": 503,
+      "prefix_16_hex": "50414701ee01000055f507b0c4c792d6",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_chat_pendulum_swaying.pag",
+      "bytes": 1983,
+      "prefix_16_hex": "50414701b607000055f507c0ecbbca8b",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_chat_rotate_disk.pag",
+      "bytes": 11184,
+      "prefix_16_hex": "50414701a72b000055f507f099dfa9aa",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_chat_sound_wave.pag",
+      "bytes": 860,
+      "prefix_16_hex": "504147015303000055f507a081e2a9aa",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_chat_submit_homework.pag",
+      "bytes": 173927,
+      "prefix_16_hex": "504147015ea7020055f507e0d391e498",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_coconut_tree.pag",
+      "bytes": 4018,
+      "prefix_16_hex": "50414701a90f000055f507c0acc29a98",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_dialogue_dub_btn.pag",
+      "bytes": 67848,
+      "prefix_16_hex": "50414701ff08010055f407e09ed0c082",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_enter_theater.pag",
+      "bytes": 93044,
+      "prefix_16_hex": "504147016b6b010055bf0c2b6b0100e8",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_enter_word_progress.pag",
+      "bytes": 474604,
+      "prefix_16_hex": "50414701e33d070055bf0cdb3d07007f",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_enter_word_wave.pag",
+      "bytes": 1389,
+      "prefix_16_hex": "504147016405000055f70790afe9eeaf",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_hi_mic_circle.pag",
+      "bytes": 373,
+      "prefix_16_hex": "504147016c01000055f507d0c0a7b593",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_hi_room_hot.pag",
+      "bytes": 409,
+      "prefix_16_hex": "504147019001000055f507b08bd8b593",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_hi_song_progress.pag",
+      "bytes": 7181,
+      "prefix_16_hex": "50414701041c000055f507e0e2d6c9a1",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_hising_danmu.pag",
+      "bytes": 143396,
+      "prefix_16_hex": "504147011b30020055f507a0e6a8c7ce",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_hold_down_singing.pag",
+      "bytes": 295792,
+      "prefix_16_hex": "504147016783040055f5079093f1b6d5",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_hold_down_singing_btn.pag",
+      "bytes": 51183,
+      "prefix_16_hex": "50414701e6c7000055f507a08ca8bcd5",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_hold_down_sound_wave.pag",
+      "bytes": 215035,
+      "prefix_16_hex": "50414701f247030055f507e0ccc394d6",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_join_other_room.pag",
+      "bytes": 114935,
+      "prefix_16_hex": "50414701eec0010055bf0cafc00100e8",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_like_sound_island_home.pag",
+      "bytes": 47569,
+      "prefix_16_hex": "50414701c8b9000055f507c0dca6d8fe",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_like_sound_island_home_night.pag",
+      "bytes": 52380,
+      "prefix_16_hex": "5041470193cc000055f507e0a8ffeab2",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_loading_theater.pag",
+      "bytes": 45379,
+      "prefix_16_hex": "504147013ab1000055f707d0a3d8eeaf",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_login_ip.pag",
+      "bytes": 1178288,
+      "prefix_16_hex": "50414701a7fa110055ff07bf000000b0",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_lottery_ribbon.pag",
+      "bytes": 269666,
+      "prefix_16_hex": "50414701591d040055f507c0d0cba295",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_love.pag",
+      "bytes": 9548,
+      "prefix_16_hex": "504147014325000055bf0c3b250000d0",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_mentor_push_wave.pag",
+      "bytes": 169272,
+      "prefix_16_hex": "504147012f95020055f407b0c8eaf999",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_newbie_guide.pag",
+      "bytes": 9689,
+      "prefix_16_hex": "50414701d025000055f407c0f5b286f2",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_off_lights.pag",
+      "bytes": 17476,
+      "prefix_16_hex": "504147013b44000055f407a0f1a988eb",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_participation_button.pag",
+      "bytes": 43402,
+      "prefix_16_hex": "5041470181a9000055f707c099b1abb0",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_personal_room.pag",
+      "bytes": 509,
+      "prefix_16_hex": "50414701f401000055f407e097d3c7d6",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_pia_party_hall_bg.pag",
+      "bytes": 203267,
+      "prefix_16_hex": "50414701fa19030055f50780c2d2bb9a",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_pia_party_room_state.pag",
+      "bytes": 36633,
+      "prefix_16_hex": "50414701108f000055f5078087c98cd6",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_room_explore_timing_wave.pag",
+      "bytes": 7410,
+      "prefix_16_hex": "50414701e91c000055f407a085baf2bd",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_settlement_theater.pag",
+      "bytes": 90778,
+      "prefix_16_hex": "504147019162010055f707808edaeeaf",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_shining_nickname.pag",
+      "bytes": 150370,
+      "prefix_16_hex": "50414701594b020055ff07b500000080",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_sing_together_atmosphere.pag",
+      "bytes": 1008,
+      "prefix_16_hex": "50414701e703000055f50790d7cdadc9",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_singing_rating_result_ribbon.pag",
+      "bytes": 366951,
+      "prefix_16_hex": "504147015e99050055ff077e000000d0",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_sleep_speaking.pag",
+      "bytes": 751,
+      "prefix_16_hex": "50414701e602000055f407b0d1a08acc",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_sound_card_playing.pag",
+      "bytes": 407,
+      "prefix_16_hex": "504147018e01000055f407d0e78accf0",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_sound_wave.pag",
+      "bytes": 9016,
+      "prefix_16_hex": "504147012f23000055f507b08df2c280",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_sound_wave_night.pag",
+      "bytes": 6656,
+      "prefix_16_hex": "50414701f719000055f507d0e9bbd196",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_sound_wave_yellow.pag",
+      "bytes": 4041,
+      "prefix_16_hex": "50414701c00f000055f507809a97f2e0",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_training_partner_home_particles.pag",
+      "bytes": 683842,
+      "prefix_16_hex": "50414701396f0a0055bf0c316f0a009e",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_training_partner_home_start.pag",
+      "bytes": 448600,
+      "prefix_16_hex": "504147014fd8060055bf0c47d80600e1",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_training_partner_practice_guide.pag",
+      "bytes": 13058,
+      "prefix_16_hex": "50414701f932000055bf0cb9320000c7",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_training_partner_practice_recording.pag",
+      "bytes": 272143,
+      "prefix_16_hex": "504147010627040055bf0cc6260400ac",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_training_start_today.pag",
+      "bytes": 176540,
+      "prefix_16_hex": "5041470193b1020055f507f0b2cfa3d1",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_treasure_biography_header.pag",
+      "bytes": 966396,
+      "prefix_16_hex": "50414701f3be0e0055f507b0ddcef9b1",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_user_info_ribbons.pag",
+      "bytes": 950158,
+      "prefix_16_hex": "50414701857f0e0055ff078400000090",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_user_show_3d.pag",
+      "bytes": 13956,
+      "prefix_16_hex": "504147017b36000055f407a0f2ccd3b7",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_user_show_music.pag",
+      "bytes": 627,
+      "prefix_16_hex": "504147016a02000055f407e0f98bd3b7",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_user_show_shop.pag",
+      "bytes": 207394,
+      "prefix_16_hex": "50414701192a030055f407d0e2abbfeb",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_user_voice_bar.pag",
+      "bytes": 799,
+      "prefix_16_hex": "504147011603000055bf000b02000087",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_voice_playback.pag",
+      "bytes": 340,
+      "prefix_16_hex": "504147014b01000055f507a0fdc4e88b",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_voice_playback_night.pag",
+      "bytes": 334,
+      "prefix_16_hex": "504147014501000055f507909bbfecb0",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_word_ai_recognition.pag",
+      "bytes": 456,
+      "prefix_16_hex": "50414701bf01000055bf000701000023",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_word_entry_failed.pag",
+      "bytes": 275007,
+      "prefix_16_hex": "50414701363204005555000150696e67",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pag_word_entry_successful.pag",
+      "bytes": 223177,
+      "prefix_16_hex": "50414701c06703005555000150696e67",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/participating_button_bg.pag",
+      "bytes": 260594,
+      "prefix_16_hex": "50414701e9f9030055ff0783000000f0",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pia_exercise_record_btn.json",
+      "bytes": 3270800,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pia_new_gameplay_tips.json",
+      "bytes": 27724,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pic_error_742.zip",
+      "bytes": 22,
+      "prefix_16_hex": "504b0506000000000000000000000000",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/pinyin/index.dat",
+      "bytes": 41804,
+      "prefix_16_hex": "015f0042008f00f20119014d00000145",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/playback_progress_5.json",
+      "bytes": 32811,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/progress_100.pag",
+      "bytes": 33743,
+      "prefix_16_hex": "50414701c683000055f507d0bba9efac",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/province.json",
+      "bytes": 80011,
+      "prefix_16_hex": "5b0a202020207b0a2020202020202020",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/ranking_crown_sweep.pag",
+      "bytes": 25439,
+      "prefix_16_hex": "504147015663000055f507e0c3fee0ef",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/read_complete.json",
+      "bytes": 49849,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/shaders/fragment_shader_alpha_scale_es2.glsl",
+      "bytes": 1000,
+      "prefix_16_hex": "2376657273696f6e203130300a2f2f20",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/shaders/fragment_shader_copy_es2.glsl",
+      "bytes": 905,
+      "prefix_16_hex": "2376657273696f6e203130300a2f2f20",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/shaders/fragment_shader_hsl_es2.glsl",
+      "bytes": 2691,
+      "prefix_16_hex": "2376657273696f6e203130300a2f2f20",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/shaders/fragment_shader_lut_es2.glsl",
+      "bytes": 4769,
+      "prefix_16_hex": "2376657273696f6e203130300a2f2f20",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/shaders/fragment_shader_oetf_es3.glsl",
+      "bytes": 4404,
+      "prefix_16_hex": "2376657273696f6e203330302065730a",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/shaders/fragment_shader_separable_convolution_es2.glsl",
+      "bytes": 4879,
+      "prefix_16_hex": "2376657273696f6e203130300a2f2f20",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/shaders/fragment_shader_transformation_es2.glsl",
+      "bytes": 1110,
+      "prefix_16_hex": "2376657273696f6e203130300a2f2f20",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/shaders/fragment_shader_transformation_external_yuv_es3.glsl",
+      "bytes": 13312,
+      "prefix_16_hex": "2376657273696f6e203330302065730a",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/shaders/fragment_shader_transformation_hdr_internal_es3.glsl",
+      "bytes": 12670,
+      "prefix_16_hex": "2376657273696f6e203330302065730a",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/shaders/fragment_shader_transformation_sdr_external_es2.glsl",
+      "bytes": 5305,
+      "prefix_16_hex": "2376657273696f6e203130300a2f2f20",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/shaders/fragment_shader_transformation_sdr_internal_es2.glsl",
+      "bytes": 6680,
+      "prefix_16_hex": "2376657273696f6e203130300a2f2f20",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/shaders/fragment_shader_transformation_sdr_oetf_es2.glsl",
+      "bytes": 3316,
+      "prefix_16_hex": "2376657273696f6e203130300a2f2f20",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/shaders/fragment_shader_transformation_ultra_hdr_es3.glsl",
+      "bytes": 9642,
+      "prefix_16_hex": "2376657273696f6e203330302065730a",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/shaders/insert_overlay_fragment_shader_methods.glsl",
+      "bytes": 895,
+      "prefix_16_hex": "2f2f204d616e75616c6c7920696d706c",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/shaders/insert_ultra_hdr.glsl",
+      "bytes": 2828,
+      "prefix_16_hex": "2f2f205468652076616c756520697320",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/shaders/vertex_shader_thumbnail_strip_es2.glsl",
+      "bytes": 1197,
+      "prefix_16_hex": "2376657273696f6e203130300a2f2f20",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/shaders/vertex_shader_transformation_es2.glsl",
+      "bytes": 1164,
+      "prefix_16_hex": "2376657273696f6e203130300a2f2f20",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/shaders/vertex_shader_transformation_es3.glsl",
+      "bytes": 1156,
+      "prefix_16_hex": "2376657273696f6e203330302065730a",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/sign_flop.mp4",
+      "bytes": 548461,
+      "prefix_16_hex": "000000206674797069736f6d00000200",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/supplierconfig.json",
+      "bytes": 220,
+      "prefix_16_hex": "7b0a202022737570706c696572223a7b",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/userwords",
+      "bytes": 211,
+      "prefix_16_hex": "7b2275736572776f7264223a5b7b226e",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/voice.json",
+      "bytes": 7533,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/voice_emotion_anim.json",
+      "bytes": 59130,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/voice_emotion_square.json",
+      "bytes": 7416,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/voice_playing.json",
+      "bytes": 20321,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/voice_playing_white.json",
+      "bytes": 20069,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/voice_record.json",
+      "bytes": 232928,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/voice_record_anim.json",
+      "bytes": 269736,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/voice_record_anim_white.pag",
+      "bytes": 33843,
+      "prefix_16_hex": "504147012a84000055f507c0ecebaf87",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/xj_matching.json",
+      "bytes": 57543,
+      "prefix_16_hex": "7b2276223a22352e362e39222c226672",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/com.tencent.open.config.json",
+      "bytes": 56,
+      "prefix_16_hex": "7b0d0a0922436f6d6d6f6e5f74615f65",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/libwbsafeedit",
+      "bytes": 12132,
+      "prefix_16_hex": "7f454c46010101000000000000000000",
+      "recognizable_container_magic": "ELF"
+    },
+    {
+      "path": "assets/libwbsafeedit_64",
+      "bytes": 18344,
+      "prefix_16_hex": "7f454c46020101000000000000000000",
+      "recognizable_container_magic": "ELF"
+    },
+    {
+      "path": "assets/libwbsafeedit_x86",
+      "bytes": 15672,
+      "prefix_16_hex": "7f454c46010101000000000000000000",
+      "recognizable_container_magic": "ELF"
+    },
+    {
+      "path": "assets/libwbsafeedit_x86_64",
+      "bytes": 18168,
+      "prefix_16_hex": "7f454c46020101000000000000000000",
+      "recognizable_container_magic": "ELF"
+    },
+    {
+      "path": "assets/neasogg.ogg",
+      "bytes": 4121952,
+      "prefix_16_hex": "1eee5a960caa5d2a8a1fba870dd0e9aa",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/nedata.db",
+      "bytes": 74440,
+      "prefix_16_hex": "1eee5a9618aa5d2a821f36f2108fb305",
+      "recognizable_container_magic": null
+    },
+    {
+      "path": "assets/nedig.properties",
+      "bytes": 6421,
+      "prefix_16_hex": "6c59161f4c0a5056765d1b5448450d6a",
+      "recognizable_container_magic": null
+    }
+  ]
+}

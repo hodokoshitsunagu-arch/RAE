@@ -1,0 +1,519 @@
+[
+  {
+    "call_edge": {
+      "caller_token": "0x06000004",
+      "caller": "AddressableManager.Start",
+      "opcode": "callvirt",
+      "target_token": "0x0a000009",
+      "target_kind": "member-ref",
+      "target_name": "onEnterUnity"
+    },
+    "target_member_ref": {
+      "token": "0x0a000009",
+      "row_offset": 11696,
+      "parent_token": "0x0100000a",
+      "name": "onEnterUnity",
+      "signature": {
+        "raw_length": 5,
+        "raw_sha256": "80f166eb71d39bea12acc2acbaf04ebd2f663556116ceb60269537966ba8ae91",
+        "kind": "method",
+        "parse_status": "decoded",
+        "calling_convention": "default has-this",
+        "generic_parameter_count": null,
+        "parameter_count": 1,
+        "return_type": "bool",
+        "parameter_types": [
+          "valuetype:69"
+        ],
+        "field_type": null,
+        "issue": null
+      }
+    },
+    "caller_body": {
+      "file_offset": 748,
+      "il_size": 167,
+      "il_sha256": "3eb9b357d3015d858882d7a67622cbfcc663b7ce8adc5bb04d3746e7031a96c4",
+      "metadata_row_offset": 10340
+    }
+  },
+  {
+    "call_edge": {
+      "caller_token": "0x06000004",
+      "caller": "AddressableManager.Start",
+      "opcode": "callvirt",
+      "target_token": "0x0a000009",
+      "target_kind": "member-ref",
+      "target_name": "onEnterUnity"
+    },
+    "target_member_ref": {
+      "token": "0x0a000009",
+      "row_offset": 11696,
+      "parent_token": "0x0100000a",
+      "name": "onEnterUnity",
+      "signature": {
+        "raw_length": 5,
+        "raw_sha256": "80f166eb71d39bea12acc2acbaf04ebd2f663556116ceb60269537966ba8ae91",
+        "kind": "method",
+        "parse_status": "decoded",
+        "calling_convention": "default has-this",
+        "generic_parameter_count": null,
+        "parameter_count": 1,
+        "return_type": "bool",
+        "parameter_types": [
+          "valuetype:69"
+        ],
+        "field_type": null,
+        "issue": null
+      }
+    },
+    "caller_body": {
+      "file_offset": 748,
+      "il_size": 167,
+      "il_sha256": "3eb9b357d3015d858882d7a67622cbfcc663b7ce8adc5bb04d3746e7031a96c4",
+      "metadata_row_offset": 10340
+    }
+  },
+  {
+    "call_edge": {
+      "caller_token": "0x06000004",
+      "caller": "AddressableManager.Start",
+      "opcode": "call",
+      "target_token": "0x0600000c",
+      "target_kind": "method-def",
+      "target_name": "LoadAOTAssembly"
+    },
+    "target_member_ref": null,
+    "caller_body": {
+      "file_offset": 748,
+      "il_size": 167,
+      "il_sha256": "3eb9b357d3015d858882d7a67622cbfcc663b7ce8adc5bb04d3746e7031a96c4",
+      "metadata_row_offset": 10340
+    }
+  },
+  {
+    "call_edge": {
+      "caller_token": "0x06000004",
+      "caller": "AddressableManager.Start",
+      "opcode": "call",
+      "target_token": "0x06000002",
+      "target_kind": "method-def",
+      "target_name": "setRemoteUrl"
+    },
+    "target_member_ref": null,
+    "caller_body": {
+      "file_offset": 748,
+      "il_size": 167,
+      "il_sha256": "3eb9b357d3015d858882d7a67622cbfcc663b7ce8adc5bb04d3746e7031a96c4",
+      "metadata_row_offset": 10340
+    }
+  },
+  {
+    "call_edge": {
+      "caller_token": "0x06000005",
+      "caller": "AddressableManager.load",
+      "opcode": "call",
+      "target_token": "0x0a000019",
+      "target_kind": "member-ref",
+      "target_name": "CheckForCatalogUpdates"
+    },
+    "target_member_ref": {
+      "token": "0x0a000019",
+      "row_offset": 11792,
+      "parent_token": "0x01000020",
+      "name": "CheckForCatalogUpdates",
+      "signature": {
+        "raw_length": 12,
+        "raw_sha256": "465680ceebfb7a05bc07bd78a46ec5c96cff007c5a0e99c519487680fd4f5d72",
+        "kind": "unknown",
+        "parse_status": "unsupported",
+        "calling_convention": null,
+        "generic_parameter_count": null,
+        "parameter_count": null,
+        "return_type": null,
+        "parameter_types": [],
+        "field_type": null,
+        "issue": "unsupported element type 0x15"
+      }
+    },
+    "caller_body": {
+      "file_offset": 928,
+      "il_size": 122,
+      "il_sha256": "5b1c5419e17a705501997f2fb8f2c7e8c361136351b1cec75022a82e3d334321",
+      "metadata_row_offset": 10354
+    }
+  },
+  {
+    "call_edge": {
+      "caller_token": "0x06000005",
+      "caller": "AddressableManager.load",
+      "opcode": "call",
+      "target_token": "0x0a00001d",
+      "target_kind": "member-ref",
+      "target_name": "UpdateCatalogs"
+    },
+    "target_member_ref": {
+      "token": "0x0a00001d",
+      "row_offset": 11816,
+      "parent_token": "0x01000020",
+      "name": "UpdateCatalogs",
+      "signature": {
+        "raw_length": 19,
+        "raw_sha256": "e9b02f833273ad8b234509b916748c26f91eb7999021c8f63226fdabfc1edfe2",
+        "kind": "unknown",
+        "parse_status": "unsupported",
+        "calling_convention": null,
+        "generic_parameter_count": null,
+        "parameter_count": null,
+        "return_type": null,
+        "parameter_types": [],
+        "field_type": null,
+        "issue": "unsupported element type 0x15"
+      }
+    },
+    "caller_body": {
+      "file_offset": 928,
+      "il_size": 122,
+      "il_sha256": "5b1c5419e17a705501997f2fb8f2c7e8c361136351b1cec75022a82e3d334321",
+      "metadata_row_offset": 10354
+    }
+  },
+  {
+    "call_edge": {
+      "caller_token": "0x06000005",
+      "caller": "AddressableManager.load",
+      "opcode": "call",
+      "target_token": "0x06000006",
+      "target_kind": "method-def",
+      "target_name": "GetDownLoadSizeAndKeys"
+    },
+    "target_member_ref": null,
+    "caller_body": {
+      "file_offset": 928,
+      "il_size": 122,
+      "il_sha256": "5b1c5419e17a705501997f2fb8f2c7e8c361136351b1cec75022a82e3d334321",
+      "metadata_row_offset": 10354
+    }
+  },
+  {
+    "call_edge": {
+      "caller_token": "0x06000005",
+      "caller": "AddressableManager.load",
+      "opcode": "call",
+      "target_token": "0x06000007",
+      "target_kind": "method-def",
+      "target_name": "startDownload"
+    },
+    "target_member_ref": null,
+    "caller_body": {
+      "file_offset": 928,
+      "il_size": 122,
+      "il_sha256": "5b1c5419e17a705501997f2fb8f2c7e8c361136351b1cec75022a82e3d334321",
+      "metadata_row_offset": 10354
+    }
+  },
+  {
+    "call_edge": {
+      "caller_token": "0x06000006",
+      "caller": "AddressableManager.GetDownLoadSizeAndKeys",
+      "opcode": "call",
+      "target_token": "0x0a000023",
+      "target_kind": "member-ref",
+      "target_name": "LoadContentCatalogAsync"
+    },
+    "target_member_ref": {
+      "token": "0x0a000023",
+      "row_offset": 11852,
+      "parent_token": "0x01000020",
+      "name": "LoadContentCatalogAsync",
+      "signature": {
+        "raw_length": 11,
+        "raw_sha256": "287132177a476c5b762df8e780ce4329a8b1479f25fd539ba7e62e74d3b8f6f6",
+        "kind": "unknown",
+        "parse_status": "unsupported",
+        "calling_convention": null,
+        "generic_parameter_count": null,
+        "parameter_count": null,
+        "return_type": null,
+        "parameter_types": [],
+        "field_type": null,
+        "issue": "unsupported element type 0x15"
+      }
+    },
+    "caller_body": {
+      "file_offset": 1064,
+      "il_size": 159,
+      "il_sha256": "f301a36d349a4cf1d4311799a4f24de0f956d8a6d46949baf39b990d197ebcca",
+      "metadata_row_offset": 10368
+    }
+  },
+  {
+    "call_edge": {
+      "caller_token": "0x06000006",
+      "caller": "AddressableManager.GetDownLoadSizeAndKeys",
+      "opcode": "call",
+      "target_token": "0x0a000028",
+      "target_kind": "member-ref",
+      "target_name": "GetDownloadSizeAsync"
+    },
+    "target_member_ref": {
+      "token": "0x0a000028",
+      "row_offset": 11882,
+      "parent_token": "0x01000020",
+      "name": "GetDownloadSizeAsync",
+      "signature": {
+        "raw_length": 10,
+        "raw_sha256": "02003f12229212e8de963d96f6e24d5a009ca9f03aa93724873024123fc9776c",
+        "kind": "unknown",
+        "parse_status": "unsupported",
+        "calling_convention": null,
+        "generic_parameter_count": null,
+        "parameter_count": null,
+        "return_type": null,
+        "parameter_types": [],
+        "field_type": null,
+        "issue": "unsupported element type 0x15"
+      }
+    },
+    "caller_body": {
+      "file_offset": 1064,
+      "il_size": 159,
+      "il_sha256": "f301a36d349a4cf1d4311799a4f24de0f956d8a6d46949baf39b990d197ebcca",
+      "metadata_row_offset": 10368
+    }
+  },
+  {
+    "call_edge": {
+      "caller_token": "0x0600000a",
+      "caller": "AddressableManager.AddressableLoadCallback.onLoad",
+      "opcode": "call",
+      "target_token": "0x0600000b",
+      "target_kind": "method-def",
+      "target_name": "LoadScene"
+    },
+    "target_member_ref": null,
+    "caller_body": {
+      "file_offset": 1387,
+      "il_size": 62,
+      "il_sha256": "4f89b5223ff57a43fd5f6960ccfc3f4add835ce0bd3fa6f785191b8b7f2aeaf2",
+      "metadata_row_offset": 10424
+    }
+  },
+  {
+    "call_edge": {
+      "caller_token": "0x0600000a",
+      "caller": "AddressableManager.AddressableLoadCallback.onLoad",
+      "opcode": "call",
+      "target_token": "0x0600000b",
+      "target_kind": "method-def",
+      "target_name": "LoadScene"
+    },
+    "target_member_ref": null,
+    "caller_body": {
+      "file_offset": 1387,
+      "il_size": 62,
+      "il_sha256": "4f89b5223ff57a43fd5f6960ccfc3f4add835ce0bd3fa6f785191b8b7f2aeaf2",
+      "metadata_row_offset": 10424
+    }
+  },
+  {
+    "call_edge": {
+      "caller_token": "0x0600000c",
+      "caller": "AddressableManager.LoadAOTAssembly",
+      "opcode": "callvirt",
+      "target_token": "0x0a00003e",
+      "target_kind": "member-ref",
+      "target_name": "get_downloadHandler"
+    },
+    "target_member_ref": {
+      "token": "0x0a00003e",
+      "row_offset": 12014,
+      "parent_token": "0x0100002d",
+      "name": "get_downloadHandler",
+      "signature": {
+        "raw_length": 5,
+        "raw_sha256": "7ede0795c9f0c55e997449372ca4daee70dc95f1e6d73d6f5033a743f2befa5d",
+        "kind": "method",
+        "parse_status": "decoded",
+        "calling_convention": "default has-this",
+        "generic_parameter_count": null,
+        "parameter_count": 0,
+        "return_type": "class:201",
+        "parameter_types": [],
+        "field_type": null,
+        "issue": null
+      }
+    },
+    "caller_body": {
+      "file_offset": 1468,
+      "il_size": 263,
+      "il_sha256": "19be95cc3e6536953534be4b2c4d7f2bcb3b0e7f67b7568f5980f6f351e44a40",
+      "metadata_row_offset": 10452
+    }
+  },
+  {
+    "call_edge": {
+      "caller_token": "0x0600000c",
+      "caller": "AddressableManager.LoadAOTAssembly",
+      "opcode": "call",
+      "target_token": "0x0a000041",
+      "target_kind": "member-ref",
+      "target_name": "LoadMetadataForAOTAssembly"
+    },
+    "target_member_ref": {
+      "token": "0x0a000041",
+      "row_offset": 12032,
+      "parent_token": "0x01000033",
+      "name": "LoadMetadataForAOTAssembly",
+      "signature": {
+        "raw_length": 10,
+        "raw_sha256": "0236bb0b04ad22ebaeda2487ec12d33272aef1f5763a8c92fc0778c8225fbaf1",
+        "kind": "method",
+        "parse_status": "decoded",
+        "calling_convention": "default",
+        "generic_parameter_count": null,
+        "parameter_count": 2,
+        "return_type": "valuetype:209",
+        "parameter_types": [
+          "u1[]",
+          "valuetype:213"
+        ],
+        "field_type": null,
+        "issue": null
+      }
+    },
+    "caller_body": {
+      "file_offset": 1468,
+      "il_size": 263,
+      "il_sha256": "19be95cc3e6536953534be4b2c4d7f2bcb3b0e7f67b7568f5980f6f351e44a40",
+      "metadata_row_offset": 10452
+    }
+  },
+  {
+    "call_edge": {
+      "caller_token": "0x06000012",
+      "caller": "AddressableManager.<LoadScene>b__22_0",
+      "opcode": "call",
+      "target_token": "0x0a000053",
+      "target_kind": "member-ref",
+      "target_name": "UnloadSceneAsync"
+    },
+    "target_member_ref": {
+      "token": "0x0a000053",
+      "row_offset": 12140,
+      "parent_token": "0x0100003b",
+      "name": "UnloadSceneAsync",
+      "signature": {
+        "raw_length": 8,
+        "raw_sha256": "5029ab8cd925cad21e7b10bd3b8eceb418a6d2fad1d5eb1695ce52a35f902f49",
+        "kind": "method",
+        "parse_status": "decoded",
+        "calling_convention": "default",
+        "generic_parameter_count": null,
+        "parameter_count": 1,
+        "return_type": "class:241",
+        "parameter_types": [
+          "valuetype:233"
+        ],
+        "field_type": null,
+        "issue": null
+      }
+    },
+    "caller_body": {
+      "file_offset": 2229,
+      "il_size": 30,
+      "il_sha256": "e2f636d2f80325cdba8bfc9e5dbd52b08349659ac98da59cc1ac0fd1661614e1",
+      "metadata_row_offset": 10536
+    }
+  },
+  {
+    "call_edge": {
+      "caller_token": "0x06000015",
+      "caller": "<startDownload>d__16.MoveNext",
+      "opcode": "call",
+      "target_token": "0x0a000056",
+      "target_kind": "member-ref",
+      "target_name": "DownloadDependenciesAsync"
+    },
+    "target_member_ref": {
+      "token": "0x0a000056",
+      "row_offset": 12158,
+      "parent_token": "0x01000020",
+      "name": "DownloadDependenciesAsync",
+      "signature": {
+        "raw_length": 11,
+        "raw_sha256": "d9b96e58c39f2e2d6c30a2ce9038790f62430d0a93ea57d8d8572ccd1091963f",
+        "kind": "method",
+        "parse_status": "decoded",
+        "calling_convention": "default",
+        "generic_parameter_count": null,
+        "parameter_count": 3,
+        "return_type": "valuetype:17",
+        "parameter_types": [
+          "class:153",
+          "valuetype:249",
+          "bool"
+        ],
+        "field_type": null,
+        "issue": null
+      }
+    },
+    "caller_body": {
+      "file_offset": 2276,
+      "il_size": 315,
+      "il_sha256": "97dfb7f8aa0edfc718ae922523434b4b0fafa5b73ba1e0a55eb1e384f170432a",
+      "metadata_row_offset": 10578
+    }
+  },
+  {
+    "call_edge": {
+      "caller_token": "0x0600001b",
+      "caller": "<LoadScene>d__22.MoveNext",
+      "opcode": "call",
+      "target_token": "0x0a000061",
+      "target_kind": "member-ref",
+      "target_name": "LoadSceneAsync"
+    },
+    "target_member_ref": {
+      "token": "0x0a000061",
+      "row_offset": 12224,
+      "parent_token": "0x01000020",
+      "name": "LoadSceneAsync",
+      "signature": {
+        "raw_length": 14,
+        "raw_sha256": "714bdffcfe915ce5004704e95364711eac24b93eda12b52774bb6e90d9aaa6eb",
+        "kind": "unknown",
+        "parse_status": "unsupported",
+        "calling_convention": null,
+        "generic_parameter_count": null,
+        "parameter_count": null,
+        "return_type": null,
+        "parameter_types": [],
+        "field_type": null,
+        "issue": "unsupported element type 0x15"
+      }
+    },
+    "caller_body": {
+      "file_offset": 2636,
+      "il_size": 215,
+      "il_sha256": "356834d18ef34fd629083856afa01dc615730428e6580d6e12540db461dca336",
+      "metadata_row_offset": 10662
+    }
+  },
+  {
+    "call_edge": {
+      "caller_token": "0x0600001b",
+      "caller": "<LoadScene>d__22.MoveNext",
+      "opcode": "ldftn",
+      "target_token": "0x06000012",
+      "target_kind": "method-def",
+      "target_name": "<LoadScene>b__22_0"
+    },
+    "target_member_ref": null,
+    "caller_body": {
+      "file_offset": 2636,
+      "il_size": 215,
+      "il_sha256": "356834d18ef34fd629083856afa01dc615730428e6580d6e12540db461dca336",
+      "metadata_row_offset": 10662
+    }
+  }
+]

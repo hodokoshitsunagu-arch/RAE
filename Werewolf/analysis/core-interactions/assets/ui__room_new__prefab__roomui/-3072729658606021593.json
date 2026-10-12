@@ -1,0 +1,50 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2133065762788471047
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6621320037337097487
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5388727283169881753
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6984070154656974386
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3537790761711055195
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7608218803985613523
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2093262073596362531
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "newmoon_evnt",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

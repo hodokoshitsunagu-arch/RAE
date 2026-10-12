@@ -1,0 +1,44 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5830573453797869597
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8470415089256726701
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5583635175044141876
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3578583369900826273
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4539522797519568152
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3412016121487766867
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "room number",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

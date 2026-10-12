@@ -1,0 +1,86 @@
+[
+  {
+    "member": "assets/version.json",
+    "path": "/Users/mark/Projects/REA/Werewolf/analysis/extracted/version.json",
+    "size": 130,
+    "sha256": "6bafd22748c9101cfdd7ab63e6d1d16b0f6e10693cd77e891ece482af20017be",
+    "header": "7b0a20226275696c644e756d626572223a2036312c200a20"
+  },
+  {
+    "member": "assets/patchlist.json",
+    "path": "/Users/mark/Projects/REA/Werewolf/analysis/extracted/patchlist.json",
+    "size": 1265268,
+    "sha256": "46f4e9d792c068017a241611e11cc4ac183ddeb638fe081393963cb5debfe2cc",
+    "header": "7b0a2022636c69656e745f76657273696f6e223a2022322e"
+  },
+  {
+    "member": "assets/dynamicsPatchlist.json",
+    "path": "/Users/mark/Projects/REA/Werewolf/analysis/extracted/dynamicsPatchlist.json",
+    "size": 47693,
+    "sha256": "d20da6d5c7309447c98b10134531e048e88011d2bad548b5402ca97146dc82bf",
+    "header": "7b0a2022636c69656e745f76657273696f6e223a2022322e"
+  },
+  {
+    "member": "assets/Assembly.HotUpdate.dll",
+    "path": "/Users/mark/Projects/REA/Werewolf/analysis/extracted/Assembly.HotUpdate.dll",
+    "size": 36352,
+    "sha256": "11aea5e0cb49cd735c0fbc9c249d3e8696da0eeda49b92578c49c623898c3459",
+    "header": "4d5a90000300000004000000ffff0000b800000000000000"
+  },
+  {
+    "member": "assets/lua.pak",
+    "path": "/Users/mark/Projects/REA/Werewolf/analysis/extracted/lua.pak",
+    "size": 18211891,
+    "sha256": "a8cb69a38b0de5080eee4dbf6b2ee04277ae6544e789daa1e82020ddfba6899a",
+    "header": "504b030414000900080017a9ae5c903decfe25090000d012"
+  },
+  {
+    "member": "assets/luaconfig.pak",
+    "path": "/Users/mark/Projects/REA/Werewolf/analysis/extracted/luaconfig.pak",
+    "size": 7068159,
+    "sha256": "c5254f5bc06d3c54423ada4e3b3df418373925d52520609bc07e8a4c490db049",
+    "header": "504b030414000900080035b3bd5c7152efacc30700001329"
+  },
+  {
+    "member": "assets/bin/Data/boot.config",
+    "path": "/Users/mark/Projects/REA/Werewolf/analysis/extracted/boot.config",
+    "size": 127,
+    "sha256": "a47b7e3410d29b9af85dd7d21782353ebc547891e58a1f681753feedd41e9756",
+    "header": "776169742d666f722d6e61746976652d6465627567676572"
+  },
+  {
+    "member": "assets/ngvoice_extend_data",
+    "path": "/Users/mark/Projects/REA/Werewolf/analysis/extracted/ngvoice_extend_data",
+    "size": 1908,
+    "sha256": "46f33b745671e52ada7ed28ac3cdd83e2d45d449bbb264291659c3cab4b01a6a",
+    "header": "65794a56546b6c545245746655564a445430524658305659"
+  },
+  {
+    "member": "assets/common_data",
+    "path": "/Users/mark/Projects/REA/Werewolf/analysis/extracted/common_data",
+    "size": 54,
+    "sha256": "4b3e868f6cd768879ce9245146d9a6310a7c3e91b67ee704d745fb0168387205",
+    "header": "7b224a465f47414d454944223a22646d30222c2022415050"
+  },
+  {
+    "member": "assets/ntunisdk_data",
+    "path": "/Users/mark/Projects/REA/Werewolf/analysis/extracted/ntunisdk_data",
+    "size": 536,
+    "sha256": "eba03abcc6e113b3572d850052eb4c6f01cb69ffc151a499c18c8af7e2cf8f5c",
+    "header": "4170706c69636174696f6e4e6574656173653b53646b4e65"
+  },
+  {
+    "member": "assets/ntunisdk_config",
+    "path": "/Users/mark/Projects/REA/Werewolf/analysis/extracted/ntunisdk_config",
+    "size": 2,
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "header": "7b7d"
+  },
+  {
+    "member": "assets/bin/Data/Managed/Metadata/global-metadata.dat",
+    "path": "/Users/mark/Projects/REA/Werewolf/analysis/extracted/global-metadata.dat",
+    "size": 9683504,
+    "sha256": "2141500cffd7c73379ebec0774982ebda633d90e115fa3926b54aa8852f851b8",
+    "header": "af1bb1fa1f00000000010000786502007866020038ef0700"
+  }
+]

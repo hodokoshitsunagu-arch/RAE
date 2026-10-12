@@ -1,0 +1,44 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6996710317856277691
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2093791596137722153
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4883518458585382260
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3228859043947711051
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8467220912418697594
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8338973040973800271
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "dialogbox_hero_button",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

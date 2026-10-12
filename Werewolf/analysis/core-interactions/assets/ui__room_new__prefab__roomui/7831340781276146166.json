@@ -1,0 +1,44 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -939096068575265199
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2518031257534769460
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -114149337965878626
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4189292306575171054
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8455142407545286529
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7353861197227779173
+      }
+    }
+  ],
+  "m_Layer": 0,
+  "m_Name": "VoiceSpeakBtn_light",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

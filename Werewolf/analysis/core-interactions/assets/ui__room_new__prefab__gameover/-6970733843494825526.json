@@ -1,0 +1,29 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7527830686135609385
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7802755607570700153
+  },
+  "m_Name": "",
+  "bindDic": {
+    "m_keys": [
+      "bg",
+      "blackBackLayer"
+    ],
+    "m_values": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 3559544814606162831
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 4134098425238440061
+      }
+    ]
+  },
+  "animationEventList": []
+}

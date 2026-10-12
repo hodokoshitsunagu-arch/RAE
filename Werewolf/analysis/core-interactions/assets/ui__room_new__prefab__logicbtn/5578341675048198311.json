@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6250730419771749134
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3193571939596971300
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8417478973111745304
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3116355317895389468
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6788964379278921259
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "OutCampaign",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

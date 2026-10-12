@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1287192714219845486
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8056173139596538217
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3513478729334766271
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "smoke",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

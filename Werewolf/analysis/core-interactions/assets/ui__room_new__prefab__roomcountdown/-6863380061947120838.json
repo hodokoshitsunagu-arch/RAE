@@ -1,0 +1,69 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4660709498989038127
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7802755607570700153
+  },
+  "m_Name": "",
+  "bindDic": {
+    "m_keys": [
+      "txt",
+      "bg",
+      "speakLikeBtn",
+      "speakLikeIcon",
+      "speakLikeStand",
+      "speakLiked",
+      "likedEffect1",
+      "likedEffect2",
+      "likedEffect3",
+      "likedEffect4"
+    ],
+    "m_values": [
+      {
+        "m_FileID": 0,
+        "m_PathID": -7528070773159262850
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 7935263326825046177
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 7489632448146213656
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -5891868299043591021
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -5514051350707317668
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -6785020358744702459
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 2648676418062914369
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -2287780437787600361
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -104777245608698907
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 3768221575833262086
+      }
+    ]
+  },
+  "animationEventList": []
+}

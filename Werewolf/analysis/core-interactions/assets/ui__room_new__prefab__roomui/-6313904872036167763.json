@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3775935101838845447
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8219887147427865112
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4194761346701532566
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2119095802056685015
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "recordingTxt",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

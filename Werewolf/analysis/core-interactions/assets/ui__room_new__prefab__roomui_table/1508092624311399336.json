@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2427705427916877985
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -517319954995874412
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5668539631212073016
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "gameui_ChatBubble_bg_button_4",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

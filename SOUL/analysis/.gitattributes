@@ -1,0 +1,2 @@
+# Preserve exact formatting of machine-produced disassembly and table evidence.
+flutter/recovered/** whitespace=-blank-at-eol,-blank-at-eof

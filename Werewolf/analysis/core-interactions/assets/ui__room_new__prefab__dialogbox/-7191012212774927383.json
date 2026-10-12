@@ -1,0 +1,59 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6554577438275836320
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7802755607570700153
+  },
+  "m_Name": "",
+  "bindDic": {
+    "m_keys": [
+      "animNode",
+      "SheriffVote",
+      "Sheriff",
+      "SheriffSelection",
+      "SheriffTransfer",
+      "KillVote",
+      "popup"
+    ],
+    "m_values": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 5748438763171047778
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 648136196173360771
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -7493146271726976558
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -7752758023336179250
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -1553386908817437263
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -7054601225479664443
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 5748438763171047778
+      }
+    ]
+  },
+  "animationEventList": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8897691440354883689
+    }
+  ]
+}

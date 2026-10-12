@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6907396414033479357
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2146618314165101393
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5083574846985608683
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "tips_wolf_special",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

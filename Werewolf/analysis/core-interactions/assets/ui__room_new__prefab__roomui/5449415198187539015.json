@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8539168779278199441
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7166391312896854353
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3025648641846710447
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 703735870441090725
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 789350518833318834
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Barrage_write",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

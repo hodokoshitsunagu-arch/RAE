@@ -1,0 +1,44 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8692121190963916458
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3854612338270963487
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1168876639029154328
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5313380754852548569
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8114138060676626349
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8448642992355557025
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Skill_Werewolf",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

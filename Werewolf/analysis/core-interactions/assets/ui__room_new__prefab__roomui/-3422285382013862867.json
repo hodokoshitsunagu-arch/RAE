@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4316675836694497901
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -9094570807107643703
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4278625072418722039
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7170148905460301104
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "DayNightIndicator",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

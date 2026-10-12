@@ -1,0 +1,50 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1273964628482240765
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 9132077482508367448
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -812603493010002491
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5489048602061117189
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 22905182879445591
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6562090072716895502
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7586898873540785107
+      }
+    }
+  ],
+  "m_Layer": 0,
+  "m_Name": "pre_vote_room",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

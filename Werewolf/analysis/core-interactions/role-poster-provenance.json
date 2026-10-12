@@ -1,0 +1,146 @@
+[
+  {
+    "source": "assets/animationtimelinescripts/effectandshader/posterdissolve/prophet_atlas.ab",
+    "source_sha256": "e76379f9c5fd03431bfe59b8fa6cf2b9ce5e81ec3c91b20a208e45c4a65892a9",
+    "objects": [
+      {
+        "type": "Sprite",
+        "path_id": -8770470320359398315,
+        "name": "prophet",
+        "width": 486,
+        "height": 648,
+        "export": "/Users/mark/Projects/REA/Werewolf/analysis/core-interactions/assets/role-posters/prophet_prophet.png",
+        "png_sha256": "5b76da7d5985868c53a19bbb6c523dfacf65de3e2cd216619810aed459c0d8ad"
+      },
+      {
+        "type": "Texture2D",
+        "path_id": -5952565361814705742,
+        "name": "sactx-0-512x1024-ASTC 6x6-animationtimelinescripts#effectandshader#posterdissolve#prophet_atlas-90223c5d",
+        "width": 512,
+        "height": 1024,
+        "export": "/Users/mark/Projects/REA/Werewolf/analysis/core-interactions/assets/role-posters/prophet_sactx-0-512x1024-ASTC 6x6-animationtimelinescripts#effectandshader#posterdissolve#prophet_atlas-90223c5d.png",
+        "png_sha256": "2c2cfe0e90d2e6f278a4d51797451d564a6bcf3456eb8304a15fbe6faaf5c523"
+      }
+    ]
+  },
+  {
+    "source": "assets/animationtimelinescripts/effectandshader/posterdissolve/witch_atlas.ab",
+    "source_sha256": "69a97c1858e1ec0bd2850c6a14af3404d8833c733a886246f44fe0004360e6c8",
+    "objects": [
+      {
+        "type": "Sprite",
+        "path_id": 495050438874053878,
+        "name": "witch",
+        "width": 486,
+        "height": 648,
+        "export": "/Users/mark/Projects/REA/Werewolf/analysis/core-interactions/assets/role-posters/witch_witch.png",
+        "png_sha256": "4972f33e7848b05bd026598788b2c68769bc6d096f45681498e4893893cbdd69"
+      },
+      {
+        "type": "Texture2D",
+        "path_id": 1665590217153022490,
+        "name": "sactx-0-512x1024-ASTC 6x6-animationtimelinescripts#effectandshader#posterdissolve#witch_atlas-87a254a6",
+        "width": 512,
+        "height": 1024,
+        "export": "/Users/mark/Projects/REA/Werewolf/analysis/core-interactions/assets/role-posters/witch_sactx-0-512x1024-ASTC 6x6-animationtimelinescripts#effectandshader#posterdissolve#witch_atlas-87a254a6.png",
+        "png_sha256": "df845ee9178134cc18a4582e3cc0492bf543eaa1592c0946db0abff3d419d7f1"
+      }
+    ]
+  },
+  {
+    "source": "assets/animationtimelinescripts/effectandshader/posterdissolve/villager_atlas.ab",
+    "source_sha256": "82194fa398fef58f49f6e12dd779d676a142200bb91a2b90dffb42348e3024cd",
+    "objects": [
+      {
+        "type": "Texture2D",
+        "path_id": -1832577455787299340,
+        "name": "sactx-0-512x1024-ASTC 6x6-animationtimelinescripts#effectandshader#posterdissolve#villager_atlas-fa916433",
+        "width": 512,
+        "height": 1024,
+        "export": "/Users/mark/Projects/REA/Werewolf/analysis/core-interactions/assets/role-posters/villager_sactx-0-512x1024-ASTC 6x6-animationtimelinescripts#effectandshader#posterdissolve#villager_atlas-fa916433.png",
+        "png_sha256": "8b40179ab40625558d82985232ed566664f2325123582bd875d93bf34b315c3a"
+      },
+      {
+        "type": "Sprite",
+        "path_id": -807984593760186227,
+        "name": "villager",
+        "width": 486,
+        "height": 648,
+        "export": "/Users/mark/Projects/REA/Werewolf/analysis/core-interactions/assets/role-posters/villager_villager.png",
+        "png_sha256": "66638e353f61d9d4203a21c5465aadf7d357e60816e2a8ab0766247a078591a8"
+      }
+    ]
+  },
+  {
+    "source": "assets/animationtimelinescripts/effectandshader/posterdissolve/hunter_atlas.ab",
+    "source_sha256": "ac92d741d7af38e23901c1c64a4187fae732d3b2b9a10445be23f02a453d56f2",
+    "objects": [
+      {
+        "type": "Sprite",
+        "path_id": -3221522939609115280,
+        "name": "hunter",
+        "width": 486,
+        "height": 648,
+        "export": "/Users/mark/Projects/REA/Werewolf/analysis/core-interactions/assets/role-posters/hunter_hunter.png",
+        "png_sha256": "6a541d495dc6c8736217ca0594eeede47f4af74d8b41535d839b6d85d14e31eb"
+      },
+      {
+        "type": "Texture2D",
+        "path_id": 4519451438836023700,
+        "name": "sactx-0-512x1024-ASTC 6x6-animationtimelinescripts#effectandshader#posterdissolve#hunter_atlas-98aa71e8",
+        "width": 512,
+        "height": 1024,
+        "export": "/Users/mark/Projects/REA/Werewolf/analysis/core-interactions/assets/role-posters/hunter_sactx-0-512x1024-ASTC 6x6-animationtimelinescripts#effectandshader#posterdissolve#hunter_atlas-98aa71e8.png",
+        "png_sha256": "dc23e1ac9964d99a3c54dc16d719ad5ef75d89c5e519d6123781ca56a67fb6c3"
+      }
+    ]
+  },
+  {
+    "source": "assets/animationtimelinescripts/effectandshader/posterdissolve/lanren_atlas.ab",
+    "source_sha256": "ccbe392b36b687bf853c4da0df4ce7b43ac592cac7a1132bda42c5139667e86a",
+    "objects": [
+      {
+        "type": "Sprite",
+        "path_id": 7413348560896108082,
+        "name": "lanren",
+        "width": 486,
+        "height": 648,
+        "export": "/Users/mark/Projects/REA/Werewolf/analysis/core-interactions/assets/role-posters/lanren_lanren.png",
+        "png_sha256": "1471a0c0f1d5c5486150705b0d6fe27d168602b1105812413627cf58f58a0ee7"
+      },
+      {
+        "type": "Texture2D",
+        "path_id": 7673740095565988730,
+        "name": "sactx-0-512x1024-ASTC 6x6-animationtimelinescripts#effectandshader#posterdissolve#lanren_atlas-1ef320e9",
+        "width": 512,
+        "height": 1024,
+        "export": "/Users/mark/Projects/REA/Werewolf/analysis/core-interactions/assets/role-posters/lanren_sactx-0-512x1024-ASTC 6x6-animationtimelinescripts#effectandshader#posterdissolve#lanren_atlas-1ef320e9.png",
+        "png_sha256": "077aa501017e613b2821af4e473809875f445c40819e5ab9271e6dfd5069dedd"
+      }
+    ]
+  },
+  {
+    "source": "assets/animationtimelinescripts/effectandshader/posterdissolve/idoit_atlas.ab",
+    "source_sha256": "04583ce58852677da6e6cdd160e345e39fe464463ac514a518bde781299996bd",
+    "objects": [
+      {
+        "type": "Texture2D",
+        "path_id": -300454604853256983,
+        "name": "sactx-0-512x1024-ASTC 6x6-animationtimelinescripts#effectandshader#posterdissolve#idoit_atlas-6ff51427",
+        "width": 512,
+        "height": 1024,
+        "export": "/Users/mark/Projects/REA/Werewolf/analysis/core-interactions/assets/role-posters/idoit_sactx-0-512x1024-ASTC 6x6-animationtimelinescripts#effectandshader#posterdissolve#idoit_atlas-6ff51427.png",
+        "png_sha256": "f3d56f46fdcfb6a48f734f3522af8b9081c5792798fb4238fc5575dfc8e7da5b"
+      },
+      {
+        "type": "Sprite",
+        "path_id": 2263528921724179594,
+        "name": "idoit",
+        "width": 486,
+        "height": 648,
+        "export": "/Users/mark/Projects/REA/Werewolf/analysis/core-interactions/assets/role-posters/idoit_idoit.png",
+        "png_sha256": "67ccfa5dcf4a764b749fb0c6da8490fdccd543cdbae289b99f8b3669bf24647a"
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6783577216668358382
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1702348228584646267
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2502848542485271241
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6500801109602377128
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 525748892153426215
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3312640879059237771
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1992945224826275199
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "EndofSpeech",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

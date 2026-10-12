@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -291528771567618267
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -663468194208777024
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3535897552770225699
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7126031866550800141
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Gender",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

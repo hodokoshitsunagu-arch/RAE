@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7752253407579875434
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5397073902421106063
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5157159703401078592
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3741382500016859865
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Message_txt_2",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

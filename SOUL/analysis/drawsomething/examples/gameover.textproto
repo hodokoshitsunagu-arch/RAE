@@ -1,0 +1,4 @@
+gameId: "example-game"
+type: DRAW_SOMETHING
+phase: GAMEOVER
+gameoverGameMessage { drawSomethingGameoverGameMessage { answerResults { answerResults { question: "猫" answer: "猫" right: true ts: 1791784800000 } } } }

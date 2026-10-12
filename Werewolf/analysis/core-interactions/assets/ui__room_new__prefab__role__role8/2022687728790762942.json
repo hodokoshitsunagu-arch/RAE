@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2690276655426085589
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1334710958581988277
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8714228310041240543
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "bg8",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

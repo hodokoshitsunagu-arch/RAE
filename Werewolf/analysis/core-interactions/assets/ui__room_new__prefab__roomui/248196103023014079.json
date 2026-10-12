@@ -1,0 +1,44 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6616907078216108598
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5036053691093146874
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -389311102084593869
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -725323669117454093
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 400255325160805395
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7378458937534878795
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "InvitationOnlyFriends",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

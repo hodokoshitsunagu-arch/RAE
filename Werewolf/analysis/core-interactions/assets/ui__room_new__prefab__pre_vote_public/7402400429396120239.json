@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7228100773163176940
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2412524286245428016
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6248223145023804672
+      }
+    }
+  ],
+  "m_Layer": 0,
+  "m_Name": "tag_play_vote_frame_Exile_01",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

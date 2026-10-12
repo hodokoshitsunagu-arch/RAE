@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1659206317679477895
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2771934374483107448
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2622033136384652801
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8875844152730133157
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "spot1",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

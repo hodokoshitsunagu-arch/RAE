@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3628249724926830417
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2549185745284283544
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4150852609407483896
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 585713334101598787
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Matching",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

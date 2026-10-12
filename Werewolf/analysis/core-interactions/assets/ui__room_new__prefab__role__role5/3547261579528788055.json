@@ -1,0 +1,88 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1469988042815458425
+  },
+  "m_LocalRotation": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "w": 1.0
+  },
+  "m_LocalPosition": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "m_LocalScale": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 1.0
+  },
+  "m_Children": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -7153601901434027917
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5834033544810346052
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 2888598576553942708
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 4128584086743617566
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -7317685400266096867
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 1579713042168191838
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -2267884638259720781
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -4728086336138079181
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": -5064665600276495775
+    },
+    {
+      "m_FileID": 0,
+      "m_PathID": 3331787972516554457
+    }
+  ],
+  "m_Father": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_AnchorMin": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "m_AnchorMax": {
+    "x": 1.0,
+    "y": 1.0
+  },
+  "m_AnchoredPosition": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "m_SizeDelta": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "m_Pivot": {
+    "x": 0.5,
+    "y": 0.5
+  }
+}

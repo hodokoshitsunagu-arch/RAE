@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2378971275065450174
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4473389209077361363
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8955920231495195871
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "SS06",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

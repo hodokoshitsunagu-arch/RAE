@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4624136755513489917
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5698400895160932435
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8440608560273260205
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6623511919795467134
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "CurrentPersonCtrl",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

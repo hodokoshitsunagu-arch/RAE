@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4948901635912243434
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8476592344327087396
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -636774364965486117
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -9085413970278106296
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2077855048896988951
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "dianzan",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

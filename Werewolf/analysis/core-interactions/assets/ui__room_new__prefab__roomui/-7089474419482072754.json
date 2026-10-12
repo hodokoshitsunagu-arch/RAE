@@ -1,0 +1,20 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2302467212172748349
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7176224913329346141
+      }
+    }
+  ],
+  "m_Layer": 0,
+  "m_Name": "pre_AI_Speaking",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

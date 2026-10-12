@@ -1,0 +1,16 @@
+{
+  "retrieved_date": "2026-10-12",
+  "timezone": "Asia/Tokyo",
+  "official_site": "https://www.aipiaxi.com/",
+  "download_page": "https://www.aipiaxi.com/download",
+  "link_source": "https://www.aipiaxi.com/assets/index-B2MMUMVX.js",
+  "apk_url": "https://static.aipiaxi.com/app/android/xiya-latest.apk",
+  "apk_bytes": 264160728,
+  "apk_sha256": "ad679dd87079e5bc173e3abf64931f1da29ad3ad753c23702d68b901c70e5769",
+  "package_name": "com.piaxiya.app",
+  "version_name": "3.56.1",
+  "version_code": 35601,
+  "rea_version": "6.4.0",
+  "analysis_mode": "static only; no APK execution",
+  "apk_signing_certificate_verified": false
+}

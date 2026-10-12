@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5040312750423486164
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7654442645749003707
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1956949246559904427
+      }
+    }
+  ],
+  "m_Layer": 0,
+  "m_Name": "frame_play_style_05",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1348220733697884043
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4099705972059994563
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -865121282393960497
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -179678635469638582
+      }
+    }
+  ],
+  "m_Layer": 0,
+  "m_Name": "downButton",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

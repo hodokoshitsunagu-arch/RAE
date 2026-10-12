@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6180685467862250645
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1574441314214347624
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7417709360462515001
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "playerhead_p",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

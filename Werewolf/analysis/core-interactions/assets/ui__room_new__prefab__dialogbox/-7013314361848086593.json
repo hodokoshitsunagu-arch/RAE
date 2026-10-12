@@ -1,0 +1,44 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -646143492695093330
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4917109479799861157
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1428183226009904010
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6886407749691900150
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5521301609598756804
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7730166898985320056
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Button2",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

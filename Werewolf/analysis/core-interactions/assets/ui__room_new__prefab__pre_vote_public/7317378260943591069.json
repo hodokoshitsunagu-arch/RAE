@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 748327406679973874
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3444202688457611352
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7060448757443955895
+      }
+    }
+  ],
+  "m_Layer": 0,
+  "m_Name": "Vote_Public_content_pos",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

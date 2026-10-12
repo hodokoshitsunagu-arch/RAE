@@ -1,0 +1,5072 @@
+[
+  {
+    "path": "common/GameMode.lua",
+    "size": 319,
+    "compressed_size": 276,
+    "encrypted": true
+  },
+  {
+    "path": "fight/AssemblyLineConveyor.lua",
+    "size": 1680,
+    "compressed_size": 988,
+    "encrypted": true
+  },
+  {
+    "path": "fight/AssemblyLineInstall.lua",
+    "size": 6632,
+    "compressed_size": 1955,
+    "encrypted": true
+  },
+  {
+    "path": "fight/FightTool.lua",
+    "size": 851,
+    "compressed_size": 521,
+    "encrypted": true
+  },
+  {
+    "path": "fight/GameController.lua",
+    "size": 41712,
+    "compressed_size": 16686,
+    "encrypted": true
+  },
+  {
+    "path": "fight/GameSocketProcessor.lua",
+    "size": 4413,
+    "compressed_size": 2079,
+    "encrypted": true
+  },
+  {
+    "path": "fight/PhaseSoundEffect.lua",
+    "size": 2115,
+    "compressed_size": 1044,
+    "encrypted": true
+  },
+  {
+    "path": "fight/cake/CakeGameController.lua",
+    "size": 13040,
+    "compressed_size": 6139,
+    "encrypted": true
+  },
+  {
+    "path": "fight/cake/CakeGameSocketProcessor.lua",
+    "size": 3786,
+    "compressed_size": 1748,
+    "encrypted": true
+  },
+  {
+    "path": "fight/cake/CakeSkillController.lua",
+    "size": 1845,
+    "compressed_size": 1173,
+    "encrypted": true
+  },
+  {
+    "path": "fight/cake/skill/CakeSkill1.lua",
+    "size": 2876,
+    "compressed_size": 1658,
+    "encrypted": true
+  },
+  {
+    "path": "fight/cake/skill/CakeSkill2.lua",
+    "size": 2629,
+    "compressed_size": 1512,
+    "encrypted": true
+  },
+  {
+    "path": "fight/cake/skill/CakeSkill3.lua",
+    "size": 7205,
+    "compressed_size": 3582,
+    "encrypted": true
+  },
+  {
+    "path": "fight/cake/skill/CakeSkill4.lua",
+    "size": 3090,
+    "compressed_size": 1771,
+    "encrypted": true
+  },
+  {
+    "path": "fight/cake/skill/CakeSkill5.lua",
+    "size": 3673,
+    "compressed_size": 2001,
+    "encrypted": true
+  },
+  {
+    "path": "fight/cake/skill/CakeSkill6.lua",
+    "size": 4279,
+    "compressed_size": 2126,
+    "encrypted": true
+  },
+  {
+    "path": "fight/cake/skill/CakeSkill7.lua",
+    "size": 1206,
+    "compressed_size": 769,
+    "encrypted": true
+  },
+  {
+    "path": "fight/cake/skill/CakeSkill8.lua",
+    "size": 4568,
+    "compressed_size": 2442,
+    "encrypted": true
+  },
+  {
+    "path": "fight/cake/skill/CakeSkill9.lua",
+    "size": 1180,
+    "compressed_size": 762,
+    "encrypted": true
+  },
+  {
+    "path": "fight/player/GamePlayer.lua",
+    "size": 11365,
+    "compressed_size": 5007,
+    "encrypted": true
+  },
+  {
+    "path": "fight/player/MainGamePlayer.lua",
+    "size": 1511,
+    "compressed_size": 883,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/SkillBase.lua",
+    "size": 13856,
+    "compressed_size": 5651,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/SkillController.lua",
+    "size": 11073,
+    "compressed_size": 4969,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/SkillSocketProcessor.lua",
+    "size": 2803,
+    "compressed_size": 1264,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill1.lua",
+    "size": 4061,
+    "compressed_size": 2156,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill10.lua",
+    "size": 2014,
+    "compressed_size": 1242,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill100.lua",
+    "size": 3280,
+    "compressed_size": 1851,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill101.lua",
+    "size": 3314,
+    "compressed_size": 1848,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill102.lua",
+    "size": 2344,
+    "compressed_size": 1408,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill103.lua",
+    "size": 1788,
+    "compressed_size": 1098,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill104.lua",
+    "size": 2919,
+    "compressed_size": 1653,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill105.lua",
+    "size": 835,
+    "compressed_size": 603,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill106.lua",
+    "size": 3069,
+    "compressed_size": 1690,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill107.lua",
+    "size": 1628,
+    "compressed_size": 1053,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill109.lua",
+    "size": 4911,
+    "compressed_size": 2500,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill11.lua",
+    "size": 1367,
+    "compressed_size": 872,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill110.lua",
+    "size": 5499,
+    "compressed_size": 2809,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill111.lua",
+    "size": 5210,
+    "compressed_size": 2535,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill112.lua",
+    "size": 1271,
+    "compressed_size": 720,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill113.lua",
+    "size": 2269,
+    "compressed_size": 1407,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill114.lua",
+    "size": 1248,
+    "compressed_size": 815,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill115.lua",
+    "size": 1915,
+    "compressed_size": 1147,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill116.lua",
+    "size": 1974,
+    "compressed_size": 1166,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill117.lua",
+    "size": 2336,
+    "compressed_size": 1364,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill12.lua",
+    "size": 2624,
+    "compressed_size": 1516,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill13.lua",
+    "size": 3399,
+    "compressed_size": 1954,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill15.lua",
+    "size": 3343,
+    "compressed_size": 1955,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill16.lua",
+    "size": 3651,
+    "compressed_size": 2002,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill17.lua",
+    "size": 1672,
+    "compressed_size": 1075,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill18.lua",
+    "size": 3620,
+    "compressed_size": 1937,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill19.lua",
+    "size": 2461,
+    "compressed_size": 1452,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill2.lua",
+    "size": 2814,
+    "compressed_size": 1653,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill21.lua",
+    "size": 5900,
+    "compressed_size": 3040,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill22.lua",
+    "size": 2735,
+    "compressed_size": 1567,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill23.lua",
+    "size": 2595,
+    "compressed_size": 1575,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill24.lua",
+    "size": 2262,
+    "compressed_size": 1331,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill26.lua",
+    "size": 2901,
+    "compressed_size": 1673,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill27.lua",
+    "size": 2626,
+    "compressed_size": 1510,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill28.lua",
+    "size": 1248,
+    "compressed_size": 818,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill3.lua",
+    "size": 5211,
+    "compressed_size": 2571,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill30.lua",
+    "size": 1656,
+    "compressed_size": 1039,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill32.lua",
+    "size": 3008,
+    "compressed_size": 1742,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill33.lua",
+    "size": 1341,
+    "compressed_size": 886,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill36.lua",
+    "size": 2372,
+    "compressed_size": 1360,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill37.lua",
+    "size": 2393,
+    "compressed_size": 1410,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill38.lua",
+    "size": 1904,
+    "compressed_size": 1185,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill39.lua",
+    "size": 3550,
+    "compressed_size": 2034,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill4.lua",
+    "size": 5392,
+    "compressed_size": 2741,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill40.lua",
+    "size": 3899,
+    "compressed_size": 2057,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill41.lua",
+    "size": 4307,
+    "compressed_size": 2239,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill42.lua",
+    "size": 4086,
+    "compressed_size": 2103,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill43.lua",
+    "size": 2264,
+    "compressed_size": 1317,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill44.lua",
+    "size": 2934,
+    "compressed_size": 1678,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill45.lua",
+    "size": 3529,
+    "compressed_size": 1958,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill46.lua",
+    "size": 3429,
+    "compressed_size": 1936,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill47.lua",
+    "size": 4981,
+    "compressed_size": 2549,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill48.lua",
+    "size": 2805,
+    "compressed_size": 1620,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill49.lua",
+    "size": 3063,
+    "compressed_size": 1758,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill5.lua",
+    "size": 2704,
+    "compressed_size": 1553,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill50.lua",
+    "size": 2316,
+    "compressed_size": 1352,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill51.lua",
+    "size": 1376,
+    "compressed_size": 854,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill52.lua",
+    "size": 2339,
+    "compressed_size": 1319,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill53.lua",
+    "size": 5887,
+    "compressed_size": 3095,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill54.lua",
+    "size": 1714,
+    "compressed_size": 1032,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill55.lua",
+    "size": 2563,
+    "compressed_size": 1461,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill56.lua",
+    "size": 5674,
+    "compressed_size": 2783,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill57.lua",
+    "size": 4636,
+    "compressed_size": 2412,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill58.lua",
+    "size": 2457,
+    "compressed_size": 1197,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill59.lua",
+    "size": 3514,
+    "compressed_size": 1798,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill6.lua",
+    "size": 6827,
+    "compressed_size": 3506,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill60.lua",
+    "size": 1044,
+    "compressed_size": 671,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill61.lua",
+    "size": 2588,
+    "compressed_size": 1453,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill62.lua",
+    "size": 3741,
+    "compressed_size": 1964,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill63.lua",
+    "size": 1924,
+    "compressed_size": 1199,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill64.lua",
+    "size": 2014,
+    "compressed_size": 1165,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill65.lua",
+    "size": 2879,
+    "compressed_size": 1605,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill66.lua",
+    "size": 2880,
+    "compressed_size": 1599,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill67.lua",
+    "size": 1745,
+    "compressed_size": 1084,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill68.lua",
+    "size": 2025,
+    "compressed_size": 1202,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill69.lua",
+    "size": 3204,
+    "compressed_size": 1794,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill7.lua",
+    "size": 4985,
+    "compressed_size": 2413,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill70.lua",
+    "size": 1190,
+    "compressed_size": 764,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill71.lua",
+    "size": 2282,
+    "compressed_size": 1367,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill72.lua",
+    "size": 1663,
+    "compressed_size": 1080,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill73.lua",
+    "size": 9631,
+    "compressed_size": 4583,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill74.lua",
+    "size": 1514,
+    "compressed_size": 986,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill75.lua",
+    "size": 2748,
+    "compressed_size": 1697,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill76.lua",
+    "size": 4783,
+    "compressed_size": 2586,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill77.lua",
+    "size": 2417,
+    "compressed_size": 1445,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill78.lua",
+    "size": 1307,
+    "compressed_size": 884,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill79.lua",
+    "size": 2100,
+    "compressed_size": 1274,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill8.lua",
+    "size": 7115,
+    "compressed_size": 3500,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill80.lua",
+    "size": 2467,
+    "compressed_size": 1412,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill81.lua",
+    "size": 2508,
+    "compressed_size": 1432,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill82.lua",
+    "size": 2212,
+    "compressed_size": 1266,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill83.lua",
+    "size": 2188,
+    "compressed_size": 1273,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill84.lua",
+    "size": 2280,
+    "compressed_size": 1319,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill85.lua",
+    "size": 2147,
+    "compressed_size": 1274,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill87.lua",
+    "size": 2096,
+    "compressed_size": 1219,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill89.lua",
+    "size": 1301,
+    "compressed_size": 877,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill9.lua",
+    "size": 13074,
+    "compressed_size": 6275,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill90.lua",
+    "size": 5346,
+    "compressed_size": 2683,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill91.lua",
+    "size": 8909,
+    "compressed_size": 3646,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill92.lua",
+    "size": 9808,
+    "compressed_size": 4005,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill93.lua",
+    "size": 9849,
+    "compressed_size": 4030,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill94.lua",
+    "size": 3093,
+    "compressed_size": 1724,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill95.lua",
+    "size": 2704,
+    "compressed_size": 1587,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill96.lua",
+    "size": 4736,
+    "compressed_size": 2497,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill97.lua",
+    "size": 1810,
+    "compressed_size": 1096,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill98.lua",
+    "size": 1341,
+    "compressed_size": 895,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/Skill99.lua",
+    "size": 3772,
+    "compressed_size": 2159,
+    "encrypted": true
+  },
+  {
+    "path": "fight/skill/subclass/skill108.lua",
+    "size": 4774,
+    "compressed_size": 2538,
+    "encrypted": true
+  },
+  {
+    "path": "gamedata/GameData.lua",
+    "size": 533,
+    "compressed_size": 394,
+    "encrypted": true
+  },
+  {
+    "path": "gamedata/RoomData.lua",
+    "size": 60481,
+    "compressed_size": 22276,
+    "encrypted": true
+  },
+  {
+    "path": "global/FightConfig.lua",
+    "size": 11192,
+    "compressed_size": 4697,
+    "encrypted": true
+  },
+  {
+    "path": "global/LrsRoomConfig.lua",
+    "size": 275,
+    "compressed_size": 255,
+    "encrypted": true
+  },
+  {
+    "path": "protol/ProtoDefine.lua",
+    "size": 9903,
+    "compressed_size": 2217,
+    "encrypted": true
+  },
+  {
+    "path": "protol/protoc.lua",
+    "size": 30269,
+    "compressed_size": 14074,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/chatprivate/chatprivateHandlerCS.lua",
+    "size": 3788,
+    "compressed_size": 1247,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/chatprivate/chatprivateHandlerSC.lua",
+    "size": 1431,
+    "compressed_size": 644,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/common/common.lua",
+    "size": 18276,
+    "compressed_size": 4733,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/common/item_common.lua",
+    "size": 430,
+    "compressed_size": 372,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/common/pet_common.lua",
+    "size": 3354,
+    "compressed_size": 1392,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/couple/coupleHandlerCS.lua",
+    "size": 453,
+    "compressed_size": 318,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/couple/coupleHandlerSC.lua",
+    "size": 1877,
+    "compressed_size": 781,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/game/lrsGameSC.lua",
+    "size": 862,
+    "compressed_size": 536,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/aceLogicHandlerSC.lua",
+    "size": 520,
+    "compressed_size": 357,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/appstoreCS.lua",
+    "size": 368,
+    "compressed_size": 321,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/appstoreSC.lua",
+    "size": 334,
+    "compressed_size": 302,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/avatarHandlerCS.lua",
+    "size": 2225,
+    "compressed_size": 622,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/bagHandlerCS.lua",
+    "size": 675,
+    "compressed_size": 393,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/battlePassHandlerCS.lua",
+    "size": 1896,
+    "compressed_size": 606,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/blessingBagHandlerCS.lua",
+    "size": 766,
+    "compressed_size": 390,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/blessingBagSC.lua",
+    "size": 4269,
+    "compressed_size": 1124,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/bundleCenterHandlerCS.lua",
+    "size": 399,
+    "compressed_size": 304,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/coupleLogicHandlerCS.lua",
+    "size": 1707,
+    "compressed_size": 764,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/customGameHandlerCS.lua",
+    "size": 1205,
+    "compressed_size": 510,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/customGameHandlerSC.lua",
+    "size": 2531,
+    "compressed_size": 797,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/gameShopHandlerCS.lua",
+    "size": 2080,
+    "compressed_size": 600,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/generalActivityHandlerCS.lua",
+    "size": 22019,
+    "compressed_size": 4216,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/generalActivityHandlerSC.lua",
+    "size": 56175,
+    "compressed_size": 11800,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/groupActivityHandlerCS.lua",
+    "size": 464,
+    "compressed_size": 319,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/helpNoviceSC.lua",
+    "size": 846,
+    "compressed_size": 452,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/itemRecommendHandlerSC.lua",
+    "size": 2297,
+    "compressed_size": 864,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/knightsHandlerCS.lua",
+    "size": 3251,
+    "compressed_size": 1170,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/logicCS.lua",
+    "size": 4757,
+    "compressed_size": 1858,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/logicSC.lua",
+    "size": 92389,
+    "compressed_size": 19203,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/logicSocialHandlerCS.lua",
+    "size": 606,
+    "compressed_size": 398,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/logicSocialHandlerSC.lua",
+    "size": 2127,
+    "compressed_size": 836,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/mallHandlerCS.lua",
+    "size": 1257,
+    "compressed_size": 597,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/mallHandlerSC.lua",
+    "size": 4249,
+    "compressed_size": 1410,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/petCS.lua",
+    "size": 4880,
+    "compressed_size": 1996,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/petSC.lua",
+    "size": 10540,
+    "compressed_size": 3583,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/petSocialCS.lua",
+    "size": 900,
+    "compressed_size": 571,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/petSocialSC.lua",
+    "size": 1494,
+    "compressed_size": 774,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/prophetTestHandlerCS.lua",
+    "size": 1109,
+    "compressed_size": 678,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/prophetTestHandlerSC.lua",
+    "size": 1421,
+    "compressed_size": 724,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/questionnaireHandlerCS.lua",
+    "size": 416,
+    "compressed_size": 317,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/questionnaireHandlerSC.lua",
+    "size": 356,
+    "compressed_size": 297,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/roleSkinHandlerCS.lua",
+    "size": 817,
+    "compressed_size": 409,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/scrollsHandlerCS.lua",
+    "size": 898,
+    "compressed_size": 514,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/storyAvgHandlerCS.lua",
+    "size": 2330,
+    "compressed_size": 972,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/storyAvgHandlerSC.lua",
+    "size": 2881,
+    "compressed_size": 1163,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/titleHandlerCS.lua",
+    "size": 392,
+    "compressed_size": 314,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/season/seasonBpHandlerCS.lua",
+    "size": 2016,
+    "compressed_size": 964,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/season/seasonBpHandlerSC.lua",
+    "size": 3790,
+    "compressed_size": 1774,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/season/seasonCardHandlerCS.lua",
+    "size": 2458,
+    "compressed_size": 1063,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/season/seasonCardHandlerSC.lua",
+    "size": 9883,
+    "compressed_size": 2631,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/season/seasonHandlerCS.lua",
+    "size": 1233,
+    "compressed_size": 609,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/logic/season/seasonHandlerSC.lua",
+    "size": 7114,
+    "compressed_size": 2245,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/mail/mailHandlerCS.lua",
+    "size": 626,
+    "compressed_size": 364,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/mail/mailSC.lua",
+    "size": 2604,
+    "compressed_size": 755,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/mentor/mentorCS.lua",
+    "size": 1569,
+    "compressed_size": 603,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/mentor/mentorSC.lua",
+    "size": 6863,
+    "compressed_size": 1588,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/recommend/recommendHandlerCS.lua",
+    "size": 501,
+    "compressed_size": 325,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/recommend/recommendSC.lua",
+    "size": 9275,
+    "compressed_size": 2041,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/room/roomHandlerCS.lua",
+    "size": 921,
+    "compressed_size": 472,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/room/roomHandlerSC.lua",
+    "size": 1992,
+    "compressed_size": 695,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/sect/sectHandlerCS.lua",
+    "size": 623,
+    "compressed_size": 402,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/sect/sectHandlerSC.lua",
+    "size": 4602,
+    "compressed_size": 1544,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/share/shareHandlerCS.lua",
+    "size": 412,
+    "compressed_size": 318,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/social/coupleSocialHandlerCS.lua",
+    "size": 448,
+    "compressed_size": 334,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/social/friendHandlerCS.lua",
+    "size": 1895,
+    "compressed_size": 765,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/social/intimacyHandlerCS.lua",
+    "size": 916,
+    "compressed_size": 401,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/social/socialSC.lua",
+    "size": 13611,
+    "compressed_size": 3018,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/socialHouse/socialHouseHandlerCS.lua",
+    "size": 598,
+    "compressed_size": 357,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/socialHouse/socialHouseSC.lua",
+    "size": 3666,
+    "compressed_size": 985,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/worldchat/worldChatCS.lua",
+    "size": 1940,
+    "compressed_size": 744,
+    "encrypted": true
+  },
+  {
+    "path": "protol/lrsProtos/worldchat/worldChatSC.lua",
+    "size": 7460,
+    "compressed_size": 1840,
+    "encrypted": true
+  },
+  {
+    "path": "protol/pplProtos/game/gameHandlerCS.lua",
+    "size": 583,
+    "compressed_size": 357,
+    "encrypted": true
+  },
+  {
+    "path": "protol/pplProtos/game/gameSC.lua",
+    "size": 3146,
+    "compressed_size": 846,
+    "encrypted": true
+  },
+  {
+    "path": "protol/pplProtos/logic/pplLogicCS.lua",
+    "size": 540,
+    "compressed_size": 340,
+    "encrypted": true
+  },
+  {
+    "path": "protol/pplProtos/logic/pplLogicSC.lua",
+    "size": 3799,
+    "compressed_size": 1168,
+    "encrypted": true
+  },
+  {
+    "path": "protol/pplProtos/scene/sceneHandlerCS.lua",
+    "size": 583,
+    "compressed_size": 343,
+    "encrypted": true
+  },
+  {
+    "path": "protol/pplProtos/scene/sceneSC.lua",
+    "size": 2081,
+    "compressed_size": 622,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameCarouselTipsView.lua",
+    "size": 2386,
+    "compressed_size": 1194,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameFanModeRewardItem.lua",
+    "size": 1331,
+    "compressed_size": 753,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameLockedModeItem.lua",
+    "size": 2934,
+    "compressed_size": 1424,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameMatchSucceedView.lua",
+    "size": 1816,
+    "compressed_size": 1142,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameModeController.lua",
+    "size": 25260,
+    "compressed_size": 10265,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameModeDataManager.lua",
+    "size": 2196,
+    "compressed_size": 1084,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameModeExpertNoviceBannerView.lua",
+    "size": 7559,
+    "compressed_size": 3927,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameModeExpertNoviceData.lua",
+    "size": 3624,
+    "compressed_size": 2026,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameModeMainView.lua",
+    "size": 43279,
+    "compressed_size": 17114,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameModeMatchingView.lua",
+    "size": 5053,
+    "compressed_size": 2701,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameModeMultiMatchingHeadItem.lua",
+    "size": 1020,
+    "compressed_size": 711,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameModeMultiMatchingItem.lua",
+    "size": 1685,
+    "compressed_size": 1076,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameModeMultiMatchingTipsItem.lua",
+    "size": 1123,
+    "compressed_size": 791,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameModeMultiMatchingView.lua",
+    "size": 17025,
+    "compressed_size": 8018,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameModePlankItem.lua",
+    "size": 27055,
+    "compressed_size": 11294,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameModeSocketProcesser.lua",
+    "size": 5233,
+    "compressed_size": 1531,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameModeTabTypeItem.lua",
+    "size": 6157,
+    "compressed_size": 2813,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameModeTypeItem.lua",
+    "size": 5826,
+    "compressed_size": 3158,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameModeViewManage.lua",
+    "size": 2497,
+    "compressed_size": 1440,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GamePlackTitleItem.lua",
+    "size": 1035,
+    "compressed_size": 705,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTemplateIdentityItem.lua",
+    "size": 2469,
+    "compressed_size": 1377,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTypeItemVideo.lua",
+    "size": 3317,
+    "compressed_size": 1840,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/HomeModeManager.lua",
+    "size": 16055,
+    "compressed_size": 7186,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ModelViewDefine.lua",
+    "size": 1959,
+    "compressed_size": 910,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/GrowthPath/GameModeAchieveGoalView.lua",
+    "size": 3746,
+    "compressed_size": 2124,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/GrowthPath/GameModeClearanceView.lua",
+    "size": 4057,
+    "compressed_size": 2376,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/GrowthPath/GameModeCollectBorderItem.lua",
+    "size": 2816,
+    "compressed_size": 1593,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/GrowthPath/GameModeCollectEmptyItem.lua",
+    "size": 2743,
+    "compressed_size": 1548,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/GrowthPath/GameModeCollectItem.lua",
+    "size": 5169,
+    "compressed_size": 2769,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/GrowthPath/GameModeMasterItem.lua",
+    "size": 4466,
+    "compressed_size": 2107,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/GrowthPath/GameModeNoviceTipsView.lua",
+    "size": 1156,
+    "compressed_size": 770,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/GrowthPath/GameModeSeasonBorderItem.lua",
+    "size": 2285,
+    "compressed_size": 1334,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/GrowthPath/GameModeSeasonItem.lua",
+    "size": 2572,
+    "compressed_size": 1566,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/GrowthPath/GameModeSkipLevelsView.lua",
+    "size": 5771,
+    "compressed_size": 3105,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/GrowthPath/GameModeTeamQuizItem.lua",
+    "size": 1638,
+    "compressed_size": 1029,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/GrowthPath/GameModeTitleItem.lua",
+    "size": 5017,
+    "compressed_size": 2375,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/GrowthPath/GameModelHomeView.lua",
+    "size": 11907,
+    "compressed_size": 5477,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/GrowthPath/NoviceCardItem.lua",
+    "size": 3482,
+    "compressed_size": 1968,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/GrowthPath/NoviceCardListView.lua",
+    "size": 3619,
+    "compressed_size": 1959,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/GrowthPath/NovicePathItem.lua",
+    "size": 11430,
+    "compressed_size": 5039,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/GrowthPath/NoviceRoleItem.lua",
+    "size": 3843,
+    "compressed_size": 2174,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/GrowthPath/NoviceTargetItem.lua",
+    "size": 2314,
+    "compressed_size": 1328,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/GrowthPath/NoviceTitleItem.lua",
+    "size": 1509,
+    "compressed_size": 944,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/GrowthPath/NoviceTutorialItem.lua",
+    "size": 2094,
+    "compressed_size": 1242,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/GrowthPath/NoviceTutorialTextItem.lua",
+    "size": 1077,
+    "compressed_size": 722,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/GrowthPath/SelectGameModelView.lua",
+    "size": 4540,
+    "compressed_size": 2365,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/NoviceTrial/NoviceTrialAnswerResultPopView.lua",
+    "size": 2014,
+    "compressed_size": 1245,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/NoviceTrial/NoviceTrialAnswerView.lua",
+    "size": 13405,
+    "compressed_size": 6396,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/NoviceTrial/NoviceTrialDataManager.lua",
+    "size": 1877,
+    "compressed_size": 1092,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/NoviceTrial/NoviceTrialFlowHandler.lua",
+    "size": 3619,
+    "compressed_size": 1730,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/NoviceTrial/NoviceTrialMainView.lua",
+    "size": 4871,
+    "compressed_size": 2534,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/NoviceTrial/NoviceTrialTestSuccessPopupView.lua",
+    "size": 4361,
+    "compressed_size": 2265,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialAnswerBottomItem.lua",
+    "size": 1815,
+    "compressed_size": 1038,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialAnswerBottomReplayEventItem.lua",
+    "size": 4219,
+    "compressed_size": 2314,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialAnswerBottomReplayItem.lua",
+    "size": 1423,
+    "compressed_size": 912,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialAnswerBottomView.lua",
+    "size": 6028,
+    "compressed_size": 2566,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialAnswerMainView.lua",
+    "size": 3176,
+    "compressed_size": 1718,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialAnswerResultItem.lua",
+    "size": 1456,
+    "compressed_size": 923,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialAnswerResultPopView.lua",
+    "size": 2563,
+    "compressed_size": 1446,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialAnswerTopView.lua",
+    "size": 1562,
+    "compressed_size": 1005,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialAnswerView.lua",
+    "size": 4896,
+    "compressed_size": 2146,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialAssessPopupStarItem.lua",
+    "size": 1899,
+    "compressed_size": 1113,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialAssessPopupView.lua",
+    "size": 8229,
+    "compressed_size": 3929,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialCardItem.lua",
+    "size": 1664,
+    "compressed_size": 984,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialCardListView.lua",
+    "size": 644,
+    "compressed_size": 432,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialDataManager.lua",
+    "size": 9318,
+    "compressed_size": 4157,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialEntrance.lua",
+    "size": 793,
+    "compressed_size": 531,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialEntranceItem.lua",
+    "size": 3066,
+    "compressed_size": 1708,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialMainConstruction.lua",
+    "size": 3222,
+    "compressed_size": 1648,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialMainContainer.lua",
+    "size": 9238,
+    "compressed_size": 4273,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialMainTitleItem.lua",
+    "size": 3117,
+    "compressed_size": 1678,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialMainView.lua",
+    "size": 3269,
+    "compressed_size": 1787,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialRewardItem.lua",
+    "size": 2357,
+    "compressed_size": 1436,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialRoleItem.lua",
+    "size": 533,
+    "compressed_size": 390,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialSkipLevelsView.lua",
+    "size": 4613,
+    "compressed_size": 2333,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialTargetItem.lua",
+    "size": 529,
+    "compressed_size": 380,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialTestRewardShowView.lua",
+    "size": 1964,
+    "compressed_size": 1226,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialTestSuccessPopupView.lua",
+    "size": 4117,
+    "compressed_size": 2257,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialTestSuccessRewardItem.lua",
+    "size": 1403,
+    "compressed_size": 947,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialTipsPopView.lua",
+    "size": 2066,
+    "compressed_size": 1256,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialTitleItem.lua",
+    "size": 839,
+    "compressed_size": 550,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GameTrial/ProphetTrial/ProphetTrialTutorialItem.lua",
+    "size": 1802,
+    "compressed_size": 1104,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GradeUpdate/CalculateBoardManager.lua",
+    "size": 8940,
+    "compressed_size": 4289,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GradeUpdate/FirstWinBlessingItem.lua",
+    "size": 3947,
+    "compressed_size": 2349,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GradeUpdate/FirstWinBlessingRecommendationBoardItem.lua",
+    "size": 14477,
+    "compressed_size": 6773,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GradeUpdate/FirstWinBlessingUpgradeItem.lua",
+    "size": 4804,
+    "compressed_size": 2652,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GradeUpdate/FirstWinBlessingViewDialog.lua",
+    "size": 11943,
+    "compressed_size": 5772,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GradeUpdate/GradeRewardGetViewDialog.lua",
+    "size": 9340,
+    "compressed_size": 4880,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GradeUpdate/GradeRewardViewDialog.lua",
+    "size": 9923,
+    "compressed_size": 4981,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GradeUpdate/GradeUpdateBadgeItem.lua",
+    "size": 4855,
+    "compressed_size": 2631,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GradeUpdate/GradeUpdateDialogBase.lua",
+    "size": 1847,
+    "compressed_size": 1022,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GradeUpdate/GradeUpdateGameModeViewDialog.lua",
+    "size": 9817,
+    "compressed_size": 4971,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GradeUpdate/GradeUpdateRecommendationBoardItem.lua",
+    "size": 10201,
+    "compressed_size": 4672,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GradeUpdate/GradeUpdateRewardItem.lua",
+    "size": 5374,
+    "compressed_size": 2815,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GradeUpdate/GradeUpdateTipsCommonItem.lua",
+    "size": 3363,
+    "compressed_size": 1919,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GradeUpdate/LuckGameBlessingItem.lua",
+    "size": 2810,
+    "compressed_size": 1778,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GradeUpdate/LuckyGameBlessingRecommendationBoardItem.lua",
+    "size": 11879,
+    "compressed_size": 5782,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GradeUpdate/LuckyGameBlessingUpgradeItem.lua",
+    "size": 5324,
+    "compressed_size": 2970,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/GradeUpdate/LuckyGameBlessingViewDialog.lua",
+    "size": 10420,
+    "compressed_size": 5094,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/WolfkingMaster/MatchingWPLReadySocketProcesser.lua",
+    "size": 3466,
+    "compressed_size": 986,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/WolfkingMaster/OverviewTab.lua",
+    "size": 2584,
+    "compressed_size": 1477,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/WolfkingMaster/ThreeStars.lua",
+    "size": 1679,
+    "compressed_size": 1037,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/WolfkingMaster/WPLMatchingReady.lua",
+    "size": 7584,
+    "compressed_size": 3459,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/WolfkingMaster/WolfKingMasterDetailsView.lua",
+    "size": 5399,
+    "compressed_size": 2718,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/WolfkingMaster/WolfKingMasterRecordItem.lua",
+    "size": 1399,
+    "compressed_size": 950,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/WolfkingMaster/WolfKingMatchingCtrl.lua",
+    "size": 6768,
+    "compressed_size": 3146,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/WolfkingMaster/WolfkingMainView.lua",
+    "size": 20363,
+    "compressed_size": 8327,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/WolfkingMaster/WolfkingMasterInfo.lua",
+    "size": 2488,
+    "compressed_size": 1302,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/WolfkingMaster/WolfkingMatchConfirmView.lua",
+    "size": 4764,
+    "compressed_size": 2373,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/WolfkingMaster/WolfkingOverview.lua",
+    "size": 4598,
+    "compressed_size": 2082,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/WolfkingMaster/WolfkingRoleInfo.lua",
+    "size": 3147,
+    "compressed_size": 1401,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/WolfkingMaster/WolfkingSocketProcesser.lua",
+    "size": 2241,
+    "compressed_size": 915,
+    "encrypted": true
+  },
+  {
+    "path": "ui/GameMode/WolfkingMaster/WolfkingThreeStar.lua",
+    "size": 2167,
+    "compressed_size": 1246,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/Anim_roleskill_playerhead.lua",
+    "size": 1476,
+    "compressed_size": 863,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/AssetCacheManager.lua",
+    "size": 1867,
+    "compressed_size": 1046,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/ExitSheriffView.lua",
+    "size": 3435,
+    "compressed_size": 1802,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/LogicBtnView.lua",
+    "size": 13358,
+    "compressed_size": 5817,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/MagicShareItem.lua",
+    "size": 5536,
+    "compressed_size": 2672,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/MagicSoundConfirmView.lua",
+    "size": 6225,
+    "compressed_size": 3172,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/MatchTipView.lua",
+    "size": 3698,
+    "compressed_size": 2091,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RarityDressupParticle.lua",
+    "size": 2872,
+    "compressed_size": 1559,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/ReadyCountdown.lua",
+    "size": 2971,
+    "compressed_size": 1690,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/ReceiveSilenceRemindView.lua",
+    "size": 1412,
+    "compressed_size": 960,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomCard.lua",
+    "size": 8382,
+    "compressed_size": 3643,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomChatGroupItem.lua",
+    "size": 4152,
+    "compressed_size": 2270,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomChatSectItem.lua",
+    "size": 7073,
+    "compressed_size": 3584,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomController.lua",
+    "size": 20968,
+    "compressed_size": 8339,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomCountDownConfig.lua",
+    "size": 2547,
+    "compressed_size": 1312,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomCountdown.lua",
+    "size": 13656,
+    "compressed_size": 6431,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomCustomEntranceView.lua",
+    "size": 1302,
+    "compressed_size": 865,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomCustomPatternsView.lua",
+    "size": 5922,
+    "compressed_size": 2786,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomEmceeView.lua",
+    "size": 6892,
+    "compressed_size": 3335,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomFriendChatView.lua",
+    "size": 16171,
+    "compressed_size": 6913,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomFriendItem.lua",
+    "size": 4923,
+    "compressed_size": 2523,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomFriendListView.lua",
+    "size": 6916,
+    "compressed_size": 3227,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomGroupChatView.lua",
+    "size": 4022,
+    "compressed_size": 1992,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomNoticeView.lua",
+    "size": 1203,
+    "compressed_size": 806,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomReportItem.lua",
+    "size": 2160,
+    "compressed_size": 1343,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomReportOption.lua",
+    "size": 3475,
+    "compressed_size": 2048,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomReportPopView.lua",
+    "size": 9537,
+    "compressed_size": 4490,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomReportSuccessView.lua",
+    "size": 989,
+    "compressed_size": 678,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomSocketProcessor.lua",
+    "size": 37503,
+    "compressed_size": 9694,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomView.lua",
+    "size": 245635,
+    "compressed_size": 94150,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomViewSpeakendBubble.lua",
+    "size": 1116,
+    "compressed_size": 681,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/Seat.lua",
+    "size": 58783,
+    "compressed_size": 21043,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/SeatCakeGroupItem.lua",
+    "size": 1555,
+    "compressed_size": 985,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/SeatCakeMarkIdentityItem.lua",
+    "size": 1935,
+    "compressed_size": 1154,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/SeatDressUp.lua",
+    "size": 18984,
+    "compressed_size": 8152,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/SeatDressUpBubbleView.lua",
+    "size": 1510,
+    "compressed_size": 988,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/SeatHeadEffect.lua",
+    "size": 971,
+    "compressed_size": 666,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/SeatManager.lua",
+    "size": 4757,
+    "compressed_size": 2217,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/SendSilenceRemindView.lua",
+    "size": 1658,
+    "compressed_size": 1038,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/SpeakView.lua",
+    "size": 33818,
+    "compressed_size": 13045,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/TableGameRelineInfo.lua",
+    "size": 88010,
+    "compressed_size": 30476,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/TopInfo.lua",
+    "size": 12589,
+    "compressed_size": 4789,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/WereWolvesSuicideView.lua",
+    "size": 3929,
+    "compressed_size": 2103,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/Cake/CakeBecomeHelpherView.lua",
+    "size": 2585,
+    "compressed_size": 1643,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/Cake/CakeCheckRoleView.lua",
+    "size": 2218,
+    "compressed_size": 1413,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/Cake/CakeEventReplayItem.lua",
+    "size": 2968,
+    "compressed_size": 1769,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/Cake/CakeGroupResultView.lua",
+    "size": 3508,
+    "compressed_size": 2087,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/Cake/CakeRoomView.lua",
+    "size": 18410,
+    "compressed_size": 6742,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/Cake/CakeRoundReplayItem.lua",
+    "size": 982,
+    "compressed_size": 706,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/Cake/CakeWolfTipsView.lua",
+    "size": 2521,
+    "compressed_size": 1515,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/Cake/DialogBox/CakeDialogBoxCheckRoleView.lua",
+    "size": 1371,
+    "compressed_size": 896,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/Cake/DialogBox/CakeDialogBoxKillVoteView.lua",
+    "size": 3501,
+    "compressed_size": 1981,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/Cake/DialogBox/CakeDialogBoxSelectHelpherView.lua",
+    "size": 6262,
+    "compressed_size": 3013,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/Cake/DialogBox/CakeDialogBoxUseDivisionView.lua",
+    "size": 1333,
+    "compressed_size": 833,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/Cake/DialogBox/CakeDialogbox.lua",
+    "size": 5233,
+    "compressed_size": 2648,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/CutInMic/CutInMicView.lua",
+    "size": 3572,
+    "compressed_size": 1890,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/DressUp/DecorationRoomMainView.lua",
+    "size": 22298,
+    "compressed_size": 9302,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/DressUp/DecorationsRoomInformation.lua",
+    "size": 13632,
+    "compressed_size": 5864,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/DressUp/DressRoomMainView.lua",
+    "size": 41198,
+    "compressed_size": 16563,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/DressUp/DressupRoomViewManager.lua",
+    "size": 1201,
+    "compressed_size": 753,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/DressUp/MyselfRoomConstValue.lua",
+    "size": 4643,
+    "compressed_size": 2071,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/DressUp/MyselfRoomMainView.lua",
+    "size": 5298,
+    "compressed_size": 2573,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/FanGame/FanAllRoleTipsView.lua",
+    "size": 2326,
+    "compressed_size": 1306,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/FanGame/FanDistributeTheRoleView.lua",
+    "size": 2781,
+    "compressed_size": 1476,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/FanGame/FanGame.lua",
+    "size": 39069,
+    "compressed_size": 14843,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/FanGame/FanGameSocketProcesser.lua",
+    "size": 4625,
+    "compressed_size": 1557,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/FanGame/FanPlayerRoleInfo.lua",
+    "size": 2803,
+    "compressed_size": 1539,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/FanGame/FanRoleInfoItem.lua",
+    "size": 1470,
+    "compressed_size": 1000,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/FanGame/FanSelfMayRole.lua",
+    "size": 2308,
+    "compressed_size": 1404,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/FanGame/FanSixRoleTipsView.lua",
+    "size": 5873,
+    "compressed_size": 2781,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/FanGame/FanVotePublicBlock.lua",
+    "size": 2880,
+    "compressed_size": 1613,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/FanGame/DialogBox/FanBrightRole.lua",
+    "size": 2923,
+    "compressed_size": 1703,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/FanGame/DialogBox/FanDialogbox.lua",
+    "size": 2912,
+    "compressed_size": 1620,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/FanGame/DialogBox/FanKillVote.lua",
+    "size": 3403,
+    "compressed_size": 1802,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/FanGame/GameOver/FanGameOverComNoWinTopItem.lua",
+    "size": 1789,
+    "compressed_size": 1112,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/FanGame/GameOver/FanGameOverComWinItem.lua",
+    "size": 4532,
+    "compressed_size": 2494,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/FanGame/GameOver/FanGameOverComWinTopItem.lua",
+    "size": 2251,
+    "compressed_size": 1367,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/FanGame/GameOver/FanGameOverGodWinItem.lua",
+    "size": 5751,
+    "compressed_size": 3101,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/FanGame/GameOver/FanGameOverLookBtnItem.lua",
+    "size": 2248,
+    "compressed_size": 1395,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/FanGame/GameOver/FanGameOverReward.lua",
+    "size": 1991,
+    "compressed_size": 1205,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/FanGame/GameOver/FanGameOverRoleTips.lua",
+    "size": 1890,
+    "compressed_size": 1162,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/FanGame/GameOver/FanGameover.lua",
+    "size": 3564,
+    "compressed_size": 1874,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/FanGame/GameOver/FanGroupView.lua",
+    "size": 5749,
+    "compressed_size": 2805,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/FanGame/GameOver/FanGroupViewLose.lua",
+    "size": 1944,
+    "compressed_size": 1269,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/FanGame/GameOver/FanScoreBoard.lua",
+    "size": 10064,
+    "compressed_size": 4927,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/FriendChat/RoomChatSocketProcessor.lua",
+    "size": 2771,
+    "compressed_size": 1000,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/FriendChat/RoomFriendChatInviteMsg.lua",
+    "size": 3727,
+    "compressed_size": 2005,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/FriendChat/RoomFriendChatManager.lua",
+    "size": 8833,
+    "compressed_size": 3869,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/FriendChat/RoomFriendChatSimpleChat.lua",
+    "size": 1411,
+    "compressed_size": 947,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/FriendChat/RoomFriendChatTips.lua",
+    "size": 1052,
+    "compressed_size": 725,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/GameTask/GameTaskController.lua",
+    "size": 2576,
+    "compressed_size": 1469,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/GameTask/GameTaskSocketProcessor.lua",
+    "size": 1436,
+    "compressed_size": 739,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/GameTips/GameTipsController.lua",
+    "size": 7127,
+    "compressed_size": 3232,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/GameTips/GameTipsData.lua",
+    "size": 3833,
+    "compressed_size": 1970,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/GameTips/GameTipsPopItem.lua",
+    "size": 4529,
+    "compressed_size": 2398,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/GameTips/GameTipsPopView.lua",
+    "size": 5360,
+    "compressed_size": 2748,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/GameTips/GameTipsSocketProcessor.lua",
+    "size": 1451,
+    "compressed_size": 757,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/GameTips/GameTipsView.lua",
+    "size": 4931,
+    "compressed_size": 2479,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/GrabIdentity/BasicGrabIdentityView.lua",
+    "size": 5246,
+    "compressed_size": 2843,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/GrabIdentity/GameTaskRewardItem.lua",
+    "size": 2394,
+    "compressed_size": 1438,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/GrabIdentity/GrabCard.lua",
+    "size": 3209,
+    "compressed_size": 1775,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/GrabIdentity/GrabIdentityController.lua",
+    "size": 7209,
+    "compressed_size": 3327,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/GrabIdentity/GrabIdentitySocketProcessor.lua",
+    "size": 1767,
+    "compressed_size": 864,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/GrabIdentity/GrabIdentityView.lua",
+    "size": 19669,
+    "compressed_size": 9325,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/GrabIdentity/IdentityConfig.lua",
+    "size": 10811,
+    "compressed_size": 4128,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/GrabIdentity/IdentityDescView.lua",
+    "size": 23789,
+    "compressed_size": 10161,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/GrabIdentity/IdentityPoster.lua",
+    "size": 1068,
+    "compressed_size": 743,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/GrabIdentity/LimitGift/GrabIdentityLimitGiftBagView.lua",
+    "size": 6273,
+    "compressed_size": 3206,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/GrabIdentity/LimitGift/GrabIdentityLimitGiftCtrl.lua",
+    "size": 2761,
+    "compressed_size": 1536,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/GrabIdentity/LimitGift/GrabIdentityLimitGiftIcon.lua",
+    "size": 3593,
+    "compressed_size": 1962,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/GuildActivity/GuildActivityController.lua",
+    "size": 13386,
+    "compressed_size": 4828,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/GuildActivity/GuildActivityProcessor.lua",
+    "size": 2814,
+    "compressed_size": 967,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/MagicSoundSkinAnimation/MagicSoundSkinAnimationSeat.lua",
+    "size": 2454,
+    "compressed_size": 1383,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/MicrophoneAnimation/MicrophoneAnimationParticleView.lua",
+    "size": 2174,
+    "compressed_size": 1262,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/MicrophoneAnimation/MicrophoneAnimationRoom.lua",
+    "size": 4121,
+    "compressed_size": 2108,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/MicrophoneAnimation/MicrophoneAnimationSeat.lua",
+    "size": 3831,
+    "compressed_size": 1881,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomSettings/PopularRoomSettingsView.lua",
+    "size": 9767,
+    "compressed_size": 4699,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomSettings/RoomSettingsConfig.lua",
+    "size": 12146,
+    "compressed_size": 5180,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomSettings/RoomSettingsDataManager.lua",
+    "size": 3816,
+    "compressed_size": 1768,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomSettings/RoomSettingsTabView.lua",
+    "size": 2367,
+    "compressed_size": 1257,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomSettings/RoomSettingsView.lua",
+    "size": 8141,
+    "compressed_size": 3747,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomSettings/BasicSettings/BasicSettingsMagicSoundOptionView.lua",
+    "size": 1876,
+    "compressed_size": 1134,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomSettings/BasicSettings/BasicSettingsOptionItem.lua",
+    "size": 2074,
+    "compressed_size": 1239,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomSettings/BasicSettings/BasicSettingsSeatingOptionView.lua",
+    "size": 4693,
+    "compressed_size": 2390,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomSettings/BasicSettings/BasicSettingsSelectBoxItem.lua",
+    "size": 6723,
+    "compressed_size": 3392,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomSettings/BasicSettings/BasicSettingsToggleItem.lua",
+    "size": 4981,
+    "compressed_size": 2601,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomSettings/BasicSettings/BasicSettingsToggleView.lua",
+    "size": 2449,
+    "compressed_size": 1356,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomSettings/BasicSettings/BasicSettingsView.lua",
+    "size": 8037,
+    "compressed_size": 3829,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomSettings/GuildSettings/GuildActivityDetailPop.lua",
+    "size": 2986,
+    "compressed_size": 1698,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomSettings/GuildSettings/GuildActivityEditPop.lua",
+    "size": 2504,
+    "compressed_size": 1436,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomSettings/GuildSettings/GuildActivityOpenPop.lua",
+    "size": 3238,
+    "compressed_size": 1857,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomSettings/GuildSettings/GuildActivitySettingsItem.lua",
+    "size": 7836,
+    "compressed_size": 3800,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomSettings/SceneSettings/SceneSettingsView.lua",
+    "size": 4155,
+    "compressed_size": 2219,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomSettings/SuperRoomSettings/SelectOptionItem.lua",
+    "size": 1478,
+    "compressed_size": 932,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomSettings/SuperRoomSettings/SelectOptionView.lua",
+    "size": 1214,
+    "compressed_size": 753,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomSettings/SuperRoomSettings/SuperRoomOptionItem.lua",
+    "size": 8217,
+    "compressed_size": 3597,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomSettings/SuperRoomSettings/SuperRoomSetUpDataManager.lua",
+    "size": 5994,
+    "compressed_size": 2749,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/RoomSettings/SuperRoomSettings/SuperRoomSettingsView.lua",
+    "size": 4066,
+    "compressed_size": 1897,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/SceneEffect/SceneEffectPop.lua",
+    "size": 15631,
+    "compressed_size": 7144,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/SceneEffect/TagItem.lua",
+    "size": 3048,
+    "compressed_size": 1610,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/SceneEffect/TagTableItem.lua",
+    "size": 2642,
+    "compressed_size": 1523,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/SceneEffect/OptionsView/MagicSoundShareEditOption.lua",
+    "size": 1675,
+    "compressed_size": 1106,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/SceneEffect/OptionsView/NewGameSceneItem.lua",
+    "size": 6213,
+    "compressed_size": 3008,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/SceneEffect/OptionsView/OptionsView.lua",
+    "size": 4023,
+    "compressed_size": 2021,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/SceneEffect/OptionsView/SceneEffectInviteOption.lua",
+    "size": 5225,
+    "compressed_size": 2875,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/SceneEffect/OptionsView/SceneEffectRedenvelopesEditOption.lua",
+    "size": 989,
+    "compressed_size": 672,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/SceneEffect/OptionsView/SceneEffectTimeOption.lua",
+    "size": 1101,
+    "compressed_size": 779,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/SceneEffect/OptionsView/SimpleOption.lua",
+    "size": 1332,
+    "compressed_size": 884,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/SceneEffect/OptionsView/toggleItemView.lua",
+    "size": 2956,
+    "compressed_size": 1618,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/SeatInAnimation/PlayerHeadSeatAnimationCouple.lua",
+    "size": 1367,
+    "compressed_size": 855,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/SeatInAnimation/SeatInAnimation_1_01_Ctrl.lua",
+    "size": 1072,
+    "compressed_size": 660,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/SeatInAnimation/SeatInAnimation_1_01_View.lua",
+    "size": 857,
+    "compressed_size": 578,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/SimplifiedServer/GameTriggerConfigToJson.lua",
+    "size": 980,
+    "compressed_size": 717,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/SimplifiedServer/LocalRoomSocketProcesser.lua",
+    "size": 1345,
+    "compressed_size": 704,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/SimplifiedServer/LocalServerTimer.lua",
+    "size": 3340,
+    "compressed_size": 1786,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/SimplifiedServer/RoomGuideController.lua",
+    "size": 12075,
+    "compressed_size": 5416,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/SimplifiedServer/gameTriggerConfig.json",
+    "size": 14113,
+    "compressed_size": 1942,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/SimplifiedServer/localserver.lua",
+    "size": 44001,
+    "compressed_size": 17344,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/TableCtrl/TableCtrl.lua",
+    "size": 32809,
+    "compressed_size": 12008,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/TableCtrl/TableGameInfo.lua",
+    "size": 2030,
+    "compressed_size": 997,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/TableCtrl/TableGuildActivityNoticeCardView.lua",
+    "size": 4215,
+    "compressed_size": 2211,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/TableCtrl/TableRelineInfo.lua",
+    "size": 2891,
+    "compressed_size": 1347,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/VipEnterRoomEffect/VipEnterRoomEffectCtrl.lua",
+    "size": 4642,
+    "compressed_size": 2315,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/VipEnterRoomEffect/VipEnterRoomEffectItem.lua",
+    "size": 2701,
+    "compressed_size": 1500,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/ai/AIController.lua",
+    "size": 7968,
+    "compressed_size": 4443,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/ai/AIData.lua",
+    "size": 6447,
+    "compressed_size": 3516,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/ai/AINoteData.lua",
+    "size": 11356,
+    "compressed_size": 5824,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/ai/AIReferenceData.lua",
+    "size": 10567,
+    "compressed_size": 5437,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/ai/AIReferenceView.lua",
+    "size": 5299,
+    "compressed_size": 2443,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/AnimCakeRollView.lua",
+    "size": 1742,
+    "compressed_size": 1016,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/AnimCakeStateView.lua",
+    "size": 3895,
+    "compressed_size": 2153,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/AnimCrescentNewSkillTipsView.lua",
+    "size": 1908,
+    "compressed_size": 1190,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/AnimCrescentNoticeDeathView.lua",
+    "size": 2897,
+    "compressed_size": 1753,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/AnimCrescentOutTipsView.lua",
+    "size": 4625,
+    "compressed_size": 2413,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/AnimMultipleSingleSkillAnimView.lua",
+    "size": 3445,
+    "compressed_size": 1624,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/AnimOtherEyeCloseItem.lua",
+    "size": 3881,
+    "compressed_size": 1945,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/AnimOtherEyeCloseView.lua",
+    "size": 7082,
+    "compressed_size": 3563,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/AnimRole8HunterConfirmView.lua",
+    "size": 1535,
+    "compressed_size": 920,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_big_transition_02_CampaignResult_01_AppointedSheriffView.lua",
+    "size": 3647,
+    "compressed_size": 2112,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_big_transition_02_CampaignResult_02_Appointed_NoSheriffView.lua",
+    "size": 1713,
+    "compressed_size": 1090,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_big_transition_02_CampaignResult_03_ChangeSheriffView.lua",
+    "size": 3847,
+    "compressed_size": 2198,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_big_transition_02_CampaignResult_04_Change_NoSheriffView.lua",
+    "size": 1708,
+    "compressed_size": 1095,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_big_transition_05_Death_02_DieForLoveView.lua",
+    "size": 1918,
+    "compressed_size": 1195,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_big_transition_05_Death_02_DieForLove_MutiView.lua",
+    "size": 4086,
+    "compressed_size": 2162,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_02_werewolves_01_confirmView.lua",
+    "size": 2417,
+    "compressed_size": 1316,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_02_werewolves_01_confirm_2View.lua",
+    "size": 2047,
+    "compressed_size": 1222,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_02_werewolves_02_NobodyView.lua",
+    "size": 1762,
+    "compressed_size": 1069,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_02_werewolves_02_Nobody_2View.lua",
+    "size": 1307,
+    "compressed_size": 865,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_03_seer_01_confirmView.lua",
+    "size": 2228,
+    "compressed_size": 1302,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_03_seer_01_confirm_2View.lua",
+    "size": 1494,
+    "compressed_size": 927,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_04_guard_01_confirmView.lua",
+    "size": 1432,
+    "compressed_size": 874,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_04_guard_02_NobodyView.lua",
+    "size": 942,
+    "compressed_size": 653,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_06_thief_01_confirmView.lua",
+    "size": 1910,
+    "compressed_size": 1156,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_06_thief_02_confirmView.lua",
+    "size": 1910,
+    "compressed_size": 1156,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_07_cupid_01_confirmView.lua",
+    "size": 1773,
+    "compressed_size": 1066,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_08_hunter_01_confirmView.lua",
+    "size": 1576,
+    "compressed_size": 985,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_08_hunter_02_NobodyView.lua",
+    "size": 822,
+    "compressed_size": 586,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_10_wolvesking_01_confirmView.lua",
+    "size": 1593,
+    "compressed_size": 952,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_10_wolvesking_02_NobodyView.lua",
+    "size": 817,
+    "compressed_size": 571,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_12_whitewolvesking_01_confirmView.lua",
+    "size": 1440,
+    "compressed_size": 885,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_12_whitewolvesking_02_NobodyView.lua",
+    "size": 1548,
+    "compressed_size": 929,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_13_dreamer_01_confirmView.lua",
+    "size": 1308,
+    "compressed_size": 829,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_13_dreamer_02_confirm_killView.lua",
+    "size": 1323,
+    "compressed_size": 835,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_14_magician_01_confirmView.lua",
+    "size": 1256,
+    "compressed_size": 778,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_14_magician_02_NobodyView.lua",
+    "size": 766,
+    "compressed_size": 548,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_16_wolfbeauty_01_confirmView.lua",
+    "size": 1356,
+    "compressed_size": 847,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_16_wolfbeauty_02_NobodyView.lua",
+    "size": 986,
+    "compressed_size": 681,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_17_knight_01_confirmView.lua",
+    "size": 1402,
+    "compressed_size": 874,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_22_gargoyles_01_confirmView.lua",
+    "size": 3018,
+    "compressed_size": 1676,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_24_demonhunter_01_confirmView.lua",
+    "size": 1152,
+    "compressed_size": 719,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_24_demonhunter_02_NobodyView.lua",
+    "size": 729,
+    "compressed_size": 522,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_27_nightmare_01_confirmView.lua",
+    "size": 1146,
+    "compressed_size": 720,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_27_nightmare_02_NobodyView.lua",
+    "size": 723,
+    "compressed_size": 523,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_28_admirer_01_confirmView.lua",
+    "size": 1140,
+    "compressed_size": 716,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_29_trader_01_confirmView.lua",
+    "size": 1972,
+    "compressed_size": 1110,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_29_trader_01_confirm_2View.lua",
+    "size": 2023,
+    "compressed_size": 1141,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_29_trader_02_NobodyView.lua",
+    "size": 714,
+    "compressed_size": 521,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_31_wolfqueen_01_confirmView.lua",
+    "size": 1177,
+    "compressed_size": 738,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_31_wolfqueen_02_NobodyView.lua",
+    "size": 806,
+    "compressed_size": 577,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_32_prince_01_confirmView.lua",
+    "size": 1271,
+    "compressed_size": 804,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_32_prince_02_NobodyView.lua",
+    "size": 822,
+    "compressed_size": 585,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_33_whiteSister_01_confirmView.lua",
+    "size": 3203,
+    "compressed_size": 1767,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_34_wolfWitch_01_confirmView.lua",
+    "size": 3108,
+    "compressed_size": 1751,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_35_Alchemist_01_ConfirmView.lua",
+    "size": 1439,
+    "compressed_size": 873,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_35_Alchemist_01_NobodyView.lua",
+    "size": 837,
+    "compressed_size": 592,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_35_Alchemist_02_NobodyView.lua",
+    "size": 883,
+    "compressed_size": 630,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_35_Alchemist_03_UnknowFog_01_ConfirmView.lua",
+    "size": 1289,
+    "compressed_size": 789,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_35_Alchemist_04_UnknowFog_02_NobodyView.lua",
+    "size": 913,
+    "compressed_size": 648,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_36_Wolfcrow_01_ConfirmView.lua",
+    "size": 1235,
+    "compressed_size": 785,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_36_Wolfcrow_02_NobodyView.lua",
+    "size": 803,
+    "compressed_size": 576,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_37_Bear_01_ConfirmView.lua",
+    "size": 803,
+    "compressed_size": 585,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_37_Bear_02_NobodyView.lua",
+    "size": 774,
+    "compressed_size": 566,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_38_BabyFox_01_confirmView.lua",
+    "size": 1161,
+    "compressed_size": 738,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_38_BabyFox_02_NobodyView.lua",
+    "size": 715,
+    "compressed_size": 522,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_39_PufferFish_01_confirmView.lua",
+    "size": 1314,
+    "compressed_size": 796,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_42_Enhance_01_confirmView.lua",
+    "size": 1821,
+    "compressed_size": 1099,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_42_commonNobodyView.lua",
+    "size": 930,
+    "compressed_size": 654,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_42_dayScholar_01_confirmView.lua",
+    "size": 1260,
+    "compressed_size": 791,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_42_dayScholar_02_confirmView.lua",
+    "size": 1258,
+    "compressed_size": 792,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_43_commonNobodyView.lua",
+    "size": 932,
+    "compressed_size": 655,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_43_nightMentor_01_confirmView.lua",
+    "size": 1264,
+    "compressed_size": 788,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_43_nightMentor_02_confirmView.lua",
+    "size": 1262,
+    "compressed_size": 786,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_44_streamerEarl_01_confirmView.lua",
+    "size": 1176,
+    "compressed_size": 743,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_44_streamerEarl_02_NobodyView.lua",
+    "size": 1181,
+    "compressed_size": 744,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_45_eclipseMaid_01_confirmView.lua",
+    "size": 1304,
+    "compressed_size": 826,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_45_eclipseMaid_02_NobodyView.lua",
+    "size": 1223,
+    "compressed_size": 770,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_46_awakenFools_01_ConfirmView.lua",
+    "size": 1173,
+    "compressed_size": 743,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_46_awakenFools_02_NobodyView.lua",
+    "size": 1178,
+    "compressed_size": 743,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_47_nightNobility_01_ConfirmView.lua",
+    "size": 1179,
+    "compressed_size": 743,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_47_nightNobility_02_NobodyView.lua",
+    "size": 1184,
+    "compressed_size": 743,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_48_awakenSeer_01_ConfirmView.lua",
+    "size": 2343,
+    "compressed_size": 1240,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_49_perfumer_01_ConfirmView.lua",
+    "size": 1200,
+    "compressed_size": 748,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_49_perfumer_02_NobodyView.lua",
+    "size": 1122,
+    "compressed_size": 713,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_50_Enhance_SuccessorView.lua",
+    "size": 1347,
+    "compressed_size": 860,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_50_awakenWolvesking_01_confirmView.lua",
+    "size": 1951,
+    "compressed_size": 1100,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_50_awakenWolvesking_02_NobodyView.lua",
+    "size": 732,
+    "compressed_size": 520,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_50_awakenWolvesking_03_confirmView.lua",
+    "size": 1301,
+    "compressed_size": 808,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_50_awakenWolvesking_04_NobodyView.lua",
+    "size": 1118,
+    "compressed_size": 767,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_51_awakeningHiddenWolf_01_ConfirmView.lua",
+    "size": 2368,
+    "compressed_size": 1328,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_51_awakeningHiddenWolf_02_NobodyView.lua",
+    "size": 1272,
+    "compressed_size": 774,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_52_magicMirrorGirl_01_ConfirmView.lua",
+    "size": 2688,
+    "compressed_size": 1491,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_52_magicMirrorGirl_02_NobodyView.lua",
+    "size": 1260,
+    "compressed_size": 767,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_53_AwakeningAdmirer_01_ComfirmView.lua",
+    "size": 1125,
+    "compressed_size": 689,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_53_AwakeningAdmirer_02_NobodyView.lua",
+    "size": 619,
+    "compressed_size": 444,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_56_AwakeningWitch_01_ComfirmView.lua",
+    "size": 2125,
+    "compressed_size": 1128,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_56_AwakeningWitch_02_NobodyView.lua",
+    "size": 1465,
+    "compressed_size": 865,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_56_AwakeningWitch_ReviveView.lua",
+    "size": 1344,
+    "compressed_size": 846,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_56_ReceiveAwakenPoisonView.lua",
+    "size": 1341,
+    "compressed_size": 852,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_61_AwakeningWhitewolvesking_01_ComfirmView.lua",
+    "size": 2084,
+    "compressed_size": 1205,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_61_AwakeningWhitewolvesking_02_ComfirmView.lua",
+    "size": 1962,
+    "compressed_size": 1141,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_62_AwakeningGuard_01_ComfirmView.lua",
+    "size": 1640,
+    "compressed_size": 1010,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_62_AwakeningGuard_02_NobodyView.lua",
+    "size": 1411,
+    "compressed_size": 886,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_64_AwakeningDreamer_01_comfirmView.lua",
+    "size": 1142,
+    "compressed_size": 707,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_64_AwakeningDreamer_02_comfirm_killView.lua",
+    "size": 1111,
+    "compressed_size": 686,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_64_AwakeningDreamer_03_NobodyView.lua",
+    "size": 1417,
+    "compressed_size": 882,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_roleskill_dead_otherviewView.lua",
+    "size": 1386,
+    "compressed_size": 869,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_small_transition_01_GameBeginView.lua",
+    "size": 901,
+    "compressed_size": 647,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_small_transition_01_fanView.lua",
+    "size": 993,
+    "compressed_size": 697,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_small_transition_02_dawnView.lua",
+    "size": 886,
+    "compressed_size": 643,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_small_transition_03_GetsDarkView.lua",
+    "size": 894,
+    "compressed_size": 649,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_small_transition_04_SheriffCampaign_01_beginView.lua",
+    "size": 1006,
+    "compressed_size": 698,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_small_transition_05_SheriffCampaign_02_personView.lua",
+    "size": 1183,
+    "compressed_size": 788,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_small_transition_05_SheriffCampaign_03_speakView.lua",
+    "size": 3930,
+    "compressed_size": 2172,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_small_transition_05_SheriffCampaign_04_voteView.lua",
+    "size": 1671,
+    "compressed_size": 1027,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_small_transition_05_SheriffCampaign_05_residueView.lua",
+    "size": 1704,
+    "compressed_size": 1034,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_small_transition_06_exile_01_speak1View.lua",
+    "size": 3377,
+    "compressed_size": 1933,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_small_transition_06_exile_02_summaryView.lua",
+    "size": 1900,
+    "compressed_size": 1139,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Anim_small_transition_06_exile_03_voteView.lua",
+    "size": 1045,
+    "compressed_size": 726,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Bg_a.lua",
+    "size": 4882,
+    "compressed_size": 2104,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Bg_scene_style_1.lua",
+    "size": 7400,
+    "compressed_size": 3214,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/GameAnimConstValue.lua",
+    "size": 1408,
+    "compressed_size": 664,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/GameAnimMgr.lua",
+    "size": 13493,
+    "compressed_size": 5960,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Notice_AwakeningAdmirer_inherit_tipsView.lua",
+    "size": 4347,
+    "compressed_size": 2305,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Notice_PKView.lua",
+    "size": 3270,
+    "compressed_size": 1798,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Notice_deathView.lua",
+    "size": 5346,
+    "compressed_size": 2901,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Notice_exlie_nobodyView.lua",
+    "size": 2440,
+    "compressed_size": 1439,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Notice_exlie_singleView.lua",
+    "size": 5798,
+    "compressed_size": 3179,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Notice_multi_deathView.lua",
+    "size": 5329,
+    "compressed_size": 2814,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Notice_silentnightView.lua",
+    "size": 949,
+    "compressed_size": 676,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Skill_AwakeningGargoylesConvertedView.lua",
+    "size": 1455,
+    "compressed_size": 883,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Skill_AwakeningGargoylesUsedSkillView.lua",
+    "size": 1354,
+    "compressed_size": 837,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Skill_AwakeningHunterView.lua",
+    "size": 4261,
+    "compressed_size": 2212,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Skill_AwakeningHunter_nobodyView.lua",
+    "size": 1061,
+    "compressed_size": 731,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Skill_AwakeningWerewolfBeautyView.lua",
+    "size": 1112,
+    "compressed_size": 702,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Skill_AwakeningWerewolfBeauty_nobodyView.lua",
+    "size": 657,
+    "compressed_size": 473,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Skill_CrowView.lua",
+    "size": 1178,
+    "compressed_size": 750,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Skill_WitchView.lua",
+    "size": 1370,
+    "compressed_size": 843,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Skill_Witch_SmallView.lua",
+    "size": 1037,
+    "compressed_size": 686,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Skill_Witch_nobodyView.lua",
+    "size": 970,
+    "compressed_size": 679,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Skill_Witch_nobody_SmallView.lua",
+    "size": 815,
+    "compressed_size": 560,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Skill_Witch_reviveView.lua",
+    "size": 1280,
+    "compressed_size": 783,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Skill_Witch_revive_SmallView.lua",
+    "size": 769,
+    "compressed_size": 534,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/Skill_tombwatcherView.lua",
+    "size": 1383,
+    "compressed_size": 857,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/anim/anim_skillDialogBoxEdgeArea.lua",
+    "size": 729,
+    "compressed_size": 536,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/crescent/CrescentController.lua",
+    "size": 7528,
+    "compressed_size": 3437,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/crescent/CrescentDataManager.lua",
+    "size": 19978,
+    "compressed_size": 8028,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/crescent/CrescentEventFrame.lua",
+    "size": 13668,
+    "compressed_size": 6397,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/crescent/CrescentEventNewSkillTipsView.lua",
+    "size": 1817,
+    "compressed_size": 1146,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/crescent/CrescentEventReplayItem.lua",
+    "size": 1319,
+    "compressed_size": 881,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/crescent/CrescentEventShowTips.lua",
+    "size": 9669,
+    "compressed_size": 4737,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/crescent/CrescentEventShowView.lua",
+    "size": 5693,
+    "compressed_size": 2851,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/crescent/CrescentGameOverItem.lua",
+    "size": 1675,
+    "compressed_size": 1070,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/crescent/CrescentRandomSheriffView.lua",
+    "size": 1139,
+    "compressed_size": 755,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/crescent/CresentGameMVPAnimationShareView.lua",
+    "size": 6878,
+    "compressed_size": 3728,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/crescent/CresentGameMVPAnimationView.lua",
+    "size": 9024,
+    "compressed_size": 4770,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/crescent/CresentProcessor.lua",
+    "size": 2008,
+    "compressed_size": 758,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/crescent/CresentPublishInfoView.lua",
+    "size": 4907,
+    "compressed_size": 2693,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/currentperson/CurrentPersonManagerView.lua",
+    "size": 6865,
+    "compressed_size": 3029,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/currentperson/CurrentPersonSkin.lua",
+    "size": 7120,
+    "compressed_size": 3641,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/currentperson/CurrentPersonView.lua",
+    "size": 26955,
+    "compressed_size": 11249,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/currentperson/NumCard.lua",
+    "size": 2738,
+    "compressed_size": 1571,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/DialogBoxBaseView.lua",
+    "size": 4020,
+    "compressed_size": 2209,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/DialogboxView.lua",
+    "size": 13240,
+    "compressed_size": 4745,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/killvote/DialogBoxKillVoteView.lua",
+    "size": 1596,
+    "compressed_size": 921,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/multipleWeaken/DialogBoxMultipleWeakenView.lua",
+    "size": 2560,
+    "compressed_size": 1502,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/prohibitSkill/moreReasonItem.lua",
+    "size": 1889,
+    "compressed_size": 1073,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/prohibitSkill/prohibitGun.lua",
+    "size": 6835,
+    "compressed_size": 3175,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/prohibitSkill/singleReasonItem.lua",
+    "size": 2603,
+    "compressed_size": 1535,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role10/DialogBoxRole10OneView.lua",
+    "size": 1501,
+    "compressed_size": 987,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role10/DialogBoxRole10View.lua",
+    "size": 1486,
+    "compressed_size": 978,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role12/DialogBoxRole12View.lua",
+    "size": 1152,
+    "compressed_size": 763,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role13/DialogBoxRole13View.lua",
+    "size": 2514,
+    "compressed_size": 1424,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role14/DialogBoxRole14View.lua",
+    "size": 7544,
+    "compressed_size": 3430,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role16/DialogBoxRole16View.lua",
+    "size": 1094,
+    "compressed_size": 731,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role17/DialogBoxRole17View.lua",
+    "size": 1166,
+    "compressed_size": 779,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role18/DialogBoxRole18View.lua",
+    "size": 978,
+    "compressed_size": 680,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role2/DialogBoxRole2View.lua",
+    "size": 1343,
+    "compressed_size": 895,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role21/DialogBoxRole21View.lua",
+    "size": 1904,
+    "compressed_size": 1190,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role22/DialogBoxRole22View.lua",
+    "size": 1297,
+    "compressed_size": 842,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role23/DialogBoxRole23View.lua",
+    "size": 939,
+    "compressed_size": 640,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role24/DialogBoxRole24View.lua",
+    "size": 2108,
+    "compressed_size": 1243,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role27/DialogBoxRole27View.lua",
+    "size": 1351,
+    "compressed_size": 838,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role28/DialogBoxRole28View.lua",
+    "size": 1041,
+    "compressed_size": 692,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role29/DialogBoxRole29View.lua",
+    "size": 5551,
+    "compressed_size": 2382,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role29/DialogBoxRole29_skill40View.lua",
+    "size": 1018,
+    "compressed_size": 693,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role29/DialogBoxRole29_skill41View.lua",
+    "size": 2707,
+    "compressed_size": 1498,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role29/DialogBoxRole29_skill42View.lua",
+    "size": 878,
+    "compressed_size": 602,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role3/DialogBoxRole3View.lua",
+    "size": 2582,
+    "compressed_size": 1545,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role31/DialogBoxRole31View.lua",
+    "size": 1394,
+    "compressed_size": 890,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role32/DialogBoxRole32View.lua",
+    "size": 7815,
+    "compressed_size": 3687,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role33/DialogBoxRole33View.lua",
+    "size": 1955,
+    "compressed_size": 1195,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role34/DialogBoxRole34View.lua",
+    "size": 2541,
+    "compressed_size": 1544,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role35/DialogBoxRole35_skill47View.lua",
+    "size": 2926,
+    "compressed_size": 1712,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role35/DialogBoxRole35_skill48View.lua",
+    "size": 6325,
+    "compressed_size": 2939,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role35/DialogBoxRole35_skillPopView.lua",
+    "size": 2992,
+    "compressed_size": 1705,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role36/DialogBoxRole36View.lua",
+    "size": 1068,
+    "compressed_size": 719,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role38/DialogBoxRole38_skill50View.lua",
+    "size": 984,
+    "compressed_size": 670,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role38/DialogBoxRole38_skill55view.lua",
+    "size": 1063,
+    "compressed_size": 704,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role39/DialogBoxRole39View.lua",
+    "size": 5440,
+    "compressed_size": 2731,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role4/DialogBoxRole4View.lua",
+    "size": 2251,
+    "compressed_size": 1390,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role42/DialogBoxRole42_skill59view.lua",
+    "size": 1540,
+    "compressed_size": 1001,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role42/DialogBoxRole42_skillview.lua",
+    "size": 10535,
+    "compressed_size": 3779,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role43/DialogBoxRole43_skill59view.lua",
+    "size": 1572,
+    "compressed_size": 999,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role43/DialogBoxRole43_skillview.lua",
+    "size": 10535,
+    "compressed_size": 3778,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role44/DialogBoxRole44View.lua",
+    "size": 1726,
+    "compressed_size": 1099,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role45/DialogBoxRole45View.lua",
+    "size": 1414,
+    "compressed_size": 944,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role45/DialogBoxRole45_skill63View.lua",
+    "size": 1301,
+    "compressed_size": 861,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role46/DialogBoxRole46BanView.lua",
+    "size": 1137,
+    "compressed_size": 754,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role46/DialogBoxRole46View.lua",
+    "size": 1126,
+    "compressed_size": 749,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role47/DialogBoxRole47BanView.lua",
+    "size": 1139,
+    "compressed_size": 755,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role47/DialogBoxRole47View.lua",
+    "size": 1125,
+    "compressed_size": 747,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role48/DialogBoxRole48View.lua",
+    "size": 6933,
+    "compressed_size": 3321,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role49/DialogBoxRole49View.lua",
+    "size": 1779,
+    "compressed_size": 1114,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role5/DialogBoxRole5PosionView.lua",
+    "size": 2519,
+    "compressed_size": 1399,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role5/DialogBoxRole5View.lua",
+    "size": 17712,
+    "compressed_size": 5758,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role50/DialogBoxRole50View.lua",
+    "size": 7307,
+    "compressed_size": 3421,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role50/DialogBoxRole50_GiveGunView.lua",
+    "size": 2453,
+    "compressed_size": 1437,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role51/DialogBoxRole51View.lua",
+    "size": 1116,
+    "compressed_size": 741,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role51/DialogBoxRole51_Skill83View.lua",
+    "size": 1148,
+    "compressed_size": 764,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role52/DialogBoxRole52View.lua",
+    "size": 1498,
+    "compressed_size": 958,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role53/DialogBoxRole53View.lua",
+    "size": 1086,
+    "compressed_size": 726,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role56/DialogBoxRole56PartnerView.lua",
+    "size": 2477,
+    "compressed_size": 1503,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role56/DialogBoxRole56SkillPoisonView.lua",
+    "size": 22493,
+    "compressed_size": 7977,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role56/PoisonPartnerNumber.lua",
+    "size": 2275,
+    "compressed_size": 1200,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role57/DialogBoxRole57BanView.lua",
+    "size": 1523,
+    "compressed_size": 910,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role57/DialogBoxRole57View.lua",
+    "size": 827,
+    "compressed_size": 581,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role58/DialogBoxRole58View.lua",
+    "size": 1725,
+    "compressed_size": 986,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role59/DialogBoxRole59View.lua",
+    "size": 1092,
+    "compressed_size": 702,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role6/DialogBoxRole6View.lua",
+    "size": 5305,
+    "compressed_size": 2307,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role61/DialogBoxRole61InduceTargetView.lua",
+    "size": 1131,
+    "compressed_size": 751,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role61/DialogBoxRole61View.lua",
+    "size": 1494,
+    "compressed_size": 978,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role62/DialogBoxRole62ShowSkillView.lua",
+    "size": 1498,
+    "compressed_size": 954,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role62/DialogBoxRole62View.lua",
+    "size": 1920,
+    "compressed_size": 1188,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role64/DialogBoxRole64View.lua",
+    "size": 4552,
+    "compressed_size": 2183,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role7/DialogBoxRole7View.lua",
+    "size": 6095,
+    "compressed_size": 2764,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role8/DialogBoxRole8MultiView.lua",
+    "size": 5891,
+    "compressed_size": 2481,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role8/DialogBoxRole8OneView.lua",
+    "size": 1920,
+    "compressed_size": 1195,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/role8/DialogBoxRole8View.lua",
+    "size": 1912,
+    "compressed_size": 1192,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/sheriff/DialogBoxSheriffView.lua",
+    "size": 1364,
+    "compressed_size": 900,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/sheriffselection/DialogBoxSheriffSelectionView.lua",
+    "size": 1553,
+    "compressed_size": 924,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/sherifftransfer/DialogBoxSheriffTransferView.lua",
+    "size": 1670,
+    "compressed_size": 1003,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/dialogbox/sheriffvote/SheriffVoteView.lua",
+    "size": 1479,
+    "compressed_size": 866,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameencourage/AUGameEncourageMainView.lua",
+    "size": 593,
+    "compressed_size": 429,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameencourage/GameEncourageActivity.lua",
+    "size": 2746,
+    "compressed_size": 1642,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameencourage/GameEncourageActivityItem.lua",
+    "size": 6537,
+    "compressed_size": 3126,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameencourage/GameEncourageActivityRankVer.lua",
+    "size": 3330,
+    "compressed_size": 2002,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameencourage/GameEncourageActivityRankVerItem.lua",
+    "size": 1303,
+    "compressed_size": 884,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameencourage/GameEncourageBasicsItem.lua",
+    "size": 3284,
+    "compressed_size": 1661,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameencourage/GameEncourageBattlePassItem.lua",
+    "size": 3003,
+    "compressed_size": 1739,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameencourage/GameEncourageItemTitle.lua",
+    "size": 6030,
+    "compressed_size": 2603,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameencourage/GameEncourageMainView.lua",
+    "size": 3972,
+    "compressed_size": 2097,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameencourage/GameEncourageRankItem.lua",
+    "size": 3921,
+    "compressed_size": 2193,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameencourage/GameEncourageRankVerBasicItem.lua",
+    "size": 1871,
+    "compressed_size": 1183,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameencourage/GameEncourageRankVerMainView.lua",
+    "size": 29347,
+    "compressed_size": 11734,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameencourage/GameEncourageSeekingItem.lua",
+    "size": 2931,
+    "compressed_size": 1511,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameover/AnimWinLoseCtrl.lua",
+    "size": 13238,
+    "compressed_size": 6094,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameover/GameLikeDetailItem.lua",
+    "size": 4251,
+    "compressed_size": 2460,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameover/GameLikeDetailView.lua",
+    "size": 3185,
+    "compressed_size": 1808,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameover/GameMVPAnimationShareView.lua",
+    "size": 11100,
+    "compressed_size": 5510,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameover/GameMVPAnimationView.lua",
+    "size": 12819,
+    "compressed_size": 6405,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameover/GameOverCrescentEventTipsView.lua",
+    "size": 1266,
+    "compressed_size": 864,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameover/GameScoreEvaluateView.lua",
+    "size": 1217,
+    "compressed_size": 815,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameover/GameScorePlayerHeadCtrl.lua",
+    "size": 3714,
+    "compressed_size": 1942,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameover/GameScorePlayerHeadView.lua",
+    "size": 1123,
+    "compressed_size": 704,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameover/GameScoreRecordItemCtrl.lua",
+    "size": 2530,
+    "compressed_size": 1284,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameover/GameScoreRecordItemView.lua",
+    "size": 983,
+    "compressed_size": 652,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameover/GameScoreRecordPopView.lua",
+    "size": 7284,
+    "compressed_size": 3671,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameover/GameoverHonorView.lua",
+    "size": 5984,
+    "compressed_size": 2980,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameover/GameoverItem.lua",
+    "size": 18787,
+    "compressed_size": 8764,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameover/GameoverPresentItem.lua",
+    "size": 2019,
+    "compressed_size": 1243,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameover/GameoverTitleView.lua",
+    "size": 8642,
+    "compressed_size": 4348,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameover/GameoverView.lua",
+    "size": 6724,
+    "compressed_size": 3188,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameover/Group.lua",
+    "size": 12084,
+    "compressed_size": 5152,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameover/HonorPlus.lua",
+    "size": 5037,
+    "compressed_size": 2057,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameover/HonorStarView.lua",
+    "size": 1404,
+    "compressed_size": 798,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameover/PlayerLevelUpCtrl.lua",
+    "size": 2184,
+    "compressed_size": 1294,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameover/PlayerLevelUpView.lua",
+    "size": 1493,
+    "compressed_size": 939,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameover/ScoreBoard.lua",
+    "size": 27279,
+    "compressed_size": 11533,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameover/ScoreBoardBtn.lua",
+    "size": 3483,
+    "compressed_size": 1883,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/gameover/ScoreBoardShare.lua",
+    "size": 12167,
+    "compressed_size": 5807,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/notes/NotesData.lua",
+    "size": 1071,
+    "compressed_size": 693,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/notes/NotesTabItemView.lua",
+    "size": 2416,
+    "compressed_size": 1376,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/notes/NotesView.lua",
+    "size": 11683,
+    "compressed_size": 5346,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/ob/OBSpectatorUIView.lua",
+    "size": 24626,
+    "compressed_size": 9653,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/pet/PetBezierMovement.lua",
+    "size": 2911,
+    "compressed_size": 1705,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/pet/PetRoomAnimationData.lua",
+    "size": 6692,
+    "compressed_size": 3101,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/pet/PetRoomFullScreenAnimManager.lua",
+    "size": 4745,
+    "compressed_size": 2510,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/pet/PetRoomLineUpAnimationView.lua",
+    "size": 5896,
+    "compressed_size": 3101,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/playerhead/NetWorkQualityAnim.lua",
+    "size": 1723,
+    "compressed_size": 1035,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/playerhead/NetWorkQualityTab.lua",
+    "size": 5756,
+    "compressed_size": 2865,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/playerhead/PlayerHeadAnim.lua",
+    "size": 2969,
+    "compressed_size": 1587,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/playerhead/PlayerHeadFan.lua",
+    "size": 3494,
+    "compressed_size": 1757,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/playerhead/PlayerHeadHonorCommonSmall.lua",
+    "size": 10170,
+    "compressed_size": 4600,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/playerhead/playerheadhonorcommon/PlayerHeadHonorCommonView.lua",
+    "size": 6241,
+    "compressed_size": 3050,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/playerhead/playerheadhonorgame/PlayerHeadHonorGameSceneView.lua",
+    "size": 1822,
+    "compressed_size": 979,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/playerhead/playerheadhonorgame/PlayerHeadHonorGameView.lua",
+    "size": 5073,
+    "compressed_size": 2637,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/playerhead/playerheadmask/PlayerHeadMaskView.lua",
+    "size": 4247,
+    "compressed_size": 2277,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/playerhead/playerheadsimplify/PlayerHeadSimplifyView.lua",
+    "size": 9218,
+    "compressed_size": 4263,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/playerhead/playerheadsmall/PlayerHeadSmallView.lua",
+    "size": 1481,
+    "compressed_size": 905,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/replay/AwakeningHunterSearchOrder.lua",
+    "size": 1705,
+    "compressed_size": 1094,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/replay/CommonShareImage.lua",
+    "size": 4583,
+    "compressed_size": 2381,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/replay/DayListTab.lua",
+    "size": 2277,
+    "compressed_size": 1318,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/replay/ReplayShareView.lua",
+    "size": 8293,
+    "compressed_size": 4393,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/replay/ReplayTheCustomRoomGameShare.lua",
+    "size": 1489,
+    "compressed_size": 964,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/replay/ReplayTheGame.lua",
+    "size": 14855,
+    "compressed_size": 6119,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/replay/ReplayTheGameEvent.lua",
+    "size": 19305,
+    "compressed_size": 7741,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/replay/ReplayTheGameEventClips.lua",
+    "size": 20466,
+    "compressed_size": 3234,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/replay/ReplayTheGameEventItem.lua",
+    "size": 32564,
+    "compressed_size": 13186,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/replay/ReplayTheGameEventRole.lua",
+    "size": 1262,
+    "compressed_size": 882,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/replay/ReplayTheGameEventRoleClips.lua",
+    "size": 6922,
+    "compressed_size": 1132,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/replay/ReplayTheGameShare.lua",
+    "size": 1996,
+    "compressed_size": 1198,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/replay/ReplayTheGameShareNode.lua",
+    "size": 7390,
+    "compressed_size": 2877,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/replay/ReplayTheGameTicketChoose.lua",
+    "size": 3485,
+    "compressed_size": 1724,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/replay/ReplayTheGameTicketDetail.lua",
+    "size": 5642,
+    "compressed_size": 2796,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/replay/ReplayTheGameTicketNum.lua",
+    "size": 2673,
+    "compressed_size": 1498,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/replay/replayEventConfig.lua",
+    "size": 41282,
+    "compressed_size": 5127,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/roomChat/FriendChatListView.lua",
+    "size": 8053,
+    "compressed_size": 3405,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/roomChat/RoomChatView.lua",
+    "size": 17704,
+    "compressed_size": 7493,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/roomChat/SectChatFilterItem.lua",
+    "size": 1403,
+    "compressed_size": 944,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/roomChat/SectChatListView.lua",
+    "size": 17532,
+    "compressed_size": 6801,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/shareSkin/RoomShareSkinInfoCardDisplay.lua",
+    "size": 2073,
+    "compressed_size": 1249,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/shareSkin/RoomShareSkinInfoCardItem.lua",
+    "size": 2520,
+    "compressed_size": 1481,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/shareSkin/RoomShareSkinInfoHeadDisplay.lua",
+    "size": 1851,
+    "compressed_size": 1161,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/shareSkin/RoomShareSkinInfoHeadItem.lua",
+    "size": 2327,
+    "compressed_size": 1435,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/shareSkin/RoomShareSkinInfoItem.lua",
+    "size": 3517,
+    "compressed_size": 1830,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/shareSkin/RoomShareSkinInfoView.lua",
+    "size": 6664,
+    "compressed_size": 3399,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/shareSkin/RoomShareSkinRankInfoEnter.lua",
+    "size": 4370,
+    "compressed_size": 2548,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/speakQuality/SpeakQualityDetector.lua",
+    "size": 16859,
+    "compressed_size": 7291,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/speakQuality/SpeakQualitySocketProcessor.lua",
+    "size": 1629,
+    "compressed_size": 853,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/speakQuality/SpeakQualityWarningView.lua",
+    "size": 2665,
+    "compressed_size": 1519,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/voice/VoiceController.lua",
+    "size": 6328,
+    "compressed_size": 3028,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/vote/VoteNumberView.lua",
+    "size": 2435,
+    "compressed_size": 1289,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/vote/VotePublic.lua",
+    "size": 11576,
+    "compressed_size": 5584,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/vote/VotePublicBlock.lua",
+    "size": 6179,
+    "compressed_size": 3035,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/vote/VotePublicBlockTable.lua",
+    "size": 6000,
+    "compressed_size": 2903,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/vote/VotePublicCrescentItem.lua",
+    "size": 1330,
+    "compressed_size": 850,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/vote/VotePublicCrescentTableItem.lua",
+    "size": 1233,
+    "compressed_size": 822,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/vote/VotePublicSheriffInfor.lua",
+    "size": 2830,
+    "compressed_size": 1634,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/vote/VotePublicTab.lua",
+    "size": 2007,
+    "compressed_size": 1169,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/vote/VotePublicWindow.lua",
+    "size": 6562,
+    "compressed_size": 3237,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/vote/VotePublicWindowBlock.lua",
+    "size": 3563,
+    "compressed_size": 1782,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/vote/VotePublicWindowBlock2.lua",
+    "size": 1969,
+    "compressed_size": 1192,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/voteKick/VoteKickAgreeNumTip.lua",
+    "size": 1773,
+    "compressed_size": 1021,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/voteKick/VoteKickController.lua",
+    "size": 9189,
+    "compressed_size": 3877,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/voteKick/VoteKickSocketProcessor.lua",
+    "size": 2494,
+    "compressed_size": 1089,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/voteKick/VoteKickStartPop.lua",
+    "size": 4725,
+    "compressed_size": 2420,
+    "encrypted": true
+  },
+  {
+    "path": "ui/room/voteKick/VoteKickVotePop.lua",
+    "size": 3592,
+    "compressed_size": 1923,
+    "encrypted": true
+  }
+]

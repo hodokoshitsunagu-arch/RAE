@@ -1,0 +1,193 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 3000881026436627090
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 7116497105033154183
+  },
+  "m_Name": "",
+  "m_Material": {
+    "m_FileID": 8,
+    "m_PathID": -2845774198948537669
+  },
+  "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "m_RaycastTarget": 0,
+  "m_RaycastPadding": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "m_Maskable": 1,
+  "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+      "m_Calls": []
+    }
+  },
+  "speedScale": 1.0,
+  "playOnAwake": 1,
+  "delayPlay": 0.0,
+  "prewarm": 0,
+  "autoRemove": 0,
+  "simulationSpace": 0,
+  "rectTransAutosize": 1,
+  "resetOnAwake": 1,
+  "effectConfig": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "dynamicConfig": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "configValues": {
+    "TextureFileName": "room/particle_Anim_roleskill_08_hunter_01_confirm_01.png",
+    "PositionType": 0,
+    "sprite": {
+      "m_FileID": 9,
+      "m_PathID": -7231344536162416927
+    },
+    "texture": {
+      "m_FileID": 0,
+      "m_PathID": -1959397492498538772
+    },
+    "emitterType": 0,
+    "maxParticles": 50,
+    "emitterXVariance": 20.0,
+    "emitterYVariance": 20.0,
+    "defaultDuration": 0.4000000059604645,
+    "isLooop": 0,
+    "lifespan": 0.5,
+    "lifespanVariance": 1.0,
+    "startSize": 15.0,
+    "startSizeVariance": 11.0,
+    "endSize": 20.0,
+    "endSizeVariance": 15.0,
+    "emitAngle": -5.6723198890686035,
+    "emitAngleVariance": -6.2831854820251465,
+    "startRotation": -0.0,
+    "startRotationVariance": -0.0,
+    "enableEndRotation": 1,
+    "endRotation": -0.0,
+    "endRotationVariance": -0.0,
+    "speed": 200.0,
+    "speedVariance": 200.0,
+    "gravityX": 0.0,
+    "gravityY": -225.0,
+    "radialAcceleration": 0.0,
+    "radialAccelerationVariance": 0.0,
+    "tangentialAcceleration": 0.0,
+    "tangentialAccelerationVariance": 0.0,
+    "maxRadius": 100.0,
+    "maxRadiusVariance": 0.0,
+    "minRadius": 0.0,
+    "minRadiusVariance": 0.0,
+    "rotatePerSecond": 0.0,
+    "rotatePerSecondVariance": 0.0,
+    "startColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "startColorVariance": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 0.0
+    },
+    "endColor": {
+      "r": 1.0,
+      "g": 1.0,
+      "b": 1.0,
+      "a": 1.0
+    },
+    "endColorVariance": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0,
+      "a": 0.0
+    },
+    "enableLifeColor": 0,
+    "lifeColors": {
+      "key0": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "key1": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "key2": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "key3": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "key4": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "key5": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "key6": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "key7": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+      },
+      "ctime0": 0,
+      "ctime1": 65535,
+      "ctime2": 0,
+      "ctime3": 0,
+      "ctime4": 0,
+      "ctime5": 0,
+      "ctime6": 0,
+      "ctime7": 0,
+      "atime0": 0,
+      "atime1": 65535,
+      "atime2": 0,
+      "atime3": 0,
+      "atime4": 0,
+      "atime5": 0,
+      "atime6": 0,
+      "atime7": 0,
+      "m_Mode": 0,
+      "m_NumColorKeys": 2,
+      "m_NumAlphaKeys": 2
+    },
+    "srcFactor": 5,
+    "dstFactor": 1
+  },
+  "freeze": 0
+}

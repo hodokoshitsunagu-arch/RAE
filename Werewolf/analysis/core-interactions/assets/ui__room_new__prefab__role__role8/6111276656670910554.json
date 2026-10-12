@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1489312853096585283
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8446678826416785793
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8045774318631380443
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7792578661365020791
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2253808782663634829
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "highLevelBg",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

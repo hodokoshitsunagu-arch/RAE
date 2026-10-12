@@ -1,0 +1,78 @@
+[
+  {
+    "resource_name": "ic_gaming_playbook",
+    "resource_id": "0x7f080e02",
+    "resource_entry_offset": 2501120,
+    "member": "res/UlR.png",
+    "member_offset": 0,
+    "rea_parent_evidence_id": "ev_9852a76aaae2440b39b4ae7f452177ab0776dc387aa8611051bc6f61fc4f8113",
+    "sha256": "d97d12d59e37745599c35b784b0f37c7fa11d1df2db6c5d31cc534730ba7cd85",
+    "bytes": 1136,
+    "local_path": "/Users/mark/Projects/REA/Jubensha/analysis/baibian/core-interaction/assets/ic_gaming_playbook.png",
+    "config_hex": "40000000000000000000000000008002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "selection": "largest packaged raster variant; not runtime density selection",
+    "dimensions": [
+      104,
+      104
+    ],
+    "demo_path": "/Users/mark/Projects/REA/Jubensha/demo/assets/original/book.png",
+    "rendering": "original bytes unchanged; CSS filter tints display in adapted light interface"
+  },
+  {
+    "resource_name": "ic_gaming_clue",
+    "resource_id": "0x7f080df6",
+    "resource_entry_offset": 2501088,
+    "member": "res/m3p.png",
+    "member_offset": 0,
+    "rea_parent_evidence_id": "ev_9852a76aaae2440b39b4ae7f452177ab0776dc387aa8611051bc6f61fc4f8113",
+    "sha256": "56719021c88d91ee4e1985a2a51c129e649acdbef2659c7082def66abf2590c9",
+    "bytes": 1320,
+    "local_path": "/Users/mark/Projects/REA/Jubensha/analysis/baibian/core-interaction/assets/ic_gaming_clue.png",
+    "config_hex": "40000000000000000000000000008002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "selection": "largest packaged raster variant; not runtime density selection",
+    "dimensions": [
+      104,
+      104
+    ],
+    "demo_path": "/Users/mark/Projects/REA/Jubensha/demo/assets/original/clue.png",
+    "rendering": "original bytes unchanged; CSS filter tints display in adapted light interface"
+  },
+  {
+    "resource_name": "ic_gaming_send_message",
+    "resource_id": "0x7f080e0b",
+    "resource_entry_offset": 2501168,
+    "member": "res/jQz.png",
+    "member_offset": 0,
+    "rea_parent_evidence_id": "ev_9852a76aaae2440b39b4ae7f452177ab0776dc387aa8611051bc6f61fc4f8113",
+    "sha256": "6ee92a58d228c2ba7dfd6db7af29bc22dc8902a8b314c703d8006b44825e1da7",
+    "bytes": 1181,
+    "local_path": "/Users/mark/Projects/REA/Jubensha/analysis/baibian/core-interaction/assets/ic_gaming_send_message.png",
+    "config_hex": "40000000000000000000000000008002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "selection": "largest packaged raster variant; not runtime density selection",
+    "dimensions": [
+      104,
+      104
+    ],
+    "demo_path": "/Users/mark/Projects/REA/Jubensha/demo/assets/original/chat.png",
+    "rendering": "original bytes unchanged; CSS filter tints display in adapted light interface"
+  },
+  {
+    "resource_name": "ic_gaming_audio_open",
+    "resource_id": "0x7f080df1",
+    "resource_entry_offset": 2501056,
+    "member": "res/gRm.png",
+    "member_offset": 0,
+    "rea_parent_evidence_id": "ev_9852a76aaae2440b39b4ae7f452177ab0776dc387aa8611051bc6f61fc4f8113",
+    "sha256": "88d3bc203dc2e54b60df30081525c8665a2944443ba8e4f63eaee9db2edd3041",
+    "bytes": 1648,
+    "local_path": "/Users/mark/Projects/REA/Jubensha/analysis/baibian/core-interaction/assets/ic_gaming_audio_open.png",
+    "config_hex": "40000000000000000000000000008002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "selection": "largest packaged raster variant; not runtime density selection",
+    "dimensions": [
+      104,
+      104
+    ],
+    "demo_path": "/Users/mark/Projects/REA/Jubensha/demo/assets/original/voice.png",
+    "rendering": "original bytes unchanged; CSS filter tints display in adapted light interface"
+  }
+]

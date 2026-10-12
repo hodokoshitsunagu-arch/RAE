@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6840755001531568543
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1550112717016621852
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6314699544769093301
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7457063451272173171
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -334230459738620596
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "guardButton",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

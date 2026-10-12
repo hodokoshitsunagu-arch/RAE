@@ -1,0 +1,50 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6787877971486414712
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 710629996713059419
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6041019263868844045
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3977638447896371194
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2859402052453522157
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8710063752285889379
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2326010257232331221
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "RoomUI",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

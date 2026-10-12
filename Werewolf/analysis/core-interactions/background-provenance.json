@@ -1,0 +1,74 @@
+[
+  {
+    "source": "assets/texture/1/room/t_common_room_bg_001_atlas.ab",
+    "source_sha256": "11c302e98aa942c8b84223bebb22f0a13a8c522ac7568252936af24402e8538a",
+    "objects": [
+      {
+        "type": "Sprite",
+        "path_id": -960926166167711802,
+        "name": "t_common_room_bg_001",
+        "width": 1080,
+        "height": 490,
+        "export": "/Users/mark/Projects/REA/Werewolf/analysis/core-interactions/assets/backgrounds/t_common_room_bg_001.png",
+        "png_sha256": "d527ab78fb758bf39574c8f0f3480d86e0ee8df93abe1ba6219c6ab2f0c7ca8c"
+      },
+      {
+        "type": "Texture2D",
+        "path_id": 5525047914999057182,
+        "name": "sactx-0-2048x512-ASTC 5x5-texture#1#room#t_common_room_bg_001_atlas-f0f8f26e",
+        "width": 2048,
+        "height": 512,
+        "export": "/Users/mark/Projects/REA/Werewolf/analysis/core-interactions/assets/backgrounds/sactx-0-2048x512-ASTC 5x5-texture#1#room#t_common_room_bg_001_atlas-f0f8f26e.png",
+        "png_sha256": "da0a45a17687f4fd23c353b9b275c9b22710e19e75e7d9cba0eeae3e39f2a5a1"
+      }
+    ]
+  },
+  {
+    "source": "assets/texture/1/wolfmoon/room/t_common_room_bg_001_atlas.ab",
+    "source_sha256": "98951fb62207c9bd00d931fc67b0d31d2f12ab5a44f9797b2e691713105b3a42",
+    "objects": [
+      {
+        "type": "Sprite",
+        "path_id": -9060922181812853667,
+        "name": "t_common_room_bg_001",
+        "width": 491,
+        "height": 240,
+        "export": "/Users/mark/Projects/REA/Werewolf/analysis/core-interactions/assets/backgrounds/wolfmoon_t_common_room_bg_001.png",
+        "png_sha256": "2c6c5dc9daf0055a9ed92114ac765db6799da429aefca5582ed5267b92aa21a4"
+      },
+      {
+        "type": "Texture2D",
+        "path_id": -1542977237739290688,
+        "name": "sactx-0-512x256-ASTC 5x5-texture#1#wolfmoon#room#t_common_room_bg_001_atlas-75af4262",
+        "width": 512,
+        "height": 256,
+        "export": "/Users/mark/Projects/REA/Werewolf/analysis/core-interactions/assets/backgrounds/wolfmoon_sactx-0-512x256-ASTC 5x5-texture#1#wolfmoon#room#t_common_room_bg_001_atlas-75af4262.png",
+        "png_sha256": "da1b0d245477662a158ab42836a0f480070f9ebc6a8a81ef07a80c2cff534b83"
+      }
+    ]
+  },
+  {
+    "source": "assets/texture/1/login/mainmenu_ui_scene_bg/mainmenu_ui_scene_bg_atlas.ab",
+    "source_sha256": "49fa7c569265543a7aa3c75fd903d1bccb6a77be82811aa63b125380d461ffd5",
+    "objects": [
+      {
+        "type": "Sprite",
+        "path_id": -8976472891709644027,
+        "name": "mainmenu_UI_scene_BG",
+        "width": 540,
+        "height": 1166,
+        "export": "/Users/mark/Projects/REA/Werewolf/analysis/core-interactions/assets/backgrounds/mainmenu_UI_scene_BG.png",
+        "png_sha256": "70e1377becbe8106ff2152da361d663557be52980c5e6af0968c5f06da70dff3"
+      },
+      {
+        "type": "Texture2D",
+        "path_id": -2228159972264137565,
+        "name": "sactx-0-1024x2048-ASTC 5x5-texture#1#login#mainmenu_ui_scene_bg#mainmenu_ui_scene_bg_atlas-d550ca2b",
+        "width": 1024,
+        "height": 2048,
+        "export": "/Users/mark/Projects/REA/Werewolf/analysis/core-interactions/assets/backgrounds/sactx-0-1024x2048-ASTC 5x5-texture#1#login#mainmenu_ui_scene_bg#mainmenu_ui_scene_bg_atlas-d550ca2b.png",
+        "png_sha256": "c09326b9a5a3b0a5e0e7b7e39c05c2637fcd05f17cadc00255030b128b5d300d"
+      }
+    ]
+  }
+]

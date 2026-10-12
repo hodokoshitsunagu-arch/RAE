@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3358251549951251338
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1660480692424609470
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5236013689444665195
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7151924732461468334
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "CutInMicLayout",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

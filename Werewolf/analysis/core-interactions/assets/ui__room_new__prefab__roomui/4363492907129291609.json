@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6698882677262356452
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4270405418690862833
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3022109617609525997
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2245036778580857056
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5696839243230002523
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "btn_dressup",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

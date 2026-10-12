@@ -1,0 +1,69 @@
+{
+  "carrier": "com.soul.android.international.apk!/AndroidManifest.xml",
+  "sha256": "f9cc063721abd40ac2f6ee9a270a8e2edd6f617cc6c74cc127bf0e8f647c8477",
+  "manifest_attributes": [
+    {
+      "name": "versionCode",
+      "raw": null,
+      "value_type": 16,
+      "value": 260921000,
+      "attribute_byte_offset": 37040
+    },
+    {
+      "name": "versionName",
+      "raw": "2.78.0",
+      "value_type": 3,
+      "value": "2.78.0",
+      "attribute_byte_offset": 37060
+    },
+    {
+      "name": "compileSdkVersion",
+      "raw": null,
+      "value_type": 16,
+      "value": 35,
+      "attribute_byte_offset": 37080
+    },
+    {
+      "name": "compileSdkVersionCodename",
+      "raw": "15",
+      "value_type": 3,
+      "value": "15",
+      "attribute_byte_offset": 37100
+    },
+    {
+      "name": "requiredSplitTypes",
+      "raw": "base__abi,base__density",
+      "value_type": 3,
+      "value": "base__abi,base__density",
+      "attribute_byte_offset": 37120
+    },
+    {
+      "name": "splitTypes",
+      "raw": "",
+      "value_type": 3,
+      "value": "",
+      "attribute_byte_offset": 37140
+    },
+    {
+      "name": "package",
+      "raw": "com.soul.android.international",
+      "value_type": 3,
+      "value": "com.soul.android.international",
+      "attribute_byte_offset": 37160
+    },
+    {
+      "name": "platformBuildVersionCode",
+      "raw": null,
+      "value_type": 16,
+      "value": 35,
+      "attribute_byte_offset": 37180
+    },
+    {
+      "name": "platformBuildVersionName",
+      "raw": null,
+      "value_type": 16,
+      "value": 15,
+      "attribute_byte_offset": 37200
+    }
+  ]
+}

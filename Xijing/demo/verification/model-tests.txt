@@ -1,0 +1,14 @@
+✔ spectators must take a seat before claiming a role (0.540792ms)
+✔ actor cannot change room-wide script, BGM or timeline (0.091416ms)
+✔ changing script clears casting and playback but preserves seat (0.285792ms)
+✔ timestamp rejects foreign tracks and leaving closes local state (0.566ms)
+✔ session start requires readiness; settlement preserves performed role after leaving a seat (0.131666ms)
+✔ recording blocks timeline changes and invalid selectors fail closed (0.060417ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 75.135875

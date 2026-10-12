@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8562701784905049231
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8017339478741001281
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4876849077758336909
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Tag_play_roleskill_frame_05_witch_01a",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

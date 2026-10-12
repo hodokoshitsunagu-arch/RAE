@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3155301560393302869
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6629440590703069196
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8641435605205846097
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "werewolf",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

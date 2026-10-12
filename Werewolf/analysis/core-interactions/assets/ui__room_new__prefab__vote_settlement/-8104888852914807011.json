@@ -1,0 +1,59 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1307942835363544153
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7802755607570700153
+  },
+  "m_Name": "",
+  "bindDic": {
+    "m_keys": [
+      "votePublicView",
+      "votePublicScrollView",
+      "closeButton",
+      "closeButtonText",
+      "title",
+      "exileBackgroundImage",
+      "sheriffBackgroundImage"
+    ],
+    "m_values": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 8457998472015821391
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 8752921562414307870
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 8170246918393509657
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 8582526264424060514
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 814898134924309589
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 23777825683285247
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 6641938811616270508
+      }
+    ]
+  },
+  "animationEventList": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -5435332338037485365
+    }
+  ]
+}

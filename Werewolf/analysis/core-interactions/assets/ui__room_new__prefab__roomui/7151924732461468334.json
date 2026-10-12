@@ -1,0 +1,54 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1178689941986040180
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7802755607570700153
+  },
+  "m_Name": "",
+  "bindDic": {
+    "m_keys": [
+      "yourTurn",
+      "otherTurn",
+      "switchBtn",
+      "yourTips",
+      "on",
+      "off",
+      "otherTips"
+    ],
+    "m_values": [
+      {
+        "m_FileID": 0,
+        "m_PathID": -2684120382207721177
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -6431403308154796301
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -2684120382207721177
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 2285864885396344981
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 1290161787464555849
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 7682512401319167601
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 1619750379364669333
+      }
+    ]
+  },
+  "animationEventList": []
+}

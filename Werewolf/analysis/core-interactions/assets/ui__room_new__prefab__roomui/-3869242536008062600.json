@@ -1,0 +1,22 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 186074451621477271
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7802755607570700153
+  },
+  "m_Name": "",
+  "bindDic": {
+    "m_keys": [],
+    "m_values": []
+  },
+  "animationEventList": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -730383928498416321
+    }
+  ]
+}

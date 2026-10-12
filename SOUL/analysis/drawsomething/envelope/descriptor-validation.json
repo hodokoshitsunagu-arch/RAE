@@ -1,0 +1,7 @@
+{
+  "compiler": "libprotoc 35.1",
+  "dependency": "../draw-something.proto",
+  "compilation": "passed",
+  "semantic_descriptor_match": true,
+  "comparison": "Entire descriptor recursively compared; field order normalized by field number and modern synthesized json_name ignored."
+}

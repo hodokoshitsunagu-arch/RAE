@@ -1,0 +1,144 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1469988042815458425
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7802755607570700153
+  },
+  "m_Name": "",
+  "bindDic": {
+    "m_keys": [
+      "medicineHeadNode",
+      "posionHeadNode",
+      "defaultMedicineHead",
+      "defaultPosionHead",
+      "confirmMedicineButton",
+      "confirmMedicineTxt",
+      "confirmPosionButton",
+      "confirmPosionTxt",
+      "saveMedicine",
+      "noMedicine",
+      "Posion",
+      "noPosion",
+      "medicineNode",
+      "posionNode",
+      "title",
+      "medicineButton",
+      "posionButton",
+      "medicineSelState",
+      "posionSelState",
+      "medicineNum",
+      "posionNum",
+      "medicineIcon",
+      "posionIcon",
+      "edgeArea",
+      "titleHead"
+    ],
+    "m_values": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 8260735831437618934
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -3624190785523239578
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -5713118801500450867
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 7522386024119559293
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 5182055283547397306
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -7385069359451772525
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 2158461864118857660
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -7743630508489395007
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -3429994739857964183
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 2515214495787213683
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 7758469958530205365
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 580715870655362975
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -2267884638259720781
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -4728086336138079181
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 358622603206565507
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 5310216519839268461
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -6238220478721567740
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 4256005279078357408
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 6673800101955710121
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -235123539906031930
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -9204803828727780065
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -2118805224253626557
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 3058491582140519843
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -7153601901434027917
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 7951203032232523290
+      }
+    ]
+  },
+  "animationEventList": []
+}

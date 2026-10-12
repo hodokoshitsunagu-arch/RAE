@@ -1,0 +1,4440 @@
+{
+  "rea_evidence_id": "ev_64fd7e6cf8a87d99729f37787ef61c3b3f208c1a43aa58d098672ff4edf6c300",
+  "application": {
+    "{http://schemas.android.com/apk/res/android}theme": "0x7f130012",
+    "{http://schemas.android.com/apk/res/android}label": "0x7f1201c6",
+    "{http://schemas.android.com/apk/res/android}icon": "0x7f0f000b",
+    "{http://schemas.android.com/apk/res/android}name": "com.netease.nis.wrapper.MyApplication",
+    "{http://schemas.android.com/apk/res/android}debuggable": "false",
+    "{http://schemas.android.com/apk/res/android}testOnly": "false",
+    "{http://schemas.android.com/apk/res/android}allowBackup": "false",
+    "{http://schemas.android.com/apk/res/android}installLocation": "preferExternal",
+    "{http://schemas.android.com/apk/res/android}largeHeap": "true",
+    "{http://schemas.android.com/apk/res/android}supportsRtl": "true",
+    "{http://schemas.android.com/apk/res/android}extractNativeLibs": "true",
+    "{http://schemas.android.com/apk/res/android}usesCleartextTraffic": "true",
+    "{http://schemas.android.com/apk/res/android}networkSecurityConfig": "0x7f150002",
+    "{http://schemas.android.com/apk/res/android}appComponentFactory": "androidx.core.app.CoreComponentFactory",
+    "{http://schemas.android.com/apk/res/android}requestLegacyExternalStorage": "true"
+  },
+  "components": [
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130173",
+        "android:name": "com.mszmapp.detective.module.spash.SplashActivity",
+        "android:exported": "true",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "android.intent.action.MAIN"
+          },
+          "category": {
+            "android:name": "android.intent.category.LAUNCHER"
+          }
+        },
+        {
+          "action": {
+            "android:name": "android.intent.action.VIEW"
+          },
+          "category": {
+            "android:name": "android.intent.category.BROWSABLE"
+          },
+          "data": {
+            "android:scheme": "https",
+            "android:host": "v.bbdzt.cn"
+          }
+        },
+        {
+          "action": {
+            "android:name": "android.intent.action.VIEW"
+          },
+          "category": {
+            "android:name": "android.intent.category.DEFAULT"
+          },
+          "data": {
+            "android:scheme": "zzu02j"
+          }
+        },
+        {
+          "action": {
+            "android:name": "android.intent.action.VIEW"
+          },
+          "category": {
+            "android:name": "android.intent.category.BROWSABLE"
+          },
+          "data": {
+            "android:scheme": "https"
+          }
+        }
+      ]
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.netease.nimlib.service.NimService",
+        "android:exported": "false",
+        "android:process": ":core"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.netease.nimlib.service.NimService$Aux",
+        "android:process": ":core"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.netease.nimlib.job.NIMJobService",
+        "android:permission": "android.permission.BIND_JOB_SERVICE",
+        "android:exported": "false",
+        "android:process": ":core"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "receiver",
+      "attributes": {
+        "android:name": "com.netease.nimlib.service.NimReceiver",
+        "android:exported": "false",
+        "android:process": ":core"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "android.net.conn.CONNECTIVITY_CHANGE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "receiver",
+      "attributes": {
+        "android:name": "com.netease.nimlib.service.ResponseReceiver"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.netease.nimlib.service.ResponseService"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "android:name": "com.netease.nimlib.ipc.NIMContentProvider",
+        "android:exported": "false",
+        "android:process": ":core",
+        "android:authorities": "com.mszmapp.detective.ipc.provider"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "android:name": "com.netease.nimlib.ipc.cp.provider.PreferenceContentProvider",
+        "android:exported": "false",
+        "android:authorities": "com.mszmapp.detective.ipc.provider.preference"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130340",
+        "android:label": "0x7f1201c6",
+        "android:name": "com.facebook.FacebookActivity",
+        "android:configChanges": "screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.facebook.CustomTabActivity",
+        "android:exported": "true"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "android.intent.action.VIEW"
+          },
+          "category": {
+            "android:name": "android.intent.category.BROWSABLE"
+          },
+          "data": {
+            "android:scheme": "0x7f120641"
+          }
+        },
+        {
+          "action": {
+            "android:name": "android.intent.action.VIEW"
+          },
+          "category": {
+            "android:name": "android.intent.category.BROWSABLE"
+          },
+          "data": {
+            "android:scheme": "fbconnect",
+            "android:host": "cct.com.mszmapp.detective"
+          }
+        }
+      ]
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130012",
+        "android:label": "0x7f1209c8",
+        "android:name": "com.mszmapp.detective.module.home.HomeActivity",
+        "android:exported": "true",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "android.intent.action.VIEW"
+          },
+          "category": {
+            "android:name": "android.intent.category.DEFAULT"
+          },
+          "data": {
+            "android:scheme": "sa6bd424f0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209ee",
+        "android:name": "com.mszmapp.detective.module.info.netease.contactlist.ContactListActivity",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "orientation|keyboardHidden",
+        "android:windowSoftInputMode": "stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1201c6",
+        "android:name": "com.mszmapp.detective.wxapi.WXEntryActivity",
+        "android:exported": "true",
+        "android:taskAffinity": "com.mszmapp.detective",
+        "android:launchMode": "singleTask",
+        "android:configChanges": "screenSize|orientation|keyboardHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.wxapi.WXPayEntryActivity",
+        "android:exported": "true",
+        "android:launchMode": "singleTop"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.tencent.tauth.AuthActivity",
+        "android:exported": "true",
+        "android:launchMode": "singleTask",
+        "android:noHistory": "true"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "android.intent.action.VIEW"
+          },
+          "category": {
+            "android:name": "android.intent.category.BROWSABLE"
+          },
+          "data": {
+            "android:scheme": "tencent1107014160"
+          }
+        }
+      ]
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "@android:style/Theme.Translucent.NoTitleBar",
+        "android:name": "com.tencent.connect.common.AssistActivity",
+        "android:screenOrientation": "behind",
+        "android:configChanges": "orientation|keyboardHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130012",
+        "android:label": "0x7f120a2a",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.userprofile.UserProfileActivity",
+        "android:launchMode": "standard",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130012",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.userprofile.imageshow.ProfileImageShowActivity",
+        "android:launchMode": "standard",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209b4",
+        "android:name": "com.mszmapp.detective.module.game.product.walet.ProductActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "smallestScreenSize|screenSize|screenLayout|orientation"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a0f",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.friendshipapply.RelationApplyActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130352",
+        "android:label": "0x7f1209a7",
+        "android:name": "com.mszmapp.detective.module.game.gaming.GamingActivity",
+        "android:launchMode": "singleTask",
+        "android:configChanges": "fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|locale",
+        "android:windowSoftInputMode": "adjustResize|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130351",
+        "android:label": "0x7f121148",
+        "android:name": "com.mszmapp.detective.module.game.dmgaming.prepareenter.DmPrepareEnterActivity",
+        "android:launchMode": "singleTop",
+        "android:configChanges": "screenSize|orientation"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130125",
+        "android:label": "0x7f12099e",
+        "android:name": "com.mszmapp.detective.module.game.dmgaming.DmGamingActivity",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|locale",
+        "android:windowSoftInputMode": "adjustResize|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209f0",
+        "android:name": "com.mszmapp.detective.module.info.playbookchat.myteam.MyTeamsActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f121147",
+        "android:name": "com.mszmapp.detective.module.info.playbookchat.playbookteam.PlaybookTeamActivity",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "portrait",
+        "android:windowSoftInputMode": "adjustResize|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130012",
+        "android:label": "0x7f1209bc",
+        "android:name": "com.mszmapp.detective.module.game.roomlist.RoomOrAppointmentListActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.game.services.GameStreamService",
+        "android:foregroundServiceType": "microphone|mediaPlayback"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.game.waitroom.WaitStreamService",
+        "android:foregroundServiceType": "microphone|mediaPlayback"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.game.services.SingleGameService"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209b8",
+        "android:name": "com.mszmapp.detective.module.game.ranklist.RankListActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209b9",
+        "android:name": "com.mszmapp.detective.module.game.ranklist.RankListV2Activity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209b6",
+        "android:name": "com.mszmapp.detective.module.game.ranklist.famewall.FameWallRankActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209b7",
+        "android:name": "com.mszmapp.detective.module.game.ranklist.famewall.FameWallRankV2Activity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209a9",
+        "android:name": "com.mszmapp.detective.module.game.myplaybook.MyPlaybookActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a5d",
+        "android:name": "com.mszmapp.detective.module.playbook.playbookdetail.PlayBookDetailActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a5e",
+        "android:name": "com.mszmapp.detective.module.playbook.playbookdetail.PlaybookDetailV2Activity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130351",
+        "android:label": "0x7f121148",
+        "android:name": "com.mszmapp.detective.module.game.prepare.PrepareEnterActivity",
+        "android:configChanges": "screenSize|orientation"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130351",
+        "android:label": "0x7f121148",
+        "android:name": "com.mszmapp.detective.module.game.prepare.PrepareReadingActivity",
+        "android:configChanges": "screenSize|orientation"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a60",
+        "android:name": "com.mszmapp.detective.module.playbook.playBookListPage.CommonWebViewActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209c1",
+        "android:name": "com.mszmapp.detective.module.home.fragments.commonvideo.CommonVideoActivity",
+        "android:configChanges": "screenSize|orientation|keyboard"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a5c",
+        "android:name": "com.mszmapp.detective.module.playbook.playbookComment.PlaybookCommentActivity",
+        "android:screenOrientation": "portrait",
+        "android:windowSoftInputMode": "adjustPan"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a16",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.personalCenter.UserInfoRedactActivity",
+        "android:screenOrientation": "portrait",
+        "android:windowSoftInputMode": "adjustResize|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209ba",
+        "android:name": "com.mszmapp.detective.module.game.reportuser.ReportGameUserActivity",
+        "android:screenOrientation": "portrait",
+        "android:windowSoftInputMode": "stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.game.feedback.FeedBackActivity"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130352",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.levelup.LevelUpActivity",
+        "android:launchMode": "singleTop"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a1e",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.usercredit.UserCreditActivity"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a1d",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.usercredit.mycreditrecord.MyCreditRecordActivity"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130138",
+        "android:name": "com.mszmapp.detective.module.info.inputlayout.FloatEditorDialog",
+        "android:configChanges": "screenSize|orientation",
+        "android:windowSoftInputMode": "adjustResize"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130138",
+        "android:name": "com.mszmapp.detective.module.info.inputlayout.FloatEditorDialogV6",
+        "android:configChanges": "screenSize|orientation",
+        "android:windowSoftInputMode": "adjustResize"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130351",
+        "android:label": "0x7f121148",
+        "android:name": "com.mszmapp.detective.module.game.product.pay.HwPayActivity",
+        "android:configChanges": "screenSize|orientation"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.playbook.playbookdetail.PlaybookRoleActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.playbook.dmdetails.DmPlaybookRoleActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209bd",
+        "android:name": "com.mszmapp.detective.module.game.setting.SettingActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209ab",
+        "android:name": "com.mszmapp.detective.module.game.product.mypackage.MyPackageActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130012",
+        "android:label": "0x7f1209ed",
+        "android:name": "com.mszmapp.detective.module.info.netease.chats.ChatLobbyActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a61",
+        "android:name": "com.mszmapp.detective.module.playbook.praise.playbookpraise.PlaybookPraiseActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a62",
+        "android:name": "com.mszmapp.detective.module.playbook.praise.PlaybookPraiseRankingActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f121149",
+        "android:name": "com.mszmapp.detective.module.playbook.playbookfilter.PlaybookFilterActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a5f",
+        "android:name": "com.mszmapp.detective.module.playbook.PlaybookLibraryActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a5a",
+        "android:name": "com.mszmapp.detective.module.playbook.PlaybookActActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120997",
+        "android:name": "com.mszmapp.detective.module.game.binding.AccountBindingActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120999",
+        "android:name": "com.mszmapp.detective.module.game.binding.bindingphone.BindingPhoneActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.game.gaming.playbook.commonplaybook.ReadPlaybookActivity",
+        "android:screenOrientation": "portrait",
+        "android:windowSoftInputMode": "adjustPan|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120998",
+        "android:name": "com.mszmapp.detective.module.game.binding.binddetail.BindingDetailActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.info.userinfo.present.presentranklist.PresentRankingListActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209d6",
+        "android:name": "com.mszmapp.detective.module.info.club.editclub.EditClubActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209cd",
+        "android:name": "com.mszmapp.detective.module.info.club.clubdetail.ClubDetailActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209d0",
+        "android:name": "com.mszmapp.detective.module.info.club.clubmember.ClubMemberActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209d5",
+        "android:name": "com.mszmapp.detective.module.info.club.clubtab.ClubTabActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209cb",
+        "android:name": "com.mszmapp.detective.module.info.club.clubchannel.ClubChannelActivity",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "screenSize|orientation|keyboardHidden",
+        "android:windowSoftInputMode": "adjustResize|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a06",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.blacklist.BlackListActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a1b",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.privacy.PrivacyActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a5b",
+        "android:name": "com.mszmapp.detective.module.playbook.playbookComment.detail.PlayBookCommentDetailActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.playbook.playbookComment.sharepage.CommentShareActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a12",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.informlist.InformListActivity",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209b0",
+        "android:name": "com.mszmapp.detective.module.game.product.receivediamondcard.ReceiveDiamondCardActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.game.product.prop.PropActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a21",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.userprofile.album.publishalbum.PublishAlbumActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a1f",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.userprofile.album.albumlist.AlbumListActivity",
+        "android:screenOrientation": "portrait",
+        "android:windowSoftInputMode": "adjustResize|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.info.userinfo.textdetail.TextDetailActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209e7",
+        "android:name": "com.mszmapp.detective.module.info.im.baibianjun.BaiBianJunActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.utils.PhotoFileProvider",
+        "android:exported": "false",
+        "android:authorities": "com.mszmapp.detective",
+        "android:grantUriPermissions": "true"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209d2",
+        "android:name": "com.mszmapp.detective.module.info.club.clubstore.ClubStoreActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209d3",
+        "android:name": "com.mszmapp.detective.module.info.club.clubstoreold.ClubStoreOldActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209df",
+        "android:name": "com.mszmapp.detective.module.info.fanclub.fanclubrank.FanCLubRankActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209dc",
+        "android:name": "com.mszmapp.detective.module.info.fanclub.fanclubdetail.FanClubDetailActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209da",
+        "android:name": "com.mszmapp.detective.module.info.fanclub.fanclubchat.FanClubChatActivity",
+        "android:screenOrientation": "portrait",
+        "android:windowSoftInputMode": "adjustResize|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209d9",
+        "android:name": "com.mszmapp.detective.module.info.fanclub.chatroommember.ChatRoomMemberActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209de",
+        "android:name": "com.mszmapp.detective.module.info.fanclub.fanclubnotice.FanClubNoticeActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209d8",
+        "android:name": "com.mszmapp.detective.module.info.fanclub.chatroomforbidden.ChatRoomForbiddenActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.info.playbookchat.setting.PlaybookTeamSettingActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209e6",
+        "android:name": "com.mszmapp.detective.module.info.gamerecord.GameRecordActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209e4",
+        "android:name": "com.mszmapp.detective.module.info.gamerecord.detail.GameRecordDetailActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.game.gaming.gamereward.GameMvpDetailActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a45",
+        "android:name": "com.mszmapp.detective.module.live.livingroom.rooms.LivingRoomsActivity",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|locale",
+        "android:windowSoftInputMode": "adjustNothing"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130351",
+        "android:name": "com.mszmapp.detective.dynamicfeature.UnityFeatureRouterActivity",
+        "android:exported": "false",
+        "android:launchMode": "singleTop"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130125",
+        "android:label": "0x7f120a44",
+        "android:name": "com.mszmapp.detective.module.live.livingroom.LivingUnityActivity",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "userPortrait",
+        "android:configChanges": "fontScale|layoutDirection|density|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc",
+        "android:hardwareAccelerated": "true",
+        "android:resizeableActivity": "false"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130125",
+        "android:label": "0x7f120a4b",
+        "android:name": "com.mszmapp.detective.module.live.unitygame.UnityGameActivity",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "userPortrait",
+        "android:configChanges": "fontScale|layoutDirection|density|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc",
+        "android:resizeableActivity": "false"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f13036c",
+        "android:label": "0x7f120a52",
+        "android:name": "com.mszmapp.detective.module.pet.PetHomeActivity",
+        "android:process": ":pet",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "userPortrait",
+        "android:configChanges": "fontScale|layoutDirection|density|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc",
+        "android:resizeableActivity": "false"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "receiver",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.pet.PetBroadcastReceiver"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.live.createroom.CreateLivingRoomActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.live.abuse.AbuseRoomActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.live.roominfo.RoomInfoActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a3b",
+        "android:name": "com.mszmapp.detective.module.live.liveuserlist.LiveUserListActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a3a",
+        "android:name": "com.mszmapp.detective.module.live.liveroomrank.LiveRoomRankActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130013",
+        "android:label": "0x7f120a4a",
+        "android:name": "com.mszmapp.detective.module.live.roomsong.LivingRoomSongsActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a33",
+        "android:name": "com.mszmapp.detective.module.info.userpub.userpublist.PubListActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.info.userpub.userpub.UserPubEditActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209d7",
+        "android:name": "com.mszmapp.detective.module.info.commonservice.CommonServiceActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209b3",
+        "android:name": "com.mszmapp.detective.module.game.product.walet.gold.GoldActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209b2",
+        "android:name": "com.mszmapp.detective.module.game.product.walet.fancy.FancyActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.info.task.tasklist.TaskListActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209f6",
+        "android:name": "com.mszmapp.detective.module.info.rechargesign.RechargeSignActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209fe",
+        "android:name": "com.mszmapp.detective.module.info.relation.relationdetail.RelationDetailV2Activity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120278",
+        "android:name": "com.mszmapp.detective.module.info.relation.buddybadge.BuddyBadgeOverviewActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209fd",
+        "android:name": "com.mszmapp.detective.module.info.relation.relationdetail.RelationCalendarActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209fc",
+        "android:name": "com.mszmapp.detective.module.info.relation.relationdetail.note.RelationNotesListActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209ff",
+        "android:name": "com.mszmapp.detective.module.info.relation.relationdetail.RelationLevelDetailActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209fa",
+        "android:name": "com.mszmapp.detective.module.info.relation.relationdetail.dreamcard.DreamCardUpgradeActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a01",
+        "android:name": "com.mszmapp.detective.module.info.relation.relationlist.RelationListActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209f9",
+        "android:name": "com.mszmapp.detective.module.info.relation.mentorinfo.MentorInfoActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a19",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.present.presentrank.PresentRankActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a36",
+        "android:name": "com.mszmapp.detective.module.live.createpk.CreatePKActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a0e",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.fansnotify.FansNotifyActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a39",
+        "android:name": "com.mszmapp.detective.module.live.livefans.LiveFansActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a46",
+        "android:name": "com.mszmapp.detective.module.live.recordlist.RecordListActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a38",
+        "android:name": "com.mszmapp.detective.module.live.hosteffect.HostEffectActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a20",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.userprofile.album.albumlist.AlbumPickerActivity",
+        "android:launchMode": "singleTop"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a49",
+        "android:name": "com.mszmapp.detective.module.live.roommanager.RoomManagerActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f12098a",
+        "android:name": "com.mszmapp.detective.module.cases.caselist.CaseListActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120988",
+        "android:name": "com.mszmapp.detective.module.cases.casedetail.CaseDetailActivity",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.cases.caserank.CaseRankActivity",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120992",
+        "android:name": "com.mszmapp.detective.module.cases.edit.worklist.WorkListActivity",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f12098f",
+        "android:name": "com.mszmapp.detective.module.cases.edit.createcase.CreateCaseActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.cases.edit.casepage.CasePageActivity",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.cases.edit.casepage.infoedit.CaseInfoEditActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f12098d",
+        "android:name": "com.mszmapp.detective.module.cases.edit.casepage.suspectedit.SuspectEditActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f12098b",
+        "android:name": "com.mszmapp.detective.module.cases.edit.casepage.clueedit.ClueEditActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f12098e",
+        "android:name": "com.mszmapp.detective.module.cases.edit.casepage.taskedit.TaskEditActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f12098c",
+        "android:name": "com.mszmapp.detective.module.cases.edit.casepage.questionedit.QuestionEditActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120991",
+        "android:name": "com.mszmapp.detective.module.cases.edit.seriesdetail.seriesedit.SeriesEditActivity",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120990",
+        "android:name": "com.mszmapp.detective.module.cases.edit.seriesdetail.CaseSeriesDetailActivity",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209f5",
+        "android:name": "com.mszmapp.detective.module.info.playmaster.adavancedcard.AdvancedCardActivity",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a4e",
+        "android:name": "com.mszmapp.detective.module.neteaseimp.p2p.P2pMessageUI",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "orientation|keyboardHidden",
+        "android:windowSoftInputMode": "adjustResize|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a4f",
+        "android:name": "com.mszmapp.detective.module.neteaseimp.TeamChatActivity",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "orientation|keyboardHidden",
+        "android:windowSoftInputMode": "adjustResize|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a4d",
+        "android:name": "com.mszmapp.detective.module.neteaseimp.p2p.chatuser.ChatUserUI",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a73",
+        "android:name": "com.mszmapp.detective.module.wedding.church.WeddingChurchActivity",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a74",
+        "android:name": "com.mszmapp.detective.module.wedding.propose.ProposeInfoActivity",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a42",
+        "android:name": "com.mszmapp.detective.module.live.livingroom.fragment.wedding.roomsetting.WedRoomSettingActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a41",
+        "android:name": "com.mszmapp.detective.module.live.livingroom.fragment.wedding.roomsetting.updatewedrole.UpdateWedRoleActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a31",
+        "android:name": "com.mszmapp.detective.module.info.usernest.UserNestActivity",
+        "android:screenOrientation": "portrait",
+        "android:windowSoftInputMode": "adjustResize|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a2e",
+        "android:name": "com.mszmapp.detective.module.info.usernest.nestmore.NestMoreActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a2f",
+        "android:name": "com.mszmapp.detective.module.info.usernest.nestring.NestRingActivity",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209ef",
+        "android:name": "com.mszmapp.detective.module.info.netease.contactlist.selectfriend.SelectFriendActivity",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a32",
+        "android:name": "com.mszmapp.detective.module.info.usernest.weddeclaration.WedDeclarationActivity",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.push.UmengPushActivity",
+        "android:exported": "true",
+        "android:launchMode": "singleTask"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a1a",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.present.usergift.UserGiftActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a18",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.present.giftrecord.GiftRecordActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a47",
+        "android:name": "com.mszmapp.detective.module.live.redpack.RedPackActivity",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a43",
+        "android:name": "com.mszmapp.detective.module.live.livingroom.fragment.wedding.wedresultinfo.WedResultInfoActivity",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209c9",
+        "android:name": "com.mszmapp.detective.module.info.bigvip.vippage.BigVipPageActivity",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a2d",
+        "android:name": "com.mszmapp.detective.module.info.usernest.nestbless.NestBlessesActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209af",
+        "android:name": "com.mszmapp.detective.module.game.product.propmall.PropMallActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a70",
+        "android:name": "com.mszmapp.detective.module.store.StoreActivity",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a6f",
+        "android:name": "com.mszmapp.detective.module.store.secondary.StoreSecondaryActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a6d",
+        "android:name": "com.mszmapp.detective.module.store.mypackage.PackageActivity",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209ad",
+        "android:name": "com.mszmapp.detective.module.game.product.propcollection.PropCollectionActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209f3",
+        "android:name": "com.mszmapp.detective.module.info.playbookchat.teaminfo.TeamInfoActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209f4",
+        "android:name": "com.mszmapp.detective.module.info.playbookchat.teammember.TeamMemberActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209ae",
+        "android:name": "com.mszmapp.detective.module.game.product.propdetail.PropDetailActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a53",
+        "android:name": "com.mszmapp.detective.module.playbook.commentlist.CommentListActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.yalantis.ucrop.UCropActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.utils.ucrop.DetectiveUCropActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a3e",
+        "android:name": "com.mszmapp.detective.module.live.livingroom.fragment.turtlesoup.souplist.SoupListActivity",
+        "android:launchMode": "standard",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.live.livingroom.fragment.turtlesoup.soupbottomlist.SoupBottomListActivity",
+        "android:launchMode": "standard",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a40",
+        "android:name": "com.mszmapp.detective.module.live.livingroom.fragment.turtlesoup.usersoup.UserSoupActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a3d",
+        "android:name": "com.mszmapp.detective.module.live.livingroom.fragment.turtlesoup.soupcreate.SoupEditActivity",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "keyboardHidden",
+        "android:windowSoftInputMode": "adjustResize|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209c0",
+        "android:name": "com.mszmapp.detective.module.game.waitroom.WaitRoomActivity",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|locale",
+        "android:windowSoftInputMode": "adjustUnspecified"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209ce",
+        "android:name": "com.mszmapp.detective.module.info.club.clubdetail.clubtasks.ClubTasksActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209a8",
+        "android:name": "com.mszmapp.detective.module.game.myplaybook.fragment.PlaybookGroupActivity",
+        "android:launchMode": "standard",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209ca",
+        "android:name": "com.mszmapp.detective.module.info.club.clubchannel.clubapply.ClubApplyActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209cc",
+        "android:name": "com.mszmapp.detective.module.info.club.clubchannel.clubroom.ClubGameActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209e3",
+        "android:name": "com.mszmapp.detective.module.info.followlist.teams.TeamsContainerActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "screenSize|orientation|keyboardHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209e1",
+        "android:name": "com.mszmapp.detective.module.info.followlist.FollowListActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "screenSize|orientation|keyboardHidden",
+        "android:windowSoftInputMode": "adjustNothing|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209e2",
+        "android:name": "com.mszmapp.detective.module.info.followlist.FollowListV2Activity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "screenSize|orientation|keyboardHidden",
+        "android:windowSoftInputMode": "adjustNothing|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.xiaomi.push.service.XMPushService",
+        "android:enabled": "true",
+        "android:exported": "false",
+        "android:process": ":pushservice"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.xiaomi.push.service.XMJobService",
+        "android:permission": "android.permission.BIND_JOB_SERVICE",
+        "android:enabled": "true",
+        "android:exported": "false",
+        "android:process": ":pushservice"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.xiaomi.mipush.sdk.PushMessageHandler",
+        "android:permission": "com.xiaomi.xmsf.permission.MIPUSH_RECEIVE",
+        "android:enabled": "true",
+        "android:exported": "true"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.xiaomi.mipush.sdk.MessageHandleService",
+        "android:enabled": "true",
+        "android:exported": "false"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "receiver",
+      "attributes": {
+        "android:name": "com.xiaomi.push.service.receivers.PingReceiver",
+        "android:exported": "false",
+        "android:process": ":pushservice"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "com.xiaomi.push.PING_TIMER"
+          }
+        }
+      ]
+    },
+    {
+      "type": "receiver",
+      "attributes": {
+        "android:name": "com.netease.nimlib.mixpush.mi.MiPushReceiver",
+        "android:exported": "true"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "com.xiaomi.mipush.ERROR"
+          }
+        }
+      ]
+    },
+    {
+      "type": "receiver",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.utils.receiver.CommonMiPushReceiver",
+        "android:exported": "true"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "com.xiaomi.mipush.ERROR"
+          }
+        }
+      ]
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.netease.nimlib.mixpush.hw.HWPushService",
+        "android:exported": "false"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "com.huawei.push.action.MESSAGING_EVENT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.utils.receiver.CommonHWPushService",
+        "android:exported": "false"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "com.huawei.push.action.MESSAGING_EVENT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.netease.nimlib.mixpush.honor.HonorPushService",
+        "android:exported": "false"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "com.hihonor.push.action.MESSAGING_EVENT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.utils.receiver.CommonHonorPushService",
+        "android:exported": "false"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "com.netease.nimlib.mixpush.honor.action.MESSAGING_EVENT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.netease.nimlib.mixpush.oppo.OppoPushService",
+        "android:permission": "com.coloros.mcs.permission.SEND_MCS_MESSAGE",
+        "android:exported": "true"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.netease.nimlib.mixpush.oppo.OppoAppPushService",
+        "android:permission": "com.heytap.mcs.permission.SEND_PUSH_MESSAGE",
+        "android:exported": "true"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.vivo.push.sdk.service.CommandClientService",
+        "android:permission": "com.push.permission.UPSTAGESERVICE",
+        "android:exported": "true"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "@android:style/Theme.Translucent.NoTitleBar",
+        "android:name": "com.vivo.push.sdk.LinkProxyClientActivity",
+        "android:exported": "false",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "receiver",
+      "attributes": {
+        "android:name": "com.netease.nimlib.mixpush.vivo.VivoPushReceiver",
+        "android:exported": "true"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "com.vivo.pushclient.action.RECEIVE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f1301da",
+        "android:label": "0x7f12097e",
+        "android:name": "com.geetest.onelogin.activity.OneLoginActivity",
+        "android:exported": "false",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "behind",
+        "android:configChanges": "fontScale|smallestScreenSize|screenSize|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f1301da",
+        "android:label": "0x7f12097f",
+        "android:name": "com.geetest.onelogin.activity.OneLoginWebActivity",
+        "android:exported": "false",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "behind",
+        "android:configChanges": "fontScale|smallestScreenSize|screenSize|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a27",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.userprofile.laber.LaberSelectActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a26",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.userprofile.laber.LabelSelectActivityV6",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a23",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.userprofile.favoriteplaybook.addplaybook.AddFavoritePlayBookActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a22",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.userprofile.favoriteplaybook.AddOrShowFavoritePlayActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a65",
+        "android:name": "com.mszmapp.detective.module.plaza.dynamiclist.PlazaListActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a67",
+        "android:name": "com.mszmapp.detective.module.plaza.publishdynamic.DynamicPublishActivity",
+        "android:screenOrientation": "portrait",
+        "android:windowSoftInputMode": "adjustResize|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a66",
+        "android:name": "com.mszmapp.detective.module.plaza.newsinit.NewsInitSetActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a64",
+        "android:name": "com.mszmapp.detective.module.plaza.dynamicdetail.DynamicDetailsActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.plaza.videoplay.DynamicVideoPlayActivity",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "screenSize|orientation|keyboardHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209cf",
+        "android:name": "com.mszmapp.detective.module.info.club.clubdynamic.ClubDynamicActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a68",
+        "android:name": "com.mszmapp.detective.module.plaza.topicdetails.TopicDetailsActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.cases.creators.CreatorsCenterActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.cases.fiction.commentreply.CommentReplyActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209e8",
+        "android:name": "com.mszmapp.detective.module.info.im.follownotify.FollowNotifyActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120980",
+        "android:name": "com.mszmapp.detective.module.info.relation.mentor.mentorgraph.RelationalGraphActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120985",
+        "android:name": "com.mszmapp.detective.module.authorhome.AuthorHomeActivity",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120986",
+        "android:name": "com.mszmapp.detective.module.authorhome.cases.casedetails.CaseSeriesDetailsActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209db",
+        "android:name": "com.mszmapp.detective.module.info.fanclub.fanclubdetail.editdata.FanClubEditDataActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209dd",
+        "android:name": "com.mszmapp.detective.module.info.fanclub.fanclubdetail.fanclublist.MyFanClubListActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.info.fanclub.fanclubdetail.fanclubapply.FanClubApplyActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a11",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.inform.MessageOrPushInformActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a1c",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.privacy.systempermission.SystemPerManageActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209e0",
+        "android:name": "com.mszmapp.detective.module.info.followlist.faninteraction.FanInteractionActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a08",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.dmuserprofile.dmeditinfo.DmEditInfoActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a0d",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.dmuserprofile.DmUserProfileActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a55",
+        "android:name": "com.mszmapp.detective.module.playbook.dmdetails.DmPlayBookDetailsActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a57",
+        "android:name": "com.mszmapp.detective.module.playbook.dmplaybookfilter.DmPlayBookFilterActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209e5",
+        "android:name": "com.mszmapp.detective.module.info.gamerecord.dmdetail.DmGameRecordDetailActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a58",
+        "android:name": "com.mszmapp.detective.module.playbook.dmplaybookfilter.setprice.SetPlayBookPriceActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209b1",
+        "android:name": "com.mszmapp.detective.module.game.product.walet.dmmoney.DmBalanceActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f1300f5",
+        "android:name": "com.king.zxing.CaptureActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130267",
+        "android:name": "com.mszmapp.detective.module.game.dmgaming.clueview.magnifyclue.DmMagnifyClueActivity",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209b5",
+        "android:name": "com.mszmapp.detective.module.game.product.walet.wallet.WalletActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a28",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.userprofile.nicknamewall.MedalWallActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f12099a",
+        "android:name": "com.mszmapp.detective.module.game.dmgaming.bgm.dmvideo.DmVideoPlayActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.home.fragments.usercenter.QRCodeActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.playbook.dmplaybookfilter.reserveset.SetReserveRoomActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.game.dmgaming.reservedetails.DmReserveDetailsActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.info.antiaddiction.NonageActivity",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209c7",
+        "android:name": "com.mszmapp.detective.module.home.fragments.shareapp.ShareAppActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a54",
+        "android:name": "com.mszmapp.detective.module.playbook.dmdetails.DmPlayBookDetailLastRoomActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a6a",
+        "android:name": "com.mszmapp.detective.module.report.activity.ReportActivity",
+        "android:screenOrientation": "portrait",
+        "android:windowSoftInputMode": "stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a09",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.dmuserprofile.dmmerchant.DmMerchantActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a3c",
+        "android:name": "com.mszmapp.detective.module.live.livingroom.fragment.livingktv.ktvrank.KtvSongListRankActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.neteaseimp.customemoji.AddCustomEmojiActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a0a",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.dmuserprofile.dmmerchant.DmMerchantMoreHostActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a0b",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.dmuserprofile.dmmerchant.DmMerchantMoreRoomActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a0c",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.dmuserprofile.dmmerchant.DmStoreShareActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209c2",
+        "android:name": "com.mszmapp.detective.module.home.fragments.game.activitytab.newactivitytab.FullScreenActivityTabActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209d1",
+        "android:name": "com.mszmapp.detective.module.info.club.clubnotice.ClubNoticeActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a07",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.dmuserprofile.dmcomment.DmCommentListActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209f1",
+        "android:name": "com.mszmapp.detective.module.info.playbookchat.storeteam.StoreTeamInfoActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209f2",
+        "android:name": "com.mszmapp.detective.module.info.playbookchat.storeteammember.StoreTeamMemberActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209e9",
+        "android:name": "com.mszmapp.detective.module.info.livedetect.LiveDetectActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a2c",
+        "android:name": "com.mszmapp.detective.module.info.userlike.UserLikeInfoActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.info.userlike.likerank.UserLikeRankActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a2b",
+        "android:name": "com.mszmapp.detective.module.info.userlike.likeset.UserLikeSetActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f13000f",
+        "android:label": "0x7f120a71",
+        "android:name": "com.mszmapp.detective.module.uikit.activity.P2PMessageActivity",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "orientation|keyboardHidden",
+        "android:windowSoftInputMode": "adjustResize|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f13000f",
+        "android:label": "0x7f120a72",
+        "android:name": "com.mszmapp.detective.module.uikit.activity.TeamMessageActivity",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "orientation|keyboardHidden",
+        "android:windowSoftInputMode": "adjustResize|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209a5",
+        "android:name": "com.mszmapp.detective.module.game.dmsala.search.DmSearchActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209a6",
+        "android:name": "com.mszmapp.detective.module.game.dmsala.search.DmSearchPlaybookActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209d4",
+        "android:name": "com.mszmapp.detective.module.info.club.clubtab.clubsearch.ClubSearchActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130266",
+        "android:label": "0x7f120a17",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.present.giftcollection.GiftCollectionActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a37",
+        "android:name": "com.mszmapp.detective.module.live.createroom.CreateLiveRoomActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a3f",
+        "android:name": "com.mszmapp.detective.module.live.livingroom.fragment.turtlesoup.soupsearch.SoupSearchListActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a24",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.userprofile.gamerecord.GameAchievementDetailActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a25",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.userprofile.gamerecord.setting.LiveGameSettingActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209ac",
+        "android:name": "com.mszmapp.detective.module.game.product.propcollection.collectionsearch.CollectionSearchActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f12099b",
+        "android:name": "com.mszmapp.detective.module.game.dmgaming.boss.BossRoomReceiveOrderActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f12099c",
+        "android:name": "com.mszmapp.detective.module.game.dmgaming.boss.BossRoomSettingActivity",
+        "android:screenOrientation": "portrait",
+        "android:windowSoftInputMode": "stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f12099d",
+        "android:name": "com.mszmapp.detective.module.game.dmgaming.boss.WeekdayActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130352",
+        "android:name": "com.mszmapp.detective.module.game.dmgaming.boss.BossRoomOrderActivity",
+        "android:configChanges": "orientation"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a30",
+        "android:name": "com.mszmapp.detective.module.info.usernest.ringbox.RingBoxActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a04",
+        "android:name": "com.mszmapp.detective.module.info.task.tasklist.singletask.SingleTaskActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.info.playbookchat.storeteam.manager.SelectMemberListActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.info.playbookchat.storeteam.blacklist.StoreBlackListActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.info.playbookchat.storeteam.manager.StoreManagerActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a4c",
+        "android:name": "com.mszmapp.detective.module.live.wolf.WolfHallActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a13",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.level.UserLevelActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209eb",
+        "android:name": "com.mszmapp.detective.module.info.login.PhoneLoginOneActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209ec",
+        "android:name": "com.mszmapp.detective.module.info.login.PhoneLoginTwoActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a05",
+        "android:name": "com.mszmapp.detective.module.info.usercertified.UserCertifiedActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130352",
+        "android:name": "com.mszmapp.detective.module.info.login.LogoutAccountDialogActivity",
+        "android:configChanges": "orientation"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130352",
+        "android:name": "com.mszmapp.detective.module.info.login.FbAuthorizeActivity",
+        "android:configChanges": "orientation"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130352",
+        "android:name": "com.mszmapp.detective.module.store.preview.prop.GiftPackPreviewActivity",
+        "android:configChanges": "orientation"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.uikit.emoji.ConfirmAddGifsActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209ea",
+        "android:name": "com.mszmapp.detective.module.info.login.PhoneConflictActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120989",
+        "android:name": "com.mszmapp.detective.module.cases.CaseHomeListActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120994",
+        "android:name": "com.mszmapp.detective.module.cases.limitcase.edit.LimitCasePublishActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120993",
+        "android:name": "com.mszmapp.detective.module.cases.limitcase.details.ReasonDetailActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120996",
+        "android:name": "com.mszmapp.detective.module.cases.reasonrank.ReasoningRankActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.cases.limitcase.selectcover.PreviewCoverActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120995",
+        "android:name": "com.mszmapp.detective.module.cases.limitcase.selectcover.SelectVideoCoverActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.cases.limitcase.topicdetail.ReasoningTopicDetailsActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.neteaseimp.p2p.history.SearchHistoryMessageActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.game.feedback.TortReportActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.home.fragments.game.daily.supplementary.DailySupplementaryActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.home.fragments.game.daily.supplementary.DailySupplementaryActivityV6",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.mszmapp.detective.module.home.fragments.game.daily.supplementary.DailySupplementaryActivityV7",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a59",
+        "android:name": "com.mszmapp.detective.module.playbook.fold.FoldCommentActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209a1",
+        "android:name": "com.mszmapp.detective.module.game.dmgaming.reward.DmRewardRecordActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a03",
+        "android:name": "com.mszmapp.detective.module.info.selectsession.SelectSessionActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a34",
+        "android:name": "com.mszmapp.detective.module.info.visit.VisitActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a35",
+        "android:name": "com.mszmapp.detective.module.info.visit.visituser.VisitorRecordActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130012",
+        "android:label": "0x7f120a6b",
+        "android:name": "com.mszmapp.detective.module.search.SearchActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130012",
+        "android:label": "0x7f120a6c",
+        "android:name": "com.mszmapp.detective.module.search.SearchPlaybookActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209a3",
+        "android:name": "com.mszmapp.detective.module.game.dmsala.rank.DMRankListActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209bb",
+        "android:name": "com.mszmapp.detective.module.game.roomlist.RoomHallActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209a2",
+        "android:name": "com.mszmapp.detective.module.game.dmsala.DmRoomHallActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120981",
+        "android:name": "com.mszmapp.detective.module.info.relation.mentor.schoolmate.SchoolMateActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209f7",
+        "android:name": "com.mszmapp.detective.module.info.relation.mentor.dynamic.MentorDynamicActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209f8",
+        "android:name": "com.mszmapp.detective.module.info.relation.mentor.shop.MentorShopActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120987",
+        "android:name": "com.mszmapp.detective.module.authorization.AuthorizationActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120982",
+        "android:name": "com.mszmapp.detective.module.aiplaybook.AiPlaybookActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120984",
+        "android:name": "com.mszmapp.detective.module.aiplaybook.detail.CaseDetailActivity",
+        "android:launchMode": "singleTop",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120983",
+        "android:name": "com.mszmapp.detective.module.aiplaybook.chat.CaseChatActivity",
+        "android:screenOrientation": "portrait",
+        "android:windowSoftInputMode": "adjustResize"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a63",
+        "android:name": "com.mszmapp.detective.module.playbook.publish.PlaybookPublishActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209aa",
+        "android:name": "com.mszmapp.detective.module.game.playbookrecord.PlaybookRecordActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a56",
+        "android:name": "com.mszmapp.detective.module.playbook.dmdetails.PlaybookDMRecommendActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209c3",
+        "android:name": "com.mszmapp.detective.module.home.fragments.game.daily.playmaster.advanced.PlayMasterAdvanceActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209c4",
+        "android:name": "com.mszmapp.detective.module.home.fragments.game.daily.playmaster.advanced.PlayMasterAdvanceV3Activity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a69",
+        "android:name": "com.mszmapp.detective.module.react.ReactActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a14",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.museum.MuseumActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a15",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.museum.task.SeasonTaskActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a6e",
+        "android:name": "com.mszmapp.detective.module.store.NewlyAllActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a48",
+        "android:name": "com.mszmapp.detective.module.live.roominfo.LiveJoinRoomTypeActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130352",
+        "android:name": "com.mszmapp.detective.module.live.livingroom.fragment.setting.micstyle.BroadcasterStyleImageActivity",
+        "android:configChanges": "orientation"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a50",
+        "android:name": "com.mszmapp.detective.module.nobility.NobilityHomepageActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209a4",
+        "android:name": "com.mszmapp.detective.module.game.dmsala.rank.DmRewardRankActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a02",
+        "android:name": "com.mszmapp.detective.module.info.relation.relationlist.sort.RelationSortActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a75",
+        "android:name": "com.mszmapp.detective.module.welcome.square.WelcomeSquareActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a29",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.userprofile.title.TitleSortActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a10",
+        "android:name": "com.mszmapp.detective.module.info.userinfo.helper.PlaybookHelperActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209a0",
+        "android:name": "com.mszmapp.detective.module.game.dmgaming.live.LivePrepareActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209c5",
+        "android:name": "com.mszmapp.detective.module.home.fragments.live.together.LookBuddyListActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209c6",
+        "android:name": "com.mszmapp.detective.module.home.fragments.live.together.release.LookBuddyReleaseActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209be",
+        "android:name": "com.mszmapp.detective.module.game.ten.match.TenMinutesMatchActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209fb",
+        "android:name": "com.mszmapp.detective.module.info.relation.relationdetail.dreamcard.sort.DreamCardSortActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a51",
+        "android:name": "com.mszmapp.detective.module.nobility.star.StarProtectRankActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f120a00",
+        "android:name": "com.mszmapp.detective.module.info.relation.relationdetail.sort.RelationDetailSortActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f1209bf",
+        "android:name": "com.mszmapp.detective.module.game.ten.TenMinutesJoinActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:label": "0x7f12099f",
+        "android:name": "com.mszmapp.detective.module.game.dmgaming.invite.DeductiveInviteActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f13000f",
+        "android:name": "com.netease.nim.uikit.business.team.activity.NormalTeamInfoActivity",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "orientation|keyboardHidden",
+        "android:windowSoftInputMode": "adjustResize|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f13000f",
+        "android:name": "com.netease.nim.uikit.business.team.activity.AdvancedTeamInfoActivity",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "orientation|keyboardHidden",
+        "android:windowSoftInputMode": "adjustResize|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f13000f",
+        "android:name": "com.netease.nim.uikit.business.team.activity.AdvancedTeamMemberActivity",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "orientation|keyboardHidden",
+        "android:windowSoftInputMode": "adjustResize|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f13000f",
+        "android:name": "com.netease.nim.uikit.business.team.activity.AdvancedTeamAnnounceActivity",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "orientation|keyboardHidden",
+        "android:windowSoftInputMode": "adjustResize|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f13000f",
+        "android:name": "com.netease.nim.uikit.business.team.activity.AdvancedTeamMemberInfoActivity",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "orientation|keyboardHidden",
+        "android:windowSoftInputMode": "adjustResize|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f13000f",
+        "android:name": "com.netease.nim.uikit.business.team.activity.AdvancedTeamNicknameActivity",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "orientation|keyboardHidden",
+        "android:windowSoftInputMode": "adjustResize|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f13000f",
+        "android:name": "com.netease.nim.uikit.business.team.activity.AdvancedTeamCreateAnnounceActivity",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "orientation|keyboardHidden",
+        "android:windowSoftInputMode": "adjustResize|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f13000f",
+        "android:name": "com.netease.nim.uikit.business.team.activity.TeamPropertySettingActivity",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "orientation|keyboardHidden",
+        "android:windowSoftInputMode": "adjustResize|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f13000f",
+        "android:label": "0x7f120460",
+        "android:name": "com.netease.nim.uikit.business.contact.selector.activity.ContactSelectActivity",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "orientation|keyboardHidden",
+        "android:windowSoftInputMode": "adjustPan|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f13000f",
+        "android:name": "com.netease.nim.uikit.business.ait.selector.AitContactSelectorActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f13000f",
+        "android:name": "com.netease.nim.uikit.common.media.picker.activity.PickImageActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f13000f",
+        "android:name": "com.netease.nim.uikit.common.media.picker.activity.CropImageActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f13000f",
+        "android:name": "com.netease.nim.uikit.common.media.picker.activity.PickerAlbumActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f13000f",
+        "android:name": "com.netease.nim.uikit.common.media.picker.activity.PickerAlbumPreviewActivity",
+        "android:screenOrientation": "portrait"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f13000f",
+        "android:name": "com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromLocalActivity",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "orientation|keyboardHidden",
+        "android:windowSoftInputMode": "adjustResize|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f13000f",
+        "android:label": "0x7f12085f",
+        "android:name": "com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromCameraActivity",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "orientation|keyboardHidden",
+        "android:windowSoftInputMode": "adjustResize|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f13000f",
+        "android:name": "com.netease.nim.uikit.business.session.activity.CaptureVideoActivity",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "orientation|keyboardHidden",
+        "android:windowSoftInputMode": "adjustResize|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f1300fd",
+        "android:label": "0x7f12121d",
+        "android:name": "com.netease.nim.uikit.business.session.activity.WatchVideoActivity",
+        "android:configChanges": "screenSize|orientation|keyboardHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f1300fd",
+        "android:name": "com.netease.nim.uikit.business.session.activity.WatchMessagePictureActivity",
+        "android:configChanges": "keyboardHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f1300fd",
+        "android:name": "com.netease.nim.uikit.business.session.activity.WatchPicAndVideoMenuActivity",
+        "android:configChanges": "keyboardHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f1300fd",
+        "android:name": "com.netease.nim.uikit.business.session.activity.CustomEmojiActivity",
+        "android:configChanges": "keyboardHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "android:name": "com.netease.nim.uikit.common.media.picker.model.GenericFileProvider",
+        "android:exported": "false",
+        "android:authorities": "com.mszmapp.detective.generic.file.provider",
+        "android:grantUriPermissions": "true"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "android:name": "androidx.core.content.FileProvider",
+        "android:exported": "false",
+        "android:authorities": "com.mszmapp.detective.fileprovider",
+        "android:grantUriPermissions": "true"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "@android:style/Theme.Translucent.NoTitleBar",
+        "android:name": "com.lxj.xpopup.util.XPermission$PermissionActivity"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.facebook.CustomTabMainActivity"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.netease.cloud.nos.yidun.service.MonitorService",
+        "android:exported": "false",
+        "android:process": ":MonitorService"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "receiver",
+      "attributes": {
+        "android:label": "NetworkConnection",
+        "android:name": "com.netease.cloud.nos.yidun.receiver.ConnectionChangeReceiver",
+        "android:exported": "false"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "android.net.conn.CONNECTIVITY_CHANGE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "receiver",
+      "attributes": {
+        "android:name": "cn.gravity.android.GEReceiver",
+        "android:enabled": "false",
+        "android:exported": "false"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "android:name": "com.facebook.internal.FacebookInitProvider",
+        "android:exported": "false",
+        "android:authorities": "com.mszmapp.detective.FacebookInitProvider"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "receiver",
+      "attributes": {
+        "android:name": "com.facebook.CurrentAccessTokenExpirationBroadcastReceiver",
+        "android:exported": "false"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"
+          }
+        }
+      ]
+    },
+    {
+      "type": "receiver",
+      "attributes": {
+        "android:name": "com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver",
+        "android:exported": "false"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED"
+          }
+        }
+      ]
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "android:name": "androidx.startup.InitializationProvider",
+        "android:exported": "false",
+        "android:authorities": "com.mszmapp.detective.androidx-startup"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.netease.nimlib.service.NimServiceV2",
+        "android:exported": "false"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "android:name": "com.netease.nimlib.ipc.NIMContentProviderV2",
+        "android:exported": "false",
+        "android:authorities": "com.mszmapp.detective.ipc.provider.v2"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "androidx.room.MultiInstanceInvalidationService",
+        "android:exported": "false",
+        "android:directBootAware": "true"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.bytedance.applog.migrate.MigrateDetectorActivity",
+        "android:exported": "false"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "receiver",
+      "attributes": {
+        "android:name": "com.bytedance.applog.collector.Collector",
+        "android:enabled": "true",
+        "android:exported": "false"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.umeng.message.component.UmengIntentService",
+        "android:exported": "false"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "org.agoo.android.intent.action.RECEIVE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.umeng.message.component.UmengMessageReceiverService",
+        "android:exported": "false"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "org.android.agoo.client.MessageReceiverService"
+          }
+        }
+      ]
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.umeng.message.component.UmengMessageHandlerService",
+        "android:exported": "false"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "com.umeng.message.action"
+          }
+        }
+      ]
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "android:name": "com.umeng.message.component.UmengMessageProvider",
+        "android:exported": "false",
+        "android:authorities": "com.mszmapp.detective.umeng.message"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "receiver",
+      "attributes": {
+        "android:name": "com.umeng.message.component.UmengNotificationReceiver",
+        "android:exported": "false"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "@android:style/Theme.Translucent.NoTitleBar",
+        "android:name": "com.umeng.message.component.UmengNotificationClickActivity",
+        "android:exported": "false"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.taobao.accs.ChannelService",
+        "android:exported": "false"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "com.taobao.accs.intent.action.START_SERVICE"
+          }
+        },
+        {
+          "action": {
+            "android:name": "com.taobao.accs.intent.action.ELECTION"
+          }
+        }
+      ]
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.taobao.accs.ChannelService$KernelService",
+        "android:exported": "false"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.taobao.accs.data.MsgDistributeService",
+        "android:exported": "true"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "com.umeng.message.action.notify"
+          }
+        }
+      ]
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.taobao.accs.internal.AccsJobService",
+        "android:permission": "android.permission.BIND_JOB_SERVICE",
+        "android:exported": "false"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "org.android.agoo.accs.AgooService",
+        "android:exported": "false"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "com.taobao.accs.intent.action.RECEIVE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "receiver",
+      "attributes": {
+        "android:name": "com.taobao.accs.ServiceReceiver",
+        "android:exported": "false"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "com.taobao.accs.intent.action.COMMAND"
+          }
+        },
+        {
+          "action": {
+            "android:name": "com.taobao.accs.intent.action.START_FROM_AGOO"
+          }
+        }
+      ]
+    },
+    {
+      "type": "receiver",
+      "attributes": {
+        "android:name": "org.android.agoo.xiaomi.MiPushBroadcastReceiver",
+        "android:exported": "true"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "com.xiaomi.mipush.RECEIVE_MESSAGE"
+          }
+        },
+        {
+          "action": {
+            "android:name": "com.xiaomi.mipush.MESSAGE_ARRIVED"
+          }
+        },
+        {
+          "action": {
+            "android:name": "com.xiaomi.mipush.ERROR"
+          }
+        }
+      ]
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "@android:style/Theme.Translucent.NoTitleBar",
+        "android:name": "com.xiaomi.mipush.sdk.NotificationClickedActivity",
+        "android:enabled": "true",
+        "android:exported": "true",
+        "android:excludeFromRecents": "true",
+        "android:launchMode": "singleInstance"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "org.android.agoo.huawei.HuaweiRcvService",
+        "android:exported": "false"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "com.huawei.push.action.MESSAGING_EVENT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "receiver",
+      "attributes": {
+        "android:name": "com.huawei.hms.support.api.push.PushMsgReceiver",
+        "android:permission": "com.mszmapp.detective.permission.PROCESS_PUSH_MSG",
+        "android:exported": "true",
+        "android:directBootAware": "true"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "com.huawei.intent.action.PUSH"
+          }
+        }
+      ]
+    },
+    {
+      "type": "receiver",
+      "attributes": {
+        "android:name": "com.huawei.hms.support.api.push.PushReceiver",
+        "android:permission": "com.mszmapp.detective.permission.PROCESS_PUSH_MSG",
+        "android:exported": "true",
+        "android:directBootAware": "true"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "com.huawei.android.push.intent.RECEIVE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.huawei.hms.support.api.push.service.HmsMsgService",
+        "android:enabled": "true",
+        "android:exported": "true",
+        "android:process": ":pushservice",
+        "android:directBootAware": "true"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "com.huawei.push.msg.PASSBY_MSG"
+          }
+        }
+      ]
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "android:name": "com.huawei.hms.support.api.push.PushProvider",
+        "android:readPermission": "com.mszmapp.detective.permission.PUSH_PROVIDER",
+        "android:writePermission": "com.mszmapp.detective.permission.PUSH_WRITE_PROVIDER",
+        "android:exported": "true",
+        "android:authorities": "com.mszmapp.detective.huawei.push.provider"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.huawei.hms.support.api.push.TransActivity",
+        "android:exported": "false"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.heytap.msp.push.service.CompatibleDataMessageCallbackService",
+        "android:permission": "com.coloros.mcs.permission.SEND_MCS_MESSAGE",
+        "android:exported": "true"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.heytap.msp.push.service.DataMessageCallbackService",
+        "android:permission": "com.heytap.mcs.permission.SEND_PUSH_MESSAGE",
+        "android:exported": "true"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "receiver",
+      "attributes": {
+        "android:name": "org.android.agoo.vivo.PushMessageReceiverImpl",
+        "android:exported": "false"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "com.vivo.pushclient.action.RECEIVE"
+          }
+        }
+      ]
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "android:name": "razerdp.basepopup.BasePopupInitializer",
+        "android:exported": "false",
+        "android:multiprocess": "true",
+        "android:authorities": "com.github.razerdp.com.mszmapp.detective.BasePopupInitializer"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "@android:style/Theme.Translucent.NoTitleBar",
+        "android:name": "com.huawei.hms.hwid.internal.ui.activity.HwIdSignInHubActivity",
+        "android:exported": "false",
+        "android:excludeFromRecents": "true",
+        "android:configChanges": "fontScale|uiMode"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "@android:style/Theme.Translucent.NoTitleBar",
+        "android:name": "com.huawei.hms.account.internal.ui.activity.AccountSignInHubActivity",
+        "android:exported": "false",
+        "android:excludeFromRecents": "true"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "@android:style/Theme.NoTitleBar",
+        "android:name": "com.alipay.sdk.app.H5PayActivity",
+        "android:exported": "false",
+        "android:configChanges": "fontScale|layoutDirection|density|smallestScreenSize|screenSize|screenLayout|orientation|navigation|keyboardHidden|keyboard|locale"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "@android:style/Theme.NoTitleBar",
+        "android:name": "com.alipay.sdk.app.H5AuthActivity",
+        "android:exported": "false",
+        "android:configChanges": "fontScale|layoutDirection|density|smallestScreenSize|screenSize|screenLayout|orientation|navigation|keyboardHidden|keyboard|locale"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "@android:style/Theme.Translucent.NoTitleBar",
+        "android:name": "com.alipay.sdk.app.PayResultActivity",
+        "android:exported": "true",
+        "android:launchMode": "singleInstance",
+        "android:configChanges": "fontScale|layoutDirection|density|smallestScreenSize|screenSize|screenLayout|orientation|navigation|keyboardHidden|keyboard|locale"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "@android:style/Theme.Translucent.NoTitleBar",
+        "android:name": "com.alipay.sdk.app.AlipayResultActivity",
+        "android:exported": "true",
+        "android:launchMode": "singleTask",
+        "android:configChanges": "fontScale|layoutDirection|density|smallestScreenSize|screenSize|screenLayout|orientation|navigation|keyboardHidden|keyboard|locale"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.alipay.sdk.app.H5OpenAuthActivity",
+        "android:exported": "false",
+        "android:screenOrientation": "behind",
+        "android:configChanges": "fontScale|layoutDirection|density|smallestScreenSize|screenSize|screenLayout|orientation|navigation|keyboardHidden|keyboard|locale",
+        "android:windowSoftInputMode": "adjustResize|stateHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "@android:style/Theme.Translucent.NoTitleBar",
+        "android:name": "com.alipay.sdk.app.APayEntranceActivity",
+        "android:exported": "false",
+        "android:configChanges": "fontScale|layoutDirection|density|smallestScreenSize|screenSize|screenLayout|orientation|navigation|keyboardHidden|keyboard|locale"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "android:name": "me.jessyan.autosize.InitProvider",
+        "android:exported": "false",
+        "android:multiprocess": "true",
+        "android:authorities": "com.mszmapp.detective.autosize-init-provider"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "@android:style/Theme.Translucent",
+        "android:name": "com.tencent.rtmp.video.TXScreenCapture$TXScreenCaptureAssistantActivity"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "org.android.agoo.honor.HonorMsgService",
+        "android:exported": "false"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "com.hihonor.push.action.MESSAGING_EVENT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130266",
+        "android:name": "com.bytedance.ads.convert.BDBridgeActivity",
+        "android:exported": "true"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "android:name": "com.qq.gdt.action.GDTInitProvider",
+        "android:exported": "false",
+        "android:authorities": "com.mszmapp.detective.GDTInitProvider"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "@android:style/Theme.Translucent.NoTitleBar",
+        "android:name": "com.huawei.updatesdk.service.otaupdate.AppUpdateActivity",
+        "android:exported": "false",
+        "android:configChanges": "screenSize|orientation"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "@android:style/Theme.Translucent.NoTitleBar",
+        "android:name": "com.huawei.updatesdk.support.pm.PackageInstallerActivity",
+        "android:exported": "false",
+        "android:configChanges": "screenSize|orientation|keyboardHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "android:name": "com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider",
+        "android:exported": "false",
+        "android:authorities": "com.mszmapp.detective.updateSdk.fileProvider",
+        "android:grantUriPermissions": "true"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130268",
+        "android:name": "com.unity3d.player.UnityPlayerActivity",
+        "android:launchMode": "singleTask",
+        "android:screenOrientation": "fullUser",
+        "android:configChanges": "fontScale|layoutDirection|density|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc",
+        "android:hardwareAccelerated": "false",
+        "android:resizeableActivity": "false"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130230",
+        "android:name": "com.google.android.play.core.common.PlayCoreDialogWrapperActivity",
+        "android:exported": "false",
+        "android:stateNotNeeded": "true"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "android:name": "com.huawei.hms.aaid.InitProvider",
+        "android:exported": "false",
+        "android:authorities": "com.mszmapp.detective.aaidinitprovider",
+        "android:initOrder": "500"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130000",
+        "android:name": "com.blankj.utilcode.util.UtilsTransActivity4MainProcess",
+        "android:configChanges": "screenSize|orientation|keyboardHidden",
+        "android:windowSoftInputMode": "stateAlwaysHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130000",
+        "android:name": "com.blankj.utilcode.util.UtilsTransActivity",
+        "android:multiprocess": "true",
+        "android:configChanges": "screenSize|orientation|keyboardHidden",
+        "android:windowSoftInputMode": "stateAlwaysHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "android:name": "com.blankj.utilcode.util.UtilsFileProvider",
+        "android:exported": "false",
+        "android:authorities": "com.mszmapp.detective.utilcode.provider",
+        "android:grantUriPermissions": "true"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.blankj.utilcode.util.MessengerUtils$ServerService",
+        "android:exported": "false"
+      },
+      "intent_filters": [
+        {
+          "action": {
+            "android:name": "com.mszmapp.detective.messenger"
+          }
+        }
+      ]
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130010",
+        "android:name": "com.huantansheng.easyphotos.ui.EasyPhotosActivity",
+        "android:configChanges": "screenSize|orientation|keyboardHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130101",
+        "android:name": "com.huantansheng.easyphotos.ui.PreviewActivity",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "screenSize|orientation|keyboardHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130102",
+        "android:name": "com.huantansheng.easyphotos.ui.PuzzleActivity",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "screenSize|orientation|keyboardHidden",
+        "android:windowSoftInputMode": "adjustPan"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130102",
+        "android:name": "com.huantansheng.easyphotos.ui.PuzzleSelectorActivity",
+        "android:screenOrientation": "portrait",
+        "android:configChanges": "screenSize|orientation|keyboardHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f130129",
+        "android:name": "com.huantansheng.easyphotos.models.edit.IMGEditActivity",
+        "android:screenOrientation": "portrait",
+        "android:windowSoftInputMode": "stateAlwaysHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "android:name": "com.huawei.agconnect.core.provider.AGConnectInitializeProvider",
+        "android:exported": "false",
+        "android:authorities": "com.mszmapp.detective.AGCInitializeProvider"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "attributes": {
+        "android:name": "com.huawei.agconnect.core.ServiceDiscovery",
+        "android:exported": "false"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:theme": "0x7f1300f1",
+        "android:name": "com.huawei.hms.activity.BridgeActivity",
+        "android:exported": "false",
+        "android:excludeFromRecents": "true",
+        "android:screenOrientation": "behind",
+        "android:configChanges": "fontScale|layoutDirection|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|locale",
+        "android:hardwareAccelerated": "true"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "attributes": {
+        "android:name": "com.huawei.hms.activity.EnableServiceActivity",
+        "android:exported": "false",
+        "android:configChanges": "smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"
+      },
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "attributes": {
+        "android:name": "com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider",
+        "android:enabled": "true",
+        "android:exported": "false",
+        "android:authorities": "com.mszmapp.detective.SensorsDataContentProvider"
+      },
+      "intent_filters": []
+    }
+  ]
+}

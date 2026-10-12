@@ -1,0 +1,49 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1177826525661748808
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7802755607570700153
+  },
+  "m_Name": "",
+  "bindDic": {
+    "m_keys": [
+      "defaultHead",
+      "headNode",
+      "closeBtn",
+      "confirmBtn",
+      "edgeArea",
+      "tipsText"
+    ],
+    "m_values": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 3215861123647500299
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 3428914241747381391
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -6996710317856277691
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -4157708545115098687
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -6494938536036352551
+      }
+    ]
+  },
+  "animationEventList": []
+}

@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2917171117916196407
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2877934123682233678
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7160525755890541483
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "tag_play_roleskill_08_hunter_01",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

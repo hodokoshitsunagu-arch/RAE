@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -429850981789358464
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5912261564601350193
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -199008380121210978
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6198330886363385303
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -909724780559591285
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "glow",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

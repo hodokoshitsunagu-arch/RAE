@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7752758023336179250
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3738804235728387616
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3304119629465750654
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "SheriffSelection",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

@@ -1,0 +1,20 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1326154054423846061
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6807176555399591289
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Dialogbox_hero_button",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

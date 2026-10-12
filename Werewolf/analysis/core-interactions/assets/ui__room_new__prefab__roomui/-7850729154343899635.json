@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3951054175413805716
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -835968912469851087
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2072437311254387604
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -536716968815443075
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8536384374087433338
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "RoomInfoQualifying",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

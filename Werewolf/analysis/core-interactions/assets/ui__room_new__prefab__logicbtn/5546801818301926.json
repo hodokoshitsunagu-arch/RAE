@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7255998551604563062
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2876028698827864023
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8903065479011030575
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "YouDead",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

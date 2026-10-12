@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1254488788340229055
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3441675489819136612
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7017734424097003281
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2672579905267037701
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "delay_icon",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

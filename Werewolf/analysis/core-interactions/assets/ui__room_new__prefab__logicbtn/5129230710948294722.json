@@ -1,0 +1,50 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4118632608410591656
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5258228161371586748
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8386300835028146524
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8818017515788485690
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 32849692664706358
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7942534069751831647
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6884000431306245688
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "pre_YouFanRole",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7395038341249701298
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2572886172641678934
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3826022128914307697
+      }
+    }
+  ],
+  "m_Layer": 0,
+  "m_Name": "New Sprite(Splash)",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

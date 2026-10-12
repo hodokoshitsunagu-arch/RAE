@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8059880104789794961
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8281212634424363777
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 338222392585390560
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7234328226413641880
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "corner_mark",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

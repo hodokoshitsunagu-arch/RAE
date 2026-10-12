@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4170281700064682501
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8104893541990204212
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2390105997729004798
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7068155575270261230
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "recording",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -927130602471462055
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 880010789988226885
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1431275698166019493
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1622209159748459290
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "TextInput",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

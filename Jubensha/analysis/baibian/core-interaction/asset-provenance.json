@@ -1,0 +1,134 @@
+[
+  {
+    "resource_name": "ic_gaming_playbook",
+    "resource_id": "0x7f080e02",
+    "resource_entry_offset": 2501120,
+    "member": "res/UlR.png",
+    "member_offset": 0,
+    "rea_parent_evidence_id": "ev_9852a76aaae2440b39b4ae7f452177ab0776dc387aa8611051bc6f61fc4f8113",
+    "sha256": "d97d12d59e37745599c35b784b0f37c7fa11d1df2db6c5d31cc534730ba7cd85",
+    "bytes": 1136,
+    "local_path": "/Users/mark/Projects/REA/Jubensha/analysis/baibian/core-interaction/assets/ic_gaming_playbook.png",
+    "config_hex": "40000000000000000000000000008002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "selection": "largest packaged raster variant; not runtime density selection",
+    "dimensions": [
+      104,
+      104
+    ]
+  },
+  {
+    "resource_name": "ic_gaming_clue",
+    "resource_id": "0x7f080df6",
+    "resource_entry_offset": 2501088,
+    "member": "res/m3p.png",
+    "member_offset": 0,
+    "rea_parent_evidence_id": "ev_9852a76aaae2440b39b4ae7f452177ab0776dc387aa8611051bc6f61fc4f8113",
+    "sha256": "56719021c88d91ee4e1985a2a51c129e649acdbef2659c7082def66abf2590c9",
+    "bytes": 1320,
+    "local_path": "/Users/mark/Projects/REA/Jubensha/analysis/baibian/core-interaction/assets/ic_gaming_clue.png",
+    "config_hex": "40000000000000000000000000008002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "selection": "largest packaged raster variant; not runtime density selection",
+    "dimensions": [
+      104,
+      104
+    ]
+  },
+  {
+    "resource_name": "ic_gaming_send_message",
+    "resource_id": "0x7f080e0b",
+    "resource_entry_offset": 2501168,
+    "member": "res/jQz.png",
+    "member_offset": 0,
+    "rea_parent_evidence_id": "ev_9852a76aaae2440b39b4ae7f452177ab0776dc387aa8611051bc6f61fc4f8113",
+    "sha256": "6ee92a58d228c2ba7dfd6db7af29bc22dc8902a8b314c703d8006b44825e1da7",
+    "bytes": 1181,
+    "local_path": "/Users/mark/Projects/REA/Jubensha/analysis/baibian/core-interaction/assets/ic_gaming_send_message.png",
+    "config_hex": "40000000000000000000000000008002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "selection": "largest packaged raster variant; not runtime density selection",
+    "dimensions": [
+      104,
+      104
+    ]
+  },
+  {
+    "resource_name": "ic_gaming_audio_open",
+    "resource_id": "0x7f080df1",
+    "resource_entry_offset": 2501056,
+    "member": "res/gRm.png",
+    "member_offset": 0,
+    "rea_parent_evidence_id": "ev_9852a76aaae2440b39b4ae7f452177ab0776dc387aa8611051bc6f61fc4f8113",
+    "sha256": "88d3bc203dc2e54b60df30081525c8665a2944443ba8e4f63eaee9db2edd3041",
+    "bytes": 1648,
+    "local_path": "/Users/mark/Projects/REA/Jubensha/analysis/baibian/core-interaction/assets/ic_gaming_audio_open.png",
+    "config_hex": "40000000000000000000000000008002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "selection": "largest packaged raster variant; not runtime density selection",
+    "dimensions": [
+      104,
+      104
+    ]
+  },
+  {
+    "resource_name": "ic_gaming_setting",
+    "resource_id": "0x7f080e0d",
+    "resource_entry_offset": 2385160,
+    "member": "res/7Xt.png",
+    "member_offset": 0,
+    "rea_parent_evidence_id": "ev_9852a76aaae2440b39b4ae7f452177ab0776dc387aa8611051bc6f61fc4f8113",
+    "sha256": "08504becbf1f05018d2229d47c8b5c708948c352ae16943ab40fa741f8e98249",
+    "bytes": 665,
+    "local_path": "/Users/mark/Projects/REA/Jubensha/analysis/baibian/core-interaction/assets/ic_gaming_setting.png",
+    "config_hex": "4000000000000000000000000000e001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "selection": "largest packaged raster variant; not runtime density selection",
+    "dimensions": [
+      60,
+      60
+    ]
+  },
+  {
+    "resource_name": "ic_clue_list_public",
+    "resource_id": "0x7f080ba3",
+    "resource_entry_offset": 2375400,
+    "member": "res/vmI.png",
+    "member_offset": 0,
+    "rea_parent_evidence_id": "ev_9852a76aaae2440b39b4ae7f452177ab0776dc387aa8611051bc6f61fc4f8113",
+    "sha256": "bca5bdcdd851acf33fd25e5b701f238b69257fd2ada8c79e61be382279e31f7b",
+    "bytes": 932,
+    "local_path": "/Users/mark/Projects/REA/Jubensha/analysis/baibian/core-interaction/assets/ic_clue_list_public.png",
+    "config_hex": "4000000000000000000000000000e001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "selection": "largest packaged raster variant; not runtime density selection",
+    "dimensions": [
+      48,
+      48
+    ]
+  },
+  {
+    "resource_name": "ic_game_truth",
+    "resource_id": "0x7f080ded",
+    "resource_entry_offset": 2384648,
+    "member": "res/Up4.webp",
+    "member_offset": 0,
+    "rea_parent_evidence_id": "ev_9852a76aaae2440b39b4ae7f452177ab0776dc387aa8611051bc6f61fc4f8113",
+    "sha256": "3114d89f50b3dfe7d4a998a3f2c7a57043b873e42df6a55bf2f5f6262f97d0e0",
+    "bytes": 1236,
+    "local_path": "/Users/mark/Projects/REA/Jubensha/analysis/baibian/core-interaction/assets/ic_game_truth.webp",
+    "config_hex": "4000000000000000000000000000e001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "selection": "largest packaged raster variant; not runtime density selection"
+  },
+  {
+    "resource_name": "img_default_playbook_bg",
+    "resource_id": "0x7f0814e2",
+    "resource_entry_offset": 2412120,
+    "member": "res/pm6.png",
+    "member_offset": 0,
+    "rea_parent_evidence_id": "ev_9852a76aaae2440b39b4ae7f452177ab0776dc387aa8611051bc6f61fc4f8113",
+    "sha256": "ffc351da635ba48ca6e27a7d89f7a97f59d44c75c303055cd2726544edcb9e4e",
+    "bytes": 19490,
+    "local_path": "/Users/mark/Projects/REA/Jubensha/analysis/baibian/core-interaction/assets/img_default_playbook_bg.png",
+    "config_hex": "4000000000000000000000000000e001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "selection": "largest packaged raster variant; not runtime density selection",
+    "dimensions": [
+      1125,
+      1146
+    ]
+  }
+]

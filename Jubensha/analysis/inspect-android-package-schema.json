@@ -1,0 +1,15 @@
+{
+  "args": {
+    "type": "object",
+    "properties": {
+      "path": {
+        "type": "string",
+        "description": "Local standalone APK path"
+      }
+    },
+    "required": [
+      "path"
+    ],
+    "additionalProperties": false
+  }
+}

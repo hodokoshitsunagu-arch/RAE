@@ -1,0 +1,44 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2328541485168525140
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2311835743778182268
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8660680506013528085
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6341695270477771056
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 629189871666222912
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4171177292512436479
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "click_off",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

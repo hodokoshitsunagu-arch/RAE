@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2951389122797072776
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7968297066087050442
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8157476255174099672
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3050072662883511609
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Loading",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

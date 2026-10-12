@@ -1,0 +1,177 @@
+[
+  {
+    "member": "assets/Android/DOTween.dll",
+    "sha256": "c9759400576e2a56bb56785ccde2070650b61a8f26ff153cb25f13992ce61dd8",
+    "size": 174592,
+    "zip_local_header_offset": 264270454,
+    "compression": 8
+  },
+  {
+    "member": "assets/Android/Google.Protobuf.dll",
+    "sha256": "83d22fc32c3704224914fa690beda1d908a39c4c64383969d5523924845ad93d",
+    "size": 390656,
+    "zip_local_header_offset": 264336930,
+    "compression": 8
+  },
+  {
+    "member": "assets/Android/Grpc.Core.Api.dll",
+    "sha256": "ee63068817211a38ac11d9bbc4ce35ea8bdc7433ecc90d5bf96f18c36fb9d72e",
+    "size": 42496,
+    "zip_local_header_offset": 264486601,
+    "compression": 8
+  },
+  {
+    "member": "assets/Android/Micosmo.SensorToolkit.dll",
+    "sha256": "d2c0d1ec854e827a885e58cf46d95dffee6c8c90ddbcb746c66b54b36a1d3927",
+    "size": 199680,
+    "zip_local_header_offset": 264504351,
+    "compression": 8
+  },
+  {
+    "member": "assets/Android/MonopolyLoca.dll",
+    "sha256": "3804ef01fd38e8788190982bb62451ee5fffd7679b9f52b1c305eb7e27baaacc",
+    "size": 27648,
+    "zip_local_header_offset": 264586113,
+    "compression": 8
+  },
+  {
+    "member": "assets/Android/MsgPack.dll",
+    "sha256": "da4a25ce1d2c6f94fc7743ecdb310b8fc8671c3467103af5c96e8b83c208815f",
+    "size": 477184,
+    "zip_local_header_offset": 264596783,
+    "compression": 8
+  },
+  {
+    "member": "assets/Android/Newtonsoft.Json.dll",
+    "sha256": "84f3f05ee5a1d54fbcb56ed172aa30384ffaa048c82ab73adae608100cd6c371",
+    "size": 688128,
+    "zip_local_header_offset": 264761923,
+    "compression": 8
+  },
+  {
+    "member": "assets/Android/Proyecto26.dll",
+    "sha256": "7e572b21efa593a895b5e59c9e26117a9bac77ce1a54d9ff9b984d6fc5cbcf92",
+    "size": 59392,
+    "zip_local_header_offset": 265019133,
+    "compression": 8
+  },
+  {
+    "member": "assets/Android/QFramework.CoreKit.dll",
+    "sha256": "29e7fa3da4dd05664712c4f61586b31b85e4ecfe5fcaafb2840d9c7bfa1497f5",
+    "size": 176640,
+    "zip_local_header_offset": 265043941,
+    "compression": 8
+  },
+  {
+    "member": "assets/Android/QFramework.dll",
+    "sha256": "2e7775a4873471a1398a6f68be8a7240c2952f7e115258f246e75f95334b7105",
+    "size": 16896,
+    "zip_local_header_offset": 265121199,
+    "compression": 8
+  },
+  {
+    "member": "assets/Android/System.Core.dll",
+    "sha256": "7cd1cb6cbd67eeb7fafcff33e1d7a3f38aa76412ac2f39188d4b563205c55e1d",
+    "size": 1104896,
+    "zip_local_header_offset": 265128401,
+    "compression": 8
+  },
+  {
+    "member": "assets/Android/System.dll",
+    "sha256": "b4ab5c625db67f752cb2904f164ea006282001bb6ad4fe6b044608b526ee4420",
+    "size": 1994240,
+    "zip_local_header_offset": 265497737,
+    "compression": 8
+  },
+  {
+    "member": "assets/Android/Tools.dll",
+    "sha256": "1ac8cef4966ac8ba48b106ba04b6c8875b5971511870535236bb6207c8bd4f05",
+    "size": 414208,
+    "zip_local_header_offset": 266253957,
+    "compression": 8
+  },
+  {
+    "member": "assets/Android/Unity.Addressables.dll",
+    "sha256": "4012e4b8366b98c269390a305469ffed6da69d46b51291aabd4b8e1553120bdc",
+    "size": 97792,
+    "zip_local_header_offset": 266419029,
+    "compression": 8
+  },
+  {
+    "member": "assets/Android/Unity.InputSystem.dll",
+    "sha256": "b7a2afaabec8e19071efd28eb56ebd6b109fd10cd9c6e180dd920bf88c17be85",
+    "size": 1035264,
+    "zip_local_header_offset": 266461742,
+    "compression": 8
+  },
+  {
+    "member": "assets/Android/Unity.Netcode.Runtime.dll",
+    "sha256": "42b2e8bfab252b8561bb1f3ae364955adae43f337c7aadc3f7ffd8aee153c2b5",
+    "size": 346624,
+    "zip_local_header_offset": 266811675,
+    "compression": 8
+  },
+  {
+    "member": "assets/Android/Unity.RenderPipelines.Core.Runtime.dll",
+    "sha256": "f9ba4c0e88e175854e04de797451d40cc831aa4d30bad073ba43a0507b1dd8e8",
+    "size": 353280,
+    "zip_local_header_offset": 266945566,
+    "compression": 8
+  },
+  {
+    "member": "assets/Android/Unity.ResourceManager.dll",
+    "sha256": "47d1efe500573997d0bb12f08bde306b498802cffddb27b5ef247b5725512d17",
+    "size": 98816,
+    "zip_local_header_offset": 267095967,
+    "compression": 8
+  },
+  {
+    "member": "assets/Android/UnityEngine.CoreModule.dll",
+    "sha256": "74220aa2aa2c6600fde7187aa1d63bd6dc602712654f12ca23af89795116c5b7",
+    "size": 1241088,
+    "zip_local_header_offset": 267139377,
+    "compression": 8
+  },
+  {
+    "member": "assets/Android/UnityEngine.JSONSerializeModule.dll",
+    "sha256": "061280135f0dc8cf8b05026ca64300889d5d3311eaba00170c2878826da9e403",
+    "size": 11264,
+    "zip_local_header_offset": 267540805,
+    "compression": 8
+  },
+  {
+    "member": "assets/Android/UnityEngine.UI.dll",
+    "sha256": "10b2b891bf9ae0ba08d144ff0a9ac1ef56064f24bcadd5437b72a7150f7ef6a6",
+    "size": 246784,
+    "zip_local_header_offset": 267544623,
+    "compression": 8
+  },
+  {
+    "member": "assets/Android/mscorlib.dll",
+    "sha256": "31bb0a1d03deed614728b46a0c614ce53feeaa680441317a936b8c863bf62a1e",
+    "size": 4397568,
+    "zip_local_header_offset": 267649387,
+    "compression": 8
+  },
+  {
+    "member": "assets/aa/catalog.json",
+    "sha256": "ba402032e976583f60f13e765b9f1b83bdd4f82ecbac1ff4863ce4f320938e12",
+    "size": 62638,
+    "zip_local_header_offset": 269256062,
+    "compression": 8
+  },
+  {
+    "member": "assets/aa/settings.json",
+    "sha256": "c17f6c8d3c0dcab90eee8a3f489ae95340d3b0cc90f44f34f059f93a2233889d",
+    "size": 3186,
+    "zip_local_header_offset": 269274854,
+    "compression": 8
+  },
+  {
+    "member": "assets/bin/Data/Managed/Metadata/global-metadata.dat",
+    "sha256": "b3262d57c0a135387eb99136990cc62b5b4fdf12c22f905ea9974cc46d49c12b",
+    "size": 22498144,
+    "zip_local_header_offset": 292584962,
+    "compression": 8
+  }
+]

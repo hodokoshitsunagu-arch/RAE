@@ -1,0 +1,44 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8460820751324922335
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -105538040757685003
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2811581515711183918
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2578448191747012964
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1554242679455027868
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2053636221816731836
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "witchguidancebg",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

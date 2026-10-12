@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5359559279047947651
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6231154015146561401
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6643774052007923069
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8094207060354456942
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "tips",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

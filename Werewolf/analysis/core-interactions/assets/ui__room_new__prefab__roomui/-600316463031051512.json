@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8104716521078787780
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6899885225324066246
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7598447910564798301
+      }
+    }
+  ],
+  "m_Layer": 0,
+  "m_Name": "Click_light_00",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

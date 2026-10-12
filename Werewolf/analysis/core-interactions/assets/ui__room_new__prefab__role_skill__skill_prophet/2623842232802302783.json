@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3560170358382160661
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7747481578792715959
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5505269686549550565
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3817681559104746260
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3915840641047216748
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "tips1",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

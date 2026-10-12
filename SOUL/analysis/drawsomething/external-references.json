@@ -1,0 +1,6240 @@
+[
+  {
+    "dex": "classes2.dex",
+    "owner": "Lcn/soulapp/imlib/msg/ImMessage;",
+    "method": "createPushReceiveMsg",
+    "method_index": 5899,
+    "code_offset": 1405688,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getReceiver",
+        "proto_index": 3444,
+        "pc": 27,
+        "file_offset": 1405758,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getSender",
+        "proto_index": 3444,
+        "pc": 38,
+        "file_offset": 1405780,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes2.dex",
+    "owner": "Lcn/soulapp/imlib/msg/a;",
+    "method": "a",
+    "method_index": 5967,
+    "code_offset": 1400548,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "pc": 119,
+        "file_offset": 1400802,
+        "opcode": "0x1c"
+      },
+      {
+        "kind": "type",
+        "value": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "pc": 125,
+        "file_offset": 1400814,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes2.dex",
+    "owner": "Lcn/soulapp/imlib/msg/a;",
+    "method": "i",
+    "method_index": 5975,
+    "code_offset": 1402900,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "name": "convert",
+        "proto_index": 812,
+        "pc": 5,
+        "file_offset": 1402926,
+        "opcode": "0x71"
+      }
+    ]
+  },
+  {
+    "dex": "classes2.dex",
+    "owner": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg$AnswerResult;",
+    "method": "convert",
+    "method_index": 6035,
+    "code_offset": 1410684,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg$AnswerResult;",
+        "pc": 0,
+        "file_offset": 1410700,
+        "opcode": "0x22"
+      },
+      {
+        "kind": "method",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg$AnswerResult;",
+        "name": "<init>",
+        "proto_index": 4752,
+        "pc": 2,
+        "file_offset": 1410704,
+        "opcode": "0x70"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/AnswerResult;",
+        "name": "getQuestion",
+        "proto_index": 3444,
+        "pc": 5,
+        "file_offset": 1410710,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg$AnswerResult;",
+        "type": "Ljava/lang/String;",
+        "name": "question",
+        "pc": 9,
+        "file_offset": 1410718,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/AnswerResult;",
+        "name": "getQuestionDesc",
+        "proto_index": 3444,
+        "pc": 11,
+        "file_offset": 1410722,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg$AnswerResult;",
+        "type": "Ljava/lang/String;",
+        "name": "questionDesc",
+        "pc": 15,
+        "file_offset": 1410730,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/AnswerResult;",
+        "name": "getAnswer",
+        "proto_index": 3444,
+        "pc": 17,
+        "file_offset": 1410734,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg$AnswerResult;",
+        "type": "Ljava/lang/String;",
+        "name": "answer",
+        "pc": 21,
+        "file_offset": 1410742,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/AnswerResult;",
+        "name": "getAnswerDesc",
+        "proto_index": 3444,
+        "pc": 23,
+        "file_offset": 1410746,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg$AnswerResult;",
+        "type": "Ljava/lang/String;",
+        "name": "answerDesc",
+        "pc": 27,
+        "file_offset": 1410754,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/AnswerResult;",
+        "name": "getRight",
+        "proto_index": 7357,
+        "pc": 29,
+        "file_offset": 1410758,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg$AnswerResult;",
+        "type": "Z",
+        "name": "right",
+        "pc": 33,
+        "file_offset": 1410766,
+        "opcode": "0x5c"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/AnswerResult;",
+        "name": "getTs",
+        "proto_index": 231,
+        "pc": 35,
+        "file_offset": 1410770,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg$AnswerResult;",
+        "type": "J",
+        "name": "ts",
+        "pc": 39,
+        "file_offset": 1410778,
+        "opcode": "0x5a"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/AnswerResult;",
+        "name": "getExtMapMap",
+        "proto_index": 3800,
+        "pc": 41,
+        "file_offset": 1410782,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg$AnswerResult;",
+        "type": "Ljava/util/Map;",
+        "name": "extMap",
+        "pc": 45,
+        "file_offset": 1410790,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes2.dex",
+    "owner": "Le7/a;",
+    "method": "a",
+    "method_index": 17666,
+    "code_offset": 2016272,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lz6/e;",
+        "pc": 303,
+        "file_offset": 2016894,
+        "opcode": "0x22"
+      },
+      {
+        "kind": "method",
+        "class": "Lz6/e;",
+        "name": "<init>",
+        "proto_index": 6831,
+        "pc": 321,
+        "file_offset": 2016930,
+        "opcode": "0x70"
+      }
+    ]
+  },
+  {
+    "dex": "classes2.dex",
+    "owner": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+    "method": "convert",
+    "method_index": 6040,
+    "code_offset": 1410892,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "pc": 8,
+        "file_offset": 1410924,
+        "opcode": "0x22"
+      },
+      {
+        "kind": "method",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "name": "<init>",
+        "proto_index": 4752,
+        "pc": 10,
+        "file_offset": 1410928,
+        "opcode": "0x70"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "type": "Ljava/lang/String;",
+        "name": "id",
+        "pc": 17,
+        "file_offset": 1410942,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage;",
+        "name": "getGameId",
+        "proto_index": 3444,
+        "pc": 19,
+        "file_offset": 1410946,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "type": "Ljava/lang/String;",
+        "name": "gameId",
+        "pc": 23,
+        "file_offset": 1410954,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage;",
+        "name": "getPhaseValue",
+        "proto_index": 39,
+        "pc": 25,
+        "file_offset": 1410958,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "type": "I",
+        "name": "phase",
+        "pc": 36,
+        "file_offset": 1410980,
+        "opcode": "0x59"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage;",
+        "name": "getTypeValue",
+        "proto_index": 39,
+        "pc": 38,
+        "file_offset": 1410984,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage;",
+        "name": "getGameoverGameMessage",
+        "proto_index": 2619,
+        "pc": 45,
+        "file_offset": 1410998,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "type",
+        "value": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg;",
+        "pc": 49,
+        "file_offset": 1411006,
+        "opcode": "0x22"
+      },
+      {
+        "kind": "method",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg;",
+        "name": "<init>",
+        "proto_index": 4752,
+        "pc": 51,
+        "file_offset": 1411010,
+        "opcode": "0x70"
+      },
+      {
+        "kind": "type",
+        "value": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg;",
+        "pc": 54,
+        "file_offset": 1411016,
+        "opcode": "0x22"
+      },
+      {
+        "kind": "method",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg;",
+        "name": "<init>",
+        "proto_index": 4752,
+        "pc": 56,
+        "file_offset": 1411020,
+        "opcode": "0x70"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameoverGameMessage;",
+        "name": "getDrawSomethingGameoverGameMessage",
+        "proto_index": 2611,
+        "pc": 64,
+        "file_offset": 1411036,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/DrawSomethingGameoverGameMessage;",
+        "name": "getAnswerResults",
+        "proto_index": 2610,
+        "pc": 68,
+        "file_offset": 1411044,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/AnswerResults;",
+        "name": "getAnswerResultsList",
+        "proto_index": 3737,
+        "pc": 72,
+        "file_offset": 1411052,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/game/protos/AnswerResult;",
+        "pc": 90,
+        "file_offset": 1411088,
+        "opcode": "0x1f"
+      },
+      {
+        "kind": "method",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg$AnswerResult;",
+        "name": "convert",
+        "proto_index": 811,
+        "pc": 92,
+        "file_offset": 1411092,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg;",
+        "type": "Ljava/util/List;",
+        "name": "answerResults",
+        "pc": 100,
+        "file_offset": 1411108,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg;",
+        "type": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg;",
+        "name": "drawSomethingGameoverGameMsg",
+        "pc": 102,
+        "file_offset": 1411112,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "type": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg;",
+        "name": "gameoverGameMsg",
+        "pc": 104,
+        "file_offset": 1411116,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "type": "I",
+        "name": "phase",
+        "pc": 107,
+        "file_offset": 1411122,
+        "opcode": "0x59"
+      },
+      {
+        "kind": "type",
+        "value": "Lcn/soulapp/imlib/msg/chat/GameMsg$InviteGameMsg;",
+        "pc": 109,
+        "file_offset": 1411126,
+        "opcode": "0x22"
+      },
+      {
+        "kind": "method",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$InviteGameMsg;",
+        "name": "<init>",
+        "proto_index": 4752,
+        "pc": 111,
+        "file_offset": 1411130,
+        "opcode": "0x70"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage;",
+        "name": "getInviteGameMessage",
+        "proto_index": 2623,
+        "pc": 114,
+        "file_offset": 1411136,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/InviteGameMessage;",
+        "name": "getInvitee",
+        "proto_index": 3444,
+        "pc": 118,
+        "file_offset": 1411144,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$InviteGameMsg;",
+        "type": "Ljava/lang/String;",
+        "name": "invitee",
+        "pc": 122,
+        "file_offset": 1411152,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/InviteGameMessage;",
+        "name": "getInviter",
+        "proto_index": 3444,
+        "pc": 124,
+        "file_offset": 1411156,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$InviteGameMsg;",
+        "type": "Ljava/lang/String;",
+        "name": "inviter",
+        "pc": 128,
+        "file_offset": 1411164,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/InviteGameMessage;",
+        "name": "getExtMapMap",
+        "proto_index": 3800,
+        "pc": 130,
+        "file_offset": 1411168,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$InviteGameMsg;",
+        "type": "Ljava/util/Map;",
+        "name": "extMap",
+        "pc": 134,
+        "file_offset": 1411176,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "type": "Lcn/soulapp/imlib/msg/chat/GameMsg$InviteGameMsg;",
+        "name": "inviteGameMsg",
+        "pc": 136,
+        "file_offset": 1411180,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage;",
+        "name": "getExtMapMap",
+        "proto_index": 3800,
+        "pc": 138,
+        "file_offset": 1411184,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "type": "Ljava/util/Map;",
+        "name": "extMap",
+        "pc": 142,
+        "file_offset": 1411192,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage;",
+        "name": "getTypeValue",
+        "proto_index": 39,
+        "pc": 144,
+        "file_offset": 1411196,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "type": "I",
+        "name": "type",
+        "pc": 151,
+        "file_offset": 1411210,
+        "opcode": "0x59"
+      }
+    ]
+  },
+  {
+    "dex": "classes2.dex",
+    "owner": "Lcn/soulapp/imlib/handler/i;",
+    "method": "handleMessages",
+    "method_index": 5840,
+    "code_offset": 1395456,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getTitle",
+        "proto_index": 3444,
+        "pc": 27,
+        "file_offset": 1395526,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getText",
+        "proto_index": 3444,
+        "pc": 31,
+        "file_offset": 1395534,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getExtMapMap",
+        "proto_index": 3800,
+        "pc": 35,
+        "file_offset": 1395542,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes2.dex",
+    "owner": "Lz6/e;",
+    "method": "<init>",
+    "method_index": 23876,
+    "code_offset": 2296272,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage;",
+        "name": "newBuilder",
+        "proto_index": 2612,
+        "pc": 11,
+        "file_offset": 2296310,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage$c;",
+        "name": "N0",
+        "proto_index": 2616,
+        "pc": 20,
+        "file_offset": 2296328,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "type",
+        "value": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "pc": 27,
+        "file_offset": 2296342,
+        "opcode": "0x1f"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "type": "Ljava/lang/String;",
+        "name": "gameId",
+        "pc": 31,
+        "file_offset": 2296350,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage$c;",
+        "name": "J0",
+        "proto_index": 2616,
+        "pc": 36,
+        "file_offset": 2296360,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "type": "I",
+        "name": "type",
+        "pc": 39,
+        "file_offset": 2296366,
+        "opcode": "0x52"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/game/protos/GameMessage$Type;",
+        "type": "Lcom/soul/game/protos/GameMessage$Type;",
+        "name": "DRAW_SOMETHING",
+        "pc": 45,
+        "file_offset": 2296378,
+        "opcode": "0x62"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage$c;",
+        "name": "a1",
+        "proto_index": 2614,
+        "pc": 47,
+        "file_offset": 2296382,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "type": "I",
+        "name": "phase",
+        "pc": 50,
+        "file_offset": 2296388,
+        "opcode": "0x52"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/game/protos/GameMessage$Phase;",
+        "type": "Lcom/soul/game/protos/GameMessage$Phase;",
+        "name": "GAMEOVER",
+        "pc": 58,
+        "file_offset": 2296404,
+        "opcode": "0x62"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage$c;",
+        "name": "R0",
+        "proto_index": 2613,
+        "pc": 60,
+        "file_offset": 2296408,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/game/protos/GameMessage$Phase;",
+        "type": "Lcom/soul/game/protos/GameMessage$Phase;",
+        "name": "INVITE",
+        "pc": 64,
+        "file_offset": 2296416,
+        "opcode": "0x62"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage$c;",
+        "name": "R0",
+        "proto_index": 2613,
+        "pc": 66,
+        "file_offset": 2296420,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "type": "Lcn/soulapp/imlib/msg/chat/GameMsg$InviteGameMsg;",
+        "name": "inviteGameMsg",
+        "pc": 69,
+        "file_offset": 2296426,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/InviteGameMessage;",
+        "name": "newBuilder",
+        "proto_index": 2620,
+        "pc": 73,
+        "file_offset": 2296434,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "type": "Lcn/soulapp/imlib/msg/chat/GameMsg$InviteGameMsg;",
+        "name": "inviteGameMsg",
+        "pc": 77,
+        "file_offset": 2296442,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$InviteGameMsg;",
+        "type": "Ljava/lang/String;",
+        "name": "invitee",
+        "pc": 79,
+        "file_offset": 2296446,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/InviteGameMessage$b;",
+        "name": "m0",
+        "proto_index": 2621,
+        "pc": 84,
+        "file_offset": 2296456,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "type": "Lcn/soulapp/imlib/msg/chat/GameMsg$InviteGameMsg;",
+        "name": "inviteGameMsg",
+        "pc": 88,
+        "file_offset": 2296464,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$InviteGameMsg;",
+        "type": "Ljava/lang/String;",
+        "name": "inviter",
+        "pc": 90,
+        "file_offset": 2296468,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/InviteGameMessage$b;",
+        "name": "o0",
+        "proto_index": 2621,
+        "pc": 96,
+        "file_offset": 2296480,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "type": "Ljava/util/Map;",
+        "name": "extMap",
+        "pc": 100,
+        "file_offset": 2296488,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "type": "Ljava/util/Map;",
+        "name": "extMap",
+        "pc": 110,
+        "file_offset": 2296508,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/InviteGameMessage$b;",
+        "name": "i0",
+        "proto_index": 2622,
+        "pc": 112,
+        "file_offset": 2296512,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/InviteGameMessage$b;",
+        "name": "P",
+        "proto_index": 2623,
+        "pc": 115,
+        "file_offset": 2296518,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage$c;",
+        "name": "Q0",
+        "proto_index": 2615,
+        "pc": 119,
+        "file_offset": 2296526,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "type": "Ljava/util/Map;",
+        "name": "extMap",
+        "pc": 122,
+        "file_offset": 2296532,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "field",
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "type": "Ljava/util/Map;",
+        "name": "extMap",
+        "pc": 132,
+        "file_offset": 2296552,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage$c;",
+        "name": "F0",
+        "proto_index": 2617,
+        "pc": 138,
+        "file_offset": 2296564,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage$c;",
+        "name": "P",
+        "proto_index": 2618,
+        "pc": 143,
+        "file_offset": 2296574,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$c;",
+    "method": "<clinit>",
+    "method_index": 19218,
+    "code_offset": 2237360,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$c;",
+        "type": "Lcom/google/protobuf/n0;",
+        "name": "a",
+        "pc": 10,
+        "file_offset": 2237396,
+        "opcode": "0x69"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lep/a;",
+    "method": "<clinit>",
+    "method_index": 32448,
+    "code_offset": 2967916,
+    "complete": true,
+    "references": [
+      {
+        "kind": "string",
+        "value": "\n\u0014draw-something.proto\"§\u0004\n\u000bGameMessage\u0012\n\n\u0002id\u0018\u0001 \u0001(\t\u0012\u000e\n\u0006gameId\u0018\u0002 \u0001(\t\u0012\u001f\n\u0004type\u0018\u0003 \u0001(\u000e2\u0011.GameMessage.Type\u0012!\n\u0005phase\u0018\u0004 \u0001(\u000e2\u0012.GameMessage.Phase\u0012+\n\u000fpingGameMessage\u0018\u0005 \u0001(\u000b2\u0010.PingGameMessageH��\u0012/\n\u0011inviteGameMessage\u0018\u0006 \u0001(\u000b2\u0012.InviteGameMessageH��\u0012-\n\u0010readyGameMessage\u0018\u0007 \u0001(\u000b2\u0011.ReadyGameMessageH��\u0012+\n\u000fplayGameMessage\u0018\b \u0001(\u000b2\u0010.PlayGameMessageH��\u00123\n\u0013gameoverGameMessage\u0018\t \u0001(\u000b2\u0014.GameoverGameMessageH��\u0012(\n\u0006extMap\u0018\n \u0003(\u000b2\u0018.GameMessage.ExtMapEntry\u001a-\n\u000bExtMapEntry\u0012\u000b\n\u0003key\u0018\u0001 \u0001(\t\u0012\r\n\u0005value\u0018\u0002 \u0001(\t:\u00028\u0001\"'\n\u0004Type\u0012\u000b\n\u0007GENERAL\u0010��\u0012\u0012\n\u000eDRAW_SOMETHING\u0010\u0001\"@\n\u0005Phase\u0012\b\n\u0004PING\u0010��\u0012\n\n\u0006INVITE\u0010\u0001\u0012\t\n\u0005READY\u0010\u0002\u0012\b\n\u0004PLAY\u0010\u0003\u0012\f\n\bGAMEOVER\u0010\u0004B\u0005\n\u0003cmd\"z\n\u000fPingGameMessage\u0012\n\n\u0002ts\u0018\u0004 \u0001(\u0003\u0012,\n\u0006extMap\u0018\u0006 \u0003(\u000b2\u001c.PingGameMessage.ExtMapEntry\u001a-\n\u000bExtMapEntry\u0012\u000b\n\u0003key\u0018\u0001 \u0001(\t\u0012\r\n\u0005value\u0018\u0002 \u0001(\t:\u00028\u0001\"\u0001\n\u0011InviteGameMessage\u0012\u000f\n\u0007inviter\u0018\u0004 \u0001(\t\u0012\u000f\n\u0007invitee\u0018\u0005 \u0001(\t\u0012.\n\u0006extMap\u0018\u0006 \u0003(\u000b2\u001e.InviteGameMessage.ExtMapEntry\u001a-\n\u000bExtMapEntry\u0012\u000b\n\u0003key\u0018\u0001 \u0001(\t\u0012\r\n\u0005value\u0018\u0002 \u0001(\t:\u00028\u0001\"¸\u0001\n\u0010ReadyGameMessage\u0012$\n\u0004type\u0018\u0004 \u0001(\u000e2\u0016.ReadyGameMessage.Type\u0012-\n\u0006extMap\u0018\u0006 \u0003(\u000b2\u001d.ReadyGameMessage.ExtMapEntry\u001a-\n\u000bExtMapEntry\u0012\u000b\n\u0003key\u0018\u0001 \u0001(\t\u0012\r\n\u0005value\u0018\u0002 \u0001(\t:\u00028\u0001\" \n\u0004Type\u0012\t\n\u0005READY\u0010��\u0012\r\n\tNOT_READY\u0010\u0001\"_\n\u000fPlayGameMessage\u0012E\n\u001cdrawSomethingPlayGameMessage\u0018\u0005 \u0001(\u000b2\u001d.DrawSomethingPlayGameMessageH��B\u0005\n\u0003cmd\"k\n\u0013GameoverGameMessage\u0012M\n drawSomethingGameoverGameMessage\u0018\u0005 \u0001(\u000b2!.DrawSomethingGameoverGameMessageH��B\u0005\n\u0003cmd\"I\n DrawSomethingGameoverGameMessage\u0012%\n\ranswerResults\u0018\u0001 \u0001(\u000b2\u000e.AnswerResults\"ñ\u0002\n\u001cDrawSomethingPlayGameMessage\u0012\r\n\u0005round\u0018\u0003 \u0001(\u0005\u0012\u0010\n\bmaxRound\u0018\u0004 \u0001(\u0005\u00120\n\u0004type\u0018\u0005 \u0001(\u000e2\".DrawSomethingPlayGameMessage.Type\u0012\u0010\n\bquestion\u0018\u0006 \u0001(\t\u0012\u0014\n\fquestionDesc\u0018\u0007 \u0001(\t\u0012\u000e\n\u0006answer\u0018\b \u0001(\t\u0012\u0012\n\nanswerDesc\u0018\t \u0001(\t\u00129\n\u0006extMap\u0018\n \u0003(\u000b2).DrawSomethingPlayGameMessage.ExtMapEntry\u001a-\n\u000bExtMapEntry\u0012\u000b\n\u0003key\u0018\u0001 \u0001(\t\u0012\r\n\u0005value\u0018\u0002 \u0001(\t:\u00028\u0001\"H\n\u0004Type\u0012\u0010\n\fQUESTION_SET\u0010��\u0012\u000e\n\nANSWER_SET\u0010\u0001\u0012\b\n\u0004DRAW\u0010\u0002\u0012\t\n\u0005GUESS\u0010\u0003\u0012\t\n\u0005TIMER\u0010\u0004\"Õ\u0001\n\u0007GamePsh\u0012\u001b\n\u0004type\u0018\u0003 \u0001(\u000e2\r.GamePsh.Type\u00125\n\u0014drawSomethingGamePsh\u0018\u0005 \u0001(\u000b2\u0015.DrawSomethingGamePshH��\u0012$\n\u0006extMap\u0018\b \u0003(\u000b2\u0014.GamePsh.ExtMapEntry\u001a-\n\u000bExtMapEntry\u0012\u000b\n\u0003key\u0018\u0001 \u0001(\t\u0012\r\n\u0005value\u0018\u0002 \u0001(\t:\u00028\u0001\"\u001a\n\u0004Type\u0012\u0012\n\u000eDRAW_SOMETHING\u0010��B\u0005\n\u0003cmd\"\u0005\n\u0014DrawSomethingGamePsh\u0012(\n\u0004type\u0018\u0003 \u0001(\u000e2\u001a.DrawSomethingGamePsh.Type\u0012'\n\rinviteDonePsh\u0018\u0004 \u0001(\u000b2\u000e.InviteDonePshH��\u0012%\n\freadyDonePsh\u0018\u0005 \u0001(\u000b2\r.ReadyDonePshH��\u00121\n\u0012questionSetDonePsh\u0018\u0006 \u0001(\u000b2\u0013.QuestionSetDonePshH��\u0012-\n\u0010answerSetDonePsh\u0018\u0007 \u0001(\u000b2\u0011.AnswerSetDonePshH��\u0012'\n\rroundStartPsh\u0018\b \u0001(\u000b2\u000e.RoundStartPshH��\u0012%\n\froundDonePsh\u0018\t \u0001(\u000b2\r.RoundDonePshH��\u0012#\n\u000bgameoverPsh\u0018\n \u0001(\u000b2\f.GameoverPshH��\u0012%\n\fanswerResult\u0018\u000b \u0001(\u000b2\r.AnswerResultH��\u00121\n\u0006extMap\u0018\f \u0003(\u000b2!.DrawSomethingGamePsh.ExtMapEntry\u001a-\n\u000bExtMapEntry\u0012\u000b\n\u0003key\u0018\u0001 \u0001(\t\u0012\r\n\u0005value\u0018\u0002 \u0001(\t:\u00028\u0001\"\u0001\n\u0004Type\u0012\u000f\n\u000bINVITE_DONE\u0010��\u0012\u000e\n\nREADY_DONE\u0010\u0001\u0012\u0015\n\u0011QUESTION_SET_DONE\u0010\u0002\u0012\u0013\n\u000fANSWER_SET_DONE\u0010\u0003\u0012\u000f\n\u000bROUND_START\u0010\u0004\u0012\u000e\n\nROUND_DONE\u0010\u0005\u0012\f\n\bGAMEOVER\u0010\u0006\u0012\u0011\n\rANSWER_RESULT\u0010\u0007B\u0005\n\u0003cmd\"v\n\rInviteDonePsh\u0012\n\n\u0002ts\u0018\u0004 \u0001(\u0003\u0012*\n\u0006extMap\u0018\b \u0003(\u000b2\u001a.InviteDonePsh.ExtMapEntry\u001a-\n\u000bExtMapEntry\u0012\u000b\n\u0003key\u0018\u0001 \u0001(\t\u0012\r\n\u0005value\u0018\u0002 \u0001(\t:\u00028\u0001\"\u0001\n\fReadyDonePsh\u0012\u0011\n\tnextRound\u0018\u0003 \u0001(\u0005\u0012\n\n\u0002ts\u0018\u0004 \u0001(\u0003\u0012)\n\u0006extMap\u0018\b \u0003(\u000b2\u0019.ReadyDonePsh.ExtMapEntry\u001a-\n\u000bExtMapEntry\u0012\u000b\n\u0003key\u0018\u0001 \u0001(\t\u0012\r\n\u0005value\u0018\u0002 \u0001(\t:\u00028\u0001\"\u0001\n\u0012QuestionSetDonePsh\u0012\u0011\n\tnextRound\u0018\u0003 \u0001(\u0005\u0012\n\n\u0002ts\u0018\u0004 \u0001(\u0003\u0012/\n\u0006extMap\u0018\b \u0003(\u000b2\u001f.QuestionSetDonePsh.ExtMapEntry\u001a-\n\u000bExtMapEntry\u0012\u000b\n\u0003key\u0018\u0001 \u0001(\t\u0012\r\n\u0005value\u0018\u0002 \u0001(\t:\u00028\u0001\"\u0001\n\u0010AnswerSetDonePsh\u0012\u0011\n\tnextRound\u0018\u0003 \u0001(\u0005\u0012\n\n\u0002ts\u0018\u0004 \u0001(\u0003\u0012-\n\u0006extMap\u0018\b \u0003(\u000b2\u001d.AnswerSetDonePsh.ExtMapEntry\u001a-\n\u000bExtMapEntry\u0012\u000b\n\u0003key\u0018\u0001 \u0001(\t\u0012\r\n\u0005value\u0018\u0002 \u0001(\t:\u00028\u0001\"\u0001\n\fRoundDonePsh\u0012\u0011\n\tnextRound\u0018\u0003 \u0001(\u0005\u0012\n\n\u0002ts\u0018\u0004 \u0001(\u0003\u0012)\n\u0006extMap\u0018\b \u0003(\u000b2\u0019.RoundDonePsh.ExtMapEntry\u001a-\n\u000bExtMapEntry\u0012\u000b\n\u0003key\u0018\u0001 \u0001(\t\u0012\r\n\u0005value\u0018\u0002 \u0001(\t:\u00028\u0001\"\u0001\n\rRoundStartPsh\u0012\r\n\u0005round\u0018\u0003 \u0001(\u0005\u0012\n\n\u0002ts\u0018\u0004 \u0001(\u0003\u0012*\n\u0006extMap\u0018\b \u0003(\u000b2\u001a.RoundStartPsh.ExtMapEntry\u001a-\n\u000bExtMapEntry\u0012\u000b\n\u0003key\u0018\u0001 \u0001(\t\u0012\r\n\u0005value\u0018\u0002 \u0001(\t:\u00028\u0001\"r\n\u000bGameoverPsh\u0012\n\n\u0002ts\u0018\u0004 \u0001(\u0003\u0012(\n\u0006extMap\u0018\b \u0003(\u000b2\u0018.GameoverPsh.ExtMapEntry\u001a-\n\u000bExtMapEntry\u0012\u000b\n\u0003key\u0018\u0001 \u0001(\t\u0012\r\n\u0005value\u0018\u0002 \u0001(\t:\u00028\u0001\"Ï\u0001\n\fAnswerResult\u0012\u0010\n\bquestion\u0018\u0003 \u0001(\t\u0012\u0014\n\fquestionDesc\u0018\u0004 \u0001(\t\u0012\u000e\n\u0006answer\u0018\u0005 \u0001(\t\u0012\u0012\n\nanswerDesc\u0018\u0006 \u0001(\t\u0012\r\n\u0005right\u0018\u0007 \u0001(\b\u0012\n\n\u0002ts\u0018\b \u0001(\u0003\u0012)\n\u0006extMap\u0018\t \u0003(\u000b2\u0019.AnswerResult.ExtMapEntry\u001a-\n\u000bExtMapEntry\u0012\u000b\n\u0003key\u0018\u0001 \u0001(\t\u0012\r\n\u0005value\u0018\u0002 \u0001(\t:\u00028\u0001\"5\n\rAnswerResults\u0012$\n\ranswerResults\u0018\u0001 \u0003(\u000b2\r.AnswerResult*ª\u0001\n\tErrorCode\u0012\u0006\n\u0002OK\u0010��\u0012\n\n\u0006UNKOWN\u0010\u0001\u0012\u0017\n\u0013LOGIN_ACCOUNT_ERROR\u0010\u000b\u0012\u0015\n\u0011LOGIN_TOKEN_ERROR\u0010\f\u0012\u0017\n\u0013LOGIN_VERSION_ERROR\u0010\u000e\u0012\u0017\n\u0013GAME_QUESTION_ERROR\u0010e\u0012\u0015\n\u0011GAME_ANSWER_ERROR\u0010f\u0012\u0010\n\fGAME_HAS_END\u0010gB&\n\u0014com.soul.game.protosP\u0001Z\u0006protos¢\u0002\u0003IMPb\u0006proto3",
+        "pc": 0,
+        "file_offset": 2967932,
+        "opcode": "0x1a"
+      },
+      {
+        "kind": "string",
+        "value": "DrawSomethingPlayGameMessage",
+        "pc": 275,
+        "file_offset": 2968482,
+        "opcode": "0x1a"
+      },
+      {
+        "kind": "string",
+        "value": "DrawSomethingGameoverGameMessage",
+        "pc": 307,
+        "file_offset": 2968546,
+        "opcode": "0x1a"
+      },
+      {
+        "kind": "string",
+        "value": "DrawSomethingGamePsh",
+        "pc": 435,
+        "file_offset": 2968802,
+        "opcode": "0x1a"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lfp/a;",
+    "method": "<clinit>",
+    "method_index": 32630,
+    "code_offset": 2979360,
+    "complete": true,
+    "references": [
+      {
+        "kind": "string",
+        "value": "\n\bim.proto\u001a\u0014draw-something.proto\"\u0002\n\fSauthMessage\u0012\u000e\n\u0006soulId\u0018\u0001 \u0001(\t\u0012\u000b\n\u0003uid\u0018\u0002 \u0001(\t\u0012\u000b\n\u0003sid\u0018\u0003 \u0001(\t\u0012\u001f\n\nclientType\u0018\u0004 \u0001(\u000e2\u000b.ClientType\u0012\u0015\n\rclientVersion\u0018\u0005 \u0001(\t\u0012\u0010\n\bdeviceId\u0018\u0006 \u0001(\t\u0012\u0014\n\fdeviceVendor\u0018\u0007 \u0001(\t\u0012\u0013\n\u000bdeviceModel\u0018\b \u0001(\t\u0012\u0014\n\fdeviceOsName\u0018\t \u0001(\t\u0012\u0017\n\u000fdeviceOsVersion\u0018\n \u0001(\t\u0012\u0012\n\nisRetrying\u0018\u000b \u0001(\b\u0012\u0015\n\u0005label\u0018\f \u0001(\u000b2\u0006.Label\"×\u0001\n\u0005Label\u0012!\n\bbusiness\u0018\u0001 \u0001(\u000e2\u000f.Label.Business\u0012'\n\u000bchannelType\u0018\u0002 \u0001(\u000e2\u0012.Label.ChannelType\"2\n\bBusiness\u0012\u0014\n\u0010DEFAULT_BUSINESS\u0010��\u0012\u0006\n\u0002IM\u0010\u0001\u0012\b\n\u0004GAME\u0010\u0002\"N\n\u000bChannelType\u0012\u0018\n\u0014DEFAULT_CHANNEL_TYPE\u0010��\u0012\u000b\n\u0007SOULAPP\u0010\u0001\u0012\n\n\u0006WECHAT\u0010\u0002\u0012\f\n\bFACEBOOK\u0010\u0003\"\b\n\u000eCommandMessage\u0012\u000e\n\u0006soulId\u0018\u0001 \u0001(\t\u0012\u000e\n\u0006cmd_id\u0018\u0002 \u0001(\t\u0012\"\n\u0004type\u0018\u0003 \u0001(\u000e2\u0014.CommandMessage.Type\u0012\u0015\n\racceptedMsgId\u0018\u0004 \u0001(\t\u0012!\n\nmsgCommand\u0018\u0005 \u0001(\u000b2\u000b.MsgCommandH��\u0012#\n\u000brespCommand\u0018\u0006 \u0001(\u000b2\f.RespCommandH��\u0012!\n\npshCommand\u0018\u0007 \u0001(\u000b2\u000b.PshCommandH��\u0012!\n\nackCommand\u0018\b \u0001(\u000b2\u000b.AckCommandH��\u0012#\n\u000bsyncCommand\u0018\t \u0001(\u000b2\f.SyncCommandH��\u0012!\n\nfinCommand\u0018\n \u0001(\u000b2\u000b.FinCommandH��\u0012'\n\rnotifyCommand\u0018\u000b \u0001(\u000b2\u000e.NotifyCommandH��\u0012#\n\u000bpushMessage\u0018\f \u0001(\u000b2\f.PushMessageH��\u0012\u001b\n\u0007syncFin\u0018\r \u0001(\u000b2\b.SyncFinH��\u0012\u0019\n\u0006msgFin\u0018\u000e \u0001(\u000b2\u0007.MsgFinH��\u0012%\n\ftransCommand\u0018\u000f \u0001(\u000b2\r.TransCommandH��\u0012'\n\rreportCommand\u0018\u0010 \u0001(\u000b2\u000e.ReportCommandH��\u0012%\n\forderCommand\u0018\u0011 \u0001(\u000b2\r.OrderCommandH��\u0012+\n\u000fchatRoomCommand\u0018\u0015 \u0001(\u000b2\u0010.ChatRoomCommandH��\u0012!\n\nmapCommand\u0018\u0017 \u0001(\u000b2\u000b.MapCommandH��\u0012#\n\u000broamCommand\u0018\u0018 \u0001(\u000b2\f.RoamCommandH��\u0012%\n\fgroupCommand\u0018\u001a \u0001(\u000b2\r.GroupCommandH��\u0012\u001f\n\nclientType\u0018\u0012 \u0001(\u000e2\u000b.ClientType\u0012\u000b\n\u0003crc\u0018\u0013 \u0001(\t\u0012\u0017\n\u000fencryptedUserId\u0018\u0014 \u0001(\t\u0012\u0011\n\ttimestamp\u0018\u0019 \u0001(\u0003\"Ò\u0001\n\u0004Type\u0012\u0007\n\u0003MSG\u0010��\u0012\b\n\u0004SYNC\u0010\u0001\u0012\u0007\n\u0003PSH\u0010\u0002\u0012\u0007\n\u0003ACK\u0010\u0003\u0012\u0007\n\u0003FIN\u0010\u0004\u0012\b\n\u0004RESP\u0010\u0005\u0012\n\n\u0006NOTIFY\u0010\u0006\u0012\b\n\u0004PUSH\u0010\u0007\u0012\f\n\bSYNC_FIN\u0010\b\u0012\u000b\n\u0007MSG_FIN\u0010\t\u0012\u000e\n\nFIRST_SYNC\u0010\n\u0012\r\n\tTRANS_CMD\u0010\u000b\u0012\n\n\u0006REPORT\u0010\f\u0012\t\n\u0005ORDER\u0010\r\u0012\r\n\tCHAT_ROOM\u0010\u000e\u0012\u0007\n\u0003MAP\u0010\u000f\u0012\b\n\u0004ROAM\u0010\u0010\u0012\t\n\u0005GROUP\u0010\u0011B\u0005\n\u0003cmd\"1\n\fCommandGroup\u0012!\n\bcommands\u0018\u0001 \u0003(\u000b2\u000f.CommandMessage\"Â\u0001\n\fOrderCommand\u0012 \n\u0004type\u0018\u0001 \u0001(\u000e2\u0012.OrderCommand.Type\u00123\n\u0013kickoutOrderCommand\u0018\u0002 \u0001(\u000b2\u0014.KickoutOrderCommandH��\u00121\n\u0012DeleteOrderCommand\u0018\u0003 \u0001(\u000b2\u0013.DeleteOrderCommandH��\"\u001f\n\u0004Type\u0012\u000b\n\u0007KICKOUT\u0010��\u0012\n\n\u0006DELETE\u0010\u0001B\u0007\n\u0005order\"q\n\u0013KickoutOrderCommand\u0012\u000e\n\u0006userId\u0018\u0001 \u0001(\t\u0012\u001b\n\u0006kicker\u0018\u0002 \u0001(\u000e2\u000b.ClientType\u0012\u001a\n\u0005asser\u0018\u0003 \u0001(\u000e2\u000b.ClientType\u0012\u0011\n\ttimestamp\u0018\u0004 \u0001(\t\"Q\n\u0012DeleteOrderCommand\u0012\u000e\n\u0006userId\u0018\u0001 \u0001(\t\u0012+\n\ndeleteItem\u0018\u0002 \u0003(\u000b2\u0017.DeleteItemOrderCommand\"J\n\u0016DeleteItemOrderCommand\u0012\u0010\n\bmsg_from\u0018\u0001 \u0001(\t\u0012\u000e\n\u0006msg_to\u0018\u0002 \u0001(\t\u0012\u000e\n\u0006cmd_id\u0018\u0003 \u0001(\t\"×\u0001\n\rReportCommand\u0012!\n\u0004type\u0018\u0001 \u0001(\u000e2\u0013.ReportCommand.Type\u00121\n\u0012loginReportCommand\u0018\u0002 \u0001(\u000b2\u0013.LoginReportCommandH��\u00127\n\u0015relationReportCommand\u0018\u0004 \u0001(\u000b2\u0016.RelationReportCommandH��\"-\n\u0004Type\u0012\u0010\n\fLOGIN_REPORT\u0010��\u0012\u0013\n\u000fRELATION_REPORT\u0010\u0003B\b\n\u0006report\"\u0002\n\u0012LoginReportCommand\u00120\n\tloginType\u0018\u0001 \u0001(\u000e2\u001d.LoginReportCommand.LoginType\u0012\u001f\n\nclientType\u0018\u0002 \u0001(\u000e2\u000b.ClientType\u0012\f\n\u0004from\u0018\u0003 \u0001(\t\u0012\n\n\u0002to\u0018\u0004 \u0001(\t\u0012\u0011\n\ttimestamp\u0018\u0005 \u0001(\t\u0012\u0010\n\bdeviceId\u0018\u0006 \u0001(\t\u0012\u000e\n\u0006viceId\u0018\u0007 \u0003(\t\"P\n\tLoginType\u0012\u000b\n\u0007CONNECT\u0010��\u0012\u000e\n\nDISCONNECT\u0010\u0001\u0012\t\n\u0005LOGIN\u0010\u0002\u0012\n\n\u0006LOGOUT\u0010\u0003\u0012\u000f\n\u000bVICE_LOGOUT\u0010\u0004\"g\n\u0015RelationReportCommand\u0012\u0010\n\bmasterId\u0018\u0001 \u0001(\t\u0012\u000e\n\u0006viceId\u0018\u0002 \u0003(\t\u0012\u0016\n\u000edeleteMasterId\u0018\u0003 \u0003(\t\u0012\u0014\n\fdeleteViceId\u0018\u0004 \u0003(\t\"Z\n\nPshCommand\u0012\u001e\n\u0004type\u0018\u0001 \u0001(\u000e2\u0010.PshCommand.Type\u0012\u0010\n\berrorMsg\u0018\u0002 \u0001(\t\"\u001a\n\u0004Type\u0012\b\n\u0004SYNC\u0010��\u0012\b\n\u0004KICK\u0010\u0001\"\u0001\n\nAckCommand\u0012\u000e\n\u0006remain\u0018\u0001 \u0001(\b\u0012\u0015\n\rreadLastMsgId\u0018\u0002 \u0001(\t\u0012\u0011\n\ttimestamp\u0018\u0003 \u0001(\t\u0012\u001e\n\u0004type\u0018\u0004 \u0001(\u000e2\u0010.AckCommand.Type\"\u0019\n\u0004Type\u0012\u0007\n\u0003MSG\u0010��\u0012\b\n\u0004SYNC\u0010\u0001\"£\u0002\n\u000bSyncCommand\u0012\u0012\n\nstartMsgId\u0018\u0001 \u0001(\t\u0012\u0010\n\bendMsgId\u0018\u0002 \u0001(\t\u0012\u0016\n\u000estartTimestamp\u0018\u0003 \u0001(\t\u0012\u0014\n\fendTimestamp\u0018\u0004 \u0001(\t\u0012\u0010\n\bwithFrom\u0018\u0005 \u0001(\b\u0012\u001f\n\u0004type\u0018\u0006 \u0001(\u000e2\u0011.SyncCommand.Type\u0012\u000e\n\u0006roomId\u0018\u0007 \u0001(\t\u0012\u0012\n\nroamUserId\u0018\b \u0001(\t\u0012\u0011\n\trequestId\u0018\t \u0001(\t\u0012\u000e\n\u0006viceId\u0018\n \u0003(\t\"F\n\u0004Type\u0012\u000e\n\nSINGLECHAT\u0010��\u0012\f\n\bROOMCHAT\u0010\u0001\u0012\u000f\n\u000bROAMINGCHAT\u0010\u0002\u0012\u000f\n\u000bVICE_UNREAD\u0010\u0003\"K\n\nFinCommand\u0012\u001b\n\u0007syncFin\u0018\u0001 \u0001(\u000b2\b.SyncFinH��\u0012\u0019\n\u0006msgFin\u0018\u0002 \u0001(\u000b2\u0007.MsgFinH��B\u0005\n\u0003cmd\"3\n\u0007SyncFin\u0012\u0015\n\rreadLastMsgId\u0018\u0001 \u0001(\t\u0012\u0011\n\ttimestamp\u0018\u0002 \u0001(\t\"{\n\u0006MsgFin\u0012\u0015\n\rreadLastMsgId\u0018\u0001 \u0001(\t\u0012\u0011\n\ttimestamp\u0018\u0002 \u0001(\t\u0012\u001e\n\u0006status\u0018\u0003 \u0001(\u000e2\u000e.MsgFin.Status\"'\n\u0006Status\u0012\b\n\u0004TODO\u0010��\u0012\t\n\u0005DOING\u0010\u0001\u0012\b\n\u0004DONE\u0010\u0002\"ï\r\n\nMsgCommand\u0012\u001e\n\u0004type\u0018\u0001 \u0001(\u000e2\u0010.MsgCommand.Type\u0012\f\n\u0004from\u0018\u0002 \u0001(\t\u0012\n\n\u0002to\u0018\u0003 \u0001(\t\u0012\u0011\n\ttimestamp\u0018\u0004 \u0001(\u0003\u0012\u001b\n\u0007textMsg\u0018\u0006 \u0001(\u000b2\b.TextMsgH��\u0012!\n\npicMessage\u0018\u0007 \u0001(\u000b2\u000b.PicMessageH��\u0012#\n\u000bPicMessages\u0018\b \u0001(\u000b2\f.PicMessagesH��\u0012%\n\fvideoMessage\u0018\t \u0001(\u000b2\r.VideoMessageH��\u0012%\n\fvoiceMessage\u0018\n \u0001(\u000b2\r.VoiceMessageH��\u0012%\n\frepostMessge\u0018\u000b \u0001(\u000b2\r.RepostMessgeH��\u0012/\n\u0011expressionMessage\u0018\f \u0001(\u000b2\u0012.ExpressionMessageH��\u00127\n\u0015userExpressionMessage\u0018\r \u0001(\u000b2\u0016.UserExpressionMessageH��\u0012+\n\u000fuserCardMessage\u0018\u000e \u0001(\u000b2\u0010.UserCardMessageH��\u00121\n\u0012fingerGuessMessage\u0018\u000f \u0001(\u000b2\u0013.FingerGuessMessageH��\u0012+\n\u000frollDiceMessage\u0018\u0010 \u0001(\u000b2\u0010.RollDiceMessageH��\u00123\n\u0013soulmateCardMessage\u0018\u0011 \u0001(\u000b2\u0014.SoulmateCardMessageH��\u00125\n\u0014sensitiveWordMessage\u0018\u0012 \u0001(\u000b2\u0015.SensitiveWordMessageH��\u0012+\n\u000fsnapChatMessage\u0018\u0014 \u0001(\u000b2\u0010.SnapChatMessageH��\u0012)\n\u000eextChatMessage\u0018\u0015 \u0001(\u000b2\u000f.ExtChatMessageH��\u0012-\n\u0010voiceChatMessage\u0018\u0016 \u0001(\u000b2\u0011.VoiceChatMessageH��\u0012+\n\u000fshareTagMessage\u0018\u0017 \u0001(\u000b2\u0010.ShareTagMessageH��\u0012+\n\u000fpositionMessage\u0018\u0019 \u0001(\u000b2\u0010.PositionMessageH��\u0012%\n\fmusicMessage\u0018\u001a \u0001(\u000b2\r.MusicMessageH��\u0012'\n\rcommonMessage\u0018\u001c \u0001(\u000b2\u000e.CommonMessageH��\u00121\n\u0012unReadCountMessage\u0018\u001d \u0001(\u000b2\u0013.UnReadCountMessageH��\u0012#\n\u000bgameMessage\u0018\u001f \u0001(\u000b2\f.GameMessageH��\u0012#\n\u000bCallMessage\u0018  \u0001(\u000b2\f.CallMessageH��\u0012#\n\u000bstatMessage\u0018! \u0001(\u000b2\f.StatMessageH��\u0012\u0010\n\bsnapChat\u0018\u0013 \u0001(\u0005\u0012\u000e\n\u0006notice\u0018\u0018 \u0001(\t\u0012'\n\u0006extMap\u0018\u001e \u0003(\u000b2\u0017.MsgCommand.ExtMapEntry\u001a-\n\u000bExtMapEntry\u0012\u000b\n\u0003key\u0018\u0001 \u0001(\t\u0012\r\n\u0005value\u0018\u0002 \u0001(\t:\u00028\u0001\"\u0004\n\u0004Type\u0012\b\n\u0004TEXT\u0010��\u0012\u0007\n\u0003PIC\u0010\u0001\u0012\r\n\tMULTI_PIC\u0010\u0002\u0012\t\n\u0005VIDEO\u0010\u0003\u0012\t\n\u0005VOICE\u0010\u0004\u0012\n\n\u0006REPOST\u0010\u0005\u0012\u000e\n\nEXPRESSION\u0010\u0006\u0012\u0013\n\u000fUSER_EXPRESSION\u0010\u0007\u0012\n\n\u0006RECALL\u0010\b\u0012\n\n\u0006PROMPT\u0010\t\u0012\r\n\tUSER_CARD\u0010\n\u0012\u0010\n\fFINGER_GUESS\u0010\u000b\u0012\r\n\tROLL_DICE\u0010\f\u0012\n\n\u0006CUSTOM\u0010\r\u0012\u0011\n\rSOULMATE_CARD\u0010\u000e\u0012\u0010\n\fFOLLOW_TOAST\u0010\u000f\u0012\u0016\n\u0012SHAREBG_INVITATION\u0010\u0010\u0012\u0012\n\u000eSENSITIVE_WORD\u0010\u0011\u0012\u000e\n\nINPUTSTART\u0010\u0012\u0012\f\n\bINPUTEND\u0010\u0013\u0012\u000b\n\u0007READALL\u0010\u0014\u0012\b\n\u0004READ\u0010\u0015\u0012\f\n\bSNAPCHAT\u0010\u0016\u0012\u000e\n\nMATCH_CARD\u0010\u0017\u0012\u000b\n\u0007EXT_CMD\u0010\u0018\u0012\u000e\n\nVOICE_CHAT\u0010\u0019\u0012\n\n\u0006REPORT\u0010\u001a\u0012\u0007\n\u0003TAG\u0010\u001b\u0012\b\n\u0004POST\u0010\u001c\u0012\f\n\bPOSITION\u0010\u001d\u0012\t\n\u0005MUSIC\u0010\u001e\u0012\n\n\u0006COMMON\u0010 \u0012\u000f\n\u000bUNREADCOUNT\u0010!\u0012\b\n\u0004GAME\u0010\"\u0012\r\n\tMEDIACALL\u0010#\u0012\u000e\n\nSTATISTICS\u0010$B\u0005\n\u0003msg\"¸\u0003\n\fGroupCommand\u0012\f\n\u0004type\u0018\u0001 \u0001(\u0005\u0012\u000e\n\u0006savedb\u0018\u0002 \u0001(\b\u0012\f\n\u0004text\u0018\u0003 \u0001(\t\u0012\u000e\n\u0006userId\u0018\u0004 \u0001(\t\u0012+\n\u0007dataMap\u0018\u0005 \u0003(\u000b2\u001a.GroupCommand.DataMapEntry\u00123\n\u000buserInfoMap\u0018\u0006 \u0003(\u000b2\u001e.GroupCommand.UserInfoMapEntry\u0012\u000f\n\u0007groupId\u0018\u0007 \u0001(\t\u0012\u0011\n\ttimestamp\u0018\b \u0001(\u0003\u0012\u000e\n\u0006toUids\u0018\t \u0003(\t\u0012.\n\u000bofflinePush\u0018\n \u0001(\u000e2\u0019.GroupCommand.OfflinePush\u001a.\n\fDataMapEntry\u0012\u000b\n\u0003key\u0018\u0001 \u0001(\t\u0012\r\n\u0005value\u0018\u0002 \u0001(\t:\u00028\u0001\u001a2\n\u0010UserInfoMapEntry\u0012\u000b\n\u0003key\u0018\u0001 \u0001(\t\u0012\r\n\u0005value\u0018\u0002 \u0001(\t:\u00028\u0001\"B\n\u000bOfflinePush\u0012\u000f\n\u000bPushAndMark\u0010��\u0012\u0010\n\fPushNoneMark\u0010\u0001\u0012\u0010\n\fNonePushMark\u0010\u0002\"½\u0003\n\u000fChatRoomCommand\u0012#\n\u0004type\u0018\u0001 \u0001(\u000e2\u0015.ChatRoomCommand.Type\u0012\u000e\n\u0006roomId\u0018\u0002 \u0001(\t\u0012\u000e\n\u0006userId\u0018\u0003 \u0001(\t\u0012\u0011\n\ttimestamp\u0018\u0004 \u0001(\u0003\u0012#\n\u000bchatRoomMsg\u0018\u0005 \u0001(\u000b2\f.ChatRoomMsgH��\u0012'\n\rchatRoomOrder\u0018\u0006 \u0001(\u000b2\u000e.ChatRoomOrderH��\u0012)\n\u000echatRoomNofity\u0018\u0007 \u0001(\u000b2\u000f.ChatRoomNofityH��\u0012\u000e\n\u0006avatar\u0018\b \u0001(\t\u0012\u000f\n\u0007bgColor\u0018\t \u0001(\t\u0012\u0010\n\bnickName\u0018\n \u0001(\t\u0012.\n\u0007roomMap\u0018\u000b \u0003(\u000b2\u001d.ChatRoomCommand.RoomMapEntry\u001a.\n\fRoomMapEntry\u0012\u000b\n\u0003key\u0018\u0001 \u0001(\t\u0012\r\n\u0005value\u0018\u0002 \u0001(\t:\u00028\u0001\">\n\u0004Type\u0012\u0007\n\u0003MSG\u0010��\u0012\t\n\u0005ORDER\u0010\u0001\u0012\n\n\u0006NOTIFY\u0010\u0002\u0012\b\n\u0004PING\u0010\u0003\u0012\f\n\bROOMINFO\u0010\u0004B\u0006\n\u0004room\"~\n\nMapCommand\u0012\f\n\u0004type\u0018\u0001 \u0001(\t\u0012/\n\ncontentMap\u0018\u0002 \u0003(\u000b2\u001b.MapCommand.ContentMapEntry\u001a1\n\u000fContentMapEntry\u0012\u000b\n\u0003key\u0018\u0001 \u0001(\t\u0012\r\n\u0005value\u0018\u0002 \u0001(\t:\u00028\u0001\"I\n\u000bRoamCommand\u0012\u0011\n\trequestId\u0018\u0001 \u0001(\t\u0012'\n\u000ecommandMessage\u0018\u0002 \u0003(\u000b2\u000f.CommandMessage\"Õ\u0001\n\u000bChatRoomMsg\u0012\u001b\n\u0007textMsg\u0018\u0001 \u0001(\u000b2\b.TextMsgH��\u0012!\n\npicMessage\u0018\u0002 \u0001(\u000b2\u000b.PicMessageH��\u0012'\n\rcommonMessage\u0018\u0003 \u0001(\u000b2\u000e.CommonMessageH��\u0012\u001f\n\u0004type\u0018\u0004 \u0001(\u000e2\u0011.ChatRoomMsg.Type\u0012\u000e\n\u0006notice\u0018\u0005 \u0001(\t\"%\n\u0004Type\u0012\b\n\u0004TEXT\u0010��\u0012\u0007\n\u0003PIC\u0010\u0001\u0012\n\n\u0006COMMON\u0010\u0002B\u0005\n\u0003msg\"\"\n\rChatRoomOrder\u0012\u0011\n\torderType\u0018\u0001 \u0001(\u0005\"\u0001\n\u000eChatRoomNofity\u0012\"\n\u0004type\u0018\u0001 \u0001(\u000e2\u0014.ChatRoomNofity.Type\u0012\u0012\n\nnofityType\u0018\u0002 \u0001(\u0005\u0012\n\n\u0002to\u0018\u0003 \u0001(\t\"9\n\u0004Type\u0012\u0007\n\u0003ALL\u0010��\u0012\n\n\u0006OTHERS\u0010\u0001\u0012\r\n\tROOMOWNER\u0010\u0002\u0012\r\n\tAPPOINTED\u0010\u0003\"7\n\u0012UnReadCountMessage\u0012\u0013\n\u000bunReadCount\u0018\u0001 \u0001(\u0005\u0012\f\n\u0004type\u0018\u0002 \u0001(\u0005\"5\n\rCommonMessage\u0012\u0013\n\u000bmessageType\u0018\u0001 \u0001(\t\u0012\u000f\n\u0007content\u0018\u0002 \u0001(\t\"a\n\fTransCommand\u0012\f\n\u0004from\u0018\u0001 \u0001(\t\u0012\n\n\u0002to\u0018\u0002 \u0001(\t\u0012\u0011\n\ttimestamp\u0018\u0003 \u0001(\u0003\u0012\u0013\n\u000bmessageType\u0018\u0004 \u0001(\t\u0012\u000f\n\u0007content\u0018\u0005 \u0001(\t\"K\n\u000fPositionMessage\u0012\r\n\u0005title\u0018\u0001 \u0001(\t\u0012\u000f\n\u0007address\u0018\u0002 \u0001(\t\u0012\u000b\n\u0003lng\u0018\u0003 \u0001(\u0001\u0012\u000b\n\u0003lat\u0018\u0004 \u0001(\u0001\"o\n\fMusicMessage\u0012\u0010\n\bcoverUrl\u0018\u0001 \u0001(\t\u0012\u000e\n\u0006author\u0018\u0002 \u0001(\t\u0012\f\n\u0004name\u0018\u0003 \u0001(\t\u0012\u000b\n\u0003url\u0018\u0004 \u0001(\t\u0012\u0010\n\bduration\u0018\u0005 \u0001(\t\u0012\u0010\n\bplatform\u0018\u0006 \u0001(\t\"\u0001\n\u0010VoiceChatMessage\u0012\u0011\n\tsignature\u0018\u0001 \u0001(\t\u0012\u0013\n\u000bavatarColor\u0018\u0002 \u0001(\t\u0012\u0012\n\navatarName\u0018\u0003 \u0001(\t\u0012\u0011\n\tchannelId\u0018\u0004 \u0001(\t\u0012\u000f\n\u0007content\u0018\u0005 \u0001(\t\u0012\f\n\u0004type\u0018\u0006 \u0001(\u0005\u0012\u001d\n\u0015firstRequestTimeStamp\u0018\u0007 \u0001(\u0003\"ã\u0002\n\u000bCallMessage\u0012\u001f\n\u0004type\u0018\u0001 \u0001(\u000e2\u0011.CallMessage.Type\u0012'\n\bcallType\u0018\u0002 \u0001(\u000e2\u0015.CallMessage.CallType\u0012+\n\u0010voiceChatMessage\u0018\u0004 \u0001(\u000b2\u0011.VoiceChatMessage\"\u0001\n\u0004Type\u0012\t\n\u0005Voice\u0010��\u0012\t\n\u0005Video\u0010\u0001\u0012\u000f\n\u000bSwitchVideo\u0010\u0002\u0012\u000f\n\u000bPermitVideo\u0010\u0003\u0012\u000f\n\u000bRefuseVideo\u0010\u0004\u0012\u000f\n\u000bSwitchAudio\u0010\u0005\u0012\u000f\n\u000bPermitAudio\u0010\u0006\u0012\u000f\n\u000bRefuseAudio\u0010\u0007\"X\n\bCallType\u0012\n\n\u0006CallUp\u0010��\u0012\u000f\n\u000bCall_No_Res\u0010\u0001\u0012\u000f\n\u000bCall_Reject\u0010\u0002\u0012\u000f\n\u000bCall_Cancel\u0010\u0003\u0012\r\n\tCall_Busy\u0010\u0004\"a\n\u000bStatMessage\u0012#\n\u0006device\u0018\u0001 \u0001(\u000e2\u0013.StatMessage.Device\u0012\r\n\u0005msgId\u0018\u0002 \u0001(\t\"\u001e\n\u0006Device\u0012\u0007\n\u0003Ios\u0010��\u0012\u000b\n\u0007Android\u0010\u0001\"\u001f\n\u000fSnapChatMessage\u0012\f\n\u0004mark\u0018\u0001 \u0001(\u0005\"'\n\u0014SensitiveWordMessage\u0012\u000f\n\u0007content\u0018\u0001 \u0001(\t\"%\n\u0013SoulmateCardMessage\u0012\u000e\n\u0006status\u0018\u0001 \u0001(\u0005\"%\n\u000fRollDiceMessage\u0012\u0012\n\ndicePoints\u0018\u0001 \u0001(\u0005\"$\n\u0012FingerGuessMessage\u0012\u000e\n\u0006finger\u0018\u0001 \u0001(\u0005\"I\n\u0015UserExpressionMessage\u0012\u000e\n\u0006imageW\u0018\u0001 \u0001(\u0002\u0012\u000e\n\u0006imageH\u0018\u0002 \u0001(\u0002\u0012\u0010\n\bimageUrl\u0018\u0003 \u0001(\t\"!\n\u0011ExpressionMessage\u0012\f\n\u0004info\u0018\u0001 \u0001(\t\"\u001c\n\fRepostMessge\u0012\f\n\u0004info\u0018\u0001 \u0001(\t\"1\n\u000fShareTagMessage\u0012\r\n\u0005tagId\u0018\u0001 \u0001(\t\u0012\u000f\n\u0007tagName\u0018\u0002 \u0001(\t\"#\n\u000fUserCardMessage\u0012\u0010\n\buserInfo\u0018\u0001 \u0001(\t\"\u001d\n\u000eUserExpression\u0012\u000b\n\u0003url\u0018\u0001 \u0001(\t\"/\n\u000bPicMessages\u0012 \n\u000bpicMessages\u0018\u0001 \u0003(\u000b2\u000b.PicMessage\"A\n\fVoiceMessage\u0012\u0011\n\tremoteUrl\u0018\u0001 \u0001(\t\u0012\u0010\n\bduration\u0018\u0002 \u0001(\u0005\u0012\f\n\u0004word\u0018\u0003 \u0001(\t\">\n\nPicMessage\u0012\u000e\n\u0006imageW\u0018\u0001 \u0001(\u0002\u0012\u000e\n\u0006imageH\u0018\u0002 \u0001(\u0002\u0012\u0010\n\bimageUrl\u0018\u0003 \u0001(\t\"@\n\fVideoMessage\u0012\u0011\n\tremoteUrl\u0018\u0001 \u0001(\t\u0012\r\n\u0005width\u0018\u0002 \u0001(\u0005\u0012\u000e\n\u0006height\u0018\u0003 \u0001(\u0005\"¥\u0001\n\u000bPushMessage\u0012\r\n\u0005title\u0018\u0001 \u0001(\t\u0012\f\n\u0004text\u0018\u0002 \u0001(\t\u0012(\n\u0006extMap\u0018\u0003 \u0003(\u000b2\u0018.PushMessage.ExtMapEntry\u0012\u000e\n\u0006sender\u0018\u0004 \u0001(\t\u0012\u0010\n\breceiver\u0018\u0005 \u0001(\t\u001a-\n\u000bExtMapEntry\u0012\u000b\n\u0003key\u0018\u0001 \u0001(\t\u0012\r\n\u0005value\u0018\u0002 \u0001(\t:\u00028\u0001\"%\n\u0007TextMsg\u0012\f\n\u0004text\u0018\u0001 \u0001(\t\u0012\f\n\u0004type\u0018\u0002 \u0001(\u0005\"/\n\u000eExtChatMessage\u0012\u000f\n\u0007content\u0018\u0001 \u0001(\t\u0012\f\n\u0004type\u0018\u0002 \u0001(\u0005\"¦\u0002\n\u000bRespCommand\u0012\u001f\n\u0004type\u0018\u0001 \u0001(\u000e2\u0011.RespCommand.Type\u0012#\n\u0006status\u0018\u0002 \u0001(\u000e2\u0013.RespCommand.Status\u0012\u0010\n\berrorMsg\u0018\u0003 \u0001(\t\u0012\u0011\n\ttimestamp\u0018\u0004 \u0001(\u0003\u0012\u0011\n\terrorCode\u0018\u0006 \u0001(\u0005\u0012!\n\nsauthParam\u0018\u0005 \u0001(\u000b2\u000b.SauthParamH��\"L\n\u0004Type\u0012\t\n\u0005SAUTH\u0010��\u0012\u0007\n\u0003MSG\u0010\u0001\u0012\u000b\n\u0007GENERAL\u0010\u0002\u0012\f\n\bCHATROOM\u0010\u0003\u0012\t\n\u0005Group\u0010\u0004\u0012\n\n\u0006REPORT\u0010\u0005\" \n\u0006Status\u0012\u000b\n\u0007SUCCESS\u0010��\u0012\t\n\u0005ERROR\u0010\u0001B\u0006\n\u0004resp\"\u0019\n\nSauthParam\u0012\u000b\n\u0003key\u0018\u0001 \u0001(\t\"ì\u0001\n\rNotifyCommand\u0012\u000f\n\u0007content\u0018\u0001 \u0001(\t\u0012!\n\u0004type\u0018\u0002 \u0001(\u000e2\u0013.NotifyCommand.Type\u0012\f\n\u0004from\u0018\u0003 \u0001(\t\u0012\n\n\u0002to\u0018\u0004 \u0001(\t\u0012\u0013\n\u000bmessageType\u0018\u0005 \u0001(\u0005\u0012*\n\u0006extMap\u0018\u0006 \u0003(\u000b2\u001a.NotifyCommand.ExtMapEntry\u001a-\n\u000bExtMapEntry\u0012\u000b\n\u0003key\u0018\u0001 \u0001(\t\u0012\r\n\u0005value\u0018\u0002 \u0001(\t:\u00028\u0001\"\u001d\n\u0004Type\u0012\n\n\u0006NORMAL\u0010��\u0012\t\n\u0005BLOCK\u0010\u0001*<\n\u000bMessageType\u0012\b\n\u0004Ping\u0010��\u0012\t\n\u0005SAUTH\u0010\u0001\u0012\u000b\n\u0007COMMAND\u0010\u0002\u0012\u000b\n\u0007MESSAGE\u0010\u0003*z\n\nClientType\u0012\u0007\n\u0003APP\u0010��\u0012\u0007\n\u0003WEB\u0010\u0001\u0012\u0006\n\u0002PC\u0010\u0002\u0012\u0007\n\u0003PAD\u0010\u0003\u0012\b\n\u0004GAME\u0010\u0004\u0012\u000e\n\nWEB_SOCKET\u0010\u0005\u0012\f\n\bQUICKAPP\u0010\u0006\u0012\f\n\bMICROAPP\u0010\u0007\u0012\u0013\n\u000fWECHAT_MICROAPP\u0010\bB$\n\u0012com.soul.im.protosP\u0001Z\u0006protos¢\u0002\u0003IMPb\u0006proto3",
+        "pc": 0,
+        "file_offset": 2979376,
+        "opcode": "0x1a"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$a;",
+    "method": "B",
+    "method_index": 19119,
+    "code_offset": 2233320,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 0,
+        "file_offset": 2233336,
+        "opcode": "0x22"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "<init>",
+        "proto_index": 8287,
+        "pc": 3,
+        "file_offset": 2233342,
+        "opcode": "0x70"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$a;",
+    "method": "parsePartialFrom",
+    "method_index": 19120,
+    "code_offset": 2233352,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$a;",
+        "name": "B",
+        "proto_index": 3993,
+        "pc": 0,
+        "file_offset": 2233368,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/CommandMessage$c;",
+    "method": "R0",
+    "method_index": 14867,
+    "code_offset": 2050776,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage$b;",
+        "pc": 8,
+        "file_offset": 2050808,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/CommandMessage$c;",
+    "method": "S0",
+    "method_index": 14870,
+    "code_offset": 2038908,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getDefaultInstance",
+        "proto_index": 3989,
+        "pc": 10,
+        "file_offset": 2038944,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 20,
+        "file_offset": 2038964,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/CommandMessage$c;",
+    "method": "g2",
+    "method_index": 14929,
+    "code_offset": 2047860,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "P",
+        "proto_index": 3989,
+        "pc": 4,
+        "file_offset": 2047884,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "P",
+        "proto_index": 3989,
+        "pc": 14,
+        "file_offset": 2047904,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/CommandMessage$c;",
+    "method": "getPushMessage",
+    "method_index": 14964,
+    "code_offset": 2050688,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 12,
+        "file_offset": 2050728,
+        "opcode": "0x1f"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getDefaultInstance",
+        "proto_index": 3989,
+        "pc": 15,
+        "file_offset": 2050734,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 28,
+        "file_offset": 2050760,
+        "opcode": "0x1f"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getDefaultInstance",
+        "proto_index": 3989,
+        "pc": 31,
+        "file_offset": 2050766,
+        "opcode": "0x71"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/CommandMessage$c;",
+    "method": "getPushMessageOrBuilder",
+    "method_index": 14965,
+    "code_offset": 2050816,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessageOrBuilder;",
+        "pc": 14,
+        "file_offset": 2050860,
+        "opcode": "0x1f"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 21,
+        "file_offset": 2050874,
+        "opcode": "0x1f"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getDefaultInstance",
+        "proto_index": 3989,
+        "pc": 24,
+        "file_offset": 2050880,
+        "opcode": "0x71"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/CommandMessage$c;",
+    "method": "t1",
+    "method_index": 15049,
+    "code_offset": 2045224,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getDefaultInstance",
+        "proto_index": 3989,
+        "pc": 12,
+        "file_offset": 2045264,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 20,
+        "file_offset": 2045280,
+        "opcode": "0x1f"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "newBuilder",
+        "proto_index": 3985,
+        "pc": 22,
+        "file_offset": 2045284,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "i0",
+        "proto_index": 3985,
+        "pc": 26,
+        "file_offset": 2045292,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "Q",
+        "proto_index": 3989,
+        "pc": 30,
+        "file_offset": 2045300,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/CommandMessage;",
+    "method": "<init>",
+    "method_index": 15076,
+    "code_offset": 2062376,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 445,
+        "file_offset": 2063282,
+        "opcode": "0x1f"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "toBuilder",
+        "proto_index": 3975,
+        "pc": 447,
+        "file_offset": 2063286,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "parser",
+        "proto_index": 1785,
+        "pc": 451,
+        "file_offset": 2063294,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 463,
+        "file_offset": 2063318,
+        "opcode": "0x1f"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "i0",
+        "proto_index": 3985,
+        "pc": 465,
+        "file_offset": 2063322,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "Q",
+        "proto_index": 3989,
+        "pc": 468,
+        "file_offset": 2063328,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/CommandMessage;",
+    "method": "equals",
+    "method_index": 15105,
+    "code_offset": 2055020,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "equals",
+        "proto_index": 11430,
+        "pc": 253,
+        "file_offset": 2055542,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/CommandMessage;",
+    "method": "getPushMessage",
+    "method_index": 15143,
+    "code_offset": 2059080,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 8,
+        "file_offset": 2059112,
+        "opcode": "0x1f"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getDefaultInstance",
+        "proto_index": 3989,
+        "pc": 11,
+        "file_offset": 2059118,
+        "opcode": "0x71"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/CommandMessage;",
+    "method": "getPushMessageOrBuilder",
+    "method_index": 15144,
+    "code_offset": 2059128,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 8,
+        "file_offset": 2059160,
+        "opcode": "0x1f"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getDefaultInstance",
+        "proto_index": 3989,
+        "pc": 11,
+        "file_offset": 2059166,
+        "opcode": "0x71"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/CommandMessage;",
+    "method": "getSerializedSize",
+    "method_index": 15151,
+    "code_offset": 2059896,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 189,
+        "file_offset": 2060290,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/CommandMessage;",
+    "method": "hashCode",
+    "method_index": 15181,
+    "code_offset": 2060764,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "hashCode",
+        "proto_index": 63,
+        "pc": 234,
+        "file_offset": 2061248,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/CommandMessage;",
+    "method": "writeTo",
+    "method_index": 15207,
+    "code_offset": 2064496,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 160,
+        "file_offset": 2064832,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/MsgCommand$c;",
+    "method": "L1",
+    "method_index": 17290,
+    "code_offset": 2154444,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage;",
+        "name": "getDefaultInstance",
+        "proto_index": 2675,
+        "pc": 12,
+        "file_offset": 2154484,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/game/protos/GameMessage;",
+        "pc": 20,
+        "file_offset": 2154500,
+        "opcode": "0x1f"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage;",
+        "name": "newBuilder",
+        "proto_index": 2661,
+        "pc": 22,
+        "file_offset": 2154504,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage$c;",
+        "name": "y0",
+        "proto_index": 2661,
+        "pc": 26,
+        "file_offset": 2154512,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage$c;",
+        "name": "Q",
+        "proto_index": 2675,
+        "pc": 30,
+        "file_offset": 2154520,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/MsgCommand$c;",
+    "method": "N0",
+    "method_index": 17295,
+    "code_offset": 2147896,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/game/protos/GameMessage$c;",
+        "pc": 8,
+        "file_offset": 2147928,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/MsgCommand$c;",
+    "method": "O0",
+    "method_index": 17299,
+    "code_offset": 2145756,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage;",
+        "name": "getDefaultInstance",
+        "proto_index": 2675,
+        "pc": 10,
+        "file_offset": 2145792,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/game/protos/GameMessage;",
+        "pc": 20,
+        "file_offset": 2145812,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/MsgCommand$c;",
+    "method": "getGameMessage",
+    "method_index": 17411,
+    "code_offset": 2147808,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/game/protos/GameMessage;",
+        "pc": 12,
+        "file_offset": 2147848,
+        "opcode": "0x1f"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage;",
+        "name": "getDefaultInstance",
+        "proto_index": 2675,
+        "pc": 15,
+        "file_offset": 2147854,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/game/protos/GameMessage;",
+        "pc": 28,
+        "file_offset": 2147880,
+        "opcode": "0x1f"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage;",
+        "name": "getDefaultInstance",
+        "proto_index": 2675,
+        "pc": 31,
+        "file_offset": 2147886,
+        "opcode": "0x71"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/MsgCommand$c;",
+    "method": "getGameMessageOrBuilder",
+    "method_index": 17412,
+    "code_offset": 2147936,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/game/protos/GameMessageOrBuilder;",
+        "pc": 14,
+        "file_offset": 2147980,
+        "opcode": "0x1f"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/game/protos/GameMessage;",
+        "pc": 21,
+        "file_offset": 2147994,
+        "opcode": "0x1f"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage;",
+        "name": "getDefaultInstance",
+        "proto_index": 2675,
+        "pc": 24,
+        "file_offset": 2148000,
+        "opcode": "0x71"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/MsgCommand$c;",
+    "method": "v2",
+    "method_index": 17549,
+    "code_offset": 2157872,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage$c;",
+        "name": "P",
+        "proto_index": 2675,
+        "pc": 4,
+        "file_offset": 2157896,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage$c;",
+        "name": "P",
+        "proto_index": 2675,
+        "pc": 14,
+        "file_offset": 2157916,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/MsgCommand;",
+    "method": "<init>",
+    "method_index": 17570,
+    "code_offset": 2177872,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/game/protos/GameMessage;",
+        "pc": 127,
+        "file_offset": 2178142,
+        "opcode": "0x1f"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage;",
+        "name": "toBuilder",
+        "proto_index": 2648,
+        "pc": 129,
+        "file_offset": 2178146,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage;",
+        "name": "parser",
+        "proto_index": 1785,
+        "pc": 133,
+        "file_offset": 2178154,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/game/protos/GameMessage;",
+        "pc": 145,
+        "file_offset": 2178178,
+        "opcode": "0x1f"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage$c;",
+        "name": "y0",
+        "proto_index": 2661,
+        "pc": 147,
+        "file_offset": 2178182,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage$c;",
+        "name": "Q",
+        "proto_index": 2675,
+        "pc": 150,
+        "file_offset": 2178188,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/MsgCommand;",
+    "method": "equals",
+    "method_index": 17598,
+    "code_offset": 2168712,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage;",
+        "name": "equals",
+        "proto_index": 11430,
+        "pc": 176,
+        "file_offset": 2169080,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/MsgCommand;",
+    "method": "getGameMessage",
+    "method_index": 17621,
+    "code_offset": 2171632,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/game/protos/GameMessage;",
+        "pc": 8,
+        "file_offset": 2171664,
+        "opcode": "0x1f"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage;",
+        "name": "getDefaultInstance",
+        "proto_index": 2675,
+        "pc": 11,
+        "file_offset": 2171670,
+        "opcode": "0x71"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/MsgCommand;",
+    "method": "getGameMessageOrBuilder",
+    "method_index": 17622,
+    "code_offset": 2171680,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/game/protos/GameMessage;",
+        "pc": 8,
+        "file_offset": 2171712,
+        "opcode": "0x1f"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage;",
+        "name": "getDefaultInstance",
+        "proto_index": 2675,
+        "pc": 11,
+        "file_offset": 2171718,
+        "opcode": "0x71"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/MsgCommand;",
+    "method": "getSerializedSize",
+    "method_index": 17641,
+    "code_offset": 2174844,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/game/protos/GameMessage;",
+        "pc": 492,
+        "file_offset": 2175844,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/MsgCommand;",
+    "method": "hashCode",
+    "method_index": 17695,
+    "code_offset": 2175996,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/game/protos/GameMessage;",
+        "name": "hashCode",
+        "proto_index": 63,
+        "pc": 174,
+        "file_offset": 2176360,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/MsgCommand;",
+    "method": "writeTo",
+    "method_index": 17722,
+    "code_offset": 2180656,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/game/protos/GameMessage;",
+        "pc": 376,
+        "file_offset": 2181424,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "<init>",
+    "method_index": 19121,
+    "code_offset": 2237184,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "f",
+        "pc": 5,
+        "file_offset": 2237210,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "g",
+        "pc": 7,
+        "file_offset": 2237214,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "i",
+        "pc": 9,
+        "file_offset": 2237218,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "j",
+        "pc": 11,
+        "file_offset": 2237222,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "f0",
+        "proto_index": 7022,
+        "pc": 13,
+        "file_offset": 2237226,
+        "opcode": "0x70"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "<init>",
+    "method_index": 19122,
+    "code_offset": 2237236,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "f",
+        "pc": 5,
+        "file_offset": 2237262,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "g",
+        "pc": 7,
+        "file_offset": 2237266,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "i",
+        "pc": 9,
+        "file_offset": 2237270,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "j",
+        "pc": 11,
+        "file_offset": 2237274,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "f0",
+        "proto_index": 7022,
+        "pc": 13,
+        "file_offset": 2237278,
+        "opcode": "0x70"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "<init>",
+    "method_index": 19123,
+    "code_offset": 2237288,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "<init>",
+        "proto_index": 8317,
+        "pc": 0,
+        "file_offset": 2237304,
+        "opcode": "0x70"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "<init>",
+    "method_index": 19124,
+    "code_offset": 2237312,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "<init>",
+        "proto_index": 7022,
+        "pc": 0,
+        "file_offset": 2237328,
+        "opcode": "0x70"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "d0",
+    "method_index": 19164,
+    "code_offset": 2234244,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Lcom/google/protobuf/MapField;",
+        "name": "h",
+        "pc": 0,
+        "file_offset": 2234260,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$c;",
+        "type": "Lcom/google/protobuf/n0;",
+        "name": "a",
+        "pc": 4,
+        "file_offset": 2234268,
+        "opcode": "0x62"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "e0",
+    "method_index": 19165,
+    "code_offset": 2234364,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Lcom/google/protobuf/MapField;",
+        "name": "h",
+        "pc": 3,
+        "file_offset": 2234386,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$c;",
+        "type": "Lcom/google/protobuf/n0;",
+        "name": "a",
+        "pc": 7,
+        "file_offset": 2234394,
+        "opcode": "0x62"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Lcom/google/protobuf/MapField;",
+        "name": "h",
+        "pc": 13,
+        "file_offset": 2234406,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Lcom/google/protobuf/MapField;",
+        "name": "h",
+        "pc": 15,
+        "file_offset": 2234410,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Lcom/google/protobuf/MapField;",
+        "name": "h",
+        "pc": 23,
+        "file_offset": 2234426,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Lcom/google/protobuf/MapField;",
+        "name": "h",
+        "pc": 29,
+        "file_offset": 2234438,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Lcom/google/protobuf/MapField;",
+        "name": "h",
+        "pc": 31,
+        "file_offset": 2234442,
+        "opcode": "0x54"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "f0",
+    "method_index": 19166,
+    "code_offset": 2237336,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "access$200",
+        "proto_index": 11063,
+        "pc": 0,
+        "file_offset": 2237352,
+        "opcode": "0x71"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "C",
+    "method_index": 19125,
+    "code_offset": 2234204,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 2,
+        "file_offset": 2234224,
+        "opcode": "0x1c"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage$b;",
+        "pc": 4,
+        "file_offset": 2234228,
+        "opcode": "0x1c"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "D",
+    "method_index": 19126,
+    "code_offset": 2234284,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "d0",
+        "proto_index": 1720,
+        "pc": 3,
+        "file_offset": 2234306,
+        "opcode": "0x70"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "E",
+    "method_index": 19127,
+    "code_offset": 2234448,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "e0",
+        "proto_index": 1720,
+        "pc": 3,
+        "file_offset": 2234470,
+        "opcode": "0x70"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "G",
+    "method_index": 19128,
+    "code_offset": 2234092,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "j0",
+        "proto_index": 3984,
+        "pc": 0,
+        "file_offset": 2234108,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "J",
+    "method_index": 19129,
+    "code_offset": 2234120,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "n0",
+        "proto_index": 3980,
+        "pc": 0,
+        "file_offset": 2234136,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "K",
+    "method_index": 19130,
+    "code_offset": 2234148,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "q0",
+        "proto_index": 3979,
+        "pc": 0,
+        "file_offset": 2234164,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "L",
+    "method_index": 19131,
+    "code_offset": 2234176,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "x0",
+        "proto_index": 3984,
+        "pc": 0,
+        "file_offset": 2234192,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "O",
+    "method_index": 19132,
+    "code_offset": 2235276,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage$b;",
+        "pc": 4,
+        "file_offset": 2235300,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "P",
+    "method_index": 19133,
+    "code_offset": 2235088,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "Q",
+        "proto_index": 3989,
+        "pc": 0,
+        "file_offset": 2235104,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "isInitialized",
+        "proto_index": 11063,
+        "pc": 4,
+        "file_offset": 2235112,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "Q",
+    "method_index": 19134,
+    "code_offset": 2235136,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 0,
+        "file_offset": 2235152,
+        "opcode": "0x22"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "<init>",
+        "proto_index": 8440,
+        "pc": 3,
+        "file_offset": 2235158,
+        "opcode": "0x70"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "f",
+        "pc": 6,
+        "file_offset": 2235164,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "access$402",
+        "proto_index": 6157,
+        "pc": 8,
+        "file_offset": 2235168,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "g",
+        "pc": 11,
+        "file_offset": 2235174,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "access$502",
+        "proto_index": 6157,
+        "pc": 13,
+        "file_offset": 2235178,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "d0",
+        "proto_index": 1720,
+        "pc": 16,
+        "file_offset": 2235184,
+        "opcode": "0x70"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "access$602",
+        "proto_index": 1764,
+        "pc": 20,
+        "file_offset": 2235192,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "access$600",
+        "proto_index": 1763,
+        "pc": 23,
+        "file_offset": 2235198,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "i",
+        "pc": 30,
+        "file_offset": 2235212,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "access$702",
+        "proto_index": 6157,
+        "pc": 32,
+        "file_offset": 2235216,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "j",
+        "pc": 35,
+        "file_offset": 2235222,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "access$802",
+        "proto_index": 6157,
+        "pc": 37,
+        "file_offset": 2235226,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "access$902",
+        "proto_index": 392,
+        "pc": 41,
+        "file_offset": 2235234,
+        "opcode": "0x71"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "R",
+    "method_index": 19135,
+    "code_offset": 2235308,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "f",
+        "pc": 5,
+        "file_offset": 2235334,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "g",
+        "pc": 7,
+        "file_offset": 2235338,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "e0",
+        "proto_index": 1720,
+        "pc": 9,
+        "file_offset": 2235342,
+        "opcode": "0x70"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "i",
+        "pc": 16,
+        "file_offset": 2235356,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "j",
+        "pc": 18,
+        "file_offset": 2235360,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "S",
+    "method_index": 19136,
+    "code_offset": 2235368,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "e0",
+        "proto_index": 1720,
+        "pc": 0,
+        "file_offset": 2235384,
+        "opcode": "0x70"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "T",
+    "method_index": 19137,
+    "code_offset": 2235408,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage$b;",
+        "pc": 4,
+        "file_offset": 2235432,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "U",
+    "method_index": 19138,
+    "code_offset": 2235440,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage$b;",
+        "pc": 4,
+        "file_offset": 2235464,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "V",
+    "method_index": 19139,
+    "code_offset": 2235472,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getDefaultInstance",
+        "proto_index": 3989,
+        "pc": 0,
+        "file_offset": 2235488,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getReceiver",
+        "proto_index": 6265,
+        "pc": 4,
+        "file_offset": 2235496,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "j",
+        "pc": 8,
+        "file_offset": 2235504,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "W",
+    "method_index": 19140,
+    "code_offset": 2235516,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getDefaultInstance",
+        "proto_index": 3989,
+        "pc": 0,
+        "file_offset": 2235532,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getSender",
+        "proto_index": 6265,
+        "pc": 4,
+        "file_offset": 2235540,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "i",
+        "pc": 8,
+        "file_offset": 2235548,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "X",
+    "method_index": 19141,
+    "code_offset": 2235560,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getDefaultInstance",
+        "proto_index": 3989,
+        "pc": 0,
+        "file_offset": 2235576,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getText",
+        "proto_index": 6265,
+        "pc": 4,
+        "file_offset": 2235584,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "g",
+        "pc": 8,
+        "file_offset": 2235592,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "Y",
+    "method_index": 19142,
+    "code_offset": 2235604,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getDefaultInstance",
+        "proto_index": 3989,
+        "pc": 0,
+        "file_offset": 2235620,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getTitle",
+        "proto_index": 6265,
+        "pc": 4,
+        "file_offset": 2235628,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "f",
+        "pc": 8,
+        "file_offset": 2235636,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "Z",
+    "method_index": 19143,
+    "code_offset": 2235648,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage$b;",
+        "pc": 4,
+        "file_offset": 2235672,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "a",
+    "method_index": 19144,
+    "code_offset": 2233472,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "R",
+        "proto_index": 3975,
+        "pc": 0,
+        "file_offset": 2233488,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "a0",
+    "method_index": 19145,
+    "code_offset": 2235248,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getDefaultInstance",
+        "proto_index": 3989,
+        "pc": 0,
+        "file_offset": 2235264,
+        "opcode": "0x71"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "addRepeatedField",
+    "method_index": 19146,
+    "code_offset": 2234612,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "O",
+        "proto_index": 3980,
+        "pc": 0,
+        "file_offset": 2234628,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "b",
+    "method_index": 19147,
+    "code_offset": 2233500,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "U",
+        "proto_index": 3981,
+        "pc": 0,
+        "file_offset": 2233516,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "build",
+    "method_index": 19149,
+    "code_offset": 2234528,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "P",
+        "proto_index": 3989,
+        "pc": 0,
+        "file_offset": 2234544,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "build",
+    "method_index": 19150,
+    "code_offset": 2234920,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "P",
+        "proto_index": 3989,
+        "pc": 0,
+        "file_offset": 2234936,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "buildPartial",
+    "method_index": 19151,
+    "code_offset": 2234556,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "Q",
+        "proto_index": 3989,
+        "pc": 0,
+        "file_offset": 2234572,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "buildPartial",
+    "method_index": 19152,
+    "code_offset": 2234948,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "Q",
+        "proto_index": 3989,
+        "pc": 0,
+        "file_offset": 2234964,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "c",
+    "method_index": 19153,
+    "code_offset": 2233528,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "Z",
+        "proto_index": 3975,
+        "pc": 0,
+        "file_offset": 2233544,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "c0",
+    "method_index": 19154,
+    "code_offset": 2237148,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "e0",
+        "proto_index": 1720,
+        "pc": 0,
+        "file_offset": 2237164,
+        "opcode": "0x70"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "clear",
+    "method_index": 19155,
+    "code_offset": 2234640,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "R",
+        "proto_index": 3975,
+        "pc": 0,
+        "file_offset": 2234656,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "clear",
+    "method_index": 19156,
+    "code_offset": 2235004,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "R",
+        "proto_index": 3975,
+        "pc": 0,
+        "file_offset": 2235020,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "clearField",
+    "method_index": 19157,
+    "code_offset": 2234668,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "T",
+        "proto_index": 3978,
+        "pc": 0,
+        "file_offset": 2234684,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "clearOneof",
+    "method_index": 19158,
+    "code_offset": 2234696,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "U",
+        "proto_index": 3981,
+        "pc": 0,
+        "file_offset": 2234712,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "clone",
+    "method_index": 19159,
+    "code_offset": 2233640,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "Z",
+        "proto_index": 3975,
+        "pc": 0,
+        "file_offset": 2233656,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "clone",
+    "method_index": 19160,
+    "code_offset": 2234724,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "Z",
+        "proto_index": 3975,
+        "pc": 0,
+        "file_offset": 2234740,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "clone",
+    "method_index": 19161,
+    "code_offset": 2235032,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "Z",
+        "proto_index": 3975,
+        "pc": 0,
+        "file_offset": 2235048,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "clone",
+    "method_index": 19162,
+    "code_offset": 2236704,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "Z",
+        "proto_index": 3975,
+        "pc": 0,
+        "file_offset": 2236720,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "containsExtMap",
+    "method_index": 19163,
+    "code_offset": 2233404,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "d0",
+        "proto_index": 1720,
+        "pc": 3,
+        "file_offset": 2233426,
+        "opcode": "0x70"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "g0",
+    "method_index": 19167,
+    "code_offset": 2235680,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "access$1200",
+        "proto_index": 1785,
+        "pc": 1,
+        "file_offset": 2235698,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 9,
+        "file_offset": 2235714,
+        "opcode": "0x1f"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "i0",
+        "proto_index": 3985,
+        "pc": 13,
+        "file_offset": 2235722,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 24,
+        "file_offset": 2235744,
+        "opcode": "0x1f"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "i0",
+        "proto_index": 3985,
+        "pc": 35,
+        "file_offset": 2235766,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "getDefaultInstanceForType",
+    "method_index": 19168,
+    "code_offset": 2234584,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "a0",
+        "proto_index": 3989,
+        "pc": 0,
+        "file_offset": 2234600,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "getDefaultInstanceForType",
+    "method_index": 19169,
+    "code_offset": 2234976,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "a0",
+        "proto_index": 3989,
+        "pc": 0,
+        "file_offset": 2234992,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "getExtMap",
+    "method_index": 19171,
+    "code_offset": 2237084,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "getExtMapMap",
+        "proto_index": 6608,
+        "pc": 0,
+        "file_offset": 2237100,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "getExtMapCount",
+    "method_index": 19172,
+    "code_offset": 2236660,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "d0",
+        "proto_index": 1720,
+        "pc": 0,
+        "file_offset": 2236676,
+        "opcode": "0x70"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "getExtMapMap",
+    "method_index": 19173,
+    "code_offset": 2237112,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "d0",
+        "proto_index": 1720,
+        "pc": 0,
+        "file_offset": 2237128,
+        "opcode": "0x70"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "getExtMapOrDefault",
+    "method_index": 19174,
+    "code_offset": 2236732,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "d0",
+        "proto_index": 1720,
+        "pc": 3,
+        "file_offset": 2236754,
+        "opcode": "0x70"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "getExtMapOrThrow",
+    "method_index": 19175,
+    "code_offset": 2236800,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "d0",
+        "proto_index": 1720,
+        "pc": 3,
+        "file_offset": 2236822,
+        "opcode": "0x70"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "getReceiver",
+    "method_index": 19176,
+    "code_offset": 2236876,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "j",
+        "pc": 0,
+        "file_offset": 2236892,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "j",
+        "pc": 12,
+        "file_offset": 2236916,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "getReceiverBytes",
+    "method_index": 19177,
+    "code_offset": 2233696,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "j",
+        "pc": 0,
+        "file_offset": 2233712,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "j",
+        "pc": 12,
+        "file_offset": 2233736,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "getSender",
+    "method_index": 19178,
+    "code_offset": 2236928,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "i",
+        "pc": 0,
+        "file_offset": 2236944,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "i",
+        "pc": 12,
+        "file_offset": 2236968,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "getSenderBytes",
+    "method_index": 19179,
+    "code_offset": 2233748,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "i",
+        "pc": 0,
+        "file_offset": 2233764,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "i",
+        "pc": 12,
+        "file_offset": 2233788,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "getText",
+    "method_index": 19180,
+    "code_offset": 2236980,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "g",
+        "pc": 0,
+        "file_offset": 2236996,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "g",
+        "pc": 12,
+        "file_offset": 2237020,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "getTextBytes",
+    "method_index": 19181,
+    "code_offset": 2233800,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "g",
+        "pc": 0,
+        "file_offset": 2233816,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "g",
+        "pc": 12,
+        "file_offset": 2233840,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "getTitle",
+    "method_index": 19182,
+    "code_offset": 2237032,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "f",
+        "pc": 0,
+        "file_offset": 2237048,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "f",
+        "pc": 12,
+        "file_offset": 2237072,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "getTitleBytes",
+    "method_index": 19183,
+    "code_offset": 2233852,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "f",
+        "pc": 0,
+        "file_offset": 2233868,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "f",
+        "pc": 12,
+        "file_offset": 2233892,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "h0",
+    "method_index": 19184,
+    "code_offset": 2235812,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 0,
+        "file_offset": 2235828,
+        "opcode": "0x20"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 4,
+        "file_offset": 2235836,
+        "opcode": "0x1f"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "i0",
+        "proto_index": 3985,
+        "pc": 6,
+        "file_offset": 2235840,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "i0",
+    "method_index": 19185,
+    "code_offset": 2235860,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getDefaultInstance",
+        "proto_index": 3989,
+        "pc": 0,
+        "file_offset": 2235876,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getTitle",
+        "proto_index": 6265,
+        "pc": 7,
+        "file_offset": 2235890,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "access$400",
+        "proto_index": 6156,
+        "pc": 17,
+        "file_offset": 2235910,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "f",
+        "pc": 21,
+        "file_offset": 2235918,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getText",
+        "proto_index": 6265,
+        "pc": 26,
+        "file_offset": 2235928,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "access$500",
+        "proto_index": 6156,
+        "pc": 36,
+        "file_offset": 2235948,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "g",
+        "pc": 40,
+        "file_offset": 2235956,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "e0",
+        "proto_index": 1720,
+        "pc": 45,
+        "file_offset": 2235966,
+        "opcode": "0x70"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "access$1000",
+        "proto_index": 1763,
+        "pc": 49,
+        "file_offset": 2235974,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getSender",
+        "proto_index": 6265,
+        "pc": 56,
+        "file_offset": 2235988,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "access$700",
+        "proto_index": 6156,
+        "pc": 66,
+        "file_offset": 2236008,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "i",
+        "pc": 70,
+        "file_offset": 2236016,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getReceiver",
+        "proto_index": 6265,
+        "pc": 75,
+        "file_offset": 2236026,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "access$800",
+        "proto_index": 6156,
+        "pc": 85,
+        "file_offset": 2236046,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "j",
+        "pc": 89,
+        "file_offset": 2236054,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "access$1100",
+        "proto_index": 1848,
+        "pc": 94,
+        "file_offset": 2236064,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "j0",
+        "proto_index": 3984,
+        "pc": 98,
+        "file_offset": 2236072,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "j",
+    "method_index": 19187,
+    "code_offset": 2233556,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "g0",
+        "proto_index": 3977,
+        "pc": 0,
+        "file_offset": 2233572,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "j0",
+    "method_index": 19188,
+    "code_offset": 2236088,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage$b;",
+        "pc": 4,
+        "file_offset": 2236112,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "k",
+    "method_index": 19189,
+    "code_offset": 2233584,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "h0",
+        "proto_index": 3983,
+        "pc": 0,
+        "file_offset": 2233600,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "k0",
+    "method_index": 19190,
+    "code_offset": 2236120,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "e0",
+        "proto_index": 1720,
+        "pc": 0,
+        "file_offset": 2236136,
+        "opcode": "0x70"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "l0",
+    "method_index": 19191,
+    "code_offset": 2236160,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "e0",
+        "proto_index": 1720,
+        "pc": 6,
+        "file_offset": 2236188,
+        "opcode": "0x70"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "m0",
+    "method_index": 19192,
+    "code_offset": 2236212,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "e0",
+        "proto_index": 1720,
+        "pc": 3,
+        "file_offset": 2236234,
+        "opcode": "0x70"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "mergeFrom",
+    "method_index": 19193,
+    "code_offset": 2233668,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "g0",
+        "proto_index": 3977,
+        "pc": 0,
+        "file_offset": 2233684,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "mergeFrom",
+    "method_index": 19194,
+    "code_offset": 2234752,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "g0",
+        "proto_index": 3977,
+        "pc": 0,
+        "file_offset": 2234768,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "mergeFrom",
+    "method_index": 19195,
+    "code_offset": 2234780,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "h0",
+        "proto_index": 3983,
+        "pc": 0,
+        "file_offset": 2234796,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "mergeFrom",
+    "method_index": 19196,
+    "code_offset": 2235060,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "g0",
+        "proto_index": 3977,
+        "pc": 0,
+        "file_offset": 2235076,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "mergeUnknownFields",
+    "method_index": 19197,
+    "code_offset": 2234808,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "j0",
+        "proto_index": 3984,
+        "pc": 0,
+        "file_offset": 2234824,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "n0",
+    "method_index": 19198,
+    "code_offset": 2236260,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage$b;",
+        "pc": 4,
+        "file_offset": 2236284,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "o0",
+    "method_index": 19199,
+    "code_offset": 2236292,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "j",
+        "pc": 3,
+        "file_offset": 2236314,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "p0",
+    "method_index": 19200,
+    "code_offset": 2236328,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "access$1600",
+        "proto_index": 8237,
+        "pc": 3,
+        "file_offset": 2236350,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "j",
+        "pc": 6,
+        "file_offset": 2236356,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "q0",
+    "method_index": 19201,
+    "code_offset": 2236368,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage$b;",
+        "pc": 4,
+        "file_offset": 2236392,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "r0",
+    "method_index": 19202,
+    "code_offset": 2236400,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "i",
+        "pc": 3,
+        "file_offset": 2236422,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "s",
+    "method_index": 19203,
+    "code_offset": 2233612,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "j0",
+        "proto_index": 3984,
+        "pc": 0,
+        "file_offset": 2233628,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "s0",
+    "method_index": 19204,
+    "code_offset": 2236436,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "access$1500",
+        "proto_index": 8237,
+        "pc": 3,
+        "file_offset": 2236458,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "i",
+        "pc": 6,
+        "file_offset": 2236464,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "setField",
+    "method_index": 19205,
+    "code_offset": 2234836,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "n0",
+        "proto_index": 3980,
+        "pc": 0,
+        "file_offset": 2234852,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "setRepeatedField",
+    "method_index": 19206,
+    "code_offset": 2234864,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "q0",
+        "proto_index": 3979,
+        "pc": 0,
+        "file_offset": 2234880,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "setUnknownFields",
+    "method_index": 19207,
+    "code_offset": 2234892,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "x0",
+        "proto_index": 3984,
+        "pc": 0,
+        "file_offset": 2234908,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "t0",
+    "method_index": 19208,
+    "code_offset": 2236476,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "g",
+        "pc": 3,
+        "file_offset": 2236498,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "u0",
+    "method_index": 19209,
+    "code_offset": 2236512,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "access$1400",
+        "proto_index": 8237,
+        "pc": 3,
+        "file_offset": 2236534,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "g",
+        "pc": 6,
+        "file_offset": 2236540,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "v",
+    "method_index": 19210,
+    "code_offset": 2233952,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "O",
+        "proto_index": 3980,
+        "pc": 0,
+        "file_offset": 2233968,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "v0",
+    "method_index": 19211,
+    "code_offset": 2236552,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "f",
+        "pc": 3,
+        "file_offset": 2236574,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "w",
+    "method_index": 19212,
+    "code_offset": 2233980,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "R",
+        "proto_index": 3975,
+        "pc": 0,
+        "file_offset": 2233996,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "w0",
+    "method_index": 19213,
+    "code_offset": 2236588,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "access$1300",
+        "proto_index": 8237,
+        "pc": 3,
+        "file_offset": 2236610,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "type": "Ljava/lang/Object;",
+        "name": "f",
+        "pc": 6,
+        "file_offset": 2236616,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "x",
+    "method_index": 19214,
+    "code_offset": 2234008,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "T",
+        "proto_index": 3978,
+        "pc": 0,
+        "file_offset": 2234024,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "x0",
+    "method_index": 19215,
+    "code_offset": 2236628,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage$b;",
+        "pc": 4,
+        "file_offset": 2236652,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "y",
+    "method_index": 19216,
+    "code_offset": 2234036,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "U",
+        "proto_index": 3981,
+        "pc": 0,
+        "file_offset": 2234052,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage$b;",
+    "method": "z",
+    "method_index": 19217,
+    "code_offset": 2234064,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "Z",
+        "proto_index": 3975,
+        "pc": 0,
+        "file_offset": 2234080,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "<clinit>",
+    "method_index": 19220,
+    "code_offset": 2240464,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 0,
+        "file_offset": 2240480,
+        "opcode": "0x22"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "<init>",
+        "proto_index": 7022,
+        "pc": 2,
+        "file_offset": 2240484,
+        "opcode": "0x70"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Lcom/soul/im/protos/PushMessage;",
+        "name": "a",
+        "pc": 5,
+        "file_offset": 2240490,
+        "opcode": "0x69"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage$a;",
+        "pc": 7,
+        "file_offset": 2240494,
+        "opcode": "0x22"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$a;",
+        "name": "<init>",
+        "proto_index": 7022,
+        "pc": 9,
+        "file_offset": 2240498,
+        "opcode": "0x70"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Lcom/google/protobuf/Parser;",
+        "name": "b",
+        "pc": 12,
+        "file_offset": 2240504,
+        "opcode": "0x69"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "<init>",
+    "method_index": 19221,
+    "code_offset": 2240512,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "B",
+        "name": "memoizedIsInitialized",
+        "pc": 4,
+        "file_offset": 2240536,
+        "opcode": "0x5d"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "title_",
+        "pc": 8,
+        "file_offset": 2240544,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "text_",
+        "pc": 10,
+        "file_offset": 2240548,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "sender_",
+        "pc": 12,
+        "file_offset": 2240552,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "receiver_",
+        "pc": 14,
+        "file_offset": 2240556,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "<init>",
+    "method_index": 19222,
+    "code_offset": 2240564,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "<init>",
+        "proto_index": 7022,
+        "pc": 0,
+        "file_offset": 2240580,
+        "opcode": "0x70"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "receiver_",
+        "pc": 59,
+        "file_offset": 2240698,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "sender_",
+        "pc": 66,
+        "file_offset": 2240712,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$c;",
+        "type": "Lcom/google/protobuf/n0;",
+        "name": "a",
+        "pc": 74,
+        "file_offset": 2240728,
+        "opcode": "0x62"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Lcom/google/protobuf/MapField;",
+        "name": "extMap_",
+        "pc": 80,
+        "file_offset": 2240740,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$c;",
+        "type": "Lcom/google/protobuf/n0;",
+        "name": "a",
+        "pc": 83,
+        "file_offset": 2240746,
+        "opcode": "0x62"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Lcom/google/protobuf/MapField;",
+        "name": "extMap_",
+        "pc": 95,
+        "file_offset": 2240770,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "text_",
+        "pc": 121,
+        "file_offset": 2240822,
+        "opcode": "0x5b"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "title_",
+        "pc": 128,
+        "file_offset": 2240836,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "<init>",
+    "method_index": 19223,
+    "code_offset": 2240940,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "<init>",
+        "proto_index": 8238,
+        "pc": 0,
+        "file_offset": 2240956,
+        "opcode": "0x70"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "<init>",
+    "method_index": 19224,
+    "code_offset": 2240964,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "B",
+        "name": "memoizedIsInitialized",
+        "pc": 4,
+        "file_offset": 2240988,
+        "opcode": "0x5d"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "<init>",
+    "method_index": 19225,
+    "code_offset": 2240996,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "<init>",
+        "proto_index": 8391,
+        "pc": 0,
+        "file_offset": 2241012,
+        "opcode": "0x70"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "a",
+    "method_index": 19226,
+    "code_offset": 2238104,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Lcom/google/protobuf/MapField;",
+        "name": "extMap_",
+        "pc": 0,
+        "file_offset": 2238120,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$c;",
+        "type": "Lcom/google/protobuf/n0;",
+        "name": "a",
+        "pc": 4,
+        "file_offset": 2238128,
+        "opcode": "0x62"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "access$1000",
+    "method_index": 19227,
+    "code_offset": 2238028,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "a",
+        "proto_index": 1720,
+        "pc": 0,
+        "file_offset": 2238044,
+        "opcode": "0x70"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "access$1200",
+    "method_index": 19229,
+    "code_offset": 2238420,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Lcom/google/protobuf/Parser;",
+        "name": "b",
+        "pc": 0,
+        "file_offset": 2238436,
+        "opcode": "0x62"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "access$400",
+    "method_index": 19235,
+    "code_offset": 2239856,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "title_",
+        "pc": 0,
+        "file_offset": 2239872,
+        "opcode": "0x54"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "access$402",
+    "method_index": 19236,
+    "code_offset": 2239880,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "title_",
+        "pc": 0,
+        "file_offset": 2239896,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "access$500",
+    "method_index": 19237,
+    "code_offset": 2239904,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "text_",
+        "pc": 0,
+        "file_offset": 2239920,
+        "opcode": "0x54"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "access$502",
+    "method_index": 19238,
+    "code_offset": 2239928,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "text_",
+        "pc": 0,
+        "file_offset": 2239944,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "access$600",
+    "method_index": 19239,
+    "code_offset": 2238056,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Lcom/google/protobuf/MapField;",
+        "name": "extMap_",
+        "pc": 0,
+        "file_offset": 2238072,
+        "opcode": "0x54"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "access$602",
+    "method_index": 19240,
+    "code_offset": 2238080,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Lcom/google/protobuf/MapField;",
+        "name": "extMap_",
+        "pc": 0,
+        "file_offset": 2238096,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "access$700",
+    "method_index": 19241,
+    "code_offset": 2239952,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "sender_",
+        "pc": 0,
+        "file_offset": 2239968,
+        "opcode": "0x54"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "access$702",
+    "method_index": 19242,
+    "code_offset": 2239976,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "sender_",
+        "pc": 0,
+        "file_offset": 2239992,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "access$800",
+    "method_index": 19243,
+    "code_offset": 2240000,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "receiver_",
+        "pc": 0,
+        "file_offset": 2240016,
+        "opcode": "0x54"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "access$802",
+    "method_index": 19244,
+    "code_offset": 2240024,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "receiver_",
+        "pc": 0,
+        "file_offset": 2240040,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "access$902",
+    "method_index": 19245,
+    "code_offset": 2239212,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "I",
+        "name": "bitField0_",
+        "pc": 0,
+        "file_offset": 2239228,
+        "opcode": "0x59"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "getDefaultInstance",
+    "method_index": 19248,
+    "code_offset": 2238540,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Lcom/soul/im/protos/PushMessage;",
+        "name": "a",
+        "pc": 0,
+        "file_offset": 2238556,
+        "opcode": "0x62"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "newBuilder",
+    "method_index": 19273,
+    "code_offset": 2239020,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Lcom/soul/im/protos/PushMessage;",
+        "name": "a",
+        "pc": 0,
+        "file_offset": 2239036,
+        "opcode": "0x62"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "toBuilder",
+        "proto_index": 3975,
+        "pc": 2,
+        "file_offset": 2239040,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "newBuilder",
+    "method_index": 19274,
+    "code_offset": 2239052,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Lcom/soul/im/protos/PushMessage;",
+        "name": "a",
+        "pc": 0,
+        "file_offset": 2239068,
+        "opcode": "0x62"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "toBuilder",
+        "proto_index": 3975,
+        "pc": 2,
+        "file_offset": 2239072,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "i0",
+        "proto_index": 3985,
+        "pc": 6,
+        "file_offset": 2239080,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "parseDelimitedFrom",
+    "method_index": 19280,
+    "code_offset": 2238588,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Lcom/google/protobuf/Parser;",
+        "name": "b",
+        "pc": 0,
+        "file_offset": 2238604,
+        "opcode": "0x62"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 6,
+        "file_offset": 2238616,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "parseDelimitedFrom",
+    "method_index": 19281,
+    "code_offset": 2238624,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Lcom/google/protobuf/Parser;",
+        "name": "b",
+        "pc": 0,
+        "file_offset": 2238640,
+        "opcode": "0x62"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 6,
+        "file_offset": 2238652,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "parseFrom",
+    "method_index": 19282,
+    "code_offset": 2238732,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Lcom/google/protobuf/Parser;",
+        "name": "b",
+        "pc": 0,
+        "file_offset": 2238748,
+        "opcode": "0x62"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 6,
+        "file_offset": 2238760,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "parseFrom",
+    "method_index": 19283,
+    "code_offset": 2238768,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Lcom/google/protobuf/Parser;",
+        "name": "b",
+        "pc": 0,
+        "file_offset": 2238784,
+        "opcode": "0x62"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 6,
+        "file_offset": 2238796,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "parseFrom",
+    "method_index": 19284,
+    "code_offset": 2238804,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Lcom/google/protobuf/Parser;",
+        "name": "b",
+        "pc": 0,
+        "file_offset": 2238820,
+        "opcode": "0x62"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 6,
+        "file_offset": 2238832,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "parseFrom",
+    "method_index": 19285,
+    "code_offset": 2238840,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Lcom/google/protobuf/Parser;",
+        "name": "b",
+        "pc": 0,
+        "file_offset": 2238856,
+        "opcode": "0x62"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 6,
+        "file_offset": 2238868,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "parseFrom",
+    "method_index": 19286,
+    "code_offset": 2238876,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Lcom/google/protobuf/Parser;",
+        "name": "b",
+        "pc": 0,
+        "file_offset": 2238892,
+        "opcode": "0x62"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 6,
+        "file_offset": 2238904,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "parseFrom",
+    "method_index": 19287,
+    "code_offset": 2238912,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Lcom/google/protobuf/Parser;",
+        "name": "b",
+        "pc": 0,
+        "file_offset": 2238928,
+        "opcode": "0x62"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 6,
+        "file_offset": 2238940,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "parseFrom",
+    "method_index": 19288,
+    "code_offset": 2238948,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Lcom/google/protobuf/Parser;",
+        "name": "b",
+        "pc": 0,
+        "file_offset": 2238964,
+        "opcode": "0x62"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 6,
+        "file_offset": 2238976,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "parseFrom",
+    "method_index": 19289,
+    "code_offset": 2238984,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Lcom/google/protobuf/Parser;",
+        "name": "b",
+        "pc": 0,
+        "file_offset": 2239000,
+        "opcode": "0x62"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 6,
+        "file_offset": 2239012,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "parseFrom",
+    "method_index": 19290,
+    "code_offset": 2238660,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Lcom/google/protobuf/Parser;",
+        "name": "b",
+        "pc": 0,
+        "file_offset": 2238676,
+        "opcode": "0x62"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 6,
+        "file_offset": 2238688,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "parseFrom",
+    "method_index": 19291,
+    "code_offset": 2238696,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Lcom/google/protobuf/Parser;",
+        "name": "b",
+        "pc": 0,
+        "file_offset": 2238712,
+        "opcode": "0x62"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 6,
+        "file_offset": 2238724,
+        "opcode": "0x1f"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "parser",
+    "method_index": 19292,
+    "code_offset": 2238468,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Lcom/google/protobuf/Parser;",
+        "name": "b",
+        "pc": 0,
+        "file_offset": 2238484,
+        "opcode": "0x62"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "containsExtMap",
+    "method_index": 19246,
+    "code_offset": 2237452,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "a",
+        "proto_index": 1720,
+        "pc": 3,
+        "file_offset": 2237474,
+        "opcode": "0x70"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "equals",
+    "method_index": 19247,
+    "code_offset": 2237500,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 4,
+        "file_offset": 2237524,
+        "opcode": "0x20"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 13,
+        "file_offset": 2237542,
+        "opcode": "0x1f"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getTitle",
+        "proto_index": 6265,
+        "pc": 15,
+        "file_offset": 2237546,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getTitle",
+        "proto_index": 6265,
+        "pc": 19,
+        "file_offset": 2237554,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getText",
+        "proto_index": 6265,
+        "pc": 29,
+        "file_offset": 2237574,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getText",
+        "proto_index": 6265,
+        "pc": 33,
+        "file_offset": 2237582,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "a",
+        "proto_index": 1720,
+        "pc": 43,
+        "file_offset": 2237602,
+        "opcode": "0x70"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "a",
+        "proto_index": 1720,
+        "pc": 47,
+        "file_offset": 2237610,
+        "opcode": "0x70"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getSender",
+        "proto_index": 6265,
+        "pc": 57,
+        "file_offset": 2237630,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getSender",
+        "proto_index": 6265,
+        "pc": 61,
+        "file_offset": 2237638,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getReceiver",
+        "proto_index": 6265,
+        "pc": 71,
+        "file_offset": 2237658,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getReceiver",
+        "proto_index": 6265,
+        "pc": 75,
+        "file_offset": 2237666,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "getDefaultInstanceForType",
+    "method_index": 19249,
+    "code_offset": 2238224,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getDefaultInstanceForType",
+        "proto_index": 3989,
+        "pc": 0,
+        "file_offset": 2238240,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "getDefaultInstanceForType",
+    "method_index": 19250,
+    "code_offset": 2238336,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getDefaultInstanceForType",
+        "proto_index": 3989,
+        "pc": 0,
+        "file_offset": 2238352,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "getDefaultInstanceForType",
+    "method_index": 19251,
+    "code_offset": 2238564,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Lcom/soul/im/protos/PushMessage;",
+        "name": "a",
+        "pc": 0,
+        "file_offset": 2238580,
+        "opcode": "0x62"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "getExtMap",
+    "method_index": 19253,
+    "code_offset": 2240400,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getExtMapMap",
+        "proto_index": 6608,
+        "pc": 0,
+        "file_offset": 2240416,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "getExtMapCount",
+    "method_index": 19254,
+    "code_offset": 2239236,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "a",
+        "proto_index": 1720,
+        "pc": 0,
+        "file_offset": 2239252,
+        "opcode": "0x70"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "getExtMapMap",
+    "method_index": 19255,
+    "code_offset": 2240428,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "a",
+        "proto_index": 1720,
+        "pc": 0,
+        "file_offset": 2240444,
+        "opcode": "0x70"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "getExtMapOrDefault",
+    "method_index": 19256,
+    "code_offset": 2240048,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "a",
+        "proto_index": 1720,
+        "pc": 3,
+        "file_offset": 2240070,
+        "opcode": "0x70"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "getExtMapOrThrow",
+    "method_index": 19257,
+    "code_offset": 2240116,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "a",
+        "proto_index": 1720,
+        "pc": 3,
+        "file_offset": 2240138,
+        "opcode": "0x70"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "getParserForType",
+    "method_index": 19258,
+    "code_offset": 2238444,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Lcom/google/protobuf/Parser;",
+        "name": "b",
+        "pc": 0,
+        "file_offset": 2238460,
+        "opcode": "0x62"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "getReceiver",
+    "method_index": 19259,
+    "code_offset": 2240192,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "receiver_",
+        "pc": 0,
+        "file_offset": 2240208,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "receiver_",
+        "pc": 15,
+        "file_offset": 2240238,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "getReceiverBytes",
+    "method_index": 19260,
+    "code_offset": 2237756,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "receiver_",
+        "pc": 0,
+        "file_offset": 2237772,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "receiver_",
+        "pc": 12,
+        "file_offset": 2237796,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "getSender",
+    "method_index": 19261,
+    "code_offset": 2240244,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "sender_",
+        "pc": 0,
+        "file_offset": 2240260,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "sender_",
+        "pc": 15,
+        "file_offset": 2240290,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "getSenderBytes",
+    "method_index": 19262,
+    "code_offset": 2237808,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "sender_",
+        "pc": 0,
+        "file_offset": 2237824,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "sender_",
+        "pc": 12,
+        "file_offset": 2237848,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "getSerializedSize",
+    "method_index": 19263,
+    "code_offset": 2239280,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getTitleBytes",
+        "proto_index": 1690,
+        "pc": 6,
+        "file_offset": 2239308,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "title_",
+        "pc": 17,
+        "file_offset": 2239330,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getTextBytes",
+        "proto_index": 1690,
+        "pc": 25,
+        "file_offset": 2239346,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "text_",
+        "pc": 36,
+        "file_offset": 2239368,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "a",
+        "proto_index": 1720,
+        "pc": 43,
+        "file_offset": 2239382,
+        "opcode": "0x70"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$c;",
+        "type": "Lcom/google/protobuf/n0;",
+        "name": "a",
+        "pc": 71,
+        "file_offset": 2239438,
+        "opcode": "0x62"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getSenderBytes",
+        "proto_index": 1690,
+        "pc": 108,
+        "file_offset": 2239512,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "sender_",
+        "pc": 119,
+        "file_offset": 2239534,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getReceiverBytes",
+        "proto_index": 1690,
+        "pc": 126,
+        "file_offset": 2239548,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "receiver_",
+        "pc": 137,
+        "file_offset": 2239570,
+        "opcode": "0x54"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "getText",
+    "method_index": 19264,
+    "code_offset": 2240296,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "text_",
+        "pc": 0,
+        "file_offset": 2240312,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "text_",
+        "pc": 15,
+        "file_offset": 2240342,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "getTextBytes",
+    "method_index": 19265,
+    "code_offset": 2237860,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "text_",
+        "pc": 0,
+        "file_offset": 2237876,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "text_",
+        "pc": 12,
+        "file_offset": 2237900,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "getTitle",
+    "method_index": 19266,
+    "code_offset": 2240348,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "title_",
+        "pc": 0,
+        "file_offset": 2240364,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "title_",
+        "pc": 15,
+        "file_offset": 2240394,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "getTitleBytes",
+    "method_index": 19267,
+    "code_offset": 2237912,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "title_",
+        "pc": 0,
+        "file_offset": 2237928,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "title_",
+        "pc": 12,
+        "file_offset": 2237952,
+        "opcode": "0x5b"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "hashCode",
+    "method_index": 19269,
+    "code_offset": 2239604,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getDescriptor",
+        "proto_index": 1695,
+        "pc": 5,
+        "file_offset": 2239630,
+        "opcode": "0x71"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getTitle",
+        "proto_index": 6265,
+        "pc": 22,
+        "file_offset": 2239664,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getText",
+        "proto_index": 6265,
+        "pc": 37,
+        "file_offset": 2239694,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "a",
+        "proto_index": 1720,
+        "pc": 46,
+        "file_offset": 2239712,
+        "opcode": "0x70"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "a",
+        "proto_index": 1720,
+        "pc": 66,
+        "file_offset": 2239752,
+        "opcode": "0x70"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getSender",
+        "proto_index": 6265,
+        "pc": 81,
+        "file_offset": 2239782,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getReceiver",
+        "proto_index": 6265,
+        "pc": 96,
+        "file_offset": 2239812,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "internalGetFieldAccessorTable",
+    "method_index": 19270,
+    "code_offset": 2237988,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage;",
+        "pc": 2,
+        "file_offset": 2238008,
+        "opcode": "0x1c"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage$b;",
+        "pc": 4,
+        "file_offset": 2238012,
+        "opcode": "0x1c"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "internalGetMapField",
+    "method_index": 19271,
+    "code_offset": 2238144,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "a",
+        "proto_index": 1720,
+        "pc": 3,
+        "file_offset": 2238166,
+        "opcode": "0x70"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "isInitialized",
+    "method_index": 19272,
+    "code_offset": 2237712,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "B",
+        "name": "memoizedIsInitialized",
+        "pc": 0,
+        "file_offset": 2237728,
+        "opcode": "0x56"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "B",
+        "name": "memoizedIsInitialized",
+        "pc": 10,
+        "file_offset": 2237748,
+        "opcode": "0x5d"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "newBuilderForType",
+    "method_index": 19275,
+    "code_offset": 2238252,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "newBuilderForType",
+        "proto_index": 3975,
+        "pc": 0,
+        "file_offset": 2238268,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "newBuilderForType",
+    "method_index": 19276,
+    "code_offset": 2238280,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "newBuilderForType",
+        "proto_index": 3982,
+        "pc": 0,
+        "file_offset": 2238296,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "newBuilderForType",
+    "method_index": 19277,
+    "code_offset": 2238364,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "newBuilderForType",
+        "proto_index": 3975,
+        "pc": 0,
+        "file_offset": 2238380,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "newBuilderForType",
+    "method_index": 19278,
+    "code_offset": 2239092,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "newBuilder",
+        "proto_index": 3975,
+        "pc": 0,
+        "file_offset": 2239108,
+        "opcode": "0x71"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "newBuilderForType",
+    "method_index": 19279,
+    "code_offset": 2239120,
+    "complete": true,
+    "references": [
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage$b;",
+        "pc": 0,
+        "file_offset": 2239136,
+        "opcode": "0x22"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "<init>",
+        "proto_index": 8366,
+        "pc": 3,
+        "file_offset": 2239142,
+        "opcode": "0x70"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "toBuilder",
+    "method_index": 19293,
+    "code_offset": 2238308,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "toBuilder",
+        "proto_index": 3975,
+        "pc": 0,
+        "file_offset": 2238324,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "toBuilder",
+    "method_index": 19294,
+    "code_offset": 2238392,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "toBuilder",
+        "proto_index": 3975,
+        "pc": 0,
+        "file_offset": 2238408,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "toBuilder",
+    "method_index": 19295,
+    "code_offset": 2239152,
+    "complete": true,
+    "references": [
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Lcom/soul/im/protos/PushMessage;",
+        "name": "a",
+        "pc": 0,
+        "file_offset": 2239168,
+        "opcode": "0x62"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage$b;",
+        "pc": 5,
+        "file_offset": 2239178,
+        "opcode": "0x22"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "<init>",
+        "proto_index": 9093,
+        "pc": 7,
+        "file_offset": 2239182,
+        "opcode": "0x70"
+      },
+      {
+        "kind": "type",
+        "value": "Lcom/soul/im/protos/PushMessage$b;",
+        "pc": 11,
+        "file_offset": 2239190,
+        "opcode": "0x22"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "<init>",
+        "proto_index": 9093,
+        "pc": 13,
+        "file_offset": 2239194,
+        "opcode": "0x70"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage$b;",
+        "name": "i0",
+        "proto_index": 3985,
+        "pc": 16,
+        "file_offset": 2239200,
+        "opcode": "0x6e"
+      }
+    ]
+  },
+  {
+    "dex": "classes8.dex",
+    "owner": "Lcom/soul/im/protos/PushMessage;",
+    "method": "writeTo",
+    "method_index": 19296,
+    "code_offset": 2241116,
+    "complete": true,
+    "references": [
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getTitleBytes",
+        "proto_index": 1690,
+        "pc": 0,
+        "file_offset": 2241132,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "title_",
+        "pc": 11,
+        "file_offset": 2241154,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getTextBytes",
+        "proto_index": 1690,
+        "pc": 16,
+        "file_offset": 2241164,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "text_",
+        "pc": 27,
+        "file_offset": 2241186,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "a",
+        "proto_index": 1720,
+        "pc": 32,
+        "file_offset": 2241196,
+        "opcode": "0x70"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage$c;",
+        "type": "Lcom/google/protobuf/n0;",
+        "name": "a",
+        "pc": 36,
+        "file_offset": 2241204,
+        "opcode": "0x62"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getSenderBytes",
+        "proto_index": 1690,
+        "pc": 42,
+        "file_offset": 2241216,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "sender_",
+        "pc": 53,
+        "file_offset": 2241238,
+        "opcode": "0x54"
+      },
+      {
+        "kind": "method",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "name": "getReceiverBytes",
+        "proto_index": 1690,
+        "pc": 58,
+        "file_offset": 2241248,
+        "opcode": "0x6e"
+      },
+      {
+        "kind": "field",
+        "class": "Lcom/soul/im/protos/PushMessage;",
+        "type": "Ljava/lang/Object;",
+        "name": "receiver_",
+        "pc": 69,
+        "file_offset": 2241270,
+        "opcode": "0x54"
+      }
+    ]
+  }
+]

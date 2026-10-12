@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5428632312761749421
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3325786659896561416
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2334719257474937932
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "EmojiView_pos",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

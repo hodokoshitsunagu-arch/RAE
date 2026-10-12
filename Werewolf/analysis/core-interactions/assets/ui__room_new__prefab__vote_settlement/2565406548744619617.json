@@ -1,0 +1,44 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1460790761927479644
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -464782513357897459
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5830776870800239969
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5862431113308858704
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5747932323727308275
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5658138241146998062
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Vote_Settlement_Cell",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7619782400131886655
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2451527801485161192
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3818075620899552095
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8961032006819721448
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "MessageListView",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

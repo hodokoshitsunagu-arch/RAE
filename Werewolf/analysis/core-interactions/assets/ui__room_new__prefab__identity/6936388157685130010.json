@@ -1,0 +1,54 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -2703542943234052313
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7802755607570700153
+  },
+  "m_Name": "",
+  "bindDic": {
+    "m_keys": [
+      "anim",
+      "roleImg",
+      "roleName",
+      "targetTxt",
+      "skillTxt",
+      "iKnowBtn"
+    ],
+    "m_values": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 3499961369544650290
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -8129859241033151563
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -5955723940069736864
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -6087712189522829691
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 8567540164357543480
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 4195374621203906095
+      }
+    ]
+  },
+  "animationEventList": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 6354275988817406035
+    }
+  ]
+}

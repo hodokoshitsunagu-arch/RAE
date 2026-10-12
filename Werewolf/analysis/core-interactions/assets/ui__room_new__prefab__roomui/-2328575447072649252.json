@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -301917071829353241
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7723180376726671884
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1096749498780255567
+      }
+    }
+  ],
+  "m_Layer": 0,
+  "m_Name": "VoiceSpeakBtn_light",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

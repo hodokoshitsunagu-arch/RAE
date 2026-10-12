@@ -1,0 +1,841 @@
+{
+  "scope": "SOUL",
+  "source_date": "2026-10-12",
+  "selection": "Reports, scripts, schemas, selected static evidence and standalone demos; no REA source/history, original APKs, downloaded tools, or large regenerable indexes.",
+  "bytes_before_portable_document_edits": 30599071,
+  "files": [
+    {
+      "path": "analysis/.gitattributes",
+      "bytes": 140,
+      "sha256": "29b68e43fa0a0b961dc47de769259b35288e1789877876f517a81b9645d85156"
+    },
+    {
+      "path": "analysis/.gitignore",
+      "bytes": 473,
+      "sha256": "a306d469154c409613f82c19003f6cd65fc9c668927b545a3bf9fe10c52c2214"
+    },
+    {
+      "path": "analysis/ANALYSIS.md",
+      "bytes": 17097,
+      "sha256": "f7a4b68b44c7654e1354f9cd45b2a8342b58134de11a0f4b23edbefa7965e9d2"
+    },
+    {
+      "path": "analysis/FLUTTER-GAMEPLAY.md",
+      "bytes": 14548,
+      "sha256": "bc37d4a1cf2025670549f8dea0113ce93436aad013a63a9f00206dfbc7b835da"
+    },
+    {
+      "path": "analysis/drawsomething/GameMsg.java",
+      "bytes": 5133,
+      "sha256": "40c2bcd803957d53c6a67a604c39d584780b8832030799f9ab8000888fcd7b08"
+    },
+    {
+      "path": "analysis/drawsomething/PROTOBUF-RECOVERY.md",
+      "bytes": 5696,
+      "sha256": "15516126f8cba0b2031e0a41872319b3849f54f1b617ecf9dab840aab76dcfd0"
+    },
+    {
+      "path": "analysis/drawsomething/REVERSE-ENGINEERING.md",
+      "bytes": 12864,
+      "sha256": "7c738948d4494ed24a976ea4878e7fd13d0b23ae969907a5a695a26c6172b295"
+    },
+    {
+      "path": "analysis/drawsomething/descriptor-provenance.json",
+      "bytes": 658,
+      "sha256": "f1ca83f4103af6ff7a87d1ee7bd53e28c08561200b6dba023c817a6a77c87742"
+    },
+    {
+      "path": "analysis/drawsomething/descriptor-validation.json",
+      "bytes": 362,
+      "sha256": "0fe84ccaaebd9d2e2e937ea80285f45d5c2dc708dcf1a692117d996a4a0346f7"
+    },
+    {
+      "path": "analysis/drawsomething/descriptor.txt",
+      "bytes": 16154,
+      "sha256": "87fdbc282e67ec63961b315f44ffe34a66abf071d61a82725c6b1b54df69c08b"
+    },
+    {
+      "path": "analysis/drawsomething/draw-something.proto",
+      "bytes": 3912,
+      "sha256": "d52be976074d50c565f36fcbae1bb6baee30d31d6aec33e68e3218ac3a8855e3"
+    },
+    {
+      "path": "analysis/drawsomething/envelope/ENVELOPE-RECOVERY.md",
+      "bytes": 2362,
+      "sha256": "2f09511d99830f756096d16e5aff8504ed3fe5bac7ec0b6f6c5249fabfd712c7"
+    },
+    {
+      "path": "analysis/drawsomething/envelope/descriptor-provenance.json",
+      "bytes": 574,
+      "sha256": "2c691ea3397ef009e5f4f2931209a748bc3f78d1ce98fd40063c3d38ac3a8410"
+    },
+    {
+      "path": "analysis/drawsomething/envelope/descriptor-validation.json",
+      "bytes": 281,
+      "sha256": "77fafeebb1f3244b667c984bdd002f86bb2b444873280813e252c14f50904597"
+    },
+    {
+      "path": "analysis/drawsomething/envelope/descriptor.txt",
+      "bytes": 39820,
+      "sha256": "dc46b425ae791cbb201a0a9a5aa8542448f415a3d8162a211df9288133f274c1"
+    },
+    {
+      "path": "analysis/drawsomething/envelope/im.proto",
+      "bytes": 11122,
+      "sha256": "c13d2c70dba866ff2c530eb9f48e6b22150d2ecfc646df37fe56b6f79788775e"
+    },
+    {
+      "path": "analysis/drawsomething/envelope/recover_envelope.py",
+      "bytes": 1306,
+      "sha256": "19dc4148e1bc283c10c1653ba504f6b740097c47add58a0335d6243a43dc069f"
+    },
+    {
+      "path": "analysis/drawsomething/envelope/render_envelope.py",
+      "bytes": 1586,
+      "sha256": "1f3df1141ec0d4016b108a0577692a3792e5dec6b8019c72cdbf1528e82cf0ea"
+    },
+    {
+      "path": "analysis/drawsomething/examples/gameover.decoded.textproto",
+      "bytes": 291,
+      "sha256": "0b701273665261526d66f86bad64cc32aa12997ba4c018ae426df9506bb5d346"
+    },
+    {
+      "path": "analysis/drawsomething/examples/gameover.textproto",
+      "bytes": 217,
+      "sha256": "3266cb2edccc045903eaad13348ad3b072bac1c041be34c6375525a8330eee17"
+    },
+    {
+      "path": "analysis/drawsomething/examples/guess.decoded.textproto",
+      "bytes": 185,
+      "sha256": "5ea5923c546c167733f2ee5f89400da5a6a2a19473394e7d70f0dfea22a195e0"
+    },
+    {
+      "path": "analysis/drawsomething/examples/guess.textproto",
+      "bytes": 156,
+      "sha256": "6a4b357be7dee27c75d7f12afc4188b4cb1dca7198754f7f05fa552b7bfd9653"
+    },
+    {
+      "path": "analysis/drawsomething/examples/invite.decoded.textproto",
+      "bytes": 164,
+      "sha256": "82d41554198542f7defa13e594d3d5659d73bde3480619d17e49b24897e63ccd"
+    },
+    {
+      "path": "analysis/drawsomething/examples/invite.textproto",
+      "bytes": 160,
+      "sha256": "b7c0f200ee7c5f3e2d2bc427743abace51f01588ca131444d2fec3b0caf44921"
+    },
+    {
+      "path": "analysis/drawsomething/examples/ready.decoded.textproto",
+      "bytes": 78,
+      "sha256": "c27e4468a4ea507c12c0e6783a6fbc672e9220a15e3152ad11f9ea228b7512b8"
+    },
+    {
+      "path": "analysis/drawsomething/examples/ready.textproto",
+      "bytes": 90,
+      "sha256": "ab1825e75d5db214963cb3907f7c69b346e690990b78b7732de57e4e892f3b52"
+    },
+    {
+      "path": "analysis/drawsomething/examples/round-start.decoded.textproto",
+      "bytes": 102,
+      "sha256": "fbd0df21a74b1951eeea93bbea44018d231bbbdd503e78865fc061ae6dbd3b13"
+    },
+    {
+      "path": "analysis/drawsomething/examples/round-start.textproto",
+      "bytes": 88,
+      "sha256": "682fc46b618d962c800dba08128f895a9da692a3c6539fed90a8d4f2c72e68ea"
+    },
+    {
+      "path": "analysis/drawsomething/examples/validation.json",
+      "bytes": 1691,
+      "sha256": "2c702097922df17222a3204338cbbd5d574163081089007c1eae85d0c636ff2c"
+    },
+    {
+      "path": "analysis/drawsomething/external-references.json",
+      "bytes": 181769,
+      "sha256": "6b2ca2e6cb79c5e29ea299f103718b6d2d43fd4aa35f1a4d60b5df6ed4d8c9fb"
+    },
+    {
+      "path": "analysis/drawsomething/inventory_ui.py",
+      "bytes": 2530,
+      "sha256": "4cbe5e3b610c80476c46de227789a7450fe731dfd1a1f541d513d04f659c2ab5"
+    },
+    {
+      "path": "analysis/drawsomething/jadx-release.json",
+      "bytes": 14981,
+      "sha256": "b3a00f0996dc47ec53b741820af09430e48840c33010ce4d45fd9f63fccd0a31"
+    },
+    {
+      "path": "analysis/drawsomething/message-conversion.java",
+      "bytes": 23810,
+      "sha256": "841cd26049c6cfae61050ea938f432ce0caa0ca60c1e9c0b29bb22af82834fbe"
+    },
+    {
+      "path": "analysis/drawsomething/message-packet-base.java",
+      "bytes": 2108,
+      "sha256": "96e8b9964f4a8971724443b186342fd2083aa990dc6ee1c6ce3e2fbb456954b9"
+    },
+    {
+      "path": "analysis/drawsomething/packet-factory.java",
+      "bytes": 11302,
+      "sha256": "fe181eb0ff1d2f07aae96982b298f58d58f7abfff9c8a083038d58cd5c4dd320"
+    },
+    {
+      "path": "analysis/drawsomething/protocol-examples.py",
+      "bytes": 2314,
+      "sha256": "7244985a05b32a19b56e4edb46e4ea3a4dc65cf6aa04d6b43279f72584ac7275"
+    },
+    {
+      "path": "analysis/drawsomething/recover_protocol.py",
+      "bytes": 2832,
+      "sha256": "501cc6b40345c17c514497d20e0d80f109d2aa86e0d3d5f5ad60e721743d93a3"
+    },
+    {
+      "path": "analysis/drawsomething/reference-summary.txt",
+      "bytes": 61545,
+      "sha256": "ef687ca5e972c94d6a92dbdb914223284be69c2094ac34144281f7efa74b7ed9"
+    },
+    {
+      "path": "analysis/drawsomething/references.json",
+      "bytes": 2565583,
+      "sha256": "c663b5329db9b4c14197f2639e0aa536a0b44a4729254aff7b201e4d2d231384"
+    },
+    {
+      "path": "analysis/drawsomething/render_proto.py",
+      "bytes": 3725,
+      "sha256": "9eff7a6f23923921a50b9bd466993d2a9390e93ee2386a0e3e54c3d8206e8700"
+    },
+    {
+      "path": "analysis/drawsomething/trace_references.py",
+      "bytes": 3093,
+      "sha256": "e2126bf8b728b1a2382607481185d80f8ee2e468ef52150a8c5671bbe6125a1f"
+    },
+    {
+      "path": "analysis/drawsomething/transport-z6-e.java",
+      "bytes": 2185,
+      "sha256": "08a4e37682115488eacca572cdda2621b1a961e337a01134398b5e9ff18cef81"
+    },
+    {
+      "path": "analysis/drawsomething/ui-inventory.json",
+      "bytes": 300936,
+      "sha256": "711ef085612ac069017e1553c6022506689608ece81e8569ec12f12f64e9fcb0"
+    },
+    {
+      "path": "analysis/drawsomething/ui-report.md",
+      "bytes": 5107,
+      "sha256": "38018259ba1cf13270664692d808b5e4dcafbbd219d0763a7ce2273bd794daf4"
+    },
+    {
+      "path": "analysis/drawsomething/ui-selected-methods.json",
+      "bytes": 93089,
+      "sha256": "c0666475007ba1bfac8a9c6ef37351f404111d508c55d1efc26aa6ed16c85098"
+    },
+    {
+      "path": "analysis/drawsomething/writer-evidence.json",
+      "bytes": 96099,
+      "sha256": "c048eefe0007bc050b2dbf488958eaa91eeaf92f7a176e4340402ab1e231bc78"
+    },
+    {
+      "path": "analysis/extract_gameplay_schemas.py",
+      "bytes": 5559,
+      "sha256": "c44066dd65bd315643b26a010bba461ea0d97357129e8df6f301a3f4888eb47f"
+    },
+    {
+      "path": "analysis/flutter/betFruit.objdump.txt",
+      "bytes": 3826,
+      "sha256": "efede97db840dd274584e6901f7c31286089f478695db0321236afb1a3e5cfa0"
+    },
+    {
+      "path": "analysis/flutter/dae-info.log",
+      "bytes": 100,
+      "sha256": "a5d1ff4d900c87e8e14317afa2ef61e06c4c5637078f89fae2a5a1424807e7ce"
+    },
+    {
+      "path": "analysis/flutter/dae-info.txt",
+      "bytes": 393,
+      "sha256": "3957d1b8608fd24ff7863451684d9f8002cf48c47870b1cd995acbb68e254e2d"
+    },
+    {
+      "path": "analysis/flutter/dae-release.json",
+      "bytes": 21539,
+      "sha256": "2788b90396c6a3250aca9bf9529125052c7245a7e985425c4991da56a15ff109"
+    },
+    {
+      "path": "analysis/flutter/export-diagnostics.log",
+      "bytes": 198,
+      "sha256": "fd5b87edab2a8527ec63b395c3871250109c9c92acda34a24a5155553fb8beeb"
+    },
+    {
+      "path": "analysis/flutter/export.log",
+      "bytes": 1193,
+      "sha256": "1028617e1b43d8d44329dd71a54f72f7fc91d9848def864568e695fc8862b2b5"
+    },
+    {
+      "path": "analysis/flutter/extract_schema.py",
+      "bytes": 3285,
+      "sha256": "eac317066eb120d6891446bee53114baa4e69e4758d4c8ec52537611b5a60eee"
+    },
+    {
+      "path": "analysis/flutter/flow-byte-validation.txt",
+      "bytes": 30352,
+      "sha256": "08cb7dbf60c5b63ccf273de885921e96fb2e71b38a866668eadc13295d30b68f"
+    },
+    {
+      "path": "analysis/flutter/flutter-flow-report.md",
+      "bytes": 12669,
+      "sha256": "fdbfef82aad97b553a64038349016dfcc45b4e521d254296c093b50fe1d59e45"
+    },
+    {
+      "path": "analysis/flutter/flutter-game-schemas.json",
+      "bytes": 447035,
+      "sha256": "75c0af28fddf79046cc58aac06cfe60a517379239b4f65f1b74cd221ca5a1efd"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$api$api_service.dart",
+      "bytes": 101235,
+      "sha256": "7786752aa5ded9daf81cfb627d44a979eb3bdef6cf82988ff71caa30c1696530"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$api$game_api_service.dart",
+      "bytes": 28926,
+      "sha256": "ae1d2e20f91875948ee6fbae63468cff602c9f32d646db5461c9a2a2ce65697c"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$api$party_api_service.dart",
+      "bytes": 9814,
+      "sha256": "3dbf0de6628b05b68b9e819562aa32e75250fa77828ef8ed6a5c706e9f08649c"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$game$notifier$notifier_game_fruit.dart",
+      "bytes": 141729,
+      "sha256": "558d2b8684fb45e2256f1452a35ea3b8f309becba5492c87bf03bb56c7cb4553"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$game$notifier$notifier_game_fruit_bet_record_dialog.dart",
+      "bytes": 19611,
+      "sha256": "995f9f02c606edeab45cb6bc6178a8e42105804040e651c9ed2f23d57a719fcb"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$game$notifier$notifier_game_fruit_ranking.dart",
+      "bytes": 19577,
+      "sha256": "6204f8e5b37e2409f5536843867e540a55db9d6335da6d0781e787b0ed758426"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$game$notifier$notifier_game_fruit_winner_dialog.dart",
+      "bytes": 26153,
+      "sha256": "e2a382d258c2170b7a0b7362a8baca3739bd77da2d25577c3fbc845dbebcc077"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$game$page_game_fruit.dart",
+      "bytes": 130527,
+      "sha256": "fed961864db03cf7fc3324f6ead5cf8fca2b5d1c4e0b9dac892acdc7aa515ab4"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$game$page_game_fruit_bet_record_dialog.dart",
+      "bytes": 205026,
+      "sha256": "0e76f5d9108b2094b5f8000b5dbb4144701d2757b1db54be69b153a3228ab2f8"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$game$page_game_fruit_ranking.dart",
+      "bytes": 186442,
+      "sha256": "ba55b918bec675e0069056d6f06d1226314794a9770b83e8de398e8e1630214e"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$game$page_game_fruit_winner_dialog.dart",
+      "bytes": 138719,
+      "sha256": "bbae2e4d8a79a58ec0cc4c0c694c70865600e92fc59de59051e96ad62c6d00f4"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$game$widget$game_fruit_land.dart",
+      "bytes": 124319,
+      "sha256": "d595df484106e216a2d278dd5cb966eec43357586c251e1bf4a33c4f06871771"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$party$notifier$notifier_party_invite.dart",
+      "bytes": 103909,
+      "sha256": "1633101f36f6617b1724c5fceddb744e6672e2821cc243b4bc1f244819bfc2b4"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$party$notifier$notifier_party_packag_list.dart",
+      "bytes": 27926,
+      "sha256": "0d2601e72f5c1ee17f1dfce7af15a3fc54fbcad52095b951cac95156dab16856"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$party$notifier$notifier_party_package_history.dart",
+      "bytes": 22878,
+      "sha256": "175670da00ba0c4733879dcf7568f84c516a9bc5fcc0b8b077dd1387e7c477d3"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$party$notifier$notifier_party_password.dart",
+      "bytes": 15040,
+      "sha256": "79a421c7c694eda637846dd43b9c56d7beb1f06cd5fc3df9fdfd94eb4f4d9d9b"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$party$notifier$notifier_party_search.dart",
+      "bytes": 29224,
+      "sha256": "4b34955bfce30178a4860203cc02142501bd472c5e1642b0e06dc999ac047d8d"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$party$notifier$notifier_party_send_pocket.dart",
+      "bytes": 36504,
+      "sha256": "e1dba7b985664f7bacd00486a70efe22ce5e8f8ac26401a11539c3dc77a16294"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$party$page_party_invite.dart",
+      "bytes": 180681,
+      "sha256": "5483b2efe6c07da7d3a277c099505e764870cf36eb263b8e96c990527f38d7b0"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$party$page_party_lucky_bag.dart",
+      "bytes": 247674,
+      "sha256": "b4ccbff5b24e94784350647e25494f704e2bb0e21e19805eb79210f79aaef712"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$party$page_party_lucky_bag_history.dart",
+      "bytes": 126173,
+      "sha256": "2a004467c070c014bff0ec52db1b3bfa0a5fdb28589c37ddaf13ed3f259fb7c3"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$party$page_party_password.dart",
+      "bytes": 97735,
+      "sha256": "6b4bbf14b6c1c94c71e869e08c8b30bb53252ae28f669dc5cb4b710bc7e5e449"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$party$page_party_search.dart",
+      "bytes": 96464,
+      "sha256": "57b436609194aec50f07ebbb8eb97e79552d6fb63b7dd97108300586dce310b3"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$party$page_party_send_pocket.dart",
+      "bytes": 133782,
+      "sha256": "f64629a6f474c4a9a60086a5c11d2639d70c6134a9f29a7a430b2d8a4fb3b3d0"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$party$widget$party_pocket_button.dart",
+      "bytes": 28622,
+      "sha256": "a146745f1311e1d54cd082065c40c731eeb8e072acaf454adbd71815e64a9880"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$party$widget$party_pocket_dialog.dart",
+      "bytes": 47358,
+      "sha256": "735d6ce002fbfb32e2bc36b1f770cd165b90e6aba6b59a08142ff6e6e1f5716b"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$party$widget$party_pocket_shape_border.dart",
+      "bytes": 10625,
+      "sha256": "a6d61934b052ae318f65d50100db3d5dc7d7d193aea644a8da4d6477f60cb432"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$pkGame$notifier$notifier_game_bet_record.dart",
+      "bytes": 35844,
+      "sha256": "6a212adbc3758dc61db5d5b26e639458beeb971c3fac5448e2e5250a49594ae1"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$pkGame$notifier$notifier_game_make_bet_record_dialog.dart",
+      "bytes": 20283,
+      "sha256": "8fbb440f0e2e9065246852341fe597ef0bef67c5ece338d708d2be36e084b444"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$pkGame$page_game_bet_pk_rule.dart",
+      "bytes": 43459,
+      "sha256": "2abd87dbe886f3673a0e5f290e2d2066784ff5b60f3f60a2c0e6b9081ebf773b"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$pkGame$page_game_make_bet_record.dart",
+      "bytes": 93306,
+      "sha256": "4a5413a55d1d2d8e479a50e07a4f42786b246f82eb1e04c3e6cd35d0eac8e71c"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$biz$pkGame$page_game_tab_bet_record.dart",
+      "bytes": 237568,
+      "sha256": "fc7fef82ba027a30fa7fc40c542a2fe9d7f098317083fd095606e4ef434c4b25"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$common$plugins$channel_native.dart",
+      "bytes": 18184,
+      "sha256": "daa4554c3d71f491b17f788c4078b1c77eabeb01bd0136aea620847aa6cb135a"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$common$plugins$codec.dart",
+      "bytes": 9863,
+      "sha256": "6f3f182699f3c81b87d04957e156957ac058f17a45ff502003291718bdf913fd"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$common$plugins$event_track.dart",
+      "bytes": 15523,
+      "sha256": "b797f9890b98ac56c285028c81e05dedbae83a8fc487f6fbd874711df9933e38"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$common$plugins$flutter_image_texture.dart",
+      "bytes": 10621,
+      "sha256": "25d71e77bec87fcbbaf8a05bfbe535f8c6cf4b0715a6cda9b40d6edd1e193d91"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$common$plugins$http.dart",
+      "bytes": 62394,
+      "sha256": "ea8fc4963a8ca6ae51d7ab9b64f9ed830b5d61f3f3adda486d362380c12c3d0c"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$common$plugins$message.dart",
+      "bytes": 62689,
+      "sha256": "7e869653a720e9e38ce716264407498373f0c2a83e31fa91992a6ee66f39e93c"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$common$plugins$native_dialog.dart",
+      "bytes": 7821,
+      "sha256": "235f9ffc4fb6c1b2faada0fa8b6635eb81c7445aa336201c58b041d633f80279"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$common$plugins$native_event.dart",
+      "bytes": 22841,
+      "sha256": "667bcaf49f6a2f2f3775e9ddc922e072a8ca1fc3072a5cebbfc49109d3c24195"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$common$plugins$router.dart",
+      "bytes": 29445,
+      "sha256": "b752161d8252a5cc43b9fba68750662aaae4045e70c7a30b12b5aa2197fec0a1"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$common$plugins$virtual_party.dart",
+      "bytes": 9191,
+      "sha256": "bd91ef5d41ea6729b198c8481f74dae3654bb5ed1ed34af9bd97e833046df173"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$model$game_fruit_model.dart",
+      "bytes": 114313,
+      "sha256": "043221508ae3d8876d8c2da715b4a57ace146b0b57301a05cb7662de40a74cb9"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$model$game_pk_model.dart",
+      "bytes": 29816,
+      "sha256": "93e7e33d052123e83075f73f4b3376f0dc9175923ba2b5ca30e402e834644fc8"
+    },
+    {
+      "path": "analysis/flutter/recovered/asm/soul_flutter_international$model$party_model.dart",
+      "bytes": 118928,
+      "sha256": "b53277825a8bb80289d43f53ea5d0f5c8672eee5a57470bf53ec50c4cab83cff"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_api_api_service.dart",
+      "bytes": 105394,
+      "sha256": "432c53a2848dc6459e087a439b9a67f0834af51e407add0d504b9168cb5de307"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_api_game_api_service.dart",
+      "bytes": 32417,
+      "sha256": "b0dc3c7b3d6c31e104b3b556397bd2863c5a06d4c96fff18969d387f30539588"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_api_party_api_service.dart",
+      "bytes": 12528,
+      "sha256": "ce6449f09bc9ece29623b585afeb212a291a627109790c4298a3bfd29c5411d6"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_game_notifier_notifier_game_fruit.dart",
+      "bytes": 157436,
+      "sha256": "874b9ce845a32dc5b664201d088ed95f99ae9ed60ec3bc033b97939f19f32379"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_game_notifier_notifier_game_fruit_bet_record_dialog.dart",
+      "bytes": 23221,
+      "sha256": "699511dbaaebce70a542e868f06a2768759579e5f6c77aac54fd5524ce1433f7"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_game_notifier_notifier_game_fruit_ranking.dart",
+      "bytes": 23163,
+      "sha256": "70a32fe95c444d92f4f592e82f1fd0da58115f25d3d0f3c5dab4470125496427"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_game_notifier_notifier_game_fruit_winner_dialog.dart",
+      "bytes": 30614,
+      "sha256": "698a864edf839bdc0cde0948b68bff65bbd232644fd370c21c5b423575c50615"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_game_page_game_fruit.dart",
+      "bytes": 134713,
+      "sha256": "8ceb65e208f4a7d71c358f7c1eee6b2d66b81741951e0fac81e583795429e119"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_game_page_game_fruit_bet_record_dialog.dart",
+      "bytes": 208759,
+      "sha256": "2a22bb97b37a4fdfb0aa9dafd50813478a3f4e2f2c3492a0c88763b5057e94d7"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_game_page_game_fruit_ranking.dart",
+      "bytes": 203910,
+      "sha256": "fbbd00d01d5a15532374ff06865c9fe8fc4f8dbeb8c1770a6695b7ab4ef89cf3"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_game_page_game_fruit_winner_dialog.dart",
+      "bytes": 156388,
+      "sha256": "f3d9494f790bb68d34416d491067593d1d3a05bdfab0041bdd60eb768d68a838"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_game_widget_game_fruit_land.dart",
+      "bytes": 133318,
+      "sha256": "43672da24fb5ef9dcbff0f58bd6d2b17e4c853d7934d25b395c30e3089bdc292"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_party_notifier_notifier_party_invite.dart",
+      "bytes": 114003,
+      "sha256": "463681c0142d54ce2358ca0bb3729ecfb9ec1691514e08dfa6ca9c793bd9cfe3"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_party_notifier_notifier_party_packag_list.dart",
+      "bytes": 32464,
+      "sha256": "a7e0d434e65abd7d3da28dc85936d58b146e62bba7ed9c8ae53c527c55debfac"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_party_notifier_notifier_party_package_history.dart",
+      "bytes": 26619,
+      "sha256": "a8c8ecd8b6595efba6126cde330c7db8ea417a41b44a6b3866059b6a9551c507"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_party_notifier_notifier_party_password.dart",
+      "bytes": 17407,
+      "sha256": "0397663d35a900ad12015c043c43422046e48201a67b11281593381ff5fe6d84"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_party_notifier_notifier_party_search.dart",
+      "bytes": 33456,
+      "sha256": "3d6f01183afd567dfa3c5b2e945e8bfa2a55ef24406a3938bf4a5e886c5abb54"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_party_notifier_notifier_party_send_pocket.dart",
+      "bytes": 45575,
+      "sha256": "39d8fc21b3d80d4e8dc93695251df68321fcc528135e12bb8b3f9ab54d75eea3"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_party_page_party_invite.dart",
+      "bytes": 198358,
+      "sha256": "501b484f6e1fa7aa880936cc4b67d8b83bd33ed0c995d9c9fc7af1e29cf5c20a"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_party_page_party_lucky_bag.dart",
+      "bytes": 260136,
+      "sha256": "ff89eb29cf5b3eef61aea84f6b6b76ea2bdf4018784b79ff57958749e8665143"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_party_page_party_lucky_bag_history.dart",
+      "bytes": 135502,
+      "sha256": "1b218b1610b2fbcbd9d3b6ab3d00f340a191eed06dd6294917c6e83f8b54dea4"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_party_page_party_password.dart",
+      "bytes": 101420,
+      "sha256": "70c2c6f904d15ee5a5c32b06fff912864c5acbe30769526b4207fd25e4eed842"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_party_page_party_search.dart",
+      "bytes": 107359,
+      "sha256": "5844317285930aa5976d27383e5938408212c416b0b5419a2b7cbb3cc933aac4"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_party_page_party_send_pocket.dart",
+      "bytes": 142309,
+      "sha256": "63c51afe26a15330441fd1046a27e0b73a924f281fe31b38f5f8a677a45a4f3b"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_party_widget_party_pocket_button.dart",
+      "bytes": 31320,
+      "sha256": "378019bbd1587fb6ce895008ff60ce232fe8e42df7e68007a017ff0ec620dece"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_party_widget_party_pocket_dialog.dart",
+      "bytes": 49619,
+      "sha256": "5f1ed73bf54ed9794a51d7eda83649fd14f6485bbd4e1aee2746a46b3f5521d5"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_party_widget_party_pocket_shape_border.dart",
+      "bytes": 14851,
+      "sha256": "c15b7f926fe646568016fdca770342a97c88923400006b89553d3cc04278e34c"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_pkGame_notifier_notifier_game_bet_record.dart",
+      "bytes": 40108,
+      "sha256": "d4bb005b08821f829b9718d209faa801e58e3e59fc6faf25528e1fc3eb34ae42"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_pkGame_notifier_notifier_game_make_bet_record_dialog.dart",
+      "bytes": 24136,
+      "sha256": "5ab81a57525f67a1ee8956a5afc2516078ad6de48b68ee59cd716f5985eb8aca"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_pkGame_page_game_bet_pk_rule.dart",
+      "bytes": 45728,
+      "sha256": "3eec2e2f2301a2ac6fe850312875f29457fb7ee4923c4b376ca114e5fcf85080"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_pkGame_page_game_make_bet_record.dart",
+      "bytes": 97326,
+      "sha256": "bc6bcbbd83ccc277a8b3043433b682a60bb724b98509f1deeb097c07877a49ce"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_biz_pkGame_page_game_tab_bet_record.dart",
+      "bytes": 254407,
+      "sha256": "be2513cf2212244dc1095a6b92e3ae42194ad27df9b318f5f6b24c70fe8978c3"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_common_plugins_channel_native.dart",
+      "bytes": 22153,
+      "sha256": "962f5a24a2109ce4e1be3ccb9ce33fd60ec51412d64d4ebc27a7ad26a783a6da"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_common_plugins_codec.dart",
+      "bytes": 10457,
+      "sha256": "613fa1ed2efc48fd483e2097df78fdb7770a7708a6e07610aaede664fd526193"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_common_plugins_event_track.dart",
+      "bytes": 17667,
+      "sha256": "ca925f746f59f44415e11d7f79677684954ca949c0540ea651685ce7b65fb4d2"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_common_plugins_flutter_image_texture.dart",
+      "bytes": 13745,
+      "sha256": "ac3cb8223fafa7a52ba2401bca946bf35ac9107141e718c8db491cd9b01fcbb1"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_common_plugins_http.dart",
+      "bytes": 65968,
+      "sha256": "a826f3ba3cb5da101382fc7b09f0b5b1368e0e73d6d273bca0e64b3119581fad"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_common_plugins_message.dart",
+      "bytes": 61266,
+      "sha256": "198b193a0a0c05464229cb1be705e15b52b56fe05ff0157afbbc04d85d193a59"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_common_plugins_native_dialog.dart",
+      "bytes": 10263,
+      "sha256": "7d3ff6e46200acdb9ee44bd0308c7a0e0ac685fcf91d1be38fc7355082bd11ee"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_common_plugins_native_event.dart",
+      "bytes": 25244,
+      "sha256": "173937e324d79a17f609bb0c300cd61949025bfaa997f895e951583081c85d08"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_common_plugins_router.dart",
+      "bytes": 32311,
+      "sha256": "71a83d421f580c93da6b0b8698f7bbc58bb57ff5a207dfd90c696dee5a60a131"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_common_plugins_virtual_party.dart",
+      "bytes": 11932,
+      "sha256": "4ccae5c9ba0d8f499ac69c28b4793bcaf392462f322c953a821b0f15102c44b9"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_model_game_fruit_model.dart",
+      "bytes": 119633,
+      "sha256": "bc1af9dc258a237a463534518558f8f521cc524f9f71ee4366fcf38273fd7f85"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_model_game_pk_model.dart",
+      "bytes": 33487,
+      "sha256": "05ba7395451995940b1188a4aa10e5a1d4dc131aff7b4c98ee506ba795dff072"
+    },
+    {
+      "path": "analysis/flutter/recovered/dart/soul_flutter_international_model_party_model.dart",
+      "bytes": 125335,
+      "sha256": "0c61693b6db32455df2e2cceb3107a7ad86206e91104da230677f363b90143ba"
+    },
+    {
+      "path": "analysis/flutter/recovered/text/arrays.txt",
+      "bytes": 280035,
+      "sha256": "bccedce67479dc0cd09eb474ae780d666f8dc957e02054874aac9a140d8177b7"
+    },
+    {
+      "path": "analysis/flutter/recovered/text/call_edges.txt",
+      "bytes": 1320268,
+      "sha256": "e78860a044907ecffe12e2f0c9686df52050888c907c6aa6f57281688e91ac90"
+    },
+    {
+      "path": "analysis/flutter/recovered/text/classes.txt",
+      "bytes": 327057,
+      "sha256": "2d882b8d9fdcb08038cda1be9303f6324af1e7fa5bc19259dd1ff7a835c4ae80"
+    },
+    {
+      "path": "analysis/flutter/recovered/text/fields.txt",
+      "bytes": 22996,
+      "sha256": "322b3a566da9c2d3709e5c26a38aeed9aca389fbd180387f8c0dc14b460263f0"
+    },
+    {
+      "path": "analysis/flutter/recovered/text/functions.txt",
+      "bytes": 114021,
+      "sha256": "17ad5f67393486d90a2dee9123cdbb3f304daddadfd472eb4b94142a155a12d8"
+    },
+    {
+      "path": "analysis/flutter/recovered/text/libs.txt",
+      "bytes": 43499,
+      "sha256": "4b21618ac485e8ba4eec22a3b139f045fe4f6044d659dca9a0bdcaa979b51269"
+    },
+    {
+      "path": "analysis/flutter/recovered/text/maps.txt",
+      "bytes": 2446,
+      "sha256": "cf7bcccba666fe04020eee83d0b38a244fd2d3bbfbc1e2f0961ec779505bd270"
+    },
+    {
+      "path": "analysis/flutter/recovered/text/objs.txt",
+      "bytes": 768026,
+      "sha256": "b57b7430a17223f7e591086c83c26af54dad7d4ebbcbf43fcef11d58982344a2"
+    },
+    {
+      "path": "analysis/flutter/recovered/text/pp.txt",
+      "bytes": 1203711,
+      "sha256": "4c0074c517c890cf991c4e85138a1673afb84ac1b9fdded56b144d39d5d71117"
+    },
+    {
+      "path": "analysis/flutter/recovered/text/strings.txt",
+      "bytes": 618364,
+      "sha256": "27931d365059fdb12e712a7c1a5e685077bcf3186b53592dd8c61b271fb6a7b1"
+    },
+    {
+      "path": "analysis/flutter/recovered/text/stubs.txt",
+      "bytes": 113876,
+      "sha256": "1c9cdb663d26912e0180bd7a1945dfc1ea6097e5013a2a8aaf773668d118295d"
+    },
+    {
+      "path": "analysis/flutter/schema-extraction.log",
+      "bytes": 2810,
+      "sha256": "af84360b9e82da55e128bc6aac8d8cae87db576c7eb1965261fcdce895910032"
+    },
+    {
+      "path": "analysis/gameplay-schemas.json",
+      "bytes": 2820921,
+      "sha256": "2770bebf78aba60b131c774e82beccfa16a23162c75ea5c1e3d80a2ff3930556"
+    },
+    {
+      "path": "analysis/gameplay-schemas.md",
+      "bytes": 10304,
+      "sha256": "4f1ba5f80a10904a74e7decc40d23f5992d3d1417fba87f212bb20f732283b9f"
+    },
+    {
+      "path": "analysis/index_apk.py",
+      "bytes": 3546,
+      "sha256": "eef7e96a1bee7dc2028eaa20e38c4d9d8889fa6ae60a5b302c6437733fe0f16a"
+    },
+    {
+      "path": "analysis/manifest-identity.json",
+      "bytes": 1616,
+      "sha256": "553cafe33b005f7a3d545c2447fb785ccbcabfda05c151e3eea4aa6475b836fb"
+    },
+    {
+      "path": "analysis/resources-evidence.json",
+      "bytes": 6603707,
+      "sha256": "c53b540d3feed92c76d88a31e8e8f3e76039253c2196f6450ddbb698ac307bcb"
+    },
+    {
+      "path": "analysis/resources-report.md",
+      "bytes": 9955,
+      "sha256": "5d87ca27f62da9c98450cd435c54f1db7a9e09bb85850972b0054d0224d19c41"
+    },
+    {
+      "path": "analysis/room-contracts.json",
+      "bytes": 5473259,
+      "sha256": "4cb0fbc5f5a04e61427910c390ee703deeb976b318c0e137a64299cdff99a543"
+    }
+  ],
+  "excluded": [
+    "Original XAPK/APK, native libraries, downloaded tools/cache, full DEX indexes, unrelated recovery exports"
+  ]
+}

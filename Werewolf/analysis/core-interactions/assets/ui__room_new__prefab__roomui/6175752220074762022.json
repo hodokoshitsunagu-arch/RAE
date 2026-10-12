@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6104493259980352692
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4086536050305765071
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 173989513680420870
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5513080007298881033
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "VIP",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

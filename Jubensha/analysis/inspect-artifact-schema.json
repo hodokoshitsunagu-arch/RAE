@@ -1,0 +1,30 @@
+{
+  "args": {
+    "type": "object",
+    "properties": {
+      "path": {
+        "type": "string",
+        "description": "Application or package path"
+      }
+    },
+    "required": [
+      "path"
+    ],
+    "additionalProperties": false
+  },
+  "options": {
+    "type": "object",
+    "properties": {
+      "integrityPolicy": {
+        "description": "Behavior when declared artifact integrity does not match",
+        "default": "fail",
+        "type": "string",
+        "enum": [
+          "fail",
+          "record-and-continue"
+        ]
+      }
+    },
+    "additionalProperties": false
+  }
+}

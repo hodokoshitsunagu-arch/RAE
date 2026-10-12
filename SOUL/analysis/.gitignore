@@ -1,0 +1,20 @@
+# Original packages and extracted/native binaries stay local.
+*.apk
+*.xapk
+*.so
+*.zip
+*.bin
+*.pb
+__pycache__/
+# Large regenerable DEX indexes.
+/dex-index.json
+/focus-index.json
+# Downloaded analysis tools and their local state.
+/drawsomething/jadx/
+/drawsomething/jadx-config/
+/drawsomething/jadx-cache/
+/flutter/dae
+/flutter/libapp.so.strings.json
+/flutter/libflutter.so.strings.json
+# Full generated exports are selected explicitly for this delivery.
+/flutter/recovered/

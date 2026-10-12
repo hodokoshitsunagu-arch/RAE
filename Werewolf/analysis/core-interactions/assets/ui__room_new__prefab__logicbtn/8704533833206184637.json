@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1667502873379540252
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4989222750250232350
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7231631246600729836
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7966067423244766586
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4233211988030491742
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "CivilianSuicide",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

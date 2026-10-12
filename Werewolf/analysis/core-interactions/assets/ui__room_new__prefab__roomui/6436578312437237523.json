@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6953301545347109109
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3622953083633069685
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5883538685215327562
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6017868187394857924
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Emoji_hideBtn",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

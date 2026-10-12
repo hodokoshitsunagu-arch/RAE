@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1625360817236451219
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 301527577123111706
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5076185178545593037
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "num",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

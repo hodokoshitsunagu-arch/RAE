@@ -1,0 +1,119 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8339253054255944727
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7802755607570700153
+  },
+  "m_Name": "",
+  "bindDic": {
+    "m_keys": [
+      "roomTime",
+      "roomInfoView",
+      "roomInfoViewTxt",
+      "roomInfoViewPas",
+      "roomTypeView",
+      "roomTypeViewTxt",
+      "roomInfoViewQualifying",
+      "roomInfoViewQualifyingTxt",
+      "roomTypeViewQualifying",
+      "roomTypeViewQualifyingTxt",
+      "roomTimeNode",
+      "dayNode",
+      "nightNode",
+      "numNode",
+      "roomInfoViewTitle",
+      "roomNumberBg",
+      "roomIcon",
+      "roomPassIcon",
+      "roomPassTitle",
+      "roomInfoPanel"
+    ],
+    "m_values": [
+      {
+        "m_FileID": 0,
+        "m_PathID": -794928388019165388
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 6946051578870237796
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 487912071070096107
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -8774955392415112739
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -2732223820021677221
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -2732223820021677221
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -3951054175413805716
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -3951054175413805716
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 5159941269145848737
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 5159941269145848737
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -2237122227243785608
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 1570371053614666050
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 3480980210368076093
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 3282642820888888
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -7908306116141430577
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 5830573453797869597
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -9155072758953399536
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -4523314150980471036
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -1098072967088899645
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 6946051578870237796
+      }
+    ]
+  },
+  "animationEventList": []
+}

@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4763247251499501867
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5411326610697970570
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5456956633109849242
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4644483671091844803
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Change_voice",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

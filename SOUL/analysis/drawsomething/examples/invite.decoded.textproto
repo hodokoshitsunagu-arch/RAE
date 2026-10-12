@@ -1,0 +1,8 @@
+id: "example-message-1"
+gameId: "example-game"
+type: DRAW_SOMETHING
+phase: INVITE
+inviteGameMessage {
+  inviter: "example-player-a"
+  invitee: "example-player-b"
+}

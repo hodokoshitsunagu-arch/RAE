@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8034436187577654307
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -9179997242977228583
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4829221141135494743
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2557298073841069169
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "claw2",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

@@ -1,0 +1,44 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -12394351666824463
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 292113252281083864
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5103822665171556436
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2262438616596651989
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3369873696357630645
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 137872500425211108
+      }
+    }
+  ],
+  "m_Layer": 0,
+  "m_Name": "pre_vip11_magicvoiceshare",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

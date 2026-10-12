@@ -1,0 +1,940 @@
+{
+  "scope": "Jubensha",
+  "source_date": "2026-10-12",
+  "selection": "Reports, scripts, schemas, selected static evidence and standalone demos; no REA source/history, original APKs, downloaded tools, or large regenerable indexes.",
+  "bytes_before_portable_document_edits": 127838046,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 10608,
+      "sha256": "0cdb63b08078810ceb709285ee8e5bd6782f9c4d5489e99401098efbd7e92479"
+    },
+    {
+      "path": "analysis/QUESTIONS.md",
+      "bytes": 1037,
+      "sha256": "8a259bcd03f7d45d0a356cdd521a73154a627555f64b365d800cc704f20bfd0d"
+    },
+    {
+      "path": "analysis/android-graph-schema.json",
+      "bytes": 265,
+      "sha256": "e6a08cacde634bb8574675ddf64a3dbe5e78b319d911330695b710479f99e390"
+    },
+    {
+      "path": "analysis/baibian/AndroidManifest.xml",
+      "bytes": 144048,
+      "sha256": "c92f4af040f68d31a0a9c5775cf5990022b88908fa1d95fe8bc975dd92343642"
+    },
+    {
+      "path": "analysis/baibian/archive-evidence.json",
+      "bytes": 16266562,
+      "sha256": "6d5a321561c5d0c7663304eebfe4eb0569b88b086f1ed7f0c676c381d92787a1"
+    },
+    {
+      "path": "analysis/baibian/artifact-index.json",
+      "bytes": 1902842,
+      "sha256": "2ede74f24c2b81bfa23b7a5df19cf55ff0ba260f082b5efd9e5b2b68581dca2d"
+    },
+    {
+      "path": "analysis/baibian/core-interaction/asset-provenance.json",
+      "bytes": 6173,
+      "sha256": "27e84b621ba1784b2542e2dc58aa9121a21d090e4715e36bd9d53e34ecc9da08"
+    },
+    {
+      "path": "analysis/baibian/core-interaction/assets/ic_clue_list_public.png",
+      "bytes": 932,
+      "sha256": "bca5bdcdd851acf33fd25e5b701f238b69257fd2ada8c79e61be382279e31f7b"
+    },
+    {
+      "path": "analysis/baibian/core-interaction/assets/ic_game_truth.webp",
+      "bytes": 1236,
+      "sha256": "3114d89f50b3dfe7d4a998a3f2c7a57043b873e42df6a55bf2f5f6262f97d0e0"
+    },
+    {
+      "path": "analysis/baibian/core-interaction/assets/ic_gaming_audio_open.png",
+      "bytes": 1648,
+      "sha256": "88d3bc203dc2e54b60df30081525c8665a2944443ba8e4f63eaee9db2edd3041"
+    },
+    {
+      "path": "analysis/baibian/core-interaction/assets/ic_gaming_clue.png",
+      "bytes": 1320,
+      "sha256": "56719021c88d91ee4e1985a2a51c129e649acdbef2659c7082def66abf2590c9"
+    },
+    {
+      "path": "analysis/baibian/core-interaction/assets/ic_gaming_playbook.png",
+      "bytes": 1136,
+      "sha256": "d97d12d59e37745599c35b784b0f37c7fa11d1df2db6c5d31cc534730ba7cd85"
+    },
+    {
+      "path": "analysis/baibian/core-interaction/assets/ic_gaming_send_message.png",
+      "bytes": 1181,
+      "sha256": "6ee92a58d228c2ba7dfd6db7af29bc22dc8902a8b314c703d8006b44825e1da7"
+    },
+    {
+      "path": "analysis/baibian/core-interaction/assets/ic_gaming_setting.png",
+      "bytes": 665,
+      "sha256": "08504becbf1f05018d2229d47c8b5c708948c352ae16943ab40fa741f8e98249"
+    },
+    {
+      "path": "analysis/baibian/core-interaction/assets/img_default_playbook_bg.png",
+      "bytes": 19490,
+      "sha256": "ffc351da635ba48ca6e27a7d89f7a97f59d44c75c303055cd2726544edcb9e4e"
+    },
+    {
+      "path": "analysis/baibian/core-interaction/build_contracts.py",
+      "bytes": 7787,
+      "sha256": "c9185bf06d87046547a02b71ec73dec082524605c47944cd9b23ea9538bdc4ff"
+    },
+    {
+      "path": "analysis/baibian/core-interaction/contracts.json",
+      "bytes": 328216,
+      "sha256": "6144d88e47f4d32e21fbd0ab3a74226bd94c36ebcd69732a203b26ec32e306f0"
+    },
+    {
+      "path": "analysis/baibian/core-interaction/interaction-contract.md",
+      "bytes": 7879,
+      "sha256": "8bd9cb1324aeb1b2a7b96d9b2c6254971a3decf45b8d1b60773e97e13b1c62f6"
+    },
+    {
+      "path": "analysis/baibian/core-interaction/layouts.json",
+      "bytes": 15745378,
+      "sha256": "254b8bacc6e9885d291c136c57ab9641204dd969eba9ffec7b6de48dc2addcf4"
+    },
+    {
+      "path": "analysis/baibian/core-interaction/parse_resources.py",
+      "bytes": 4660,
+      "sha256": "d678d9ee7382d19f42277333f2899e550d3c3c0c1fa850e91e89278d251be89f"
+    },
+    {
+      "path": "analysis/baibian/core-interaction/parser-summary.txt",
+      "bytes": 18469,
+      "sha256": "a08702812a7c0388cbddf8f5c7c0c187c26b5a42c55cc2ccab29b08cc5fe5d2f"
+    },
+    {
+      "path": "analysis/baibian/core-interaction/resource-table.json",
+      "bytes": 21130753,
+      "sha256": "420d5a51b8a45fab420feb6cb98d43263c0782c87757d1907e5d55dbac4649d8"
+    },
+    {
+      "path": "analysis/baibian/dex-index.json",
+      "bytes": 187964,
+      "sha256": "4cd4d44872d7b20e8f98ea734f32c145f0b9cb383cac4bcd108fb9be49c846e1"
+    },
+    {
+      "path": "analysis/baibian/findings.md",
+      "bytes": 9148,
+      "sha256": "cd4ed63b6021590c3f62dbdb62ac175a7c5e11e157cf25635fbfd8a80ccaebb0"
+    },
+    {
+      "path": "analysis/baibian/gaming-class.json",
+      "bytes": 2294,
+      "sha256": "b6d2dcb785a44c4db1fa1cdf2efabcfaf8b86166fc24da029629f1988789b0e6"
+    },
+    {
+      "path": "analysis/baibian/graph-input.json",
+      "bytes": 17071500,
+      "sha256": "51dec0b9227c99ad1ef584bc287d124663dcbdf91a3f132f09a3c73d09fc3556"
+    },
+    {
+      "path": "analysis/baibian/graph.json",
+      "bytes": 99525,
+      "sha256": "4b23a18bd2d4da51da55ac885198379693446f868e7bc10fc4388493e958279e"
+    },
+    {
+      "path": "analysis/baibian/index-summary.txt",
+      "bytes": 433,
+      "sha256": "7f425ccebe7bf8c2d4c95cb9284b75bcbff352525cf735992fb160ab776d7f0e"
+    },
+    {
+      "path": "analysis/baibian/layout-candidates.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "analysis/baibian/manifest-components.json",
+      "bytes": 142153,
+      "sha256": "f42f9feabdf55ece22bdda765780b24517764b8743ca7a24beae72a881cb4423"
+    },
+    {
+      "path": "analysis/baibian/module-declarations.json",
+      "bytes": 26335,
+      "sha256": "8bd47e8441025677e6ed6e48191a90962d714f871f9f29e35acd1be2b71d46c5"
+    },
+    {
+      "path": "analysis/baibian/package-sandbox-error.json",
+      "bytes": 15921,
+      "sha256": "fb0988b56b5be0e517a2854c6227c2f8c7303f5cd7b55d9a7ced6f39dd9d3d03"
+    },
+    {
+      "path": "analysis/baibian/package.json",
+      "bytes": 312191,
+      "sha256": "e96000ce06e61b506b7a37dc9f93fd825f889852af065b6a7ab8136ac24d6d14"
+    },
+    {
+      "path": "analysis/baibian/read_resources.py",
+      "bytes": 1866,
+      "sha256": "b85bc9532b41a218ccdcd9bf27407a22dbc187ddebc3f6c9ccb18395931f11c9"
+    },
+    {
+      "path": "analysis/baibian/resource-focus.json",
+      "bytes": 101663,
+      "sha256": "2fdd8cf0a175b817b40a45636cc7c969ece027b3494b6b8f65d23c51446b5774"
+    },
+    {
+      "path": "analysis/baibian/resource-strings.json",
+      "bytes": 3048043,
+      "sha256": "4637f565d382bdd5f15fc6a0cf8cec19883fcb1be248a8405545c25ab28a769e"
+    },
+    {
+      "path": "analysis/baibian/unity/addressables-summary.json",
+      "bytes": 9977,
+      "sha256": "048da905ee09f2052fa989857cf473602353625a0c4812c688255b12d43d4b86"
+    },
+    {
+      "path": "analysis/baibian/unity/findings.md",
+      "bytes": 10813,
+      "sha256": "fe8b423ff6319cdff9a637cfb190039000b5645966d5efa3ac06b3ef163ccb09"
+    },
+    {
+      "path": "analysis/baibian/unity/members.json",
+      "bytes": 5650,
+      "sha256": "12b1e7581d62c67c4335ce96e6ae658b8296f20ec7e40c0c236394a917204c31"
+    },
+    {
+      "path": "analysis/baibian/unity/metadata-selected.json",
+      "bytes": 155378,
+      "sha256": "4bd9750b06c592cfd1d4594941b18f8e54586027880b43478f0a228bff093d04"
+    },
+    {
+      "path": "analysis/baibian/unity/metadata-summary.json",
+      "bytes": 9599,
+      "sha256": "1665474ae278827640d9507ffe19ff9d50561fa183c94f26e4f10d619022fd7a"
+    },
+    {
+      "path": "analysis/baibian/unity/rea-monopoly-call-selection.json",
+      "bytes": 15357,
+      "sha256": "c98416f5c2096b8dfa4b1c60ed264527a4838d629f52ee180993bb87c3f111b1"
+    },
+    {
+      "path": "analysis/baibian/unity/rea-monopoly-members.json",
+      "bytes": 433873,
+      "sha256": "4a613ebf15ad8d9b96e8dafcd60e8a745588e4d0f89c865fb4b99eacac101f4e"
+    },
+    {
+      "path": "analysis/baibian/unity/rea-monopoly.json",
+      "bytes": 16178,
+      "sha256": "7c444adc2c998a2e299339c183f7ac589a748aa5eaf782bda1b025a68733ab78"
+    },
+    {
+      "path": "analysis/baibian/unity/rea-tools-members.json",
+      "bytes": 1756,
+      "sha256": "c7f5ab3c22fab2e8d39fbd5dc85f5d5d6e6d6f24b5f70c32350035748f71b4f9"
+    },
+    {
+      "path": "analysis/baibian/unity/rea-tools.json",
+      "bytes": 445845,
+      "sha256": "1046977e69b00f8fb5ef9a52030091b2d36eb1d252fc795ab4362ca0a7f035ca"
+    },
+    {
+      "path": "analysis/baibian/wrapper-attach.json",
+      "bytes": 80362,
+      "sha256": "3b151145a7da9c2bd2fdc5d68479af51b52cac97607123b0e1187a509e24dc9e"
+    },
+    {
+      "path": "analysis/baibian-download.js",
+      "bytes": 856,
+      "sha256": "036a261638c983b3f907c4d9e0986cd002c6b3328a8fc64d1b2b8ab7b39e2cf7"
+    },
+    {
+      "path": "analysis/baibian-home.js",
+      "bytes": 3022,
+      "sha256": "a2a8416cedbb253685e8f5a2c4c14b8d675de8edbaa7397a3188c2fe70faaee2"
+    },
+    {
+      "path": "analysis/baibian-home2.js",
+      "bytes": 20271,
+      "sha256": "91afe43b0a5f89ae96d3e7ffd572ddeab957cec3f88b72183cdbe822c9533faa"
+    },
+    {
+      "path": "analysis/baibian-meizu.html",
+      "bytes": 26641,
+      "sha256": "6ab33a5c3ba3bfe111f2ff549eec3e045265f0f7053a0c66a913a4ef95af9b9f"
+    },
+    {
+      "path": "analysis/baibian-mobile-home.js",
+      "bytes": 4184,
+      "sha256": "e1687fd91c98463af1d2796702702f7bb2d28e63ca86826e5fa8e39b174b688c"
+    },
+    {
+      "path": "analysis/baibian-official-web.js",
+      "bytes": 1641704,
+      "sha256": "351238a1146552a42024d7b1b71180d754074d68f1475d27ecf44a20e8f8ab04"
+    },
+    {
+      "path": "analysis/baibian-yingyongbao.html",
+      "bytes": 362632,
+      "sha256": "2c4f54905c977a850a1c0822c21f2e798488c5c76debaa56901dd2700d18f0a3"
+    },
+    {
+      "path": "analysis/build_evidence_index.py",
+      "bytes": 1909,
+      "sha256": "2d7cb35deb97c97fa57e5d98da4861c4c93f98b496b2b57c1525faddce2d5e6c"
+    },
+    {
+      "path": "analysis/check_artifacts.py",
+      "bytes": 851,
+      "sha256": "eae72f4a2ee56608cdb897309a48a43d3a4ec4c70606da9614b4ef447a79a1db"
+    },
+    {
+      "path": "analysis/evidence-index.json",
+      "bytes": 64797,
+      "sha256": "56f25e4c49de0cb0c51ab468f1affc7c3c4821a61a80d4929689484c28160561"
+    },
+    {
+      "path": "analysis/index_apk.py",
+      "bytes": 3800,
+      "sha256": "d9109568ee5092bbbbab142542929da48a11d0db0647996031ed82f0b3c097ef"
+    },
+    {
+      "path": "analysis/inspect-android-package-schema.json",
+      "bytes": 242,
+      "sha256": "7437ca94c6e4c24178da90ab736721a787aa3c286d5e2e83f563242d5485663a"
+    },
+    {
+      "path": "analysis/inspect-artifact-schema.json",
+      "bytes": 596,
+      "sha256": "4772f0ad84aec49881afefa8c3b346c2ddfd66cbe66347fe4b96d7a8288373dd"
+    },
+    {
+      "path": "analysis/source-provenance.json",
+      "bytes": 3051,
+      "sha256": "b46ca30eab9a357502fd6b979d5d4ad4fde1e44d004796b83b486fc85cff681d"
+    },
+    {
+      "path": "analysis/woshimi/AndroidManifest.xml",
+      "bytes": 113326,
+      "sha256": "9df72f66cb7607dfe3f16d13f33458ca876e76bf739a0eee8430f19222d0e14d"
+    },
+    {
+      "path": "analysis/woshimi/artifact-index.json",
+      "bytes": 1476896,
+      "sha256": "9ec52606db945f519ffa009b2494f62040df4fdddf5f4c7a9b81c74c980007ff"
+    },
+    {
+      "path": "analysis/woshimi/business-class-inventory.json",
+      "bytes": 9969847,
+      "sha256": "0a326d6bc09d92f79a439442a656d1d55e8c32903516d9cad557a0a0854d7a32"
+    },
+    {
+      "path": "analysis/woshimi/class-GameController.json",
+      "bytes": 4644,
+      "sha256": "23187523f9c5b31123bdb7be7ee7d9e73234cffbee23dcdbb65af48bfc40c78d"
+    },
+    {
+      "path": "analysis/woshimi/class-GameSource.json",
+      "bytes": 17552,
+      "sha256": "2db3aec076a6a6ff5f1189f44b20edebf886b55ee61b96059e5aff7758090075"
+    },
+    {
+      "path": "analysis/woshimi/class-GameState.json",
+      "bytes": 36576,
+      "sha256": "3aa96c00f58a4429e7c0d550566330f6971b640e7dbcd2c1ecf52131fc819dc9"
+    },
+    {
+      "path": "analysis/woshimi/class-GamingPresenter-obfuscated.json",
+      "bytes": 23997,
+      "sha256": "b888dd5d8b5ae893bac86759225affa43f8a6e3cbb250e0abb5d1f73997817a1"
+    },
+    {
+      "path": "analysis/woshimi/class-GamingPresenter.json",
+      "bytes": 2348,
+      "sha256": "e572b0f9aebe6b2d7148148f445ac5894487d10b658786c609d6d86d008122dd"
+    },
+    {
+      "path": "analysis/woshimi/class-PlaybookConstant.json",
+      "bytes": 181419,
+      "sha256": "5e275d969cd80d43dc1949579ddf73dddb760d8100b208b538a2722a7671d519"
+    },
+    {
+      "path": "analysis/woshimi/class-RoomStub-dot.json",
+      "bytes": 18569,
+      "sha256": "1824f6407132ac19508f59fa79bce62b00000b6b8b1bf90303adc26bb2c91cf0"
+    },
+    {
+      "path": "analysis/woshimi/class-RoomStub.json",
+      "bytes": 2240,
+      "sha256": "2191a39dbfb83f49f1380888d1ed42c00868a4dc02d5b5e060fa720bf4d94d29"
+    },
+    {
+      "path": "analysis/woshimi/class-SceneInfo-dollar.json",
+      "bytes": 57840,
+      "sha256": "79ee9e659b834517af1d941c63f22bb15e78aa43535cac923cd2533f8cb2b902"
+    },
+    {
+      "path": "analysis/woshimi/class-SceneInfo.json",
+      "bytes": 2312,
+      "sha256": "d49fb3aed4df94f71241b67a275f4590532dd13d9ae0142281d6ad5ea34a2466"
+    },
+    {
+      "path": "analysis/woshimi/evidence-ledger.json",
+      "bytes": 11062,
+      "sha256": "dff53d1da24db0950b3cee23a4fec4c5169a81e58e84530a69413ce749330d47"
+    },
+    {
+      "path": "analysis/woshimi/findings.md",
+      "bytes": 17802,
+      "sha256": "336198add7e9c2c6338983a37175eac64f7de0d46614d0681fe952a5e6cb2305"
+    },
+    {
+      "path": "analysis/woshimi/game-protocol-inventory.json",
+      "bytes": 8951561,
+      "sha256": "7c25083f23dd2abac7e8e430e88f3bf26d4e3d44bd32e9d2d8162dd94dc43039"
+    },
+    {
+      "path": "analysis/woshimi/index-summary.txt",
+      "bytes": 275368,
+      "sha256": "be49d0baed68fd216b160611fa6c5f894beebe8fc178ffe4af51ff8192deb49a"
+    },
+    {
+      "path": "analysis/woshimi/method-AppDownloadHelper-execute.java",
+      "bytes": 7916,
+      "sha256": "fe1f649793c1b31b4a4f741b98c7022ebff497e6e1b81a5ed4ad9d407d3f4c5c"
+    },
+    {
+      "path": "analysis/woshimi/method-AppDownloadHelper-execute.json",
+      "bytes": 24767,
+      "sha256": "57087023ac10d2102e9960c53f7cf1f8130fff8160fe7aeb92093cba508980d0"
+    },
+    {
+      "path": "analysis/woshimi/method-ChannelInstance-initManageChannel.java",
+      "bytes": 1402,
+      "sha256": "c28ed86b257d36ac011fd55fcb45769df933b7015d401300cf67d1329c4fc5cb"
+    },
+    {
+      "path": "analysis/woshimi/method-ChannelInstance-initManageChannel.json",
+      "bytes": 9239,
+      "sha256": "87cf9bed934ffe0a6b3c3b4bc2777a4cd28666e5f10e4186ec15d32473594b97"
+    },
+    {
+      "path": "analysis/woshimi/method-E_GameStage-clinit.java",
+      "bytes": 61,
+      "sha256": "b0ecf94d5c076e5859635541efb266166fa68b82b84e9d9334c6ebf17043e908"
+    },
+    {
+      "path": "analysis/woshimi/method-E_GameStage-clinit.json",
+      "bytes": 5966,
+      "sha256": "dc9e152db71b3accd39f44dbc11bbe18798cd9c50f66efe31be7e58430575479"
+    },
+    {
+      "path": "analysis/woshimi/method-E_GameStage-clinit.txt",
+      "bytes": 785,
+      "sha256": "f42c234027959bf0df9ec4f39c966c728676769b68e92792c1b50b7f6e424453"
+    },
+    {
+      "path": "analysis/woshimi/method-GameState-loadCandidate.java",
+      "bytes": 83,
+      "sha256": "2e44efd00575d2d5120b6db578a9fd92e197914c113720844dba8e28c98b68b5"
+    },
+    {
+      "path": "analysis/woshimi/method-GameState-loadCandidate.json",
+      "bytes": 19799,
+      "sha256": "c5f3f6ef93351c8607648c2282d67e6083e6f865d90dc86d21bf9a39b5620815"
+    },
+    {
+      "path": "analysis/woshimi/method-GameState-parsePlaybook.java",
+      "bytes": 469,
+      "sha256": "256408788507d6f4d89a6efb2503090e1eebd96d013076ffffc6df1fd211ca35"
+    },
+    {
+      "path": "analysis/woshimi/method-GameState-parsePlaybook.json",
+      "bytes": 20642,
+      "sha256": "56645213490b57876685d4274ae0ea1cb35bdb1d899e93eef8aee96fd88f359a"
+    },
+    {
+      "path": "analysis/woshimi/method-GameState-setPlaybook.java",
+      "bytes": 123,
+      "sha256": "815aa1cc7b7cb36fb04f7631192b76d2350053e1c90ea09e9cb32143213cb94e"
+    },
+    {
+      "path": "analysis/woshimi/method-GameState-setPlaybook.json",
+      "bytes": 19913,
+      "sha256": "5ce494890c72facf1ea39da4d08bc8480de97457759e2a918cacde008c35c894"
+    },
+    {
+      "path": "analysis/woshimi/method-GameStreamService-onCreate.java",
+      "bytes": 448,
+      "sha256": "89a0ebc74b1c0c913bd9b0811e2182c5f559f7dd04003a3bf0869b80e5bd1a53"
+    },
+    {
+      "path": "analysis/woshimi/method-GameStreamService-onCreate.json",
+      "bytes": 18307,
+      "sha256": "0b7161bea2a44a6b607c3d1efab540dfc63d59290119f46f34ad4ee75425200d"
+    },
+    {
+      "path": "analysis/woshimi/method-GamingActivity-initData.java",
+      "bytes": 5543,
+      "sha256": "62d44c2d4d0b576cdfd91c2f22f0d04888d692f0eb78b51f553e590d26c42790"
+    },
+    {
+      "path": "analysis/woshimi/method-GamingActivity-initData.json",
+      "bytes": 115537,
+      "sha256": "4043fa80dcd1718e87583fa8555a574b0418094f2ead89de22128305067d25db"
+    },
+    {
+      "path": "analysis/woshimi/method-GamingActivity-signal.java",
+      "bytes": 4437,
+      "sha256": "8e3c3aa76400ede3779b6d758905efa5491dfd40883bde53c0ab77b95a6f4c30"
+    },
+    {
+      "path": "analysis/woshimi/method-GamingActivity-signal.json",
+      "bytes": 113141,
+      "sha256": "e4f8a49805bd4fc88521eccb3e87945a04d973ba3d4c1152db5e6c5056785fc0"
+    },
+    {
+      "path": "analysis/woshimi/method-GamingActivity-signal.txt",
+      "bytes": 5309,
+      "sha256": "34979247eb6801c3bba55c96c155b56cfa99e75e773dc0da5e7a7f764ea6a098"
+    },
+    {
+      "path": "analysis/woshimi/method-GamingPresenter-getScene.java",
+      "bytes": 204,
+      "sha256": "27126ed135357851efbdaa871fc0a50b860e0c0773f21fcaa577a3fca78905aa"
+    },
+    {
+      "path": "analysis/woshimi/method-GamingPresenter-getScene.json",
+      "bytes": 14147,
+      "sha256": "f7f4e7f6ac4d2d64d4a812b6c151717f1dcf7a6e330a022e858c6f9792d7ab18"
+    },
+    {
+      "path": "analysis/woshimi/method-GamingPresenter-sceneSuccess.json",
+      "bytes": 2875,
+      "sha256": "67c50a91492881b609d226f11f4ca5a86a8942c0a7d0e2a8825cfd5b4bc65879"
+    },
+    {
+      "path": "analysis/woshimi/method-RoomStub-submitVote.java",
+      "bytes": 168,
+      "sha256": "99f71740621bc8a6dd10f78fa2f1119d30fe15214f34dfb2e207d59a515905f2"
+    },
+    {
+      "path": "analysis/woshimi/method-RoomStub-submitVote.json",
+      "bytes": 11284,
+      "sha256": "660a86a65fc16fdc1e6da27bb159dadf2007b945c8c1d0435a57cc9cc5285e48"
+    },
+    {
+      "path": "analysis/woshimi/method-SocketConnector-startConnected.java",
+      "bytes": 667,
+      "sha256": "7030c6ce98513244f2cc796b92cd3fb0a99f7aa780bbb8e158a1d8e2176f9d50"
+    },
+    {
+      "path": "analysis/woshimi/method-SocketConnector-startConnected.json",
+      "bytes": 14531,
+      "sha256": "9b1b817c7cb70ac277438ee0dcd2ec639876010be4d78ab145eca8c21b8d34c7"
+    },
+    {
+      "path": "analysis/woshimi/method-StubCreater-getRoomStub.java",
+      "bytes": 78,
+      "sha256": "5bb017bf70e774a0db864def77387036ef515c82133056011811c9f4b1f1daa4"
+    },
+    {
+      "path": "analysis/woshimi/method-StubCreater-getRoomStub.json",
+      "bytes": 5204,
+      "sha256": "038cf875c02e0955d60da145eab8ce20fa07f97e6947d8917f2f20940d0e26f7"
+    },
+    {
+      "path": "analysis/woshimi/method-StubCreater-getRoomStub1.java",
+      "bytes": 356,
+      "sha256": "aec0a52915a770b3ff59f5d33d7c88d26f03f99ad0d873c93f77cfe7f23beb97"
+    },
+    {
+      "path": "analysis/woshimi/method-StubCreater-getRoomStub1.json",
+      "bytes": 5795,
+      "sha256": "694fb04404fbf7bcd38897cb1fcfe946dfb17e5bb1530b624ca6a4ea8bc1629a"
+    },
+    {
+      "path": "analysis/woshimi/method-VoiceProviderManager-changeVoiceProvider.java",
+      "bytes": 1497,
+      "sha256": "d5a813812b44d2a18fda6864c061dae6fa1f5f24a36424a27a8268ae31ba60aa"
+    },
+    {
+      "path": "analysis/woshimi/method-VoiceProviderManager-changeVoiceProvider.json",
+      "bytes": 14731,
+      "sha256": "c49bbd650c2b5e4ca115e08b1e92fc449c86f544408fa3ab1a9635592b1172dc"
+    },
+    {
+      "path": "analysis/woshimi/method-WsmApplication-onCreate.java",
+      "bytes": 1405,
+      "sha256": "6034f022ec61fc0e0026b1d1b5ffef8ee4d7296232959bf0ce726203abb15cea"
+    },
+    {
+      "path": "analysis/woshimi/method-WsmApplication-onCreate.json",
+      "bytes": 9636,
+      "sha256": "49f91e660eab09dea1a5dacbd52d1f34c5f5fec26716790d5425cac280ce68d3"
+    },
+    {
+      "path": "analysis/woshimi/method-submitVote-caller.java",
+      "bytes": 356,
+      "sha256": "2a10f2c90e827e7cdcee8e1dc4197118a3f61d11718d9858473499d7b4bf9ee7"
+    },
+    {
+      "path": "analysis/woshimi/method-submitVote-caller.json",
+      "bytes": 5152,
+      "sha256": "9272db7cb0cc258024e1a85930bfe39f24c1afebe0e8b48b2d4c2729bf2fa453"
+    },
+    {
+      "path": "analysis/woshimi/package-escalated.json",
+      "bytes": 246611,
+      "sha256": "1a92a9050769026d4ef907a4c24a2ac93304ea21be529fde059ac5a7c7ebf268"
+    },
+    {
+      "path": "analysis/woshimi/package-retry.json",
+      "bytes": 16005,
+      "sha256": "db8cf78e12efdb2b90f2be8f1218370c741eb3447c74fb2cd9e8ab43c50efbf7"
+    },
+    {
+      "path": "analysis/woshimi/package.json",
+      "bytes": 16005,
+      "sha256": "5f6de0a0345a9870beb4286cea9dcf2fcccd9ed9d11f66872c594565dfa83268"
+    },
+    {
+      "path": "analysis/woshimi/protocol-summaries.txt",
+      "bytes": 51906,
+      "sha256": "4e25351318c383b35d2246f617ecf3e49091fa202bca6168a2554326ac83a8f2"
+    },
+    {
+      "path": "analysis/woshimi/retrofit-endpoints.json",
+      "bytes": 354941,
+      "sha256": "44a7cc4348375d816a2df33731d1097ef6f1a3d1a8bfdf706463423737e9339b"
+    },
+    {
+      "path": "analysis/woshimi/search-Room.json",
+      "bytes": 1615191,
+      "sha256": "6f6cbb06676e43e98b5cd2eab61318dc8a1996361e44b1d36a1f28a017578679"
+    },
+    {
+      "path": "analysis/woshimi/selected-classes.json",
+      "bytes": 19530389,
+      "sha256": "6b6a9cc3d882277a2eb25bc29243275d65df9a508767fa35a80fd399f53db385"
+    },
+    {
+      "path": "analysis/woshimi/trace-submitVote.json",
+      "bytes": 10890,
+      "sha256": "5f8e62266f6d3d69db41c283f323f0efcabd6ae48a8e1d1606f563dba64f76f3"
+    },
+    {
+      "path": "analysis/woshimi-official-web.js",
+      "bytes": 13298,
+      "sha256": "213107de962e1621f67438fbfa48d39762dd0a7905bc37bd83d58316c04110d3"
+    },
+    {
+      "path": "demo/README.md",
+      "bytes": 7452,
+      "sha256": "471846db9a8d3e499688f6b14432cde8feb2526756d916f186736d27fe8ec042"
+    },
+    {
+      "path": "demo/app.js",
+      "bytes": 34877,
+      "sha256": "105d030c906a07c0ca574622e6b144eba94706b38e36ba92efd39aba2d0f15cc"
+    },
+    {
+      "path": "demo/assets/manor.png",
+      "bytes": 2737708,
+      "sha256": "919aa8acd8b92397942cc7d7f17789566722e1727522cc89adcfb75444045ce3"
+    },
+    {
+      "path": "demo/assets/original/book.png",
+      "bytes": 1136,
+      "sha256": "d97d12d59e37745599c35b784b0f37c7fa11d1df2db6c5d31cc534730ba7cd85"
+    },
+    {
+      "path": "demo/assets/original/chat.png",
+      "bytes": 1181,
+      "sha256": "6ee92a58d228c2ba7dfd6db7af29bc22dc8902a8b314c703d8006b44825e1da7"
+    },
+    {
+      "path": "demo/assets/original/clue.png",
+      "bytes": 1320,
+      "sha256": "56719021c88d91ee4e1985a2a51c129e649acdbef2659c7082def66abf2590c9"
+    },
+    {
+      "path": "demo/assets/original/voice.png",
+      "bytes": 1648,
+      "sha256": "88d3bc203dc2e54b60df30081525c8665a2944443ba8e4f63eaee9db2edd3041"
+    },
+    {
+      "path": "demo/data.js",
+      "bytes": 7884,
+      "sha256": "a4d3965a0a079cd92934c16b8b5579f2ac9c482d7b7794174c389186e6000eb1"
+    },
+    {
+      "path": "demo/docs/apk-assets.json",
+      "bytes": 3843,
+      "sha256": "5d5a0f38fe3164764f9c4c14e0d0f97def855220e1ec46cc5dac6fd5d663223b"
+    },
+    {
+      "path": "demo/docs/image-generation.json",
+      "bytes": 967,
+      "sha256": "79f4a75147365d83da6fe313831ab318ab7b34da7d4ada49f690a785d9e1b8c3"
+    },
+    {
+      "path": "demo/docs/interaction-contract.md",
+      "bytes": 7879,
+      "sha256": "8bd9cb1324aeb1b2a7b96d9b2c6254971a3decf45b8d1b60773e97e13b1c62f6"
+    },
+    {
+      "path": "demo/index.html",
+      "bytes": 544,
+      "sha256": "9f4c0465f9bf71d7b6499b814b54d627cdb3a851e08ec86af9eaa9ce7f3679ef"
+    },
+    {
+      "path": "demo/model.js",
+      "bytes": 12336,
+      "sha256": "0a7086ca255232c0a5446e89e75bbb747e10b40f112f232dfe684326d6a59a1c"
+    },
+    {
+      "path": "demo/package.json",
+      "bytes": 290,
+      "sha256": "541a50bb704742f52035190a051dd09b299abfe0eeb17fed650db716aea0664d"
+    },
+    {
+      "path": "demo/server.mjs",
+      "bytes": 2014,
+      "sha256": "3f9e16810a542d77be52e0ed7d2750b2295ba6e8fe68e000252c11beed995154"
+    },
+    {
+      "path": "demo/styles.css",
+      "bytes": 42143,
+      "sha256": "981a4ddc5db830178a9609acd8c02a26a3f0d93cada328f6a46eaf64f2671587"
+    },
+    {
+      "path": "demo/tests/browser-smoke.mjs",
+      "bytes": 8577,
+      "sha256": "c8f210ba5c9cc1a5609059927e8f2eaa504bbbc672edd8a9869c2ca01a58eb9b"
+    },
+    {
+      "path": "demo/tests/model.test.mjs",
+      "bytes": 4874,
+      "sha256": "e9b066f3c003437d4c08b49e0259eac8cd9a2fd6809b6cd53c9b6dc422785c6f"
+    },
+    {
+      "path": "demo/verification/browser-results.json",
+      "bytes": 469,
+      "sha256": "b1c42d535b1ab7656fce3d8890eb846b16ea2acd9456f7b0fc3a1b2645f2a4c0"
+    },
+    {
+      "path": "demo/verification/desktop-lobby.png",
+      "bytes": 524793,
+      "sha256": "225071d8b6b4aae260aa97550b53ca8feafd39550722e63d6b7f878c4cc5bf33"
+    },
+    {
+      "path": "demo/verification/desktop-reading.png",
+      "bytes": 190626,
+      "sha256": "bb6c794020e936aceec145e6e0eea80de5bf446c7f443955ce716d311a4281bb"
+    },
+    {
+      "path": "demo/verification/desktop-reveal.png",
+      "bytes": 177130,
+      "sha256": "a4b518be415bd1f284622e6547183e60e7638ec307d76dcf287375d116faca0d"
+    },
+    {
+      "path": "demo/verification/desktop-search.png",
+      "bytes": 139469,
+      "sha256": "ae7034859f6ea6c3610afa6713d76eada11e84388e0e6ecb152350a1dd6b61c3"
+    },
+    {
+      "path": "demo/verification/mobile-lobby.png",
+      "bytes": 239470,
+      "sha256": "5ea159135b0275004b9590a73a33061fabd9c71c8f695c12ea97fbca767dbff9"
+    },
+    {
+      "path": "demo/verification/mobile-reading.png",
+      "bytes": 107645,
+      "sha256": "8a5bc0bae7b530e51ebc5f765e49fa321052500c6e37a3d5bf109ef541d68187"
+    },
+    {
+      "path": "demo/verification/mobile-search.png",
+      "bytes": 77441,
+      "sha256": "25610e88ea5738e405f8a0b251a1f051be7ac028e0ce6eedd41d575e9dcbc357"
+    },
+    {
+      "path": "demo/verification/mobile-vote.png",
+      "bytes": 83045,
+      "sha256": "8ec6bdf5874db0d66b8af0fb4b809adab2c17f9ae3852cea774f7c356dee0951"
+    }
+  ],
+  "excluded": [
+    {
+      "path": "Jubensha/.DS_Store",
+      "bytes": 14340,
+      "reason": "local cache"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/archive.log",
+      "bytes": 0,
+      "reason": "package, binary, tool, or local launcher"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/gaming-class.log",
+      "bytes": 0,
+      "reason": "package, binary, tool, or local launcher"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/graph.log",
+      "bytes": 0,
+      "reason": "package, binary, tool, or local launcher"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/package.log",
+      "bytes": 0,
+      "reason": "package, binary, tool, or local launcher"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/unity/assets/Android/DOTween.dll",
+      "bytes": 174592,
+      "reason": "unpacked binary assets"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/unity/assets/Android/Google.Protobuf.dll",
+      "bytes": 390656,
+      "reason": "unpacked binary assets"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/unity/assets/Android/Grpc.Core.Api.dll",
+      "bytes": 42496,
+      "reason": "unpacked binary assets"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/unity/assets/Android/Micosmo.SensorToolkit.dll",
+      "bytes": 199680,
+      "reason": "unpacked binary assets"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/unity/assets/Android/MonopolyLoca.dll",
+      "bytes": 27648,
+      "reason": "unpacked binary assets"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/unity/assets/Android/MsgPack.dll",
+      "bytes": 477184,
+      "reason": "unpacked binary assets"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/unity/assets/Android/Newtonsoft.Json.dll",
+      "bytes": 688128,
+      "reason": "unpacked binary assets"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/unity/assets/Android/Proyecto26.dll",
+      "bytes": 59392,
+      "reason": "unpacked binary assets"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/unity/assets/Android/QFramework.CoreKit.dll",
+      "bytes": 176640,
+      "reason": "unpacked binary assets"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/unity/assets/Android/QFramework.dll",
+      "bytes": 16896,
+      "reason": "unpacked binary assets"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/unity/assets/Android/System.Core.dll",
+      "bytes": 1104896,
+      "reason": "unpacked binary assets"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/unity/assets/Android/System.dll",
+      "bytes": 1994240,
+      "reason": "unpacked binary assets"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/unity/assets/Android/Tools.dll",
+      "bytes": 414208,
+      "reason": "unpacked binary assets"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/unity/assets/Android/Unity.Addressables.dll",
+      "bytes": 97792,
+      "reason": "unpacked binary assets"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/unity/assets/Android/Unity.InputSystem.dll",
+      "bytes": 1035264,
+      "reason": "unpacked binary assets"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/unity/assets/Android/Unity.Netcode.Runtime.dll",
+      "bytes": 346624,
+      "reason": "unpacked binary assets"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/unity/assets/Android/Unity.RenderPipelines.Core.Runtime.dll",
+      "bytes": 353280,
+      "reason": "unpacked binary assets"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/unity/assets/Android/Unity.ResourceManager.dll",
+      "bytes": 98816,
+      "reason": "unpacked binary assets"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/unity/assets/Android/UnityEngine.CoreModule.dll",
+      "bytes": 1241088,
+      "reason": "unpacked binary assets"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/unity/assets/Android/UnityEngine.JSONSerializeModule.dll",
+      "bytes": 11264,
+      "reason": "unpacked binary assets"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/unity/assets/Android/UnityEngine.UI.dll",
+      "bytes": 246784,
+      "reason": "unpacked binary assets"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/unity/assets/Android/mscorlib.dll",
+      "bytes": 4397568,
+      "reason": "unpacked binary assets"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/unity/assets/aa/catalog.json",
+      "bytes": 62638,
+      "reason": "unpacked binary assets"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/unity/assets/aa/settings.json",
+      "bytes": 3186,
+      "reason": "unpacked binary assets"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/unity/assets/bin/Data/Managed/Metadata/global-metadata.dat",
+      "bytes": 22498144,
+      "reason": "unpacked binary assets"
+    },
+    {
+      "path": "Jubensha/analysis/baibian/wrapper-attach.log",
+      "bytes": 0,
+      "reason": "package, binary, tool, or local launcher"
+    },
+    {
+      "path": "Jubensha/analysis/rea-cli",
+      "bytes": 358,
+      "reason": "package, binary, tool, or local launcher"
+    },
+    {
+      "path": "Jubensha/analysis/woshimi/dex-index.json",
+      "bytes": 279643286,
+      "reason": "large regenerable index"
+    },
+    {
+      "path": "Jubensha/apks/baibian-6.45.2.apk",
+      "bytes": 458176062,
+      "reason": "package, binary, tool, or local launcher"
+    },
+    {
+      "path": "Jubensha/apks/woshimi-3.50.9.apk",
+      "bytes": 295755729,
+      "reason": "package, binary, tool, or local launcher"
+    }
+  ]
+}

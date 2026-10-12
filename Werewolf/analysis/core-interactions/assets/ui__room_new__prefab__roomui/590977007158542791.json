@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7717589886914791289
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5679701776749740778
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8744296574533935084
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Note",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

@@ -1,0 +1,44 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7065751156110378459
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7802755607570700153
+  },
+  "m_Name": "",
+  "bindDic": {
+    "m_keys": [
+      "confirmBtn",
+      "defaultHead",
+      "headNode",
+      "skillTips",
+      "shot"
+    ],
+    "m_values": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 4266091917186990116
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 8947865327486305377
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 2886162891787973306
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 1175570337840607930
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -513195669024456417
+      }
+    ]
+  },
+  "animationEventList": []
+}

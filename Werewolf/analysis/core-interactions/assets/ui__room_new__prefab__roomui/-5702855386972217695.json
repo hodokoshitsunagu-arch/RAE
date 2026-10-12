@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8015085982761421482
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 96380843355321306
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2182341559709578225
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7422541099392607279
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4767022878246843925
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "bubble_runningwolf",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

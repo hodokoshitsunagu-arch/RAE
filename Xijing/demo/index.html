@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5d75a"><title>戏鲸 · Pia 戏演示房</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="topbar"><a href="#" class="brand" aria-label="戏鲸演示首页"><span class="brand-mark">鲸</span><b>戏鲸<span>PIA STUDIO</span></b></a><div class="breadcrumb">声音相遇的地方 <span>/</span> Pia 戏房间</div><div class="top-actions"><span class="local-label"><i></i>本地演示房</span><button id="help" class="plain">玩法说明</button><button id="leave" class="plain">离开房间 ↗</button></div></header>
+<main class="workspace">
+<aside class="cast-panel">
+  <div class="room-heading"><span class="eyebrow">今晚，来走一个本</span><h1>雨声小剧场</h1><p>慢一点，让每句台词被听见。</p><div class="room-meta">房间 0911 <span>·</span> 双人普本</div><button id="toggle-stage" class="stage-toggle" aria-expanded="false">展开舞台 ↓</button></div>
+  <div class="room-tabs"><button class="active" id="room-tab">麦位</button><button id="rules-tab">房规</button></div>
+  <section id="seats-view"><div class="section-label"><h2>声音舞台</h2><span id="seat-count">3 / 6</span></div><div class="seats" id="seats"></div><p class="seat-hint" id="seat-hint">点击空麦位，加入这一场故事。</p><div class="my-controls"><button id="mic" class="mic-button" disabled><span>♩</span>打开麦克风</button><button id="ready" class="outline" disabled>准备好了</button></div><p id="mic-state" class="small-note">麦克风未开启 · 不会采集声音</p>
+  <div class="role-section"><div class="section-label"><h2>本场角色</h2><span>点击认领</span></div><div id="roles"></div></div>
+  <button id="begin" class="begin-button">开始走本 <span>→</span></button><p id="session-state" class="small-note">分好角色，准备开场</p>
+  <div class="audience"><span class="avatar mini coral">澄</span><span class="avatar mini violet">禾</span><span class="avatar mini green">山</span><div><b>3 位听众</b><span>静静听，也是一种参与</span></div></div>
+  </section><section id="rules-view" hidden><h2>欢迎来到雨声小剧场</h2><p>先听一会儿，再上麦。认领角色后，可以先熟悉台词。</p><p>主持人负责 BGM，演员按照音效提示接词。读错也没关系，让故事继续。</p><p>本房间的其他参与者为演示人物，声音不会发送到任何服务器。</p></section>
+  <div class="persona"><label for="persona">演示身份</label><select id="persona"><option value="host">主持人 · 我</option><option value="actor">演员 · 我</option></select></div>
+</aside>
+<section class="script-panel">
+  <div class="script-toolbar"><div><span class="eyebrow">正在走本</span><strong id="current-title">雨夜的末班车</strong></div><button class="outline" id="choose-script">▤ 选剧本</button></div>
+  <div class="script-scroll" id="script-scroll">
+    <div class="script-cover"><div class="cover-art"><span class="station-light"></span><span class="rain-lines"></span><span class="platform-line"></span><span class="station-sign">LAST TRAIN</span></div><div class="cover-copy"><div class="script-tags" id="script-tags">现代 / 双人 / 情感</div><h2 id="script-title">雨夜的末班车</h2><p id="script-subtitle">有些告别，会在下一站重逢。</p><span>原创演示剧本 <em>·</em> <span id="script-duration">约 2 分钟</span></span></div></div>
+    <div class="reader-tools"><span id="reader-status">开场前，先熟悉自己的台词</span><div><button id="font-smaller" aria-label="缩小剧本字号">A−</button><button id="font-larger" aria-label="放大剧本字号">A+</button><button id="follow" aria-pressed="true">跟随音效</button></div></div>
+    <article id="script-body" class="script-body"></article>
+    <div class="script-ending">— 把声音，留在故事里 —</div>
+  </div>
+  <footer class="reader-footer"><div class="my-role"><span class="role-dot"></span><span id="my-role">尚未认领角色</span></div><div class="effects" aria-label="人声效果"><button data-effect="dry" class="selected">原声</button><button data-effect="reverb">R&B 混响</button><button data-effect="phone">电话音</button></div></footer>
+</section>
+<aside class="director-panel">
+  <div class="section-label"><h2>BGM 控制台</h2><span id="host-label">主持人</span></div><p class="panel-caption">音乐给故事留出呼吸的空间。</p>
+  <div id="tracks" class="tracks"></div>
+  <div class="player"><div class="waveform" aria-hidden="true" id="waveform"></div><div class="time-label"><span id="elapsed">00:00</span><span id="duration">01:04</span></div><input type="range" id="seek" min="0" max="64" step="0.1" value="0" aria-label="BGM 播放进度"><div class="play-controls"><button id="back" aria-label="后退五秒">−5s</button><button id="play" class="play" aria-label="播放 BGM">▶</button><button id="forward" aria-label="前进五秒">+5s</button></div><div class="volume-row"><span>背景音量</span><input type="range" id="volume" min="0" max="1" step="0.01" value="0.35" aria-label="背景音量"><span id="volume-label">35%</span></div><button id="cache" class="cache-button">↓ 缓存本场 BGM</button><p class="small-note" id="cache-state">先缓存，走本更从容。</p></div>
+  <div class="divider"></div><div class="section-label"><h2>房间消息</h2><span>本地</span></div><div id="messages" class="messages" aria-live="polite"><div class="system-message">欢迎来到雨声小剧场。这里的每个声音，都值得被听见。</div><div class="chat-message"><b>许岸</b><p>本子我看过啦，等大家准备好。</p></div><div class="chat-message"><b>知夏</b><p>今晚想试试林屿这个角色。</p></div></div><form id="chat-form"><input id="chat-input" placeholder="和大家打个招呼…" maxlength="150" aria-label="房间消息"><button aria-label="发送消息">↑</button></form>
+  <button id="record" class="record-button"><span class="record-dot"></span><span id="record-label">录下这一场</span><span id="record-time">本地录制</span></button><div id="recordings" class="recordings"></div>
+</aside>
+</main>
+<div class="mobile-transport"><div><b id="mobile-track">雨落站台</b><span id="mobile-time">00:00 · 主持人控制</span></div><button id="mobile-play" class="play" aria-label="手机播放 BGM">▶</button><button id="mobile-console">音乐 / 录音 ↗</button></div>
+<div id="toast" class="toast" role="status"></div>
+<dialog id="dialog"><div class="dialog-header"><h2 id="dialog-title"></h2><button id="close-dialog" aria-label="关闭弹窗">×</button></div><div id="dialog-body"></div></dialog>
+<audio id="bgm" preload="none"></audio><script type="module" src="app.mjs"></script>
+</body></html>

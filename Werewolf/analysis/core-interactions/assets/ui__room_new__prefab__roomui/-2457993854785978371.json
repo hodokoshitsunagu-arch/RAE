@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -947809160292472882
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3485777046692883030
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4045795323196193333
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3352703000195742814
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Button_ Label_on",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

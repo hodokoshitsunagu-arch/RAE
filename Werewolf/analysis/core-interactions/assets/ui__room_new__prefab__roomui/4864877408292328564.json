@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -255887126561223825
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -315980718094492817
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3260796100839540175
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6222763431213119646
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Btndown",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

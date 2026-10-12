@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4587849561239595317
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -242240312085264530
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3568410393874781869
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "particle_tag_play_roleskill_frame_05_witch_01",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

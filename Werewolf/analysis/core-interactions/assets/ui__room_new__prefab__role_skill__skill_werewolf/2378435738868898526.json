@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3257350142948376043
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8050719903527827952
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4352183734568719583
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4976801442494855662
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "claw2_light",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

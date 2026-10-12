@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5745084707261546631
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 769303777730633236
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4036948206096566972
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2565495618667789327
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "PoeoleNUM_txt1",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

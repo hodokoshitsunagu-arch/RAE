@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3690623355230446494
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2917481383010876036
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4569328384760526977
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "txt_bg",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

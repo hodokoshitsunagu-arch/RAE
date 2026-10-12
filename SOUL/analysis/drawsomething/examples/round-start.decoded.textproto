@@ -1,0 +1,7 @@
+drawSomethingGamePsh {
+  type: ROUND_START
+  roundStartPsh {
+    round: 1
+    ts: 1791784800000
+  }
+}

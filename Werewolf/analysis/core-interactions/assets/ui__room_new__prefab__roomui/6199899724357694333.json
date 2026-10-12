@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7199735418968331867
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4767746904360033249
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3703372767887368756
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3473027883843497511
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "stopAIAudio",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

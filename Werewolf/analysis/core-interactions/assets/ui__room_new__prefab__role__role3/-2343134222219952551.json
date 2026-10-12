@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4200502015852080536
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7922140127366706386
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4372476408221296687
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "tag_play_roleskill_28_admirer_bg",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

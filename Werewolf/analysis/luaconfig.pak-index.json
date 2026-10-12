@@ -1,0 +1,3692 @@
+[
+  {
+    "path": "data/RoleTagData.lua",
+    "size": 10515,
+    "compressed_size": 1987,
+    "encrypted": true
+  },
+  {
+    "path": "data/boot_config.lua",
+    "size": 619,
+    "compressed_size": 421,
+    "encrypted": true
+  },
+  {
+    "path": "data/cpu_ladder_config.lua",
+    "size": 40241,
+    "compressed_size": 8124,
+    "encrypted": true
+  },
+  {
+    "path": "data/csTypes.lua",
+    "size": 16867,
+    "compressed_size": 5365,
+    "encrypted": true
+  },
+  {
+    "path": "data/default_save.lua",
+    "size": 2822,
+    "compressed_size": 1240,
+    "encrypted": true
+  },
+  {
+    "path": "data/res_info.lua",
+    "size": 861,
+    "compressed_size": 605,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/19DaysGalgameBaseDate.lua",
+    "size": 1013,
+    "compressed_size": 656,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/19DaysGalgameDesc.lua",
+    "size": 16242,
+    "compressed_size": 6196,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/19DaysGalgameGift.lua",
+    "size": 2681,
+    "compressed_size": 1053,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/19DaysGalgameRole.lua",
+    "size": 1393,
+    "compressed_size": 637,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/5thAnniversaryReportH5.lua",
+    "size": 2541,
+    "compressed_size": 1032,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/AIAccountClientConfig.lua",
+    "size": 766,
+    "compressed_size": 569,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/AICharacter.lua",
+    "size": 3078,
+    "compressed_size": 1127,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/AccountClosure.lua",
+    "size": 847,
+    "compressed_size": 502,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/Arlene.lua",
+    "size": 2004,
+    "compressed_size": 974,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/AudioReference.lua",
+    "size": 493222,
+    "compressed_size": 36604,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/BlessingBag.lua",
+    "size": 3998,
+    "compressed_size": 810,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/CashActivityParam.lua",
+    "size": 511,
+    "compressed_size": 362,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/CashActivityStage.lua",
+    "size": 1056,
+    "compressed_size": 591,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/CashActivityWeekday.lua",
+    "size": 983,
+    "compressed_size": 493,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/CurrencyPath.lua",
+    "size": 4263,
+    "compressed_size": 1572,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/DeathreasonPath.lua",
+    "size": 7511,
+    "compressed_size": 1979,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/FreedomPattern.lua",
+    "size": 2402,
+    "compressed_size": 1513,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/GameRolePromptInfo.lua",
+    "size": 4266,
+    "compressed_size": 1455,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/GiftNewLevel.lua",
+    "size": 3238,
+    "compressed_size": 978,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/GuideConfig.lua",
+    "size": 43428,
+    "compressed_size": 13054,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/LRSSettlementFalls.lua",
+    "size": 26677,
+    "compressed_size": 4866,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/Labelcollation.lua",
+    "size": 909,
+    "compressed_size": 603,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/MarkIdentity.lua",
+    "size": 7617,
+    "compressed_size": 2147,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/MasterSeason.lua",
+    "size": 25192,
+    "compressed_size": 3788,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/Match_Misc.lua",
+    "size": 9002,
+    "compressed_size": 2566,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/NetworkConfigInfo.lua",
+    "size": 1291,
+    "compressed_size": 855,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/NoviceTrialQAConfig.lua",
+    "size": 5293,
+    "compressed_size": 2376,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/PetSpineAnimConfig.lua",
+    "size": 4236,
+    "compressed_size": 631,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/PropPopupData.lua",
+    "size": 423878,
+    "compressed_size": 54294,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/ProphecyInfo.lua",
+    "size": 738,
+    "compressed_size": 483,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/ReplayState.lua",
+    "size": 26693,
+    "compressed_size": 5267,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/Rolelimittable.lua",
+    "size": 10836,
+    "compressed_size": 2052,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/RookieTrial.lua",
+    "size": 722,
+    "compressed_size": 602,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/SpineMultipleRenderers.lua",
+    "size": 674,
+    "compressed_size": 327,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/SpringActivity.lua",
+    "size": 11183,
+    "compressed_size": 3715,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/SpringFestival.lua",
+    "size": 3177,
+    "compressed_size": 1454,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/StartVioce.lua",
+    "size": 4037,
+    "compressed_size": 1308,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/Titlewall.lua",
+    "size": 249432,
+    "compressed_size": 38473,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/TutorialBaseConfig.lua",
+    "size": 3071,
+    "compressed_size": 1627,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/ability_examine.lua",
+    "size": 22763,
+    "compressed_size": 8284,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/accumulativeRechargeActivity.lua",
+    "size": 1056,
+    "compressed_size": 568,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/accusation.lua",
+    "size": 12539,
+    "compressed_size": 3354,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/activetask.lua",
+    "size": 4417,
+    "compressed_size": 1444,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/activetasktoken.lua",
+    "size": 952,
+    "compressed_size": 467,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/activityBoard.lua",
+    "size": 23764,
+    "compressed_size": 4447,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/activityBubble.lua",
+    "size": 75063,
+    "compressed_size": 14715,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/activityGiftBag.lua",
+    "size": 657240,
+    "compressed_size": 90324,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/activityMoon.lua",
+    "size": 838,
+    "compressed_size": 577,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/activityRank.lua",
+    "size": 7412,
+    "compressed_size": 1986,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/activitySummary.lua",
+    "size": 6979,
+    "compressed_size": 2327,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/activitySummaryDeputy.lua",
+    "size": 38456,
+    "compressed_size": 9458,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/activityTabRule.lua",
+    "size": 59041,
+    "compressed_size": 9612,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/activityToVote.lua",
+    "size": 931,
+    "compressed_size": 605,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/activitys.lua",
+    "size": 120493,
+    "compressed_size": 21197,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/affixSignatureGift.lua",
+    "size": 33749,
+    "compressed_size": 8834,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/aiSpeakReference_guaranteedText.lua",
+    "size": 14396,
+    "compressed_size": 4835,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/aiSpeakReference_term.lua",
+    "size": 1593,
+    "compressed_size": 914,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/allLimitGift.lua",
+    "size": 14602,
+    "compressed_size": 3586,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/anonymous.lua",
+    "size": 1345,
+    "compressed_size": 801,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/answer.lua",
+    "size": 4626,
+    "compressed_size": 1569,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/auWolf.lua",
+    "size": 1273,
+    "compressed_size": 731,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/au_emoticon.lua",
+    "size": 38434,
+    "compressed_size": 8024,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/au_mojinGoods1.lua",
+    "size": 3718,
+    "compressed_size": 1349,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/au_mojinGoods2.lua",
+    "size": 1913,
+    "compressed_size": 870,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/au_mojinShop.lua",
+    "size": 886,
+    "compressed_size": 646,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/battlepass.lua",
+    "size": 56493,
+    "compressed_size": 8993,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/battlepassTaskconfig.lua",
+    "size": 116953,
+    "compressed_size": 14589,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/beginerGift.lua",
+    "size": 2301,
+    "compressed_size": 922,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/bindmobile_rewards.lua",
+    "size": 921,
+    "compressed_size": 599,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/blockRole.lua",
+    "size": 3510,
+    "compressed_size": 1917,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/bubble.lua",
+    "size": 1340,
+    "compressed_size": 782,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/bubbleMiscellaneous.lua",
+    "size": 598,
+    "compressed_size": 506,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/bundleCenter.lua",
+    "size": 211949,
+    "compressed_size": 35151,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/buyconch.lua",
+    "size": 947,
+    "compressed_size": 550,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/buycoupon.lua",
+    "size": 1119,
+    "compressed_size": 568,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/capyActivity.lua",
+    "size": 33952,
+    "compressed_size": 3752,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/casualActivity.lua",
+    "size": 1115,
+    "compressed_size": 764,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/certification.lua",
+    "size": 439,
+    "compressed_size": 328,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/channel.lua",
+    "size": 2294,
+    "compressed_size": 937,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/channelSet.lua",
+    "size": 2233,
+    "compressed_size": 1181,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/channelSetting.lua",
+    "size": 3989,
+    "compressed_size": 1007,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/checkInGift.lua",
+    "size": 4899,
+    "compressed_size": 1308,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/chest.lua",
+    "size": 1788111,
+    "compressed_size": 208671,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/chestKeyGift.lua",
+    "size": 2574,
+    "compressed_size": 695,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/city.lua",
+    "size": 37622,
+    "compressed_size": 12274,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/coachTeam.lua",
+    "size": 748,
+    "compressed_size": 552,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/color.lua",
+    "size": 6276,
+    "compressed_size": 1794,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/common_public.lua",
+    "size": 1263,
+    "compressed_size": 884,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/contribution.lua",
+    "size": 757,
+    "compressed_size": 478,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/countryList.lua",
+    "size": 12881,
+    "compressed_size": 5300,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/cpChatBackground.lua",
+    "size": 838,
+    "compressed_size": 466,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/cpLevel.lua",
+    "size": 2284,
+    "compressed_size": 1191,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/cpOther.lua",
+    "size": 872,
+    "compressed_size": 578,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/cpRecord.lua",
+    "size": 14673,
+    "compressed_size": 5350,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/cpgiftbag.lua",
+    "size": 17064,
+    "compressed_size": 3947,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/crossoverNewAcc.lua",
+    "size": 4231,
+    "compressed_size": 1400,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/cumulativeReward.lua",
+    "size": 2010,
+    "compressed_size": 961,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/dailyDeal.lua",
+    "size": 21927,
+    "compressed_size": 3887,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/dailyDeals.lua",
+    "size": 473,
+    "compressed_size": 352,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/debris.lua",
+    "size": 30265,
+    "compressed_size": 8467,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/decorate.lua",
+    "size": 2125457,
+    "compressed_size": 237167,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/decorateCommonParams.lua",
+    "size": 730,
+    "compressed_size": 481,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/decorateDebris.lua",
+    "size": 43122,
+    "compressed_size": 10372,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/destinyBellEvent.lua",
+    "size": 11223,
+    "compressed_size": 3722,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/destinyBellOther.lua",
+    "size": 2612,
+    "compressed_size": 1393,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/discountCoupon.lua",
+    "size": 299627,
+    "compressed_size": 39837,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/dressup.lua",
+    "size": 1125028,
+    "compressed_size": 115454,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/dressupfilter.lua",
+    "size": 729,
+    "compressed_size": 461,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/eggChest.lua",
+    "size": 1529,
+    "compressed_size": 715,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/eggdebrisChest.lua",
+    "size": 28712,
+    "compressed_size": 5424,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/ejectNotice.lua",
+    "size": 56393,
+    "compressed_size": 11535,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/emoji.lua",
+    "size": 14071,
+    "compressed_size": 2726,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/emoticon.lua",
+    "size": 1572,
+    "compressed_size": 821,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/enlist.lua",
+    "size": 4252,
+    "compressed_size": 1456,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/etiquette_norm.lua",
+    "size": 4534,
+    "compressed_size": 2342,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/evaluateCommon.lua",
+    "size": 451,
+    "compressed_size": 364,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/evaluateTag.lua",
+    "size": 1759,
+    "compressed_size": 727,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/evaluation.lua",
+    "size": 28304,
+    "compressed_size": 7004,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/fashionValues.lua",
+    "size": 7205,
+    "compressed_size": 2324,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/followGuide.lua",
+    "size": 3816,
+    "compressed_size": 1542,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/freeSelect.lua",
+    "size": 192780,
+    "compressed_size": 32586,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/friendChatBackground.lua",
+    "size": 842,
+    "compressed_size": 467,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/friendLevel.lua",
+    "size": 2785,
+    "compressed_size": 1308,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/friendOther.lua",
+    "size": 396,
+    "compressed_size": 313,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/friendPrivilege.lua",
+    "size": 2031,
+    "compressed_size": 826,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/friendRecord.lua",
+    "size": 8017,
+    "compressed_size": 3409,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/fundLevel.lua",
+    "size": 1804,
+    "compressed_size": 668,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/funtips.lua",
+    "size": 16172,
+    "compressed_size": 5200,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/funtipscommon.lua",
+    "size": 586,
+    "compressed_size": 412,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/gachaSettings.lua",
+    "size": 531,
+    "compressed_size": 393,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/gameCfg.lua",
+    "size": 3120,
+    "compressed_size": 873,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/gameString.lua",
+    "size": 4040343,
+    "compressed_size": 1351143,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/gameTrigger1.lua",
+    "size": 8624,
+    "compressed_size": 2833,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/gameTrigger2.lua",
+    "size": 9878,
+    "compressed_size": 3289,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/gameTrigger3.lua",
+    "size": 9097,
+    "compressed_size": 2883,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/gameTrigger4.lua",
+    "size": 12586,
+    "compressed_size": 3732,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/gameTrigger5.lua",
+    "size": 8666,
+    "compressed_size": 2871,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/gametutorial.lua",
+    "size": 1255,
+    "compressed_size": 723,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/gfxByCpu.lua",
+    "size": 355,
+    "compressed_size": 292,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/gfxByCpuLevel.lua",
+    "size": 457,
+    "compressed_size": 327,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/giftExtra.lua",
+    "size": 2381,
+    "compressed_size": 967,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/giftItem.lua",
+    "size": 339094,
+    "compressed_size": 48445,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/givetotal.lua",
+    "size": 36295,
+    "compressed_size": 1882,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/global_notice_config.lua",
+    "size": 8672,
+    "compressed_size": 2810,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/goBack.lua",
+    "size": 1714,
+    "compressed_size": 871,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/goBackGiftPack.lua",
+    "size": 1380,
+    "compressed_size": 617,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/goBackSelect.lua",
+    "size": 2508,
+    "compressed_size": 781,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/goBackSignIn.lua",
+    "size": 930,
+    "compressed_size": 470,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/goBackTask.lua",
+    "size": 16298,
+    "compressed_size": 3540,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/goldenPigBankPermanent.lua",
+    "size": 1267,
+    "compressed_size": 928,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/goods.lua",
+    "size": 6822,
+    "compressed_size": 2329,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/goodsExtraLimit.lua",
+    "size": 1121,
+    "compressed_size": 503,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/goodsExtraReduce.lua",
+    "size": 424,
+    "compressed_size": 343,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/graphicsQualityConfig.lua",
+    "size": 1256,
+    "compressed_size": 436,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/group_activity.lua",
+    "size": 33792,
+    "compressed_size": 4555,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/growthroad.lua",
+    "size": 3621,
+    "compressed_size": 1784,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/growthroadOthers.lua",
+    "size": 552,
+    "compressed_size": 435,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/growthroadQA.lua",
+    "size": 6947,
+    "compressed_size": 2498,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/guild.lua",
+    "size": 3243,
+    "compressed_size": 1203,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/guildCompetition.lua",
+    "size": 2505,
+    "compressed_size": 1478,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/guildDecorate.lua",
+    "size": 11124,
+    "compressed_size": 2627,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/guildParty.lua",
+    "size": 2062,
+    "compressed_size": 1097,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/guild_RoomLabel.lua",
+    "size": 581,
+    "compressed_size": 415,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/guild_activity_others.lua",
+    "size": 2847,
+    "compressed_size": 1438,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/guild_certify.lua",
+    "size": 851,
+    "compressed_size": 505,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/guild_channel.lua",
+    "size": 749,
+    "compressed_size": 473,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/guild_contribution_chest.lua",
+    "size": 10977,
+    "compressed_size": 1501,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/guild_log.lua",
+    "size": 5699,
+    "compressed_size": 1183,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/guild_logs.lua",
+    "size": 2561,
+    "compressed_size": 1111,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/guild_others.lua",
+    "size": 4602,
+    "compressed_size": 2159,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/guild_present_chest.lua",
+    "size": 17978,
+    "compressed_size": 3335,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/guild_shop.lua",
+    "size": 105354,
+    "compressed_size": 16485,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/guild_signIn.lua",
+    "size": 819,
+    "compressed_size": 402,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/guild_tags.lua",
+    "size": 1249,
+    "compressed_size": 629,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/handBook.lua",
+    "size": 148233,
+    "compressed_size": 44808,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/honor.lua",
+    "size": 2483,
+    "compressed_size": 725,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/honorStar.lua",
+    "size": 1713,
+    "compressed_size": 714,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/hotRank.lua",
+    "size": 710,
+    "compressed_size": 513,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/identityGuessText.lua",
+    "size": 8159,
+    "compressed_size": 2147,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/identityGuessWindow.lua",
+    "size": 363,
+    "compressed_size": 341,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/identityTag.lua",
+    "size": 10700,
+    "compressed_size": 2818,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/level.lua",
+    "size": 1972,
+    "compressed_size": 769,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/lightUp.lua",
+    "size": 401,
+    "compressed_size": 302,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/limitActivit.lua",
+    "size": 14533,
+    "compressed_size": 2924,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/limitCoupon.lua",
+    "size": 2374,
+    "compressed_size": 936,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/limitGift.lua",
+    "size": 10234,
+    "compressed_size": 1961,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/limitGiftCondition.lua",
+    "size": 16117,
+    "compressed_size": 3850,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/logIn.lua",
+    "size": 988,
+    "compressed_size": 622,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/lottery.lua",
+    "size": 5494,
+    "compressed_size": 1047,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/luckyBagThanks.lua",
+    "size": 608,
+    "compressed_size": 440,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/mall.lua",
+    "size": 859,
+    "compressed_size": 528,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/masterPunishment.lua",
+    "size": 4496,
+    "compressed_size": 1234,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/masterSeasonPunishmentRank.lua",
+    "size": 987,
+    "compressed_size": 518,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/masterSeason_reputation.lua",
+    "size": 1933,
+    "compressed_size": 871,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/masterShop.lua",
+    "size": 5957,
+    "compressed_size": 1796,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/matchTips.lua",
+    "size": 172216,
+    "compressed_size": 57391,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/miniGame_reputation.lua",
+    "size": 1079,
+    "compressed_size": 720,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/minigame_10_template.lua",
+    "size": 2729,
+    "compressed_size": 1706,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/miscellaneous.lua",
+    "size": 1116,
+    "compressed_size": 773,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/monthCard.lua",
+    "size": 1145,
+    "compressed_size": 785,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/musicPackage.lua",
+    "size": 6532,
+    "compressed_size": 1435,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/netWorkData.lua",
+    "size": 780,
+    "compressed_size": 534,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/netWorkWifi.lua",
+    "size": 759,
+    "compressed_size": 531,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/neteasegod.lua",
+    "size": 10113,
+    "compressed_size": 2556,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/newSale.lua",
+    "size": 4310,
+    "compressed_size": 1617,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/newbieGrowth.lua",
+    "size": 6156,
+    "compressed_size": 2981,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/normalGift.lua",
+    "size": 1996,
+    "compressed_size": 840,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pddCut.lua",
+    "size": 2245,
+    "compressed_size": 1368,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/permission.lua",
+    "size": 2175,
+    "compressed_size": 955,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/personalization.lua",
+    "size": 447,
+    "compressed_size": 360,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/petGuidePushTaskconfig.lua",
+    "size": 2568,
+    "compressed_size": 1016,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/petGuideTaskconfig.lua",
+    "size": 55693,
+    "compressed_size": 5755,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/poolCoupon.lua",
+    "size": 46910,
+    "compressed_size": 7362,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/poolCouponUP.lua",
+    "size": 35298,
+    "compressed_size": 6058,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/poolCouponppl.lua",
+    "size": 8433,
+    "compressed_size": 1809,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/poolGold.lua",
+    "size": 14135,
+    "compressed_size": 2790,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/poolSeparately.lua",
+    "size": 134943,
+    "compressed_size": 27664,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/poolSkinActivityCoupon.lua",
+    "size": 114433,
+    "compressed_size": 19456,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/poolSkinActivityGold.lua",
+    "size": 85848,
+    "compressed_size": 14377,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/poolSkinCoupon.lua",
+    "size": 23935,
+    "compressed_size": 4494,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/poolSkinGold.lua",
+    "size": 21963,
+    "compressed_size": 4128,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/poolWithoutReplacement.lua",
+    "size": 17962,
+    "compressed_size": 3298,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/ppl_reputation.lua",
+    "size": 4598,
+    "compressed_size": 1892,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/privilegelist.lua",
+    "size": 18874,
+    "compressed_size": 5100,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/prop.lua",
+    "size": 3067576,
+    "compressed_size": 590010,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/propPopup.lua",
+    "size": 7948,
+    "compressed_size": 2464,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/propRedEnvelopActivity.lua",
+    "size": 34295,
+    "compressed_size": 4739,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/provinceList.lua",
+    "size": 1882,
+    "compressed_size": 1006,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/punishment.lua",
+    "size": 1776,
+    "compressed_size": 823,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/punishmentRank.lua",
+    "size": 1462,
+    "compressed_size": 673,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/punishmentReason.lua",
+    "size": 2981,
+    "compressed_size": 1454,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/qualifying_report.lua",
+    "size": 1096,
+    "compressed_size": 792,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/qualifying_reputation.lua",
+    "size": 3402,
+    "compressed_size": 1664,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/quickInvite.lua",
+    "size": 1008,
+    "compressed_size": 701,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/ranking.lua",
+    "size": 231261,
+    "compressed_size": 22150,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/rankingRecommend.lua",
+    "size": 567,
+    "compressed_size": 350,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/rankingWrite.lua",
+    "size": 25708,
+    "compressed_size": 5608,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/recommendReason.lua",
+    "size": 962,
+    "compressed_size": 652,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/reputation.lua",
+    "size": 7780,
+    "compressed_size": 2874,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/role.lua",
+    "size": 34755,
+    "compressed_size": 9009,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/rookieGuidOthers.lua",
+    "size": 2230,
+    "compressed_size": 1162,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/rookieGuidSection.lua",
+    "size": 4890,
+    "compressed_size": 1404,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/rookieGuidSignIn.lua",
+    "size": 1026,
+    "compressed_size": 489,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/rookieGuidTaskconfig.lua",
+    "size": 44490,
+    "compressed_size": 8017,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/rookieTaskconfig.lua",
+    "size": 75373,
+    "compressed_size": 12568,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/roomTag.lua",
+    "size": 1173,
+    "compressed_size": 589,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/scene.lua",
+    "size": 17626,
+    "compressed_size": 3371,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/seasonList.lua",
+    "size": 809,
+    "compressed_size": 510,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/seerScoreRule.lua",
+    "size": 977,
+    "compressed_size": 580,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/seerTaskConfig.lua",
+    "size": 3491,
+    "compressed_size": 1284,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/setOutBag.lua",
+    "size": 894,
+    "compressed_size": 558,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/shareSkin.lua",
+    "size": 694,
+    "compressed_size": 468,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/shopgoods.lua",
+    "size": 308905,
+    "compressed_size": 49806,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/silkBag.lua",
+    "size": 58172,
+    "compressed_size": 17232,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/silkBagAILimit.lua",
+    "size": 592,
+    "compressed_size": 348,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/skin.lua",
+    "size": 192462,
+    "compressed_size": 29021,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/skinDebris.lua",
+    "size": 12195,
+    "compressed_size": 3293,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/skyLrsReward.lua",
+    "size": 1041,
+    "compressed_size": 618,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/slot.lua",
+    "size": 964,
+    "compressed_size": 542,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/slotpool.lua",
+    "size": 1878,
+    "compressed_size": 742,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/soundEffect.lua",
+    "size": 63989,
+    "compressed_size": 12896,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/sparkProp.lua",
+    "size": 458,
+    "compressed_size": 372,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/sparkStyle.lua",
+    "size": 1684,
+    "compressed_size": 657,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/specialEvaluation.lua",
+    "size": 949,
+    "compressed_size": 596,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/specialTurnsPattern.lua",
+    "size": 1144,
+    "compressed_size": 495,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/square.lua",
+    "size": 1467,
+    "compressed_size": 739,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/starColor.lua",
+    "size": 1682,
+    "compressed_size": 549,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/story.lua",
+    "size": 26042,
+    "compressed_size": 8635,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/storyChapter.lua",
+    "size": 7302,
+    "compressed_size": 2705,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/storyDialogue.lua",
+    "size": 278817,
+    "compressed_size": 84370,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/storyGeneral.lua",
+    "size": 1181,
+    "compressed_size": 722,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/storyImpression.lua",
+    "size": 18786,
+    "compressed_size": 7882,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/subscribeBasedate.lua",
+    "size": 2018,
+    "compressed_size": 1116,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/subscribeGoods.lua",
+    "size": 1868,
+    "compressed_size": 752,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/suitEgg.lua",
+    "size": 17175,
+    "compressed_size": 3920,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/suitRelated.lua",
+    "size": 61380,
+    "compressed_size": 19049,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/suite.lua",
+    "size": 14683,
+    "compressed_size": 4011,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/surveyConfig.lua",
+    "size": 23664,
+    "compressed_size": 3454,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/surveyQuestion.lua",
+    "size": 69910,
+    "compressed_size": 18493,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/taskconfig.lua",
+    "size": 884697,
+    "compressed_size": 90847,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/teamQuiz.lua",
+    "size": 1723,
+    "compressed_size": 1006,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/teamQuizConfig.lua",
+    "size": 2612,
+    "compressed_size": 1470,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/teamQuiz_comment.lua",
+    "size": 1503,
+    "compressed_size": 1083,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/teamQuiz_easy.lua",
+    "size": 311851,
+    "compressed_size": 54042,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/teamQuiz_hard.lua",
+    "size": 82171,
+    "compressed_size": 17915,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/teamQuiz_medium.lua",
+    "size": 155752,
+    "compressed_size": 34889,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/teamQuiz_ranking.lua",
+    "size": 1321,
+    "compressed_size": 572,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/template.lua",
+    "size": 221589,
+    "compressed_size": 28441,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/templateMail.lua",
+    "size": 26357,
+    "compressed_size": 7648,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/templateMailBgConfig.lua",
+    "size": 713,
+    "compressed_size": 472,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/templateTag.lua",
+    "size": 2698,
+    "compressed_size": 1523,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/theme.lua",
+    "size": 14572,
+    "compressed_size": 4050,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/title.lua",
+    "size": 303134,
+    "compressed_size": 60828,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/titleType.lua",
+    "size": 8540,
+    "compressed_size": 2392,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/topRoom.lua",
+    "size": 784,
+    "compressed_size": 472,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/topicFanProp.lua",
+    "size": 1328,
+    "compressed_size": 549,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/topicMiscellaneousForm.lua",
+    "size": 599,
+    "compressed_size": 446,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/topicStation.lua",
+    "size": 88975,
+    "compressed_size": 17649,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/transformEvaluation.lua",
+    "size": 3190,
+    "compressed_size": 1357,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/underlyingsettings.lua",
+    "size": 1946,
+    "compressed_size": 972,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/unlockFunction.lua",
+    "size": 1703,
+    "compressed_size": 926,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/video.lua",
+    "size": 4295,
+    "compressed_size": 1394,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/vip.lua",
+    "size": 5993,
+    "compressed_size": 1633,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/vipGift.lua",
+    "size": 7049,
+    "compressed_size": 1864,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/voicePackage.lua",
+    "size": 13474,
+    "compressed_size": 2131,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/warmthCondition.lua",
+    "size": 3339,
+    "compressed_size": 1103,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/webQuiz.lua",
+    "size": 472693,
+    "compressed_size": 96497,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/wplPunishment.lua",
+    "size": 3288,
+    "compressed_size": 995,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/WPL/WPL_Bubble.lua",
+    "size": 1654,
+    "compressed_size": 879,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/WPL/WPL_GuessingCenter.lua",
+    "size": 1303,
+    "compressed_size": 626,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/WPL/WPL_GuildGlory.lua",
+    "size": 21753,
+    "compressed_size": 5296,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/WPL/WPL_GuildRank.lua",
+    "size": 1434,
+    "compressed_size": 1013,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/WPL/WPL_Misc.lua",
+    "size": 7822,
+    "compressed_size": 4084,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/WPL/WPL_Rank.lua",
+    "size": 1010,
+    "compressed_size": 541,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/WPL/WPL_Worship.lua",
+    "size": 1219,
+    "compressed_size": 618,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/WPL/WPL_auditionsReward.lua",
+    "size": 748,
+    "compressed_size": 422,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/WPL/WPL_card.lua",
+    "size": 5134,
+    "compressed_size": 1412,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/WPL/WPL_giftrank.lua",
+    "size": 470,
+    "compressed_size": 416,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/WPL/WPL_showList.lua",
+    "size": 821,
+    "compressed_size": 491,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/WPL/WPL_stage.lua",
+    "size": 9128,
+    "compressed_size": 3312,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/WPL/WPL_subscribe.lua",
+    "size": 1165,
+    "compressed_size": 857,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/WPL/WPL_wolf.lua",
+    "size": 621,
+    "compressed_size": 434,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/WPL/WPL_wolfRank.lua",
+    "size": 724,
+    "compressed_size": 395,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/activityQuiz/activityQuiz.lua",
+    "size": 1377,
+    "compressed_size": 723,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/activityQuiz/activityQuizStage.lua",
+    "size": 11628,
+    "compressed_size": 2014,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/activityQuiz/easyTopic.lua",
+    "size": 47342,
+    "compressed_size": 17570,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/activityQuiz/hardTopic.lua",
+    "size": 33567,
+    "compressed_size": 13554,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/activityQuiz/miduemTopic.lua",
+    "size": 34570,
+    "compressed_size": 13990,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/carnivalHouse/carnivalAction.lua",
+    "size": 1492,
+    "compressed_size": 776,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/carnivalHouse/carnivalBulletScreen.lua",
+    "size": 2074,
+    "compressed_size": 1004,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/carnivalHouse/carnivalChat.lua",
+    "size": 377,
+    "compressed_size": 310,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/carnivalHouse/carnivalChest.lua",
+    "size": 532,
+    "compressed_size": 456,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/carnivalHouse/carnivalChestBonus.lua",
+    "size": 5234,
+    "compressed_size": 1228,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/carnivalHouse/carnivalGeneralConfig.lua",
+    "size": 1227,
+    "compressed_size": 742,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/carnivalHouse/carnivalHouseActivity.lua",
+    "size": 1337,
+    "compressed_size": 836,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/carnivalHouse/carnivalLuckyDog.lua",
+    "size": 660,
+    "compressed_size": 479,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/carnivalHouse/carnivalLuckyDogPic.lua",
+    "size": 1397,
+    "compressed_size": 699,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/carnivalHouse/carnivalPoint.lua",
+    "size": 1488,
+    "compressed_size": 554,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/carnivalHouse/carnivalRank.lua",
+    "size": 369,
+    "compressed_size": 310,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/carnivalHouse/carnivalRedEnvelop.lua",
+    "size": 14030,
+    "compressed_size": 1866,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/carnivalHouse/carnivalThanksBoss.lua",
+    "size": 637,
+    "compressed_size": 432,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/configurationTableMerge/chestPool/chestPool.lua",
+    "size": 1516933,
+    "compressed_size": 231875,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/configurationTableMerge/chestPool/chestPool1.lua",
+    "size": 1365652,
+    "compressed_size": 215127,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/constellation/constellation.lua",
+    "size": 10819,
+    "compressed_size": 1742,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/constellation/constellationFortune.lua",
+    "size": 17102,
+    "compressed_size": 6976,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/constellation/constellationGoods.lua",
+    "size": 19781,
+    "compressed_size": 3833,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/crescentEvent/cardWallet.lua",
+    "size": 13623,
+    "compressed_size": 2529,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/crescentEvent/crescentEventForm.lua",
+    "size": 34359,
+    "compressed_size": 7269,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/crescentEvent/openPhase.lua",
+    "size": 619,
+    "compressed_size": 402,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/editor/editMapForbidPositionsConfig.lua",
+    "size": 1089,
+    "compressed_size": 529,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/editor/editMapForbidRangeConfig.lua",
+    "size": 860,
+    "compressed_size": 450,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/galgame/galgame_Other.lua",
+    "size": 915,
+    "compressed_size": 648,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/galgame/galgame_archives.lua",
+    "size": 16871,
+    "compressed_size": 7918,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/galgame/galgame_daily.lua",
+    "size": 6479,
+    "compressed_size": 1966,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/galgame/galgame_frame.lua",
+    "size": 13914,
+    "compressed_size": 3804,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/galgame/galgame_gift.lua",
+    "size": 55823,
+    "compressed_size": 15257,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/galgame/galgame_recall.lua",
+    "size": 29036,
+    "compressed_size": 4735,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/galgame/galgame_relation.lua",
+    "size": 1160,
+    "compressed_size": 629,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/galgame/galgame_relationship.lua",
+    "size": 10170,
+    "compressed_size": 2792,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/galgame/galgame_role.lua",
+    "size": 28509,
+    "compressed_size": 5818,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/galgame/galgame_roleCard.lua",
+    "size": 13331,
+    "compressed_size": 5090,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/galgame/galgame_story.lua",
+    "size": 77537,
+    "compressed_size": 19007,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/galgame/galgame_sytheticProphet.lua",
+    "size": 1657,
+    "compressed_size": 579,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/galgame/galgame_voice.lua",
+    "size": 1223872,
+    "compressed_size": 200531,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/chainedGiftConfig.lua",
+    "size": 1574,
+    "compressed_size": 907,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/collectLuckyCards.lua",
+    "size": 1498,
+    "compressed_size": 999,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/emakiQuotaRanking.lua",
+    "size": 15129,
+    "compressed_size": 3249,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/friendRecall.lua",
+    "size": 3019,
+    "compressed_size": 1722,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/gachaFrame.lua",
+    "size": 1428,
+    "compressed_size": 859,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/galGame.lua",
+    "size": 2565,
+    "compressed_size": 1340,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/galGameStory.lua",
+    "size": 161169,
+    "compressed_size": 34316,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalActivityShow.lua",
+    "size": 27840,
+    "compressed_size": 7098,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalActivityTabShow.lua",
+    "size": 6005,
+    "compressed_size": 1506,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalActivityconfig.lua",
+    "size": 225582,
+    "compressed_size": 47632,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalAnniversaryBenefits.lua",
+    "size": 2937,
+    "compressed_size": 1302,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalAnswer.lua",
+    "size": 3044,
+    "compressed_size": 1212,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalAroundToy.lua",
+    "size": 5254,
+    "compressed_size": 1872,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalBigActivityMainMeau.lua",
+    "size": 2052,
+    "compressed_size": 1212,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalBingo.lua",
+    "size": 48111,
+    "compressed_size": 8722,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalBingoChestPool.lua",
+    "size": 12735,
+    "compressed_size": 2448,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalBoardMatching.lua",
+    "size": 17298,
+    "compressed_size": 4614,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalBumpPlay.lua",
+    "size": 6627,
+    "compressed_size": 1995,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalCarnivalHouse.lua",
+    "size": 2967,
+    "compressed_size": 1570,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalCarnivalHouseAnswer.lua",
+    "size": 5532,
+    "compressed_size": 1201,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalCarnivalHouseMillionCoupon.lua",
+    "size": 6300,
+    "compressed_size": 1321,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalCarnivalHouseMillionCouponPool.lua",
+    "size": 1464,
+    "compressed_size": 717,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalCarnivalHouseMusic.lua",
+    "size": 1816,
+    "compressed_size": 885,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalCarnivalHouseTheme.lua",
+    "size": 23237,
+    "compressed_size": 10474,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalChargeconfig.lua",
+    "size": 1510,
+    "compressed_size": 769,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalChestActivity.lua",
+    "size": 2585,
+    "compressed_size": 1189,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalChoose.lua",
+    "size": 12176,
+    "compressed_size": 2751,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalCollect.lua",
+    "size": 6001,
+    "compressed_size": 2082,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalCollectReward.lua",
+    "size": 1657,
+    "compressed_size": 821,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalDivinationHouse.lua",
+    "size": 9817,
+    "compressed_size": 1729,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalDivinationHousePool.lua",
+    "size": 14852,
+    "compressed_size": 3554,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalDoubleSeat.lua",
+    "size": 897,
+    "compressed_size": 581,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalDoubleTurntable.lua",
+    "size": 2861,
+    "compressed_size": 1178,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalExchangeconfig.lua",
+    "size": 3196,
+    "compressed_size": 1219,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalExhibitDynamic.lua",
+    "size": 958,
+    "compressed_size": 594,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalExpressWall.lua",
+    "size": 3957,
+    "compressed_size": 1728,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalFollowGuide.lua",
+    "size": 430,
+    "compressed_size": 368,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalFullScaleSchedule.lua",
+    "size": 17987,
+    "compressed_size": 5364,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalGiftPool.lua",
+    "size": 2354,
+    "compressed_size": 759,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalGiftShow.lua",
+    "size": 854,
+    "compressed_size": 642,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalGroup.lua",
+    "size": 9043,
+    "compressed_size": 1830,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalGroupBP.lua",
+    "size": 18098,
+    "compressed_size": 3291,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalHotPlanks.lua",
+    "size": 514,
+    "compressed_size": 412,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalLeagueInformation.lua",
+    "size": 24264,
+    "compressed_size": 7571,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalLeagueRank.lua",
+    "size": 604,
+    "compressed_size": 486,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalLeagueReservation.lua",
+    "size": 1543,
+    "compressed_size": 1114,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalLinkageBoard.lua",
+    "size": 2615,
+    "compressed_size": 1248,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalLinkageClass.lua",
+    "size": 785,
+    "compressed_size": 589,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalLinkageClassStory.lua",
+    "size": 2251,
+    "compressed_size": 816,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalLinkageClassVideo.lua",
+    "size": 1170,
+    "compressed_size": 550,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalLinkageGrade.lua",
+    "size": 4228,
+    "compressed_size": 2012,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalLinkageHistory.lua",
+    "size": 540,
+    "compressed_size": 435,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalLinkageHistorydetail.lua",
+    "size": 1393,
+    "compressed_size": 614,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalLinkageTabShow.lua",
+    "size": 466,
+    "compressed_size": 390,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalLittleSnakeCake.lua",
+    "size": 1616,
+    "compressed_size": 1030,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalLittleSnakeShop.lua",
+    "size": 1755,
+    "compressed_size": 1151,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalMonopoly.lua",
+    "size": 32828,
+    "compressed_size": 3443,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalMonopolyMapGrid.lua",
+    "size": 2670,
+    "compressed_size": 860,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalMonopolyPieces.lua",
+    "size": 4098,
+    "compressed_size": 1403,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalMonopolyStory.lua",
+    "size": 42302,
+    "compressed_size": 7361,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalMonopolydialogue.lua",
+    "size": 73039,
+    "compressed_size": 10263,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalMonsterGame.lua",
+    "size": 1942,
+    "compressed_size": 1165,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalMoreChestInterface.lua",
+    "size": 19408,
+    "compressed_size": 5120,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalMyPlanks.lua",
+    "size": 530,
+    "compressed_size": 410,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalOneselfSchedule.lua",
+    "size": 1356,
+    "compressed_size": 916,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalParadisehomepage.lua",
+    "size": 2829,
+    "compressed_size": 1387,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalPointWolf.lua",
+    "size": 8802,
+    "compressed_size": 1774,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalPuzzleGame.lua",
+    "size": 5929,
+    "compressed_size": 1796,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalRankconfig.lua",
+    "size": 29914,
+    "compressed_size": 6750,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalReceiveGiftActivity.lua",
+    "size": 3841,
+    "compressed_size": 1199,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalSendGift.lua",
+    "size": 581,
+    "compressed_size": 479,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalSendGiftActivity.lua",
+    "size": 22379,
+    "compressed_size": 5445,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalSendLetter.lua",
+    "size": 16490,
+    "compressed_size": 3566,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalSendWishes.lua",
+    "size": 18409,
+    "compressed_size": 5712,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalShopExchangeToken.lua",
+    "size": 832275,
+    "compressed_size": 76061,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalShopconfig.lua",
+    "size": 143754,
+    "compressed_size": 27952,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalShortTermLossRecall.lua",
+    "size": 3150,
+    "compressed_size": 1162,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalSignInInterface.lua",
+    "size": 2311,
+    "compressed_size": 976,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalSkin.lua",
+    "size": 880,
+    "compressed_size": 589,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalSkinCollection.lua",
+    "size": 1986,
+    "compressed_size": 786,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalSkyWarmth.lua",
+    "size": 4458,
+    "compressed_size": 2079,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalSpecialActivityChest.lua",
+    "size": 34145,
+    "compressed_size": 7890,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalStudentProve.lua",
+    "size": 743,
+    "compressed_size": 586,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalSubject.lua",
+    "size": 25628,
+    "compressed_size": 9462,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalSuitChestActivity.lua",
+    "size": 59415,
+    "compressed_size": 10296,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalSuitCollect.lua",
+    "size": 23345,
+    "compressed_size": 4993,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalSupport.lua",
+    "size": 8735,
+    "compressed_size": 2632,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalTaskconfig.lua",
+    "size": 94027,
+    "compressed_size": 18945,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalTeamBooking.lua",
+    "size": 601,
+    "compressed_size": 439,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalTitleSponsorship.lua",
+    "size": 1627,
+    "compressed_size": 946,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalTokenCollectActivity.lua",
+    "size": 4985,
+    "compressed_size": 1898,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/generalchestStory.lua",
+    "size": 3626,
+    "compressed_size": 2119,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/goldenPigBankActivity.lua",
+    "size": 2722,
+    "compressed_size": 1137,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/groupCompeteBaseData.lua",
+    "size": 3945,
+    "compressed_size": 1779,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/groupCompetePersonalReward.lua",
+    "size": 3219,
+    "compressed_size": 854,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/heritageCollectActive.lua",
+    "size": 5216,
+    "compressed_size": 2076,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/luckyShopBaseData.lua",
+    "size": 7952,
+    "compressed_size": 1988,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/luckyShopFakeBroadcast.lua",
+    "size": 456875,
+    "compressed_size": 68193,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/luckyShopRewardGroup.lua",
+    "size": 23491,
+    "compressed_size": 4531,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/shareLuckyBag.lua",
+    "size": 1501,
+    "compressed_size": 766,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/shareLuckyBagCondition.lua",
+    "size": 814,
+    "compressed_size": 467,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/shortTermLossRecall.lua",
+    "size": 6408,
+    "compressed_size": 1264,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/shuaituBind.lua",
+    "size": 833,
+    "compressed_size": 667,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/signBuy.lua",
+    "size": 4637,
+    "compressed_size": 1811,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/signBuyColor.lua",
+    "size": 1041,
+    "compressed_size": 636,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/signBuyReward.lua",
+    "size": 2332,
+    "compressed_size": 856,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/silkbagBase.lua",
+    "size": 2250,
+    "compressed_size": 1350,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/silkbagReward.lua",
+    "size": 10641,
+    "compressed_size": 1817,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/silkbagTask.lua",
+    "size": 1876,
+    "compressed_size": 944,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/smallAmountGacha.lua",
+    "size": 947,
+    "compressed_size": 656,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/sonCollectLuckyCardsSon.lua",
+    "size": 23145,
+    "compressed_size": 13465,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/taoBaoQuiz.lua",
+    "size": 1011,
+    "compressed_size": 726,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/taoBaoQuizTopicPool.lua",
+    "size": 3416,
+    "compressed_size": 1785,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/vipExpFramework.lua",
+    "size": 362,
+    "compressed_size": 315,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/generalActivity/vipExpReward.lua",
+    "size": 3527,
+    "compressed_size": 1205,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/intimacy/Intimacy_Other.lua",
+    "size": 606,
+    "compressed_size": 493,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/intimacy/Intimacy_Tag.lua",
+    "size": 1179,
+    "compressed_size": 728,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/knightsAppeal/knightsAppeal_appealReputation.lua",
+    "size": 439,
+    "compressed_size": 325,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/knightsAppeal/knightsAppeal_codeName.lua",
+    "size": 1376,
+    "compressed_size": 571,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/knightsAppeal/knightsAppeal_commonParams.lua",
+    "size": 7639,
+    "compressed_size": 3416,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/knightsAppeal/knightsAppeal_expandJoinLimit.lua",
+    "size": 921,
+    "compressed_size": 622,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/knightsAppeal/knightsAppeal_knightGuide.lua",
+    "size": 695,
+    "compressed_size": 474,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/knightsAppeal/knightsAppeal_knightLevel.lua",
+    "size": 4183,
+    "compressed_size": 1317,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/knightsAppeal/knightsAppeal_knightLevelCondition.lua",
+    "size": 1397,
+    "compressed_size": 829,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/knightsAppeal/knightsAppeal_knightRules.lua",
+    "size": 2191,
+    "compressed_size": 1136,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/knightsAppeal/knightsAppeal_power.lua",
+    "size": 1376,
+    "compressed_size": 720,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/knightsAppeal/knightsAppeal_questionPool.lua",
+    "size": 2901727,
+    "compressed_size": 966735,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/knightsAppeal/knightsAppeal_trialDailyReward.lua",
+    "size": 715,
+    "compressed_size": 379,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/manual/NewMoonQA.lua",
+    "size": 16287,
+    "compressed_size": 5644,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/mentor/Mentoring_MasterGift.lua",
+    "size": 2130,
+    "compressed_size": 873,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/mentor/Mentoring_MasterShop.lua",
+    "size": 1565,
+    "compressed_size": 633,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/mentor/Mentoring_MasterTitleGift.lua",
+    "size": 679,
+    "compressed_size": 415,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/mentor/Mentoring_Other.lua",
+    "size": 2353,
+    "compressed_size": 1323,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/mentor/Mentoring_PrenticeGift.lua",
+    "size": 1829,
+    "compressed_size": 822,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/mentor/Mentoring_PrenticeLevel.lua",
+    "size": 1558,
+    "compressed_size": 647,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/mentor/Mentoring_Taskconfig.lua",
+    "size": 41128,
+    "compressed_size": 4156,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/minigame/activities.lua",
+    "size": 3272,
+    "compressed_size": 1237,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/minigame/punishmentReason.lua",
+    "size": 1764,
+    "compressed_size": 836,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/minigame/drawGuess/minigame_const.lua",
+    "size": 727,
+    "compressed_size": 517,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/minigame/drawGuess/reputation.lua",
+    "size": 2828,
+    "compressed_size": 1299,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/minigame/drawGuess/template.lua",
+    "size": 2887,
+    "compressed_size": 1331,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/minigame/drawGuess/upgrade.lua",
+    "size": 1409,
+    "compressed_size": 724,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/minigame/guessWords/minigame_const.lua",
+    "size": 773,
+    "compressed_size": 554,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/minigame/guessWords/reputation.lua",
+    "size": 2550,
+    "compressed_size": 1268,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/minigame/guessWords/template.lua",
+    "size": 1774,
+    "compressed_size": 844,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/minigame/guessWords/upgrade.lua",
+    "size": 1410,
+    "compressed_size": 725,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/minigame/spy/minigame_const.lua",
+    "size": 583,
+    "compressed_size": 428,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/minigame/spy/reputation.lua",
+    "size": 2567,
+    "compressed_size": 1270,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/minigame/spy/template.lua",
+    "size": 1807,
+    "compressed_size": 915,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/minigame/spy/upgrade.lua",
+    "size": 1403,
+    "compressed_size": 715,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/minigame/wolfMoon/Review.lua",
+    "size": 15555,
+    "compressed_size": 3110,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/minigame/wolfMoon/minigame_const.lua",
+    "size": 718,
+    "compressed_size": 515,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/minigame/wolfMoon/wolfMoonRole.lua",
+    "size": 10024,
+    "compressed_size": 3014,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/minigame/wolfMoon/wolfMoonheadposition.lua",
+    "size": 2409,
+    "compressed_size": 877,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/minigame/wolfMoon/wolfMoontemplate.lua",
+    "size": 5336,
+    "compressed_size": 1879,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/personalRoom/backgroundSettings.lua",
+    "size": 1425,
+    "compressed_size": 625,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/personalRoom/coverSettings.lua",
+    "size": 880,
+    "compressed_size": 513,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/personalRoom/hostActivation.lua",
+    "size": 1829,
+    "compressed_size": 947,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/personalRoom/personalRoomConfig.lua",
+    "size": 480,
+    "compressed_size": 371,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/personalRoom/personalRoomSettings.lua",
+    "size": 684,
+    "compressed_size": 425,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/personalRoom/personalRoomType.lua",
+    "size": 874,
+    "compressed_size": 529,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/petAction.lua",
+    "size": 295,
+    "compressed_size": 276,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/petChestActivity.lua",
+    "size": 12949,
+    "compressed_size": 3075,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/petConsumableItem.lua",
+    "size": 11644,
+    "compressed_size": 3278,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/petFriendsShop.lua",
+    "size": 1556,
+    "compressed_size": 687,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/petItem.lua",
+    "size": 23901,
+    "compressed_size": 5738,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/petLevelConfig.lua",
+    "size": 20616,
+    "compressed_size": 6516,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/petLimitGiftConfig.lua",
+    "size": 9627,
+    "compressed_size": 2389,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/petSkill.lua",
+    "size": 8041,
+    "compressed_size": 1591,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/petSystemLevel.lua",
+    "size": 12380,
+    "compressed_size": 2566,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/petTravel.lua",
+    "size": 16271,
+    "compressed_size": 2022,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/petTravelBook.lua",
+    "size": 4214,
+    "compressed_size": 1308,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/petTravelBookChapter.lua",
+    "size": 87355,
+    "compressed_size": 23620,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/petTravelBookPuzzle.lua",
+    "size": 5299,
+    "compressed_size": 984,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/petTravelBookPuzzleChest.lua",
+    "size": 1946,
+    "compressed_size": 731,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/sundry_params.lua",
+    "size": 4450,
+    "compressed_size": 2321,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/petBP/petBP.lua",
+    "size": 9784,
+    "compressed_size": 2081,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/petBP/petBPLevelReward/petBPLevelReward_1.lua",
+    "size": 9199,
+    "compressed_size": 1494,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/petBP/petBPLevelReward/petBPLevelReward_10.lua",
+    "size": 9160,
+    "compressed_size": 1497,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/petBP/petBPLevelReward/petBPLevelReward_11.lua",
+    "size": 9160,
+    "compressed_size": 1497,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/petBP/petBPLevelReward/petBPLevelReward_12.lua",
+    "size": 9160,
+    "compressed_size": 1497,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/petBP/petBPLevelReward/petBPLevelReward_13.lua",
+    "size": 9160,
+    "compressed_size": 1494,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/petBP/petBPLevelReward/petBPLevelReward_2.lua",
+    "size": 9199,
+    "compressed_size": 1494,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/petBP/petBPLevelReward/petBPLevelReward_3.lua",
+    "size": 9199,
+    "compressed_size": 1496,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/petBP/petBPLevelReward/petBPLevelReward_4.lua",
+    "size": 9169,
+    "compressed_size": 1490,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/petBP/petBPLevelReward/petBPLevelReward_5.lua",
+    "size": 9169,
+    "compressed_size": 1487,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/petBP/petBPLevelReward/petBPLevelReward_6.lua",
+    "size": 9159,
+    "compressed_size": 1497,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/petBP/petBPLevelReward/petBPLevelReward_7.lua",
+    "size": 9159,
+    "compressed_size": 1497,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/petBP/petBPLevelReward/petBPLevelReward_8.lua",
+    "size": 9159,
+    "compressed_size": 1498,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pet/petBP/petBPLevelReward/petBPLevelReward_9.lua",
+    "size": 9159,
+    "compressed_size": 1498,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pplBattlepass/pplBattlepass.lua",
+    "size": 16399,
+    "compressed_size": 3251,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pplBattlepass/pplBattlepassOther.lua",
+    "size": 590,
+    "compressed_size": 449,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pplBattlepass/pplBattlepassTaskconfig.lua",
+    "size": 69056,
+    "compressed_size": 7590,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pplBattlepass/pplBattlepassReward/pplBPLevelReward_40.lua",
+    "size": 17417,
+    "compressed_size": 2637,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pplBattlepass/pplBattlepassReward/pplBPLevelReward_41.lua",
+    "size": 17417,
+    "compressed_size": 2634,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pplBattlepass/pplBattlepassReward/pplBPLevelReward_42.lua",
+    "size": 17417,
+    "compressed_size": 2636,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pplBattlepass/pplBattlepassReward/pplBPLevelReward_43.lua",
+    "size": 17417,
+    "compressed_size": 2633,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pplBattlepass/pplBattlepassReward/pplBPLevelReward_44.lua",
+    "size": 17417,
+    "compressed_size": 2635,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pplBattlepass/pplBattlepassReward/pplBPLevelReward_45.lua",
+    "size": 17417,
+    "compressed_size": 2634,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pplBattlepass/pplBattlepassReward/pplBPLevelReward_46.lua",
+    "size": 17417,
+    "compressed_size": 2633,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pplBattlepass/pplBattlepassReward/pplBPLevelReward_47.lua",
+    "size": 17417,
+    "compressed_size": 2636,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pplBattlepass/pplBattlepassReward/pplBPLevelReward_48.lua",
+    "size": 17417,
+    "compressed_size": 2636,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pplBattlepass/pplBattlepassReward/pplBPLevelReward_49.lua",
+    "size": 17417,
+    "compressed_size": 2635,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pplBattlepass/pplBattlepassReward/pplBPLevelReward_50.lua",
+    "size": 17417,
+    "compressed_size": 2633,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pplBattlepass/pplBattlepassReward/pplBPLevelReward_51.lua",
+    "size": 17417,
+    "compressed_size": 2635,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pplBattlepass/pplBattlepassReward/pplBPLevelReward_52.lua",
+    "size": 17417,
+    "compressed_size": 2634,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/pplBattlepass/pplBattlepassReward/pplBPLevelReward_53.lua",
+    "size": 17360,
+    "compressed_size": 2760,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/socialHouse/socialHouse.lua",
+    "size": 27559,
+    "compressed_size": 5328,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/socialHouse/socialHouseConfig.lua",
+    "size": 533,
+    "compressed_size": 407,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/socialHouse/socialHouseType.lua",
+    "size": 654,
+    "compressed_size": 391,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/attainment.lua",
+    "size": 69524,
+    "compressed_size": 13000,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/careerAttainment.lua",
+    "size": 24802,
+    "compressed_size": 5068,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/giftCollectBag.lua",
+    "size": 37383,
+    "compressed_size": 5039,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/giftCollectLv.lua",
+    "size": 70195,
+    "compressed_size": 9130,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/giftCollectShow.lua",
+    "size": 10934,
+    "compressed_size": 2435,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/photoGroup.lua",
+    "size": 1807,
+    "compressed_size": 834,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/photoHome.lua",
+    "size": 937,
+    "compressed_size": 640,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/photoLibrary.lua",
+    "size": 15027,
+    "compressed_size": 3656,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/photoOthers.lua",
+    "size": 2868,
+    "compressed_size": 1540,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/seasonBless.lua",
+    "size": 1300,
+    "compressed_size": 750,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/seasonColor.lua",
+    "size": 11504,
+    "compressed_size": 5098,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/seasonOthers.lua",
+    "size": 4774,
+    "compressed_size": 2128,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/seasonReview.lua",
+    "size": 26480,
+    "compressed_size": 6732,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/seasonShop.lua",
+    "size": 4899,
+    "compressed_size": 1269,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/seasonShopExchangeToken.lua",
+    "size": 65649,
+    "compressed_size": 6318,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/themeSeason.lua",
+    "size": 10670,
+    "compressed_size": 3594,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/themeSeasonGameLv.lua",
+    "size": 13593,
+    "compressed_size": 3665,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/themeSeasonGameLvReward.lua",
+    "size": 9791,
+    "compressed_size": 1801,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/themeSeasonRewardShow.lua",
+    "size": 13527,
+    "compressed_size": 2485,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/seasonBattlePass/seasonBPLevelReward_10.lua",
+    "size": 11659,
+    "compressed_size": 2436,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/seasonBattlePass/seasonBPLevelReward_11.lua",
+    "size": 11659,
+    "compressed_size": 2442,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/seasonBattlePass/seasonBPLevelReward_12.lua",
+    "size": 11659,
+    "compressed_size": 2440,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/seasonBattlePass/seasonBPLevelReward_13.lua",
+    "size": 11757,
+    "compressed_size": 2525,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/seasonBattlePass/seasonBPLevelReward_6.lua",
+    "size": 11658,
+    "compressed_size": 2442,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/seasonBattlePass/seasonBPLevelReward_7.lua",
+    "size": 11658,
+    "compressed_size": 2443,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/seasonBattlePass/seasonBPLevelReward_8.lua",
+    "size": 11658,
+    "compressed_size": 2440,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/seasonBattlePass/seasonBPLevelReward_9.lua",
+    "size": 11658,
+    "compressed_size": 2441,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/seasonBattlePass/seasonBattlePass.lua",
+    "size": 5645,
+    "compressed_size": 2031,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/seasonBattlePass/seasonBattlePassOthers.lua",
+    "size": 2773,
+    "compressed_size": 1013,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/themeSeason/seasonBattlePass/seasonBattlePassTaskconfig.lua",
+    "size": 74245,
+    "compressed_size": 9071,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/totalSignIn/longTotalSignIn.lua",
+    "size": 2666,
+    "compressed_size": 848,
+    "encrypted": true
+  },
+  {
+    "path": "data/fileconfig/totalSignIn/shortTotalSignIn.lua",
+    "size": 884,
+    "compressed_size": 473,
+    "encrypted": true
+  },
+  {
+    "path": "data/i18n/i18n.lua",
+    "size": 1496,
+    "compressed_size": 862,
+    "encrypted": true
+  },
+  {
+    "path": "data/i18n/data/en.lua",
+    "size": 1349,
+    "compressed_size": 810,
+    "encrypted": true
+  },
+  {
+    "path": "data/i18n/data/zh.lua",
+    "size": 1349,
+    "compressed_size": 810,
+    "encrypted": true
+  }
+]

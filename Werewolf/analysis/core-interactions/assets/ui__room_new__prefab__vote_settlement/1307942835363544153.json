@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5011493632907848218
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4276462850336577235
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1064772765607409084
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8104888852914807011
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Vote_Settlement",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

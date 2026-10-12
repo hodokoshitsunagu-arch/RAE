@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3903154804751549537
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8988804003713010785
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8487783632812529316
+      }
+    }
+  ],
+  "m_Layer": 0,
+  "m_Name": "circle01",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

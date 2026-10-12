@@ -1,0 +1,6477 @@
+{
+  "source_evidence_id": "ev_57bae33db790c42ad9ca35c75940da34dad7ca44a0537685a2330c078b0327a0",
+  "apk_sha256": "ad679dd87079e5bc173e3abf64931f1da29ad3ad753c23702d68b901c70e5769",
+  "method": "xml.etree.ElementTree parsed REA normalized_result.manifest.text; component counts are declarations only",
+  "limitations": [
+    "Manifest declarations do not prove reachable execution, runtime usage, call graphs, Gradle module boundaries or server-side architecture.",
+    "com.piaxiya ownership is a namespace heuristic; shell exposes only 31 classes according to parent inspection.",
+    "Module groups are inferred from declared component names and can overlap."
+  ],
+  "package": "com.piaxiya.app",
+  "application": {
+    "theme": "0x7f14000b",
+    "label": "0x7f130060",
+    "icon": "0x7f100000",
+    "name": "com.netease.nis.wrapper.MyApplication",
+    "debuggable": "false",
+    "allowBackup": "false",
+    "largeHeap": "true",
+    "supportsRtl": "true",
+    "extractNativeLibs": "true",
+    "usesCleartextTraffic": "true",
+    "networkSecurityConfig": "0x7f160005",
+    "roundIcon": "0x7f100001",
+    "appComponentFactory": "androidx.core.app.CoreComponentFactory",
+    "requestLegacyExternalStorage": "true"
+  },
+  "counts": {
+    "service": 48,
+    "activity": 531,
+    "receiver": 27,
+    "provider": 17
+  },
+  "owned_counts": {
+    "service": 16,
+    "activity": 509,
+    "receiver": 5,
+    "provider": 2
+  },
+  "app_namespace_module_counts": {
+    "user": 132,
+    "sound": 55,
+    "live_v2": 54,
+    "dub": 46,
+    "message": 45,
+    "club": 37,
+    "article": 26,
+    "reward": 21,
+    "square": 20,
+    "shop": 18,
+    "lib_base": 16,
+    "playlist": 12,
+    "hising": 8,
+    "common": 7,
+    "treasure": 5,
+    "service": 4,
+    "test": 4,
+    "carefully": 4,
+    "island": 4,
+    "home": 2,
+    "wxapi": 2,
+    "game": 2,
+    "view": 1,
+    "push": 1,
+    "utils": 1,
+    "(root)": 1
+  },
+  "owned_component_package_counts": {
+    "com.piaxiya.app.club.activity": 37,
+    "com.piaxiya.app.dub.dub.activity": 31,
+    "com.piaxiya.app.message.activity": 29,
+    "com.piaxiya.app.user.personal.activity": 26,
+    "com.piaxiya.app.user.main.activity": 24,
+    "com.piaxiya.app.user.setting.activity": 21,
+    "com.piaxiya.app.reward.activity": 21,
+    "com.piaxiya.app.square.activity": 20,
+    "com.piaxiya.app.shop.activity": 18,
+    "com.piaxiya.app.user.relationship.activity": 17,
+    "com.piaxiya.app.user.master.activity": 16,
+    "com.piaxiya.app.sound.mandarin.activity": 14,
+    "com.piaxiya.app.live_v2.main.activity": 13,
+    "com.piaxiya.app.article.main.activity": 13,
+    "com.piaxiya.app.message.group.activity": 12,
+    "com.piaxiya.app.playlist.activity": 12,
+    "com.piaxiya.app.live_v2.wedding.activity": 11,
+    "com.piaxiya.app.user.subservice.activity": 10,
+    "com.piaxiya.app.sound.identify.activity": 8,
+    "com.piaxiya.app.sound.training.activity": 8,
+    "com.piaxiya.app.hising.activity": 8,
+    "com.piaxiya.app.common.activity": 7,
+    "com.piaxiya.app.dub.material.activity": 7,
+    "com.piaxiya.app.sound.drift.activity": 7,
+    "com.piaxiya.app.live_v2.exercise.activity": 7,
+    "com.piaxiya.app.sound.partner_ai.activity": 6,
+    "com.piaxiya.app.dub.collection.activity": 5,
+    "com.piaxiya.app.sound.masked.activity": 5,
+    "com.piaxiya.app.user.login.activity": 5,
+    "com.piaxiya.app.article.timeline.activity": 5,
+    "com.piaxiya.app.treasure.activity": 5,
+    "com.piaxiya.app.lib_base.base.keep": 5,
+    "com.piaxiya.app.test": 4,
+    "com.piaxiya.app.article.author.activity": 4,
+    "com.piaxiya.app.carefully.activity": 4,
+    "com.piaxiya.app.island.activity": 4,
+    "com.piaxiya.app.user.nobility.activity": 4,
+    "com.piaxiya.app.live_v2.chamber.activity": 4,
+    "com.piaxiya.app.lib_base.base.keeplive.service": 4,
+    "com.piaxiya.app.service": 3,
+    "com.piaxiya.app.user.task.activity": 3,
+    "com.piaxiya.app.live_v2.recording.activity": 3,
+    "com.piaxiya.app.message.emoticon.activity": 3,
+    "com.piaxiya.app.live_v2.collaboration.activity": 3,
+    "com.piaxiya.app.live_v2.interaction.activity": 3,
+    "com.piaxiya.app.dub.authenticate.activity": 3,
+    "com.piaxiya.app.article.series.activity": 3,
+    "com.piaxiya.app.home.activity": 2,
+    "com.piaxiya.app.user.dramafangroup.activity": 2,
+    "com.piaxiya.app.live_v2.club.activity": 2,
+    "com.piaxiya.app.sound.sense.activity": 2,
+    "com.piaxiya.app.sound.exercise.activity": 2,
+    "com.piaxiya.app.wxapi": 2,
+    "com.piaxiya.app.game.activity": 2,
+    "com.piaxiya.app.live_v2.service": 2,
+    "com.piaxiya.app.sound.throat.activity": 2,
+    "com.piaxiya.app.live_v2.hall.activity": 2,
+    "com.piaxiya.app": 1,
+    "com.piaxiya.app.live_v2.match.activity": 1,
+    "com.piaxiya.app.user.guide.activity": 1,
+    "com.piaxiya.app.view": 1,
+    "com.piaxiya.app.push": 1,
+    "com.piaxiya.app.lib_base.album.activity": 1,
+    "com.piaxiya.app.lib_base.album.pictureeditor": 1,
+    "com.piaxiya.app.live_v2.pia.activity": 1,
+    "com.piaxiya.app.sound.masked.service": 1,
+    "com.piaxiya.app.service.receiver": 1,
+    "com.piaxiya.app.live_v2.notification.receiver": 1,
+    "com.piaxiya.app.utils": 1,
+    "com.piaxiya.app.article.rank.activity": 1,
+    "com.piaxiya.app.message.ait.selector": 1,
+    "com.piaxiya.app.user.bind": 1,
+    "com.piaxiya.app.user.show.activity": 1,
+    "com.piaxiya.app.user.newbie.activity": 1,
+    "com.piaxiya.app.live_v2.service.receiver": 1,
+    "com.piaxiya.im.core.push": 1,
+    "com.piaxiya.im.feature.contact.ui.selector": 1,
+    "com.piaxiya.im.feature.session.ui.activity": 1,
+    "com.piaxiya.app.lib_base.utils.permissions": 1,
+    "com.piaxiya.app.lib_base.media.screenrecord": 1,
+    "com.piaxiya.app.lib_base.album.video": 1,
+    "com.piaxiya.background": 1,
+    "com.piaxiya.app.lib_base.base.keeplive.receiver": 1,
+    "com.piaxiya.app.lib_base.base.keeplive.activity": 1
+  },
+  "launchers": [
+    {
+      "type": "activity",
+      "theme": "0x7f1401c9",
+      "name": "com.piaxiya.app.SplashActivity",
+      "exported": "true",
+      "screenOrientation": "portrait",
+      "configChanges": "uiMode",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "android.intent.action.MAIN"
+            },
+            {
+              "type": "category",
+              "name": "android.intent.category.LAUNCHER"
+            }
+          ]
+        },
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "android.intent.action.VIEW"
+            },
+            {
+              "type": "category",
+              "name": "android.intent.category.DEFAULT"
+            },
+            {
+              "type": "category",
+              "name": "android.intent.category.BROWSABLE"
+            },
+            {
+              "type": "data",
+              "scheme": "piaxiya",
+              "host": "webview"
+            },
+            {
+              "type": "data",
+              "scheme": "piaxiya",
+              "host": "user_news"
+            },
+            {
+              "type": "data",
+              "scheme": "piaxiya",
+              "host": "club"
+            },
+            {
+              "type": "data",
+              "scheme": "piaxiya",
+              "host": "club_apply"
+            },
+            {
+              "type": "data",
+              "scheme": "piaxiya",
+              "host": "sound_drifting"
+            },
+            {
+              "type": "data",
+              "scheme": "piaxiya",
+              "host": "user_info"
+            },
+            {
+              "type": "data",
+              "scheme": "piaxiya",
+              "host": "living_room"
+            },
+            {
+              "type": "data",
+              "scheme": "piaxiya",
+              "host": "authorization"
+            },
+            {
+              "type": "data",
+              "scheme": "piaxiya",
+              "host": "home"
+            },
+            {
+              "type": "data",
+              "scheme": "piaxiya",
+              "host": "user_profile"
+            },
+            {
+              "type": "data",
+              "scheme": "piaxiya",
+              "host": "identify_cooperate_invite"
+            },
+            {
+              "type": "data",
+              "scheme": "piaxiya",
+              "host": "article_detail"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "autoVerify": "true"
+          },
+          "elements": [
+            {
+              "type": "action",
+              "name": "android.intent.action.VIEW"
+            },
+            {
+              "type": "category",
+              "name": "android.intent.category.DEFAULT"
+            },
+            {
+              "type": "category",
+              "name": "android.intent.category.BROWSABLE"
+            },
+            {
+              "type": "data",
+              "scheme": "http",
+              "host": "v.aipiaxi.com"
+            },
+            {
+              "type": "data",
+              "scheme": "https",
+              "host": "v.aipiaxi.com"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "inferred_groups": {
+    "room_pia": [
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.main.activity.ThemeDetailsActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.main.activity.RoomThemeActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.main.activity.CreateRoomActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.main.activity.BeginPiaActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.match.activity.PiaOrDubMatchV2Activity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.recording.activity.RecordManagerActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.main.activity.RoomFansNoticeActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.main.activity.RoomMainActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.main.activity.RoomInfoActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.main.activity.RoomHistoryListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.club.activity.JobSkinActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.collaboration.activity.CollaborationHomeActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.collaboration.activity.RoomCollaborationActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.collaboration.activity.CollaborationResultActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.club.activity.VipPersonListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.main.activity.LiveUserListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.main.activity.UpdateRoomNameActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.recording.activity.RecordingReleaseActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.main.activity.RecordingEffectActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.interaction.activity.RedPacketDetailsActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.interaction.activity.RedPacketSendActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.main.activity.GameFeedbackActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.main.activity.RoomManagerAddActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.recording.activity.RoomPlaybackMainActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.wedding.activity.ChurchHomeActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.wedding.activity.ProposeActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.wedding.activity.SendProposeActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.wedding.activity.WeddingPackageActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.wedding.activity.WeddingPackageInfoActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.wedding.activity.WeddingTimeActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.wedding.activity.WeddingPrepareActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.wedding.activity.WeddingCardActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.wedding.activity.WeddingEmceeActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.wedding.activity.WeddingMarryActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.wedding.activity.FriendSelectActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.exercise.activity.PiaExerciseActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.exercise.activity.SwitchPartnersActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.exercise.activity.PiaExerciseHomeActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.exercise.activity.PiaExercisePreviewV2Activity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.exercise.activity.PartnerArticleActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.exercise.activity.MyPiaExerciseActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.exercise.activity.EditExerciseNameActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.pia.activity.ReadEvaluateActivity"
+      },
+      {
+        "type": "service",
+        "name": "com.piaxiya.app.live_v2.service.RoomMicService"
+      },
+      {
+        "type": "service",
+        "name": "com.piaxiya.app.live_v2.service.RoomService"
+      },
+      {
+        "type": "receiver",
+        "name": "com.piaxiya.app.live_v2.notification.receiver.RoomNotificationReceiver"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.hall.activity.QuickGreetingActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.hall.activity.FanClubNameEditActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.interaction.activity.LotteryHistoryRecordActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.chamber.activity.PartyHallActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.chamber.activity.DialogueHomeActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.chamber.activity.DesignatedTimeActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.chamber.activity.DialogueTemplateActivity"
+      },
+      {
+        "type": "receiver",
+        "name": "com.piaxiya.app.live_v2.service.receiver.HeartbeatReceiver"
+      }
+    ],
+    "audio_creation": [
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.identify.activity.CooperateFriendActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.identify.activity.CooperateActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.FollowNewActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.DubExposureActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.material.activity.MaterialInviteManagerActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.material.activity.InviteListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.collection.activity.CollectionSortActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.collection.activity.CollectionManagerActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.collection.activity.CollectionAddActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.collection.activity.CollectionManagementActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.VoiceRecordActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.masked.activity.MaskedHistoryActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.collection.activity.DubCollectionActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubCloudRecordActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.identify.activity.IdentifyActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.identify.activity.IdentifyProcessActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.identify.activity.IdentifyFailureActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.identify.activity.IdentifyResultActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.identify.activity.IdentifyResultV2Activity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.KeywordLabelSearchListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.LabelChooseActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.playlist.activity.MyPlayListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.playlist.activity.RecordPlayListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.playlist.activity.ArticleAddActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.playlist.activity.RecordEditingActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.playlist.activity.MyRecordingActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.playlist.activity.PlaylistEditDetailActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.playlist.activity.PlaylistDetailActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.playlist.activity.LocalMusicActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.playlist.activity.PlaylistMemberActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.playlist.activity.ProgramUpdateListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.playlist.activity.PlaylistClassifyActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.DubRecordActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.SelectMatchRoleActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.DubAdjustActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.authenticate.activity.DubExaminerActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.authenticate.activity.AuthReportActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.authenticate.activity.AuthVideoActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.DubPreviewActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.MaterialAdapterListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.DubVideoDetailActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.DubRecommendActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.DubWeekWillSeeActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.DubUploadSuccessfulActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.material.activity.MaterialCenterActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.DubSameDetailsActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.DubSameListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.DubWaitingListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.DubWeeklyActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.DubMineActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.FirstDubExamineActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.VideoBgmCutActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.MaterialLabelDetailActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.DubGatherActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.DubFeedbackActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.DubSquareActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.DubCooperateDetailActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.MaterialSubjectActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.material.activity.MaterialSubjectAllActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.material.activity.MaterialSubtitleEditActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.mandarin.activity.MandarinActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.mandarin.activity.MandarinPracticeActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.mandarin.activity.MandarinPracticeResultActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.mandarin.activity.MandarinStudioNewActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.mandarin.activity.MandarinHistoryRecordActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.mandarin.activity.MandarinPracticeHistoryRecordActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.mandarin.activity.MandarinResultNewActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.mandarin.activity.ModuleExercisesActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.mandarin.activity.ChallengeHomeActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.mandarin.activity.ChallengeRunActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.mandarin.activity.ChallengePersonalListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.mandarin.activity.MandarinRecordActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.mandarin.activity.MandarinResultActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.drift.activity.DriftSoundBottleActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.DubRankingActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.DubSowingRewardActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.identify.activity.IdentifyFeedbackActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.drift.activity.DriftV2Activity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.drift.activity.DriftRecordBottleActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.drift.activity.DriftFiveBottlesActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.drift.activity.DriftBottleMsgActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.drift.activity.DriftSingleBottlesActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.mandarin.activity.DotOpenBoxActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.drift.activity.DriftEventsListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.masked.activity.MaskedHomeActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.masked.activity.MaskedMatchingActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.masked.activity.MaskedCallActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.masked.activity.MaskedCallEndActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.sense.activity.SenseTestHomeActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.sense.activity.SenseStartTestingActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.exercise.activity.ExerciseSenseActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.exercise.activity.ExerciseDetailsActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.DubCenterActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.ExposureManagementActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.dub.activity.DubDraftsActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.material.activity.MaterialMakeActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.dub.material.activity.MaterialEditPreviewActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubActivityCloudRecordActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.training.activity.TrainingCampActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.partner_ai.activity.TrainingPartnerActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.partner_ai.activity.TrainingPartnerPracticeActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.partner_ai.activity.TrainingPartnerCallActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.partner_ai.activity.TrainingPartnerWorksActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.partner_ai.activity.TrainingPartnerSelectActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.partner_ai.activity.TrainingPartnerPlayerActivity"
+      },
+      {
+        "type": "service",
+        "name": "com.piaxiya.app.service.VoiceService"
+      },
+      {
+        "type": "service",
+        "name": "com.piaxiya.app.sound.masked.service.MaskedHeartService"
+      },
+      {
+        "type": "receiver",
+        "name": "com.piaxiya.app.service.receiver.PlayerBroadCastReceiver"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.throat.activity.ThroatExerciseActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.throat.activity.ThroatExerciseInfoActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.playlist.activity.VoiceActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.training.activity.TrainingRankActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.training.activity.BlindBoxShopActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.training.activity.PlayfulExerciseActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.training.activity.SinglePlayerPracticingActingActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.training.activity.HomophonesPracticeActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.training.activity.LoudTrainingActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.training.activity.TrainingResultActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.hising.activity.HiSingQueueActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.hising.activity.SongPlatformActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.hising.activity.SingingRankActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.hising.activity.MineHiSingListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.hising.activity.MineHiSingDraftActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.hising.activity.SingPreviewPublishActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.hising.activity.HiSingUploadActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.hising.activity.HiSingActivity"
+      },
+      {
+        "type": "service",
+        "name": "com.piaxiya.app.lib_base.media.screenrecord.ScreenRecordService"
+      }
+    ],
+    "script_content": [
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.article.main.activity.EncyclopediaNounDetailsActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.article.main.activity.EncyclopediaNounActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.article.main.activity.EncyclopediaVideoActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.personal.activity.ScriptSearchActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.personal.activity.AddScriptActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.personal.activity.ScriptListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.article.main.activity.ArticleCommentActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.article.main.activity.PiaXiSearchActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubScriptListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubScriptManageActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.article.main.activity.ArticleDetailActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.article.main.activity.ArticleActActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.article.timeline.activity.ScriptTimelineHomeActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.article.timeline.activity.MyScriptTimelineActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.article.timeline.activity.ScriptTimelineEditActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.article.timeline.activity.ScriptTimelineReservedActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.article.timeline.activity.ScriptTimelineBgmActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.article.main.activity.WalkFeedbackActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.article.main.activity.ScriptQueryActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.article.main.activity.AlbumDetailsActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.article.author.activity.ArticleEditActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.article.author.activity.ArticleNewEditActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.article.main.activity.ArticleFeedbackActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.article.author.activity.AuthorCentreActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.article.author.activity.AuthorTaskActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.article.main.activity.PIAPlayCameraActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.article.main.activity.PiaXiEncyclopediaActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.article.rank.activity.RankRewardListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.article.series.activity.SeriesSetListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.article.series.activity.SeriesSetDetailActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.article.series.activity.SelectedSeriesSetActivity"
+      }
+    ],
+    "social": [
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.sound.identify.activity.CooperateFriendActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.ContactsActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.main.activity.FriendGroupActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.dramafangroup.activity.DramaFanGroupActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.dramafangroup.activity.DramaFanGroupEditActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.club.activity.JobSkinActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.club.activity.VipPersonListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubCloudRecordActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubCreateActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.square.activity.DynamicDetailsActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubApplyListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.square.activity.DynamicPublishActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.square.activity.VisibleRangeActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubDetailsActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubRankActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubScriptListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubScriptManageActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubContentManageActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubActivitiesListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubActListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubActEditActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubActDetailsActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ActSubscribePersonnelActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubDubbingMaterialListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubAudioProgramListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubMemberListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubMemberManageActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubEditMemberTitleActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubInvitationMemberListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubNameEditActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubDescEditActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.square.activity.MaterialPlazaActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.square.activity.MaterialCreateActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.square.activity.MaterialDetailsActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.square.activity.VoicePublishActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.square.activity.VoiceDetailsActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.square.activity.TopicDetailsActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.square.activity.TopicHotSearchActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.square.activity.TopicInviteDiscussionActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.square.activity.VideoPlayActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubHomeActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.square.activity.ConfessionWallActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.square.activity.CommentsReplyActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubSetActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubDressUpActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubCoverFrameActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubListSkinActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubRadioSetActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubRecruitingSetActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubDataSetActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubPositioningEditActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubLabelEditActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubApplySetActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubShopBuyActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ConsumptionRecordsActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.square.activity.EssayEditActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.square.activity.LookMateActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.square.activity.LookMatePublishActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.square.activity.MyLookMateActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.square.activity.LookMateSettingActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.setting.activity.DynamicFriendRecommendedSetActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.square.activity.EssayPreviewActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.relationship.activity.RelationshipActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.relationship.activity.RelationLvActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.relationship.activity.RelationInfoValueActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.relationship.activity.RelationalTaskActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.relationship.activity.IntimateChallengeActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.relationship.activity.RelationshipCpInfoActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.relationship.activity.RelationshipSetActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.relationship.activity.EditDiaryActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.relationship.activity.IntimacyDiaryActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.relationship.activity.RelationalAuthActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.relationship.activity.RelationshipOtherInfoActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.live_v2.wedding.activity.FriendSelectActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubNewHomeActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubPublishedActivitiesActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.club.activity.ClubActivityCloudRecordActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.relationship.activity.RelationshipCardSettingActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.relationship.activity.RelationshipEstablishActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.relationship.activity.RelationshipTransformActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.relationship.activity.RelationshipCardContentSettingActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.relationship.activity.FriendTrajectoryActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.relationship.activity.RelationshipGalleryActivity"
+      }
+    ],
+    "commerce": [
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.shop.activity.RechargeActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.shop.activity.PropActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.shop.activity.BackpackActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.shop.activity.ConsumeRecordActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.shop.activity.RechargeWhaleActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.shop.activity.WalletActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.shop.activity.WalletDetailActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.shop.activity.ShardMallActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.shop.activity.ActionActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.shop.activity.RomanticMomentActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.reward.activity.PaymentActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.shop.activity.ExchangeDiamondActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.shop.activity.FaceVerificationActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.shop.activity.StartFaceVerificationActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.shop.activity.FaceVerificationResultActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.shop.activity.WithdrawActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.shop.activity.WithdrawAccountActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.shop.activity.WithdrawBindAlipayActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.shop.activity.WithdrawRecordActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.wxapi.WXEntryActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.wxapi.WXPayEntryActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.subservice.activity.SellerOrderCenterActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.subservice.activity.SellerRecommendMyselfActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.subservice.activity.SellerServiceManageActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.subservice.activity.SellerSubEditActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.subservice.activity.OrderCenterActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.subservice.activity.SubServiceInfoActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.subservice.activity.SubscriptionDetailsActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.subservice.activity.ServiceEvaluationActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.subservice.activity.SubServiceListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.user.subservice.activity.SubscribeServiceUsageHistoryActivity"
+      }
+    ],
+    "messaging": [
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.EmailActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.group.activity.MuteDurationActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.group.activity.MuteListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.group.activity.SetAdminActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.group.activity.EditNickActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.group.activity.GroupApplyActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.group.activity.GroupNoticeActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.group.activity.GroupUpActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.group.activity.GroupMemberActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.group.activity.GroupMemberRemoveActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.group.activity.EditInfoActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.group.activity.GroupDetailActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.group.activity.GroupListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.ChatThemeActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.ContactsActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.VoiceEmotionSearchActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.VoiceRecordActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.ChatSettingActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.ChatContentActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.ChatContentSearchActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.ChatImageVideoActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.ChatAllLinkActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.ChatDateSearchActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.emoticon.activity.VoiceEmotionManagerActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.VoiceEmotionSquareActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.MyUploadVoiceEmotionListActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.emoticon.activity.VoiceEmotionDetailActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.NotifySystemActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.ChatActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.ConfirmAddGifsActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.TeamMessageActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.TeamSettingActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.TeamMemberActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.NotificationManagerActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.PCOnlineActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.NotifySubscribeActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.NotifyFansActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.NotifyNewArticleActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.NotifyDubActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.FollowTrendActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.LimitedChatActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.emoticon.activity.GifManagerActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.MoreWithRoomActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.activity.ApplyAssistantActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.app.message.ait.selector.AitContactSelectorActivity"
+      },
+      {
+        "type": "service",
+        "name": "com.piaxiya.im.core.push.ImHuaweiPushService"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.im.feature.contact.ui.selector.ContactSelectActivity"
+      },
+      {
+        "type": "activity",
+        "name": "com.piaxiya.im.feature.session.ui.activity.WatchVideoActivity"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "service",
+      "name": "com.piaxiya.app.service.HeartbeatService",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.test.PagTestActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.test.SpineTestActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.test.TestHomeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.test.ListPagActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "主界面",
+      "name": "com.piaxiya.app.home.activity.MainActivity",
+      "launchMode": "singleTask",
+      "screenOrientation": "portrait",
+      "windowSoftInputMode": "stateHidden",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "theme": "0x7f1401c9",
+      "name": "com.piaxiya.app.SplashActivity",
+      "exported": "true",
+      "screenOrientation": "portrait",
+      "configChanges": "uiMode",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "android.intent.action.MAIN"
+            },
+            {
+              "type": "category",
+              "name": "android.intent.category.LAUNCHER"
+            }
+          ]
+        },
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "android.intent.action.VIEW"
+            },
+            {
+              "type": "category",
+              "name": "android.intent.category.DEFAULT"
+            },
+            {
+              "type": "category",
+              "name": "android.intent.category.BROWSABLE"
+            },
+            {
+              "type": "data",
+              "scheme": "piaxiya",
+              "host": "webview"
+            },
+            {
+              "type": "data",
+              "scheme": "piaxiya",
+              "host": "user_news"
+            },
+            {
+              "type": "data",
+              "scheme": "piaxiya",
+              "host": "club"
+            },
+            {
+              "type": "data",
+              "scheme": "piaxiya",
+              "host": "club_apply"
+            },
+            {
+              "type": "data",
+              "scheme": "piaxiya",
+              "host": "sound_drifting"
+            },
+            {
+              "type": "data",
+              "scheme": "piaxiya",
+              "host": "user_info"
+            },
+            {
+              "type": "data",
+              "scheme": "piaxiya",
+              "host": "living_room"
+            },
+            {
+              "type": "data",
+              "scheme": "piaxiya",
+              "host": "authorization"
+            },
+            {
+              "type": "data",
+              "scheme": "piaxiya",
+              "host": "home"
+            },
+            {
+              "type": "data",
+              "scheme": "piaxiya",
+              "host": "user_profile"
+            },
+            {
+              "type": "data",
+              "scheme": "piaxiya",
+              "host": "identify_cooperate_invite"
+            },
+            {
+              "type": "data",
+              "scheme": "piaxiya",
+              "host": "article_detail"
+            }
+          ]
+        },
+        {
+          "attributes": {
+            "autoVerify": "true"
+          },
+          "elements": [
+            {
+              "type": "action",
+              "name": "android.intent.action.VIEW"
+            },
+            {
+              "type": "category",
+              "name": "android.intent.category.DEFAULT"
+            },
+            {
+              "type": "category",
+              "name": "android.intent.category.BROWSABLE"
+            },
+            {
+              "type": "data",
+              "scheme": "http",
+              "host": "v.aipiaxi.com"
+            },
+            {
+              "type": "data",
+              "scheme": "https",
+              "host": "v.aipiaxi.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.message.activity.EmailActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.setting.activity.SettingPlayActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.setting.activity.SwitchAccountActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.setting.activity.CacheLocalActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.common.activity.CommonVideoActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "反馈详情",
+      "name": "com.piaxiya.app.user.main.activity.FeedbackDetailActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "禁言时长",
+      "name": "com.piaxiya.app.message.group.activity.MuteDurationActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "禁言名单管理",
+      "name": "com.piaxiya.app.message.group.activity.MuteListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "设置管理员",
+      "name": "com.piaxiya.app.message.group.activity.SetAdminActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "我在本群的昵称",
+      "name": "com.piaxiya.app.message.group.activity.EditNickActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "群聊申请",
+      "name": "com.piaxiya.app.message.group.activity.GroupApplyActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "群公告",
+      "name": "com.piaxiya.app.message.group.activity.GroupNoticeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "提升群上限",
+      "name": "com.piaxiya.app.message.group.activity.GroupUpActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "群成员",
+      "name": "com.piaxiya.app.message.group.activity.GroupMemberActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "移除成员",
+      "name": "com.piaxiya.app.message.group.activity.GroupMemberRemoveActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "编辑资料",
+      "name": "com.piaxiya.app.message.group.activity.EditInfoActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "群聊信息",
+      "name": "com.piaxiya.app.message.group.activity.GroupDetailActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "戏鲸群",
+      "name": "com.piaxiya.app.message.group.activity.GroupListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "房间主题详情",
+      "name": "com.piaxiya.app.live_v2.main.activity.ThemeDetailsActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "房间主题",
+      "name": "com.piaxiya.app.live_v2.main.activity.RoomThemeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "选择背景图",
+      "name": "com.piaxiya.app.message.activity.ChatThemeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "推荐设置",
+      "name": "com.piaxiya.app.user.setting.activity.RecommendSettingActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "鲸令状兑换记录",
+      "name": "com.piaxiya.app.user.task.activity.PledgeRecordActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "创建房间",
+      "name": "com.piaxiya.app.live_v2.main.activity.CreateRoomActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "开场Pia戏",
+      "name": "com.piaxiya.app.live_v2.main.activity.BeginPiaActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "百科名词详情",
+      "name": "com.piaxiya.app.article.main.activity.EncyclopediaNounDetailsActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "名词科普",
+      "name": "com.piaxiya.app.article.main.activity.EncyclopediaNounActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "百科全书",
+      "name": "com.piaxiya.app.article.main.activity.EncyclopediaVideoActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "戏鲸小镇",
+      "name": "com.piaxiya.app.home.activity.SmallTownActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "合拍好友列表",
+      "name": "com.piaxiya.app.sound.identify.activity.CooperateFriendActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "合拍测试",
+      "name": "com.piaxiya.app.sound.identify.activity.CooperateActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "关注上新列表页",
+      "name": "com.piaxiya.app.dub.dub.activity.FollowNewActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "配音匹配页",
+      "name": "com.piaxiya.app.live_v2.match.activity.PiaOrDubMatchV2Activity",
+      "launchMode": "singleTop",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "授权",
+      "name": "com.piaxiya.app.user.main.activity.AuthorizationActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "用户偏好",
+      "name": "com.piaxiya.app.user.guide.activity.UserPreferenceActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "曝光专区",
+      "name": "com.piaxiya.app.dub.dub.activity.DubExposureActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "铭牌详情",
+      "name": "com.piaxiya.app.user.personal.activity.PlateDetailsActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "素材邀请管理",
+      "name": "com.piaxiya.app.dub.material.activity.MaterialInviteManagerActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "联系人列表",
+      "name": "com.piaxiya.app.message.activity.ContactsActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "好友分组",
+      "name": "com.piaxiya.app.user.main.activity.FriendGroupActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "个人主页",
+      "name": "com.piaxiya.app.user.personal.activity.UserInfoActivity",
+      "exported": "false",
+      "launchMode": "standard",
+      "screenOrientation": "portrait",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.piaxiya.app.user.personal.activity.UserInfoActivity"
+            },
+            {
+              "type": "category",
+              "name": "android.intent.category.DEFAULT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "activity",
+      "label": "作者主页",
+      "name": "com.piaxiya.app.user.personal.activity.AuthorHomePageActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "编辑作者资料",
+      "name": "com.piaxiya.app.user.personal.activity.EditAuthorInfoActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "剧本搜索",
+      "name": "com.piaxiya.app.user.personal.activity.ScriptSearchActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "添加剧本",
+      "name": "com.piaxiya.app.user.personal.activity.AddScriptActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "全部剧本",
+      "name": "com.piaxiya.app.user.personal.activity.ScriptListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "荣誉作品",
+      "name": "com.piaxiya.app.user.personal.activity.HonorWorksActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.message.activity.VoiceEmotionSearchActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.dramafangroup.activity.DramaFanGroupActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.dramafangroup.activity.DramaFanGroupEditActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "邀请配音",
+      "name": "com.piaxiya.app.dub.material.activity.InviteListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "身份铭牌",
+      "name": "com.piaxiya.app.user.personal.activity.UserPlateActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "身份铭牌",
+      "name": "com.piaxiya.app.user.personal.activity.UserPlateEditActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "更改顺序",
+      "name": "com.piaxiya.app.dub.collection.activity.CollectionSortActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "合集管理",
+      "name": "com.piaxiya.app.dub.collection.activity.CollectionManagerActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "合集添加作品或素材",
+      "name": "com.piaxiya.app.dub.collection.activity.CollectionAddActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "合集管理",
+      "name": "com.piaxiya.app.dub.collection.activity.CollectionManagementActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "我的录音",
+      "name": "com.piaxiya.app.live_v2.recording.activity.RecordManagerActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.message.activity.VoiceRecordActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.masked.activity.MaskedHistoryActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.personal.activity.GiftMapHomeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.personal.activity.GiftMapHomeV2Activity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.personal.activity.WhaleBeanGuideActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.personal.activity.SettlementBonusActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.personal.activity.StarRewardHomeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.personal.activity.QuarterlyListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.main.activity.GiftRecordHomeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.message.activity.ChatSettingActivity",
+      "launchMode": "standard",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.message.activity.ChatContentActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.message.activity.ChatContentSearchActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.message.activity.ChatImageVideoActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.message.activity.ChatAllLinkActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.message.activity.ChatDateSearchActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.message.emoticon.activity.VoiceEmotionManagerActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.message.activity.VoiceEmotionSquareActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.message.activity.MyUploadVoiceEmotionListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.login.activity.LoginPhoneActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.login.activity.LoginPhoneV2Activity",
+      "screenOrientation": "portrait",
+      "windowSoftInputMode": "stateVisible",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.login.activity.LoginActivity",
+      "launchMode": "singleTop",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.login.activity.LoginCodeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.login.activity.LoginCodeV2Activity",
+      "screenOrientation": "portrait",
+      "windowSoftInputMode": "stateVisible",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.main.activity.RoomFansNoticeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.collection.activity.DubCollectionActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.main.activity.RoomMainActivity",
+      "launchMode": "singleTop",
+      "screenOrientation": "portrait",
+      "configChanges": "fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|locale",
+      "windowSoftInputMode": "adjustNothing|stateHidden",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.article.main.activity.ArticleCommentActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.main.activity.RankingListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.personal.activity.EditProfileActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.message.emoticon.activity.VoiceEmotionDetailActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.personal.activity.EditPatActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.personal.activity.EditNickNameActivity",
+      "screenOrientation": "portrait",
+      "windowSoftInputMode": "stateVisible",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.personal.activity.NoviceEditProfileActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.main.activity.AbuseActivity",
+      "exported": "false",
+      "screenOrientation": "portrait",
+      "configChanges": "orientation|keyboardHidden",
+      "windowSoftInputMode": "adjustResize|stateHidden",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.piaxiya.app.user.view.AbuseActivity"
+            },
+            {
+              "type": "category",
+              "name": "android.intent.category.DEFAULT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.main.activity.RoomInfoActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.main.activity.RoomHistoryListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.club.activity.JobSkinActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.collaboration.activity.CollaborationHomeActivity",
+      "launchMode": "singleTask",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.collaboration.activity.RoomCollaborationActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.collaboration.activity.CollaborationResultActivity",
+      "launchMode": "singleTop",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.club.activity.VipPersonListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.main.activity.LiveUserListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.main.activity.UpdateRoomNameActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "theme": "0x7f14016a",
+      "name": "com.piaxiya.app.user.main.activity.AlbumCreateActivity",
+      "configChanges": "screenSize|orientation",
+      "windowSoftInputMode": "adjustResize",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.common.activity.CommonWebViewActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubCloudRecordActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubCreateActivity",
+      "screenOrientation": "portrait",
+      "windowSoftInputMode": "adjustResize|stateHidden",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.identify.activity.IdentifyActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.main.activity.AppScanActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.main.activity.ScanResultsActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.main.activity.SubscribeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.personal.activity.WorksGroupManageActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.identify.activity.IdentifyProcessActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.identify.activity.IdentifyFailureActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.identify.activity.IdentifyResultActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.identify.activity.IdentifyResultV2Activity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.square.activity.DynamicDetailsActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubApplyListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.square.activity.DynamicPublishActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.square.activity.VisibleRangeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.article.main.activity.PiaXiSearchActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.setting.activity.SettingActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.setting.activity.SetAudioQualityActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.setting.activity.SetVideoQualityActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.shop.activity.RechargeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.main.activity.MyCollectionActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.task.activity.TaskActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.shop.activity.PropActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.shop.activity.BackpackActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.message.activity.NotifySystemActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubDetailsActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubRankActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubScriptListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubScriptManageActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubContentManageActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubActivitiesListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubActListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubActEditActivity",
+      "screenOrientation": "portrait",
+      "windowSoftInputMode": "adjustResize",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubActDetailsActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ActSubscribePersonnelActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubDubbingMaterialListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubAudioProgramListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "theme": "0x7f14016a",
+      "name": "com.piaxiya.app.view.FloatEditorDialog",
+      "configChanges": "screenSize|orientation",
+      "windowSoftInputMode": "adjustResize",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.shop.activity.ConsumeRecordActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.message.activity.ChatActivity",
+      "exported": "false",
+      "screenOrientation": "portrait",
+      "configChanges": "orientation|keyboardHidden",
+      "windowSoftInputMode": "adjustResize|stateHidden",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.piaxiya.app.message.view.ChatActivity"
+            },
+            {
+              "type": "category",
+              "name": "android.intent.category.DEFAULT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.message.activity.ConfirmAddGifsActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.message.activity.TeamMessageActivity",
+      "exported": "false",
+      "screenOrientation": "portrait",
+      "configChanges": "orientation|keyboardHidden",
+      "windowSoftInputMode": "adjustResize|stateHidden",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.piaxiya.app.message.view.TeamMessageActivity"
+            },
+            {
+              "type": "category",
+              "name": "android.intent.category.DEFAULT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "activity",
+      "label": "黑名单",
+      "name": "com.piaxiya.app.user.setting.activity.BlackListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.main.activity.FeedBackActivity",
+      "screenOrientation": "portrait",
+      "windowSoftInputMode": "adjustResize|stateHidden",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.main.activity.AuthRealOverseasActivity",
+      "screenOrientation": "portrait",
+      "windowSoftInputMode": "adjustResize|stateHidden",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.setting.activity.AboutActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.setting.activity.NetworkCheckActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.setting.activity.AccountBindingActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.article.main.activity.ArticleDetailActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.article.main.activity.ArticleActActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.article.timeline.activity.ScriptTimelineHomeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.article.timeline.activity.MyScriptTimelineActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.article.timeline.activity.ScriptTimelineEditActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.article.timeline.activity.ScriptTimelineReservedActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.article.timeline.activity.ScriptTimelineBgmActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.article.main.activity.WalkFeedbackActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.article.main.activity.ScriptQueryActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.personal.activity.CreateUserLabelActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.dub.activity.KeywordLabelSearchListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.dub.activity.LabelChooseActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.message.activity.TeamSettingActivity",
+      "exported": "false",
+      "screenOrientation": "portrait",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.piaxiya.app.message.view.TeamSettingActivity"
+            },
+            {
+              "type": "category",
+              "name": "android.intent.category.DEFAULT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.message.activity.TeamMemberActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.article.main.activity.AlbumDetailsActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "theme": "0x7f14025e",
+      "name": "com.yalantis.ucrop.UCropActivity",
+      "screenOrientation": "portrait",
+      "configChanges": "screenSize|orientation|keyboardHidden",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubMemberListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubMemberManageActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubEditMemberTitleActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubInvitationMemberListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubNameEditActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubDescEditActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.main.activity.AlbumEditorActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.main.activity.AlbumLabelActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.square.activity.MaterialPlazaActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.square.activity.MaterialCreateActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.square.activity.MaterialDetailsActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.square.activity.VoicePublishActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.square.activity.VoiceDetailsActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.main.activity.ChangeNickActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.common.activity.AudioPlayerActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.main.activity.PositiveEnergyActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.setting.activity.PrivacyActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.article.author.activity.ArticleEditActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.article.author.activity.ArticleNewEditActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.recording.activity.RecordingReleaseActivity",
+      "screenOrientation": "portrait",
+      "windowSoftInputMode": "adjustResize|stateHidden",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.main.activity.RecordingEffectActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "theme": "0x7f14000a",
+      "name": "com.piaxiya.app.live_v2.interaction.activity.RedPacketDetailsActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.interaction.activity.RedPacketSendActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "通知",
+      "name": "com.piaxiya.app.message.activity.NotificationManagerActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.setting.activity.CacheManagerActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.square.activity.TopicDetailsActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.square.activity.TopicHotSearchActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.square.activity.TopicInviteDiscussionActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.setting.activity.LaunchAudioActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.main.activity.FootprintActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.main.activity.GuestActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.article.main.activity.ArticleFeedbackActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.main.activity.GameFeedbackActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.message.activity.PCOnlineActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.square.activity.VideoPlayActivity",
+      "screenOrientation": "portrait",
+      "configChanges": "screenSize|orientation|keyboardHidden",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubHomeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.master.activity.MentorshipHomeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.master.activity.MentorshipInfoActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.master.activity.MasterDisciplePushActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.master.activity.MasterDiscipleSquareActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.master.activity.MasterRecommendActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.main.activity.ApprenticeDetailActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.master.activity.MasterApplyListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.master.activity.MasterApplyActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.master.activity.TeahouseActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.master.activity.TeahousePublishActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.master.activity.TeahouseMineActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.master.activity.MentorshipDetailActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.master.activity.MentorshipMasterShopActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.master.activity.MentorshipGiftShopActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.master.activity.MentorshipRankingActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.master.activity.SectRewardActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.master.activity.SubmitHomeworkActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.main.activity.RoomManagerAddActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.playlist.activity.MyPlayListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.playlist.activity.RecordPlayListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.playlist.activity.ArticleAddActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.playlist.activity.RecordEditingActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.playlist.activity.MyRecordingActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.playlist.activity.PlaylistEditDetailActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.playlist.activity.PlaylistDetailActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.playlist.activity.LocalMusicActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.playlist.activity.PlaylistMemberActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.playlist.activity.ProgramUpdateListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.playlist.activity.PlaylistClassifyActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "订阅通知",
+      "name": "com.piaxiya.app.message.activity.NotifySubscribeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "粉丝通知",
+      "name": "com.piaxiya.app.message.activity.NotifyFansActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "新本通知",
+      "name": "com.piaxiya.app.message.activity.NotifyNewArticleActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.article.author.activity.AuthorCentreActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.article.author.activity.AuthorTaskActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.shop.activity.RechargeWhaleActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.task.activity.PledgeAdvanceActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.shop.activity.WalletActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.shop.activity.WalletDetailActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.shop.activity.ShardMallActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.shop.activity.ActionActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.shop.activity.RomanticMomentActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.dub.activity.DubRecordActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.dub.activity.SelectMatchRoleActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.dub.activity.DubAdjustActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.authenticate.activity.DubExaminerActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.authenticate.activity.AuthReportActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.authenticate.activity.AuthVideoActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.dub.activity.DubPreviewActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.dub.activity.MaterialAdapterListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.dub.activity.DubVideoDetailActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.dub.activity.DubRecommendActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.dub.activity.DubWeekWillSeeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.dub.activity.DubUploadSuccessfulActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.material.activity.MaterialCenterActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.dub.activity.DubSameDetailsActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.dub.activity.DubSameListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.dub.activity.DubWaitingListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.dub.activity.DubWeeklyActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.dub.activity.DubMineActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.dub.activity.FirstDubExamineActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.message.activity.NotifyDubActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.message.activity.FollowTrendActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.message.activity.LimitedChatActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.dub.activity.VideoBgmCutActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.reward.activity.VoiceRewardActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.reward.activity.RewardPublishOneActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.reward.activity.RewardPublishThreeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.reward.activity.RewardPublishFourActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.reward.activity.RewardPublishFiveActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.reward.activity.UserRewardInfoActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.reward.activity.ActivationCvActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.reward.activity.ScanVoiceActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.reward.activity.RewardEditProfileActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.reward.activity.UserVoiceManagerActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.common.activity.SearchActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.main.activity.LabActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.reward.activity.InviteCVActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.reward.activity.RewardDetailActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.reward.activity.AuthActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.reward.activity.MessageActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.dub.activity.MaterialLabelDetailActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.reward.activity.RewardPublishTwoActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.reward.activity.RewardPublishFour2Activity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.reward.activity.RewardPublishFive2Activity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.reward.activity.MineActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.reward.activity.WorkPlateActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.reward.activity.PaymentActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.reward.activity.WorkDetailActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.setting.activity.AdolescentActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.main.activity.CollectionSowingListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.main.activity.CompanionLeaderboardActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.setting.activity.AdolescentSettingActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.setting.activity.AdolescentRetrieveActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.shop.activity.ExchangeDiamondActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "活体检测",
+      "name": "com.piaxiya.app.shop.activity.FaceVerificationActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "活体检测",
+      "name": "com.piaxiya.app.shop.activity.StartFaceVerificationActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.shop.activity.FaceVerificationResultActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.shop.activity.WithdrawActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.shop.activity.WithdrawAccountActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.shop.activity.WithdrawBindAlipayActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.common.activity.CommUserSelectActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.message.emoticon.activity.GifManagerActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "作品云集",
+      "name": "com.piaxiya.app.dub.dub.activity.DubGatherActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.dub.activity.DubFeedbackActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.dub.activity.DubSquareActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.dub.activity.DubCooperateDetailActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.shop.activity.WithdrawRecordActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.dub.activity.MaterialSubjectActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.material.activity.MaterialSubjectAllActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.material.activity.MaterialSubtitleEditActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.mandarin.activity.MandarinActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.mandarin.activity.MandarinPracticeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.mandarin.activity.MandarinPracticeResultActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.mandarin.activity.MandarinStudioNewActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.mandarin.activity.MandarinHistoryRecordActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.mandarin.activity.MandarinPracticeHistoryRecordActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.mandarin.activity.MandarinResultNewActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.mandarin.activity.ModuleExercisesActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.mandarin.activity.ChallengeHomeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.mandarin.activity.ChallengeRunActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.mandarin.activity.ChallengePersonalListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.mandarin.activity.MandarinRecordActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.mandarin.activity.MandarinResultActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.drift.activity.DriftSoundBottleActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.square.activity.ConfessionWallActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.dub.activity.DubRankingActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "榜单奖励",
+      "name": "com.piaxiya.app.dub.dub.activity.DubSowingRewardActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "label": "更多",
+      "name": "com.piaxiya.app.message.activity.MoreWithRoomActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.identify.activity.IdentifyFeedbackActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.square.activity.CommentsReplyActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.article.main.activity.PIAPlayCameraActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.article.main.activity.PiaXiEncyclopediaActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.setting.activity.WxBindPhoneActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.setting.activity.SettingNetworkActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.push.UmengPushActivity",
+      "exported": "true",
+      "launchMode": "singleTask",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubSetActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubDressUpActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubCoverFrameActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubListSkinActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubRadioSetActivity",
+      "screenOrientation": "portrait",
+      "windowSoftInputMode": "adjustResize|stateHidden",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubRecruitingSetActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubDataSetActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubPositioningEditActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubLabelEditActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubApplySetActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubShopBuyActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ConsumptionRecordsActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.drift.activity.DriftV2Activity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.drift.activity.DriftRecordBottleActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.drift.activity.DriftFiveBottlesActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.drift.activity.DriftBottleMsgActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.drift.activity.DriftSingleBottlesActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.mandarin.activity.DotOpenBoxActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.drift.activity.DriftEventsListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.recording.activity.RoomPlaybackMainActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.setting.activity.AgreementActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.masked.activity.MaskedHomeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.masked.activity.MaskedMatchingActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.masked.activity.MaskedCallActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.masked.activity.MaskedCallEndActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.sense.activity.SenseTestHomeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.sense.activity.SenseStartTestingActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.exercise.activity.ExerciseSenseActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.exercise.activity.ExerciseDetailsActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.square.activity.EssayEditActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.square.activity.LookMateActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.square.activity.LookMatePublishActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.square.activity.MyLookMateActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.square.activity.LookMateSettingActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.setting.activity.DynamicFriendRecommendedSetActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.square.activity.EssayPreviewActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "theme": "@android:style/Theme.Translucent.NoTitleBar",
+      "label": "0x7f130060",
+      "name": "com.piaxiya.app.wxapi.WXEntryActivity",
+      "exported": "true",
+      "taskAffinity": "com.piaxiya.app",
+      "launchMode": "singleTask",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.wxapi.WXPayEntryActivity",
+      "exported": "true",
+      "launchMode": "singleTop",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.dub.activity.DubCenterActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.dub.activity.ExposureManagementActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.dub.activity.DubDraftsActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.material.activity.MaterialMakeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.dub.material.activity.MaterialEditPreviewActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.lib_base.album.activity.UCropMultipleXjActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.lib_base.album.pictureeditor.EditorActivity",
+      "exported": "false",
+      "screenOrientation": "portrait",
+      "windowSoftInputMode": "stateAlwaysHidden",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.relationship.activity.RelationshipActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.relationship.activity.RelationLvActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.relationship.activity.RelationInfoValueActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.common.activity.CallUserActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.common.activity.CommonContainerActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.relationship.activity.RelationalTaskActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.relationship.activity.IntimateChallengeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.relationship.activity.RelationshipCpInfoActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.relationship.activity.RelationshipSetActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.relationship.activity.EditDiaryActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.relationship.activity.IntimacyDiaryActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.relationship.activity.RelationalAuthActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.relationship.activity.RelationshipOtherInfoActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.message.activity.ApplyAssistantActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.game.activity.PetMessageActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.game.activity.PetMessageSetActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.wedding.activity.ChurchHomeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.wedding.activity.ProposeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.wedding.activity.SendProposeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.wedding.activity.WeddingPackageActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.wedding.activity.WeddingPackageInfoActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.wedding.activity.WeddingTimeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.wedding.activity.WeddingPrepareActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.wedding.activity.WeddingCardActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.wedding.activity.WeddingEmceeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.wedding.activity.WeddingMarryActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.wedding.activity.FriendSelectActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.exercise.activity.PiaExerciseActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.exercise.activity.SwitchPartnersActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.exercise.activity.PiaExerciseHomeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.exercise.activity.PiaExercisePreviewV2Activity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.main.activity.TestActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubNewHomeActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubPublishedActivitiesActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.club.activity.ClubActivityCloudRecordActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.exercise.activity.PartnerArticleActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.exercise.activity.MyPiaExerciseActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.exercise.activity.EditExerciseNameActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.training.activity.TrainingCampActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.partner_ai.activity.TrainingPartnerActivity",
+      "exported": "false",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.partner_ai.activity.TrainingPartnerPracticeActivity",
+      "exported": "false",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.partner_ai.activity.TrainingPartnerCallActivity",
+      "exported": "false",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.partner_ai.activity.TrainingPartnerWorksActivity",
+      "exported": "false",
+      "launchMode": "singleTask",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.partner_ai.activity.TrainingPartnerSelectActivity",
+      "exported": "false",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.partner_ai.activity.TrainingPartnerPlayerActivity",
+      "exported": "false",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.pia.activity.ReadEvaluateActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.subservice.activity.SellerOrderCenterActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.subservice.activity.SellerRecommendMyselfActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.subservice.activity.SellerServiceManageActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.subservice.activity.SellerSubEditActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.sensorsdata.analytics.android.sdk.dialog.SchemeActivity",
+      "exported": "true",
+      "launchMode": "singleTask",
+      "configChanges": "screenSize|orientation",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "android.intent.action.VIEW"
+            },
+            {
+              "type": "category",
+              "name": "android.intent.category.BROWSABLE"
+            },
+            {
+              "type": "category",
+              "name": "android.intent.category.DEFAULT"
+            },
+            {
+              "type": "data",
+              "scheme": "sa3704c4b7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "service",
+      "name": "com.piaxiya.app.service.VoiceService",
+      "exported": "false",
+      "foregroundServiceType": "mediaPlayback",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "com.piaxiya.app.live_v2.service.RoomMicService",
+      "exported": "false",
+      "foregroundServiceType": "microphone|mediaPlayback",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "com.piaxiya.app.live_v2.service.RoomService",
+      "exported": "false",
+      "foregroundServiceType": "mediaPlayback",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "com.piaxiya.app.service.SubmitService",
+      "exported": "false",
+      "foregroundServiceType": "dataSync",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "com.piaxiya.app.sound.masked.service.MaskedHeartService",
+      "exported": "false",
+      "foregroundServiceType": "microphone|mediaPlayback",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "com.xiaomi.push.service.XMPushService",
+      "enabled": "true",
+      "exported": "false",
+      "process": ":mixpush",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "com.xiaomi.push.service.XMJobService",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "enabled": "true",
+      "exported": "false",
+      "process": ":mixpush",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "com.xiaomi.mipush.sdk.PushMessageHandler",
+      "permission": "com.xiaomi.xmsf.permission.MIPUSH_RECEIVE",
+      "enabled": "true",
+      "exported": "true",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "com.xiaomi.mipush.sdk.MessageHandleService",
+      "enabled": "true",
+      "exported": "false",
+      "intent_filters": []
+    },
+    {
+      "type": "receiver",
+      "name": "com.piaxiya.app.service.receiver.PlayerBroadCastReceiver",
+      "exported": "false",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.piaxiya.app.player.play"
+            },
+            {
+              "type": "action",
+              "name": "com.piaxiya.app.player.next"
+            },
+            {
+              "type": "action",
+              "name": "com.piaxiya.app.player.last"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "receiver",
+      "name": "com.piaxiya.app.live_v2.notification.receiver.RoomNotificationReceiver",
+      "exported": "false",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.piaxiya.app.room_notification.delete"
+            },
+            {
+              "type": "action",
+              "name": "com.piaxiya.app.room_notification.into"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "receiver",
+      "name": "com.xiaomi.push.service.receivers.NetworkStatusReceiver",
+      "exported": "true",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "android.net.conn.CONNECTIVITY_CHANGE"
+            },
+            {
+              "type": "category",
+              "name": "android.intent.category.DEFAULT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "receiver",
+      "name": "com.xiaomi.push.service.receivers.PingReceiver",
+      "exported": "false",
+      "process": ":mixpush",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.xiaomi.push.PING_TIMER"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "service",
+      "name": "com.vivo.push.sdk.service.CommandClientService",
+      "permission": "com.push.permission.UPSTAGESERVICE",
+      "exported": "true",
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "name": "com.netease.nimlib.ipc.NIMContentProvider",
+      "exported": "false",
+      "process": ":core",
+      "authorities": "com.piaxiya.app.ipc.provider",
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "name": "com.piaxiya.app.utils.PhotoFileProvider",
+      "exported": "false",
+      "authorities": "com.piaxiya.app",
+      "grantUriPermissions": "true",
+      "intent_filters": []
+    },
+    {
+      "type": "receiver",
+      "name": "com.netease.nimlib.service.NimReceiver",
+      "exported": "false",
+      "process": ":core",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "android.net.conn.CONNECTIVITY_CHANGE"
+            }
+          ]
+        },
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "android.net.conn.CONNECTIVITY_CHANGE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "receiver",
+      "name": "com.netease.nimlib.service.ResponseReceiver",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "com.netease.nimlib.service.NimService",
+      "process": ":core",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "com.netease.nimlib.service.NimService$Aux",
+      "process": ":core",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "com.netease.nimlib.job.NIMJobService",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "exported": "false",
+      "process": ":core",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "com.netease.nimlib.service.ResponseService",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "theme": "@android:style/Theme.Translucent.NoTitleBar",
+      "name": "com.tencent.connect.common.AssistActivity",
+      "screenOrientation": "behind",
+      "configChanges": "orientation|keyboardHidden",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.tencent.tauth.AuthActivity",
+      "exported": "true",
+      "launchMode": "singleTask",
+      "screenOrientation": "portrait",
+      "configChanges": "screenSize|orientation|keyboardHidden",
+      "noHistory": "true",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "android.intent.action.VIEW"
+            },
+            {
+              "type": "category",
+              "name": "android.intent.category.DEFAULT"
+            },
+            {
+              "type": "category",
+              "name": "android.intent.category.BROWSABLE"
+            },
+            {
+              "type": "data",
+              "scheme": "tencent1111058862"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "activity",
+      "theme": "0x7f140077",
+      "name": "com.luck.picture.lib.basic.PictureSelectorSupporterActivity",
+      "screenOrientation": "portrait",
+      "configChanges": "screenSize|orientation|keyboardHidden",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "theme": "0x7f14016f",
+      "name": "com.luck.picture.lib.basic.PictureSelectorTransparentActivity",
+      "screenOrientation": "portrait",
+      "configChanges": "screenSize|orientation|keyboardHidden",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.throat.activity.ThroatExerciseActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.throat.activity.ThroatExerciseInfoActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.carefully.activity.CarefullySelectedActEditActivity",
+      "screenOrientation": "portrait",
+      "windowSoftInputMode": "adjustResize",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.carefully.activity.CarefullySelectedListActivity",
+      "screenOrientation": "portrait",
+      "windowSoftInputMode": "adjustResize",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.carefully.activity.CarefullySelectedDetailActivity",
+      "screenOrientation": "portrait",
+      "windowSoftInputMode": "adjustResize",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.carefully.activity.MineCreatedActListActivity",
+      "screenOrientation": "portrait",
+      "windowSoftInputMode": "adjustResize",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.article.rank.activity.RankRewardListActivity",
+      "screenOrientation": "portrait",
+      "windowSoftInputMode": "adjustResize",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.island.activity.MineSoundActivity",
+      "screenOrientation": "portrait",
+      "windowSoftInputMode": "adjustResize",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.island.activity.PublishSoundActivity",
+      "screenOrientation": "portrait",
+      "windowSoftInputMode": "adjustResize",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.island.activity.SoundDetailActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "theme": "0x7f140325",
+      "name": "com.piaxiya.app.island.activity.SoundReplyActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.playlist.activity.VoiceActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.personal.activity.GiftSeriesListActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.relationship.activity.RelationshipCardSettingActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.relationship.activity.RelationshipEstablishActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.relationship.activity.RelationshipTransformActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.subservice.activity.OrderCenterActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.subservice.activity.SubServiceInfoActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.subservice.activity.SubscriptionDetailsActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.subservice.activity.ServiceEvaluationActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.relationship.activity.RelationshipCardContentSettingActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.relationship.activity.FriendTrajectoryActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.relationship.activity.RelationshipGalleryActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.subservice.activity.SubServiceListActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.subservice.activity.SubscribeServiceUsageHistoryActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "theme": "0x7f14000d",
+      "name": "com.piaxiya.app.message.ait.selector.AitContactSelectorActivity",
+      "screenOrientation": "portrait",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.hall.activity.QuickGreetingActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.hall.activity.FanClubNameEditActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.training.activity.TrainingRankActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.training.activity.BlindBoxShopActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.training.activity.PlayfulExerciseActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.training.activity.SinglePlayerPracticingActingActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.training.activity.HomophonesPracticeActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.training.activity.LoudTrainingActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.sound.training.activity.TrainingResultActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.article.series.activity.SeriesSetListActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.article.series.activity.SeriesSetDetailActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.personal.activity.LikeRecordActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.personal.activity.LikeSettingsActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.personal.activity.LikeRankActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.article.series.activity.SelectedSeriesSetActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.interaction.activity.LotteryHistoryRecordActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.hising.activity.HiSingQueueActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.hising.activity.SongPlatformActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.hising.activity.SingingRankActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.hising.activity.MineHiSingListActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.hising.activity.MineHiSingDraftActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.hising.activity.SingPreviewPublishActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.hising.activity.HiSingUploadActivity",
+      "windowSoftInputMode": "adjustResize",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.hising.activity.HiSingActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.treasure.activity.TreasureMuseumActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.treasure.activity.TreasureRecordActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.treasure.activity.TreasureRankingActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.treasure.activity.TreasureRewardActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.treasure.activity.TreasureBiographyEditActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.nobility.activity.NobilityActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.nobility.activity.NobilitySettingActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.nobility.activity.NobilityTitleBoardActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.nobility.activity.NobilityRecordActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "theme": "0x7f140325",
+      "name": "com.piaxiya.app.user.bind.BindTelephoneActivity",
+      "launchMode": "singleTask",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.chamber.activity.PartyHallActivity",
+      "windowSoftInputMode": "adjustResize|stateHidden",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.show.activity.UserShowShopActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.chamber.activity.DialogueHomeActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.chamber.activity.DesignatedTimeActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.live_v2.chamber.activity.DialogueTemplateActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.user.newbie.activity.NewbieClassmatesActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "receiver",
+      "name": "com.piaxiya.app.live_v2.service.receiver.HeartbeatReceiver",
+      "enabled": "true",
+      "exported": "false",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "theme": "0x7f140150",
+      "name": "com.geetest.onelogin.activity.OneLoginActivity",
+      "exported": "false",
+      "launchMode": "singleTop",
+      "screenOrientation": "behind",
+      "configChanges": "fontScale|smallestScreenSize|screenSize|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "theme": "0x7f140150",
+      "name": "com.geetest.onelogin.activity.OneLoginWebActivity",
+      "exported": "false",
+      "launchMode": "singleTop",
+      "screenOrientation": "behind",
+      "configChanges": "fontScale|smallestScreenSize|screenSize|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc",
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "name": "com.qq.gdt.action.GDTInitProvider",
+      "exported": "false",
+      "authorities": "com.piaxiya.app.GDTInitProvider",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "com.efs.sdk.memleaksdk.monitor.UMonitorService",
+      "enabled": "true",
+      "exported": "false",
+      "process": ":u_heap",
+      "intent_filters": []
+    },
+    {
+      "type": "receiver",
+      "name": "com.netease.nimlib.mixpush.mi.MiPushReceiver",
+      "exported": "true",
+      "intent_filters": [
+        {
+          "attributes": {
+            "priority": "0x7fffffff"
+          },
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.xiaomi.mipush.RECEIVE_MESSAGE"
+            },
+            {
+              "type": "action",
+              "name": "com.xiaomi.mipush.MESSAGE_ARRIVED"
+            },
+            {
+              "type": "action",
+              "name": "com.xiaomi.mipush.ERROR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "service",
+      "name": "com.piaxiya.im.core.push.ImHuaweiPushService",
+      "exported": "false",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.huawei.push.action.MESSAGING_EVENT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "receiver",
+      "name": "com.netease.nimlib.mixpush.vivo.VivoPushReceiver",
+      "exported": "false",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.vivo.pushclient.action.RECEIVE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "service",
+      "name": "com.netease.nimlib.mixpush.oppo.OppoPushService",
+      "permission": "com.coloros.mcs.permission.SEND_MCS_MESSAGE",
+      "exported": "false",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "service",
+      "name": "com.netease.nimlib.mixpush.oppo.OppoAppPushService",
+      "permission": "com.heytap.mcs.permission.SEND_PUSH_MESSAGE",
+      "exported": "false",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+            },
+            {
+              "type": "action",
+              "name": "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "activity",
+      "theme": "0x7f14000d",
+      "label": "0x7f130091",
+      "name": "com.piaxiya.im.feature.contact.ui.selector.ContactSelectActivity",
+      "screenOrientation": "portrait",
+      "configChanges": "orientation|keyboardHidden",
+      "windowSoftInputMode": "adjustPan|stateHidden",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "theme": "0x7f14012e",
+      "label": "0x7f130387",
+      "name": "com.piaxiya.im.feature.session.ui.activity.WatchVideoActivity",
+      "configChanges": "screenSize|orientation|keyboardHidden",
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "name": "androidx.core.content.FileProvider",
+      "exported": "false",
+      "authorities": "com.piaxiya.app.fileprovider",
+      "grantUriPermissions": "true",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "theme": "@android:style/Theme.Translucent.NoTitleBar",
+      "name": "com.piaxiya.app.lib_base.utils.permissions.RuntimePermissionActivity",
+      "exported": "false",
+      "excludeFromRecents": "true",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "com.piaxiya.app.lib_base.media.screenrecord.ScreenRecordService",
+      "exported": "false",
+      "stopWithTask": "false",
+      "foregroundServiceType": "microphone|mediaProjection",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.piaxiya.app.lib_base.album.video.VideoEditActivity",
+      "exported": "false",
+      "screenOrientation": "portrait",
+      "windowSoftInputMode": "stateAlwaysHidden",
+      "intent_filters": []
+    },
+    {
+      "type": "receiver",
+      "name": "com.piaxiya.app.lib_base.base.keep.WakeUpReceiver",
+      "enabled": "true",
+      "exported": "false",
+      "process": ":watch",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "android.intent.action.USER_PRESENT"
+            },
+            {
+              "type": "action",
+              "name": "android.intent.action.ACTION_POWER_CONNECTED"
+            },
+            {
+              "type": "action",
+              "name": "android.intent.action.ACTION_POWER_DISCONNECTED"
+            },
+            {
+              "type": "action",
+              "name": "com.xdandroid.hellodaemon.CANCEL_JOB_ALARM_SUB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "service",
+      "name": "com.piaxiya.app.lib_base.base.keep.AbsWorkService$WorkNotificationService",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "com.piaxiya.app.lib_base.base.keep.JobSchedulerService",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "enabled": "true",
+      "exported": "true",
+      "process": ":watch",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "com.piaxiya.app.lib_base.base.keep.WatchDogService",
+      "exported": "false",
+      "process": ":watch",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "com.piaxiya.app.lib_base.base.keep.WatchDogService$WatchDogNotificationService",
+      "exported": "false",
+      "process": ":watch",
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "name": "com.piaxiya.background.BackgroundContentProvider",
+      "exported": "false",
+      "multiprocess": "true",
+      "authorities": "com.piaxiya.app.backgroundLibrary",
+      "intent_filters": []
+    },
+    {
+      "type": "receiver",
+      "name": "com.piaxiya.app.lib_base.base.keeplive.receiver.NotificationClickReceiver",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "theme": "0x7f1404ad",
+      "name": "com.piaxiya.app.lib_base.base.keeplive.activity.OnePixelActivity",
+      "excludeFromRecents": "true",
+      "launchMode": "singleInstance",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "com.piaxiya.app.lib_base.base.keeplive.service.LocalService",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "com.piaxiya.app.lib_base.base.keeplive.service.HideForegroundService",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "com.piaxiya.app.lib_base.base.keeplive.service.JobHandlerService",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "com.piaxiya.app.lib_base.base.keeplive.service.RemoteService",
+      "process": ":remote",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "theme": "@android:style/Theme.Translucent.NoTitleBar",
+      "name": "com.lxj.xpopup.util.XPermission$PermissionActivity",
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "name": "com.luck.picture.lib.basic.PictureFileProvider",
+      "exported": "false",
+      "authorities": "com.piaxiya.app.luckProvider",
+      "grantUriPermissions": "true",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "com.luck.picture.lib.service.ForegroundService",
+      "enabled": "true",
+      "foregroundServiceType": "location",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "theme": "0x7f14025e",
+      "name": "com.yalantis.ucrop.UCropMultipleActivity",
+      "screenOrientation": "portrait",
+      "configChanges": "screenSize|orientation|keyboardHidden",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "androidx.camera.core.impl.MetadataHolderService",
+      "enabled": "false",
+      "exported": "false",
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "name": "androidx.startup.InitializationProvider",
+      "exported": "false",
+      "authorities": "com.piaxiya.app.androidx-startup",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "androidx.work.impl.background.systemalarm.SystemAlarmService",
+      "enabled": "0x7f050002",
+      "exported": "false",
+      "directBootAware": "false",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "androidx.work.impl.background.systemjob.SystemJobService",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "enabled": "0x7f050004",
+      "exported": "true",
+      "directBootAware": "false",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "androidx.work.impl.foreground.SystemForegroundService",
+      "enabled": "0x7f050003",
+      "exported": "false",
+      "directBootAware": "false",
+      "intent_filters": []
+    },
+    {
+      "type": "receiver",
+      "name": "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver",
+      "enabled": "true",
+      "exported": "false",
+      "directBootAware": "false",
+      "intent_filters": []
+    },
+    {
+      "type": "receiver",
+      "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy",
+      "enabled": "false",
+      "exported": "false",
+      "directBootAware": "false",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "android.intent.action.ACTION_POWER_CONNECTED"
+            },
+            {
+              "type": "action",
+              "name": "android.intent.action.ACTION_POWER_DISCONNECTED"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "receiver",
+      "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy",
+      "enabled": "false",
+      "exported": "false",
+      "directBootAware": "false",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "android.intent.action.BATTERY_OKAY"
+            },
+            {
+              "type": "action",
+              "name": "android.intent.action.BATTERY_LOW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "receiver",
+      "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy",
+      "enabled": "false",
+      "exported": "false",
+      "directBootAware": "false",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "android.intent.action.DEVICE_STORAGE_LOW"
+            },
+            {
+              "type": "action",
+              "name": "android.intent.action.DEVICE_STORAGE_OK"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "receiver",
+      "name": "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy",
+      "enabled": "false",
+      "exported": "false",
+      "directBootAware": "false",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "android.net.conn.CONNECTIVITY_CHANGE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "receiver",
+      "name": "androidx.work.impl.background.systemalarm.RescheduleReceiver",
+      "enabled": "false",
+      "exported": "false",
+      "directBootAware": "false",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "android.intent.action.BOOT_COMPLETED"
+            },
+            {
+              "type": "action",
+              "name": "android.intent.action.TIME_SET"
+            },
+            {
+              "type": "action",
+              "name": "android.intent.action.TIMEZONE_CHANGED"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "receiver",
+      "name": "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver",
+      "enabled": "0x7f050002",
+      "exported": "false",
+      "directBootAware": "false",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "androidx.work.impl.background.systemalarm.UpdateProxies"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "receiver",
+      "name": "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+      "permission": "android.permission.DUMP",
+      "enabled": "true",
+      "exported": "true",
+      "directBootAware": "false",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "service",
+      "name": "androidx.room.MultiInstanceInvalidationService",
+      "exported": "false",
+      "directBootAware": "true",
+      "intent_filters": []
+    },
+    {
+      "type": "receiver",
+      "name": "androidx.profileinstaller.ProfileInstallReceiver",
+      "permission": "android.permission.DUMP",
+      "enabled": "true",
+      "exported": "true",
+      "directBootAware": "false",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "androidx.profileinstaller.action.INSTALL_PROFILE"
+            }
+          ]
+        },
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "androidx.profileinstaller.action.SKIP_FILE"
+            }
+          ]
+        },
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "androidx.profileinstaller.action.SAVE_PROFILE"
+            }
+          ]
+        },
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "activity",
+      "theme": "0x7f140324",
+      "name": "com.bytedance.ads.convert.BDBridgeActivity",
+      "exported": "true",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "com.netease.nimlib.push.net.HeartbeatService",
+      "process": ":core",
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "name": "com.netease.nimlib.ipc.cp.provider.PreferenceContentProvider",
+      "exported": "false",
+      "authorities": "com.piaxiya.app.ipc.provider.preference",
+      "intent_filters": []
+    },
+    {
+      "type": "receiver",
+      "name": "cn.gravity.android.GEReceiver",
+      "enabled": "false",
+      "exported": "false",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "theme": "@android:style/Theme.NoTitleBar",
+      "name": "com.alipay.sdk.app.H5PayActivity",
+      "exported": "false",
+      "configChanges": "fontScale|layoutDirection|density|smallestScreenSize|screenSize|screenLayout|orientation|navigation|keyboardHidden|keyboard|locale",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "theme": "@android:style/Theme.NoTitleBar",
+      "name": "com.alipay.sdk.app.H5AuthActivity",
+      "exported": "false",
+      "configChanges": "fontScale|layoutDirection|density|smallestScreenSize|screenSize|screenLayout|orientation|navigation|keyboardHidden|keyboard|locale",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "theme": "@android:style/Theme.Translucent.NoTitleBar",
+      "name": "com.alipay.sdk.app.PayResultActivity",
+      "exported": "true",
+      "launchMode": "singleInstance",
+      "configChanges": "fontScale|layoutDirection|density|smallestScreenSize|screenSize|screenLayout|orientation|navigation|keyboardHidden|keyboard|locale",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "theme": "@android:style/Theme.Translucent.NoTitleBar",
+      "name": "com.alipay.sdk.app.AlipayResultActivity",
+      "exported": "true",
+      "launchMode": "singleTask",
+      "configChanges": "fontScale|layoutDirection|density|smallestScreenSize|screenSize|screenLayout|orientation|navigation|keyboardHidden|keyboard|locale",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.alipay.sdk.app.H5OpenAuthActivity",
+      "exported": "false",
+      "screenOrientation": "behind",
+      "configChanges": "fontScale|layoutDirection|density|smallestScreenSize|screenSize|screenLayout|orientation|navigation|keyboardHidden|keyboard|locale",
+      "windowSoftInputMode": "adjustResize|stateHidden",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "theme": "@android:style/Theme.Translucent.NoTitleBar",
+      "name": "com.alipay.sdk.app.APayEntranceActivity",
+      "exported": "false",
+      "configChanges": "fontScale|layoutDirection|density|smallestScreenSize|screenSize|screenLayout|orientation|navigation|keyboardHidden|keyboard|locale",
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "name": "razerdp.basepopup.BasePopupInitializer",
+      "exported": "false",
+      "multiprocess": "true",
+      "authorities": "com.github.razerdp.com.piaxiya.app.BasePopupInitializer",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "com.umeng.message.component.UmengIntentService",
+      "exported": "false",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "org.agoo.android.intent.action.RECEIVE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "service",
+      "name": "com.umeng.message.component.UmengMessageReceiverService",
+      "exported": "false",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "org.android.agoo.client.MessageReceiverService"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "service",
+      "name": "com.umeng.message.component.UmengMessageHandlerService",
+      "exported": "false",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.umeng.message.action"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "provider",
+      "name": "com.umeng.message.component.UmengMessageProvider",
+      "exported": "false",
+      "authorities": "com.piaxiya.app.umeng.message",
+      "intent_filters": []
+    },
+    {
+      "type": "receiver",
+      "name": "com.umeng.message.component.UmengNotificationReceiver",
+      "exported": "false",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "theme": "@android:style/Theme.Translucent.NoTitleBar",
+      "name": "com.umeng.message.component.UmengNotificationClickActivity",
+      "exported": "false",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "com.taobao.accs.ChannelService",
+      "exported": "false",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.taobao.accs.intent.action.START_SERVICE"
+            }
+          ]
+        },
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.taobao.accs.intent.action.ELECTION"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "service",
+      "name": "com.taobao.accs.ChannelService$KernelService",
+      "exported": "false",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "com.taobao.accs.data.MsgDistributeService",
+      "exported": "true",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.taobao.accs.intent.action.RECEIVE"
+            },
+            {
+              "type": "action",
+              "name": "com.umeng.message.action.notify"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "service",
+      "name": "com.taobao.accs.internal.AccsJobService",
+      "permission": "android.permission.BIND_JOB_SERVICE",
+      "exported": "false",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "org.android.agoo.accs.AgooService",
+      "exported": "false",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.taobao.accs.intent.action.RECEIVE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "receiver",
+      "name": "com.taobao.accs.ServiceReceiver",
+      "exported": "false",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.taobao.accs.intent.action.COMMAND"
+            }
+          ]
+        },
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.taobao.accs.intent.action.START_FROM_AGOO"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "receiver",
+      "name": "org.android.agoo.xiaomi.MiPushBroadcastReceiver",
+      "exported": "true",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.xiaomi.mipush.RECEIVE_MESSAGE"
+            }
+          ]
+        },
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.xiaomi.mipush.MESSAGE_ARRIVED"
+            }
+          ]
+        },
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.xiaomi.mipush.ERROR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "activity",
+      "theme": "@android:style/Theme.Translucent.NoTitleBar",
+      "name": "com.xiaomi.mipush.sdk.NotificationClickedActivity",
+      "enabled": "true",
+      "exported": "true",
+      "excludeFromRecents": "true",
+      "launchMode": "singleInstance",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "org.android.agoo.huawei.HuaweiRcvService",
+      "exported": "false",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.huawei.push.action.MESSAGING_EVENT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "receiver",
+      "name": "com.huawei.hms.support.api.push.PushMsgReceiver",
+      "permission": "com.piaxiya.app.permission.PROCESS_PUSH_MSG",
+      "exported": "true",
+      "directBootAware": "true",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.huawei.intent.action.PUSH_DELAY_NOTIFY"
+            },
+            {
+              "type": "action",
+              "name": "com.huawei.intent.action.PUSH"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "receiver",
+      "name": "com.huawei.hms.support.api.push.PushReceiver",
+      "permission": "com.piaxiya.app.permission.PROCESS_PUSH_MSG",
+      "exported": "true",
+      "directBootAware": "true",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.huawei.android.push.intent.REGISTRATION"
+            },
+            {
+              "type": "action",
+              "name": "com.huawei.android.push.intent.RECEIVE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "service",
+      "name": "com.huawei.hms.support.api.push.service.HmsMsgService",
+      "enabled": "true",
+      "exported": "true",
+      "process": ":pushservice",
+      "directBootAware": "true",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.huawei.push.msg.NOTIFY_MSG"
+            },
+            {
+              "type": "action",
+              "name": "com.huawei.push.msg.PASSBY_MSG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "provider",
+      "name": "com.huawei.hms.support.api.push.PushProvider",
+      "readPermission": "com.piaxiya.app.permission.PUSH_PROVIDER",
+      "writePermission": "com.piaxiya.app.permission.PUSH_WRITE_PROVIDER",
+      "exported": "true",
+      "authorities": "com.piaxiya.app.huawei.push.provider",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.huawei.hms.support.api.push.TransActivity",
+      "exported": "false",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "com.heytap.msp.push.service.CompatibleDataMessageCallbackService",
+      "permission": "com.coloros.mcs.permission.SEND_MCS_MESSAGE",
+      "exported": "true",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "service",
+      "name": "com.heytap.msp.push.service.DataMessageCallbackService",
+      "permission": "com.heytap.mcs.permission.SEND_PUSH_MESSAGE",
+      "exported": "true",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+            },
+            {
+              "type": "action",
+              "name": "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "receiver",
+      "name": "org.android.agoo.vivo.PushMessageReceiverImpl",
+      "exported": "false",
+      "intent_filters": [
+        {
+          "attributes": {},
+          "elements": [
+            {
+              "type": "action",
+              "name": "com.vivo.pushclient.action.RECEIVE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "provider",
+      "name": "com.just.agentweb.AgentWebFileProvider",
+      "exported": "false",
+      "authorities": "com.piaxiya.app.AgentWebFileProvider",
+      "grantUriPermissions": "true",
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "name": "com.aliyun.sls.android.producer.provider.SLSContentProvider",
+      "exported": "false",
+      "authorities": "com.piaxiya.app.sls_provider",
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "name": "me.jessyan.autosize.InitProvider",
+      "exported": "false",
+      "multiprocess": "true",
+      "authorities": "com.piaxiya.app.autosize-init-provider",
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "name": "com.huawei.hms.aaid.InitProvider",
+      "exported": "false",
+      "authorities": "com.piaxiya.app.aaidinitprovider",
+      "initOrder": "500",
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "name": "com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider",
+      "enabled": "true",
+      "exported": "false",
+      "authorities": "com.piaxiya.app.SensorsDataContentProvider",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "theme": "0x7f140126",
+      "name": "com.huawei.hms.activity.BridgeActivity",
+      "exported": "false",
+      "excludeFromRecents": "true",
+      "screenOrientation": "behind",
+      "configChanges": "fontScale|layoutDirection|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|locale",
+      "hardwareAccelerated": "true",
+      "intent_filters": []
+    },
+    {
+      "type": "activity",
+      "name": "com.huawei.hms.activity.EnableServiceActivity",
+      "exported": "false",
+      "configChanges": "smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden",
+      "intent_filters": []
+    },
+    {
+      "type": "provider",
+      "name": "com.huawei.agconnect.core.provider.AGConnectInitializeProvider",
+      "exported": "false",
+      "authorities": "com.piaxiya.app.AGCInitializeProvider",
+      "intent_filters": []
+    },
+    {
+      "type": "service",
+      "name": "com.huawei.agconnect.core.ServiceDiscovery",
+      "exported": "false",
+      "intent_filters": []
+    }
+  ]
+}

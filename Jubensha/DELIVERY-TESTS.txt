@@ -1,0 +1,14 @@
+✔ preparation and personal reading enforce stage guards without changing state (0.723916ms)
+✔ search budget, ownership, and public visibility have one state owner (0.233209ms)
+✔ a public note requires explicit consent and publishes only attached owned clues (0.156ms)
+✔ a vote is immutable and does not reveal until other simulated voters finish (0.134084ms)
+✔ malformed saved progress is rejected rather than used as UI input (0.359667ms)
+✔ saved progress survives a full round-trip and reset removes secret notes and votes (0.196459ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 45.200708

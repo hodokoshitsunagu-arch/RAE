@@ -1,0 +1,28 @@
+{
+  "engine": {
+    "name": "jadx-headless-mcp",
+    "version": "0.7.1",
+    "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+    "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+    "worker_count": 1,
+    "heap_limit_mib": 4096
+  },
+  "class_name": "com.mszmapp.detective.module.game.gaming.GamingActivity",
+  "method": {
+    "name": "onReceivedSignalMsg",
+    "reported_signature": "onReceivedSignalMsg(java.lang.String): void",
+    "overload_index": 0,
+    "is_constructor": false,
+    "dex_descriptor": null
+  },
+  "overload_count": 1,
+  "representation": "java",
+  "body_status": "available",
+  "fell_back": false,
+  "markers": [],
+  "source": {
+    "status": "complete",
+    "text": "    @Override // com.piaxiya.app.lib_base.view.WSMBroadCastActivity, com.piaxiya.app.lib_base.socketconnect.SocketConnector.MessageListener\n    public void onReceivedSignalMsg(String msg) {\n        List<String> data;\n        List<String> data2;\n        Intrinsics.checkNotNullParameter(msg, \"msg\");\n        if (JSON.parseObject(msg).getIntValue(\"type\") == 100 || JSON.parseObject(msg).getIntValue(\"action\") == 1200) {\n            return;\n        }\n        if (JSON.parseObject(msg).getIntValue(\"action\") == 3) {\n            DramaGiftData dramaGiftData = (DramaGiftData) com.blankj.utilcode.util.n.d(((DramaGiftBean) com.blankj.utilcode.util.n.d(msg, DramaGiftBean.class)).getExtra(), DramaGiftData.class);\n            Intrinsics.checkNotNull(dramaGiftData);\n            kh(dramaGiftData);\n            LivingMsgBean livingMsgBeanBuild = new LivingMsgBean.Builder().setType(0).appendClickedContent(dramaGiftData.getFromUser().getNickname(), SchemeGenerator.createUserScheme(dramaGiftData.getFromUser().getUserId(), dramaGiftData.getFromUser().getUserGuid())).appendColorContent(\" 赠送 \", \"#40E2A5\").appendClickedContent(dramaGiftData.getToUser().getNickname(), SchemeGenerator.createUserScheme(dramaGiftData.getToUser().getUserId(), dramaGiftData.getToUser().getUserGuid())).appendColorContent(HanziToPinyin.Token.SEPARATOR + dramaGiftData.getGift().getGiftNumber() + \"个\" + dramaGiftData.getGift().getGiftName(), \"#40E2A5\").build();\n            DramaMessageBean dramaMessageBean = new DramaMessageBean();\n            dramaMessageBean.setMsgContent(livingMsgBeanBuild.getContent());\n            CstMessageAdapter cstMessageAdapter = this.cstMessageAdapter;\n            if (cstMessageAdapter != null) {\n                String msgContent = dramaMessageBean.getMsgContent();\n                cstMessageAdapter.addData(msgContent != null ? msgContent : \"\");\n            }\n            RecyclerView recyclerViewHb = Hb();\n            CstMessageAdapter cstMessageAdapter2 = this.cstMessageAdapter;\n            recyclerViewHb.scrollToPosition(((cstMessageAdapter2 == null || (data2 = cstMessageAdapter2.getData()) == null) ? 1 : data2.size()) - 1);\n            eb.a.f62492a.a().add(dramaMessageBean);\n            return;\n        }\n        if (JSON.parseObject(msg).getIntValue(\"action\") != 1501) {\n            DramaMessageBean dramaMessageBean2 = new DramaMessageBean();\n            dramaMessageBean2.parseData(msg);\n            if (dramaMessageBean2.getNeed_ignore() == 1) {\n                return;\n            }\n            LivingMsgBean.Builder type = new LivingMsgBean.Builder().setType(0);\n            type.appendIcons(com.blankj.utilcode.util.i.c(16.0f), dramaMessageBean2.getVip_icon());\n            if (dramaMessageBean2.getNickname() != null) {\n                type.appendClickedColorContent(dramaMessageBean2.getNickname() + \": \", \"#57565a99\", SchemeGenerator.createUserScheme(dramaMessageBean2.getUser_id(), dramaMessageBean2.getUser_guid()));\n            }\n            JSONObject msgExtra = dramaMessageBean2.getMsgExtra();\n            if ((msgExtra != null ? msgExtra.get(\"chat_bubble\") : null) != null) {\n                JSONObject msgExtra2 = dramaMessageBean2.getMsgExtra();\n                dramaMessageBean2.setSignalBubbleBean((DramaSignalBubbleBean) com.blankj.utilcode.util.n.d(String.valueOf(msgExtra2 != null ? msgExtra2.get(\"chat_bubble\") : null), DramaSignalBubbleBean.class));\n            }\n            String color = dramaMessageBean2.getColor();\n            if (color == null || color.length() == 0) {\n                type.appendContent(dramaMessageBean2.getMsgContent());\n            } else {\n                type.appendColorContent(dramaMessageBean2.getMsgContent(), dramaMessageBean2.getColor());\n            }\n            dramaMessageBean2.setMsgContent(type.build().getContent());\n            CstMessageAdapter cstMessageAdapter3 = this.cstMessageAdapter;\n            if (cstMessageAdapter3 != null) {\n                String msgContent2 = dramaMessageBean2.getMsgContent();\n                cstMessageAdapter3.addData(msgContent2 != null ? msgContent2 : \"\");\n            }\n            RecyclerView recyclerViewHb2 = Hb();\n            CstMessageAdapter cstMessageAdapter4 = this.cstMessageAdapter;\n            recyclerViewHb2.scrollToPosition(((cstMessageAdapter4 == null || (data = cstMessageAdapter4.getData()) == null) ? 1 : data.size()) - 1);\n            eb.a.f62492a.a().add(dramaMessageBean2);\n        }\n    }",
+    "reported_total_bytes": null
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7752534682453720217
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6591431672331888157
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -795630149552309025
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7646701315254112869
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2272102475642826126
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "bubble_Werewolfkill",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

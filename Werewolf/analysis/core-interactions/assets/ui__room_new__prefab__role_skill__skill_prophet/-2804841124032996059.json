@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6774869878605988650
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4401263172787602446
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8179973800332358717
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7501089452524738752
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Text",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

@@ -1,0 +1,190 @@
+// Reconstructed directly from packaged FileDescriptorProto, not original source text.
+// Exact field names/numbers/types, maps, oneofs, enums and options are observed.
+// Ordering/comments/whitespace from original source cannot be recovered.
+syntax = "proto3";
+
+option java_package = "com.soul.game.protos";
+option java_multiple_files = true;
+option go_package = "protos";
+option objc_class_prefix = "IMP";
+
+message GameMessage {
+  enum Type {
+    GENERAL = 0;
+    DRAW_SOMETHING = 1;
+  }
+  enum Phase {
+    PING = 0;
+    INVITE = 1;
+    READY = 2;
+    PLAY = 3;
+    GAMEOVER = 4;
+  }
+  string id = 1;
+  string gameId = 2;
+  GameMessage.Type type = 3;
+  GameMessage.Phase phase = 4;
+  map<string, string> extMap = 10;
+  oneof cmd {
+    PingGameMessage pingGameMessage = 5;
+    InviteGameMessage inviteGameMessage = 6;
+    ReadyGameMessage readyGameMessage = 7;
+    PlayGameMessage playGameMessage = 8;
+    GameoverGameMessage gameoverGameMessage = 9;
+  }
+}
+
+message PingGameMessage {
+  int64 ts = 4;
+  map<string, string> extMap = 6;
+}
+
+message InviteGameMessage {
+  string inviter = 4;
+  string invitee = 5;
+  map<string, string> extMap = 6;
+}
+
+message ReadyGameMessage {
+  enum Type {
+    READY = 0;
+    NOT_READY = 1;
+  }
+  ReadyGameMessage.Type type = 4;
+  map<string, string> extMap = 6;
+}
+
+message PlayGameMessage {
+  oneof cmd {
+    DrawSomethingPlayGameMessage drawSomethingPlayGameMessage = 5;
+  }
+}
+
+message GameoverGameMessage {
+  oneof cmd {
+    DrawSomethingGameoverGameMessage drawSomethingGameoverGameMessage = 5;
+  }
+}
+
+message DrawSomethingGameoverGameMessage {
+  AnswerResults answerResults = 1;
+}
+
+message DrawSomethingPlayGameMessage {
+  enum Type {
+    QUESTION_SET = 0;
+    ANSWER_SET = 1;
+    DRAW = 2;
+    GUESS = 3;
+    TIMER = 4;
+  }
+  int32 round = 3;
+  int32 maxRound = 4;
+  DrawSomethingPlayGameMessage.Type type = 5;
+  string question = 6;
+  string questionDesc = 7;
+  string answer = 8;
+  string answerDesc = 9;
+  map<string, string> extMap = 10;
+}
+
+message GamePsh {
+  enum Type {
+    DRAW_SOMETHING = 0;
+  }
+  GamePsh.Type type = 3;
+  map<string, string> extMap = 8;
+  oneof cmd {
+    DrawSomethingGamePsh drawSomethingGamePsh = 5;
+  }
+}
+
+message DrawSomethingGamePsh {
+  enum Type {
+    INVITE_DONE = 0;
+    READY_DONE = 1;
+    QUESTION_SET_DONE = 2;
+    ANSWER_SET_DONE = 3;
+    ROUND_START = 4;
+    ROUND_DONE = 5;
+    GAMEOVER = 6;
+    ANSWER_RESULT = 7;
+  }
+  DrawSomethingGamePsh.Type type = 3;
+  map<string, string> extMap = 12;
+  oneof cmd {
+    InviteDonePsh inviteDonePsh = 4;
+    ReadyDonePsh readyDonePsh = 5;
+    QuestionSetDonePsh questionSetDonePsh = 6;
+    AnswerSetDonePsh answerSetDonePsh = 7;
+    RoundStartPsh roundStartPsh = 8;
+    RoundDonePsh roundDonePsh = 9;
+    GameoverPsh gameoverPsh = 10;
+    AnswerResult answerResult = 11;
+  }
+}
+
+message InviteDonePsh {
+  int64 ts = 4;
+  map<string, string> extMap = 8;
+}
+
+message ReadyDonePsh {
+  int32 nextRound = 3;
+  int64 ts = 4;
+  map<string, string> extMap = 8;
+}
+
+message QuestionSetDonePsh {
+  int32 nextRound = 3;
+  int64 ts = 4;
+  map<string, string> extMap = 8;
+}
+
+message AnswerSetDonePsh {
+  int32 nextRound = 3;
+  int64 ts = 4;
+  map<string, string> extMap = 8;
+}
+
+message RoundDonePsh {
+  int32 nextRound = 3;
+  int64 ts = 4;
+  map<string, string> extMap = 8;
+}
+
+message RoundStartPsh {
+  int32 round = 3;
+  int64 ts = 4;
+  map<string, string> extMap = 8;
+}
+
+message GameoverPsh {
+  int64 ts = 4;
+  map<string, string> extMap = 8;
+}
+
+message AnswerResult {
+  string question = 3;
+  string questionDesc = 4;
+  string answer = 5;
+  string answerDesc = 6;
+  bool right = 7;
+  int64 ts = 8;
+  map<string, string> extMap = 9;
+}
+
+message AnswerResults {
+  repeated AnswerResult answerResults = 1;
+}
+
+enum ErrorCode {
+  OK = 0;
+  UNKOWN = 1;
+  LOGIN_ACCOUNT_ERROR = 11;
+  LOGIN_TOKEN_ERROR = 12;
+  LOGIN_VERSION_ERROR = 14;
+  GAME_QUESTION_ERROR = 101;
+  GAME_ANSWER_ERROR = 102;
+  GAME_HAS_END = 103;
+}

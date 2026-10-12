@@ -1,0 +1,34 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2935750090753637609
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7802755607570700153
+  },
+  "m_Name": "",
+  "bindDic": {
+    "m_keys": [
+      "confirmBtn",
+      "closeBtn",
+      "crescentTips"
+    ],
+    "m_values": [
+      {
+        "m_FileID": 0,
+        "m_PathID": -2477393846976292606
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 7739944028115600547
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -8965290144060031321
+      }
+    ]
+  },
+  "animationEventList": []
+}

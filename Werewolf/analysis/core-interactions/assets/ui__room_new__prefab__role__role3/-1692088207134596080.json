@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7978581649864957471
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1489805409494380133
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2174442228741025997
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "stay_light",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

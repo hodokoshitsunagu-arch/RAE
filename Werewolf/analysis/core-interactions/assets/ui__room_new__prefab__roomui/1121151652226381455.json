@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3963837011606422358
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 543727389769244360
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -9087949785954605930
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "OB_gameUI_Barrage_switch_01",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

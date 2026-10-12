@@ -1,0 +1,32 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7133923443604940712
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 9127861627920916844
+  },
+  "m_Name": "",
+  "slideType": 1,
+  "speed": 40,
+  "delay": 1,
+  "defaultTime": 2.0,
+  "content": {
+    "m_FileID": 0,
+    "m_PathID": 8976293812187524214
+  },
+  "maskNode": {
+    "m_FileID": 0,
+    "m_PathID": -9068011911273049459
+  },
+  "txt": {
+    "m_FileID": 0,
+    "m_PathID": 2544273864672173675
+  },
+  "txt2": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  }
+}

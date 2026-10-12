@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6214090870453429488
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5566494028203093012
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1461148359809107871
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "huo",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

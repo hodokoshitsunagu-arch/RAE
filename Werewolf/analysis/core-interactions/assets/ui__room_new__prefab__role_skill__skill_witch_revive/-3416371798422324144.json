@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1800780265039560842
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2388829421903973891
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7464281688532546259
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Anim_roleskill_all",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

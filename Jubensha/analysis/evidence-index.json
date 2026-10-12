@@ -1,0 +1,951 @@
+{
+  "scope": "REA records only; auxiliary format-parser files remain separate ordinary-shell evidence",
+  "records": [
+    {
+      "file": "baibian/archive-evidence.json",
+      "evidence_id": "ev_8648e87908cbdb79d46103a132e46b902f27e38077c8d561a8f4552156a2ea4a",
+      "operation": "inspect_artifact",
+      "subject": {
+        "name": "baibian-6.45.2.apk",
+        "digest": {
+          "sha256": "8522e582689c462c2746ffad8dcf7190e98b52d6d93c79468a239005fe8d9fe3"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/baibian-6.45.2.apk"
+      },
+      "provider": {
+        "id": "rea-artifact-graph",
+        "name": "REA safe artifact graph provider",
+        "version": "1"
+      },
+      "limitations": [
+        "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+        "Logical archive names collide under English (en-US) Unicode case folding; a case-insensitive destination cannot store both spellings. This comparison is not a filesystem observation.",
+        "ZIP inventory lists central-directory entries only. Bytes after the central directory, including an APK Signing Block or a ZIP comment, are not occurrences."
+      ],
+      "file_sha256": "6d5a321561c5d0c7663304eebfe4eb0569b88b086f1ed7f0c676c381d92787a1"
+    },
+    {
+      "file": "baibian/archive-evidence.json",
+      "record_selector": "normalized_result.substeps[0].evidence",
+      "evidence_id": "ev_9852a76aaae2440b39b4ae7f452177ab0776dc387aa8611051bc6f61fc4f8113",
+      "operation": "inventory_artifact",
+      "subject": {
+        "name": "baibian-6.45.2.apk",
+        "digest": {
+          "sha256": "8522e582689c462c2746ffad8dcf7190e98b52d6d93c79468a239005fe8d9fe3"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/baibian-6.45.2.apk"
+      },
+      "provider": {
+        "id": "rea-artifact-graph",
+        "name": "REA safe artifact graph provider",
+        "version": "1"
+      },
+      "limitations": [
+        "ZIP inventory lists central-directory entries only. Bytes after the central directory, including an APK Signing Block or a ZIP comment, are not occurrences.",
+        "Logical archive names collide under English (en-US) Unicode case folding; a case-insensitive destination cannot store both spellings. This comparison is not a filesystem observation."
+      ],
+      "file_sha256": "6d5a321561c5d0c7663304eebfe4eb0569b88b086f1ed7f0c676c381d92787a1"
+    },
+    {
+      "file": "baibian/graph.json",
+      "evidence_id": "ev_43ef67ae5bf0edc5c98982a3cab2ccb672c0228b89bc8967f2b6102f4f5dcfe4",
+      "operation": "project_android_application_graph",
+      "subject": {
+        "name": "baibian-6.45.2.apk",
+        "digest": {
+          "sha256": "8522e582689c462c2746ffad8dcf7190e98b52d6d93c79468a239005fe8d9fe3"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/baibian-6.45.2.apk"
+      },
+      "provider": {
+        "id": "rea-android-application",
+        "name": "REA Android application workflows",
+        "version": "1"
+      },
+      "limitations": [
+        "Manifest, resource, signing, and bytecode semantics require a dedicated Android provider; this projection reports exact inventory paths and hashes only.",
+        "Runtime families are inferred from inventory formats and paths; filename suffixes do not establish valid DEX or JVM class bytes.",
+        "Bridge candidates are path-based hypotheses, not decoded JNI declarations or observed runtime calls.",
+        "A bridge basis is inferred from the native path and is repeated for every managed component.",
+        "ZIP inventory cannot see the APK Signing Block, so an empty signing array does not mean the APK is unsigned."
+      ],
+      "file_sha256": "4b23a18bd2d4da51da55ac885198379693446f868e7bc10fc4388493e958279e"
+    },
+    {
+      "file": "baibian/package.json",
+      "evidence_id": "ev_64fd7e6cf8a87d99729f37787ef61c3b3f208c1a43aa58d098672ff4edf6c300",
+      "operation": "inspect_android_package",
+      "subject": {
+        "name": "baibian-6.45.2.apk",
+        "digest": {
+          "sha256": "8522e582689c462c2746ffad8dcf7190e98b52d6d93c79468a239005fe8d9fe3"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/baibian-6.45.2.apk"
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "file_sha256": "e96000ce06e61b506b7a37dc9f93fd825f889852af065b6a7ab8136ac24d6d14"
+    },
+    {
+      "file": "baibian/unity/rea-monopoly-members.json",
+      "evidence_id": "ev_a776549dba3ea4ba9dd3f3aeb35c6d1828c806b25b36a7913d576be2f791eb6f",
+      "operation": "inspect_managed_members",
+      "subject": {
+        "name": "MonopolyLoca.dll",
+        "digest": {
+          "sha256": "3804ef01fd38e8788190982bb62451ee5fffd7679b9f52b1c305eb7e27baaacc"
+        },
+        "format": "pe",
+        "architecture": "x86",
+        "local_path": "/Users/mark/Projects/REA/Jubensha/analysis/baibian/unity/assets/Android/MonopolyLoca.dll"
+      },
+      "provider": {
+        "id": "rea-dotnet-static",
+        "name": "REA managed static analysis provider",
+        "version": "1"
+      },
+      "limitations": [
+        "Metadata tokens are build-local coordinates and are only meaningful with the reported artifact SHA-256 and MVID.",
+        "CIL instruction anchors are decoded from file-backed method bodies only; no target assembly is loaded or executed.",
+        "Signatures are decoded for common ECMA-335 primitive, class, valuetype, pointer, byref, array, and generic variable forms; unsupported forms retain raw signature hashes."
+      ],
+      "file_sha256": "4a613ebf15ad8d9b96e8dafcd60e8a745588e4d0f89c865fb4b99eacac101f4e"
+    },
+    {
+      "file": "baibian/unity/rea-monopoly.json",
+      "evidence_id": "ev_28135d3ea15433bb730b211df141e853c723a8ac8bc65eb697c3cd846052250c",
+      "operation": "inspect_managed_artifact",
+      "subject": {
+        "name": "MonopolyLoca.dll",
+        "digest": {
+          "sha256": "3804ef01fd38e8788190982bb62451ee5fffd7679b9f52b1c305eb7e27baaacc"
+        },
+        "format": "pe",
+        "architecture": "x86",
+        "local_path": "/Users/mark/Projects/REA/Jubensha/analysis/baibian/unity/assets/Android/MonopolyLoca.dll"
+      },
+      "provider": {
+        "id": "rea-dotnet-static",
+        "name": "REA managed static analysis provider",
+        "version": "1"
+      },
+      "limitations": [
+        "Static inspection did not load the assembly, resolve dependencies through a CLR, decompile C#, or execute target code."
+      ],
+      "file_sha256": "7c444adc2c998a2e299339c183f7ac589a748aa5eaf782bda1b025a68733ab78"
+    },
+    {
+      "file": "baibian/unity/rea-tools-members.json",
+      "evidence_id": "ev_a70254a752aaef831c0acf3d94b7e5ba11fb09b7f756cea8cbcd8cdcc6e7487c",
+      "operation": "inspect_managed_members",
+      "subject": {
+        "name": "Tools.dll",
+        "digest": {
+          "sha256": "1ac8cef4966ac8ba48b106ba04b6c8875b5971511870535236bb6207c8bd4f05"
+        },
+        "format": "pe",
+        "architecture": "x86",
+        "local_path": "/Users/mark/Projects/REA/Jubensha/analysis/baibian/unity/assets/Android/Tools.dll"
+      },
+      "provider": {
+        "id": "rea-dotnet-static",
+        "name": "REA managed static analysis provider",
+        "version": "1"
+      },
+      "limitations": [
+        "The CLI metadata could not be admitted; managed member inspection is unavailable."
+      ],
+      "file_sha256": "c7f5ab3c22fab2e8d39fbd5dc85f5d5d6e6d6f24b5f70c32350035748f71b4f9"
+    },
+    {
+      "file": "baibian/unity/rea-tools.json",
+      "evidence_id": "ev_ebff6e9e83fb2142516c70f2ace010544bda3fde8f74e036606533b8536a7859",
+      "operation": "inspect_managed_artifact",
+      "subject": {
+        "name": "Tools.dll",
+        "digest": {
+          "sha256": "1ac8cef4966ac8ba48b106ba04b6c8875b5971511870535236bb6207c8bd4f05"
+        },
+        "format": "pe",
+        "architecture": "x86",
+        "local_path": "/Users/mark/Projects/REA/Jubensha/analysis/baibian/unity/assets/Android/Tools.dll"
+      },
+      "provider": {
+        "id": "rea-dotnet-static",
+        "name": "REA managed static analysis provider",
+        "version": "1"
+      },
+      "limitations": [
+        "Static inspection did not load the assembly, resolve dependencies through a CLR, decompile C#, or execute target code."
+      ],
+      "file_sha256": "1046977e69b00f8fb5ef9a52030091b2d36eb1d252fc795ab4362ca0a7f035ca"
+    },
+    {
+      "file": "baibian/wrapper-attach.json",
+      "evidence_id": "ev_9432c958da4416e6ee76f0b9404359133f733885f4cc59922ae11623f799683f",
+      "operation": "inspect_android_method",
+      "subject": {
+        "name": "baibian-6.45.2.apk",
+        "digest": {
+          "sha256": "8522e582689c462c2746ffad8dcf7190e98b52d6d93c79468a239005fe8d9fe3"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/baibian-6.45.2.apk"
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "file_sha256": "3b151145a7da9c2bd2fdc5d68479af51b52cac97607123b0e1187a509e24dc9e"
+    },
+    {
+      "file": "woshimi/class-GameController.json",
+      "evidence_id": "ev_e8c0861a411b7bf883107216af3efc585edb492300a05907b7a6783eb0cea9b8",
+      "operation": "inspect_android_class",
+      "subject": {
+        "name": "woshimi-3.50.9.apk",
+        "digest": {
+          "sha256": "093a2df17162f9bdce8efefe66993b7e5928b3014d31af771b1fc2e520143f15"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk"
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "file_sha256": "23187523f9c5b31123bdb7be7ee7d9e73234cffbee23dcdbb65af48bfc40c78d"
+    },
+    {
+      "file": "woshimi/class-GameSource.json",
+      "evidence_id": "ev_2ec3292adfe2d807441be1dd0501a27f4382b188e5906f9f6e478056ed6f3df0",
+      "operation": "inspect_android_class",
+      "subject": {
+        "name": "woshimi-3.50.9.apk",
+        "digest": {
+          "sha256": "093a2df17162f9bdce8efefe66993b7e5928b3014d31af771b1fc2e520143f15"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk"
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "file_sha256": "2db3aec076a6a6ff5f1189f44b20edebf886b55ee61b96059e5aff7758090075"
+    },
+    {
+      "file": "woshimi/class-GameState.json",
+      "evidence_id": "ev_cd001f21a64ffaefe6e65f74202dc206ea1f8fd7fcccb43bcf36e9efe57575da",
+      "operation": "inspect_android_class",
+      "subject": {
+        "name": "woshimi-3.50.9.apk",
+        "digest": {
+          "sha256": "093a2df17162f9bdce8efefe66993b7e5928b3014d31af771b1fc2e520143f15"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk"
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "file_sha256": "3aa96c00f58a4429e7c0d550566330f6971b640e7dbcd2c1ecf52131fc819dc9"
+    },
+    {
+      "file": "woshimi/class-GamingPresenter-obfuscated.json",
+      "evidence_id": "ev_bc1e498bf1abacc79bcf53f81c120c3f698d6e36420a4aef2f49e3980a6b91e5",
+      "operation": "inspect_android_class",
+      "subject": {
+        "name": "woshimi-3.50.9.apk",
+        "digest": {
+          "sha256": "093a2df17162f9bdce8efefe66993b7e5928b3014d31af771b1fc2e520143f15"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk"
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "file_sha256": "b888dd5d8b5ae893bac86759225affa43f8a6e3cbb250e0abb5d1f73997817a1"
+    },
+    {
+      "file": "woshimi/class-PlaybookConstant.json",
+      "evidence_id": "ev_d03f1010c6a7e20ca86a2196cd5dbd0a3f9efe4d43b44595c0af40b2f3d61176",
+      "operation": "inspect_android_class",
+      "subject": {
+        "name": "woshimi-3.50.9.apk",
+        "digest": {
+          "sha256": "093a2df17162f9bdce8efefe66993b7e5928b3014d31af771b1fc2e520143f15"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk"
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "file_sha256": "5e275d969cd80d43dc1949579ddf73dddb760d8100b208b538a2722a7671d519"
+    },
+    {
+      "file": "woshimi/class-RoomStub-dot.json",
+      "evidence_id": "ev_b86fa902c65ffaa1c89a8178b57094114f0e085001bf719d505facedad3a940c",
+      "operation": "inspect_android_class",
+      "subject": {
+        "name": "woshimi-3.50.9.apk",
+        "digest": {
+          "sha256": "093a2df17162f9bdce8efefe66993b7e5928b3014d31af771b1fc2e520143f15"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk"
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "file_sha256": "1824f6407132ac19508f59fa79bce62b00000b6b8b1bf90303adc26bb2c91cf0"
+    },
+    {
+      "file": "woshimi/class-SceneInfo-dollar.json",
+      "evidence_id": "ev_5c049c25184ddb4bdbbf203f1e3de36ec7cf681f7b9cf377a78d03162fecc18e",
+      "operation": "inspect_android_class",
+      "subject": {
+        "name": "woshimi-3.50.9.apk",
+        "digest": {
+          "sha256": "093a2df17162f9bdce8efefe66993b7e5928b3014d31af771b1fc2e520143f15"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk"
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "file_sha256": "79ee9e659b834517af1d941c63f22bb15e78aa43535cac923cd2533f8cb2b902"
+    },
+    {
+      "file": "woshimi/method-AppDownloadHelper-execute.json",
+      "evidence_id": "ev_21b4ae756d2eac1c404c67a0c191a31cafd491b9036a46548d6d869c0abd4627",
+      "operation": "inspect_android_method",
+      "subject": {
+        "name": "woshimi-3.50.9.apk",
+        "digest": {
+          "sha256": "093a2df17162f9bdce8efefe66993b7e5928b3014d31af771b1fc2e520143f15"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk"
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "file_sha256": "57087023ac10d2102e9960c53f7cf1f8130fff8160fe7aeb92093cba508980d0"
+    },
+    {
+      "file": "woshimi/method-ChannelInstance-initManageChannel.json",
+      "evidence_id": "ev_58f9373b58ba5687b5122c0dbb4d697145c7fb3d97876be3c7c5cc2763a67454",
+      "operation": "inspect_android_method",
+      "subject": {
+        "name": "woshimi-3.50.9.apk",
+        "digest": {
+          "sha256": "093a2df17162f9bdce8efefe66993b7e5928b3014d31af771b1fc2e520143f15"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk"
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "file_sha256": "87cf9bed934ffe0a6b3c3b4bc2777a4cd28666e5f10e4186ec15d32473594b97"
+    },
+    {
+      "file": "woshimi/method-E_GameStage-clinit.json",
+      "evidence_id": "ev_9c1a4c4a0b01f7c132308cb9ed3a800200ca8871a08b5758642ffcd8e7cfcc00",
+      "operation": "inspect_android_method",
+      "subject": {
+        "name": "woshimi-3.50.9.apk",
+        "digest": {
+          "sha256": "093a2df17162f9bdce8efefe66993b7e5928b3014d31af771b1fc2e520143f15"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk"
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "file_sha256": "dc9e152db71b3accd39f44dbc11bbe18798cd9c50f66efe31be7e58430575479"
+    },
+    {
+      "file": "woshimi/method-GameState-loadCandidate.json",
+      "evidence_id": "ev_7f8a056f1f5571e239e26d488d8e55f70d3f0db05406d82d8f458dec250dd4a7",
+      "operation": "inspect_android_method",
+      "subject": {
+        "name": "woshimi-3.50.9.apk",
+        "digest": {
+          "sha256": "093a2df17162f9bdce8efefe66993b7e5928b3014d31af771b1fc2e520143f15"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk"
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "file_sha256": "c5f3f6ef93351c8607648c2282d67e6083e6f865d90dc86d21bf9a39b5620815"
+    },
+    {
+      "file": "woshimi/method-GameState-parsePlaybook.json",
+      "evidence_id": "ev_e7dac960e98739772fa5325eb8621d53fde2870a7d409ee73c46c864ecfdb141",
+      "operation": "inspect_android_method",
+      "subject": {
+        "name": "woshimi-3.50.9.apk",
+        "digest": {
+          "sha256": "093a2df17162f9bdce8efefe66993b7e5928b3014d31af771b1fc2e520143f15"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk"
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "file_sha256": "56645213490b57876685d4274ae0ea1cb35bdb1d899e93eef8aee96fd88f359a"
+    },
+    {
+      "file": "woshimi/method-GameState-setPlaybook.json",
+      "evidence_id": "ev_b8bc48500623d01c6ee8a06d4f5c4b61edebcb7b34bcdac21f0a18cfdd8afb05",
+      "operation": "inspect_android_method",
+      "subject": {
+        "name": "woshimi-3.50.9.apk",
+        "digest": {
+          "sha256": "093a2df17162f9bdce8efefe66993b7e5928b3014d31af771b1fc2e520143f15"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk"
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "file_sha256": "5ce494890c72facf1ea39da4d08bc8480de97457759e2a918cacde008c35c894"
+    },
+    {
+      "file": "woshimi/method-GameStreamService-onCreate.json",
+      "evidence_id": "ev_7284784c6d7ab27116fde7ed623b6aa2eaa3c3360caa3a11467b29f9881dd512",
+      "operation": "inspect_android_method",
+      "subject": {
+        "name": "woshimi-3.50.9.apk",
+        "digest": {
+          "sha256": "093a2df17162f9bdce8efefe66993b7e5928b3014d31af771b1fc2e520143f15"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk"
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "file_sha256": "0b7161bea2a44a6b607c3d1efab540dfc63d59290119f46f34ad4ee75425200d"
+    },
+    {
+      "file": "woshimi/method-GamingActivity-initData.json",
+      "evidence_id": "ev_015b966068d76c03c5bc6cda5e0ec127b5b408b693b9a08d385658b749095abc",
+      "operation": "inspect_android_method",
+      "subject": {
+        "name": "woshimi-3.50.9.apk",
+        "digest": {
+          "sha256": "093a2df17162f9bdce8efefe66993b7e5928b3014d31af771b1fc2e520143f15"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk"
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "file_sha256": "4043fa80dcd1718e87583fa8555a574b0418094f2ead89de22128305067d25db"
+    },
+    {
+      "file": "woshimi/method-GamingActivity-signal.json",
+      "evidence_id": "ev_0298c19cd41811b3b4abae83f167741d2277906bdc85ecf9472428d8dbaca4ec",
+      "operation": "inspect_android_method",
+      "subject": {
+        "name": "woshimi-3.50.9.apk",
+        "digest": {
+          "sha256": "093a2df17162f9bdce8efefe66993b7e5928b3014d31af771b1fc2e520143f15"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk"
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "file_sha256": "e4f8a49805bd4fc88521eccb3e87945a04d973ba3d4c1152db5e6c5056785fc0"
+    },
+    {
+      "file": "woshimi/method-GamingPresenter-getScene.json",
+      "evidence_id": "ev_621ca0655890d9b2d9458a45b51f81b342db49467b734a18a1c4736cf1fc65a5",
+      "operation": "inspect_android_method",
+      "subject": {
+        "name": "woshimi-3.50.9.apk",
+        "digest": {
+          "sha256": "093a2df17162f9bdce8efefe66993b7e5928b3014d31af771b1fc2e520143f15"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk"
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "file_sha256": "f7f4e7f6ac4d2d64d4a812b6c151717f1dcf7a6e330a022e858c6f9792d7ab18"
+    },
+    {
+      "file": "woshimi/method-RoomStub-submitVote.json",
+      "evidence_id": "ev_3f53f3a582e92ce83f9fe720ccc68e9476523c6c9a6182c9d7df1e2efc722c74",
+      "operation": "inspect_android_method",
+      "subject": {
+        "name": "woshimi-3.50.9.apk",
+        "digest": {
+          "sha256": "093a2df17162f9bdce8efefe66993b7e5928b3014d31af771b1fc2e520143f15"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk"
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "file_sha256": "660a86a65fc16fdc1e6da27bb159dadf2007b945c8c1d0435a57cc9cc5285e48"
+    },
+    {
+      "file": "woshimi/method-SocketConnector-startConnected.json",
+      "evidence_id": "ev_d8800c421c18f76e66c37af85a818af2ba048771e1be4c9d73c54db0eb87cdcd",
+      "operation": "inspect_android_method",
+      "subject": {
+        "name": "woshimi-3.50.9.apk",
+        "digest": {
+          "sha256": "093a2df17162f9bdce8efefe66993b7e5928b3014d31af771b1fc2e520143f15"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk"
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "file_sha256": "9b1b817c7cb70ac277438ee0dcd2ec639876010be4d78ab145eca8c21b8d34c7"
+    },
+    {
+      "file": "woshimi/method-StubCreater-getRoomStub.json",
+      "evidence_id": "ev_ce35a062f0632116f0206fced5ac56a4ea0787f068d55fdd714762cec6c1fd4b",
+      "operation": "inspect_android_method",
+      "subject": {
+        "name": "woshimi-3.50.9.apk",
+        "digest": {
+          "sha256": "093a2df17162f9bdce8efefe66993b7e5928b3014d31af771b1fc2e520143f15"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk"
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "file_sha256": "038cf875c02e0955d60da145eab8ce20fa07f97e6947d8917f2f20940d0e26f7"
+    },
+    {
+      "file": "woshimi/method-StubCreater-getRoomStub1.json",
+      "evidence_id": "ev_576f6d56a3275a51f13cd8c91ca80e0250a285cbc8d8bb4e2ab7ae4980af5148",
+      "operation": "inspect_android_method",
+      "subject": {
+        "name": "woshimi-3.50.9.apk",
+        "digest": {
+          "sha256": "093a2df17162f9bdce8efefe66993b7e5928b3014d31af771b1fc2e520143f15"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk"
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "file_sha256": "694fb04404fbf7bcd38897cb1fcfe946dfb17e5bb1530b624ca6a4ea8bc1629a"
+    },
+    {
+      "file": "woshimi/method-VoiceProviderManager-changeVoiceProvider.json",
+      "evidence_id": "ev_b81e8027ec152037312a19dbd03ada58b991edc5bbbd6e24778af10df95ecc1d",
+      "operation": "inspect_android_method",
+      "subject": {
+        "name": "woshimi-3.50.9.apk",
+        "digest": {
+          "sha256": "093a2df17162f9bdce8efefe66993b7e5928b3014d31af771b1fc2e520143f15"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk"
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "file_sha256": "c49bbd650c2b5e4ca115e08b1e92fc449c86f544408fa3ab1a9635592b1172dc"
+    },
+    {
+      "file": "woshimi/method-WsmApplication-onCreate.json",
+      "evidence_id": "ev_ce96d25313db563ce887e20b9876375c900e35ced56367868982112804bb58fc",
+      "operation": "inspect_android_method",
+      "subject": {
+        "name": "woshimi-3.50.9.apk",
+        "digest": {
+          "sha256": "093a2df17162f9bdce8efefe66993b7e5928b3014d31af771b1fc2e520143f15"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk"
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "file_sha256": "49f91e660eab09dea1a5dacbd52d1f34c5f5fec26716790d5425cac280ce68d3"
+    },
+    {
+      "file": "woshimi/method-submitVote-caller.json",
+      "evidence_id": "ev_af8b8ec761ce2a051edd366217fb871aa8131bc35a3de2ab4ae04987ec3bba58",
+      "operation": "inspect_android_method",
+      "subject": {
+        "name": "woshimi-3.50.9.apk",
+        "digest": {
+          "sha256": "093a2df17162f9bdce8efefe66993b7e5928b3014d31af771b1fc2e520143f15"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk"
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "file_sha256": "9272db7cb0cc258024e1a85930bfe39f24c1afebe0e8b48b2d4c2729bf2fa453"
+    },
+    {
+      "file": "woshimi/package-escalated.json",
+      "evidence_id": "ev_36578da8652e269efdfe22bfefd819861a2edd75eab96dc26143ceb2b83d3a50",
+      "operation": "inspect_android_package",
+      "subject": {
+        "name": "woshimi-3.50.9.apk",
+        "digest": {
+          "sha256": "093a2df17162f9bdce8efefe66993b7e5928b3014d31af771b1fc2e520143f15"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk"
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "file_sha256": "1a92a9050769026d4ef907a4c24a2ac93304ea21be529fde059ac5a7c7ebf268"
+    },
+    {
+      "file": "woshimi/trace-submitVote.json",
+      "evidence_id": "ev_e9ac43ff386a1af8df02f43fa07646d0560df8c53535ee0d2071ab947e3d7e62",
+      "operation": "trace_android_references",
+      "subject": {
+        "name": "woshimi-3.50.9.apk",
+        "digest": {
+          "sha256": "093a2df17162f9bdce8efefe66993b7e5928b3014d31af771b1fc2e520143f15"
+        },
+        "format": "apk",
+        "architecture": null,
+        "local_path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk"
+      },
+      "provider": {
+        "id": "jadx",
+        "name": "JADX headless",
+        "version": "0.7.1"
+      },
+      "limitations": [
+        "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+        "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+        "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+        "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+      ],
+      "file_sha256": "5f8e62266f6d3d69db41c283f323f0efcabd6ae48a8e1d1606f563dba64f76f3"
+    }
+  ],
+  "errors": [
+    {
+      "file": "baibian/gaming-class.json",
+      "code": "invalid_request",
+      "message": "Analysis input is invalid. Check the arguments and try again."
+    },
+    {
+      "file": "baibian/package-sandbox-error.json",
+      "code": "capability_unavailable",
+      "message": "Java could not start REA's Android bridge using /opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home/bin/java: macOS process ownership helper compilation failed via xcrun (compiler result: 1): Command failed: /usr/bin/xcrun swiftc /Users/mark/.npm/_npx/9b9809298fe40d2c/node_modules/rea-agents/bridge/process/ProcessRunTokenReader.swift /Users/mark/.npm/_npx/9b9809298fe40d2c/node_modules/rea-agents/bridge/process/ProcessRunTokenReaderMain.swift -o /var/folders/pz/0n5tc4790gjb48q5d64tcwmc0000gn/T/rea-process-token-11V0On/reader\n<unknown>:0: error: unable to open output file '/Users/mark/.cache/clang/ModuleCache/1H92U27Y5N1PO/SwiftShims-3DMJL40ENYFGZ.pcm': 'Operation not permitted'\n/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift/Swift.swiftmodule/arm64e-apple-macos.swiftinterface:5:8: error: could not build Objective-C module 'SwiftShims'\n    3 | // swift-module-flags: -target arm64e-apple-macosx26.5 -target-variant arm64e-apple-ios26.5-macabi -enable-objc-interop -enable-library-evolution -module-link-name swiftCore -parse-stdlib -swift-version 5 -O -library-level api -enforce-exclusivity=unchecked -target-min-inlining-version min -enable-experimental-concise-pound-file -disable-objc-attr-requires-foundation-module -enable-experimental-feature NoncopyableGenerics2 -enable-experimental-feature SuppressedAssociatedTypes -enable-experimental-feature SE427NoInferenceOnExtension -enable-experimental-feature NonescapableTypes -enable-experimental-feature LifetimeDependence -enable-experimental-feature InoutLifetimeDependence -enable-experimental-feature LifetimeDependenceMutableAccessors -enable-experimental-feature MemberImportVisibility -enable-experimental-feature TypedThrows -enable-experimental-feature Macros -enable-experimental-feature FreestandingMacros -enable-experimental-feature BitwiseCopyable -enable-experimental-feature Extern -enable-experimental-feature AllowUnsafeAttribute -enable-experimental-feature ValueGenerics -enable-experimental-feature AddressableParameters -enable-experimental-feature AddressableTypes -user-module-version 6.3.2.1.3 -module-name Swift\n    4 | // swift-module-flags-ignorable: -enable-lexical-lifetimes=false -strict-memory-safety -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.2\n    5 | import SwiftShims\n      |        `- error: could not build Objective-C module 'SwiftShims'\n    6 | @inlinable public func min<T>(_ x: T, _ y: T) -> T where T : Swift.Comparable {\n    7 |    \n\n/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift/Swift.swiftmodule/arm64e-apple-macos.swiftinterface:1:1: error: failed to build module 'Swift'; this SDK is not supported by the compiler (the SDK is built with 'Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.2 clang-2100.0.123.2)', while this compiler is 'Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.108 clang-2100.1.1.101)'). Please select a toolchain which matches the SDK.\n    1 | // swift-interface-format-version: 1.0\n      | `- error: failed to build module 'Swift'; this SDK is not supported by the compiler (the SDK is built with 'Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.2 clang-2100.0.123.2)', while this compiler is 'Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.108 clang-2100.1.1.101)'). Please select a toolchain which matches the SDK.\n    2 | // swift-compiler-version: Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.2 clang-2100.0.123.2)\n    3 | // swift-module-flags: -target arm64e-apple-macosx26.5 -target-variant arm64e-apple-ios26.5-macabi -enable-objc-interop -enable-library-evolution -module-link-name swiftCore -parse-stdlib -swift-version 5 -O -library-level api -enforce-exclusivity=unchecked -target-min-inlining-version min -enable-experimental-concise-pound-file -disable-objc-attr-requires-foundation-module -enable-experimental-feature NoncopyableGenerics2 -enable-experimental-feature SuppressedAssociatedTypes -enable-experimental-feature SE427NoInferenceOnExtension -enable-experimental-feature NonescapableTypes -enable-experimental-feature LifetimeDependence -enable-experimental-feature InoutLifetimeDependence -enable-experimental-feature LifetimeDependenceMutableAccessors -enable-experimental-feature MemberImportVisibility -enable-experimental-feature TypedThrows -enable-experimental-feature Macros -enable-experimental-feature FreestandingMacros -enable-experimental-feature BitwiseCopyable -enable-experimental-feature Extern -enable-experimental-feature AllowUnsafeAttribute -enable-experimental-feature ValueGenerics -enable-experimental-feature AddressableParameters -enable-experimental-feature AddressableTypes -user-module-version 6.3.2.1.3 -module-name Swift\n. Select a full JDK including jdk.compiler via JAVA_HOME, or a working java on PATH; verify it with java --list-modules. A JRE cannot compile REA's source bridge. If the JDK works, verify the REA bridge and configured JADX JAR installation."
+    },
+    {
+      "file": "woshimi/class-GamingPresenter.json",
+      "code": "invalid_request",
+      "message": "Analysis input is invalid. Check the arguments and try again."
+    },
+    {
+      "file": "woshimi/class-RoomStub.json",
+      "code": "invalid_request",
+      "message": "Analysis input is invalid. Check the arguments and try again."
+    },
+    {
+      "file": "woshimi/class-SceneInfo.json",
+      "code": "invalid_request",
+      "message": "Analysis input is invalid. Check the arguments and try again."
+    },
+    {
+      "file": "woshimi/method-GamingPresenter-sceneSuccess.json",
+      "code": "invalid_request",
+      "message": "Analysis input is invalid. Check the arguments and try again."
+    },
+    {
+      "file": "woshimi/package-retry.json",
+      "code": "capability_unavailable",
+      "message": "Java could not start REA's Android bridge using /opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home/bin/java: macOS process ownership helper compilation failed via xcrun (compiler result: 1): Command failed: /usr/bin/xcrun swiftc /Users/mark/.npm/_npx/9b9809298fe40d2c/node_modules/rea-agents/bridge/process/ProcessRunTokenReader.swift /Users/mark/.npm/_npx/9b9809298fe40d2c/node_modules/rea-agents/bridge/process/ProcessRunTokenReaderMain.swift -o /var/folders/pz/0n5tc4790gjb48q5d64tcwmc0000gn/T/rea-process-token-yxGSrg/reader\n<unknown>:0: error: unable to open output file '/Users/mark/.cache/clang/ModuleCache/1H92U27Y5N1PO/SwiftShims-3DMJL40ENYFGZ.pcm': 'Operation not permitted'\n/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift/Swift.swiftmodule/arm64e-apple-macos.swiftinterface:5:8: error: could not build Objective-C module 'SwiftShims'\n    3 | // swift-module-flags: -target arm64e-apple-macosx26.5 -target-variant arm64e-apple-ios26.5-macabi -enable-objc-interop -enable-library-evolution -module-link-name swiftCore -parse-stdlib -swift-version 5 -O -library-level api -enforce-exclusivity=unchecked -target-min-inlining-version min -enable-experimental-concise-pound-file -disable-objc-attr-requires-foundation-module -enable-experimental-feature NoncopyableGenerics2 -enable-experimental-feature SuppressedAssociatedTypes -enable-experimental-feature SE427NoInferenceOnExtension -enable-experimental-feature NonescapableTypes -enable-experimental-feature LifetimeDependence -enable-experimental-feature InoutLifetimeDependence -enable-experimental-feature LifetimeDependenceMutableAccessors -enable-experimental-feature MemberImportVisibility -enable-experimental-feature TypedThrows -enable-experimental-feature Macros -enable-experimental-feature FreestandingMacros -enable-experimental-feature BitwiseCopyable -enable-experimental-feature Extern -enable-experimental-feature AllowUnsafeAttribute -enable-experimental-feature ValueGenerics -enable-experimental-feature AddressableParameters -enable-experimental-feature AddressableTypes -user-module-version 6.3.2.1.3 -module-name Swift\n    4 | // swift-module-flags-ignorable: -enable-lexical-lifetimes=false -strict-memory-safety -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.2\n    5 | import SwiftShims\n      |        `- error: could not build Objective-C module 'SwiftShims'\n    6 | @inlinable public func min<T>(_ x: T, _ y: T) -> T where T : Swift.Comparable {\n    7 |    \n\n/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift/Swift.swiftmodule/arm64e-apple-macos.swiftinterface:1:1: error: failed to build module 'Swift'; this SDK is not supported by the compiler (the SDK is built with 'Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.2 clang-2100.0.123.2)', while this compiler is 'Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.108 clang-2100.1.1.101)'). Please select a toolchain which matches the SDK.\n    1 | // swift-interface-format-version: 1.0\n      | `- error: failed to build module 'Swift'; this SDK is not supported by the compiler (the SDK is built with 'Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.2 clang-2100.0.123.2)', while this compiler is 'Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.108 clang-2100.1.1.101)'). Please select a toolchain which matches the SDK.\n    2 | // swift-compiler-version: Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.2 clang-2100.0.123.2)\n    3 | // swift-module-flags: -target arm64e-apple-macosx26.5 -target-variant arm64e-apple-ios26.5-macabi -enable-objc-interop -enable-library-evolution -module-link-name swiftCore -parse-stdlib -swift-version 5 -O -library-level api -enforce-exclusivity=unchecked -target-min-inlining-version min -enable-experimental-concise-pound-file -disable-objc-attr-requires-foundation-module -enable-experimental-feature NoncopyableGenerics2 -enable-experimental-feature SuppressedAssociatedTypes -enable-experimental-feature SE427NoInferenceOnExtension -enable-experimental-feature NonescapableTypes -enable-experimental-feature LifetimeDependence -enable-experimental-feature InoutLifetimeDependence -enable-experimental-feature LifetimeDependenceMutableAccessors -enable-experimental-feature MemberImportVisibility -enable-experimental-feature TypedThrows -enable-experimental-feature Macros -enable-experimental-feature FreestandingMacros -enable-experimental-feature BitwiseCopyable -enable-experimental-feature Extern -enable-experimental-feature AllowUnsafeAttribute -enable-experimental-feature ValueGenerics -enable-experimental-feature AddressableParameters -enable-experimental-feature AddressableTypes -user-module-version 6.3.2.1.3 -module-name Swift\n. Select a full JDK including jdk.compiler via JAVA_HOME, or a working java on PATH; verify it with java --list-modules. A JRE cannot compile REA's source bridge. If the JDK works, verify the REA bridge and configured JADX JAR installation."
+    },
+    {
+      "file": "woshimi/package.json",
+      "code": "capability_unavailable",
+      "message": "Java could not start REA's Android bridge using /opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home/bin/java: macOS process ownership helper compilation failed via xcrun (compiler result: 1): Command failed: /usr/bin/xcrun swiftc /Users/mark/.npm/_npx/9b9809298fe40d2c/node_modules/rea-agents/bridge/process/ProcessRunTokenReader.swift /Users/mark/.npm/_npx/9b9809298fe40d2c/node_modules/rea-agents/bridge/process/ProcessRunTokenReaderMain.swift -o /var/folders/pz/0n5tc4790gjb48q5d64tcwmc0000gn/T/rea-process-token-X7fmmM/reader\n<unknown>:0: error: unable to open output file '/Users/mark/.cache/clang/ModuleCache/1H92U27Y5N1PO/SwiftShims-3DMJL40ENYFGZ.pcm': 'Operation not permitted'\n/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift/Swift.swiftmodule/arm64e-apple-macos.swiftinterface:5:8: error: could not build Objective-C module 'SwiftShims'\n    3 | // swift-module-flags: -target arm64e-apple-macosx26.5 -target-variant arm64e-apple-ios26.5-macabi -enable-objc-interop -enable-library-evolution -module-link-name swiftCore -parse-stdlib -swift-version 5 -O -library-level api -enforce-exclusivity=unchecked -target-min-inlining-version min -enable-experimental-concise-pound-file -disable-objc-attr-requires-foundation-module -enable-experimental-feature NoncopyableGenerics2 -enable-experimental-feature SuppressedAssociatedTypes -enable-experimental-feature SE427NoInferenceOnExtension -enable-experimental-feature NonescapableTypes -enable-experimental-feature LifetimeDependence -enable-experimental-feature InoutLifetimeDependence -enable-experimental-feature LifetimeDependenceMutableAccessors -enable-experimental-feature MemberImportVisibility -enable-experimental-feature TypedThrows -enable-experimental-feature Macros -enable-experimental-feature FreestandingMacros -enable-experimental-feature BitwiseCopyable -enable-experimental-feature Extern -enable-experimental-feature AllowUnsafeAttribute -enable-experimental-feature ValueGenerics -enable-experimental-feature AddressableParameters -enable-experimental-feature AddressableTypes -user-module-version 6.3.2.1.3 -module-name Swift\n    4 | // swift-module-flags-ignorable: -enable-lexical-lifetimes=false -strict-memory-safety -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.2\n    5 | import SwiftShims\n      |        `- error: could not build Objective-C module 'SwiftShims'\n    6 | @inlinable public func min<T>(_ x: T, _ y: T) -> T where T : Swift.Comparable {\n    7 |    \n\n/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift/Swift.swiftmodule/arm64e-apple-macos.swiftinterface:1:1: error: failed to build module 'Swift'; this SDK is not supported by the compiler (the SDK is built with 'Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.2 clang-2100.0.123.2)', while this compiler is 'Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.108 clang-2100.1.1.101)'). Please select a toolchain which matches the SDK.\n    1 | // swift-interface-format-version: 1.0\n      | `- error: failed to build module 'Swift'; this SDK is not supported by the compiler (the SDK is built with 'Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.2 clang-2100.0.123.2)', while this compiler is 'Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.108 clang-2100.1.1.101)'). Please select a toolchain which matches the SDK.\n    2 | // swift-compiler-version: Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.2 clang-2100.0.123.2)\n    3 | // swift-module-flags: -target arm64e-apple-macosx26.5 -target-variant arm64e-apple-ios26.5-macabi -enable-objc-interop -enable-library-evolution -module-link-name swiftCore -parse-stdlib -swift-version 5 -O -library-level api -enforce-exclusivity=unchecked -target-min-inlining-version min -enable-experimental-concise-pound-file -disable-objc-attr-requires-foundation-module -enable-experimental-feature NoncopyableGenerics2 -enable-experimental-feature SuppressedAssociatedTypes -enable-experimental-feature SE427NoInferenceOnExtension -enable-experimental-feature NonescapableTypes -enable-experimental-feature LifetimeDependence -enable-experimental-feature InoutLifetimeDependence -enable-experimental-feature LifetimeDependenceMutableAccessors -enable-experimental-feature MemberImportVisibility -enable-experimental-feature TypedThrows -enable-experimental-feature Macros -enable-experimental-feature FreestandingMacros -enable-experimental-feature BitwiseCopyable -enable-experimental-feature Extern -enable-experimental-feature AllowUnsafeAttribute -enable-experimental-feature ValueGenerics -enable-experimental-feature AddressableParameters -enable-experimental-feature AddressableTypes -user-module-version 6.3.2.1.3 -module-name Swift\n. Select a full JDK including jdk.compiler via JAVA_HOME, or a working java on PATH; verify it with java --list-modules. A JRE cannot compile REA's source bridge. If the JDK works, verify the REA bridge and configured JADX JAR installation."
+    },
+    {
+      "file": "woshimi/search-Room.json",
+      "code": "unreadable_output",
+      "message": "Analysis returned an unreadable result. Retry once; if it continues, run `rea doctor`."
+    }
+  ]
+}

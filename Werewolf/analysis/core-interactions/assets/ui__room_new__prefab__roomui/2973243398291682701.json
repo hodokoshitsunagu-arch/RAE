@@ -1,0 +1,44 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4381208100682275364
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5573355287842704673
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1578814935789394978
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1150904655937295568
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -274280203678857313
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1705613773315367334
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Invitation",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

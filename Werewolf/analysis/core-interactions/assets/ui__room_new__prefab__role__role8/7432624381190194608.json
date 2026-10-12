@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3458419637971471889
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4365253634591039316
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5920195463714470686
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "headdecoration",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

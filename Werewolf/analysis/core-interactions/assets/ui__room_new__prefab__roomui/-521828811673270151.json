@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1730108656197707600
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6327943645573436699
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6336726936336740502
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4772798932375973884
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "raycast",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5642779087591076119
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1341036587773266560
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1760661085052322655
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8583715514036861321
+      }
+    }
+  ],
+  "m_Layer": 0,
+  "m_Name": "button_play_speech_you_holdtospeak2",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

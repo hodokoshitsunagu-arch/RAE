@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6003555509799916113
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2124402547916800275
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6858829829792791246
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2590216710861875211
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "common_frame_selected01",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

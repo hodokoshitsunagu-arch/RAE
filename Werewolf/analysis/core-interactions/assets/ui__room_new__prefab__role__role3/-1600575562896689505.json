@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2451437312321948284
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6096200755395354908
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1851054926663282689
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "frame_head_questionmark_01",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

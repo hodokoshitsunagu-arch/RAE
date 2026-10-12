@@ -1,0 +1,56 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 872984237979350745
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -9163077780120499582
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1437615320030000720
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2837968889480917502
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5432734739258124215
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4379571699482410609
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4637722029930570794
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -9092141221469492179
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "speak",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

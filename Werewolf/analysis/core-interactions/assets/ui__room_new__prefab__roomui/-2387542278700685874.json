@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3697169228833380413
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5823758257921854226
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 9168024466761567630
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3913177076488741653
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7277424624500524786
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "common_prompt_bg",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

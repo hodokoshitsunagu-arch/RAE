@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 9003165640045604238
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6116689395431664593
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1087501929323538646
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4257840284761946338
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6723924775512283140
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "EmojiTextShow",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

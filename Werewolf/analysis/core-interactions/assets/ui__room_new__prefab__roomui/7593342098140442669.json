@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -385147161778142800
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -300860034527804223
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5073440896316609676
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "AI_test_panel",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

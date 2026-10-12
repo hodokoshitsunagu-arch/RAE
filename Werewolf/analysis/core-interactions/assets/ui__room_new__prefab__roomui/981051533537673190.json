@@ -1,0 +1,44 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6708987544048863300
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5801010487022952801
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6410750261898639505
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2137977806750725800
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5438639121667631636
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5057785934212714680
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Tips_werewolf",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

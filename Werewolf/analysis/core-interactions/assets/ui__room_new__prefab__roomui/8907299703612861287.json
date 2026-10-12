@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -883107493610912497
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3039292905728787329
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1179006015604404461
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Dialogbox",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

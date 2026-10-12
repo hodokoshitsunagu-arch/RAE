@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 110058272333247986
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5814751286022920660
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6471173326045216056
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6194788354976665896
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7412741271106156570
+      }
+    }
+  ],
+  "m_Layer": 0,
+  "m_Name": "Vote_room_tittle",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

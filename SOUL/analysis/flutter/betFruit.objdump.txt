@@ -1,0 +1,75 @@
+
+SOUL/analysis/flutter/libapp.so:	file format elf64-littleaarch64
+
+Disassembly of section .text:
+
+0000000000276b40 <_kDartIsolateSnapshotInstructions>:
+  41e31c: a9bf79fd     	stp	x29, x30, [x15, #-0x10]!
+  41e320: aa0f03fd     	mov	x29, x15
+  41e324: d100e1ef     	sub	x15, x15, #0x38
+  41e328: f81f83a1     	stur	x1, [x29, #-0x8]
+  41e32c: f81f03a2     	stur	x2, [x29, #-0x10]
+  41e330: f81e83a3     	stur	x3, [x29, #-0x18]
+  41e334: f81e03a5     	stur	x5, [x29, #-0x20]
+  41e338: f9401f50     	ldr	x16, [x26, #0x38]
+  41e33c: eb1001ff     	cmp	x15, x16
+  41e340: 54000749     	b.ls	0x41e428 <_kDartIsolateSnapshotInstructions+0x1a78e8>
+  41e344: d2800041     	mov	x1, #0x2                // =2
+  41e348: 94080152     	bl	0x61e890 <_kDartIsolateSnapshotInstructions+0x3a7d50>
+  41e34c: aa0003e3     	mov	x3, x0
+  41e350: f85e83a0     	ldur	x0, [x29, #-0x18]
+  41e354: f81d83a3     	stur	x3, [x29, #-0x28]
+  41e358: b800f060     	stur	w0, [x3, #0xf]
+  41e35c: f85e03a0     	ldur	x0, [x29, #-0x20]
+  41e360: b8013060     	stur	w0, [x3, #0x13]
+  41e364: aa1603e1     	mov	x1, x22
+  41e368: d2800102     	mov	x2, #0x8                // =8
+  41e36c: 9408056d     	bl	0x61f920 <_kDartIsolateSnapshotInstructions+0x3a8de0>
+  41e370: aa0003e2     	mov	x2, x0
+  41e374: 91404370     	add	x16, x27, #0x10, lsl #12 // =0x10000
+  41e378: f945ce10     	ldr	x16, [x16, #0xb98]
+  41e37c: b800f050     	stur	w16, [x2, #0xf]
+  41e380: f85f83a3     	ldur	x3, [x29, #-0x8]
+  41e384: 937f7860     	sbfiz	x0, x3, #1, #31
+  41e388: eb80047f     	cmp	x3, x0, asr #1
+  41e38c: 54000060     	b.eq	0x41e398 <_kDartIsolateSnapshotInstructions+0x1a7858>
+  41e390: 94080606     	bl	0x61fba8 <_kDartIsolateSnapshotInstructions+0x3a9068>
+  41e394: f8007003     	stur	x3, [x0, #0x7]
+  41e398: b8013040     	stur	w0, [x2, #0x13]
+  41e39c: 91404370     	add	x16, x27, #0x10, lsl #12 // =0x10000
+  41e3a0: f945ca10     	ldr	x16, [x16, #0xb90]
+  41e3a4: b8017050     	stur	w16, [x2, #0x17]
+  41e3a8: f85f03a3     	ldur	x3, [x29, #-0x10]
+  41e3ac: 937f7860     	sbfiz	x0, x3, #1, #31
+  41e3b0: eb80047f     	cmp	x3, x0, asr #1
+  41e3b4: 54000060     	b.eq	0x41e3c0 <_kDartIsolateSnapshotInstructions+0x1a7880>
+  41e3b8: 940805fc     	bl	0x61fba8 <_kDartIsolateSnapshotInstructions+0x3a9068>
+  41e3bc: f8007003     	stur	x3, [x0, #0x7]
+  41e3c0: b801b040     	stur	w0, [x2, #0x1b]
+  41e3c4: f945fb70     	ldr	x16, [x27, #0xbf0]
+  41e3c8: a90041e2     	stp	x2, x16, [x15]
+  41e3cc: 97f9773f     	bl	0x27c0c8 <_kDartIsolateSnapshotInstructions+0x5588>
+  41e3d0: f85d83a2     	ldur	x2, [x29, #-0x28]
+  41e3d4: 91405761     	add	x1, x27, #0x15, lsl #12 // =0x15000
+  41e3d8: f9414c21     	ldr	x1, [x1, #0x298]
+  41e3dc: f81e83a0     	stur	x0, [x29, #-0x18]
+  41e3e0: 9408021d     	bl	0x61ec54 <_kDartIsolateSnapshotInstructions+0x3a8114>
+  41e3e4: f85d83a2     	ldur	x2, [x29, #-0x28]
+  41e3e8: 91405761     	add	x1, x27, #0x15, lsl #12 // =0x15000
+  41e3ec: f9415021     	ldr	x1, [x1, #0x2a0]
+  41e3f0: f81e03a0     	stur	x0, [x29, #-0x20]
+  41e3f4: 94080218     	bl	0x61ec54 <_kDartIsolateSnapshotInstructions+0x3a8114>
+  41e3f8: f90001e0     	str	x0, [x15]
+  41e3fc: f85e83a2     	ldur	x2, [x29, #-0x18]
+  41e400: f85e03a3     	ldur	x3, [x29, #-0x20]
+  41e404: 91405761     	add	x1, x27, #0x15, lsl #12 // =0x15000
+  41e408: f9415421     	ldr	x1, [x1, #0x2a8]
+  41e40c: 91404364     	add	x4, x27, #0x10, lsl #12 // =0x10000
+  41e410: f945e084     	ldr	x4, [x4, #0xbc0]
+  41e414: 94000007     	bl	0x41e430 <_kDartIsolateSnapshotInstructions+0x1a78f0>
+  41e418: aa1603e0     	mov	x0, x22
+  41e41c: aa1d03ef     	mov	x15, x29
+  41e420: a8c179fd     	ldp	x29, x30, [x15], #0x10
+  41e424: d65f03c0     	ret
+  41e428: 94080580     	bl	0x61fa28 <_kDartIsolateSnapshotInstructions+0x3a8ee8>
+  41e42c: 17ffffc6     	b	0x41e344 <_kDartIsolateSnapshotInstructions+0x1a7804>

@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6372558161115573486
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1595791226701770162
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4185176469220880767
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "particle_Anim_roleskill_08_hunter_01_confirm_01",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

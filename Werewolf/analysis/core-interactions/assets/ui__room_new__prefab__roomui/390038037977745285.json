@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5394422069065440467
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4312832248056351252
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3991041487397188888
+      }
+    }
+  ],
+  "m_Layer": 0,
+  "m_Name": "Emoti_Button",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

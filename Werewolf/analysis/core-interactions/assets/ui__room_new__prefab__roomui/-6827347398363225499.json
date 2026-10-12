@@ -1,0 +1,62 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4032984798216328020
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4389688161699305226
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7804452830023508561
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6354082944878064469
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8557540153357901019
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6258339218217590315
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8080464213948479183
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8917640700316718778
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7774960415189434062
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "ReadyBtn",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

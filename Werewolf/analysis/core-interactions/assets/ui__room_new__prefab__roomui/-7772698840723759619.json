@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6946051578870237796
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5948790534283920859
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3792009128022078790
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6484328086886116110
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "RoomInfo",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

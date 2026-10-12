@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8796056794080360734
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1964538015861529361
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8030439944356895250
+      }
+    }
+  ],
+  "m_Layer": 0,
+  "m_Name": "tag_play_vote_frame_Campaign_01",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

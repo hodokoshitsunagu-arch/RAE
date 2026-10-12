@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4126091872422482334
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8845582787019187084
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6242907442196571086
+      }
+    }
+  ],
+  "m_Layer": 0,
+  "m_Name": "confirmNode",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

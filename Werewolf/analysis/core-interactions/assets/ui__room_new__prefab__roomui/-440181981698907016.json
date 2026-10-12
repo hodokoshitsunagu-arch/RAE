@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 652870782875979135
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5429993965035382143
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7072821136664417809
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5767562882843697046
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "anim_mask",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

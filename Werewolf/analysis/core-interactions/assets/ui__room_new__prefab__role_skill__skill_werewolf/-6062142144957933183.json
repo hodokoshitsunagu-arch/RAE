@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -613310203898671990
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6646719151632049441
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5764799150116750450
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6103758073721948971
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7236590635287613325
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Anim_roleskill_all",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

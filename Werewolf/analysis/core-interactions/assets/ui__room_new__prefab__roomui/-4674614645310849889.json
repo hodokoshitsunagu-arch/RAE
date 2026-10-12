@@ -1,0 +1,49 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4116067079111851003
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7802755607570700153
+  },
+  "m_Name": "",
+  "bindDic": {
+    "m_keys": [
+      "copyView",
+      "copyContent",
+      "copyMaskBtn",
+      "copyBtn",
+      "reportBtn"
+    ],
+    "m_values": [
+      {
+        "m_FileID": 0,
+        "m_PathID": -4357447969236008357
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 5251769414035819367
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 5886708735342089812
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 8092848065751021284
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 3345270759188309238
+      }
+    ]
+  },
+  "animationEventList": [
+    {
+      "m_FileID": 0,
+      "m_PathID": -8564011152571743924
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5698865370405003783
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7356026821005435869
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4440862509103152708
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2262051441763966714
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4760809281997831799
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7043800078904969857
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "tipBtn",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

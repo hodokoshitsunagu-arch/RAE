@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8951296130609828593
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8017472924995710176
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6880522779520128295
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6390349088165225442
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5203795446306599724
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "roomExposure",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1323509602668975580
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5484818271748085999
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 9031425364167692758
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6678404984687555870
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8576911258206596747
+      }
+    }
+  ],
+  "m_Layer": 0,
+  "m_Name": "Emoticon_icon_first",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

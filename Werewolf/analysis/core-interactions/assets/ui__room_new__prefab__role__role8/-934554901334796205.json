@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3824932160041577211
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 25549433746792614
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4842182582580850529
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "HeadParticle",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

@@ -1,0 +1,481 @@
+{
+  "metadata_version": 31,
+  "image_count": 118,
+  "type_count": 22957,
+  "method_count": 192655,
+  "field_count": 102249,
+  "images": [
+    {
+      "name": "mscorlib.dll",
+      "type_count": 2944
+    },
+    {
+      "name": "com.Tivadar.Best.HTTP.dll",
+      "type_count": 2511
+    },
+    {
+      "name": "System.Xml.dll",
+      "type_count": 1399
+    },
+    {
+      "name": "System.dll",
+      "type_count": 1898
+    },
+    {
+      "name": "UnityEngine.CoreModule.dll",
+      "type_count": 1130
+    },
+    {
+      "name": "System.Core.dll",
+      "type_count": 1265
+    },
+    {
+      "name": "Unity.InputSystem.dll",
+      "type_count": 632
+    },
+    {
+      "name": "UnityEngine.UIElementsModule.dll",
+      "type_count": 785
+    },
+    {
+      "name": "Unity.Mathematics.dll",
+      "type_count": 99
+    },
+    {
+      "name": "Newtonsoft.Json.dll",
+      "type_count": 496
+    },
+    {
+      "name": "RootMotion.dll",
+      "type_count": 463
+    },
+    {
+      "name": "System.Data.dll",
+      "type_count": 241
+    },
+    {
+      "name": "Unity.RenderPipelines.Universal.Runtime.dll",
+      "type_count": 486
+    },
+    {
+      "name": "Unity.VisualScripting.Core.dll",
+      "type_count": 551
+    },
+    {
+      "name": "MsgPack.dll",
+      "type_count": 747
+    },
+    {
+      "name": "Grpc.Core.dll",
+      "type_count": 296
+    },
+    {
+      "name": "Tools.dll",
+      "type_count": 550
+    },
+    {
+      "name": "Google.Protobuf.dll",
+      "type_count": 316
+    },
+    {
+      "name": "Unity.TextMeshPro.dll",
+      "type_count": 173
+    },
+    {
+      "name": "Unity.Collections.dll",
+      "type_count": 346
+    },
+    {
+      "name": "MagicaClothV2.dll",
+      "type_count": 329
+    },
+    {
+      "name": "Unity.RenderPipelines.Core.Runtime.dll",
+      "type_count": 411
+    },
+    {
+      "name": "Unity.Netcode.Runtime.dll",
+      "type_count": 264
+    },
+    {
+      "name": "Unity.Burst.dll",
+      "type_count": 89
+    },
+    {
+      "name": "Cinemachine.dll",
+      "type_count": 241
+    },
+    {
+      "name": "UnityEngine.UI.dll",
+      "type_count": 204
+    },
+    {
+      "name": "websocket-sharp.dll",
+      "type_count": 122
+    },
+    {
+      "name": "Micosmo.SensorToolkit.dll",
+      "type_count": 226
+    },
+    {
+      "name": "spine-csharp.dll",
+      "type_count": 119
+    },
+    {
+      "name": "QFramework.CoreKit.dll",
+      "type_count": 416
+    },
+    {
+      "name": "DOTween.dll",
+      "type_count": 201
+    },
+    {
+      "name": "UnityEngine.TextCoreTextEngineModule.dll",
+      "type_count": 59
+    },
+    {
+      "name": "spine-unity.dll",
+      "type_count": 126
+    },
+    {
+      "name": "UnityEngine.IMGUIModule.dll",
+      "type_count": 67
+    },
+    {
+      "name": "UnityEngine.AnimationModule.dll",
+      "type_count": 108
+    },
+    {
+      "name": "Unity.Networking.Transport.dll",
+      "type_count": 204
+    },
+    {
+      "name": "Unity.Postprocessing.Runtime.dll",
+      "type_count": 141
+    },
+    {
+      "name": "UnityEngine.ParticleSystemModule.dll",
+      "type_count": 109
+    },
+    {
+      "name": "Mono.Security.dll",
+      "type_count": 119
+    },
+    {
+      "name": "UnityEngine.Physics2DModule.dll",
+      "type_count": 61
+    },
+    {
+      "name": "Unity.Timeline.dll",
+      "type_count": 121
+    },
+    {
+      "name": "Assembly-CSharp.dll",
+      "type_count": 143
+    },
+    {
+      "name": "UnityEngine.PhysicsModule.dll",
+      "type_count": 60
+    },
+    {
+      "name": "Unity.ResourceManager.dll",
+      "type_count": 97
+    },
+    {
+      "name": "Unity.Addressables.dll",
+      "type_count": 84
+    },
+    {
+      "name": "UnityEngine.dll",
+      "type_count": 1
+    },
+    {
+      "name": "GlodDragonDll.dll",
+      "type_count": 83
+    },
+    {
+      "name": "UnityEngine.AndroidJNIModule.dll",
+      "type_count": 33
+    },
+    {
+      "name": "IngameDebugConsole.Runtime.dll",
+      "type_count": 23
+    },
+    {
+      "name": "Unity.2D.Animation.Runtime.dll",
+      "type_count": 65
+    },
+    {
+      "name": "Proyecto26.dll",
+      "type_count": 89
+    },
+    {
+      "name": "Unity.Netcode.Components.dll",
+      "type_count": 29
+    },
+    {
+      "name": "UnityEngine.AudioModule.dll",
+      "type_count": 51
+    },
+    {
+      "name": "com.Tivadar.Best.WebSockets.dll",
+      "type_count": 24
+    },
+    {
+      "name": "System.Drawing.dll",
+      "type_count": 11
+    },
+    {
+      "name": "UnityEngine.UnityWebRequestModule.dll",
+      "type_count": 20
+    },
+    {
+      "name": "Unity.Multiplayer.Tools.NetStats.dll",
+      "type_count": 67
+    },
+    {
+      "name": "DOTween.Modules.dll",
+      "type_count": 92
+    },
+    {
+      "name": "Grpc.Core.Api.dll",
+      "type_count": 82
+    },
+    {
+      "name": "unity.webp.dll",
+      "type_count": 90
+    },
+    {
+      "name": "UIKit.dll",
+      "type_count": 68
+    },
+    {
+      "name": "LoopScrollRect.Runtime.dll",
+      "type_count": 19
+    },
+    {
+      "name": "System.Numerics.dll",
+      "type_count": 13
+    },
+    {
+      "name": "JellySprites.dll",
+      "type_count": 13
+    },
+    {
+      "name": "System.Xml.Linq.dll",
+      "type_count": 38
+    },
+    {
+      "name": "PathologicalGames.dll",
+      "type_count": 21
+    },
+    {
+      "name": "UnityEngine.UIElementsNativeModule.dll",
+      "type_count": 32
+    },
+    {
+      "name": "UnityEngine.TextRenderingModule.dll",
+      "type_count": 17
+    },
+    {
+      "name": "UnityEngine.InputLegacyModule.dll",
+      "type_count": 19
+    },
+    {
+      "name": "UnityEngine.UNETModule.dll",
+      "type_count": 10
+    },
+    {
+      "name": "UnityEngine.TextCoreFontEngineModule.dll",
+      "type_count": 18
+    },
+    {
+      "name": "UnityEngine.UIModule.dll",
+      "type_count": 11
+    },
+    {
+      "name": "UnityEngine.XRModule.dll",
+      "type_count": 35
+    },
+    {
+      "name": "UnityEngine.AssetBundleModule.dll",
+      "type_count": 12
+    },
+    {
+      "name": "MonopolyLoca.dll",
+      "type_count": 9
+    },
+    {
+      "name": "UnityEngine.UnityWebRequestWWWModule.dll",
+      "type_count": 4
+    },
+    {
+      "name": "System.IO.Compression.dll",
+      "type_count": 15
+    },
+    {
+      "name": "UnityEngine.TerrainModule.dll",
+      "type_count": 16
+    },
+    {
+      "name": "QFramework.dll",
+      "type_count": 59
+    },
+    {
+      "name": "UnityEngine.SharedInternalsModule.dll",
+      "type_count": 29
+    },
+    {
+      "name": "UnityEngine.TilemapModule.dll",
+      "type_count": 12
+    },
+    {
+      "name": "Unity.Multiplayer.Tools.MetricTypes.dll",
+      "type_count": 27
+    },
+    {
+      "name": "Unity.Multiplayer.Tools.Common.dll",
+      "type_count": 14
+    },
+    {
+      "name": "GoldDragonLocal.dll",
+      "type_count": 9
+    },
+    {
+      "name": "UnityEngine.VFXModule.dll",
+      "type_count": 11
+    },
+    {
+      "name": "UnityEngine.SubsystemsModule.dll",
+      "type_count": 15
+    },
+    {
+      "name": "UnityEngine.AIModule.dll",
+      "type_count": 8
+    },
+    {
+      "name": "UnityEngine.DirectorModule.dll",
+      "type_count": 2
+    },
+    {
+      "name": "UnityEngine.ImageConversionModule.dll",
+      "type_count": 2
+    },
+    {
+      "name": "UnityEngine.VideoModule.dll",
+      "type_count": 15
+    },
+    {
+      "name": "UnityEngine.UnityAnalyticsModule.dll",
+      "type_count": 11
+    },
+    {
+      "name": "UnityEngine.InputModule.dll",
+      "type_count": 7
+    },
+    {
+      "name": "UnityEngine.VRModule.dll",
+      "type_count": 4
+    },
+    {
+      "name": "UnityEngine.UnityWebRequestAssetBundleModule.dll",
+      "type_count": 3
+    },
+    {
+      "name": "UnityEngine.TLSModule.dll",
+      "type_count": 7
+    },
+    {
+      "name": "UnityEngine.JSONSerializeModule.dll",
+      "type_count": 2
+    },
+    {
+      "name": "UnityEngine.UnityWebRequestTextureModule.dll",
+      "type_count": 3
+    },
+    {
+      "name": "Unity.Multiplayer.Tools.NetStatsReporting.dll",
+      "type_count": 8
+    },
+    {
+      "name": "Unity.Multiplayer.Tools.NetworkProfiler.Runtime.dll",
+      "type_count": 15
+    },
+    {
+      "name": "UnityEngine.GridModule.dll",
+      "type_count": 3
+    },
+    {
+      "name": "UnityEngine.ClothModule.dll",
+      "type_count": 5
+    },
+    {
+      "name": "UnityEngine.UnityWebRequestAudioModule.dll",
+      "type_count": 2
+    },
+    {
+      "name": "UnityEngine.SpriteShapeModule.dll",
+      "type_count": 2
+    },
+    {
+      "name": "HT.SpecialEffects.dll",
+      "type_count": 14
+    },
+    {
+      "name": "Joysticks.dll",
+      "type_count": 8
+    },
+    {
+      "name": "Unity.Profiling.Core.dll",
+      "type_count": 13
+    },
+    {
+      "name": "System.Configuration.dll",
+      "type_count": 16
+    },
+    {
+      "name": "Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+      "type_count": 15
+    },
+    {
+      "name": "Nobi.UiRoundedCorners.dll",
+      "type_count": 4
+    },
+    {
+      "name": "System.Runtime.Serialization.dll",
+      "type_count": 5
+    },
+    {
+      "name": "Unity.Burst.Unsafe.dll",
+      "type_count": 4
+    },
+    {
+      "name": "System.Runtime.CompilerServices.Unsafe.dll",
+      "type_count": 3
+    },
+    {
+      "name": "Unity.InternalAPIEngineBridge.001.dll",
+      "type_count": 2
+    },
+    {
+      "name": "HybridCLR.Runtime.dll",
+      "type_count": 6
+    },
+    {
+      "name": "Unity.Multiplayer.Tools.NetworkSolutionInterface.dll",
+      "type_count": 5
+    },
+    {
+      "name": "Unity.InputSystem.ForUI.dll",
+      "type_count": 1
+    },
+    {
+      "name": "Unity.Collections.LowLevel.ILSupport.dll",
+      "type_count": 4
+    },
+    {
+      "name": "__Generated",
+      "type_count": 3
+    }
+  ]
+}

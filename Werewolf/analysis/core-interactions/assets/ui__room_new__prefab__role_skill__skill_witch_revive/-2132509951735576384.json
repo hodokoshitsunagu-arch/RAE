@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8575615290664572308
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8256795453813305017
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 254223359900096463
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7527486731033447932
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "debris_06",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

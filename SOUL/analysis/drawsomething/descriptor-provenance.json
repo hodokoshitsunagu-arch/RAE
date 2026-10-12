@@ -1,0 +1,22 @@
+{
+  "apk_sha256": "6c29aadc46a6327d4ed8e595c9c387a1860b43638a5299c6b52c0d2d3f1b4758",
+  "dex_sha256": "6fc0a5913fcffa8756645582307052846f7115bab72dfd44922b80b0ecebf703",
+  "descriptor_sha256": "957a244de1ffff3706608be72159929ee319b3cced48d5fd22d2fbee7deebe2c",
+  "dex_member": "classes8.dex",
+  "string_index": 352,
+  "string_data_offset": 3909235,
+  "string_payload_offset": 3909237,
+  "string_payload_end": 3913270,
+  "descriptor_bytes": 3995,
+  "references": [
+    {
+      "class": "Lep/a;",
+      "method": "<clinit>",
+      "code_offset": 2967916,
+      "pc": 0,
+      "file_offset": 2967932,
+      "kind": "const-string",
+      "index": 352
+    }
+  ]
+}

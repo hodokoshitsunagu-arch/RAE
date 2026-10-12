@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1911364009790007499
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6685502177440795725
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6819798009950720093
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6107082785447284940
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "HeadMask",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

@@ -1,0 +1,39 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -4937777008865590512
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7802755607570700153
+  },
+  "m_Name": "",
+  "bindDic": {
+    "m_keys": [
+      "headNode",
+      "anim",
+      "rootNode"
+    ],
+    "m_values": [
+      {
+        "m_FileID": 0,
+        "m_PathID": -6180685467862250645
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 6095860691460610845
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 1800780265039560842
+      }
+    ]
+  },
+  "animationEventList": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 37106574401907039
+    }
+  ]
+}

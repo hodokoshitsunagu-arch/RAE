@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1104694147286829395
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6872227236162709192
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2595919620631826605
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "S3",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

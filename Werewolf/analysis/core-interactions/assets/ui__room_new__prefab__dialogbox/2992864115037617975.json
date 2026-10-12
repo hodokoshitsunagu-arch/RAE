@@ -1,0 +1,64 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 2993700908888325037
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7802755607570700153
+  },
+  "m_Name": "",
+  "bindDic": {
+    "m_keys": [
+      "title",
+      "content",
+      "defaultHead",
+      "headNode",
+      "confirmBtn",
+      "closeBtn",
+      "voteNum",
+      "voteDecs",
+      "bottomNode"
+    ],
+    "m_values": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 3171815672733279016
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 2135044632330312652
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 322482235627610123
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 1239586567122284401
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 2296271659401474767
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -4814550110708744906
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 3210977653733248730
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 1227017755955212154
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -457383410601080264
+      }
+    ]
+  },
+  "animationEventList": []
+}

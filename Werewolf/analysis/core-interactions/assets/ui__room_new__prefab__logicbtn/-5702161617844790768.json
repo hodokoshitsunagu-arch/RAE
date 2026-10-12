@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5122064541911448343
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8779214314216798533
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6216306799057355773
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8369835757597905453
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5550935400752470546
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "tipbg",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

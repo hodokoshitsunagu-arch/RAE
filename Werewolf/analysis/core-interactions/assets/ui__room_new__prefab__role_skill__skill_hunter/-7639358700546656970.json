@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1474416474870353603
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7486178855572040920
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5939256735236076568
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "fire",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6087712189522829691
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2211816444852575629
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -123420894499483560
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "RoleDeal_role_target_txt_02",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

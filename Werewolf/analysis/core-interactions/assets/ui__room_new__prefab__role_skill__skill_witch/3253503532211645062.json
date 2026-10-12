@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3209990736137020638
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4701413047607817291
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1802201760233778197
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "bone",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

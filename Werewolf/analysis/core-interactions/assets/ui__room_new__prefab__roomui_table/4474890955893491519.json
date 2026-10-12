@@ -1,0 +1,50 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6281671875316863763
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6060773861614114023
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2820502359043643356
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1039623520075367012
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3806193121957189209
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7563388367000056224
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6406647436267323516
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "message_num",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1306125197274866258
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5636375801872143455
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3273054106184215899
+      }
+    }
+  ],
+  "m_Layer": 0,
+  "m_Name": "music02",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

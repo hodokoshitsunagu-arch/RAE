@@ -1,0 +1,1607 @@
+{
+ "client_version": "2.18.21", 
+ "package_name": "langrensha_trunk_hd_2.18.21_186065_61_Android", 
+ "total_size": 506867043, 
+ "zz_filelist": {
+  "bpstorydownload/story18/story/chapter1/battlepass_story_bg1_atlas.ab": [
+   "6c139da540a19966e27e0b2a7a2cec5e", 
+   357601, 
+   1440745724
+  ], 
+  "bpstorydownload/story18/story/chapter1/battlepass_story_bg2_atlas.ab": [
+   "af3439eab601725f79dde955a5fda3a7", 
+   358644, 
+   1441103325
+  ], 
+  "bpstorydownload/story18/story/chapter1/battlepass_story_bg3_atlas.ab": [
+   "c0ba2f8005b552227600a5ad199665eb", 
+   355682, 
+   1441461969
+  ], 
+  "bpstorydownload/story19/story/chapter2/battlepass_story_bg4_atlas.ab": [
+   "814238168712a7963f14ce9d7330709e", 
+   407322, 
+   1441817651
+  ], 
+  "bpstorydownload/story19/story/chapter2/battlepass_story_bg5_atlas.ab": [
+   "cccdfc75eaeddeb06640cc92e73fd061", 
+   365340, 
+   1442224973
+  ], 
+  "bpstorydownload/story19/story/chapter2/battlepass_story_bg6_atlas.ab": [
+   "797fdabb555dda9ed6971211861dd38c", 
+   350064, 
+   1442590313
+  ], 
+  "bpstorydownload/story20/story/chapter3/battlepass_story_bg1_atlas.ab": [
+   "9a30d71bab981ac61d88a26f49f44cc2", 
+   402255, 
+   1442940377
+  ], 
+  "bpstorydownload/story20/story/chapter3/battlepass_story_bg2_atlas.ab": [
+   "1b76de7e25594333ccac2d6391e81777", 
+   402281, 
+   1443342632
+  ], 
+  "bpstorydownload/story20/story/chapter3/battlepass_story_bg3_atlas.ab": [
+   "3308c93178251ee5459389dd8d9d35c9", 
+   370232, 
+   1443744913
+  ], 
+  "bpstorydownload/story20/story/chapter3/battlepass_story_bg4_atlas.ab": [
+   "2e544b541e3ed1de3e7f2ca434b40ea2", 
+   428272, 
+   1444115145
+  ], 
+  "bpstorydownload/story20/story/chapter3/battlepass_story_bg5_atlas.ab": [
+   "69e566c00468e4367506587661b5b637", 
+   426896, 
+   1444543417
+  ], 
+  "bpstorydownload/story21/story/chapter4/battlepass_story_bg1_atlas.ab": [
+   "88fdfde5ca9eb0bd3e5f52a92e7d6222", 
+   412226, 
+   1444970313
+  ], 
+  "bpstorydownload/story21/story/chapter4/battlepass_story_bg2_atlas.ab": [
+   "74e92fc575b45b10f44152e829874102", 
+   392388, 
+   1445382539
+  ], 
+  "bpstorydownload/story21/story/chapter4/battlepass_story_bg3_atlas.ab": [
+   "b76c35eea88ba186dd4a2f460f0c5b88", 
+   389109, 
+   1445774927
+  ], 
+  "bpstorydownload/story22/story/chapter5/battlepass_story_bg1_atlas.ab": [
+   "9d93a9c7aef84ee40ac7070bde3071bb", 
+   405596, 
+   1446164036
+  ], 
+  "bpstorydownload/story22/story/chapter5/battlepass_story_bg2_atlas.ab": [
+   "b0423a3352607b316638b0c422125fb6", 
+   404853, 
+   1446569632
+  ], 
+  "bpstorydownload/story23/story/chapter5/battlepass_story_bg1_atlas.ab": [
+   "07a8043c8e1bb32e36e1c7eb042af28a", 
+   418483, 
+   1446974485
+  ], 
+  "bpstorydownload/story23/story/chapter5/battlepass_story_bg2_atlas.ab": [
+   "47ac169cac078128015e41871eed0250", 
+   406849, 
+   1447392968
+  ], 
+  "bpstorydownload/story23/story/chapter5/battlepass_story_bg3_atlas.ab": [
+   "cb3b55a226aa5e9116f4d03767975ccf", 
+   399251, 
+   1447799817
+  ], 
+  "bpstorydownload/story23/story/chapter5/battlepass_story_bg4_atlas.ab": [
+   "752a82fe6498803770da5015df49cb4a", 
+   401603, 
+   1448199068
+  ], 
+  "bpstorydownload/story25/story/chapter1/battlepass_story_bg1_atlas.ab": [
+   "466cd7577911312df0ea90efad3e9980", 
+   408348, 
+   1448600671
+  ], 
+  "bpstorydownload/story25/story/chapter1/battlepass_story_bg2_atlas.ab": [
+   "a07c1757c2ae7becc95f4f81020c2856", 
+   366325, 
+   1449009019
+  ], 
+  "bpstorydownload/story26/story/chapter1/astc6a_atlas.ab": [
+   "95bb422869769ed40c87db42ab0a2071", 
+   799095, 
+   1449375344
+  ], 
+  "bpstorydownload/story27/story/chapter1/astc6a_atlas.ab": [
+   "5d94b17252df4a30dd5a6241c967ac28", 
+   405652, 
+   1450174439
+  ], 
+  "bpstorydownload/story28/story/chapter1/astc6a_atlas.ab": [
+   "2fc1ea5d6ed47caaf1d671af1814cbd7", 
+   365572, 
+   1450580091
+  ], 
+  "bpstorydownload/story29/story/chapter1/astc6a_atlas.ab": [
+   "c80029790e6abfbed3c06430e727c505", 
+   423799, 
+   1450945663
+  ], 
+  "bpstorydownload/story30/story/chapter1/astc6a_atlas.ab": [
+   "3e57c8138802c12f0b11f5aabc890a29", 
+   397653, 
+   1451369462
+  ], 
+  "bpstorydownload/story31/story/chapter1/astc6a_atlas.ab": [
+   "6d0ba9d76309f9b8f4e8decf8d72a038", 
+   433694, 
+   1451767115
+  ], 
+  "bpstorydownload/story32/story/chapter1/astc6a_atlas.ab": [
+   "c9d74da9597e0673826c63f2e10f318b", 
+   748198, 
+   1452200809
+  ], 
+  "bpstorydownload/story33/story/chapter1/astc6a_atlas.ab": [
+   "4b3727d3f06dffb1e4c72a37ad909fdc", 
+   348807, 
+   1452949007
+  ], 
+  "bpstorydownload/story34/story/chapter1/astc6a_atlas.ab": [
+   "b01a0d3fb519de6b1205e73c3aea1db2", 
+   810568, 
+   1453297814
+  ], 
+  "galgamebatches/admirer/galgame_prefab/galgamestory_admirer01.ab": [
+   "9686c2966acfdccec9f15dfe9975a175", 
+   32627, 
+   1074075684
+  ], 
+  "galgamebatches/admirer/galgame_prefab/galgamestory_admirer02.ab": [
+   "d7d7d6cb708133d85dd078d8ddb444ba", 
+   32541, 
+   1074108311
+  ], 
+  "galgamebatches/admirer/galgame_prefab/galgamestory_admirer03.ab": [
+   "0960eaa357b46fdbf86fd3dcf48123af", 
+   31901, 
+   1074140852
+  ], 
+  "galgamebatches/admirer/galgame_sound.ab": [
+   "67d6579747d7d20015533a975fcdf6b6", 
+   16057438, 
+   1074172753
+  ], 
+  "galgamebatches/admirer/galgame_texture/admirer_common/astc6a_atlas.ab": [
+   "0736ac8c8a8d15b2e2404af3087d6be9", 
+   73101, 
+   1454108382
+  ], 
+  "galgamebatches/admirer/galgame_texture/admirer_story1/astc6a_atlas.ab": [
+   "914b2ba2ebb3e29ed24d3f41b2e91dd0", 
+   2593990, 
+   1454181483
+  ], 
+  "galgamebatches/admirer/galgame_texture/admirer_story2/astc6a_atlas.ab": [
+   "d526ca90328a035abaf4e6cc2f69d2d5", 
+   2326859, 
+   1456775473
+  ], 
+  "galgamebatches/admirer/galgame_texture/admirer_story3/astc6a_atlas.ab": [
+   "c3946ad0d159d48943d08a721c5fac2a", 
+   1420554, 
+   1459102332
+  ], 
+  "galgamebatches/alchemist/galgame_prefab/galgamestory_alchemist01.ab": [
+   "ca4a954cdf4791a0ce60bae122006365", 
+   38762, 
+   1090230191
+  ], 
+  "galgamebatches/alchemist/galgame_prefab/galgamestory_alchemist02.ab": [
+   "be7460231e855b2ac32653083d3e5eed", 
+   43654, 
+   1090268953
+  ], 
+  "galgamebatches/alchemist/galgame_prefab/galgamestory_alchemist03.ab": [
+   "090a4b96a7f518e7106bee5c8967a13f", 
+   43573, 
+   1090312607
+  ], 
+  "galgamebatches/alchemist/galgame_sound.ab": [
+   "e6c2b70424d2485eea948b841e09f380", 
+   10081397, 
+   1090356180
+  ], 
+  "galgamebatches/alchemist/galgame_texture/alchemist_common/astc6a_atlas.ab": [
+   "0ec967cb1c814996be5943cdd9879a33", 
+   71535, 
+   1460522886
+  ], 
+  "galgamebatches/alchemist/galgame_texture/alchemist_story1/astc6a_atlas.ab": [
+   "7ba1b57bf7e2b820a66a0bdc8904e4fc", 
+   946571, 
+   1460594421
+  ], 
+  "galgamebatches/alchemist/galgame_texture/alchemist_story2/astc6a_atlas.ab": [
+   "4ee2ff2a41d600b0d7bb51d93deff877", 
+   926496, 
+   1461540992
+  ], 
+  "galgamebatches/alchemist/galgame_texture/alchemist_story3/astc6a_atlas.ab": [
+   "b375a99d6438fb989e11a4dd2550835e", 
+   877874, 
+   1462467488
+  ], 
+  "galgamebatches/awakenfools/galgame_prefab/galgamestory_awakenfools01.ab": [
+   "6e2d5a5a0204a26384a575ba1cd3d7ec", 
+   38075, 
+   1100437577
+  ], 
+  "galgamebatches/awakenfools/galgame_prefab/galgamestory_awakenfools02.ab": [
+   "1bfe1961a403a4bfe37719a80b992534", 
+   41617, 
+   1100475652
+  ], 
+  "galgamebatches/awakenfools/galgame_prefab/galgamestory_awakenfools03.ab": [
+   "086e36b0585c54a2ecb0e05d17ab3c6c", 
+   37697, 
+   1100517269
+  ], 
+  "galgamebatches/awakenfools/galgame_sound.ab": [
+   "d953892806ca330335eac5e15a17ef84", 
+   8709575, 
+   1100554966
+  ], 
+  "galgamebatches/awakenfools/galgame_texture/awakenfools_common/astc6a_atlas.ab": [
+   "9be9587e71d41065909340cc319c2eaf", 
+   71775, 
+   1463345362
+  ], 
+  "galgamebatches/awakenfools/galgame_texture/awakenfools_story1/astc6a_atlas.ab": [
+   "43ab4e552953ae08766c8471b2c1ec0e", 
+   1141961, 
+   1463417137
+  ], 
+  "galgamebatches/awakenfools/galgame_texture/awakenfools_story2/astc6a_atlas.ab": [
+   "ab3c5cc6372059a271f4259bcc270e44", 
+   970963, 
+   1464559098
+  ], 
+  "galgamebatches/awakenfools/galgame_texture/awakenfools_story3/astc6a_atlas.ab": [
+   "67da759d477e9d8f337bb2a57b99bf25", 
+   1126000, 
+   1465530061
+  ], 
+  "galgamebatches/awakeningadmirer/galgame_prefab/galgamestory_awakeningadmirer01.ab": [
+   "661b98ab134342a45280eaf385f3e8d0", 
+   32139, 
+   1109264541
+  ], 
+  "galgamebatches/awakeningadmirer/galgame_prefab/galgamestory_awakeningadmirer02.ab": [
+   "c1d42d2a53e1579c4c9ea928a672a363", 
+   33471, 
+   1109296680
+  ], 
+  "galgamebatches/awakeningadmirer/galgame_prefab/galgamestory_awakeningadmirer03.ab": [
+   "b31d0cc5e74e8ee3b327bbc41ed8928b", 
+   33582, 
+   1109330151
+  ], 
+  "galgamebatches/awakeningadmirer/galgame_sound.ab": [
+   "11c1b85f04bad159850c5a23e1353411", 
+   12378265, 
+   1109363733
+  ], 
+  "galgamebatches/awakeningadmirer/galgame_texture/awakeningadmirer_common/astc6a_atlas.ab": [
+   "f355a0a8a3a2b170b775d78392aac508", 
+   77369, 
+   1466656061
+  ], 
+  "galgamebatches/awakeningadmirer/galgame_texture/awakeningadmirer_story1/astc6a_atlas.ab": [
+   "3430e9532fc9c1b5ad90e114580ac8dd", 
+   1581677, 
+   1466733430
+  ], 
+  "galgamebatches/awakeningadmirer/galgame_texture/awakeningadmirer_story2/astc6a_atlas.ab": [
+   "476b25183ec1ce01d99b1e47f5bf4122", 
+   2132000, 
+   1468315107
+  ], 
+  "galgamebatches/awakeningadmirer/galgame_texture/awakeningadmirer_story3/astc6a_atlas.ab": [
+   "0cb1261e7adaf477564396eb027df449", 
+   2621618, 
+   1470447107
+  ], 
+  "galgamebatches/awakeninggargoyles/galgame_prefab/galgamestory_awakeninggargoyles01.ab": [
+   "434643e7920d60e948c03a791c191691", 
+   22344, 
+   1121741998
+  ], 
+  "galgamebatches/awakeninggargoyles/galgame_prefab/galgamestory_awakeninggargoyles02.ab": [
+   "63491baf4fc00c5c0e82733da85ff882", 
+   22363, 
+   1121764342
+  ], 
+  "galgamebatches/awakeninggargoyles/galgame_prefab/galgamestory_awakeninggargoyles03.ab": [
+   "188c36157e3c25a46ce33e65ac5ab419", 
+   22049, 
+   1121786705
+  ], 
+  "galgamebatches/awakeninggargoyles/galgame_sound.ab": [
+   "4f73b031e7ae9da0cfa7c50741b5ec7a", 
+   10407719, 
+   1121808754
+  ], 
+  "galgamebatches/awakeninggargoyles/galgame_texture/awakeninggargoyles_common/astc6a_atlas.ab": [
+   "5ceb9ee56cecbc6f00c968dc4b63a982", 
+   72915, 
+   1473068725
+  ], 
+  "galgamebatches/awakeninggargoyles/galgame_texture/awakeninggargoyles_story1/astc6a_atlas.ab": [
+   "9c3d3ca9dbfef9d7eef368fb5f73cdc6", 
+   1167005, 
+   1473141640
+  ], 
+  "galgamebatches/awakeninggargoyles/galgame_texture/awakeninggargoyles_story2/astc6a_atlas.ab": [
+   "6cfa13dcd1dce74d1d91cd8e644878b0", 
+   1680420, 
+   1474308645
+  ], 
+  "galgamebatches/awakeninggargoyles/galgame_texture/awakeninggargoyles_story3/astc6a_atlas.ab": [
+   "ec91ccb020601697922dfb8af4095298", 
+   1565146, 
+   1475989065
+  ], 
+  "galgamebatches/awakeningguard/galgame_prefab/galgamestory_awakeningguard01.ab": [
+   "f19a7fa7bd7ff58efa74bf9418ea871a", 
+   21318, 
+   1132216473
+  ], 
+  "galgamebatches/awakeningguard/galgame_prefab/galgamestory_awakeningguard02.ab": [
+   "b62e79f5913a0e226ec6c6677f8f2333", 
+   21820, 
+   1132237791
+  ], 
+  "galgamebatches/awakeningguard/galgame_prefab/galgamestory_awakeningguard03.ab": [
+   "da1ef44a3d5ffc8b52582e65013400fb", 
+   21776, 
+   1132259611
+  ], 
+  "galgamebatches/awakeningguard/galgame_sound.ab": [
+   "92f237936c6358d2bf5eb570477dceea", 
+   10047614, 
+   1132281387
+  ], 
+  "galgamebatches/awakeningguard/galgame_texture/awakeningguard_common/astc6a_atlas.ab": [
+   "2a76b854f0b7a33b260fadf7de9ce0d8", 
+   71945, 
+   1477554211
+  ], 
+  "galgamebatches/awakeningguard/galgame_texture/awakeningguard_story1/astc6a_atlas.ab": [
+   "e815c67d94a11775af3ee89aa3a57d12", 
+   1375233, 
+   1477626156
+  ], 
+  "galgamebatches/awakeningguard/galgame_texture/awakeningguard_story2/astc6a_atlas.ab": [
+   "2ef32fb38a2e116630fa1936f1b0772d", 
+   1356999, 
+   1479001389
+  ], 
+  "galgamebatches/awakeningguard/galgame_texture/awakeningguard_story3/astc6a_atlas.ab": [
+   "b74c1734be7403655ac5a550cffe8bd7", 
+   1444987, 
+   1480358388
+  ], 
+  "galgamebatches/awakeninghiddenwolf/galgame_prefab/galgamestory_awakeninghiddenwolf01.ab": [
+   "c0bfbc07ce299c763e8bbe78ed11b096", 
+   31652, 
+   1142329001
+  ], 
+  "galgamebatches/awakeninghiddenwolf/galgame_prefab/galgamestory_awakeninghiddenwolf02.ab": [
+   "4f3a7b0e7b2dc16d4b628882c8599f19", 
+   32968, 
+   1142360653
+  ], 
+  "galgamebatches/awakeninghiddenwolf/galgame_prefab/galgamestory_awakeninghiddenwolf03.ab": [
+   "704bf576daadaaa82014a1971e8f9983", 
+   36584, 
+   1142393621
+  ], 
+  "galgamebatches/awakeninghiddenwolf/galgame_sound.ab": [
+   "6d58f464dfea5eeee9b561cc2216480d", 
+   8164135, 
+   1142430205
+  ], 
+  "galgamebatches/awakeninghiddenwolf/galgame_texture/awakeninghiddenwolf_common/astc6a_atlas.ab": [
+   "b93ab4e25d82a059b0eecbe9f61768eb", 
+   70911, 
+   1481803375
+  ], 
+  "galgamebatches/awakeninghiddenwolf/galgame_texture/awakeninghiddenwolf_story1/astc6a_atlas.ab": [
+   "6e7983b644913ac48e5d2639772c01fd", 
+   1319685, 
+   1481874286
+  ], 
+  "galgamebatches/awakeninghiddenwolf/galgame_texture/awakeninghiddenwolf_story2/astc6a_atlas.ab": [
+   "b60df575153b7d30a0f8027e16b51f5a", 
+   1853964, 
+   1483193971
+  ], 
+  "galgamebatches/awakeninghiddenwolf/galgame_texture/awakeninghiddenwolf_story3/astc6a_atlas.ab": [
+   "115bc7a87a880c0802effc9fa4dd363b", 
+   1891403, 
+   1485047935
+  ], 
+  "galgamebatches/awakeningwhitewolvesking/galgame_prefab/galgamestory_awakeningwhitewolvesking01.ab": [
+   "434e580fc7f1ea3fab4ef3200dacac7b", 
+   21265, 
+   1150594340
+  ], 
+  "galgamebatches/awakeningwhitewolvesking/galgame_prefab/galgamestory_awakeningwhitewolvesking02.ab": [
+   "a7db838a5a91a4ea75877fd1ad0e40dd", 
+   22935, 
+   1150615605
+  ], 
+  "galgamebatches/awakeningwhitewolvesking/galgame_prefab/galgamestory_awakeningwhitewolvesking03.ab": [
+   "5832745a67ac15843c21226f581ab340", 
+   20480, 
+   1150638540
+  ], 
+  "galgamebatches/awakeningwhitewolvesking/galgame_sound.ab": [
+   "19b5b1a2ce535988b81693452494d046", 
+   21339728, 
+   1150659020
+  ], 
+  "galgamebatches/awakeningwhitewolvesking/galgame_texture/awakeningwhitewolvesking_common/astc6a_atlas.ab": [
+   "5007b4f5378b9a7c92987d4a50056ffa", 
+   74143, 
+   1486939338
+  ], 
+  "galgamebatches/awakeningwhitewolvesking/galgame_texture/awakeningwhitewolvesking_story1/astc6a_atlas.ab": [
+   "6a34bf794d0358849c8ea9b4ae8cdc25", 
+   1764229, 
+   1487013481
+  ], 
+  "galgamebatches/awakeningwhitewolvesking/galgame_texture/awakeningwhitewolvesking_story2/astc6a_atlas.ab": [
+   "f48d23d3b7bed82d6daffb72dcd46e50", 
+   1723455, 
+   1488777710
+  ], 
+  "galgamebatches/awakeningwhitewolvesking/galgame_texture/awakeningwhitewolvesking_story3/astc6a_atlas.ab": [
+   "e863057f4d80b5cd18a65e9a4adf4282", 
+   1174366, 
+   1490501165
+  ], 
+  "galgamebatches/awakeningwitch/galgame_prefab/galgamestory_awakeningwitch01.ab": [
+   "98d66e11f08edceed8a1f691977dcf72", 
+   33067, 
+   1171998748
+  ], 
+  "galgamebatches/awakeningwitch/galgame_prefab/galgamestory_awakeningwitch02.ab": [
+   "c9a3517c95619d7c0af7340094afea38", 
+   35710, 
+   1172031815
+  ], 
+  "galgamebatches/awakeningwitch/galgame_prefab/galgamestory_awakeningwitch03.ab": [
+   "d1231d3056a25ab2f151d7298df20192", 
+   34549, 
+   1172067525
+  ], 
+  "galgamebatches/awakeningwitch/galgame_sound.ab": [
+   "79055a19c4fdd4026d70e8762ba70415", 
+   11172557, 
+   1172102074
+  ], 
+  "galgamebatches/awakeningwitch/galgame_texture/awakeningwitch_common/astc6a_atlas.ab": [
+   "e4110724bd0af4b43e616e490ec9fcc9", 
+   70892, 
+   1491675531
+  ], 
+  "galgamebatches/awakeningwitch/galgame_texture/awakeningwitch_story1/astc6a_atlas.ab": [
+   "113a183f6ce26b9d33d23278ea0c4688", 
+   1305851, 
+   1491746423
+  ], 
+  "galgamebatches/awakeningwitch/galgame_texture/awakeningwitch_story2/astc6a_atlas.ab": [
+   "b57a0fb477791590b74b0d3842a9e244", 
+   1623455, 
+   1493052274
+  ], 
+  "galgamebatches/awakeningwitch/galgame_texture/awakeningwitch_story3/astc6a_atlas.ab": [
+   "6f9c6459ea5b8fa87c2abb08a44f21f0", 
+   1702668, 
+   1494675729
+  ], 
+  "galgamebatches/awakenwolvesking/galgame_sound.ab": [
+   "50b75ea8423a854931e1b72f56d20390", 
+   4555583, 
+   1183274631
+  ], 
+  "galgamebatches/babyfox/galgame_prefab/galgamestory_babyfox01.ab": [
+   "6fad040531f7ff150f6bf2124e7436e1", 
+   53054, 
+   1187830214
+  ], 
+  "galgamebatches/babyfox/galgame_prefab/galgamestory_babyfox02.ab": [
+   "d98328d632d02d5ab54952c28ebcc924", 
+   45007, 
+   1187883268
+  ], 
+  "galgamebatches/babyfox/galgame_prefab/galgamestory_babyfox03.ab": [
+   "68afc4c77fdd5272c6b4f1736a45e09c", 
+   44150, 
+   1187928275
+  ], 
+  "galgamebatches/babyfox/galgame_sound.ab": [
+   "f6153e380d553d3ce3bfe5dbe973ef22", 
+   23165678, 
+   1187972425
+  ], 
+  "galgamebatches/babyfox/galgame_texture/babyfox_common/astc6a_atlas.ab": [
+   "496a3c15319dc73ac571ba5668ea9b21", 
+   64085, 
+   1496378397
+  ], 
+  "galgamebatches/babyfox/galgame_texture/babyfox_story1/astc6a_atlas.ab": [
+   "599465493026800c16de201dcf7b033f", 
+   1204538, 
+   1496442482
+  ], 
+  "galgamebatches/babyfox/galgame_texture/babyfox_story2/astc6a_atlas.ab": [
+   "d550d9bb51d90a3a0201281638308301", 
+   1140538, 
+   1497647020
+  ], 
+  "galgamebatches/babyfox/galgame_texture/babyfox_story3/astc6a_atlas.ab": [
+   "5a2b2e6dc0d1dc320f7869627752a954", 
+   1235038, 
+   1498787558
+  ], 
+  "galgamebatches/daylightscholar/galgame_prefab/galgamestory_daylightscholar01.ab": [
+   "48fd31f31e9dfc1f4f0a4630c2895ace", 
+   37390, 
+   1211138103
+  ], 
+  "galgamebatches/daylightscholar/galgame_prefab/galgamestory_daylightscholar02.ab": [
+   "acd5510de7449bdec7423b8a1d65bc9d", 
+   34768, 
+   1211175493
+  ], 
+  "galgamebatches/daylightscholar/galgame_prefab/galgamestory_daylightscholar03.ab": [
+   "35e0ed886ebac53153f896d1195442af", 
+   35502, 
+   1211210261
+  ], 
+  "galgamebatches/daylightscholar/galgame_sound.ab": [
+   "76ec6488b9c650c4876444512a99c152", 
+   6366927, 
+   1211245763
+  ], 
+  "galgamebatches/daylightscholar/galgame_texture/daylightscholar_common/astc6a_atlas.ab": [
+   "b9ef9d4a95a8ec4feb74ec7c6a23e3a4", 
+   70429, 
+   1500022596
+  ], 
+  "galgamebatches/daylightscholar/galgame_texture/daylightscholar_story1/astc6a_atlas.ab": [
+   "5cfd057bdc60d7f19c83045a41553364", 
+   1179612, 
+   1500093025
+  ], 
+  "galgamebatches/daylightscholar/galgame_texture/daylightscholar_story2/astc6a_atlas.ab": [
+   "da756936ada83c3455c1a4aa31769034", 
+   1078839, 
+   1501272637
+  ], 
+  "galgamebatches/daylightscholar/galgame_texture/daylightscholar_story3/astc6a_atlas.ab": [
+   "8da5d9c807bc4df74081875a2ee588ef", 
+   1048056, 
+   1502351476
+  ], 
+  "galgamebatches/demonhunter/galgame_prefab/galgamestory_demonhunter01.ab": [
+   "be6540b7b3f56aec58c81d73e85fbf80", 
+   35628, 
+   1217612690
+  ], 
+  "galgamebatches/demonhunter/galgame_prefab/galgamestory_demonhunter02.ab": [
+   "3f95388d025b9e75f5a3e99345f018b9", 
+   33294, 
+   1217648318
+  ], 
+  "galgamebatches/demonhunter/galgame_prefab/galgamestory_demonhunter03.ab": [
+   "751dc30c441a3facf28162f85018c95e", 
+   34521, 
+   1217681612
+  ], 
+  "galgamebatches/demonhunter/galgame_sound.ab": [
+   "2086fea87b6eb2a6d2b1b5dbf33f0499", 
+   6073307, 
+   1217716133
+  ], 
+  "galgamebatches/demonhunter/galgame_texture/demonhunter_common/astc6a_atlas.ab": [
+   "a6157fbe7a7301e5729e18d558b95e27", 
+   70215, 
+   1503399532
+  ], 
+  "galgamebatches/demonhunter/galgame_texture/demonhunter_story1/astc6a_atlas.ab": [
+   "afc428c3500dde5ff74386c998776103", 
+   1063002, 
+   1503469747
+  ], 
+  "galgamebatches/demonhunter/galgame_texture/demonhunter_story2/astc6a_atlas.ab": [
+   "8eb6d7c5ed4936c735115d3c01102538", 
+   759577, 
+   1504532749
+  ], 
+  "galgamebatches/demonhunter/galgame_texture/demonhunter_story3/astc6a_atlas.ab": [
+   "194d8a306220a4b2b40870b7f7f0af91", 
+   770825, 
+   1505292326
+  ], 
+  "galgamebatches/dreamer/galgame_prefab/galgamestory_dreamer01.ab": [
+   "7ad709f3eaeb15f08896b1aadc4e7beb", 
+   34203, 
+   1223789440
+  ], 
+  "galgamebatches/dreamer/galgame_prefab/galgamestory_dreamer02.ab": [
+   "3fe3604af69b13a7dc0066d18ea704e5", 
+   33396, 
+   1223823643
+  ], 
+  "galgamebatches/dreamer/galgame_prefab/galgamestory_dreamer03.ab": [
+   "8696d5274ed03b018fa1046ce6375e63", 
+   32391, 
+   1223857039
+  ], 
+  "galgamebatches/dreamer/galgame_sound.ab": [
+   "a9d0518833659e1ed8718d015b5a2777", 
+   5433259, 
+   1223889430
+  ], 
+  "galgamebatches/dreamer/galgame_texture/dreamer_common/astc6a_atlas.ab": [
+   "fd136aefa597cbf561b5a9dd754a9bca", 
+   70493, 
+   1506063151
+  ], 
+  "galgamebatches/dreamer/galgame_texture/dreamer_story1/astc6a_atlas.ab": [
+   "76328f43be52301f47c8dd4a31949d09", 
+   1171982, 
+   1506133644
+  ], 
+  "galgamebatches/dreamer/galgame_texture/dreamer_story2/astc6a_atlas.ab": [
+   "dcf9445d9cee69c823fa1b8ef88aac07", 
+   1443049, 
+   1507305626
+  ], 
+  "galgamebatches/dreamer/galgame_texture/dreamer_story3/astc6a_atlas.ab": [
+   "f610bb9f32aca590d019393716007dc8", 
+   1023320, 
+   1508748675
+  ], 
+  "galgamebatches/eclipsemaid/galgame_prefab/galgamestory_eclipsemaid01.ab": [
+   "c98c17027ff2fae88c12e53236df2590", 
+   21558, 
+   1229322689
+  ], 
+  "galgamebatches/eclipsemaid/galgame_prefab/galgamestory_eclipsemaid02.ab": [
+   "783bb1b83a2ba43218585987a7e7d36f", 
+   22384, 
+   1229344247
+  ], 
+  "galgamebatches/eclipsemaid/galgame_prefab/galgamestory_eclipsemaid03.ab": [
+   "d45390d1e6cd55265bb91034c0ed1b3c", 
+   23455, 
+   1229366631
+  ], 
+  "galgamebatches/eclipsemaid/galgame_sound.ab": [
+   "5af3b2e5ed038381d208c9c6eb913075", 
+   11602669, 
+   1229390086
+  ], 
+  "galgamebatches/eclipsemaid/galgame_texture/eclipsemaid_common/astc6a_atlas.ab": [
+   "41651c036bc96dabadf2d3475bd22688", 
+   70624, 
+   1509771995
+  ], 
+  "galgamebatches/eclipsemaid/galgame_texture/eclipsemaid_story1/astc6a_atlas.ab": [
+   "f3e07df1157f1c6c3dac8939c132c659", 
+   1213836, 
+   1509842619
+  ], 
+  "galgamebatches/eclipsemaid/galgame_texture/eclipsemaid_story2/astc6a_atlas.ab": [
+   "bfe2725df4764522a39bf0fb65ac7fbf", 
+   1293159, 
+   1511056455
+  ], 
+  "galgamebatches/eclipsemaid/galgame_texture/eclipsemaid_story3/astc6a_atlas.ab": [
+   "bb3e6b596ce63e3eb86a8b73db05212b", 
+   1464321, 
+   1512349614
+  ], 
+  "galgamebatches/ghostrider/galgame_prefab/galgamestory_ghostrider01.ab": [
+   "0e16ac21fb3a593f051e31b079fe5dc8", 
+   32577, 
+   1240992755
+  ], 
+  "galgamebatches/ghostrider/galgame_prefab/galgamestory_ghostrider02.ab": [
+   "9c7cfbf405b6c8a21af40343b248d744", 
+   31998, 
+   1241025332
+  ], 
+  "galgamebatches/ghostrider/galgame_prefab/galgamestory_ghostrider03.ab": [
+   "76e9641373e99c5caad3d44bce70146d", 
+   31515, 
+   1241057330
+  ], 
+  "galgamebatches/ghostrider/galgame_sound.ab": [
+   "2d347b1bf56a53ff3f0d34fdc5d84ee9", 
+   11280315, 
+   1241088845
+  ], 
+  "galgamebatches/ghostrider/galgame_texture/ghostrider_common/astc6a_atlas.ab": [
+   "ad976ba0f9638857e7bc64ecbd6006ce", 
+   76475, 
+   1513813935
+  ], 
+  "galgamebatches/ghostrider/galgame_texture/ghostrider_story1/astc6a_atlas.ab": [
+   "61844b96d9ad20b0bfe6695dbfe44614", 
+   858828, 
+   1513890410
+  ], 
+  "galgamebatches/ghostrider/galgame_texture/ghostrider_story2/astc6a_atlas.ab": [
+   "0c73d48eff676b3348dfc25976646f02", 
+   1022155, 
+   1514749238
+  ], 
+  "galgamebatches/ghostrider/galgame_texture/ghostrider_story3/astc6a_atlas.ab": [
+   "b4291e641463f83a473370e69de4fc7e", 
+   1004461, 
+   1515771393
+  ], 
+  "galgamebatches/guard/galgame_prefab/galgamestory_guard01.ab": [
+   "ccb87219043f175bca387845a3cc774f", 
+   53753, 
+   1252369160
+  ], 
+  "galgamebatches/guard/galgame_prefab/galgamestory_guard02.ab": [
+   "4ffbf84991ee5761c0bb13b2588fc3eb", 
+   58849, 
+   1252422913
+  ], 
+  "galgamebatches/guard/galgame_sound.ab": [
+   "c1697169753d6dbe0589661dfd6c674b", 
+   6256670, 
+   1252481762
+  ], 
+  "galgamebatches/guard/galgame_texture/guard_common/astc6a_atlas.ab": [
+   "dcd4ec7b50fbf22019e8c61196a2c46c", 
+   70770, 
+   1516775854
+  ], 
+  "galgamebatches/guard/galgame_texture/guard_story1/astc6a_atlas.ab": [
+   "9c9c6442d3556df64393f16133a8592a", 
+   856393, 
+   1516846624
+  ], 
+  "galgamebatches/guard/galgame_texture/guard_story2/astc6a_atlas.ab": [
+   "9e900ec7dea1ce22c9395b48e46df856", 
+   894539, 
+   1517703017
+  ], 
+  "galgamebatches/hunter/galgame_prefab/galgamestory_hunter01.ab": [
+   "b60c9c4d7734c149501e28535c60763f", 
+   35731, 
+   1258738432
+  ], 
+  "galgamebatches/hunter/galgame_prefab/galgamestory_hunter02.ab": [
+   "29131ce9bf26aa6510bc19f00bf9956c", 
+   37145, 
+   1258774163
+  ], 
+  "galgamebatches/hunter/galgame_sound.ab": [
+   "401f4bc684f3f7a7ab27e1ec73e1e77c", 
+   4611285, 
+   1258811308
+  ], 
+  "galgamebatches/hunter/galgame_texture/hunter_common/astc6a_atlas.ab": [
+   "570b0af398ed837a91cec19d3e17b215", 
+   68127, 
+   1518597556
+  ], 
+  "galgamebatches/hunter/galgame_texture/hunter_story1/astc6a_atlas.ab": [
+   "43e6a0a0f7140d46658cd34dd6a2cd1c", 
+   854872, 
+   1518665683
+  ], 
+  "galgamebatches/hunter/galgame_texture/hunter_story2/astc6a_atlas.ab": [
+   "39975534d6d412238cd98d5aea1c69d2", 
+   1009629, 
+   1519520555
+  ], 
+  "galgamebatches/idiot/galgame_prefab/galgamestory_idiot01.ab": [
+   "9f8baba357d3fab90ad45a97eef57710", 
+   33368, 
+   1263422593
+  ], 
+  "galgamebatches/idiot/galgame_prefab/galgamestory_idiot02.ab": [
+   "03dc171db3f3e91226ce3a5c5bd8c46a", 
+   31348, 
+   1263455961
+  ], 
+  "galgamebatches/idiot/galgame_prefab/galgamestory_idiot03.ab": [
+   "20f781e44003c10412f22b32bbf8397a", 
+   31361, 
+   1263487309
+  ], 
+  "galgamebatches/idiot/galgame_sound.ab": [
+   "c604daf2abb411be1331f8b67d30c121", 
+   5869701, 
+   1263518670
+  ], 
+  "galgamebatches/idiot/galgame_texture/idiot_common/astc6a_atlas.ab": [
+   "815dd3f8839b8caea203cc81d94c7372", 
+   67952, 
+   1520530184
+  ], 
+  "galgamebatches/idiot/galgame_texture/idiot_story1/astc6a_atlas.ab": [
+   "cac29d19dc7a121490ee1d971183011c", 
+   755670, 
+   1520598136
+  ], 
+  "galgamebatches/idiot/galgame_texture/idiot_story2/astc6a_atlas.ab": [
+   "202daeeff2277d89175df557caac8558", 
+   710853, 
+   1521353806
+  ], 
+  "galgamebatches/idiot/galgame_texture/idiot_story3/astc6a_atlas.ab": [
+   "69d3564792913ac2dad243edad30403d", 
+   727396, 
+   1522064659
+  ], 
+  "galgamebatches/knight/galgame_prefab/galgamestory_knight01.ab": [
+   "bfa72e57f1fc62b6214f5c36b0eac968", 
+   31377, 
+   1269388371
+  ], 
+  "galgamebatches/knight/galgame_prefab/galgamestory_knight02.ab": [
+   "d286821ee5fe249da7964af00cd55140", 
+   32349, 
+   1269419748
+  ], 
+  "galgamebatches/knight/galgame_prefab/galgamestory_knight03.ab": [
+   "c1d75bf31de270c98b2a5b47dc2e92c9", 
+   32903, 
+   1269452097
+  ], 
+  "galgamebatches/knight/galgame_sound.ab": [
+   "afdd3770b6c3fa88abfc1965ac8c65ee", 
+   14867140, 
+   1269485000
+  ], 
+  "galgamebatches/knight/galgame_texture/knight_common/astc6a_atlas.ab": [
+   "a8798a9d26097f504f5ddbfd0552d5fe", 
+   68583, 
+   1522792055
+  ], 
+  "galgamebatches/knight/galgame_texture/knight_story1/astc6a_atlas.ab": [
+   "81088bd9d9e0b988feda20401a388ec1", 
+   1701091, 
+   1522860638
+  ], 
+  "galgamebatches/knight/galgame_texture/knight_story2/astc6a_atlas.ab": [
+   "6dbecc43b751ae404af58adb3021288e", 
+   1690218, 
+   1524561729
+  ], 
+  "galgamebatches/knight/galgame_texture/knight_story3/astc6a_atlas.ab": [
+   "93ee73357237d6ec2e1313f613d839e0", 
+   1502088, 
+   1526251947
+  ], 
+  "galgamebatches/magician/galgame_prefab/galgamestory_magician01.ab": [
+   "ed3f4ff1990bc5afe1370d514215dae3", 
+   31783, 
+   1284352140
+  ], 
+  "galgamebatches/magician/galgame_prefab/galgamestory_magician02.ab": [
+   "805a7f67f585eb94d890706e4fc44ea7", 
+   34094, 
+   1284383923
+  ], 
+  "galgamebatches/magician/galgame_prefab/galgamestory_magician03.ab": [
+   "87277c3f0ab57a9940832d4280f4cc01", 
+   32935, 
+   1284418017
+  ], 
+  "galgamebatches/magician/galgame_sound.ab": [
+   "2e5d9ece2e2ea1373304d857a28dd1b4", 
+   16434225, 
+   1284450952
+  ], 
+  "galgamebatches/magician/galgame_texture/magician_common/astc6a_atlas.ab": [
+   "06b863306dd80e5350d48805c225cd85", 
+   69814, 
+   1527754035
+  ], 
+  "galgamebatches/magician/galgame_texture/magician_story1/astc6a_atlas.ab": [
+   "f779899f39f1c4d72bb5483ee380e4df", 
+   1406678, 
+   1527823849
+  ], 
+  "galgamebatches/magician/galgame_texture/magician_story2/astc6a_atlas.ab": [
+   "0eee5f8deb4bdf5d4d59823d4ca0ff84", 
+   1955432, 
+   1529230527
+  ], 
+  "galgamebatches/magician/galgame_texture/magician_story3/astc6a_atlas.ab": [
+   "8d3c470336a1e301459ed7c5fcf525ff", 
+   1053940, 
+   1531185959
+  ], 
+  "galgamebatches/magicmirrorgirl/galgame_sound.ab": [
+   "79ced7c512080d417b6b0555b6cde879", 
+   8440254, 
+   1300885177
+  ], 
+  "galgamebatches/nightnobility/galgame_prefab/galgamestory_nightnobility01.ab": [
+   "e57c6816578e97682afb3e22c51c29de", 
+   38780, 
+   1309325431
+  ], 
+  "galgamebatches/nightnobility/galgame_prefab/galgamestory_nightnobility02.ab": [
+   "d807b488b56658ac64eb297f2c834add", 
+   36981, 
+   1309364211
+  ], 
+  "galgamebatches/nightnobility/galgame_prefab/galgamestory_nightnobility03.ab": [
+   "0570669282a4829e49f0272a881c6380", 
+   35271, 
+   1309401192
+  ], 
+  "galgamebatches/nightnobility/galgame_sound.ab": [
+   "91759e97ea7ede399258f18d78f3825e", 
+   9376691, 
+   1309436463
+  ], 
+  "galgamebatches/nightnobility/galgame_texture/nightnobility_common/astc6a_atlas.ab": [
+   "3ea8d4fb158e1d54966219236fc40a5f", 
+   72711, 
+   1532239899
+  ], 
+  "galgamebatches/nightnobility/galgame_texture/nightnobility_story1/astc6a_atlas.ab": [
+   "4a7d06ab5ddde308ea732047b737eeb2", 
+   1070430, 
+   1532312610
+  ], 
+  "galgamebatches/nightnobility/galgame_texture/nightnobility_story2/astc6a_atlas.ab": [
+   "6ec93311b7583c2f0f98d2a6ca0f0f3f", 
+   1125177, 
+   1533383040
+  ], 
+  "galgamebatches/nightnobility/galgame_texture/nightnobility_story3/astc6a_atlas.ab": [
+   "4c67f717e96337ea1214ef59138f8f3b", 
+   1137578, 
+   1534508217
+  ], 
+  "galgamebatches/prince/galgame_prefab/galgamestory_prince01.ab": [
+   "6ba4edc5d4431e73f25e9a8ca60dcedf", 
+   31775, 
+   1318813154
+  ], 
+  "galgamebatches/prince/galgame_prefab/galgamestory_prince02.ab": [
+   "fc975f6f93c8557654bba6422c399c45", 
+   35370, 
+   1318844929
+  ], 
+  "galgamebatches/prince/galgame_prefab/galgamestory_prince03.ab": [
+   "71b7e8a2b15c3236550484c43d0de32a", 
+   34916, 
+   1318880299
+  ], 
+  "galgamebatches/prince/galgame_sound.ab": [
+   "ff4e11436d124f145aaa54e4c57d2899", 
+   6712325, 
+   1318915215
+  ], 
+  "galgamebatches/prince/galgame_texture/prince_common/astc6a_atlas.ab": [
+   "12e1e8982349199b0659a87b0e1a04fd", 
+   72194, 
+   1535645795
+  ], 
+  "galgamebatches/prince/galgame_texture/prince_story1/astc6a_atlas.ab": [
+   "d5097858483ca2f0a460ff4b1b026434", 
+   930208, 
+   1535717989
+  ], 
+  "galgamebatches/prince/galgame_texture/prince_story2/astc6a_atlas.ab": [
+   "5cf0f3a8c68882f09c8182e780eeaa0d", 
+   1049481, 
+   1536648197
+  ], 
+  "galgamebatches/prince/galgame_texture/prince_story3/astc6a_atlas.ab": [
+   "e6838f82f3ca003449ea3bd95afc17ef", 
+   1121109, 
+   1537697678
+  ], 
+  "galgamebatches/seer/galgame_prefab/galgamestory_seer01.ab": [
+   "bb602c34a6094e72922dcd0803730697", 
+   51175, 
+   1325627540
+  ], 
+  "galgamebatches/seer/galgame_prefab/galgamestory_seer02.ab": [
+   "9c62b7e62c95b0331c7ff6b2f6441a4b", 
+   47609, 
+   1325678715
+  ], 
+  "galgamebatches/seer/galgame_prefab/galgamestory_seer03.ab": [
+   "e58e0006ac5d3943ca0a59f60b069bd8", 
+   49844, 
+   1325726324
+  ], 
+  "galgamebatches/seer/galgame_sound.ab": [
+   "70c2afcdf93a1b6d9ca1467a47eb866b", 
+   6353296, 
+   1325776168
+  ], 
+  "galgamebatches/seer/galgame_texture/seer_common/astc6a_atlas.ab": [
+   "c62a393fd1a4ca4f593b29fa901348da", 
+   69930, 
+   1538818787
+  ], 
+  "galgamebatches/seer/galgame_texture/seer_story1/astc6a_atlas.ab": [
+   "8c916ae36062fe33d10421bf99b04f8e", 
+   945716, 
+   1538888717
+  ], 
+  "galgamebatches/seer/galgame_texture/seer_story2/astc6a_atlas.ab": [
+   "a346170b41d96a7222642f5bcde4590a", 
+   812632, 
+   1539834433
+  ], 
+  "galgamebatches/seer/galgame_texture/seer_story3/astc6a_atlas.ab": [
+   "387d3ca4426a93d821ff8350c29adb3c", 
+   1032984, 
+   1540647065
+  ], 
+  "galgamebatches/silentnightmentor/galgame_prefab/galgamestory_silentnightmentor01.ab": [
+   "d173cf6e98b929ac8a6d8f47e4e667a5", 
+   39862, 
+   1332129464
+  ], 
+  "galgamebatches/silentnightmentor/galgame_prefab/galgamestory_silentnightmentor02.ab": [
+   "48eda348df6019e278e355a63fe96dde", 
+   43428, 
+   1332169326
+  ], 
+  "galgamebatches/silentnightmentor/galgame_prefab/galgamestory_silentnightmentor03.ab": [
+   "a03d0838cabfc2d78a91ce274501f607", 
+   46631, 
+   1332212754
+  ], 
+  "galgamebatches/silentnightmentor/galgame_sound.ab": [
+   "0d280ed79466888aae604ce45a1d1f75", 
+   9060442, 
+   1332259385
+  ], 
+  "galgamebatches/silentnightmentor/galgame_texture/silentnightmentor_common/astc6a_atlas.ab": [
+   "78dfa38bf8016a3074ee776c6c9b427b", 
+   71433, 
+   1541680049
+  ], 
+  "galgamebatches/silentnightmentor/galgame_texture/silentnightmentor_story1/astc6a_atlas.ab": [
+   "a982f294fc98d947fe42dcca8e2c91ca", 
+   876962, 
+   1541751482
+  ], 
+  "galgamebatches/silentnightmentor/galgame_texture/silentnightmentor_story2/astc6a_atlas.ab": [
+   "22b601bf63156d8e2d256f5e8cae123f", 
+   1100940, 
+   1542628444
+  ], 
+  "galgamebatches/silentnightmentor/galgame_texture/silentnightmentor_story3/astc6a_atlas.ab": [
+   "2c785814e7080cee89b4c488221e1df0", 
+   938994, 
+   1543729384
+  ], 
+  "galgamebatches/streamerearl/galgame_prefab/galgamestory_streamerearl01.ab": [
+   "1be36d6b04eb69ae6b0e1b450bd3f226", 
+   21412, 
+   1341319827
+  ], 
+  "galgamebatches/streamerearl/galgame_prefab/galgamestory_streamerearl02.ab": [
+   "2863372357a0152e8bfe8c69215599e0", 
+   22631, 
+   1341341239
+  ], 
+  "galgamebatches/streamerearl/galgame_prefab/galgamestory_streamerearl03.ab": [
+   "85d5d384d4670d0a7e2d45ff69aad6ef", 
+   21194, 
+   1341363870
+  ], 
+  "galgamebatches/streamerearl/galgame_sound.ab": [
+   "6147eb395baca346f8ac036d3178ea83", 
+   10407138, 
+   1341385064
+  ], 
+  "galgamebatches/streamerearl/galgame_texture/streamerearl_common/astc6a_atlas.ab": [
+   "d3586d36f03558cb04da0351a7ef58bd", 
+   70859, 
+   1544668378
+  ], 
+  "galgamebatches/streamerearl/galgame_texture/streamerearl_story1/astc6a_atlas.ab": [
+   "5ae1221b5d72ed4a7725a0c99e3a6cdf", 
+   1310230, 
+   1544739237
+  ], 
+  "galgamebatches/streamerearl/galgame_texture/streamerearl_story2/astc6a_atlas.ab": [
+   "339f0549c06dce9b4328b73c4ca78747", 
+   1806816, 
+   1546049467
+  ], 
+  "galgamebatches/streamerearl/galgame_texture/streamerearl_story3/astc6a_atlas.ab": [
+   "270b8a68c10c60731bcd56d5d41e5b77", 
+   1489953, 
+   1547856283
+  ], 
+  "galgamebatches/thief/galgame_prefab/galgamestory_thief01.ab": [
+   "def92a22e32945a2cc820020a43179ae", 
+   35305, 
+   1351792202
+  ], 
+  "galgamebatches/thief/galgame_prefab/galgamestory_thief02.ab": [
+   "6fa87a52d7787cc0c3040acf198ab6d6", 
+   35363, 
+   1351827507
+  ], 
+  "galgamebatches/thief/galgame_prefab/galgamestory_thief03.ab": [
+   "c5f77665c5427bacaf49c28b43bfa2bc", 
+   34118, 
+   1351862870
+  ], 
+  "galgamebatches/thief/galgame_sound.ab": [
+   "73036676f6e732e01c6b1cb78d6ec639", 
+   7982636, 
+   1351896988
+  ], 
+  "galgamebatches/thief/galgame_texture/thief_common/astc6a_atlas.ab": [
+   "1ee218633ba78982954f75bf275e28d2", 
+   70010, 
+   1549346236
+  ], 
+  "galgamebatches/thief/galgame_texture/thief_story1/astc6a_atlas.ab": [
+   "70aa68d54d449c099c24a8a8b072a2b3", 
+   1103579, 
+   1549416246
+  ], 
+  "galgamebatches/thief/galgame_texture/thief_story2/astc6a_atlas.ab": [
+   "e13fc7930cb19152c0900914ff96587f", 
+   1092268, 
+   1550519825
+  ], 
+  "galgamebatches/thief/galgame_texture/thief_story3/astc6a_atlas.ab": [
+   "0faa6551615f8777d33f3a9bf0b29b78", 
+   1015071, 
+   1551612093
+  ], 
+  "galgamebatches/trader/galgame_prefab/galgamestory_trader01.ab": [
+   "fd3785ee34ab2abb7bd275ead68c82c0", 
+   34228, 
+   1359879624
+  ], 
+  "galgamebatches/trader/galgame_prefab/galgamestory_trader02.ab": [
+   "8d2db4f08305dcaa52c7f22300ab03ac", 
+   34868, 
+   1359913852
+  ], 
+  "galgamebatches/trader/galgame_prefab/galgamestory_trader03.ab": [
+   "7a49662ef4c86e2c678a011c8f6a1941", 
+   38025, 
+   1359948720
+  ], 
+  "galgamebatches/trader/galgame_sound.ab": [
+   "81df5ec47fc8aa68298f112ca0784e72", 
+   16174121, 
+   1359986745
+  ], 
+  "galgamebatches/trader/galgame_texture/trader_common/astc6a_atlas.ab": [
+   "9e6dba7a8ae3ea2feed095e4321fb9cb", 
+   70925, 
+   1552627164
+  ], 
+  "galgamebatches/trader/galgame_texture/trader_story1/astc6a_atlas.ab": [
+   "48d09ccd162c49a1e505b24796b805d8", 
+   1386735, 
+   1552698089
+  ], 
+  "galgamebatches/trader/galgame_texture/trader_story2/astc6a_atlas.ab": [
+   "176a47b24f61bad79f5c010de3baf7a0", 
+   2315320, 
+   1554084824
+  ], 
+  "galgamebatches/trader/galgame_texture/trader_story3/astc6a_atlas.ab": [
+   "a0b398e1705ac64ee5454bdbfbf7b3d3", 
+   1759844, 
+   1556400144
+  ], 
+  "galgamebatches/whitesister/galgame_prefab/galgamestory_whitesister01.ab": [
+   "119b376b39f5de5d84cc88fa6d0c3b4b", 
+   32682, 
+   1376160866
+  ], 
+  "galgamebatches/whitesister/galgame_prefab/galgamestory_whitesister02.ab": [
+   "293a664e6cfddc076e0256e69e339866", 
+   32878, 
+   1376193548
+  ], 
+  "galgamebatches/whitesister/galgame_prefab/galgamestory_whitesister03.ab": [
+   "5451cbf2af35965836e722c00b95342c", 
+   35601, 
+   1376226426
+  ], 
+  "galgamebatches/whitesister/galgame_sound.ab": [
+   "b80548d3d5a2ba6b3952fad3ff84a801", 
+   7688305, 
+   1376262027
+  ], 
+  "galgamebatches/whitesister/galgame_texture/whitesister_common/astc6a_atlas.ab": [
+   "da443f33aa2a81b5ab0c2967648a4da3", 
+   72349, 
+   1558159988
+  ], 
+  "galgamebatches/whitesister/galgame_texture/whitesister_story1/astc6a_atlas.ab": [
+   "e40258fa598a6b8c48dd5f8cffa0c4fb", 
+   918677, 
+   1558232337
+  ], 
+  "galgamebatches/whitesister/galgame_texture/whitesister_story2/astc6a_atlas.ab": [
+   "43779859204375f909d7cd69902dc1da", 
+   762810, 
+   1559151014
+  ], 
+  "galgamebatches/whitesister/galgame_texture/whitesister_story3/astc6a_atlas.ab": [
+   "135be250ff2c83d11db5013970965b1f", 
+   824438, 
+   1559913824
+  ], 
+  "galgamebatches/whitewolvesking/galgame_prefab/galgamestory_whitewolvesking01.ab": [
+   "af6c5e65910daa36315b6ee18d5ee36f", 
+   58417, 
+   1383950332
+  ], 
+  "galgamebatches/whitewolvesking/galgame_prefab/galgamestory_whitewolvesking02.ab": [
+   "4a9e990dfccdb84dcf7e4b9152b1caf4", 
+   46730, 
+   1384008749
+  ], 
+  "galgamebatches/whitewolvesking/galgame_prefab/galgamestory_whitewolvesking03.ab": [
+   "ec626e858a446c2ab57e4485d2128428", 
+   45705, 
+   1384055479
+  ], 
+  "galgamebatches/whitewolvesking/galgame_sound.ab": [
+   "3bdf9596ba66a0eb3e174954becf8c2e", 
+   7622923, 
+   1384101184
+  ], 
+  "galgamebatches/whitewolvesking/galgame_texture/whitewolvesking_common/astc6a_atlas.ab": [
+   "0daf7c50160b060afbfacc2d0516d94c", 
+   70253, 
+   1560738262
+  ], 
+  "galgamebatches/whitewolvesking/galgame_texture/whitewolvesking_story1/astc6a_atlas.ab": [
+   "5165eadb46b009268daeede30dd390ec", 
+   878629, 
+   1560808515
+  ], 
+  "galgamebatches/whitewolvesking/galgame_texture/whitewolvesking_story2/astc6a_atlas.ab": [
+   "10244382cc7b18f93993c792e17cd798", 
+   848793, 
+   1561687144
+  ], 
+  "galgamebatches/whitewolvesking/galgame_texture/whitewolvesking_story3/astc6a_atlas.ab": [
+   "7850b8bc444cfbb8f5352af1fab13885", 
+   899229, 
+   1562535937
+  ], 
+  "galgamebatches/witch/galgame_prefab/galgamestory_witch01.ab": [
+   "774c04280b3a95cbf3f3a93682c39826", 
+   48376, 
+   1391724107
+  ], 
+  "galgamebatches/witch/galgame_prefab/galgamestory_witch02.ab": [
+   "16e44e94841ebefe2ae173bf19b4575f", 
+   73661, 
+   1391772483
+  ], 
+  "galgamebatches/witch/galgame_sound.ab": [
+   "b8e3107d3fe599604769fb518eb14ed0", 
+   6344796, 
+   1391846144
+  ], 
+  "galgamebatches/witch/galgame_texture/witch_common/astc6a_atlas.ab": [
+   "745fd7752cebc53eccb087d7512cf975", 
+   68609, 
+   1563435166
+  ], 
+  "galgamebatches/witch/galgame_texture/witch_story1/astc6a_atlas.ab": [
+   "e558736ff35c8fa075a38c7105317fce", 
+   702809, 
+   1563503775
+  ], 
+  "galgamebatches/witch/galgame_texture/witch_story2/astc6a_atlas.ab": [
+   "1fefa212540ea2c97090a8aad253c308", 
+   978797, 
+   1564206584
+  ], 
+  "galgamebatches/wolfbeauty/galgame_prefab/galgamestory_wolfbeauty01.ab": [
+   "56e1b0b4c0a40d3c93dcd881290f32c6", 
+   50006, 
+   1398190940
+  ], 
+  "galgamebatches/wolfbeauty/galgame_prefab/galgamestory_wolfbeauty02.ab": [
+   "4bd65eb7c418041641a6908232cbb251", 
+   53054, 
+   1398240946
+  ], 
+  "galgamebatches/wolfbeauty/galgame_prefab/galgamestory_wolfbeauty03.ab": [
+   "f2f9564f9cdbe9bb9cf86c90210d0228", 
+   52033, 
+   1398294000
+  ], 
+  "galgamebatches/wolfbeauty/galgame_sound.ab": [
+   "1436d221a10728b5016c87486b046516", 
+   9418634, 
+   1398346033
+  ], 
+  "galgamebatches/wolfbeauty/galgame_texture/wolfbeauty_common/astc6a_atlas.ab": [
+   "de341e1a3f79e323c7690911867cda32", 
+   69508, 
+   1565185381
+  ], 
+  "galgamebatches/wolfbeauty/galgame_texture/wolfbeauty_story1/astc6a_atlas.ab": [
+   "9caaf39784d9b226f017db1cfefd5fe6", 
+   844998, 
+   1565254889
+  ], 
+  "galgamebatches/wolfbeauty/galgame_texture/wolfbeauty_story2/astc6a_atlas.ab": [
+   "989701904adc2584a44d905cca20151e", 
+   1017539, 
+   1566099887
+  ], 
+  "galgamebatches/wolfbeauty/galgame_texture/wolfbeauty_story3/astc6a_atlas.ab": [
+   "bc427c505b7501eda8b2f0ee612f328a", 
+   1148044, 
+   1567117426
+  ], 
+  "galgamebatches/wolfcrow/galgame_prefab/galgamestory_wolfcrow01.ab": [
+   "d4baa09697362dfd92947a2da1b9daf3", 
+   34224, 
+   1407764667
+  ], 
+  "galgamebatches/wolfcrow/galgame_prefab/galgamestory_wolfcrow02.ab": [
+   "452e108c0e7bd88e9322deafbd90f907", 
+   36523, 
+   1407798891
+  ], 
+  "galgamebatches/wolfcrow/galgame_prefab/galgamestory_wolfcrow03.ab": [
+   "af718a9310241c07d91748b9ffaf1095", 
+   40652, 
+   1407835414
+  ], 
+  "galgamebatches/wolfcrow/galgame_sound.ab": [
+   "d63053945b5ad990d196185aee9881f6", 
+   8674199, 
+   1407876066
+  ], 
+  "galgamebatches/wolfcrow/galgame_texture/wolfcrow_common/astc6a_atlas.ab": [
+   "a75d514fa96aef57b220bbee3e171fdc", 
+   72121, 
+   1568265470
+  ], 
+  "galgamebatches/wolfcrow/galgame_texture/wolfcrow_story1/astc6a_atlas.ab": [
+   "1da384131777cf142c44e61a0fcf1bb5", 
+   1070128, 
+   1568337591
+  ], 
+  "galgamebatches/wolfcrow/galgame_texture/wolfcrow_story2/astc6a_atlas.ab": [
+   "99d90c66aa0f93c859ffcbc4f080e8c9", 
+   1059185, 
+   1569407719
+  ], 
+  "galgamebatches/wolfcrow/galgame_texture/wolfcrow_story3/astc6a_atlas.ab": [
+   "8d587e99d11775fe61533ce4c0e40c92", 
+   1165288, 
+   1570466904
+  ], 
+  "galgamebatches/wolfqueen/galgame_prefab/galgamestory_wolfqueen01.ab": [
+   "72ebddf15254188936e84af645b9407a", 
+   36922, 
+   1416550265
+  ], 
+  "galgamebatches/wolfqueen/galgame_prefab/galgamestory_wolfqueen02.ab": [
+   "b433a01074e4fb762e3ccd563032cd64", 
+   34056, 
+   1416587187
+  ], 
+  "galgamebatches/wolfqueen/galgame_prefab/galgamestory_wolfqueen03.ab": [
+   "3db0858b80eac7beac5b7718c848cded", 
+   33220, 
+   1416621243
+  ], 
+  "galgamebatches/wolfqueen/galgame_sound.ab": [
+   "0a61d6b638aa1d583818aa5e73cea646", 
+   6186997, 
+   1416654463
+  ], 
+  "galgamebatches/wolfqueen/galgame_texture/wolfqueen_common/astc6a_atlas.ab": [
+   "b6e5aaafe0a26af3f548bbf496b1adc7", 
+   72351, 
+   1571632192
+  ], 
+  "galgamebatches/wolfqueen/galgame_texture/wolfqueen_story1/astc6a_atlas.ab": [
+   "1472271d9c46e73c4ff9b94d16234b21", 
+   1016293, 
+   1571704543
+  ], 
+  "galgamebatches/wolfqueen/galgame_texture/wolfqueen_story2/astc6a_atlas.ab": [
+   "7ecc5e33d3931073c5dd3d30157f85dc", 
+   978984, 
+   1572720836
+  ], 
+  "galgamebatches/wolfqueen/galgame_texture/wolfqueen_story3/astc6a_atlas.ab": [
+   "6ff56da65e7dfd75be3d881df2065c7a", 
+   939339, 
+   1573699820
+  ], 
+  "galgamebatches/wolfwitch/galgame_prefab/galgamestory_wolfwitch01.ab": [
+   "1a34c20c1135f9c7e447d71ce263fe6c", 
+   34848, 
+   1422841460
+  ], 
+  "galgamebatches/wolfwitch/galgame_prefab/galgamestory_wolfwitch02.ab": [
+   "6c374d68db2e27c1f94443d74b0a0846", 
+   32226, 
+   1422876308
+  ], 
+  "galgamebatches/wolfwitch/galgame_prefab/galgamestory_wolfwitch03.ab": [
+   "23db38e565486fdb8a90dd15638ff834", 
+   33977, 
+   1422908534
+  ], 
+  "galgamebatches/wolfwitch/galgame_sound.ab": [
+   "4ae953abb7ac2a2d89190b54c5ed60d2", 
+   10348983, 
+   1422942511
+  ], 
+  "galgamebatches/wolfwitch/galgame_texture/wolfwitch_common/astc6a_atlas.ab": [
+   "abdade7bde949d17c4870ddb380fa616", 
+   68192, 
+   1574639159
+  ], 
+  "galgamebatches/wolfwitch/galgame_texture/wolfwitch_story1/astc6a_atlas.ab": [
+   "9a17da4f232c58735d51b541e1300206", 
+   770973, 
+   1574707351
+  ], 
+  "galgamebatches/wolfwitch/galgame_texture/wolfwitch_story2/astc6a_atlas.ab": [
+   "77098c6df395e886eec1570aa5954ed0", 
+   716452, 
+   1575478324
+  ], 
+  "galgamebatches/wolfwitch/galgame_texture/wolfwitch_story3/astc6a_atlas.ab": [
+   "8805b73965abe6eeeb06b6c698b18b7b", 
+   1060722, 
+   1576194776
+  ], 
+  "galgamebatches/wolvesking/galgame_prefab/galgamestory_wolvesking01.ab": [
+   "7b5eca9f66c50ed87438bf15954e8c5c", 
+   66368, 
+   1433291494
+  ], 
+  "galgamebatches/wolvesking/galgame_prefab/galgamestory_wolvesking02.ab": [
+   "5ad27144fe309b4e0eae3e401320492a", 
+   53902, 
+   1433357862
+  ], 
+  "galgamebatches/wolvesking/galgame_prefab/galgamestory_wolvesking03.ab": [
+   "78e688755c7415623b9acf79d7fdbd2c", 
+   52842, 
+   1433411764
+  ], 
+  "galgamebatches/wolvesking/galgame_sound.ab": [
+   "d4f080d3632038bb7818313698fa43a9", 
+   7127851, 
+   1433464606
+  ], 
+  "galgamebatches/wolvesking/galgame_texture/wolvesking_common/astc6a_atlas.ab": [
+   "1fe51ba44d6530651eff5bfc1019aaa7", 
+   68931, 
+   1577255498
+  ], 
+  "galgamebatches/wolvesking/galgame_texture/wolvesking_story1/astc6a_atlas.ab": [
+   "7c08fdac027959ba2a6f3a027bcff3ec", 
+   913278, 
+   1577324429
+  ], 
+  "galgamebatches/wolvesking/galgame_texture/wolvesking_story2/astc6a_atlas.ab": [
+   "4a200e4ffb3c469fc7d051a2bd11933a", 
+   702891, 
+   1578237707
+  ], 
+  "galgamebatches/wolvesking/galgame_texture/wolvesking_story3/astc6a_atlas.ab": [
+   "17b8fc06b839b551039844432c7d0333", 
+   730849, 
+   1578940598
+  ], 
+  "letsplaygamebatches/syntheticprophet/sypgame_animation/ball.ab": [
+   "ad625905e0bb49c3747ebcd73daee762", 
+   9897, 
+   1440592457
+  ], 
+  "letsplaygamebatches/syntheticprophet/sypgame_animation/ball_fx_01.ab": [
+   "372ced551c02b1c0df9ee78ffcc4ed6c", 
+   10764, 
+   1440602354
+  ], 
+  "letsplaygamebatches/syntheticprophet/sypgame_animation/ball_fx_02.ab": [
+   "a39665c626472696496cfa1ee6e8ae1f", 
+   11628, 
+   1440613118
+  ], 
+  "letsplaygamebatches/syntheticprophet/sypgame_materials.ab": [
+   "a8ef01a079e881d4a0a77a3ae89d2c45", 
+   1379, 
+   1440624746
+  ], 
+  "letsplaygamebatches/syntheticprophet/sypgame_prefab/ball.ab": [
+   "744eebc37d2f32791750d2a3dfa99cdd", 
+   5626, 
+   1440626125
+  ], 
+  "letsplaygamebatches/syntheticprophet/sypgame_prefab/ball_fx_01.ab": [
+   "a88ef0d7b24ea8b44b8eac84bca568cc", 
+   5175, 
+   1440631751
+  ], 
+  "letsplaygamebatches/syntheticprophet/sypgame_prefab/ball_fx_02.ab": [
+   "ec4359d518ce5de19f863adf59638e9a", 
+   6015, 
+   1440636926
+  ], 
+  "letsplaygamebatches/syntheticprophet/sypgame_prefab/sypgamescene.ab": [
+   "90d579bde57782f2028e5c51b2e41ad7", 
+   23454, 
+   1440642941
+  ], 
+  "letsplaygamebatches/syntheticprophet/sypgame_sound.ab": [
+   "2679540571422b4c71928f452cb50ffd", 
+   79329, 
+   1440666395
+  ], 
+  "letsplaygamebatches/syntheticprophet/sypgame_texture/astc6a_atlas.ab": [
+   "475948a8082dbd04033e9eadff8aa4dd", 
+   618776, 
+   1579671447
+  ], 
+  "letsplaygamebatches/syntheticprophet/sypgame_texture/ball/astc6a_atlas.ab": [
+   "2a461c2f020ca52a454d4914b6cb1556", 
+   149177, 
+   1580290223
+  ], 
+  "letsplaygamebatches/syntheticprophet/sypgame_texture/ball_fx/astc6a_atlas.ab": [
+   "08344b68613c62fd160bfb9f52a1c062", 
+   194123, 
+   1580439400
+  ], 
+  "letsplaygamebatches/syntheticprophet/sypgame_texture/sypgame_texture1/astc6a_atlas.ab": [
+   "a71794a25149b98e9dd5d886a36fc9ca", 
+   309204, 
+   1580633523
+  ]
+ }
+}

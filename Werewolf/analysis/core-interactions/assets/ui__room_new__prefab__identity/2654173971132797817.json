@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8129859241033151563
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6151454109003814489
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 614097607517179710
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6069569725661961549
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6165921862841777920
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "RoleCards_big",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

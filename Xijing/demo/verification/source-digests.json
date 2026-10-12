@@ -1,0 +1,34 @@
+{
+  "index.html": {
+    "sha256": "68a642051b53c8abdbd999780a1dc6bdacae4495f8a0f44c2dd6b071b786fa37",
+    "bytes": 6948
+  },
+  "style.css": {
+    "sha256": "542ca1ea71f7f1f0e726aff5fe018486eae59da14ef7018566173f9df14f407e",
+    "bytes": 22802
+  },
+  "model.mjs": {
+    "sha256": "58b763345ec8493e5a4b6d9deee5e47aa13baf3569b6da581e4b1fadc749b8a8",
+    "bytes": 7463
+  },
+  "audio.mjs": {
+    "sha256": "0f0121fdccf91da451b04bd10b70d9b5ba22b686d6265b3c9515a0e26cbff37c",
+    "bytes": 5563
+  },
+  "app.mjs": {
+    "sha256": "67f0cf542bf92f2815f006f524851e06480eba81ef1b473b3620669231f919a7",
+    "bytes": 23398
+  },
+  "server.mjs": {
+    "sha256": "744f090e3f96b7437d506494a60de9d2ed8e34e232612acda1b21f55b54038fb",
+    "bytes": 1680
+  },
+  "assets/rain.wav": {
+    "sha256": "e1d83a0bbab7c0743e74591fe5621389efa9106a0fad81c27aea0e70ffba9cfa",
+    "bytes": 2822444
+  },
+  "assets/dawn.wav": {
+    "sha256": "47d5ee938a255bbf46973fe569d58f808359ef45ba50294028e3e62370eae4ec",
+    "bytes": 2116844
+  }
+}

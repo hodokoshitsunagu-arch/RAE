@@ -1,0 +1,81 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 296074377466633505
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 6591329763917437092
+  },
+  "m_Name": "",
+  "m_Material": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1.0
+  },
+  "m_RaycastTarget": 1,
+  "m_RaycastPadding": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "m_Maskable": 1,
+  "m_OnCullStateChanged": {
+    "m_PersistentCalls": {
+      "m_Calls": []
+    }
+  },
+  "m_FontData": {
+    "m_Font": {
+      "m_FileID": 7,
+      "m_PathID": -7416292861742408790
+    },
+    "m_FontSize": 32,
+    "m_FontStyle": 0,
+    "m_BestFit": 0,
+    "m_MinSize": 3,
+    "m_MaxSize": 40,
+    "m_Alignment": 3,
+    "m_AlignByGeometry": 0,
+    "m_RichText": 0,
+    "m_HorizontalOverflow": 1,
+    "m_VerticalOverflow": 0,
+    "m_LineSpacing": 1.0
+  },
+  "m_Text": "",
+  "m_Config": {
+    "m_FileID": 33,
+    "m_PathID": 119908613571998718
+  },
+  "hrefOnClickedEvent": {
+    "m_PersistentCalls": {
+      "m_Calls": []
+    }
+  },
+  "hrefOnClickedEventName": "OnHrefClicked",
+  "onTextChangedEvent": {
+    "m_PersistentCalls": {
+      "m_Calls": []
+    }
+  },
+  "altPredefinedStringColor": 0,
+  "predefinedStringColor": {
+    "r": 0.0,
+    "g": 1.0,
+    "b": 0.0,
+    "a": 1.0
+  },
+  "showRawText": 0,
+  "quantityPlusSuffix": 0,
+  "suffixStr": "",
+  "characterLimit": 0,
+  "characterBaseline": 0.0,
+  "emojiBaseline": 0.0
+}

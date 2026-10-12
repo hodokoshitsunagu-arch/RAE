@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2206713110945515458
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6125644247342764960
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4436804941322779109
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "room_big_prompt_bg",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

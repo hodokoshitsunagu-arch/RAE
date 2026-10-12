@@ -1,0 +1,7 @@
+{
+  "mode": "built-in image_gen tool",
+  "purpose": "original demo scene, not APK evidence",
+  "output_path": "/Users/mark/Projects/REA/Jubensha/demo/assets/manor.png",
+  "sha256": "919aa8acd8b92397942cc7d7f17789566722e1727522cc89adcfb75444045ce3",
+  "prompt": "Use case: illustration-story. Asset type: scene art for an original murder mystery browser demo. Draw a cinematic painterly illustration of a fictional secluded 1930s Chinese coastal manor at night in mist and rain, warm amber windows and one conservatory, elegant stone mansion against dark pines, wet reflecting path in foreground, moonlit slate blue and muted teal palette with restrained warm brass light. Wide 3:2 composition, manor centered with generous dark foreground. No people, no text, no letters, no logos, no watermark. It should feel atmospheric and human-painted, detailed architecture, a refined detective story book cover, not horror gore. Save into the tool's normal output location."
+}

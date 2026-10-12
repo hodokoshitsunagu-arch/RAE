@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 365732885746062668
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6747737340787233243
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7551591660696956121
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3152872037360050454
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "LogicBtn",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

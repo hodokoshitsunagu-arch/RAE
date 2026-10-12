@@ -1,0 +1,56 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 263411951928710879
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4085650508267983622
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7454387344651550373
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3226558829487761961
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8049558271620896295
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -852996279517764693
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2912012793906217017
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 9183656443531105393
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "pre_NoInsertTalking",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

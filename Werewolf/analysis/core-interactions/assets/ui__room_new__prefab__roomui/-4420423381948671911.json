@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7598500631437207139
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5447824656155126094
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 791793076284567887
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "GameObject",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

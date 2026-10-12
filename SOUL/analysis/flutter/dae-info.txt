@@ -1,0 +1,14 @@
+container	elf
+features	product no-code_comments no-dwarf_stack_traces_mode dedup_instructions no-tsan no-msan arm64 android compressed-pointers
+arch	arm64
+sdk	dart/3.6.1
+sdk status	unverified
+snapshot	vm+iso
+instructions base	0x276b40
+instructions table entries	17533
+libraries	650
+classes	2707
+functions (disassembled + no address)	15462
+strings	19895
+VM/ISO objects	1168 / 105364
+warnings	0

@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8578264071099416009
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8385388655166293890
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5128690045882818677
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8725657362811324520
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Role2",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

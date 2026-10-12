@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4308097371474024879
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6388050841293940753
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6863380061947120838
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2835488811296154247
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "RoomCountdown",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

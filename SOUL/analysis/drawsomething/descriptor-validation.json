@@ -1,0 +1,6 @@
+{
+  "compiler": "libprotoc 35.1",
+  "compilation": "passed",
+  "semantic_descriptor_match": true,
+  "comparison": "All FileDescriptorProto contents compared recursively; declaration field order normalized by field number and modern generated json_name ignored. Original had no json_name. No field, type, enum, oneof, map, option or syntax differences allowed."
+}

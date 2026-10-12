@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8589096978942420065
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4695937231055112335
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1390953821342763995
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4721667569342233184
+      }
+    }
+  ],
+  "m_Layer": 0,
+  "m_Name": "Vote_Public_ScrollView",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

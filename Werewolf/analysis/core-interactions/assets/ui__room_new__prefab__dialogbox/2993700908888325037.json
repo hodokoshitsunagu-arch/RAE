@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7054601225479664443
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3438141075775746078
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2992864115037617975
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3435616177330286104
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8703165048309269834
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "KillVote",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

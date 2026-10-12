@@ -1,0 +1,20 @@
+target: SOUL/analysis/flutter/libapp.so (elf arm64)
+target: 109 libraries, 229 classes, 1134 functions
+export done -> /Users/mark/Projects/REA/SOUL/analysis/flutter/recovered:
+  r2_script/addNames.r2     1134 named functions/addresses
+  ida_script/addNames.py    14866 named functions + Dart struct header
+  frida.js                  4006 Classes entries
+  asm/                      1041 disassembled functions + IL
+  text/pp.txt               21534 object pool entries
+  text/objs.txt             2354 user class instances
+  text/strings.txt          19000 strings
+  text/libs.txt             708 libraries
+  text/classes.txt          4236 classes
+  text/functions.txt        1134 functions
+  text/arrays.txt           7572 arrays
+  text/maps.txt             146 maps
+  text/fields.txt           511 named fields
+  text/stubs.txt            2667 table entries not referenced by any Function（1961 named）
+  call_edges.txt            8383 direct edges + 494 indirect calls（6018 resolved）
+  dart/                     1041 function pseudocode blocks (9965 blocks / 101171 statements; 1010 structured, 31 unstructured; 0 unmapped lines; 8383 direct calls, 7323 named)
+done (elapsed 0.520s)

@@ -1,0 +1,48 @@
+{
+  "source_sha256": "5870d8ef15292cb7aedd91cd76fdc7c1b20f466cab5ec650692327e31a933373",
+  "derived_path": "/tmp/rea-werewolf-20261012/netease-lrs-code-view.apk",
+  "derived_sha256": "a08726481b64d1f5a76a5b9775153c9e7821bec79c0c886414d741a996f53f02",
+  "retained_members": [
+    {
+      "member": "AndroidManifest.xml",
+      "sha256": "eaa1a5c4d12d1919154e05ea926f38ab0c05722caa39021f29bab3866956eac8",
+      "size": 78440
+    },
+    {
+      "member": "classes.dex",
+      "sha256": "c6b1a0ba39700597cfd6891a2252ee0f0942d67de27f79eaa2538a44da5d4dbd",
+      "size": 5903248
+    },
+    {
+      "member": "classes2.dex",
+      "sha256": "f33d622fc769740af8ac2d512a1dc60734ce13f7e8ffc5656004534ffa5f1172",
+      "size": 4286772
+    },
+    {
+      "member": "classes3.dex",
+      "sha256": "80e2a8de0db02a02aa43cb0b68bdb5aedfa26d1c2768abd1544c26842eb3c32b",
+      "size": 4439180
+    },
+    {
+      "member": "classes4.dex",
+      "sha256": "4d8857602f1b5abac00af43205041b1dc1bd15b934ba1fdab687244a6bd473e3",
+      "size": 4812588
+    },
+    {
+      "member": "classes5.dex",
+      "sha256": "7157645266d79efdf1ff1cbe2c49547bd021c8052257057176de61028e3697a6",
+      "size": 4855212
+    },
+    {
+      "member": "classes6.dex",
+      "sha256": "cc91f53dd2a57188e80d0065b793b27e6982dc6881e328411c1c36568f6751bc",
+      "size": 3162632
+    },
+    {
+      "member": "resources.arsc",
+      "sha256": "6894ee1acdf6874736fbe1441bb3fa8f8f05cd68699b3f1f71ca24390b9f6f5a",
+      "size": 2506384
+    }
+  ],
+  "omitted": "all other members; this is a static analysis view, not an installable or authenticated release"
+}

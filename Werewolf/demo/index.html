@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#10151e"><title>狼人杀 · 月下城堡交互演示</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="site-header"><a href="#" class="brand"><span class="brand-mark">狼</span><span>狼人杀<small>月下城堡</small></span></a><div class="header-note">经典对局 <span>/</span> 交互重构</div><button class="quiet" data-act="about">演示说明</button></header>
+<main class="workspace">
+<aside class="controls"><div class="control-heading"><span class="line"></span><h1>今晚，你是谁？</h1></div><p class="intro">带着你的身份入座。<br>在谎言与推理之间，找到答案。</p><label class="field-label">体验身份</label><div id="role-picker" class="role-picker"></div><div class="control-block"><label for="scene-select" class="field-label">直接体验一段交互</label><select id="scene-select"><option value="lobby">入座准备</option><option value="night">夜间技能</option><option value="speech">我的发言</option><option value="vote">放逐投票</option><option value="hunter">猎人开枪</option><option value="result">胜负结算</option></select><button class="text-button" data-act="scenario">进入所选场景 <span>→</span></button></div><div class="control-block"><div class="switch-row"><label for="autoplay">自动推进其他玩家</label><input id="autoplay" type="checkbox" role="switch"></div><p class="helper">模拟席位每 3 秒结束发言。轮到你操作时会等待。</p><button class="secondary wide" data-act="reset">重新开局</button></div><p class="local-note">本地单人演示<br>其他 11 位为模拟玩家</p></aside>
+<section class="game-shell" aria-label="狼人杀对局">
+<div class="room-header"><div><span class="room-flag">12 人 · 预女猎白</span><h2>月下城堡</h2></div><button class="room-more" data-act="rules" aria-label="查看板子规则">•••</button></div>
+<div id="phase-track" class="phase-track"></div><div class="room-hint"><span class="signal-dot"></span><span id="room-status">房间已就绪</span><span class="room-id">房间 1024</span></div>
+<div id="arena" class="arena"><div id="seat-left" class="seat-column left"></div><div id="center-stage" class="center-stage" aria-live="polite"></div><div id="seat-right" class="seat-column right"></div></div>
+<div id="action-panel" class="action-panel"></div>
+<div class="room-toolbar"><button data-act="identity"><span class="tool-glyph">◇</span>我的身份</button><button data-act="ballots"><span class="tool-glyph">▥</span>票型一览</button><button data-act="journal"><span class="tool-glyph">≡</span>对局记录</button><button data-act="rules"><span class="tool-glyph">?</span>玩法规则</button></div>
+</section>
+<aside class="journal"><div class="journal-heading"><h2>对局手记</h2><span id="day-indicator">第 1 天</span></div><div class="journal-tabs"><button class="active" data-tab="public">公开信息</button><button data-tab="private">我的笔记</button></div><div id="journal-content" class="journal-content" aria-live="polite"></div><div class="board-composition"><span>本局配置</span><div><b>4</b> 狼人 <i>·</i> <b>4</b> 神职 <i>·</i> <b>4</b> 村民</div><p>身份信息只在允许的视角中展示。</p></div></aside>
+</main>
+<footer class="page-footer">基于网易狼人杀 2.18.21 APK 静态证据重构 <span>·</span> 原包素材用于本地研究演示</footer>
+<dialog id="sheet"><button class="dialog-close" data-act="close" aria-label="关闭弹窗">×</button><div id="sheet-content"></div></dialog>
+<div id="toast" class="toast" role="status"></div><script type="module" src="app.mjs"></script>
+</body></html>

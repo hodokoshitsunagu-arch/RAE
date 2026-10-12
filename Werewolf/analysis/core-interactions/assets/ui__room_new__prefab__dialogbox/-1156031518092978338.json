@@ -1,0 +1,29 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 7845345039759325567
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -2608747345691294163
+  },
+  "m_Name": "",
+  "guideID": 28,
+  "trans": {
+    "m_FileID": 0,
+    "m_PathID": 2296271659401474767
+  },
+  "masktrans": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "OffsetPos": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "offsetSize": {
+    "x": 0.0,
+    "y": 0.0
+  }
+}

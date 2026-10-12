@@ -1,0 +1,44 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4427158375415793668
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7834170956939402222
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7889864246018996310
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3103528349354937959
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3914871022924543399
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3248452668601039658
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Skill_Hunter",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

@@ -1,0 +1,20 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -391209039096987217
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4758810230222476310
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "bg_scene",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

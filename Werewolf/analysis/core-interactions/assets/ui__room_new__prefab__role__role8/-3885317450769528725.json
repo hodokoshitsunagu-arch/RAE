@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2601694302405771476
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5772064933438107612
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1540616869816131436
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "headAnim",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

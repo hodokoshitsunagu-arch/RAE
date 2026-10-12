@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3130708763416221269
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2084374368600891568
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2015803043361036890
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -9211330663244349778
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6769328172959015579
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "txt",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6118702771339539547
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7131126802534651605
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5139379820039462564
+      }
+    }
+  ],
+  "m_Layer": 0,
+  "m_Name": "VoiceSpeakBtn",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

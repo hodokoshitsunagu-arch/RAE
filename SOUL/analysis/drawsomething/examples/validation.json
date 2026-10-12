@@ -1,0 +1,45 @@
+{
+  "source": "Synthetic examples created for offline schema validation; not captured SOUL traffic. Round count/timestamp/players are illustrative; no server acceptance established.",
+  "examples": [
+    {
+      "name": "invite",
+      "message_type": "GameMessage",
+      "bytes": 75,
+      "hex": "0a116578616d706c652d6d6573736167652d31120c6578616d706c652d67616d6518012001322422106578616d706c652d706c617965722d612a106578616d706c652d706c617965722d62",
+      "sha256": "6f1068bfc00e9212496175f13ecf64aaa99c9d57c46fbab63a18a20abd56908a",
+      "roundtrip": "passed"
+    },
+    {
+      "name": "ready",
+      "message_type": "GameMessage",
+      "bytes": 20,
+      "hex": "120c6578616d706c652d67616d65180120023a00",
+      "sha256": "af87aaf4ca2b90d739ad7be98f2d873608e15f09d23a350cf4794e938fc8469d",
+      "roundtrip": "passed"
+    },
+    {
+      "name": "guess",
+      "message_type": "GameMessage",
+      "bytes": 33,
+      "hex": "120c6578616d706c652d67616d6518012003420d2a0b1801200328034203e78cab",
+      "sha256": "f146715511410cdb0995d548519f33c8418e786575e4f6cd70ff680a0180837d",
+      "roundtrip": "passed"
+    },
+    {
+      "name": "round-start",
+      "message_type": "GamePsh",
+      "bytes": 15,
+      "hex": "2a0d18044209180120809ec9f59234",
+      "sha256": "0b8599a74a45f4fa31cce634f2c2a6f84315a41dbbe5d5443f6a3f824ef6ec1f",
+      "roundtrip": "passed"
+    },
+    {
+      "name": "gameover",
+      "message_type": "GameMessage",
+      "bytes": 45,
+      "hex": "120c6578616d706c652d67616d65180120044a192a170a150a131a03e78cab2a03e78cab380140809ec9f59234",
+      "sha256": "225f2ab9bbab1c60b804d668865d1b23b9929967ec289e25a0c64c6a660bc8ea",
+      "roundtrip": "passed"
+    }
+  ]
+}

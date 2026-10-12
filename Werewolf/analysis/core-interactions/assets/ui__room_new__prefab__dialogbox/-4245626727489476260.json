@@ -1,0 +1,16 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -3459239859496954240
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": 8193907882658335675
+  },
+  "m_Name": "",
+  "JsonTable": "ColorConfigTable",
+  "ColorStyle": 0,
+  "IdName": "一般按钮底图",
+  "ColorStatus": 0
+}

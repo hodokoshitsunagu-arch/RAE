@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "url": "http://127.0.0.1:4176",
+  "checks": [
+    "full desktop journey",
+    "search budget and filters",
+    "private-note cancellation",
+    "confirmed disclosure",
+    "reload persistence",
+    "vote completion gate",
+    "full mobile journey at 390px, no overflow",
+    "Escape closes native dialog",
+    "multi-question navigation preserves choices",
+    "HTML text escaping",
+    "invalid snapshot recovery"
+  ],
+  "browserErrors": []
+}

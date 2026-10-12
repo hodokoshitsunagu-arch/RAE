@@ -1,0 +1,223 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -6575892817857798019
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -3254468290337994374
+  },
+  "m_Name": "",
+  "mItemPrefabDataList": [
+    {
+      "mItemPrefab": {
+        "m_FileID": 51,
+        "m_PathID": -1085360578248832444
+      },
+      "mItemName": "pre_messagedaybyday1",
+      "mItemFullPath": "",
+      "mPadding": 20.0,
+      "mInitCreateCount": 0,
+      "mStartPosOffset": 0.0
+    },
+    {
+      "mItemPrefab": {
+        "m_FileID": 58,
+        "m_PathID": 7942286759770462944
+      },
+      "mItemName": "pre_messagedaybyday2",
+      "mItemFullPath": "",
+      "mPadding": 20.0,
+      "mInitCreateCount": 0,
+      "mStartPosOffset": 0.0
+    },
+    {
+      "mItemPrefab": {
+        "m_FileID": 53,
+        "m_PathID": 8164760134128806903
+      },
+      "mItemName": "pre_otherMessageNode",
+      "mItemFullPath": "",
+      "mPadding": 20.0,
+      "mInitCreateCount": 0,
+      "mStartPosOffset": 0.0
+    },
+    {
+      "mItemPrefab": {
+        "m_FileID": 46,
+        "m_PathID": -981972835143923455
+      },
+      "mItemName": "pre_ownMessageNode",
+      "mItemFullPath": "",
+      "mPadding": 20.0,
+      "mInitCreateCount": 0,
+      "mStartPosOffset": 0.0
+    },
+    {
+      "mItemPrefab": {
+        "m_FileID": 61,
+        "m_PathID": -263544578397358255
+      },
+      "mItemName": "pre_settlementMessageNode",
+      "mItemFullPath": "",
+      "mPadding": 20.0,
+      "mInitCreateCount": 0,
+      "mStartPosOffset": 0.0
+    },
+    {
+      "mItemPrefab": {
+        "m_FileID": 45,
+        "m_PathID": -2819750602512664184
+      },
+      "mItemName": "pre_speakPromptMessageNode",
+      "mItemFullPath": "",
+      "mPadding": 20.0,
+      "mInitCreateCount": 0,
+      "mStartPosOffset": 0.0
+    },
+    {
+      "mItemPrefab": {
+        "m_FileID": 43,
+        "m_PathID": 8090315778739474594
+      },
+      "mItemName": "pre_detailedMessageNode",
+      "mItemFullPath": "",
+      "mPadding": 20.0,
+      "mInitCreateCount": 0,
+      "mStartPosOffset": 0.0
+    },
+    {
+      "mItemPrefab": {
+        "m_FileID": 48,
+        "m_PathID": 2784663555252492446
+      },
+      "mItemName": "pre_ownCutInMessageNode",
+      "mItemFullPath": "",
+      "mPadding": 20.0,
+      "mInitCreateCount": 0,
+      "mStartPosOffset": 0.0
+    },
+    {
+      "mItemPrefab": {
+        "m_FileID": 41,
+        "m_PathID": 9211372161170517695
+      },
+      "mItemName": "pre_otherCutInMessageNode",
+      "mItemFullPath": "",
+      "mPadding": 20.0,
+      "mInitCreateCount": 0,
+      "mStartPosOffset": 0.0
+    },
+    {
+      "mItemPrefab": {
+        "m_FileID": 54,
+        "m_PathID": 3086589876929391054
+      },
+      "mItemName": "pre_attentionplayer",
+      "mItemFullPath": "",
+      "mPadding": 20.0,
+      "mInitCreateCount": 0,
+      "mStartPosOffset": 0.0
+    },
+    {
+      "mItemPrefab": {
+        "m_FileID": 40,
+        "m_PathID": -8089516727410164805
+      },
+      "mItemName": "pre_tp_settlementMessageNode",
+      "mItemFullPath": "",
+      "mPadding": 20.0,
+      "mInitCreateCount": 0,
+      "mStartPosOffset": 0.0
+    },
+    {
+      "mItemPrefab": {
+        "m_FileID": 49,
+        "m_PathID": -325443808444962313
+      },
+      "mItemName": "pre_room_season_leveup",
+      "mItemFullPath": "",
+      "mPadding": 20.0,
+      "mInitCreateCount": 0,
+      "mStartPosOffset": 0.0
+    },
+    {
+      "mItemPrefab": {
+        "m_FileID": 56,
+        "m_PathID": 8160692674308709696
+      },
+      "mItemName": "pre_funtips_node",
+      "mItemFullPath": "",
+      "mPadding": 20.0,
+      "mInitCreateCount": 0,
+      "mStartPosOffset": 0.0
+    },
+    {
+      "mItemPrefab": {
+        "m_FileID": 50,
+        "m_PathID": -4654209653251374495
+      },
+      "mItemName": "pre_AINoteNode",
+      "mItemFullPath": "",
+      "mPadding": 20.0,
+      "mInitCreateCount": 0,
+      "mStartPosOffset": 0.0
+    },
+    {
+      "mItemPrefab": {
+        "m_FileID": 39,
+        "m_PathID": 6650648482445686633
+      },
+      "mItemName": "pre_detailedMessageNode_click",
+      "mItemFullPath": "",
+      "mPadding": 20.0,
+      "mInitCreateCount": 0,
+      "mStartPosOffset": 0.0
+    }
+  ],
+  "mArrangeType": 0,
+  "mDistanceForRecycle0": 300.0,
+  "mDistanceForNew0": 200.0,
+  "mDistanceForRecycle1": 300.0,
+  "mDistanceForNew1": 200.0,
+  "mSupportScrollBar": 1,
+  "mSmoothDumpRate": 0.30000001192092896,
+  "mSnapVecThreshold": 145.0,
+  "mItemSnapEnable": 0,
+  "mViewPortSnapPivot": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "mItemSnapPivot": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "mEnablePullHeadToRefresh": 0,
+  "mDistanceForPullHeadToRefresh": 200.0,
+  "mPrefabDataForPullHeadToRefresh": {
+    "mItemPrefab": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "mItemName": "",
+    "mItemFullPath": "",
+    "mPadding": 0.0,
+    "mInitCreateCount": 1,
+    "mStartPosOffset": 0.0
+  },
+  "mEnablePullTailToRefresh": 0,
+  "mDistanceForPullTailToRefresh": 200.0,
+  "mPrefabDataForPullTailToRefresh": {
+    "mItemPrefab": {
+      "m_FileID": 0,
+      "m_PathID": 0
+    },
+    "mItemName": "",
+    "mItemFullPath": "",
+    "mPadding": 0.0,
+    "mInitCreateCount": 1,
+    "mStartPosOffset": 0.0
+  },
+  "mInitListViewNeetUpdateCanvas": 1
+}

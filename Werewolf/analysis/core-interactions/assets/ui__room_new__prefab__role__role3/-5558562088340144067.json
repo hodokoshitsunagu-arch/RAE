@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3187539092229605021
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1428783339471951495
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 805466752345647013
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "tag_play_arrows_01",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6384840334613775478
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4039861834892270809
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 219496396832132978
+      }
+    }
+  ],
+  "m_Layer": 0,
+  "m_Name": "Scroll View",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

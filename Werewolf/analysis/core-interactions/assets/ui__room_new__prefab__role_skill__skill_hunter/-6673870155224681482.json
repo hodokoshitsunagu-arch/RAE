@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7590558382070957361
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2680169223703732990
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -662256986604747428
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "sight",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -9195836152705650489
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2753847233584968681
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6722044862194651176
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "bg",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1363868548694703827
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6735970991260944739
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1347589823117363483
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "bullet",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

@@ -1,0 +1,73 @@
+{
+  "retrieved_date": "2026-10-12",
+  "selection": {
+    "names": [
+      "百变大侦探",
+      "我是谜"
+    ],
+    "basis": "历史行业头部候选，现有官方产品与商店规模佐证；未验证2026全市场排名前二",
+    "sources": [
+      "https://file.iyanbao.com/pdf/70938-02db24ce-5377-4972-a36f-2640453e1aa0.pdf",
+      "https://www.taptap.cn/app/136635",
+      "https://r.app.xiaomi.com/details?id=com.wzf.fan"
+    ]
+  },
+  "artifacts": [
+    {
+      "name": "百变大侦探",
+      "package_expected": "com.mszmapp.detective",
+      "version_source": "6.45.2",
+      "source_page": "https://mszmapp.com/",
+      "download_entry": "https://a.app.qq.com/o/simple.jsp?pkgname=com.mszmapp.detective",
+      "source_url": "http://imtt.dd.qq.com/sjy.00022/sjy.00004/16891/apk/FB4F30E3C2C20D2A4248255AF53BF660.apk?fsname=com.mszmapp.detective_6.45.2.apk",
+      "fetched_url": "https://imtt.dd.qq.com/sjy.00022/sjy.00004/16891/apk/FB4F30E3C2C20D2A4248255AF53BF660.apk?fsname=com.mszmapp.detective_6.45.2.apk",
+      "expected_md5": "FB4F30E3C2C20D2A4248255AF53BF660",
+      "expected_size": 458176062,
+      "path": "/Users/mark/Projects/REA/Jubensha/apks/baibian-6.45.2.apk",
+      "size": 458176062,
+      "sha256": "8522e582689c462c2746ffad8dcf7190e98b52d6d93c79468a239005fe8d9fe3",
+      "md5": "fb4f30e3c2c20d2a4248255af53bf660",
+      "zip_crc_failure": null,
+      "zip_members": 14497,
+      "dex_members": [
+        "classes.dex"
+      ],
+      "source_md5_matches": true,
+      "source_size_matches": true
+    },
+    {
+      "name": "我是谜",
+      "package_expected": "com.wzf.fan",
+      "version_source": "3.50.9",
+      "source_page": "http://www.woshimi.cn/",
+      "source_js": "http://www.woshimi.cn/js/app.ae07c227.js",
+      "source_url": "https://woshimiimage.xiyacs.com/apk/Android/3.50.9/wsm-default-release-v3.50.9-281-20260605-111750.apk",
+      "path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk",
+      "size": 295755729,
+      "sha256": "093a2df17162f9bdce8efefe66993b7e5928b3014d31af771b1fc2e520143f15",
+      "md5": "3f5a4cbf616577a5c52cc815dbac38ac",
+      "zip_crc_failure": null,
+      "zip_members": 11663,
+      "dex_members": [
+        "classes.dex",
+        "classes10.dex",
+        "classes11.dex",
+        "classes12.dex",
+        "classes2.dex",
+        "classes3.dex",
+        "classes4.dex",
+        "classes5.dex",
+        "classes6.dex",
+        "classes7.dex",
+        "classes8.dex",
+        "classes9.dex"
+      ]
+    }
+  ],
+  "source_limitations": [
+    "www.911tech.cn 与 www.woshimi.cn HTTPS 证书主机名不匹配；未关闭TLS验证。百变经有效TLS的mszmapp.com官网访问；我是谜入口经HTTP官网取得，APK经HTTPS读取。",
+    "下载入口固定的是官网/指定商店当前所提供版本，不证明为所有渠道最新。",
+    "尚未与独立官方签名证书基线核对，不宣称发行方签名身份已认证。"
+  ],
+  "execution": "仅静态分析；未安装APK、登录、加入房间或请求包内业务服务。"
+}

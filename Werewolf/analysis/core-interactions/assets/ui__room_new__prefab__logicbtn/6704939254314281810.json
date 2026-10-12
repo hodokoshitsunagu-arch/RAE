@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1596780945033310193
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6528243083390564466
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 258942766824039146
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Button_rolechoose",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

@@ -1,0 +1,44 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1096015338898832845
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7802755607570700153
+  },
+  "m_Name": "",
+  "bindDic": {
+    "m_keys": [
+      "itemTipsPos",
+      "itemAnswerPos",
+      "maskObj",
+      "choiceHead",
+      "choiceMask"
+    ],
+    "m_values": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 5001793002625411591
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 8537367164618519145
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -1725754075850090723
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -1465950453860849609
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -3573163036208481878
+      }
+    ]
+  },
+  "animationEventList": []
+}

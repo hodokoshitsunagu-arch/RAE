@@ -1,0 +1,4 @@
+gameId: "example-game"
+type: DRAW_SOMETHING
+phase: READY
+readyGameMessage { type: READY }

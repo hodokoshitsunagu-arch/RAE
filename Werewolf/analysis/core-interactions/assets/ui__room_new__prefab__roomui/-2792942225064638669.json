@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5725437472681961859
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6622921954769831356
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -764019818359457661
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2163695634976879205
+      }
+    }
+  ],
+  "m_Layer": 0,
+  "m_Name": "timenum",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

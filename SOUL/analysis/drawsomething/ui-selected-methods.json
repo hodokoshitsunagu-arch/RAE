@@ -1,0 +1,3246 @@
+[
+  {
+    "dex": "classes.dex",
+    "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$Corner;",
+    "fields": [
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$Corner;",
+        "name": "ERROR",
+        "type": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$Corner;",
+        "index": 34939,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$Corner;",
+        "name": "LEFTBOTTOM",
+        "type": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$Corner;",
+        "index": 34940,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$Corner;",
+        "name": "LEFTTOP",
+        "type": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$Corner;",
+        "index": 34941,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$Corner;",
+        "name": "RIGHTBOTTOM",
+        "type": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$Corner;",
+        "index": 34942,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$Corner;",
+        "name": "RIGHTTOP",
+        "type": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$Corner;",
+        "index": 34943,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$Corner;",
+        "name": "a",
+        "type": "[Lcn/jarlen/photoedit/scrawl/DrawAttribute$Corner;",
+        "index": 34944,
+        "annotations": []
+      }
+    ],
+    "methods": [
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$Corner;",
+        "name": "<clinit>",
+        "proto_index": 8505,
+        "index": 44962,
+        "code_offset": 4347576,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "V",
+          "parameters": []
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 2,
+              "file_offset": 4347596,
+              "kind": "const-string",
+              "index": 11752,
+              "value": "LEFTTOP"
+            },
+            {
+              "pc": 5,
+              "file_offset": 4347602,
+              "kind": "invoke",
+              "index": 44963,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$Corner;",
+              "name": "<init>",
+              "proto_index": 13545
+            },
+            {
+              "pc": 12,
+              "file_offset": 4347616,
+              "kind": "const-string",
+              "index": 25444,
+              "value": "RIGHTTOP"
+            },
+            {
+              "pc": 15,
+              "file_offset": 4347622,
+              "kind": "invoke",
+              "index": 44963,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$Corner;",
+              "name": "<init>",
+              "proto_index": 13545
+            },
+            {
+              "pc": 22,
+              "file_offset": 4347636,
+              "kind": "const-string",
+              "index": 11751,
+              "value": "LEFTBOTTOM"
+            },
+            {
+              "pc": 25,
+              "file_offset": 4347642,
+              "kind": "invoke",
+              "index": 44963,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$Corner;",
+              "name": "<init>",
+              "proto_index": 13545
+            },
+            {
+              "pc": 32,
+              "file_offset": 4347656,
+              "kind": "const-string",
+              "index": 25443,
+              "value": "RIGHTBOTTOM"
+            },
+            {
+              "pc": 35,
+              "file_offset": 4347662,
+              "kind": "invoke",
+              "index": 44963,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$Corner;",
+              "name": "<init>",
+              "proto_index": 13545
+            },
+            {
+              "pc": 42,
+              "file_offset": 4347676,
+              "kind": "const-string",
+              "index": 9626,
+              "value": "ERROR"
+            },
+            {
+              "pc": 45,
+              "file_offset": 4347682,
+              "kind": "invoke",
+              "index": 44963,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$Corner;",
+              "name": "<init>",
+              "proto_index": 13545
+            },
+            {
+              "pc": 50,
+              "file_offset": 4347692,
+              "kind": "invoke",
+              "index": 44964,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$Corner;",
+              "name": "a",
+              "proto_index": 15685
+            }
+          ]
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$Corner;",
+        "name": "<init>",
+        "proto_index": 13545,
+        "index": 44963,
+        "code_offset": 4347708,
+        "annotations": [
+          {
+            "type": "Ldalvik/annotation/Signature;",
+            "values": {
+              "value": [
+                "()V"
+              ]
+            }
+          }
+        ],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "V",
+          "parameters": [
+            "Ljava/lang/String;",
+            "I"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 0,
+              "file_offset": 4347724,
+              "kind": "invoke",
+              "index": 58928,
+              "class": "Ljava/lang/Enum;",
+              "name": "<init>",
+              "proto_index": 13545
+            }
+          ]
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$Corner;",
+        "name": "a",
+        "proto_index": 15685,
+        "index": 44964,
+        "code_offset": 4347464,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "[Lcn/jarlen/photoedit/scrawl/DrawAttribute$Corner;",
+          "parameters": []
+        },
+        "decoded": {
+          "complete": true,
+          "references": []
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$Corner;",
+        "name": "valueOf",
+        "proto_index": 5533,
+        "index": 44965,
+        "code_offset": 4347428,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$Corner;",
+          "parameters": [
+            "Ljava/lang/String;"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 2,
+              "file_offset": 4347448,
+              "kind": "invoke",
+              "index": 58932,
+              "class": "Ljava/lang/Enum;",
+              "name": "valueOf",
+              "proto_index": 7070
+            }
+          ]
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$Corner;",
+        "name": "values",
+        "proto_index": 15685,
+        "index": 44966,
+        "code_offset": 4347540,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "[Lcn/jarlen/photoedit/scrawl/DrawAttribute$Corner;",
+          "parameters": []
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 2,
+              "file_offset": 4347560,
+              "kind": "invoke",
+              "index": 65446,
+              "class": "[Lcn/jarlen/photoedit/scrawl/DrawAttribute$Corner;",
+              "name": "clone",
+              "proto_index": 7119
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "dex": "classes.dex",
+    "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+    "fields": [
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+        "name": "PEN_COLOR_BIG",
+        "type": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+        "index": 34945,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+        "name": "PEN_CRAYON",
+        "type": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+        "index": 34946,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+        "name": "PEN_ERASER",
+        "type": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+        "index": 34947,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+        "name": "PEN_NORMAL",
+        "type": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+        "index": 34948,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+        "name": "PEN_STAMP",
+        "type": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+        "index": 34949,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+        "name": "PEN_WATER",
+        "type": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+        "index": 34950,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+        "name": "a",
+        "type": "[Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+        "index": 34951,
+        "annotations": []
+      }
+    ],
+    "methods": [
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+        "name": "<clinit>",
+        "proto_index": 8505,
+        "index": 44967,
+        "code_offset": 4347888,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "V",
+          "parameters": []
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 2,
+              "file_offset": 4347908,
+              "kind": "const-string",
+              "index": 24952,
+              "value": "PEN_NORMAL"
+            },
+            {
+              "pc": 5,
+              "file_offset": 4347914,
+              "kind": "invoke",
+              "index": 44968,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+              "name": "<init>",
+              "proto_index": 13545
+            },
+            {
+              "pc": 12,
+              "file_offset": 4347928,
+              "kind": "const-string",
+              "index": 24954,
+              "value": "PEN_WATER"
+            },
+            {
+              "pc": 15,
+              "file_offset": 4347934,
+              "kind": "invoke",
+              "index": 44968,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+              "name": "<init>",
+              "proto_index": 13545
+            },
+            {
+              "pc": 22,
+              "file_offset": 4347948,
+              "kind": "const-string",
+              "index": 24950,
+              "value": "PEN_CRAYON"
+            },
+            {
+              "pc": 25,
+              "file_offset": 4347954,
+              "kind": "invoke",
+              "index": 44968,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+              "name": "<init>",
+              "proto_index": 13545
+            },
+            {
+              "pc": 32,
+              "file_offset": 4347968,
+              "kind": "const-string",
+              "index": 24949,
+              "value": "PEN_COLOR_BIG"
+            },
+            {
+              "pc": 35,
+              "file_offset": 4347974,
+              "kind": "invoke",
+              "index": 44968,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+              "name": "<init>",
+              "proto_index": 13545
+            },
+            {
+              "pc": 42,
+              "file_offset": 4347988,
+              "kind": "const-string",
+              "index": 24951,
+              "value": "PEN_ERASER"
+            },
+            {
+              "pc": 45,
+              "file_offset": 4347994,
+              "kind": "invoke",
+              "index": 44968,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+              "name": "<init>",
+              "proto_index": 13545
+            },
+            {
+              "pc": 52,
+              "file_offset": 4348008,
+              "kind": "const-string",
+              "index": 24953,
+              "value": "PEN_STAMP"
+            },
+            {
+              "pc": 55,
+              "file_offset": 4348014,
+              "kind": "invoke",
+              "index": 44968,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+              "name": "<init>",
+              "proto_index": 13545
+            },
+            {
+              "pc": 60,
+              "file_offset": 4348024,
+              "kind": "invoke",
+              "index": 44969,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+              "name": "a",
+              "proto_index": 15686
+            }
+          ]
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+        "name": "<init>",
+        "proto_index": 13545,
+        "index": 44968,
+        "code_offset": 4348040,
+        "annotations": [
+          {
+            "type": "Ldalvik/annotation/Signature;",
+            "values": {
+              "value": [
+                "()V"
+              ]
+            }
+          }
+        ],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "V",
+          "parameters": [
+            "Ljava/lang/String;",
+            "I"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 0,
+              "file_offset": 4348056,
+              "kind": "invoke",
+              "index": 58928,
+              "class": "Ljava/lang/Enum;",
+              "name": "<init>",
+              "proto_index": 13545
+            }
+          ]
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+        "name": "a",
+        "proto_index": 15686,
+        "index": 44969,
+        "code_offset": 4347768,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "[Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+          "parameters": []
+        },
+        "decoded": {
+          "complete": true,
+          "references": []
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+        "name": "valueOf",
+        "proto_index": 5535,
+        "index": 44970,
+        "code_offset": 4347732,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+          "parameters": [
+            "Ljava/lang/String;"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 2,
+              "file_offset": 4347752,
+              "kind": "invoke",
+              "index": 58932,
+              "class": "Ljava/lang/Enum;",
+              "name": "valueOf",
+              "proto_index": 7070
+            }
+          ]
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+        "name": "values",
+        "proto_index": 15686,
+        "index": 44971,
+        "code_offset": 4347852,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "[Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+          "parameters": []
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 2,
+              "file_offset": 4347872,
+              "kind": "invoke",
+              "index": 65447,
+              "class": "[Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+              "name": "clone",
+              "proto_index": 7119
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "dex": "classes.dex",
+    "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute;",
+    "fields": [
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute;",
+        "name": "a",
+        "type": "I",
+        "index": 34952,
+        "annotations": [],
+        "encoded_static_value": 15764766
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute;",
+        "name": "b",
+        "type": "I",
+        "index": 34953,
+        "annotations": [],
+        "implicit_static_default": 0
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute;",
+        "name": "c",
+        "type": "I",
+        "index": 34954,
+        "annotations": [],
+        "implicit_static_default": 0
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute;",
+        "name": "d",
+        "type": "Landroid/graphics/Paint;",
+        "index": 34955,
+        "annotations": []
+      }
+    ],
+    "methods": [
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute;",
+        "name": "<clinit>",
+        "proto_index": 8505,
+        "index": 44972,
+        "code_offset": 4348172,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "V",
+          "parameters": []
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 2,
+              "file_offset": 4348192,
+              "kind": "invoke",
+              "index": 1667,
+              "class": "Landroid/graphics/Paint;",
+              "name": "<init>",
+              "proto_index": 8505
+            }
+          ]
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute;",
+        "name": "<init>",
+        "proto_index": 8505,
+        "index": 44973,
+        "code_offset": 4348204,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "V",
+          "parameters": []
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 0,
+              "file_offset": 4348220,
+              "kind": "invoke",
+              "index": 59039,
+              "class": "Ljava/lang/Object;",
+              "name": "<init>",
+              "proto_index": 8505
+            }
+          ]
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute;",
+        "name": "a",
+        "proto_index": 1430,
+        "index": 44974,
+        "code_offset": 4348064,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "Landroid/graphics/Bitmap;",
+          "parameters": [
+            "Landroid/content/Context;",
+            "Ljava/lang/String;",
+            "Z"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 0,
+              "file_offset": 4348080,
+              "kind": "invoke",
+              "index": 1015,
+              "class": "Landroid/content/Context;",
+              "name": "getResources",
+              "proto_index": 1374
+            },
+            {
+              "pc": 4,
+              "file_offset": 4348088,
+              "kind": "invoke",
+              "index": 1301,
+              "class": "Landroid/content/res/Resources;",
+              "name": "getAssets",
+              "proto_index": 1345
+            },
+            {
+              "pc": 9,
+              "file_offset": 4348098,
+              "kind": "invoke",
+              "index": 1270,
+              "class": "Landroid/content/res/AssetManager;",
+              "name": "open",
+              "proto_index": 6939
+            },
+            {
+              "pc": 13,
+              "file_offset": 4348106,
+              "kind": "invoke",
+              "index": 1534,
+              "class": "Landroid/graphics/BitmapFactory;",
+              "name": "decodeStream",
+              "proto_index": 1464
+            },
+            {
+              "pc": 17,
+              "file_offset": 4348114,
+              "kind": "invoke",
+              "index": 58770,
+              "class": "Ljava/io/InputStream;",
+              "name": "close",
+              "proto_index": 8505
+            },
+            {
+              "pc": 22,
+              "file_offset": 4348124,
+              "kind": "invoke",
+              "index": 59192,
+              "class": "Ljava/lang/Throwable;",
+              "name": "printStackTrace",
+              "proto_index": 8505
+            },
+            {
+              "pc": 32,
+              "file_offset": 4348144,
+              "kind": "invoke",
+              "index": 1504,
+              "class": "Landroid/graphics/Bitmap;",
+              "name": "createScaledBitmap",
+              "proto_index": 1440
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "dex": "classes.dex",
+    "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView$a;",
+    "fields": [
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView$a;",
+        "name": "a",
+        "type": "[I",
+        "index": 34956,
+        "annotations": []
+      }
+    ],
+    "methods": [
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView$a;",
+        "name": "<clinit>",
+        "proto_index": 8505,
+        "index": 44975,
+        "code_offset": 4348228,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "V",
+          "parameters": []
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 0,
+              "file_offset": 4348244,
+              "kind": "invoke",
+              "index": 44971,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+              "name": "values",
+              "proto_index": 15686
+            },
+            {
+              "pc": 11,
+              "file_offset": 4348266,
+              "kind": "invoke",
+              "index": 58931,
+              "class": "Ljava/lang/Enum;",
+              "name": "ordinal",
+              "proto_index": 150
+            },
+            {
+              "pc": 22,
+              "file_offset": 4348288,
+              "kind": "invoke",
+              "index": 58931,
+              "class": "Ljava/lang/Enum;",
+              "name": "ordinal",
+              "proto_index": 150
+            },
+            {
+              "pc": 33,
+              "file_offset": 4348310,
+              "kind": "invoke",
+              "index": 58931,
+              "class": "Ljava/lang/Enum;",
+              "name": "ordinal",
+              "proto_index": 150
+            },
+            {
+              "pc": 44,
+              "file_offset": 4348332,
+              "kind": "invoke",
+              "index": 58931,
+              "class": "Ljava/lang/Enum;",
+              "name": "ordinal",
+              "proto_index": 150
+            },
+            {
+              "pc": 55,
+              "file_offset": 4348354,
+              "kind": "invoke",
+              "index": 58931,
+              "class": "Ljava/lang/Enum;",
+              "name": "ordinal",
+              "proto_index": 150
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "dex": "classes.dex",
+    "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView$b;",
+    "fields": [
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView$b;",
+        "name": "a",
+        "type": "Landroid/graphics/Bitmap;",
+        "index": 34957,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView$b;",
+        "name": "b",
+        "type": "I",
+        "index": 34958,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView$b;",
+        "name": "c",
+        "type": "I",
+        "index": 34959,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView$b;",
+        "name": "d",
+        "type": "Landroid/graphics/Paint;",
+        "index": 34960,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView$b;",
+        "name": "e",
+        "type": "[Landroid/graphics/Bitmap;",
+        "index": 34961,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView$b;",
+        "name": "f",
+        "type": "Z",
+        "index": 34962,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView$b;",
+        "name": "g",
+        "type": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+        "index": 34963,
+        "annotations": []
+      }
+    ],
+    "methods": [
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView$b;",
+        "name": "<init>",
+        "proto_index": 12528,
+        "index": 44976,
+        "code_offset": 4348896,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "V",
+          "parameters": [
+            "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 2,
+              "file_offset": 4348916,
+              "kind": "invoke",
+              "index": 4922,
+              "class": "Landroid/view/GestureDetector$SimpleOnGestureListener;",
+              "name": "<init>",
+              "proto_index": 8505
+            }
+          ]
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView$b;",
+        "name": "a",
+        "proto_index": 8531,
+        "index": 44977,
+        "code_offset": 4348944,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "V",
+          "parameters": [
+            "F",
+            "F"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 0,
+              "file_offset": 4348960,
+              "kind": "invoke",
+              "index": 59013,
+              "class": "Ljava/lang/Math;",
+              "name": "random",
+              "proto_index": 25
+            },
+            {
+              "pc": 16,
+              "file_offset": 4348992,
+              "kind": "invoke",
+              "index": 44984,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+              "name": "b",
+              "proto_index": 1478
+            },
+            {
+              "pc": 33,
+              "file_offset": 4349026,
+              "kind": "invoke",
+              "index": 1551,
+              "class": "Landroid/graphics/Canvas;",
+              "name": "drawBitmap",
+              "proto_index": 9484
+            },
+            {
+              "pc": 42,
+              "file_offset": 4349044,
+              "kind": "invoke",
+              "index": 59013,
+              "class": "Ljava/lang/Math;",
+              "name": "random",
+              "proto_index": 25
+            },
+            {
+              "pc": 57,
+              "file_offset": 4349074,
+              "kind": "invoke",
+              "index": 44984,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+              "name": "b",
+              "proto_index": 1478
+            },
+            {
+              "pc": 73,
+              "file_offset": 4349106,
+              "kind": "invoke",
+              "index": 1551,
+              "class": "Landroid/graphics/Canvas;",
+              "name": "drawBitmap",
+              "proto_index": 9484
+            }
+          ]
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView$b;",
+        "name": "b",
+        "proto_index": 9489,
+        "index": 44978,
+        "code_offset": 4349120,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "V",
+          "parameters": [
+            "Landroid/graphics/Bitmap;",
+            "I",
+            "Landroid/graphics/Paint;"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 4,
+              "file_offset": 4349144,
+              "kind": "invoke",
+              "index": 1516,
+              "class": "Landroid/graphics/Bitmap;",
+              "name": "getWidth",
+              "proto_index": 150
+            }
+          ]
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView$b;",
+        "name": "c",
+        "proto_index": 14476,
+        "index": 44979,
+        "code_offset": 4349168,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "V",
+          "parameters": [
+            "[Landroid/graphics/Bitmap;"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 5,
+              "file_offset": 4349194,
+              "kind": "invoke",
+              "index": 1516,
+              "class": "Landroid/graphics/Bitmap;",
+              "name": "getWidth",
+              "proto_index": 150
+            }
+          ]
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView$b;",
+        "name": "onDown",
+        "proto_index": 14856,
+        "index": 44980,
+        "code_offset": 4348436,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "Z",
+          "parameters": [
+            "Landroid/view/MotionEvent;"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 4,
+              "file_offset": 4348460,
+              "kind": "invoke",
+              "index": 44983,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+              "name": "a",
+              "proto_index": 5534
+            },
+            {
+              "pc": 8,
+              "file_offset": 4348468,
+              "kind": "invoke",
+              "index": 58931,
+              "class": "Ljava/lang/Enum;",
+              "name": "ordinal",
+              "proto_index": 150
+            },
+            {
+              "pc": 42,
+              "file_offset": 4348536,
+              "kind": "invoke",
+              "index": 5080,
+              "class": "Landroid/view/MotionEvent;",
+              "name": "getX",
+              "proto_index": 50
+            },
+            {
+              "pc": 46,
+              "file_offset": 4348544,
+              "kind": "invoke",
+              "index": 5082,
+              "class": "Landroid/view/MotionEvent;",
+              "name": "getY",
+              "proto_index": 50
+            },
+            {
+              "pc": 50,
+              "file_offset": 4348552,
+              "kind": "invoke",
+              "index": 44977,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView$b;",
+              "name": "a",
+              "proto_index": 8531
+            },
+            {
+              "pc": 56,
+              "file_offset": 4348564,
+              "kind": "invoke",
+              "index": 44984,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+              "name": "b",
+              "proto_index": 1478
+            },
+            {
+              "pc": 62,
+              "file_offset": 4348576,
+              "kind": "invoke",
+              "index": 5080,
+              "class": "Landroid/view/MotionEvent;",
+              "name": "getX",
+              "proto_index": 50
+            },
+            {
+              "pc": 70,
+              "file_offset": 4348592,
+              "kind": "invoke",
+              "index": 5082,
+              "class": "Landroid/view/MotionEvent;",
+              "name": "getY",
+              "proto_index": 50
+            },
+            {
+              "pc": 80,
+              "file_offset": 4348612,
+              "kind": "invoke",
+              "index": 1551,
+              "class": "Landroid/graphics/Canvas;",
+              "name": "drawBitmap",
+              "proto_index": 9484
+            }
+          ]
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView$b;",
+        "name": "onScroll",
+        "proto_index": 14858,
+        "index": 44981,
+        "code_offset": 4348620,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "Z",
+          "parameters": [
+            "Landroid/view/MotionEvent;",
+            "Landroid/view/MotionEvent;",
+            "F",
+            "F"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 6,
+              "file_offset": 4348648,
+              "kind": "invoke",
+              "index": 5080,
+              "class": "Landroid/view/MotionEvent;",
+              "name": "getX",
+              "proto_index": 50
+            },
+            {
+              "pc": 10,
+              "file_offset": 4348656,
+              "kind": "invoke",
+              "index": 5082,
+              "class": "Landroid/view/MotionEvent;",
+              "name": "getY",
+              "proto_index": 50
+            },
+            {
+              "pc": 20,
+              "file_offset": 4348676,
+              "kind": "invoke",
+              "index": 59020,
+              "class": "Ljava/lang/Math;",
+              "name": "sqrt",
+              "proto_index": 26
+            },
+            {
+              "pc": 31,
+              "file_offset": 4348698,
+              "kind": "invoke",
+              "index": 58991,
+              "class": "Ljava/lang/Math;",
+              "name": "abs",
+              "proto_index": 51
+            },
+            {
+              "pc": 35,
+              "file_offset": 4348706,
+              "kind": "invoke",
+              "index": 58991,
+              "class": "Ljava/lang/Math;",
+              "name": "abs",
+              "proto_index": 51
+            },
+            {
+              "pc": 43,
+              "file_offset": 4348722,
+              "kind": "invoke",
+              "index": 58991,
+              "class": "Ljava/lang/Math;",
+              "name": "abs",
+              "proto_index": 51
+            },
+            {
+              "pc": 47,
+              "file_offset": 4348730,
+              "kind": "invoke",
+              "index": 58991,
+              "class": "Ljava/lang/Math;",
+              "name": "abs",
+              "proto_index": 51
+            },
+            {
+              "pc": 67,
+              "file_offset": 4348770,
+              "kind": "invoke",
+              "index": 44984,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+              "name": "b",
+              "proto_index": 1478
+            },
+            {
+              "pc": 71,
+              "file_offset": 4348778,
+              "kind": "invoke",
+              "index": 1582,
+              "class": "Landroid/graphics/Canvas;",
+              "name": "save",
+              "proto_index": 150
+            },
+            {
+              "pc": 76,
+              "file_offset": 4348788,
+              "kind": "invoke",
+              "index": 44984,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+              "name": "b",
+              "proto_index": 1478
+            },
+            {
+              "pc": 80,
+              "file_offset": 4348796,
+              "kind": "invoke",
+              "index": 59013,
+              "class": "Ljava/lang/Math;",
+              "name": "random",
+              "proto_index": 25
+            },
+            {
+              "pc": 96,
+              "file_offset": 4348828,
+              "kind": "invoke",
+              "index": 1581,
+              "class": "Landroid/graphics/Canvas;",
+              "name": "rotate",
+              "proto_index": 8532
+            },
+            {
+              "pc": 101,
+              "file_offset": 4348838,
+              "kind": "invoke",
+              "index": 44984,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+              "name": "b",
+              "proto_index": 1478
+            },
+            {
+              "pc": 115,
+              "file_offset": 4348866,
+              "kind": "invoke",
+              "index": 1551,
+              "class": "Landroid/graphics/Canvas;",
+              "name": "drawBitmap",
+              "proto_index": 9484
+            },
+            {
+              "pc": 120,
+              "file_offset": 4348876,
+              "kind": "invoke",
+              "index": 44984,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+              "name": "b",
+              "proto_index": 1478
+            },
+            {
+              "pc": 124,
+              "file_offset": 4348884,
+              "kind": "invoke",
+              "index": 1578,
+              "class": "Landroid/graphics/Canvas;",
+              "name": "restore",
+              "proto_index": 8505
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "dex": "classes.dex",
+    "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+    "fields": [
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+        "name": "a",
+        "type": "Landroid/graphics/Bitmap;",
+        "index": 34964,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+        "name": "b",
+        "type": "Landroid/graphics/Bitmap;",
+        "index": 34965,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+        "name": "c",
+        "type": "Landroid/graphics/Canvas;",
+        "index": 34966,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+        "name": "d",
+        "type": "Landroid/view/GestureDetector;",
+        "index": 34967,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+        "name": "e",
+        "type": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView$b;",
+        "index": 34968,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+        "name": "f",
+        "type": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+        "index": 34969,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+        "name": "g",
+        "type": "I",
+        "index": 34970,
+        "annotations": []
+      }
+    ],
+    "methods": [
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+        "name": "<init>",
+        "proto_index": 9156,
+        "index": 44982,
+        "code_offset": 4349688,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "V",
+          "parameters": [
+            "Landroid/content/Context;"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 0,
+              "file_offset": 4349704,
+              "kind": "invoke",
+              "index": 5154,
+              "class": "Landroid/view/View;",
+              "name": "<init>",
+              "proto_index": 9156
+            },
+            {
+              "pc": 16,
+              "file_offset": 4349736,
+              "kind": "invoke",
+              "index": 44976,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView$b;",
+              "name": "<init>",
+              "proto_index": 12528
+            },
+            {
+              "pc": 25,
+              "file_offset": 4349754,
+              "kind": "invoke",
+              "index": 4923,
+              "class": "Landroid/view/GestureDetector;",
+              "name": "<init>",
+              "proto_index": 9240
+            }
+          ]
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+        "name": "a",
+        "proto_index": 5534,
+        "index": 44983,
+        "code_offset": 4349664,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+          "parameters": [
+            "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": []
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+        "name": "b",
+        "proto_index": 1478,
+        "index": 44984,
+        "code_offset": 4349604,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "Landroid/graphics/Canvas;",
+          "parameters": [
+            "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": []
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+        "name": "c",
+        "proto_index": 1417,
+        "index": 44985,
+        "code_offset": 4349364,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "Landroid/graphics/Bitmap;",
+          "parameters": [
+            "I",
+            "I"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 0,
+              "file_offset": 4349380,
+              "kind": "invoke",
+              "index": 5261,
+              "class": "Landroid/view/View;",
+              "name": "getResources",
+              "proto_index": 1374
+            },
+            {
+              "pc": 4,
+              "file_offset": 4349388,
+              "kind": "invoke",
+              "index": 1312,
+              "class": "Landroid/content/res/Resources;",
+              "name": "getDrawable",
+              "proto_index": 1669
+            },
+            {
+              "pc": 10,
+              "file_offset": 4349400,
+              "kind": "invoke",
+              "index": 1872,
+              "class": "Landroid/graphics/drawable/BitmapDrawable;",
+              "name": "getBitmap",
+              "proto_index": 1415
+            },
+            {
+              "pc": 17,
+              "file_offset": 4349414,
+              "kind": "invoke",
+              "index": 1497,
+              "class": "Landroid/graphics/Bitmap;",
+              "name": "copy",
+              "proto_index": 1432
+            },
+            {
+              "pc": 23,
+              "file_offset": 4349426,
+              "kind": "invoke",
+              "index": 1538,
+              "class": "Landroid/graphics/Canvas;",
+              "name": "<init>",
+              "proto_index": 8505
+            },
+            {
+              "pc": 26,
+              "file_offset": 4349432,
+              "kind": "invoke",
+              "index": 1585,
+              "class": "Landroid/graphics/Canvas;",
+              "name": "setBitmap",
+              "proto_index": 9483
+            },
+            {
+              "pc": 31,
+              "file_offset": 4349442,
+              "kind": "invoke",
+              "index": 1667,
+              "class": "Landroid/graphics/Paint;",
+              "name": "<init>",
+              "proto_index": 8505
+            },
+            {
+              "pc": 34,
+              "file_offset": 4349448,
+              "kind": "invoke",
+              "index": 1702,
+              "class": "Landroid/graphics/Paint;",
+              "name": "setColor",
+              "proto_index": 8579
+            },
+            {
+              "pc": 37,
+              "file_offset": 4349454,
+              "kind": "invoke",
+              "index": 1560,
+              "class": "Landroid/graphics/Canvas;",
+              "name": "drawPaint",
+              "proto_index": 9554
+            },
+            {
+              "pc": 42,
+              "file_offset": 4349464,
+              "kind": "invoke",
+              "index": 1667,
+              "class": "Landroid/graphics/Paint;",
+              "name": "<init>",
+              "proto_index": 8505
+            },
+            {
+              "pc": 45,
+              "file_offset": 4349470,
+              "kind": "invoke",
+              "index": 1706,
+              "class": "Landroid/graphics/Paint;",
+              "name": "setFilterBitmap",
+              "proto_index": 14334
+            },
+            {
+              "pc": 52,
+              "file_offset": 4349484,
+              "kind": "invoke",
+              "index": 1774,
+              "class": "Landroid/graphics/PorterDuffXfermode;",
+              "name": "<init>",
+              "proto_index": 9569
+            },
+            {
+              "pc": 55,
+              "file_offset": 4349490,
+              "kind": "invoke",
+              "index": 1721,
+              "class": "Landroid/graphics/Paint;",
+              "name": "setXfermode",
+              "proto_index": 1661
+            },
+            {
+              "pc": 59,
+              "file_offset": 4349498,
+              "kind": "invoke",
+              "index": 1551,
+              "class": "Landroid/graphics/Canvas;",
+              "name": "drawBitmap",
+              "proto_index": 9484
+            }
+          ]
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+        "name": "d",
+        "proto_index": 1435,
+        "index": 44986,
+        "code_offset": 4349212,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "Landroid/graphics/Bitmap;",
+          "parameters": [
+            "Landroid/graphics/Bitmap;",
+            "I"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 3,
+              "file_offset": 4349234,
+              "kind": "invoke",
+              "index": 1497,
+              "class": "Landroid/graphics/Bitmap;",
+              "name": "copy",
+              "proto_index": 1432
+            },
+            {
+              "pc": 9,
+              "file_offset": 4349246,
+              "kind": "invoke",
+              "index": 1538,
+              "class": "Landroid/graphics/Canvas;",
+              "name": "<init>",
+              "proto_index": 8505
+            },
+            {
+              "pc": 16,
+              "file_offset": 4349260,
+              "kind": "invoke",
+              "index": 1722,
+              "class": "Landroid/graphics/PaintFlagsDrawFilter;",
+              "name": "<init>",
+              "proto_index": 8598
+            },
+            {
+              "pc": 19,
+              "file_offset": 4349266,
+              "kind": "invoke",
+              "index": 1586,
+              "class": "Landroid/graphics/Canvas;",
+              "name": "setDrawFilter",
+              "proto_index": 9541
+            },
+            {
+              "pc": 22,
+              "file_offset": 4349272,
+              "kind": "invoke",
+              "index": 1585,
+              "class": "Landroid/graphics/Canvas;",
+              "name": "setBitmap",
+              "proto_index": 9483
+            },
+            {
+              "pc": 27,
+              "file_offset": 4349282,
+              "kind": "invoke",
+              "index": 1667,
+              "class": "Landroid/graphics/Paint;",
+              "name": "<init>",
+              "proto_index": 8505
+            },
+            {
+              "pc": 30,
+              "file_offset": 4349288,
+              "kind": "invoke",
+              "index": 1700,
+              "class": "Landroid/graphics/Paint;",
+              "name": "setAntiAlias",
+              "proto_index": 14334
+            },
+            {
+              "pc": 33,
+              "file_offset": 4349294,
+              "kind": "invoke",
+              "index": 1702,
+              "class": "Landroid/graphics/Paint;",
+              "name": "setColor",
+              "proto_index": 8579
+            },
+            {
+              "pc": 36,
+              "file_offset": 4349300,
+              "kind": "invoke",
+              "index": 1560,
+              "class": "Landroid/graphics/Canvas;",
+              "name": "drawPaint",
+              "proto_index": 9554
+            },
+            {
+              "pc": 41,
+              "file_offset": 4349310,
+              "kind": "invoke",
+              "index": 1667,
+              "class": "Landroid/graphics/Paint;",
+              "name": "<init>",
+              "proto_index": 8505
+            },
+            {
+              "pc": 44,
+              "file_offset": 4349316,
+              "kind": "invoke",
+              "index": 1700,
+              "class": "Landroid/graphics/Paint;",
+              "name": "setAntiAlias",
+              "proto_index": 14334
+            },
+            {
+              "pc": 47,
+              "file_offset": 4349322,
+              "kind": "invoke",
+              "index": 1706,
+              "class": "Landroid/graphics/Paint;",
+              "name": "setFilterBitmap",
+              "proto_index": 14334
+            },
+            {
+              "pc": 54,
+              "file_offset": 4349336,
+              "kind": "invoke",
+              "index": 1774,
+              "class": "Landroid/graphics/PorterDuffXfermode;",
+              "name": "<init>",
+              "proto_index": 9569
+            },
+            {
+              "pc": 57,
+              "file_offset": 4349342,
+              "kind": "invoke",
+              "index": 1721,
+              "class": "Landroid/graphics/Paint;",
+              "name": "setXfermode",
+              "proto_index": 1661
+            },
+            {
+              "pc": 61,
+              "file_offset": 4349350,
+              "kind": "invoke",
+              "index": 1551,
+              "class": "Landroid/graphics/Canvas;",
+              "name": "drawBitmap",
+              "proto_index": 9484
+            },
+            {
+              "pc": 64,
+              "file_offset": 4349356,
+              "kind": "invoke",
+              "index": 1521,
+              "class": "Landroid/graphics/Bitmap;",
+              "name": "recycle",
+              "proto_index": 8505
+            }
+          ]
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+        "name": "getDrawBitmap",
+        "proto_index": 1415,
+        "index": 44987,
+        "code_offset": 4349508,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "Landroid/graphics/Bitmap;",
+          "parameters": []
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 2,
+              "file_offset": 4349528,
+              "kind": "invoke",
+              "index": 1516,
+              "class": "Landroid/graphics/Bitmap;",
+              "name": "getWidth",
+              "proto_index": 150
+            },
+            {
+              "pc": 8,
+              "file_offset": 4349540,
+              "kind": "invoke",
+              "index": 1511,
+              "class": "Landroid/graphics/Bitmap;",
+              "name": "getHeight",
+              "proto_index": 150
+            },
+            {
+              "pc": 14,
+              "file_offset": 4349552,
+              "kind": "invoke",
+              "index": 1498,
+              "class": "Landroid/graphics/Bitmap;",
+              "name": "createBitmap",
+              "proto_index": 1420
+            },
+            {
+              "pc": 20,
+              "file_offset": 4349564,
+              "kind": "invoke",
+              "index": 1539,
+              "class": "Landroid/graphics/Canvas;",
+              "name": "<init>",
+              "proto_index": 9483
+            },
+            {
+              "pc": 27,
+              "file_offset": 4349578,
+              "kind": "invoke",
+              "index": 1551,
+              "class": "Landroid/graphics/Canvas;",
+              "name": "drawBitmap",
+              "proto_index": 9484
+            },
+            {
+              "pc": 32,
+              "file_offset": 4349588,
+              "kind": "invoke",
+              "index": 1551,
+              "class": "Landroid/graphics/Canvas;",
+              "name": "drawBitmap",
+              "proto_index": 9484
+            },
+            {
+              "pc": 35,
+              "file_offset": 4349594,
+              "kind": "invoke",
+              "index": 1582,
+              "class": "Landroid/graphics/Canvas;",
+              "name": "save",
+              "proto_index": 150
+            }
+          ]
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+        "name": "onDraw",
+        "proto_index": 9501,
+        "index": 44988,
+        "code_offset": 4349768,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "V",
+          "parameters": [
+            "Landroid/graphics/Canvas;"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 0,
+              "file_offset": 4349784,
+              "kind": "invoke",
+              "index": 5351,
+              "class": "Landroid/view/View;",
+              "name": "onDraw",
+              "proto_index": 9501
+            },
+            {
+              "pc": 4,
+              "file_offset": 4349792,
+              "kind": "invoke",
+              "index": 1556,
+              "class": "Landroid/graphics/Canvas;",
+              "name": "drawColor",
+              "proto_index": 8579
+            },
+            {
+              "pc": 13,
+              "file_offset": 4349810,
+              "kind": "invoke",
+              "index": 1520,
+              "class": "Landroid/graphics/Bitmap;",
+              "name": "isRecycled",
+              "proto_index": 14540
+            },
+            {
+              "pc": 21,
+              "file_offset": 4349826,
+              "kind": "invoke",
+              "index": 1551,
+              "class": "Landroid/graphics/Canvas;",
+              "name": "drawBitmap",
+              "proto_index": 9484
+            },
+            {
+              "pc": 28,
+              "file_offset": 4349840,
+              "kind": "invoke",
+              "index": 1520,
+              "class": "Landroid/graphics/Bitmap;",
+              "name": "isRecycled",
+              "proto_index": 14540
+            },
+            {
+              "pc": 36,
+              "file_offset": 4349856,
+              "kind": "invoke",
+              "index": 1551,
+              "class": "Landroid/graphics/Canvas;",
+              "name": "drawBitmap",
+              "proto_index": 9484
+            }
+          ]
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+        "name": "onTouchEvent",
+        "proto_index": 14856,
+        "index": 44989,
+        "code_offset": 4349628,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "Z",
+          "parameters": [
+            "Landroid/view/MotionEvent;"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 2,
+              "file_offset": 4349648,
+              "kind": "invoke",
+              "index": 4926,
+              "class": "Landroid/view/GestureDetector;",
+              "name": "onTouchEvent",
+              "proto_index": 14856
+            },
+            {
+              "pc": 5,
+              "file_offset": 4349654,
+              "kind": "invoke",
+              "index": 5371,
+              "class": "Landroid/view/View;",
+              "name": "postInvalidate",
+              "proto_index": 8505
+            }
+          ]
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+        "name": "setBackgroundBitmap",
+        "proto_index": 9483,
+        "index": 44990,
+        "code_offset": 4349864,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "V",
+          "parameters": [
+            "Landroid/graphics/Bitmap;"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 2,
+              "file_offset": 4349884,
+              "kind": "invoke",
+              "index": 1516,
+              "class": "Landroid/graphics/Bitmap;",
+              "name": "getWidth",
+              "proto_index": 150
+            },
+            {
+              "pc": 6,
+              "file_offset": 4349892,
+              "kind": "invoke",
+              "index": 1511,
+              "class": "Landroid/graphics/Bitmap;",
+              "name": "getHeight",
+              "proto_index": 150
+            },
+            {
+              "pc": 12,
+              "file_offset": 4349904,
+              "kind": "invoke",
+              "index": 1498,
+              "class": "Landroid/graphics/Bitmap;",
+              "name": "createBitmap",
+              "proto_index": 1420
+            },
+            {
+              "pc": 22,
+              "file_offset": 4349924,
+              "kind": "invoke",
+              "index": 1539,
+              "class": "Landroid/graphics/Canvas;",
+              "name": "<init>",
+              "proto_index": 9483
+            }
+          ]
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+        "name": "setBrushBitmap",
+        "proto_index": 12525,
+        "index": 44991,
+        "code_offset": 4349936,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "V",
+          "parameters": [
+            "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+            "Landroid/graphics/Bitmap;",
+            "I"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 6,
+              "file_offset": 4349964,
+              "kind": "invoke",
+              "index": 58931,
+              "class": "Ljava/lang/Enum;",
+              "name": "ordinal",
+              "proto_index": 150
+            },
+            {
+              "pc": 30,
+              "file_offset": 4350012,
+              "kind": "invoke",
+              "index": 1667,
+              "class": "Landroid/graphics/Paint;",
+              "name": "<init>",
+              "proto_index": 8505
+            },
+            {
+              "pc": 33,
+              "file_offset": 4350018,
+              "kind": "invoke",
+              "index": 1706,
+              "class": "Landroid/graphics/Paint;",
+              "name": "setFilterBitmap",
+              "proto_index": 14334
+            },
+            {
+              "pc": 40,
+              "file_offset": 4350032,
+              "kind": "invoke",
+              "index": 1774,
+              "class": "Landroid/graphics/PorterDuffXfermode;",
+              "name": "<init>",
+              "proto_index": 9569
+            },
+            {
+              "pc": 43,
+              "file_offset": 4350038,
+              "kind": "invoke",
+              "index": 1721,
+              "class": "Landroid/graphics/Paint;",
+              "name": "setXfermode",
+              "proto_index": 1661
+            },
+            {
+              "pc": 46,
+              "file_offset": 4350044,
+              "kind": "invoke",
+              "index": 1516,
+              "class": "Landroid/graphics/Bitmap;",
+              "name": "getWidth",
+              "proto_index": 150
+            },
+            {
+              "pc": 53,
+              "file_offset": 4350058,
+              "kind": "invoke",
+              "index": 44986,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+              "name": "d",
+              "proto_index": 1435
+            },
+            {
+              "pc": 59,
+              "file_offset": 4350070,
+              "kind": "invoke",
+              "index": 1516,
+              "class": "Landroid/graphics/Bitmap;",
+              "name": "getWidth",
+              "proto_index": 150
+            },
+            {
+              "pc": 65,
+              "file_offset": 4350082,
+              "kind": "invoke",
+              "index": 44986,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+              "name": "d",
+              "proto_index": 1435
+            },
+            {
+              "pc": 70,
+              "file_offset": 4350092,
+              "kind": "invoke",
+              "index": 44986,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+              "name": "d",
+              "proto_index": 1435
+            },
+            {
+              "pc": 76,
+              "file_offset": 4350104,
+              "kind": "invoke",
+              "index": 44978,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView$b;",
+              "name": "b",
+              "proto_index": 9489
+            }
+          ]
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+        "name": "setDrawStatus",
+        "proto_index": 12524,
+        "index": 44992,
+        "code_offset": 4350112,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "V",
+          "parameters": [
+            "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": []
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+        "name": "setPaintColor",
+        "proto_index": 8579,
+        "index": 44993,
+        "code_offset": 4350136,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "V",
+          "parameters": [
+            "I"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": []
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+        "name": "setStampBitmaps",
+        "proto_index": 12527,
+        "index": 44994,
+        "code_offset": 4350160,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "V",
+          "parameters": [
+            "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+            "[I",
+            "I"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 3,
+              "file_offset": 4350182,
+              "kind": "invoke",
+              "index": 44985,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+              "name": "c",
+              "proto_index": 1417
+            },
+            {
+              "pc": 10,
+              "file_offset": 4350196,
+              "kind": "invoke",
+              "index": 44985,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+              "name": "c",
+              "proto_index": 1417
+            },
+            {
+              "pc": 17,
+              "file_offset": 4350210,
+              "kind": "invoke",
+              "index": 44985,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+              "name": "c",
+              "proto_index": 1417
+            },
+            {
+              "pc": 24,
+              "file_offset": 4350224,
+              "kind": "invoke",
+              "index": 44985,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+              "name": "c",
+              "proto_index": 1417
+            },
+            {
+              "pc": 41,
+              "file_offset": 4350258,
+              "kind": "invoke",
+              "index": 44979,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView$b;",
+              "name": "c",
+              "proto_index": 14476
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "dex": "classes.dex",
+    "class": "Lcn/jarlen/photoedit/scrawl/a;",
+    "fields": [
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/a;",
+        "name": "a",
+        "type": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+        "index": 34971,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/a;",
+        "name": "b",
+        "type": "I",
+        "index": 34972,
+        "annotations": []
+      }
+    ],
+    "methods": [
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/a;",
+        "name": "<init>",
+        "proto_index": 12529,
+        "index": 44995,
+        "code_offset": 4350328,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "V",
+          "parameters": [
+            "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+            "Landroid/graphics/Bitmap;"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 0,
+              "file_offset": 4350344,
+              "kind": "invoke",
+              "index": 59039,
+              "class": "Ljava/lang/Object;",
+              "name": "<init>",
+              "proto_index": 8505
+            },
+            {
+              "pc": 5,
+              "file_offset": 4350354,
+              "kind": "invoke",
+              "index": 44990,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+              "name": "setBackgroundBitmap",
+              "proto_index": 9483
+            }
+          ]
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/a;",
+        "name": "a",
+        "proto_index": 12525,
+        "index": 44996,
+        "code_offset": 4350364,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "V",
+          "parameters": [
+            "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+            "Landroid/graphics/Bitmap;",
+            "I"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 2,
+              "file_offset": 4350384,
+              "kind": "invoke",
+              "index": 44991,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+              "name": "setBrushBitmap",
+              "proto_index": 12525
+            }
+          ]
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/a;",
+        "name": "b",
+        "proto_index": 12526,
+        "index": 44997,
+        "code_offset": 4350392,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "V",
+          "parameters": [
+            "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+            "Lv3/a;"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 0,
+              "file_offset": 4350408,
+              "kind": "invoke",
+              "index": 64521,
+              "class": "Lv3/a;",
+              "name": "b",
+              "proto_index": 150
+            },
+            {
+              "pc": 4,
+              "file_offset": 4350416,
+              "kind": "invoke",
+              "index": 64522,
+              "class": "Lv3/a;",
+              "name": "c",
+              "proto_index": 150
+            },
+            {
+              "pc": 8,
+              "file_offset": 4350424,
+              "kind": "invoke",
+              "index": 64523,
+              "class": "Lv3/a;",
+              "name": "d",
+              "proto_index": 150
+            },
+            {
+              "pc": 12,
+              "file_offset": 4350432,
+              "kind": "invoke",
+              "index": 64520,
+              "class": "Lv3/a;",
+              "name": "a",
+              "proto_index": 1415
+            },
+            {
+              "pc": 20,
+              "file_offset": 4350448,
+              "kind": "invoke",
+              "index": 64835,
+              "class": "Lw3/a;",
+              "name": "h",
+              "proto_index": 1434
+            },
+            {
+              "pc": 26,
+              "file_offset": 4350460,
+              "kind": "invoke",
+              "index": 44991,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+              "name": "setBrushBitmap",
+              "proto_index": 12525
+            }
+          ]
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/a;",
+        "name": "c",
+        "proto_index": 12527,
+        "index": 44998,
+        "code_offset": 4350468,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "V",
+          "parameters": [
+            "Lcn/jarlen/photoedit/scrawl/DrawAttribute$DrawStatus;",
+            "[I",
+            "I"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 2,
+              "file_offset": 4350488,
+              "kind": "invoke",
+              "index": 44994,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+              "name": "setStampBitmaps",
+              "proto_index": 12527
+            }
+          ]
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/a;",
+        "name": "d",
+        "proto_index": 1415,
+        "index": 44999,
+        "code_offset": 4350272,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "Landroid/graphics/Bitmap;",
+          "parameters": []
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 2,
+              "file_offset": 4350292,
+              "kind": "invoke",
+              "index": 44987,
+              "class": "Lcn/jarlen/photoedit/scrawl/DrawingBoardView;",
+              "name": "getDrawBitmap",
+              "proto_index": 1415
+            }
+          ]
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/a;",
+        "name": "e",
+        "proto_index": 150,
+        "index": 45000,
+        "code_offset": 4350304,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "I",
+          "parameters": []
+        },
+        "decoded": {
+          "complete": true,
+          "references": []
+        }
+      },
+      {
+        "class": "Lcn/jarlen/photoedit/scrawl/a;",
+        "name": "f",
+        "proto_index": 8579,
+        "index": 45001,
+        "code_offset": 4350496,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "V",
+          "parameters": [
+            "I"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": []
+        }
+      }
+    ]
+  },
+  {
+    "dex": "classes2.dex",
+    "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameType;",
+    "fields": [
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameType;",
+        "name": "k3",
+        "type": "I",
+        "index": 50685,
+        "annotations": [],
+        "encoded_static_value": 1
+      }
+    ],
+    "methods": []
+  },
+  {
+    "dex": "classes2.dex",
+    "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg$AnswerResult;",
+    "fields": [
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg$AnswerResult;",
+        "name": "answer",
+        "type": "Ljava/lang/String;",
+        "index": 50686,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg$AnswerResult;",
+        "name": "answerDesc",
+        "type": "Ljava/lang/String;",
+        "index": 50687,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg$AnswerResult;",
+        "name": "extMap",
+        "type": "Ljava/util/Map;",
+        "index": 50688,
+        "annotations": [
+          {
+            "type": "Ldalvik/annotation/Signature;",
+            "values": {
+              "value": [
+                "Ljava/util/Map<",
+                "Ljava/lang/String;",
+                "Ljava/lang/String;",
+                ">;"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg$AnswerResult;",
+        "name": "question",
+        "type": "Ljava/lang/String;",
+        "index": 50689,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg$AnswerResult;",
+        "name": "questionDesc",
+        "type": "Ljava/lang/String;",
+        "index": 50690,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg$AnswerResult;",
+        "name": "right",
+        "type": "Z",
+        "index": 50691,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg$AnswerResult;",
+        "name": "ts",
+        "type": "J",
+        "index": 50692,
+        "annotations": []
+      }
+    ],
+    "methods": [
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg$AnswerResult;",
+        "name": "<init>",
+        "proto_index": 4752,
+        "index": 6034,
+        "code_offset": 1410796,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "V",
+          "parameters": []
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 0,
+              "file_offset": 1410812,
+              "kind": "invoke",
+              "index": 19734,
+              "class": "Ljava/lang/Object;",
+              "name": "<init>",
+              "proto_index": 4752
+            }
+          ]
+        }
+      },
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg$AnswerResult;",
+        "name": "convert",
+        "proto_index": 811,
+        "index": 6035,
+        "code_offset": 1410684,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg$AnswerResult;",
+          "parameters": [
+            "Lcom/soul/game/protos/AnswerResult;"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 2,
+              "file_offset": 1410704,
+              "kind": "invoke",
+              "index": 6034,
+              "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg$AnswerResult;",
+              "name": "<init>",
+              "proto_index": 4752
+            },
+            {
+              "pc": 5,
+              "file_offset": 1410710,
+              "kind": "invoke",
+              "index": 17064,
+              "class": "Lcom/soul/game/protos/AnswerResult;",
+              "name": "getQuestion",
+              "proto_index": 3444
+            },
+            {
+              "pc": 11,
+              "file_offset": 1410722,
+              "kind": "invoke",
+              "index": 17065,
+              "class": "Lcom/soul/game/protos/AnswerResult;",
+              "name": "getQuestionDesc",
+              "proto_index": 3444
+            },
+            {
+              "pc": 17,
+              "file_offset": 1410734,
+              "kind": "invoke",
+              "index": 17061,
+              "class": "Lcom/soul/game/protos/AnswerResult;",
+              "name": "getAnswer",
+              "proto_index": 3444
+            },
+            {
+              "pc": 23,
+              "file_offset": 1410746,
+              "kind": "invoke",
+              "index": 17062,
+              "class": "Lcom/soul/game/protos/AnswerResult;",
+              "name": "getAnswerDesc",
+              "proto_index": 3444
+            },
+            {
+              "pc": 29,
+              "file_offset": 1410758,
+              "kind": "invoke",
+              "index": 17066,
+              "class": "Lcom/soul/game/protos/AnswerResult;",
+              "name": "getRight",
+              "proto_index": 7357
+            },
+            {
+              "pc": 35,
+              "file_offset": 1410770,
+              "kind": "invoke",
+              "index": 17067,
+              "class": "Lcom/soul/game/protos/AnswerResult;",
+              "name": "getTs",
+              "proto_index": 231
+            },
+            {
+              "pc": 41,
+              "file_offset": 1410782,
+              "kind": "invoke",
+              "index": 17063,
+              "class": "Lcom/soul/game/protos/AnswerResult;",
+              "name": "getExtMapMap",
+              "proto_index": 3800
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "dex": "classes2.dex",
+    "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg;",
+    "fields": [
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg;",
+        "name": "answerResults",
+        "type": "Ljava/util/List;",
+        "index": 50693,
+        "annotations": [
+          {
+            "type": "Ldalvik/annotation/Signature;",
+            "values": {
+              "value": [
+                "Ljava/util/List<",
+                "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg$AnswerResult;",
+                ">;"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "methods": [
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg;",
+        "name": "<init>",
+        "proto_index": 4752,
+        "index": 6036,
+        "code_offset": 1410820,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "V",
+          "parameters": []
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 0,
+              "file_offset": 1410836,
+              "kind": "invoke",
+              "index": 19734,
+              "class": "Ljava/lang/Object;",
+              "name": "<init>",
+              "proto_index": 4752
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "dex": "classes2.dex",
+    "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg;",
+    "fields": [
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg;",
+        "name": "drawSomethingGameoverGameMsg",
+        "type": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg;",
+        "index": 50694,
+        "annotations": []
+      }
+    ],
+    "methods": [
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg;",
+        "name": "<init>",
+        "proto_index": 4752,
+        "index": 6037,
+        "code_offset": 1410844,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "V",
+          "parameters": []
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 0,
+              "file_offset": 1410860,
+              "kind": "invoke",
+              "index": 19734,
+              "class": "Ljava/lang/Object;",
+              "name": "<init>",
+              "proto_index": 4752
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "dex": "classes2.dex",
+    "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$InviteGameMsg;",
+    "fields": [
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$InviteGameMsg;",
+        "name": "extMap",
+        "type": "Ljava/util/Map;",
+        "index": 50695,
+        "annotations": [
+          {
+            "type": "Ldalvik/annotation/Signature;",
+            "values": {
+              "value": [
+                "Ljava/util/Map<",
+                "Ljava/lang/String;",
+                "Ljava/lang/String;",
+                ">;"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$InviteGameMsg;",
+        "name": "invitee",
+        "type": "Ljava/lang/String;",
+        "index": 50696,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$InviteGameMsg;",
+        "name": "inviter",
+        "type": "Ljava/lang/String;",
+        "index": 50697,
+        "annotations": []
+      }
+    ],
+    "methods": [
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$InviteGameMsg;",
+        "name": "<init>",
+        "proto_index": 4752,
+        "index": 6038,
+        "code_offset": 1410868,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "V",
+          "parameters": []
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 0,
+              "file_offset": 1410884,
+              "kind": "invoke",
+              "index": 19734,
+              "class": "Ljava/lang/Object;",
+              "name": "<init>",
+              "proto_index": 4752
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "dex": "classes2.dex",
+    "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$Phase;",
+    "fields": [
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$Phase;",
+        "name": "l3",
+        "type": "I",
+        "index": 50698,
+        "annotations": [],
+        "encoded_static_value": 1
+      },
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$Phase;",
+        "name": "m3",
+        "type": "I",
+        "index": 50699,
+        "annotations": [],
+        "encoded_static_value": 4
+      }
+    ],
+    "methods": []
+  },
+  {
+    "dex": "classes2.dex",
+    "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+    "fields": [
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "name": "extMap",
+        "type": "Ljava/util/Map;",
+        "index": 50700,
+        "annotations": [
+          {
+            "type": "Ldalvik/annotation/Signature;",
+            "values": {
+              "value": [
+                "Ljava/util/Map<",
+                "Ljava/lang/String;",
+                "Ljava/lang/String;",
+                ">;"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "name": "gameId",
+        "type": "Ljava/lang/String;",
+        "index": 50701,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "name": "gameoverGameMsg",
+        "type": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg;",
+        "index": 50702,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "name": "id",
+        "type": "Ljava/lang/String;",
+        "index": 50703,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "name": "inviteGameMsg",
+        "type": "Lcn/soulapp/imlib/msg/chat/GameMsg$InviteGameMsg;",
+        "index": 50704,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "name": "phase",
+        "type": "I",
+        "index": 50705,
+        "annotations": []
+      },
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "name": "type",
+        "type": "I",
+        "index": 50706,
+        "annotations": []
+      }
+    ],
+    "methods": [
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "name": "<init>",
+        "proto_index": 4752,
+        "index": 6039,
+        "code_offset": 1411216,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "V",
+          "parameters": []
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 0,
+              "file_offset": 1411232,
+              "kind": "invoke",
+              "index": 6062,
+              "class": "Lcn/soulapp/imlib/msg/chat/TopChatMsg;",
+              "name": "<init>",
+              "proto_index": 4752
+            }
+          ]
+        }
+      },
+      {
+        "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+        "name": "convert",
+        "proto_index": 812,
+        "index": 6040,
+        "code_offset": 1410892,
+        "annotations": [],
+        "parameters_annotations": [],
+        "prototype": {
+          "return": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+          "parameters": [
+            "Lcom/soul/im/protos/CommandMessage;"
+          ]
+        },
+        "decoded": {
+          "complete": true,
+          "references": [
+            {
+              "pc": 0,
+              "file_offset": 1410908,
+              "kind": "invoke",
+              "index": 17177,
+              "class": "Lcom/soul/im/protos/CommandMessage;",
+              "name": "getMsgCommand",
+              "proto_index": 2741
+            },
+            {
+              "pc": 4,
+              "file_offset": 1410916,
+              "kind": "invoke",
+              "index": 17298,
+              "class": "Lcom/soul/im/protos/MsgCommand;",
+              "name": "getGameMessage",
+              "proto_index": 2618
+            },
+            {
+              "pc": 10,
+              "file_offset": 1410928,
+              "kind": "invoke",
+              "index": 6039,
+              "class": "Lcn/soulapp/imlib/msg/chat/GameMsg;",
+              "name": "<init>",
+              "proto_index": 4752
+            },
+            {
+              "pc": 13,
+              "file_offset": 1410934,
+              "kind": "invoke",
+              "index": 17174,
+              "class": "Lcom/soul/im/protos/CommandMessage;",
+              "name": "getCmdId",
+              "proto_index": 3444
+            },
+            {
+              "pc": 19,
+              "file_offset": 1410946,
+              "kind": "invoke",
+              "index": 17078,
+              "class": "Lcom/soul/game/protos/GameMessage;",
+              "name": "getGameId",
+              "proto_index": 3444
+            },
+            {
+              "pc": 25,
+              "file_offset": 1410958,
+              "kind": "invoke",
+              "index": 17081,
+              "class": "Lcom/soul/game/protos/GameMessage;",
+              "name": "getPhaseValue",
+              "proto_index": 39
+            },
+            {
+              "pc": 38,
+              "file_offset": 1410984,
+              "kind": "invoke",
+              "index": 17082,
+              "class": "Lcom/soul/game/protos/GameMessage;",
+              "name": "getTypeValue",
+              "proto_index": 39
+            },
+            {
+              "pc": 45,
+              "file_offset": 1410998,
+              "kind": "invoke",
+              "index": 17079,
+              "class": "Lcom/soul/game/protos/GameMessage;",
+              "name": "getGameoverGameMessage",
+              "proto_index": 2619
+            },
+            {
+              "pc": 51,
+              "file_offset": 1411010,
+              "kind": "invoke",
+              "index": 6037,
+              "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg;",
+              "name": "<init>",
+              "proto_index": 4752
+            },
+            {
+              "pc": 56,
+              "file_offset": 1411020,
+              "kind": "invoke",
+              "index": 6036,
+              "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg;",
+              "name": "<init>",
+              "proto_index": 4752
+            },
+            {
+              "pc": 61,
+              "file_offset": 1411030,
+              "kind": "invoke",
+              "index": 20129,
+              "class": "Ljava/util/ArrayList;",
+              "name": "<init>",
+              "proto_index": 4752
+            },
+            {
+              "pc": 64,
+              "file_offset": 1411036,
+              "kind": "invoke",
+              "index": 17084,
+              "class": "Lcom/soul/game/protos/GameoverGameMessage;",
+              "name": "getDrawSomethingGameoverGameMessage",
+              "proto_index": 2611
+            },
+            {
+              "pc": 68,
+              "file_offset": 1411044,
+              "kind": "invoke",
+              "index": 17069,
+              "class": "Lcom/soul/game/protos/DrawSomethingGameoverGameMessage;",
+              "name": "getAnswerResults",
+              "proto_index": 2610
+            },
+            {
+              "pc": 72,
+              "file_offset": 1411052,
+              "kind": "invoke",
+              "index": 17068,
+              "class": "Lcom/soul/game/protos/AnswerResults;",
+              "name": "getAnswerResultsList",
+              "proto_index": 3737
+            },
+            {
+              "pc": 76,
+              "file_offset": 1411060,
+              "kind": "invoke",
+              "index": 20284,
+              "class": "Ljava/util/List;",
+              "name": "iterator",
+              "proto_index": 3729
+            },
+            {
+              "pc": 80,
+              "file_offset": 1411068,
+              "kind": "invoke",
+              "index": 20254,
+              "class": "Ljava/util/Iterator;",
+              "name": "hasNext",
+              "proto_index": 7357
+            },
+            {
+              "pc": 86,
+              "file_offset": 1411080,
+              "kind": "invoke",
+              "index": 20255,
+              "class": "Ljava/util/Iterator;",
+              "name": "next",
+              "proto_index": 3202
+            },
+            {
+              "pc": 92,
+              "file_offset": 1411092,
+              "kind": "invoke",
+              "index": 6035,
+              "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$GameoverGameMsg$DrawSomethingGameoverGameMsg$AnswerResult;",
+              "name": "convert",
+              "proto_index": 811
+            },
+            {
+              "pc": 96,
+              "file_offset": 1411100,
+              "kind": "invoke",
+              "index": 20276,
+              "class": "Ljava/util/List;",
+              "name": "add",
+              "proto_index": 7610
+            },
+            {
+              "pc": 111,
+              "file_offset": 1411130,
+              "kind": "invoke",
+              "index": 6038,
+              "class": "Lcn/soulapp/imlib/msg/chat/GameMsg$InviteGameMsg;",
+              "name": "<init>",
+              "proto_index": 4752
+            },
+            {
+              "pc": 114,
+              "file_offset": 1411136,
+              "kind": "invoke",
+              "index": 17080,
+              "class": "Lcom/soul/game/protos/GameMessage;",
+              "name": "getInviteGameMessage",
+              "proto_index": 2623
+            },
+            {
+              "pc": 118,
+              "file_offset": 1411144,
+              "kind": "invoke",
+              "index": 17090,
+              "class": "Lcom/soul/game/protos/InviteGameMessage;",
+              "name": "getInvitee",
+              "proto_index": 3444
+            },
+            {
+              "pc": 124,
+              "file_offset": 1411156,
+              "kind": "invoke",
+              "index": 17091,
+              "class": "Lcom/soul/game/protos/InviteGameMessage;",
+              "name": "getInviter",
+              "proto_index": 3444
+            },
+            {
+              "pc": 130,
+              "file_offset": 1411168,
+              "kind": "invoke",
+              "index": 17089,
+              "class": "Lcom/soul/game/protos/InviteGameMessage;",
+              "name": "getExtMapMap",
+              "proto_index": 3800
+            },
+            {
+              "pc": 138,
+              "file_offset": 1411184,
+              "kind": "invoke",
+              "index": 17077,
+              "class": "Lcom/soul/game/protos/GameMessage;",
+              "name": "getExtMapMap",
+              "proto_index": 3800
+            },
+            {
+              "pc": 144,
+              "file_offset": 1411196,
+              "kind": "invoke",
+              "index": 17082,
+              "class": "Lcom/soul/game/protos/GameMessage;",
+              "name": "getTypeValue",
+              "proto_index": 39
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

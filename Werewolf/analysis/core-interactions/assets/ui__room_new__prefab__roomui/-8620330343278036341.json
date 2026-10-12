@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1689992306462378010
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2594893079676550793
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6233598177287591012
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4323270548433392568
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "HideNotesViewBtn",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

@@ -1,0 +1,44 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1180539078982243077
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5154402749577949755
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4735732883475831101
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3710152879323697814
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5176255072359280915
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3516250946754124071
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "bubble_party",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

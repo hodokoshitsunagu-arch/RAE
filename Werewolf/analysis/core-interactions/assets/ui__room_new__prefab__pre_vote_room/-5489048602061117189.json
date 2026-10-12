@@ -1,0 +1,34 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 221632592109414041
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7802755607570700153
+  },
+  "m_Name": "",
+  "bindDic": {
+    "m_keys": [
+      "title",
+      "voteNode",
+      "detailsBtn"
+    ],
+    "m_values": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 110058272333247986
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -1822453699751002049
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -2882866801795966351
+      }
+    ]
+  },
+  "animationEventList": []
+}

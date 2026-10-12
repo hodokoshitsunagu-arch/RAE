@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -123853767861254275
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7171893541467863242
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7810110325323753058
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6618934459410365989
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8228535440806159213
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "WerewolvesSuicide",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

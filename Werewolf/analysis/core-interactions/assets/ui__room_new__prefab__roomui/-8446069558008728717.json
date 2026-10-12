@@ -1,0 +1,44 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1009812169216842593
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4266207248388796757
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6394227387995546655
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2168651719107225971
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1285247476693099322
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8591426494528466789
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "scene",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

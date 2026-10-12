@@ -1,0 +1,29 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 1029304519210557610
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7802755607570700153
+  },
+  "m_Name": "",
+  "bindDic": {
+    "m_keys": [
+      "headBorderAnim",
+      "headBorderParticle"
+    ],
+    "m_values": [
+      {
+        "m_FileID": 0,
+        "m_PathID": -2601694302405771476
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 3824932160041577211
+      }
+    ]
+  },
+  "animationEventList": []
+}

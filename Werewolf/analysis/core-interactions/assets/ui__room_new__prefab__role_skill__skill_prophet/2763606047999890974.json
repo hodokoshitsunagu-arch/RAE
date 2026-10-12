@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -651219217612154009
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5865740402562001313
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6777217207874738444
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Good_person",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

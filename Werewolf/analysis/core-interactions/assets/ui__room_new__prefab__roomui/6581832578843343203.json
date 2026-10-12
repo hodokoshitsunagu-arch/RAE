@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8706483931615018505
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5927286864240018021
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1869465010614938540
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7061208807378204500
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Writtenwords",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-12",
+  "browser": "Codex In-app Browser",
+  "target": "http://127.0.0.1:4186/",
+  "mode": "controlled UI observations of reconstructed demo",
+  "desktop": {
+    "width": 1280,
+    "height": 720,
+    "castPanelClientHeight": 640,
+    "castPanelScrollHeight": 640
+  },
+  "mobile390": {
+    "clientWidth": 390,
+    "scrollWidth": 390
+  },
+  "mobile320": {
+    "clientWidth": 320,
+    "scrollWidth": 320
+  },
+  "checked": [
+    "seat claim and role selection",
+    "ready and start session",
+    "local BGM cache",
+    "actual BGM playback duration 64 seconds",
+    "same-track seek confirmation at 17 seconds",
+    "cross-track seek confirmation: duration 48, time approximately 4.3, paused false",
+    "actor controls disabled",
+    "local MediaRecorder creates nonempty recording Blob",
+    "recording blocks cue seek",
+    "session completion and statistics",
+    "same-track script switch resets audio time to 0 and pauses",
+    "script switch clears role and retains seat",
+    "leave disables mobile play and pauses audio",
+    "rejoin clears casting and seating",
+    "no error or warn logs returned during checked sessions"
+  ],
+  "recording": {
+    "generatedLinkLabel": "下载本场录音 · 154 KB",
+    "hasBlobUrl": true,
+    "hasAudioControls": true
+  },
+  "settlement": {
+    "elapsed": "00:11",
+    "roleLineCount": 5
+  },
+  "notVerified": [
+    "physical microphone permission and audio effects",
+    "headphone or speaker listening quality",
+    "download file successfully saved to disk: tool download-event wait timed out",
+    "original APK runtime or visual equivalence",
+    "RTC, real peers, backend or cross-client synchronization"
+  ]
+}

@@ -1,0 +1,2638 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="35601"
+    android:versionName="3.56.1"
+    android:compileSdkVersion="36"
+    android:compileSdkVersionCodename="16"
+    platformBuildVersionName="16"
+    platformBuildVersionCode="36"
+    package="com.piaxiya.app">
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="36"/>
+    <queries package="com.piaxiya.app">
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE"/>
+        </intent>
+        <intent>
+            <action android:name="android.media.action.ACTION_VIDEO_CAPTURE"/>
+        </intent>
+        <package android:name="com.android.creator"/>
+        <package android:name="com.android.creator"/>
+        <package android:name="com.mdid.msa"/>
+        <package android:name="com.samsung.android.deviceidservice"/>
+        <package android:name="com.coolpad.deviceidsupport"/>
+        <package android:name="com.heytap.openid"/>
+        <package android:name="com.heytap.mcs"/>
+        <package android:name="com.huawei.hwid"/>
+        <package android:name="com.huawei.hwid.tv"/>
+        <package android:name="com.huawei.hms"/>
+        <package android:name="com.asus.msa.SupplementaryDID"/>
+        <package android:name="com.zui.deviceidservice"/>
+        <package android:name="com.zhuoyi.security.lite"/>
+        <package android:name="com.freeme.secureguard"/>
+        <package android:name="com.android.secureguard"/>
+        <package android:name="com.hihonor.id"/>
+        <package android:name="com.qiku.id"/>
+        <package android:name="com.google.android.gms"/>
+        <package android:name="com.android.vending"/>
+        <package android:name="com.ss.android.ugc.aweme"/>
+        <package android:name="com.ss.android.ugc.aweme.lite"/>
+        <package android:name="com.ss.android.article.news"/>
+        <package android:name="com.ss.android.article.lite"/>
+        <package android:name="com.dragon.read"/>
+        <intent>
+            <action android:name="*"/>
+            <data android:scheme="tbopen"/>
+        </intent>
+        <package android:name="com.eg.android.AlipayGphone"/>
+        <package android:name="com.eg.android.AlipayGphoneRC"/>
+        <package android:name="hk.alipay.wallet"/>
+        <intent>
+            <action android:name="com.umeng.message.action.notify"/>
+        </intent>
+        <package android:name="com.huawei.android.pushagent"/>
+        <intent>
+            <action android:name="com.huawei.hms.core.aidlservice"/>
+        </intent>
+        <intent>
+            <action android:name="com.huawei.hms.core"/>
+        </intent>
+        <package android:name="com.huawei.works"/>
+    </queries>
+    <permission
+        android:name="com.piaxiya.app.permission.MIPUSH_RECEIVE"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="com.piaxiya.app.permission.MIPUSH_RECEIVE"/>
+    <uses-permission android:name="com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE"/>
+    <uses-permission android:name="com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE"/>
+    <queries>
+        <package android:name="com.tencent.mm"/>
+        <package android:name="com.eg.android.AlipayGphone"/>
+        <package android:name="com.tencent.mobileqq"/>
+    </queries>
+    <permission
+        android:name="com.piaxiya.app.permission.RECEIVE_MSG"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="com.piaxiya.app.permission.RECEIVE_MSG"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-feature
+        android:glEsVersion="0x20000"
+        android:required="true"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    <uses-permission android:name="android.permission.CAPTURE_AUDIO_HOTWORD"/>
+    <uses-permission android:name="android.permission.CAPTURE_AUDIO_OUTPUT"/>
+    <uses-permission android:name="android.permission.CAPTURE_MEDIA_OUTPUT"/>
+    <uses-permission android:name="android.permission.CAPTURE_TUNER_AUDIO_INPUT"/>
+    <uses-permission android:name="android.permission.CAPTURE_VOICE_COMMUNICATION_OUTPUT"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"/>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        android:maxSdkVersion="28"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.piaxiya.app.permission.RECEIVE_MSG"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_ADDED"/>
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_CHANGED"/>
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_INSTALL"/>
+    <uses-permission android:name="android.permission.BROADCAST_PACKAGE_REPLACED"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN"/>
+        </intent>
+    </queries>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <permission
+        android:name="com.piaxiya.app.gdt.qq.SEND_PERMISSION"
+        android:protectionLevel="signature"/>
+    <permission
+        android:name="com.piaxiya.app.gdt.qq.RECEIVE_PERMISSION"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="com.piaxiya.app.gdt.qq.SEND_PERMISSION"/>
+    <uses-permission android:name="com.piaxiya.app.gdt.qq.RECEIVE_PERMISSION"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="com.asus.permission.READ_SDID_PROVIDER"/>
+    <uses-permission android:name="com.asus.msa.SupplementaryDID.ACCESS"/>
+    <uses-permission android:name="freemme.permission.msa"/>
+    <uses-permission android:name="freemme.permission.msa.SECURITY_ACCESS"/>
+    <uses-permission android:name="com.nemu.oaid.permission.read"/>
+    <permission
+        android:name="com.piaxiya.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="com.piaxiya.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE"/>
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"/>
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"/>
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"/>
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT"/>
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_APP_BADGE"/>
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ"/>
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE"/>
+    <supports-screens
+        android:anyDensity="true"
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:resizeable="true"/>
+    <uses-permission android:name="com.vivo.notification.permission.BADGE_ICON"/>
+    <permission
+        android:name="com.piaxiya.app.permission.PROCESS_PUSH_MSG"
+        android:protectionLevel="signature"/>
+    <permission
+        android:name="com.piaxiya.app.permission.PUSH_PROVIDER"
+        android:protectionLevel="signature"/>
+    <permission
+        android:name="com.piaxiya.app.permission.PUSH_WRITE_PROVIDER"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="com.piaxiya.app.permission.PROCESS_PUSH_MSG"/>
+    <uses-permission android:name="com.piaxiya.app.permission.PUSH_PROVIDER"/>
+    <application
+        android:theme="0x7f14000b"
+        android:label="0x7f130060"
+        android:icon="0x7f100000"
+        android:name="com.netease.nis.wrapper.MyApplication"
+        android:debuggable="false"
+        android:allowBackup="false"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:extractNativeLibs="true"
+        android:usesCleartextTraffic="true"
+        android:networkSecurityConfig="0x7f160005"
+        android:roundIcon="0x7f100001"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:requestLegacyExternalStorage="true">
+        <property
+            android:name="android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY"
+            android:value="true"/>
+        <meta-data
+            android:name="CHANNEL"
+            android:value="default"/>
+        <service android:name="com.piaxiya.app.service.HeartbeatService"/>
+        <activity
+            android:name="com.piaxiya.app.test.PagTestActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.test.SpineTestActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.test.TestHomeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.test.ListPagActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="主界面"
+            android:name="com.piaxiya.app.home.activity.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:theme="0x7f1401c9"
+            android:name="com.piaxiya.app.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:configChanges="uiMode">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="piaxiya"
+                    android:host="webview"/>
+                <data
+                    android:scheme="piaxiya"
+                    android:host="user_news"/>
+                <data
+                    android:scheme="piaxiya"
+                    android:host="club"/>
+                <data
+                    android:scheme="piaxiya"
+                    android:host="club_apply"/>
+                <data
+                    android:scheme="piaxiya"
+                    android:host="sound_drifting"/>
+                <data
+                    android:scheme="piaxiya"
+                    android:host="user_info"/>
+                <data
+                    android:scheme="piaxiya"
+                    android:host="living_room"/>
+                <data
+                    android:scheme="piaxiya"
+                    android:host="authorization"/>
+                <data
+                    android:scheme="piaxiya"
+                    android:host="home"/>
+                <data
+                    android:scheme="piaxiya"
+                    android:host="user_profile"/>
+                <data
+                    android:scheme="piaxiya"
+                    android:host="identify_cooperate_invite"/>
+                <data
+                    android:scheme="piaxiya"
+                    android:host="article_detail"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="http"
+                    android:host="v.aipiaxi.com"/>
+                <data
+                    android:scheme="https"
+                    android:host="v.aipiaxi.com"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="0x7f16000c"/>
+        </activity>
+        <activity
+            android:name="com.piaxiya.app.message.activity.EmailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.setting.activity.SettingPlayActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.setting.activity.SwitchAccountActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.setting.activity.CacheLocalActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.common.activity.CommonVideoActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="反馈详情"
+            android:name="com.piaxiya.app.user.main.activity.FeedbackDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="禁言时长"
+            android:name="com.piaxiya.app.message.group.activity.MuteDurationActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="禁言名单管理"
+            android:name="com.piaxiya.app.message.group.activity.MuteListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="设置管理员"
+            android:name="com.piaxiya.app.message.group.activity.SetAdminActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="我在本群的昵称"
+            android:name="com.piaxiya.app.message.group.activity.EditNickActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="群聊申请"
+            android:name="com.piaxiya.app.message.group.activity.GroupApplyActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="群公告"
+            android:name="com.piaxiya.app.message.group.activity.GroupNoticeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="提升群上限"
+            android:name="com.piaxiya.app.message.group.activity.GroupUpActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="群成员"
+            android:name="com.piaxiya.app.message.group.activity.GroupMemberActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="移除成员"
+            android:name="com.piaxiya.app.message.group.activity.GroupMemberRemoveActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="编辑资料"
+            android:name="com.piaxiya.app.message.group.activity.EditInfoActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="群聊信息"
+            android:name="com.piaxiya.app.message.group.activity.GroupDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="戏鲸群"
+            android:name="com.piaxiya.app.message.group.activity.GroupListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="房间主题详情"
+            android:name="com.piaxiya.app.live_v2.main.activity.ThemeDetailsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="房间主题"
+            android:name="com.piaxiya.app.live_v2.main.activity.RoomThemeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="选择背景图"
+            android:name="com.piaxiya.app.message.activity.ChatThemeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="推荐设置"
+            android:name="com.piaxiya.app.user.setting.activity.RecommendSettingActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="鲸令状兑换记录"
+            android:name="com.piaxiya.app.user.task.activity.PledgeRecordActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="创建房间"
+            android:name="com.piaxiya.app.live_v2.main.activity.CreateRoomActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="开场Pia戏"
+            android:name="com.piaxiya.app.live_v2.main.activity.BeginPiaActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="百科名词详情"
+            android:name="com.piaxiya.app.article.main.activity.EncyclopediaNounDetailsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="名词科普"
+            android:name="com.piaxiya.app.article.main.activity.EncyclopediaNounActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="百科全书"
+            android:name="com.piaxiya.app.article.main.activity.EncyclopediaVideoActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="戏鲸小镇"
+            android:name="com.piaxiya.app.home.activity.SmallTownActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="合拍好友列表"
+            android:name="com.piaxiya.app.sound.identify.activity.CooperateFriendActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="合拍测试"
+            android:name="com.piaxiya.app.sound.identify.activity.CooperateActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="关注上新列表页"
+            android:name="com.piaxiya.app.dub.dub.activity.FollowNewActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="配音匹配页"
+            android:name="com.piaxiya.app.live_v2.match.activity.PiaOrDubMatchV2Activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="授权"
+            android:name="com.piaxiya.app.user.main.activity.AuthorizationActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="用户偏好"
+            android:name="com.piaxiya.app.user.guide.activity.UserPreferenceActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="曝光专区"
+            android:name="com.piaxiya.app.dub.dub.activity.DubExposureActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="铭牌详情"
+            android:name="com.piaxiya.app.user.personal.activity.PlateDetailsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="素材邀请管理"
+            android:name="com.piaxiya.app.dub.material.activity.MaterialInviteManagerActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="联系人列表"
+            android:name="com.piaxiya.app.message.activity.ContactsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="好友分组"
+            android:name="com.piaxiya.app.user.main.activity.FriendGroupActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="个人主页"
+            android:name="com.piaxiya.app.user.personal.activity.UserInfoActivity"
+            android:exported="false"
+            android:launchMode="standard"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.piaxiya.app.user.personal.activity.UserInfoActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="作者主页"
+            android:name="com.piaxiya.app.user.personal.activity.AuthorHomePageActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="编辑作者资料"
+            android:name="com.piaxiya.app.user.personal.activity.EditAuthorInfoActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="剧本搜索"
+            android:name="com.piaxiya.app.user.personal.activity.ScriptSearchActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="添加剧本"
+            android:name="com.piaxiya.app.user.personal.activity.AddScriptActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="全部剧本"
+            android:name="com.piaxiya.app.user.personal.activity.ScriptListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="荣誉作品"
+            android:name="com.piaxiya.app.user.personal.activity.HonorWorksActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.message.activity.VoiceEmotionSearchActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.dramafangroup.activity.DramaFanGroupActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.dramafangroup.activity.DramaFanGroupEditActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="邀请配音"
+            android:name="com.piaxiya.app.dub.material.activity.InviteListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="身份铭牌"
+            android:name="com.piaxiya.app.user.personal.activity.UserPlateActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="身份铭牌"
+            android:name="com.piaxiya.app.user.personal.activity.UserPlateEditActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="更改顺序"
+            android:name="com.piaxiya.app.dub.collection.activity.CollectionSortActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="合集管理"
+            android:name="com.piaxiya.app.dub.collection.activity.CollectionManagerActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="合集添加作品或素材"
+            android:name="com.piaxiya.app.dub.collection.activity.CollectionAddActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="合集管理"
+            android:name="com.piaxiya.app.dub.collection.activity.CollectionManagementActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="我的录音"
+            android:name="com.piaxiya.app.live_v2.recording.activity.RecordManagerActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.message.activity.VoiceRecordActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.masked.activity.MaskedHistoryActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.personal.activity.GiftMapHomeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.personal.activity.GiftMapHomeV2Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.personal.activity.WhaleBeanGuideActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.personal.activity.SettlementBonusActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.personal.activity.StarRewardHomeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.personal.activity.QuarterlyListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.main.activity.GiftRecordHomeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.message.activity.ChatSettingActivity"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.message.activity.ChatContentActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.message.activity.ChatContentSearchActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.message.activity.ChatImageVideoActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.message.activity.ChatAllLinkActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.message.activity.ChatDateSearchActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.message.emoticon.activity.VoiceEmotionManagerActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.message.activity.VoiceEmotionSquareActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.message.activity.MyUploadVoiceEmotionListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.login.activity.LoginPhoneActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.login.activity.LoginPhoneV2Activity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible"/>
+        <activity
+            android:name="com.piaxiya.app.user.login.activity.LoginActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.login.activity.LoginCodeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.login.activity.LoginCodeV2Activity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.main.activity.RoomFansNoticeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.collection.activity.DubCollectionActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.main.activity.RoomMainActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:configChanges="fontScale|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|locale"
+            android:windowSoftInputMode="adjustNothing|stateHidden"/>
+        <activity
+            android:name="com.piaxiya.app.article.main.activity.ArticleCommentActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.main.activity.RankingListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.personal.activity.EditProfileActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.message.emoticon.activity.VoiceEmotionDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.personal.activity.EditPatActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.personal.activity.EditNickNameActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible"/>
+        <activity
+            android:name="com.piaxiya.app.user.personal.activity.NoviceEditProfileActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.main.activity.AbuseActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="com.piaxiya.app.user.view.AbuseActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.piaxiya.app.live_v2.main.activity.RoomInfoActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.main.activity.RoomHistoryListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.club.activity.JobSkinActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.collaboration.activity.CollaborationHomeActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.collaboration.activity.RoomCollaborationActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.collaboration.activity.CollaborationResultActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.club.activity.VipPersonListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.main.activity.LiveUserListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.main.activity.UpdateRoomNameActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="0x7f14016a"
+            android:name="com.piaxiya.app.user.main.activity.AlbumCreateActivity"
+            android:configChanges="screenSize|orientation"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="com.piaxiya.app.common.activity.CommonWebViewActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubCloudRecordActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubCreateActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity
+            android:name="com.piaxiya.app.sound.identify.activity.IdentifyActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.main.activity.AppScanActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.main.activity.ScanResultsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.main.activity.SubscribeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.personal.activity.WorksGroupManageActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.identify.activity.IdentifyProcessActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.identify.activity.IdentifyFailureActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.identify.activity.IdentifyResultActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.identify.activity.IdentifyResultV2Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.square.activity.DynamicDetailsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubApplyListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.square.activity.DynamicPublishActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.square.activity.VisibleRangeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.article.main.activity.PiaXiSearchActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.setting.activity.SettingActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.setting.activity.SetAudioQualityActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.setting.activity.SetVideoQualityActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.shop.activity.RechargeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.main.activity.MyCollectionActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.task.activity.TaskActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.shop.activity.PropActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.shop.activity.BackpackActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.message.activity.NotifySystemActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubDetailsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubRankActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubScriptListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubScriptManageActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubContentManageActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubActivitiesListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubActListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubActEditActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubActDetailsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ActSubscribePersonnelActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubDubbingMaterialListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubAudioProgramListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="0x7f14016a"
+            android:name="com.piaxiya.app.view.FloatEditorDialog"
+            android:configChanges="screenSize|orientation"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="com.piaxiya.app.shop.activity.ConsumeRecordActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.message.activity.ChatActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="com.piaxiya.app.message.view.ChatActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.piaxiya.app.message.activity.ConfirmAddGifsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.message.activity.TeamMessageActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="com.piaxiya.app.message.view.TeamMessageActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="黑名单"
+            android:name="com.piaxiya.app.user.setting.activity.BlackListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.main.activity.FeedBackActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity
+            android:name="com.piaxiya.app.user.main.activity.AuthRealOverseasActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity
+            android:name="com.piaxiya.app.user.setting.activity.AboutActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.setting.activity.NetworkCheckActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.setting.activity.AccountBindingActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.article.main.activity.ArticleDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.article.main.activity.ArticleActActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.article.timeline.activity.ScriptTimelineHomeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.article.timeline.activity.MyScriptTimelineActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.article.timeline.activity.ScriptTimelineEditActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.article.timeline.activity.ScriptTimelineReservedActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.article.timeline.activity.ScriptTimelineBgmActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.article.main.activity.WalkFeedbackActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.article.main.activity.ScriptQueryActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.personal.activity.CreateUserLabelActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.dub.activity.KeywordLabelSearchListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.dub.activity.LabelChooseActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.message.activity.TeamSettingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.piaxiya.app.message.view.TeamSettingActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.piaxiya.app.message.activity.TeamMemberActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.article.main.activity.AlbumDetailsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="0x7f14025e"
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubMemberListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubMemberManageActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubEditMemberTitleActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubInvitationMemberListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubNameEditActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubDescEditActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.main.activity.AlbumEditorActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.main.activity.AlbumLabelActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.square.activity.MaterialPlazaActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.square.activity.MaterialCreateActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.square.activity.MaterialDetailsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.square.activity.VoicePublishActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.square.activity.VoiceDetailsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.main.activity.ChangeNickActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.common.activity.AudioPlayerActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.main.activity.PositiveEnergyActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.setting.activity.PrivacyActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.article.author.activity.ArticleEditActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.article.author.activity.ArticleNewEditActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.recording.activity.RecordingReleaseActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.main.activity.RecordingEffectActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="0x7f14000a"
+            android:name="com.piaxiya.app.live_v2.interaction.activity.RedPacketDetailsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.interaction.activity.RedPacketSendActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="通知"
+            android:name="com.piaxiya.app.message.activity.NotificationManagerActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.setting.activity.CacheManagerActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.square.activity.TopicDetailsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.square.activity.TopicHotSearchActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.square.activity.TopicInviteDiscussionActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.setting.activity.LaunchAudioActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.main.activity.FootprintActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.main.activity.GuestActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.article.main.activity.ArticleFeedbackActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.main.activity.GameFeedbackActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.message.activity.PCOnlineActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.square.activity.VideoPlayActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubHomeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.master.activity.MentorshipHomeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.master.activity.MentorshipInfoActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.master.activity.MasterDisciplePushActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.master.activity.MasterDiscipleSquareActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.master.activity.MasterRecommendActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.main.activity.ApprenticeDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.master.activity.MasterApplyListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.master.activity.MasterApplyActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.piaxiya.app.user.master.activity.TeahouseActivity"/>
+        <activity android:name="com.piaxiya.app.user.master.activity.TeahousePublishActivity"/>
+        <activity android:name="com.piaxiya.app.user.master.activity.TeahouseMineActivity"/>
+        <activity android:name="com.piaxiya.app.user.master.activity.MentorshipDetailActivity"/>
+        <activity android:name="com.piaxiya.app.user.master.activity.MentorshipMasterShopActivity"/>
+        <activity android:name="com.piaxiya.app.user.master.activity.MentorshipGiftShopActivity"/>
+        <activity android:name="com.piaxiya.app.user.master.activity.MentorshipRankingActivity"/>
+        <activity android:name="com.piaxiya.app.user.master.activity.SectRewardActivity"/>
+        <activity android:name="com.piaxiya.app.user.master.activity.SubmitHomeworkActivity"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.main.activity.RoomManagerAddActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.playlist.activity.MyPlayListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.playlist.activity.RecordPlayListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.playlist.activity.ArticleAddActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.playlist.activity.RecordEditingActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.playlist.activity.MyRecordingActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.playlist.activity.PlaylistEditDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.playlist.activity.PlaylistDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.playlist.activity.LocalMusicActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.playlist.activity.PlaylistMemberActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.playlist.activity.ProgramUpdateListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.playlist.activity.PlaylistClassifyActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="订阅通知"
+            android:name="com.piaxiya.app.message.activity.NotifySubscribeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="粉丝通知"
+            android:name="com.piaxiya.app.message.activity.NotifyFansActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="新本通知"
+            android:name="com.piaxiya.app.message.activity.NotifyNewArticleActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.article.author.activity.AuthorCentreActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.article.author.activity.AuthorTaskActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.shop.activity.RechargeWhaleActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.task.activity.PledgeAdvanceActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.shop.activity.WalletActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.shop.activity.WalletDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.shop.activity.ShardMallActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.shop.activity.ActionActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.shop.activity.RomanticMomentActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.dub.activity.DubRecordActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.dub.activity.SelectMatchRoleActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.dub.activity.DubAdjustActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.authenticate.activity.DubExaminerActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.authenticate.activity.AuthReportActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.authenticate.activity.AuthVideoActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.dub.activity.DubPreviewActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.dub.activity.MaterialAdapterListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.dub.activity.DubVideoDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.dub.activity.DubRecommendActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.dub.activity.DubWeekWillSeeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.dub.activity.DubUploadSuccessfulActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.material.activity.MaterialCenterActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.dub.activity.DubSameDetailsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.dub.activity.DubSameListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.dub.activity.DubWaitingListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.dub.activity.DubWeeklyActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.dub.activity.DubMineActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.dub.activity.FirstDubExamineActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.message.activity.NotifyDubActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.message.activity.FollowTrendActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.message.activity.LimitedChatActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.dub.activity.VideoBgmCutActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.reward.activity.VoiceRewardActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.reward.activity.RewardPublishOneActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.reward.activity.RewardPublishThreeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.reward.activity.RewardPublishFourActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.reward.activity.RewardPublishFiveActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.reward.activity.UserRewardInfoActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.reward.activity.ActivationCvActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.reward.activity.ScanVoiceActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.reward.activity.RewardEditProfileActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.reward.activity.UserVoiceManagerActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.common.activity.SearchActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.main.activity.LabActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.reward.activity.InviteCVActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.reward.activity.RewardDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.reward.activity.AuthActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.reward.activity.MessageActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.dub.activity.MaterialLabelDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.reward.activity.RewardPublishTwoActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.reward.activity.RewardPublishFour2Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.reward.activity.RewardPublishFive2Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.reward.activity.MineActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.reward.activity.WorkPlateActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.reward.activity.PaymentActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.reward.activity.WorkDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.setting.activity.AdolescentActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.main.activity.CollectionSowingListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.main.activity.CompanionLeaderboardActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.setting.activity.AdolescentSettingActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.setting.activity.AdolescentRetrieveActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.shop.activity.ExchangeDiamondActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="活体检测"
+            android:name="com.piaxiya.app.shop.activity.FaceVerificationActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="活体检测"
+            android:name="com.piaxiya.app.shop.activity.StartFaceVerificationActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.shop.activity.FaceVerificationResultActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.shop.activity.WithdrawActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.shop.activity.WithdrawAccountActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.shop.activity.WithdrawBindAlipayActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.common.activity.CommUserSelectActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.message.emoticon.activity.GifManagerActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="作品云集"
+            android:name="com.piaxiya.app.dub.dub.activity.DubGatherActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.dub.activity.DubFeedbackActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.dub.activity.DubSquareActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.dub.activity.DubCooperateDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.shop.activity.WithdrawRecordActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.dub.activity.MaterialSubjectActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.material.activity.MaterialSubjectAllActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.material.activity.MaterialSubtitleEditActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.mandarin.activity.MandarinActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.mandarin.activity.MandarinPracticeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.mandarin.activity.MandarinPracticeResultActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.mandarin.activity.MandarinStudioNewActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.mandarin.activity.MandarinHistoryRecordActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.mandarin.activity.MandarinPracticeHistoryRecordActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.mandarin.activity.MandarinResultNewActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.mandarin.activity.ModuleExercisesActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.mandarin.activity.ChallengeHomeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.mandarin.activity.ChallengeRunActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.mandarin.activity.ChallengePersonalListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.mandarin.activity.MandarinRecordActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.mandarin.activity.MandarinResultActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.drift.activity.DriftSoundBottleActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.square.activity.ConfessionWallActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.dub.activity.DubRankingActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="榜单奖励"
+            android:name="com.piaxiya.app.dub.dub.activity.DubSowingRewardActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:label="更多"
+            android:name="com.piaxiya.app.message.activity.MoreWithRoomActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.identify.activity.IdentifyFeedbackActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.square.activity.CommentsReplyActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.article.main.activity.PIAPlayCameraActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.article.main.activity.PiaXiEncyclopediaActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.setting.activity.WxBindPhoneActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.setting.activity.SettingNetworkActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.push.UmengPushActivity"
+            android:exported="true"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubSetActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubDressUpActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubCoverFrameActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubListSkinActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubRadioSetActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubRecruitingSetActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubDataSetActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubPositioningEditActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubLabelEditActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubApplySetActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubShopBuyActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ConsumptionRecordsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.drift.activity.DriftV2Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.drift.activity.DriftRecordBottleActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.drift.activity.DriftFiveBottlesActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.drift.activity.DriftBottleMsgActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.drift.activity.DriftSingleBottlesActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.mandarin.activity.DotOpenBoxActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.drift.activity.DriftEventsListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.recording.activity.RoomPlaybackMainActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.setting.activity.AgreementActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.masked.activity.MaskedHomeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.masked.activity.MaskedMatchingActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.masked.activity.MaskedCallActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.masked.activity.MaskedCallEndActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.sense.activity.SenseTestHomeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.sense.activity.SenseStartTestingActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.exercise.activity.ExerciseSenseActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.exercise.activity.ExerciseDetailsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.square.activity.EssayEditActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.square.activity.LookMateActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.square.activity.LookMatePublishActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.square.activity.MyLookMateActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.square.activity.LookMateSettingActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.setting.activity.DynamicFriendRecommendedSetActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.square.activity.EssayPreviewActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:label="0x7f130060"
+            android:name="com.piaxiya.app.wxapi.WXEntryActivity"
+            android:exported="true"
+            android:taskAffinity="com.piaxiya.app"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name="com.piaxiya.app.wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name="com.piaxiya.app.dub.dub.activity.DubCenterActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.dub.activity.ExposureManagementActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.dub.activity.DubDraftsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.material.activity.MaterialMakeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.dub.material.activity.MaterialEditPreviewActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.lib_base.album.activity.UCropMultipleXjActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.lib_base.album.pictureeditor.EditorActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity
+            android:name="com.piaxiya.app.user.relationship.activity.RelationshipActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.relationship.activity.RelationLvActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.relationship.activity.RelationInfoValueActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.common.activity.CallUserActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.piaxiya.app.common.activity.CommonContainerActivity"/>
+        <activity
+            android:name="com.piaxiya.app.user.relationship.activity.RelationalTaskActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.relationship.activity.IntimateChallengeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.relationship.activity.RelationshipCpInfoActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.relationship.activity.RelationshipSetActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.relationship.activity.EditDiaryActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.relationship.activity.IntimacyDiaryActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.relationship.activity.RelationalAuthActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.relationship.activity.RelationshipOtherInfoActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.message.activity.ApplyAssistantActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.game.activity.PetMessageActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.game.activity.PetMessageSetActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.wedding.activity.ChurchHomeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.wedding.activity.ProposeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.wedding.activity.SendProposeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.wedding.activity.WeddingPackageActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.wedding.activity.WeddingPackageInfoActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.wedding.activity.WeddingTimeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.wedding.activity.WeddingPrepareActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.wedding.activity.WeddingCardActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.wedding.activity.WeddingEmceeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.wedding.activity.WeddingMarryActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.piaxiya.app.live_v2.wedding.activity.FriendSelectActivity"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.exercise.activity.PiaExerciseActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.exercise.activity.SwitchPartnersActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.exercise.activity.PiaExerciseHomeActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.exercise.activity.PiaExercisePreviewV2Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.main.activity.TestActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.club.activity.ClubNewHomeActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.piaxiya.app.club.activity.ClubPublishedActivitiesActivity"/>
+        <activity android:name="com.piaxiya.app.club.activity.ClubActivityCloudRecordActivity"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.exercise.activity.PartnerArticleActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.exercise.activity.MyPiaExerciseActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.exercise.activity.EditExerciseNameActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.training.activity.TrainingCampActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.partner_ai.activity.TrainingPartnerActivity"
+            android:exported="false"/>
+        <activity
+            android:name="com.piaxiya.app.sound.partner_ai.activity.TrainingPartnerPracticeActivity"
+            android:exported="false"/>
+        <activity
+            android:name="com.piaxiya.app.sound.partner_ai.activity.TrainingPartnerCallActivity"
+            android:exported="false"/>
+        <activity
+            android:name="com.piaxiya.app.sound.partner_ai.activity.TrainingPartnerWorksActivity"
+            android:exported="false"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name="com.piaxiya.app.sound.partner_ai.activity.TrainingPartnerSelectActivity"
+            android:exported="false"/>
+        <activity
+            android:name="com.piaxiya.app.sound.partner_ai.activity.TrainingPartnerPlayerActivity"
+            android:exported="false"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.pia.activity.ReadEvaluateActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.subservice.activity.SellerOrderCenterActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.subservice.activity.SellerRecommendMyselfActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.subservice.activity.SellerServiceManageActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.subservice.activity.SellerSubEditActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sensorsdata.analytics.android.sdk.dialog.SchemeActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:configChanges="screenSize|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="sa3704c4b7"/>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="com.piaxiya.app.service.VoiceService"
+            android:exported="false"
+            android:foregroundServiceType="mediaPlayback"/>
+        <service
+            android:name="com.piaxiya.app.live_v2.service.RoomMicService"
+            android:exported="false"
+            android:foregroundServiceType="microphone|mediaPlayback"/>
+        <service
+            android:name="com.piaxiya.app.live_v2.service.RoomService"
+            android:exported="false"
+            android:foregroundServiceType="mediaPlayback"/>
+        <service
+            android:name="com.piaxiya.app.service.SubmitService"
+            android:exported="false"
+            android:foregroundServiceType="dataSync"/>
+        <service
+            android:name="com.piaxiya.app.sound.masked.service.MaskedHeartService"
+            android:exported="false"
+            android:foregroundServiceType="microphone|mediaPlayback"/>
+        <service
+            android:name="com.xiaomi.push.service.XMPushService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":mixpush"/>
+        <service
+            android:name="com.xiaomi.push.service.XMJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":mixpush"/>
+        <service
+            android:name="com.xiaomi.mipush.sdk.PushMessageHandler"
+            android:permission="com.xiaomi.xmsf.permission.MIPUSH_RECEIVE"
+            android:enabled="true"
+            android:exported="true"/>
+        <service
+            android:name="com.xiaomi.mipush.sdk.MessageHandleService"
+            android:enabled="true"
+            android:exported="false"/>
+        <receiver
+            android:name="com.piaxiya.app.service.receiver.PlayerBroadCastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.piaxiya.app.player.play"/>
+                <action android:name="com.piaxiya.app.player.next"/>
+                <action android:name="com.piaxiya.app.player.last"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.piaxiya.app.live_v2.notification.receiver.RoomNotificationReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.piaxiya.app.room_notification.delete"/>
+                <action android:name="com.piaxiya.app.room_notification.into"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.xiaomi.push.service.receivers.NetworkStatusReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.xiaomi.push.service.receivers.PingReceiver"
+            android:exported="false"
+            android:process=":mixpush">
+            <intent-filter>
+                <action android:name="com.xiaomi.push.PING_TIMER"/>
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="com.vivo.push.api_key"
+            android:value="7910ce127aeeb60bb04a552242b81633"/>
+        <meta-data
+            android:name="com.vivo.push.app_id"
+            android:value="104532833"/>
+        <service
+            android:name="com.vivo.push.sdk.service.CommandClientService"
+            android:permission="com.push.permission.UPSTAGESERVICE"
+            android:exported="true"/>
+        <meta-data
+            android:name="com.netease.nim.appKey"
+            android:value="c90403421263594edc50836c357a37f8"/>
+        <meta-data
+            android:name="com.huawei.hms.client.appid"
+            android:value="appid=102938623"/>
+        <provider
+            android:name="com.netease.nimlib.ipc.NIMContentProvider"
+            android:exported="false"
+            android:process=":core"
+            android:authorities="com.piaxiya.app.ipc.provider"/>
+        <provider
+            android:name="com.piaxiya.app.utils.PhotoFileProvider"
+            android:exported="false"
+            android:authorities="com.piaxiya.app"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="0x7f160001"/>
+        </provider>
+        <receiver
+            android:name="com.netease.nimlib.service.NimReceiver"
+            android:exported="false"
+            android:process=":core">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.netease.nimlib.service.ResponseReceiver"/>
+        <service
+            android:name="com.netease.nimlib.service.NimService"
+            android:process=":core"/>
+        <service
+            android:name="com.netease.nimlib.service.NimService$Aux"
+            android:process=":core"/>
+        <service
+            android:name="com.netease.nimlib.job.NIMJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false"
+            android:process=":core"/>
+        <service android:name="com.netease.nimlib.service.ResponseService"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="behind"
+            android:configChanges="orientation|keyboardHidden"/>
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tencent1111058862"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="0x7f140077"
+            android:name="com.luck.picture.lib.basic.PictureSelectorSupporterActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:theme="0x7f14016f"
+            android:name="com.luck.picture.lib.basic.PictureSelectorTransparentActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:name="com.piaxiya.app.sound.throat.activity.ThroatExerciseActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.sound.throat.activity.ThroatExerciseInfoActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.carefully.activity.CarefullySelectedActEditActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="com.piaxiya.app.carefully.activity.CarefullySelectedListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="com.piaxiya.app.carefully.activity.CarefullySelectedDetailActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="com.piaxiya.app.carefully.activity.MineCreatedActListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="com.piaxiya.app.article.rank.activity.RankRewardListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="com.piaxiya.app.island.activity.MineSoundActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="com.piaxiya.app.island.activity.PublishSoundActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.piaxiya.app.island.activity.SoundDetailActivity"/>
+        <activity
+            android:theme="0x7f140325"
+            android:name="com.piaxiya.app.island.activity.SoundReplyActivity"/>
+        <activity
+            android:name="com.piaxiya.app.playlist.activity.VoiceActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.personal.activity.GiftSeriesListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.piaxiya.app.user.relationship.activity.RelationshipCardSettingActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.piaxiya.app.user.relationship.activity.RelationshipEstablishActivity"/>
+        <activity android:name="com.piaxiya.app.user.relationship.activity.RelationshipTransformActivity"/>
+        <activity android:name="com.piaxiya.app.user.subservice.activity.OrderCenterActivity"/>
+        <activity android:name="com.piaxiya.app.user.subservice.activity.SubServiceInfoActivity"/>
+        <activity android:name="com.piaxiya.app.user.subservice.activity.SubscriptionDetailsActivity"/>
+        <activity android:name="com.piaxiya.app.user.subservice.activity.ServiceEvaluationActivity"/>
+        <activity android:name="com.piaxiya.app.user.relationship.activity.RelationshipCardContentSettingActivity"/>
+        <activity android:name="com.piaxiya.app.user.relationship.activity.FriendTrajectoryActivity"/>
+        <activity android:name="com.piaxiya.app.user.relationship.activity.RelationshipGalleryActivity"/>
+        <activity android:name="com.piaxiya.app.user.subservice.activity.SubServiceListActivity"/>
+        <activity android:name="com.piaxiya.app.user.subservice.activity.SubscribeServiceUsageHistoryActivity"/>
+        <activity
+            android:theme="0x7f14000d"
+            android:name="com.piaxiya.app.message.ait.selector.AitContactSelectorActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.piaxiya.app.live_v2.hall.activity.QuickGreetingActivity"/>
+        <activity android:name="com.piaxiya.app.live_v2.hall.activity.FanClubNameEditActivity"/>
+        <activity android:name="com.piaxiya.app.sound.training.activity.TrainingRankActivity"/>
+        <activity android:name="com.piaxiya.app.sound.training.activity.BlindBoxShopActivity"/>
+        <activity android:name="com.piaxiya.app.sound.training.activity.PlayfulExerciseActivity"/>
+        <activity android:name="com.piaxiya.app.sound.training.activity.SinglePlayerPracticingActingActivity"/>
+        <activity android:name="com.piaxiya.app.sound.training.activity.HomophonesPracticeActivity"/>
+        <activity android:name="com.piaxiya.app.sound.training.activity.LoudTrainingActivity"/>
+        <activity android:name="com.piaxiya.app.sound.training.activity.TrainingResultActivity"/>
+        <activity android:name="com.piaxiya.app.article.series.activity.SeriesSetListActivity"/>
+        <activity android:name="com.piaxiya.app.article.series.activity.SeriesSetDetailActivity"/>
+        <activity android:name="com.piaxiya.app.user.personal.activity.LikeRecordActivity"/>
+        <activity android:name="com.piaxiya.app.user.personal.activity.LikeSettingsActivity"/>
+        <activity android:name="com.piaxiya.app.user.personal.activity.LikeRankActivity"/>
+        <activity android:name="com.piaxiya.app.article.series.activity.SelectedSeriesSetActivity"/>
+        <activity android:name="com.piaxiya.app.live_v2.interaction.activity.LotteryHistoryRecordActivity"/>
+        <activity android:name="com.piaxiya.app.hising.activity.HiSingQueueActivity"/>
+        <activity android:name="com.piaxiya.app.hising.activity.SongPlatformActivity"/>
+        <activity android:name="com.piaxiya.app.hising.activity.SingingRankActivity"/>
+        <activity android:name="com.piaxiya.app.hising.activity.MineHiSingListActivity"/>
+        <activity android:name="com.piaxiya.app.hising.activity.MineHiSingDraftActivity"/>
+        <activity android:name="com.piaxiya.app.hising.activity.SingPreviewPublishActivity"/>
+        <activity
+            android:name="com.piaxiya.app.hising.activity.HiSingUploadActivity"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.piaxiya.app.hising.activity.HiSingActivity"/>
+        <activity android:name="com.piaxiya.app.treasure.activity.TreasureMuseumActivity"/>
+        <activity android:name="com.piaxiya.app.treasure.activity.TreasureRecordActivity"/>
+        <activity android:name="com.piaxiya.app.treasure.activity.TreasureRankingActivity"/>
+        <activity android:name="com.piaxiya.app.treasure.activity.TreasureRewardActivity"/>
+        <activity android:name="com.piaxiya.app.treasure.activity.TreasureBiographyEditActivity"/>
+        <activity android:name="com.piaxiya.app.user.nobility.activity.NobilityActivity"/>
+        <activity android:name="com.piaxiya.app.user.nobility.activity.NobilitySettingActivity"/>
+        <activity android:name="com.piaxiya.app.user.nobility.activity.NobilityTitleBoardActivity"/>
+        <activity android:name="com.piaxiya.app.user.nobility.activity.NobilityRecordActivity"/>
+        <activity
+            android:theme="0x7f140325"
+            android:name="com.piaxiya.app.user.bind.BindTelephoneActivity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name="com.piaxiya.app.live_v2.chamber.activity.PartyHallActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.piaxiya.app.user.show.activity.UserShowShopActivity"/>
+        <activity android:name="com.piaxiya.app.live_v2.chamber.activity.DialogueHomeActivity"/>
+        <activity android:name="com.piaxiya.app.live_v2.chamber.activity.DesignatedTimeActivity"/>
+        <activity android:name="com.piaxiya.app.live_v2.chamber.activity.DialogueTemplateActivity"/>
+        <activity android:name="com.piaxiya.app.user.newbie.activity.NewbieClassmatesActivity"/>
+        <receiver
+            android:name="com.piaxiya.app.live_v2.service.receiver.HeartbeatReceiver"
+            android:enabled="true"
+            android:exported="false"/>
+        <activity
+            android:theme="0x7f140150"
+            android:name="com.geetest.onelogin.activity.OneLoginActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:screenOrientation="behind"
+            android:configChanges="fontScale|smallestScreenSize|screenSize|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity
+            android:theme="0x7f140150"
+            android:name="com.geetest.onelogin.activity.OneLoginWebActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:screenOrientation="behind"
+            android:configChanges="fontScale|smallestScreenSize|screenSize|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <provider
+            android:name="com.qq.gdt.action.GDTInitProvider"
+            android:exported="false"
+            android:authorities="com.piaxiya.app.GDTInitProvider"/>
+        <service
+            android:name="com.efs.sdk.memleaksdk.monitor.UMonitorService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":u_heap"/>
+        <receiver
+            android:name="com.netease.nimlib.mixpush.mi.MiPushReceiver"
+            android:exported="true">
+            <intent-filter android:priority="0x7fffffff">
+                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE"/>
+                <action android:name="com.xiaomi.mipush.MESSAGE_ARRIVED"/>
+                <action android:name="com.xiaomi.mipush.ERROR"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.piaxiya.im.core.push.ImHuaweiPushService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.push.action.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.netease.nimlib.mixpush.vivo.VivoPushReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.vivo.pushclient.action.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.netease.nimlib.mixpush.oppo.OppoPushService"
+            android:permission="com.coloros.mcs.permission.SEND_MCS_MESSAGE"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.netease.nimlib.mixpush.oppo.OppoAppPushService"
+            android:permission="com.heytap.mcs.permission.SEND_PUSH_MESSAGE"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"/>
+                <action android:name="com.heytap.msp.push.RECEIVE_MCS_MESSAGE"/>
+            </intent-filter>
+        </service>
+        <activity
+            android:theme="0x7f14000d"
+            android:label="0x7f130091"
+            android:name="com.piaxiya.im.feature.contact.ui.selector.ContactSelectActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:theme="0x7f14012e"
+            android:label="0x7f130387"
+            android:name="com.piaxiya.im.feature.session.ui.activity.WatchVideoActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:authorities="com.piaxiya.app.fileprovider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="0x7f160002"/>
+        </provider>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.piaxiya.app.lib_base.utils.permissions.RuntimePermissionActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"/>
+        <service
+            android:name="com.piaxiya.app.lib_base.media.screenrecord.ScreenRecordService"
+            android:exported="false"
+            android:stopWithTask="false"
+            android:foregroundServiceType="microphone|mediaProjection"/>
+        <activity
+            android:name="com.piaxiya.app.lib_base.album.video.VideoEditActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <receiver
+            android:name="com.piaxiya.app.lib_base.base.keep.WakeUpReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":watch">
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+                <action android:name="com.xdandroid.hellodaemon.CANCEL_JOB_ALARM_SUB"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.piaxiya.app.lib_base.base.keep.AbsWorkService$WorkNotificationService"/>
+        <service
+            android:name="com.piaxiya.app.lib_base.base.keep.JobSchedulerService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":watch"/>
+        <service
+            android:name="com.piaxiya.app.lib_base.base.keep.WatchDogService"
+            android:exported="false"
+            android:process=":watch"/>
+        <service
+            android:name="com.piaxiya.app.lib_base.base.keep.WatchDogService$WatchDogNotificationService"
+            android:exported="false"
+            android:process=":watch"/>
+        <meta-data
+            android:name="com.piaxiya.app.lib_base.imageloader.svga.CompatSVGAModule"
+            android:value="GlideModule"/>
+        <meta-data
+            android:name="design_width_in_dp"
+            android:value="390"/>
+        <meta-data
+            android:name="design_height_in_dp"
+            android:value="844"/>
+        <provider
+            android:name="com.piaxiya.background.BackgroundContentProvider"
+            android:exported="false"
+            android:multiprocess="true"
+            android:authorities="com.piaxiya.app.backgroundLibrary"/>
+        <receiver android:name="com.piaxiya.app.lib_base.base.keeplive.receiver.NotificationClickReceiver"/>
+        <activity
+            android:theme="0x7f1404ad"
+            android:name="com.piaxiya.app.lib_base.base.keeplive.activity.OnePixelActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"/>
+        <service android:name="com.piaxiya.app.lib_base.base.keeplive.service.LocalService"/>
+        <service android:name="com.piaxiya.app.lib_base.base.keeplive.service.HideForegroundService"/>
+        <service
+            android:name="com.piaxiya.app.lib_base.base.keeplive.service.JobHandlerService"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service
+            android:name="com.piaxiya.app.lib_base.base.keeplive.service.RemoteService"
+            android:process=":remote"/>
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false"/>
+        <meta-data
+            android:name="android.notch_support"
+            android:value="true"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.lxj.xpopup.util.XPermission$PermissionActivity"/>
+        <provider
+            android:name="com.luck.picture.lib.basic.PictureFileProvider"
+            android:exported="false"
+            android:authorities="com.piaxiya.app.luckProvider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="0x7f160007"/>
+        </provider>
+        <service
+            android:name="com.luck.picture.lib.service.ForegroundService"
+            android:enabled="true"
+            android:foregroundServiceType="location"/>
+        <activity
+            android:theme="0x7f14025e"
+            android:name="com.yalantis.ucrop.UCropMultipleActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <service
+            android:name="androidx.camera.core.impl.MetadataHolderService"
+            android:enabled="false"
+            android:exported="false">
+            <meta-data
+                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider"/>
+        </service>
+        <meta-data
+            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+            android:value="GlideModule"/>
+        <meta-data
+            android:name="com.bumptech.glide.integration.webp.WebpGlideModule"
+            android:value="GlideModule"/>
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:exported="false"
+            android:authorities="com.piaxiya.app.androidx-startup">
+            <meta-data
+                android:name="androidx.work.WorkManagerInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="com.king.logx.initialize.LogXInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup"/>
+        </provider>
+        <service
+            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+            android:enabled="0x7f050002"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <service
+            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="0x7f050004"
+            android:exported="true"
+            android:directBootAware="false"/>
+        <service
+            android:name="androidx.work.impl.foreground.SystemForegroundService"
+            android:enabled="0x7f050003"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <receiver
+            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+            android:enabled="0x7f050002"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+            android:permission="android.permission.DUMP"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:exported="false"
+            android:directBootAware="true"/>
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:permission="android.permission.DUMP"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="hume_convert.AppConvert.sdk.version"
+            android:value="2.0.2.0"/>
+        <activity
+            android:theme="0x7f140324"
+            android:name="com.bytedance.ads.convert.BDBridgeActivity"
+            android:exported="true"/>
+        <service
+            android:name="com.netease.nimlib.push.net.HeartbeatService"
+            android:process=":core"/>
+        <provider
+            android:name="com.netease.nimlib.ipc.cp.provider.PreferenceContentProvider"
+            android:exported="false"
+            android:authorities="com.piaxiya.app.ipc.provider.preference"/>
+        <meta-data
+            android:name="sdkVersion"
+            android:value="3503"/>
+        <uses-library
+            android:name="android.test.runner"
+            android:required="false"/>
+        <receiver
+            android:name="cn.gravity.android.GEReceiver"
+            android:enabled="false"
+            android:exported="false"/>
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:ads-identifier"
+            android:value="ads-identifier:3.4.62.300"/>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:exported="false"
+            android:configChanges="fontScale|layoutDirection|density|smallestScreenSize|screenSize|screenLayout|orientation|navigation|keyboardHidden|keyboard|locale"/>
+        <activity
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:name="com.alipay.sdk.app.H5AuthActivity"
+            android:exported="false"
+            android:configChanges="fontScale|layoutDirection|density|smallestScreenSize|screenSize|screenLayout|orientation|navigation|keyboardHidden|keyboard|locale"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.alipay.sdk.app.PayResultActivity"
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:configChanges="fontScale|layoutDirection|density|smallestScreenSize|screenSize|screenLayout|orientation|navigation|keyboardHidden|keyboard|locale"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.alipay.sdk.app.AlipayResultActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:configChanges="fontScale|layoutDirection|density|smallestScreenSize|screenSize|screenLayout|orientation|navigation|keyboardHidden|keyboard|locale"/>
+        <activity
+            android:name="com.alipay.sdk.app.H5OpenAuthActivity"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:configChanges="fontScale|layoutDirection|density|smallestScreenSize|screenSize|screenLayout|orientation|navigation|keyboardHidden|keyboard|locale"
+            android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.alipay.sdk.app.APayEntranceActivity"
+            android:exported="false"
+            android:configChanges="fontScale|layoutDirection|density|smallestScreenSize|screenSize|screenLayout|orientation|navigation|keyboardHidden|keyboard|locale"/>
+        <provider
+            android:name="razerdp.basepopup.BasePopupInitializer"
+            android:exported="false"
+            android:multiprocess="true"
+            android:authorities="com.github.razerdp.com.piaxiya.app.BasePopupInitializer"/>
+        <service
+            android:name="com.umeng.message.component.UmengIntentService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.RECEIVE"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.umeng.message.component.UmengMessageReceiverService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="org.android.agoo.client.MessageReceiverService"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.umeng.message.component.UmengMessageHandlerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.umeng.message.action"/>
+            </intent-filter>
+        </service>
+        <provider
+            android:name="com.umeng.message.component.UmengMessageProvider"
+            android:exported="false"
+            android:authorities="com.piaxiya.app.umeng.message"/>
+        <receiver
+            android:name="com.umeng.message.component.UmengNotificationReceiver"
+            android:exported="false"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.umeng.message.component.UmengNotificationClickActivity"
+            android:exported="false"/>
+        <service
+            android:name="com.taobao.accs.ChannelService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.START_SERVICE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.ELECTION"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.taobao.accs.ChannelService$KernelService"
+            android:exported="false"/>
+        <service
+            android:name="com.taobao.accs.data.MsgDistributeService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.RECEIVE"/>
+                <action android:name="com.umeng.message.action.notify"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.taobao.accs.internal.AccsJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false"/>
+        <service
+            android:name="org.android.agoo.accs.AgooService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.RECEIVE"/>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.taobao.accs.ServiceReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.COMMAND"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.taobao.accs.intent.action.START_FROM_AGOO"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="org.android.agoo.xiaomi.MiPushBroadcastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.MESSAGE_ARRIVED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.ERROR"/>
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="MIPUSH_SDK_VERSION_CODE"
+            android:value="60001"/>
+        <meta-data
+            android:name="MIPUSH_SDK_VERSION_NAME"
+            android:value="6_0_1-C"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.xiaomi.mipush.sdk.NotificationClickedActivity"
+            android:enabled="true"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance">
+            <meta-data
+                android:name="supportStyle"
+                android:value="scene|voip"/>
+        </activity>
+        <service
+            android:name="org.android.agoo.huawei.HuaweiRcvService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.push.action.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.huawei.hms.support.api.push.PushMsgReceiver"
+            android:permission="com.piaxiya.app.permission.PROCESS_PUSH_MSG"
+            android:exported="true"
+            android:directBootAware="true">
+            <intent-filter>
+                <action android:name="com.huawei.intent.action.PUSH_DELAY_NOTIFY"/>
+                <action android:name="com.huawei.intent.action.PUSH"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.huawei.hms.support.api.push.PushReceiver"
+            android:permission="com.piaxiya.app.permission.PROCESS_PUSH_MSG"
+            android:exported="true"
+            android:directBootAware="true">
+            <intent-filter>
+                <action android:name="com.huawei.android.push.intent.REGISTRATION"/>
+                <action android:name="com.huawei.android.push.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.huawei.hms.support.api.push.service.HmsMsgService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":pushservice"
+            android:directBootAware="true">
+            <intent-filter>
+                <action android:name="com.huawei.push.msg.NOTIFY_MSG"/>
+                <action android:name="com.huawei.push.msg.PASSBY_MSG"/>
+            </intent-filter>
+        </service>
+        <provider
+            android:name="com.huawei.hms.support.api.push.PushProvider"
+            android:readPermission="com.piaxiya.app.permission.PUSH_PROVIDER"
+            android:writePermission="com.piaxiya.app.permission.PUSH_WRITE_PROVIDER"
+            android:exported="true"
+            android:authorities="com.piaxiya.app.huawei.push.provider"/>
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:push"
+            android:value="push:6.12.0.300"/>
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:push:push"
+            android:value="1"/>
+        <activity
+            android:name="com.huawei.hms.support.api.push.TransActivity"
+            android:exported="false"/>
+        <service
+            android:name="com.heytap.msp.push.service.CompatibleDataMessageCallbackService"
+            android:permission="com.coloros.mcs.permission.SEND_MCS_MESSAGE"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.heytap.msp.push.service.DataMessageCallbackService"
+            android:permission="com.heytap.mcs.permission.SEND_PUSH_MESSAGE"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"/>
+                <action android:name="com.heytap.msp.push.RECEIVE_MCS_MESSAGE"/>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="org.android.agoo.vivo.PushMessageReceiverImpl"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.vivo.pushclient.action.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="sdk_version_vivo"
+            android:value="506"/>
+        <meta-data
+            android:name="local_iv"
+            android:value="MzMsMzQsMzUsMzYsMzcsMzgsMzksNDAsNDEsMzIsMzgsMzcsMzYsMzUsMzQsMzMsI0AzNCwzMiwzMywzNywzMywzNCwzMiwzMywzMywzMywzNCw0MSwzNSwzNSwzMiwzMiwjQDMzLDM0LDM1LDM2LDM3LDM4LDM5LDQwLDQxLDMyLDM4LDM3LDMzLDM1LDM0LDMzLCNAMzQsMzIsMzMsMzcsMzMsMzQsMzIsMzMsMzMsMzMsMzQsNDEsMzUsMzIsMzIsMzI"/>
+        <meta-data
+            android:name="com.vivo.push.support_monitor"
+            android:value="1"/>
+        <provider
+            android:name="com.just.agentweb.AgentWebFileProvider"
+            android:exported="false"
+            android:authorities="com.piaxiya.app.AgentWebFileProvider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="0x7f16000b"/>
+        </provider>
+        <provider
+            android:name="com.aliyun.sls.android.producer.provider.SLSContentProvider"
+            android:exported="false"
+            android:authorities="com.piaxiya.app.sls_provider"/>
+        <provider
+            android:name="me.jessyan.autosize.InitProvider"
+            android:exported="false"
+            android:multiprocess="true"
+            android:authorities="com.piaxiya.app.autosize-init-provider"/>
+        <provider
+            android:name="com.huawei.hms.aaid.InitProvider"
+            android:exported="false"
+            android:authorities="com.piaxiya.app.aaidinitprovider"
+            android:initOrder="500"/>
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:opendevice"
+            android:value="opendevice:6.12.0.300"/>
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:opendevice:push"
+            android:value="1"/>
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:base"
+            android:value="base:6.11.0.302"/>
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:base:hmscore"
+            android:value="1"/>
+        <meta-data
+            android:name="availableLoaded"
+            android:value="yes"/>
+        <provider
+            android:name="com.sensorsdata.analytics.android.sdk.data.SensorsDataContentProvider"
+            android:enabled="true"
+            android:exported="false"
+            android:authorities="com.piaxiya.app.SensorsDataContentProvider"/>
+        <meta-data
+            android:name="com.sensorsdata.analytics.android.MainProcessName"
+            android:value="com.piaxiya.app"/>
+        <meta-data
+            android:name="com.sensorsdata.analytics.android.version"
+            android:value="0.3.0"/>
+        <activity
+            android:theme="0x7f140126"
+            android:name="com.huawei.hms.activity.BridgeActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:screenOrientation="behind"
+            android:configChanges="fontScale|layoutDirection|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|locale"
+            android:hardwareAccelerated="true">
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent"/>
+        </activity>
+        <activity
+            android:name="com.huawei.hms.activity.EnableServiceActivity"
+            android:exported="false"
+            android:configChanges="smallestScreenSize|screenSize|screenLayout|orientation|keyboardHidden"/>
+        <provider
+            android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"
+            android:exported="false"
+            android:authorities="com.piaxiya.app.AGCInitializeProvider"/>
+        <service
+            android:name="com.huawei.agconnect.core.ServiceDiscovery"
+            android:exported="false"/>
+    </application>
+</manifest>

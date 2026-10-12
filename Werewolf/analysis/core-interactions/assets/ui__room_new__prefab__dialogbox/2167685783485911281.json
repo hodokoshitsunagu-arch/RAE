@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1553386908817437263
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8195315476213451973
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 9157043087140427050
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "SheriffTransfer",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

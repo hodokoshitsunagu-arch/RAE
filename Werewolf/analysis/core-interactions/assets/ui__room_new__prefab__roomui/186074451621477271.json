@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2993707968338404775
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6901545196692610369
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3869242536008062600
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8451275859654783013
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -730383928498416321
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Gifts_vow_OBlight",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

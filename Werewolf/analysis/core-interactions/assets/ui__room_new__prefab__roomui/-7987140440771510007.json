@@ -1,0 +1,44 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4045854178614943201
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7322682685955182403
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3316245326292792783
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4168949467679698281
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5668446899212675433
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1655591426441577771
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "AIReferenceBtn",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

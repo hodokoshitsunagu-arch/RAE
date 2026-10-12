@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 648136196173360771
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5602429963348292896
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4962850640533271244
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "SheriffVote",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

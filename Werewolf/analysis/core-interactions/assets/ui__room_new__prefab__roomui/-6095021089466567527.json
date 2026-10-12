@@ -1,0 +1,20 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5027426839799516635
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1900560448526257711
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "roomheat",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

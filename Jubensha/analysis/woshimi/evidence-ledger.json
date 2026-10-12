@@ -1,0 +1,330 @@
+[
+  {
+    "file": "class-GameController.json",
+    "evidence_id": "ev_e8c0861a411b7bf883107216af3efc585edb492300a05907b7a6783eb0cea9b8",
+    "operation": "inspect_android_class",
+    "parameters": {
+      "path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk",
+      "class_name": "i4.b"
+    },
+    "error": null
+  },
+  {
+    "file": "class-GameSource.json",
+    "evidence_id": "ev_2ec3292adfe2d807441be1dd0501a27f4382b188e5906f9f6e478056ed6f3df0",
+    "operation": "inspect_android_class",
+    "parameters": {
+      "path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk",
+      "class_name": "com.mszmapp.detective.model.source.source.GameSource"
+    },
+    "error": null
+  },
+  {
+    "file": "class-GameState.json",
+    "evidence_id": "ev_cd001f21a64ffaefe6e65f74202dc206ea1f8fd7fcccb43bcf36e9efe57575da",
+    "operation": "inspect_android_class",
+    "parameters": {
+      "path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk",
+      "class_name": "eb.c"
+    },
+    "error": null
+  },
+  {
+    "file": "class-GamingPresenter-obfuscated.json",
+    "evidence_id": "ev_bc1e498bf1abacc79bcf53f81c120c3f698d6e36420a4aef2f49e3980a6b91e5",
+    "operation": "inspect_android_class",
+    "parameters": {
+      "path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk",
+      "class_name": "e9.m4"
+    },
+    "error": null
+  },
+  {
+    "file": "class-GamingPresenter.json",
+    "evidence_id": null,
+    "operation": null,
+    "parameters": null,
+    "error": "invalid_request"
+  },
+  {
+    "file": "class-PlaybookConstant.json",
+    "evidence_id": "ev_d03f1010c6a7e20ca86a2196cd5dbd0a3f9efe4d43b44595c0af40b2f3d61176",
+    "operation": "inspect_android_class",
+    "parameters": {
+      "path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk",
+      "class_name": "com.woshimi.larp.Playbook$PlaybookConstant"
+    },
+    "error": null
+  },
+  {
+    "file": "class-RoomStub-dot.json",
+    "evidence_id": "ev_b86fa902c65ffaa1c89a8178b57094114f0e085001bf719d505facedad3a940c",
+    "operation": "inspect_android_class",
+    "parameters": {
+      "path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk",
+      "class_name": "hd.y8.b"
+    },
+    "error": null
+  },
+  {
+    "file": "class-RoomStub.json",
+    "evidence_id": null,
+    "operation": null,
+    "parameters": null,
+    "error": "invalid_request"
+  },
+  {
+    "file": "class-SceneInfo-dollar.json",
+    "evidence_id": "ev_5c049c25184ddb4bdbbf203f1e3de36ec7cf681f7b9cf377a78d03162fecc18e",
+    "operation": "inspect_android_class",
+    "parameters": {
+      "path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk",
+      "class_name": "com.woshimi.larp.Room$SceneInfo"
+    },
+    "error": null
+  },
+  {
+    "file": "class-SceneInfo.json",
+    "evidence_id": null,
+    "operation": null,
+    "parameters": null,
+    "error": "invalid_request"
+  },
+  {
+    "file": "method-AppDownloadHelper-execute.json",
+    "evidence_id": "ev_21b4ae756d2eac1c404c67a0c191a31cafd491b9036a46548d6d869c0abd4627",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk",
+      "class_name": "com.mszmapp.detective.model.net.download.AppDownloadHelper",
+      "method_name": "execute"
+    },
+    "error": null
+  },
+  {
+    "file": "method-ChannelInstance-initManageChannel.json",
+    "evidence_id": "ev_58f9373b58ba5687b5122c0dbb4d697145c7fb3d97876be3c7c5cc2763a67454",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk",
+      "class_name": "com.mszmapp.detective.model.grpc.ChannelInstance",
+      "method_name": "initManageChannel"
+    },
+    "error": null
+  },
+  {
+    "file": "method-E_GameStage-clinit.json",
+    "evidence_id": "ev_9c1a4c4a0b01f7c132308cb9ed3a800200ca8871a08b5758642ffcd8e7cfcc00",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk",
+      "class_name": "com.wzf.basedata.e.E_GameStage",
+      "method_name": "<clinit>"
+    },
+    "error": null
+  },
+  {
+    "file": "method-GameState-loadCandidate.json",
+    "evidence_id": "ev_7f8a056f1f5571e239e26d488d8e55f70d3f0db05406d82d8f458dec250dd4a7",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk",
+      "class_name": "eb.c",
+      "method_name": "u"
+    },
+    "error": null
+  },
+  {
+    "file": "method-GameState-parsePlaybook.json",
+    "evidence_id": "ev_e7dac960e98739772fa5325eb8621d53fde2870a7d409ee73c46c864ecfdb141",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk",
+      "class_name": "eb.c",
+      "method_name": "o0"
+    },
+    "error": null
+  },
+  {
+    "file": "method-GameState-setPlaybook.json",
+    "evidence_id": "ev_b8bc48500623d01c6ee8a06d4f5c4b61edebcb7b34bcdac21f0a18cfdd8afb05",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk",
+      "class_name": "eb.c",
+      "method_name": "N0"
+    },
+    "error": null
+  },
+  {
+    "file": "method-GameStreamService-onCreate.json",
+    "evidence_id": "ev_7284784c6d7ab27116fde7ed623b6aa2eaa3c3360caa3a11467b29f9881dd512",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk",
+      "class_name": "com.mszmapp.detective.module.game.services.GameStreamService",
+      "method_name": "onCreate"
+    },
+    "error": null
+  },
+  {
+    "file": "method-GamingActivity-initData.json",
+    "evidence_id": "ev_015b966068d76c03c5bc6cda5e0ec127b5b408b693b9a08d385658b749095abc",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk",
+      "class_name": "com.mszmapp.detective.module.game.gaming.GamingActivity",
+      "method_name": "initData"
+    },
+    "error": null
+  },
+  {
+    "file": "method-GamingActivity-signal.json",
+    "evidence_id": "ev_0298c19cd41811b3b4abae83f167741d2277906bdc85ecf9472428d8dbaca4ec",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk",
+      "class_name": "com.mszmapp.detective.module.game.gaming.GamingActivity",
+      "method_name": "onReceivedSignalMsg"
+    },
+    "error": null
+  },
+  {
+    "file": "method-GamingPresenter-getScene.json",
+    "evidence_id": "ev_621ca0655890d9b2d9458a45b51f81b342db49467b734a18a1c4736cf1fc65a5",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk",
+      "class_name": "e9.m4",
+      "method_name": "k0"
+    },
+    "error": null
+  },
+  {
+    "file": "method-GamingPresenter-sceneSuccess.json",
+    "evidence_id": null,
+    "operation": null,
+    "parameters": null,
+    "error": "invalid_request"
+  },
+  {
+    "file": "method-RoomStub-submitVote.json",
+    "evidence_id": "ev_3f53f3a582e92ce83f9fe720ccc68e9476523c6c9a6182c9d7df1e2efc722c74",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk",
+      "class_name": "hd.y8.b",
+      "method_name": "Y"
+    },
+    "error": null
+  },
+  {
+    "file": "method-SocketConnector-startConnected.json",
+    "evidence_id": "ev_d8800c421c18f76e66c37af85a818af2ba048771e1be4c9d73c54db0eb87cdcd",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk",
+      "class_name": "com.piaxiya.app.lib_base.socketconnect.SocketConnector",
+      "method_name": "startConnected"
+    },
+    "error": null
+  },
+  {
+    "file": "method-StubCreater-getRoomStub.json",
+    "evidence_id": "ev_ce35a062f0632116f0206fced5ac56a4ea0787f068d55fdd714762cec6c1fd4b",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk",
+      "class_name": "com.mszmapp.detective.model.grpc.StubCreater",
+      "method_name": "getRoomStub",
+      "overload_index": 0
+    },
+    "error": null
+  },
+  {
+    "file": "method-StubCreater-getRoomStub1.json",
+    "evidence_id": "ev_576f6d56a3275a51f13cd8c91ca80e0250a285cbc8d8bb4e2ab7ae4980af5148",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk",
+      "class_name": "com.mszmapp.detective.model.grpc.StubCreater",
+      "method_name": "getRoomStub",
+      "overload_index": 1
+    },
+    "error": null
+  },
+  {
+    "file": "method-VoiceProviderManager-changeVoiceProvider.json",
+    "evidence_id": "ev_b81e8027ec152037312a19dbd03ada58b991edc5bbbd6e24778af10df95ecc1d",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk",
+      "class_name": "com.piaxiya.app.lib_base.voice.VoiceProviderManager",
+      "method_name": "changeVoiceProvider"
+    },
+    "error": null
+  },
+  {
+    "file": "method-WsmApplication-onCreate.json",
+    "evidence_id": "ev_ce96d25313db563ce887e20b9876375c900e35ced56367868982112804bb58fc",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk",
+      "class_name": "com.wzf.fan.WsmApplication",
+      "method_name": "onCreate"
+    },
+    "error": null
+  },
+  {
+    "file": "method-submitVote-caller.json",
+    "evidence_id": "ev_af8b8ec761ce2a051edd366217fb871aa8131bc35a3de2ab4ae04987ec3bba58",
+    "operation": "inspect_android_method",
+    "parameters": {
+      "path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk",
+      "class_name": "pa.c.d",
+      "method_name": "subscribe"
+    },
+    "error": null
+  },
+  {
+    "file": "package-escalated.json",
+    "evidence_id": "ev_36578da8652e269efdfe22bfefd819861a2edd75eab96dc26143ceb2b83d3a50",
+    "operation": "inspect_android_package",
+    "parameters": {
+      "path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk"
+    },
+    "error": null
+  },
+  {
+    "file": "package-retry.json",
+    "evidence_id": null,
+    "operation": null,
+    "parameters": null,
+    "error": "capability_unavailable"
+  },
+  {
+    "file": "package.json",
+    "evidence_id": null,
+    "operation": null,
+    "parameters": null,
+    "error": "capability_unavailable"
+  },
+  {
+    "file": "search-Room.json",
+    "evidence_id": null,
+    "operation": null,
+    "parameters": null,
+    "error": "unreadable_output"
+  },
+  {
+    "file": "trace-submitVote.json",
+    "evidence_id": "ev_e9ac43ff386a1af8df02f43fa07646d0560df8c53535ee0d2071ab947e3d7e62",
+    "operation": "trace_android_references",
+    "parameters": {
+      "path": "/Users/mark/Projects/REA/Jubensha/apks/woshimi-3.50.9.apk",
+      "class_name": "hd.y8.b",
+      "method_name": "Y"
+    },
+    "error": null
+  }
+]

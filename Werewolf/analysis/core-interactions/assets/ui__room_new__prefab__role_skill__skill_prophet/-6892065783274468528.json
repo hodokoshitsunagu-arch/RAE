@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 220908958941865533
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7772781068101062023
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4565724295010419891
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6195671199679422323
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1376053763826418145
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Skill_Prophet",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

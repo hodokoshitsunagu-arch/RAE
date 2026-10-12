@@ -1,0 +1,27 @@
+✔ ready gates start; selected roles preserve 4 wolves/4 gods/4 villagers (1.462209ms)
+✔ seer finds camp privately and cannot target self/dead or inspect twice (0.390334ms)
+✔ private role projection hides unrevealed roles and only wolves see teammates (0.133291ms)
+✔ wolf cannot target teammate and selecting victim is required (0.175125ms)
+✔ witch rescue produces peace and spends save exactly once (0.249458ms)
+✔ witch poison needs target; only chosen medicine can be consumed (0.133542ms)
+✔ hunter hit by both poison and wolf is classified poison and cannot shoot (0.448792ms)
+✔ hunter can shoot after death and cannot target self or dead (0.079583ms)
+✔ speech floor gates microphone; timer expires into next speaker (0.0965ms)
+✔ speaking order omits dead seats and ends at vote (0.237667ms)
+✔ public vote commits full ballots; dead seats cannot vote or be targeted (0.300375ms)
+✔ abstention retained as null rather than lost vote choice (0.13225ms)
+✔ first tie restricts targets; second tie produces no exile and keeps history (0.07025ms)
+✔ idiot first exile flips card, loses vote but remains alive (0.071875ms)
+✔ game ends when all wolves are gone; no role leaks before outcome (0.085708ms)
+✔ side elimination wins for wolves and outcome gates later actions (0.063959ms)
+✔ local reducer never mutates previous state; resets clear inventory and notes (0.31075ms)
+✔ a complete single-user round reaches the next night coherently (0.440583ms)
+✔ private event audience is identity-bound, never inferred from message wording (0.042167ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 47.726583

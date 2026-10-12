@@ -1,0 +1,44 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -1746810716941254453
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7802755607570700153
+  },
+  "m_Name": "",
+  "bindDic": {
+    "m_keys": [
+      "listView",
+      "newsMsgBtn",
+      "newsMsgNum",
+      "ChatCopyView",
+      "reportContent"
+    ],
+    "m_values": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 7619782400131886655
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -8254402132717475892
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -2885487122213818374
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -2455383723064028027
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 7285934160632849340
+      }
+    ]
+  },
+  "animationEventList": []
+}

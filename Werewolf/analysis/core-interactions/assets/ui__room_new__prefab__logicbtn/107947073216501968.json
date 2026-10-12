@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5177900406483202277
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1647835497997405642
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5768703503363809209
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7144832973015203841
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2423821657256108439
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "KnightDuel",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

@@ -1,0 +1,958 @@
+name: "draw-something.proto"
+message_type {
+  name: "GameMessage"
+  field {
+    name: "id"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "gameId"
+    number: 2
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "type"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".GameMessage.Type"
+  }
+  field {
+    name: "phase"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".GameMessage.Phase"
+  }
+  field {
+    name: "pingGameMessage"
+    number: 5
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".PingGameMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "inviteGameMessage"
+    number: 6
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".InviteGameMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "readyGameMessage"
+    number: 7
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".ReadyGameMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "playGameMessage"
+    number: 8
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".PlayGameMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "gameoverGameMessage"
+    number: 9
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".GameoverGameMessage"
+    oneof_index: 0
+  }
+  field {
+    name: "extMap"
+    number: 10
+    label: LABEL_REPEATED
+    type: TYPE_MESSAGE
+    type_name: ".GameMessage.ExtMapEntry"
+  }
+  nested_type {
+    name: "ExtMapEntry"
+    field {
+      name: "key"
+      number: 1
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    field {
+      name: "value"
+      number: 2
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    options {
+      map_entry: true
+    }
+  }
+  enum_type {
+    name: "Type"
+    value {
+      name: "GENERAL"
+      number: 0
+    }
+    value {
+      name: "DRAW_SOMETHING"
+      number: 1
+    }
+  }
+  enum_type {
+    name: "Phase"
+    value {
+      name: "PING"
+      number: 0
+    }
+    value {
+      name: "INVITE"
+      number: 1
+    }
+    value {
+      name: "READY"
+      number: 2
+    }
+    value {
+      name: "PLAY"
+      number: 3
+    }
+    value {
+      name: "GAMEOVER"
+      number: 4
+    }
+  }
+  oneof_decl {
+    name: "cmd"
+  }
+}
+message_type {
+  name: "PingGameMessage"
+  field {
+    name: "ts"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_INT64
+  }
+  field {
+    name: "extMap"
+    number: 6
+    label: LABEL_REPEATED
+    type: TYPE_MESSAGE
+    type_name: ".PingGameMessage.ExtMapEntry"
+  }
+  nested_type {
+    name: "ExtMapEntry"
+    field {
+      name: "key"
+      number: 1
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    field {
+      name: "value"
+      number: 2
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    options {
+      map_entry: true
+    }
+  }
+}
+message_type {
+  name: "InviteGameMessage"
+  field {
+    name: "inviter"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "invitee"
+    number: 5
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "extMap"
+    number: 6
+    label: LABEL_REPEATED
+    type: TYPE_MESSAGE
+    type_name: ".InviteGameMessage.ExtMapEntry"
+  }
+  nested_type {
+    name: "ExtMapEntry"
+    field {
+      name: "key"
+      number: 1
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    field {
+      name: "value"
+      number: 2
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    options {
+      map_entry: true
+    }
+  }
+}
+message_type {
+  name: "ReadyGameMessage"
+  field {
+    name: "type"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".ReadyGameMessage.Type"
+  }
+  field {
+    name: "extMap"
+    number: 6
+    label: LABEL_REPEATED
+    type: TYPE_MESSAGE
+    type_name: ".ReadyGameMessage.ExtMapEntry"
+  }
+  nested_type {
+    name: "ExtMapEntry"
+    field {
+      name: "key"
+      number: 1
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    field {
+      name: "value"
+      number: 2
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    options {
+      map_entry: true
+    }
+  }
+  enum_type {
+    name: "Type"
+    value {
+      name: "READY"
+      number: 0
+    }
+    value {
+      name: "NOT_READY"
+      number: 1
+    }
+  }
+}
+message_type {
+  name: "PlayGameMessage"
+  field {
+    name: "drawSomethingPlayGameMessage"
+    number: 5
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".DrawSomethingPlayGameMessage"
+    oneof_index: 0
+  }
+  oneof_decl {
+    name: "cmd"
+  }
+}
+message_type {
+  name: "GameoverGameMessage"
+  field {
+    name: "drawSomethingGameoverGameMessage"
+    number: 5
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".DrawSomethingGameoverGameMessage"
+    oneof_index: 0
+  }
+  oneof_decl {
+    name: "cmd"
+  }
+}
+message_type {
+  name: "DrawSomethingGameoverGameMessage"
+  field {
+    name: "answerResults"
+    number: 1
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".AnswerResults"
+  }
+}
+message_type {
+  name: "DrawSomethingPlayGameMessage"
+  field {
+    name: "round"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_INT32
+  }
+  field {
+    name: "maxRound"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_INT32
+  }
+  field {
+    name: "type"
+    number: 5
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".DrawSomethingPlayGameMessage.Type"
+  }
+  field {
+    name: "question"
+    number: 6
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "questionDesc"
+    number: 7
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "answer"
+    number: 8
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "answerDesc"
+    number: 9
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "extMap"
+    number: 10
+    label: LABEL_REPEATED
+    type: TYPE_MESSAGE
+    type_name: ".DrawSomethingPlayGameMessage.ExtMapEntry"
+  }
+  nested_type {
+    name: "ExtMapEntry"
+    field {
+      name: "key"
+      number: 1
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    field {
+      name: "value"
+      number: 2
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    options {
+      map_entry: true
+    }
+  }
+  enum_type {
+    name: "Type"
+    value {
+      name: "QUESTION_SET"
+      number: 0
+    }
+    value {
+      name: "ANSWER_SET"
+      number: 1
+    }
+    value {
+      name: "DRAW"
+      number: 2
+    }
+    value {
+      name: "GUESS"
+      number: 3
+    }
+    value {
+      name: "TIMER"
+      number: 4
+    }
+  }
+}
+message_type {
+  name: "GamePsh"
+  field {
+    name: "type"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".GamePsh.Type"
+  }
+  field {
+    name: "drawSomethingGamePsh"
+    number: 5
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".DrawSomethingGamePsh"
+    oneof_index: 0
+  }
+  field {
+    name: "extMap"
+    number: 8
+    label: LABEL_REPEATED
+    type: TYPE_MESSAGE
+    type_name: ".GamePsh.ExtMapEntry"
+  }
+  nested_type {
+    name: "ExtMapEntry"
+    field {
+      name: "key"
+      number: 1
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    field {
+      name: "value"
+      number: 2
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    options {
+      map_entry: true
+    }
+  }
+  enum_type {
+    name: "Type"
+    value {
+      name: "DRAW_SOMETHING"
+      number: 0
+    }
+  }
+  oneof_decl {
+    name: "cmd"
+  }
+}
+message_type {
+  name: "DrawSomethingGamePsh"
+  field {
+    name: "type"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_ENUM
+    type_name: ".DrawSomethingGamePsh.Type"
+  }
+  field {
+    name: "inviteDonePsh"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".InviteDonePsh"
+    oneof_index: 0
+  }
+  field {
+    name: "readyDonePsh"
+    number: 5
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".ReadyDonePsh"
+    oneof_index: 0
+  }
+  field {
+    name: "questionSetDonePsh"
+    number: 6
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".QuestionSetDonePsh"
+    oneof_index: 0
+  }
+  field {
+    name: "answerSetDonePsh"
+    number: 7
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".AnswerSetDonePsh"
+    oneof_index: 0
+  }
+  field {
+    name: "roundStartPsh"
+    number: 8
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".RoundStartPsh"
+    oneof_index: 0
+  }
+  field {
+    name: "roundDonePsh"
+    number: 9
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".RoundDonePsh"
+    oneof_index: 0
+  }
+  field {
+    name: "gameoverPsh"
+    number: 10
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".GameoverPsh"
+    oneof_index: 0
+  }
+  field {
+    name: "answerResult"
+    number: 11
+    label: LABEL_OPTIONAL
+    type: TYPE_MESSAGE
+    type_name: ".AnswerResult"
+    oneof_index: 0
+  }
+  field {
+    name: "extMap"
+    number: 12
+    label: LABEL_REPEATED
+    type: TYPE_MESSAGE
+    type_name: ".DrawSomethingGamePsh.ExtMapEntry"
+  }
+  nested_type {
+    name: "ExtMapEntry"
+    field {
+      name: "key"
+      number: 1
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    field {
+      name: "value"
+      number: 2
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    options {
+      map_entry: true
+    }
+  }
+  enum_type {
+    name: "Type"
+    value {
+      name: "INVITE_DONE"
+      number: 0
+    }
+    value {
+      name: "READY_DONE"
+      number: 1
+    }
+    value {
+      name: "QUESTION_SET_DONE"
+      number: 2
+    }
+    value {
+      name: "ANSWER_SET_DONE"
+      number: 3
+    }
+    value {
+      name: "ROUND_START"
+      number: 4
+    }
+    value {
+      name: "ROUND_DONE"
+      number: 5
+    }
+    value {
+      name: "GAMEOVER"
+      number: 6
+    }
+    value {
+      name: "ANSWER_RESULT"
+      number: 7
+    }
+  }
+  oneof_decl {
+    name: "cmd"
+  }
+}
+message_type {
+  name: "InviteDonePsh"
+  field {
+    name: "ts"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_INT64
+  }
+  field {
+    name: "extMap"
+    number: 8
+    label: LABEL_REPEATED
+    type: TYPE_MESSAGE
+    type_name: ".InviteDonePsh.ExtMapEntry"
+  }
+  nested_type {
+    name: "ExtMapEntry"
+    field {
+      name: "key"
+      number: 1
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    field {
+      name: "value"
+      number: 2
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    options {
+      map_entry: true
+    }
+  }
+}
+message_type {
+  name: "ReadyDonePsh"
+  field {
+    name: "nextRound"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_INT32
+  }
+  field {
+    name: "ts"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_INT64
+  }
+  field {
+    name: "extMap"
+    number: 8
+    label: LABEL_REPEATED
+    type: TYPE_MESSAGE
+    type_name: ".ReadyDonePsh.ExtMapEntry"
+  }
+  nested_type {
+    name: "ExtMapEntry"
+    field {
+      name: "key"
+      number: 1
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    field {
+      name: "value"
+      number: 2
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    options {
+      map_entry: true
+    }
+  }
+}
+message_type {
+  name: "QuestionSetDonePsh"
+  field {
+    name: "nextRound"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_INT32
+  }
+  field {
+    name: "ts"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_INT64
+  }
+  field {
+    name: "extMap"
+    number: 8
+    label: LABEL_REPEATED
+    type: TYPE_MESSAGE
+    type_name: ".QuestionSetDonePsh.ExtMapEntry"
+  }
+  nested_type {
+    name: "ExtMapEntry"
+    field {
+      name: "key"
+      number: 1
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    field {
+      name: "value"
+      number: 2
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    options {
+      map_entry: true
+    }
+  }
+}
+message_type {
+  name: "AnswerSetDonePsh"
+  field {
+    name: "nextRound"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_INT32
+  }
+  field {
+    name: "ts"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_INT64
+  }
+  field {
+    name: "extMap"
+    number: 8
+    label: LABEL_REPEATED
+    type: TYPE_MESSAGE
+    type_name: ".AnswerSetDonePsh.ExtMapEntry"
+  }
+  nested_type {
+    name: "ExtMapEntry"
+    field {
+      name: "key"
+      number: 1
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    field {
+      name: "value"
+      number: 2
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    options {
+      map_entry: true
+    }
+  }
+}
+message_type {
+  name: "RoundDonePsh"
+  field {
+    name: "nextRound"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_INT32
+  }
+  field {
+    name: "ts"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_INT64
+  }
+  field {
+    name: "extMap"
+    number: 8
+    label: LABEL_REPEATED
+    type: TYPE_MESSAGE
+    type_name: ".RoundDonePsh.ExtMapEntry"
+  }
+  nested_type {
+    name: "ExtMapEntry"
+    field {
+      name: "key"
+      number: 1
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    field {
+      name: "value"
+      number: 2
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    options {
+      map_entry: true
+    }
+  }
+}
+message_type {
+  name: "RoundStartPsh"
+  field {
+    name: "round"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_INT32
+  }
+  field {
+    name: "ts"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_INT64
+  }
+  field {
+    name: "extMap"
+    number: 8
+    label: LABEL_REPEATED
+    type: TYPE_MESSAGE
+    type_name: ".RoundStartPsh.ExtMapEntry"
+  }
+  nested_type {
+    name: "ExtMapEntry"
+    field {
+      name: "key"
+      number: 1
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    field {
+      name: "value"
+      number: 2
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    options {
+      map_entry: true
+    }
+  }
+}
+message_type {
+  name: "GameoverPsh"
+  field {
+    name: "ts"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_INT64
+  }
+  field {
+    name: "extMap"
+    number: 8
+    label: LABEL_REPEATED
+    type: TYPE_MESSAGE
+    type_name: ".GameoverPsh.ExtMapEntry"
+  }
+  nested_type {
+    name: "ExtMapEntry"
+    field {
+      name: "key"
+      number: 1
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    field {
+      name: "value"
+      number: 2
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    options {
+      map_entry: true
+    }
+  }
+}
+message_type {
+  name: "AnswerResult"
+  field {
+    name: "question"
+    number: 3
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "questionDesc"
+    number: 4
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "answer"
+    number: 5
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "answerDesc"
+    number: 6
+    label: LABEL_OPTIONAL
+    type: TYPE_STRING
+  }
+  field {
+    name: "right"
+    number: 7
+    label: LABEL_OPTIONAL
+    type: TYPE_BOOL
+  }
+  field {
+    name: "ts"
+    number: 8
+    label: LABEL_OPTIONAL
+    type: TYPE_INT64
+  }
+  field {
+    name: "extMap"
+    number: 9
+    label: LABEL_REPEATED
+    type: TYPE_MESSAGE
+    type_name: ".AnswerResult.ExtMapEntry"
+  }
+  nested_type {
+    name: "ExtMapEntry"
+    field {
+      name: "key"
+      number: 1
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    field {
+      name: "value"
+      number: 2
+      label: LABEL_OPTIONAL
+      type: TYPE_STRING
+    }
+    options {
+      map_entry: true
+    }
+  }
+}
+message_type {
+  name: "AnswerResults"
+  field {
+    name: "answerResults"
+    number: 1
+    label: LABEL_REPEATED
+    type: TYPE_MESSAGE
+    type_name: ".AnswerResult"
+  }
+}
+enum_type {
+  name: "ErrorCode"
+  value {
+    name: "OK"
+    number: 0
+  }
+  value {
+    name: "UNKOWN"
+    number: 1
+  }
+  value {
+    name: "LOGIN_ACCOUNT_ERROR"
+    number: 11
+  }
+  value {
+    name: "LOGIN_TOKEN_ERROR"
+    number: 12
+  }
+  value {
+    name: "LOGIN_VERSION_ERROR"
+    number: 14
+  }
+  value {
+    name: "GAME_QUESTION_ERROR"
+    number: 101
+  }
+  value {
+    name: "GAME_ANSWER_ERROR"
+    number: 102
+  }
+  value {
+    name: "GAME_HAS_END"
+    number: 103
+  }
+}
+options {
+  java_package: "com.soul.game.protos"
+  java_multiple_files: true
+  go_package: "protos"
+  objc_class_prefix: "IMP"
+}
+syntax: "proto3"

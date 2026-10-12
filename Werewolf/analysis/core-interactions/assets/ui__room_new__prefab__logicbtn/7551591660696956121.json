@@ -1,0 +1,144 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7135555712961475112
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7802755607570700153
+  },
+  "m_Name": "",
+  "bindDic": {
+    "m_keys": [
+      "cancelTarget",
+      "exitPolice",
+      "werewolfBomb",
+      "selfRole",
+      "selfRoleImg",
+      "seatNum",
+      "waitingView",
+      "waitingTxt",
+      "duel",
+      "youDead",
+      "selfFanRole",
+      "noTalking",
+      "youRole",
+      "silenceRemindNode",
+      "silenceRemindText",
+      "shiftRoleTipsNode",
+      "shiftRoleTipsText",
+      "commonBomb",
+      "shareRoleSkinRed",
+      "shareRoleSkinBubble",
+      "induceBtn",
+      "guardBtn",
+      "cakeVoteBtn",
+      "cakeVoteNum",
+      "cakeVoteTips"
+    ],
+    "m_values": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 3722299638784503734
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -6250730419771749134
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -123853767861254275
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -1367838460894358345
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 6995889092212390269
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -6412021593443913390
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 5977375307940179953
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 586424890513190940
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -5177900406483202277
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 7255998551604563062
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 4118632608410591656
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 263411951928710879
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -1367838460894358345
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 5419721024592344705
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 3461675460757814358
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -2457164499910357602
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 470002294613212128
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 1667502873379540252
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 9212192865448715644
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 8059419948193909108
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -5896817977272607712
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 6840755001531568543
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 9116191078255001740
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 949050747198636987
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 2554845867032216251
+      }
+    ]
+  },
+  "animationEventList": []
+}

@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7711337684274680221
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 88472866777006960
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5398624932129664077
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1998358338492563936
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5347056704139350338
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Tips",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

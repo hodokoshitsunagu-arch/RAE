@@ -1,0 +1,29 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -8337208919125297766
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7802755607570700153
+  },
+  "m_Name": "",
+  "bindDic": {
+    "m_keys": [
+      "icon",
+      "timeLabel"
+    ],
+    "m_values": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 1254488788340229055
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -7107424709250406003
+      }
+    ]
+  },
+  "animationEventList": []
+}

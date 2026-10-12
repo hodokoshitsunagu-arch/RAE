@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1638302008334149611
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8580589573984938500
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3996112353415751741
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Countdownbg02",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

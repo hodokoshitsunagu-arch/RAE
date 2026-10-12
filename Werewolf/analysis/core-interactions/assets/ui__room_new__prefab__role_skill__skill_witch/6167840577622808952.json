@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2850238041099313526
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6527430706295534132
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5466820263002514502
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6792059511630454679
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "battle",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

@@ -1,0 +1,44 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3345270759188309238
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2524926516143911896
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6288440513001724754
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5795383033948793805
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4746074296017840238
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7642904028233820192
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "btn_report",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

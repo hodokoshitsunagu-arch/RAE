@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7590507837783010123
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4924758784237231426
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3204126481790236295
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8502896563318526410
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "blood",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

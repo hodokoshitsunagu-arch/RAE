@@ -1,0 +1,583 @@
+{
+  "source_sha256": "2141500cffd7c73379ebec0774982ebda633d90e115fa3926b54aa8852f851b8",
+  "format": "IL2CPP global metadata header version 31; first literal table pairs length,dataIndex",
+  "literal_count": 19631,
+  "candidates": [
+    {
+      "literal_index": 155,
+      "data_offset": 167835,
+      "byte_length": 77,
+      "text": "  Bad signature (0x{0:X8}) looking for ZIP64 EoCD Record at position 0x{1:X8}"
+    },
+    {
+      "literal_index": 156,
+      "data_offset": 167912,
+      "byte_length": 74,
+      "text": "  Inconsistent size (0x{0:X4}) for ZIP64 extra field at position 0x{1:X16}"
+    },
+    {
+      "literal_index": 158,
+      "data_offset": 168071,
+      "byte_length": 77,
+      "text": "  Unexpected size (0x{0:X4}) for InfoZip v1 extra field at position 0x{1:X16}"
+    },
+    {
+      "literal_index": 326,
+      "data_offset": 172222,
+      "byte_length": 21,
+      "text": " in zip. Entry 'graph"
+    },
+    {
+      "literal_index": 2362,
+      "data_offset": 232367,
+      "byte_length": 5,
+      "text": "BZIP2"
+    },
+    {
+      "literal_index": 2363,
+      "data_offset": 232372,
+      "byte_length": 35,
+      "text": "BZip2 input stream bad block header"
+    },
+    {
+      "literal_index": 2364,
+      "data_offset": 232407,
+      "byte_length": 32,
+      "text": "BZip2 input stream block overrun"
+    },
+    {
+      "literal_index": 2365,
+      "data_offset": 232439,
+      "byte_length": 28,
+      "text": "BZip2 input stream crc error"
+    },
+    {
+      "literal_index": 2366,
+      "data_offset": 232467,
+      "byte_length": 43,
+      "text": "BZip2 input stream end of compressed stream"
+    },
+    {
+      "literal_index": 2367,
+      "data_offset": 232510,
+      "byte_length": 25,
+      "text": "BZip2 output stream panic"
+    },
+    {
+      "literal_index": 2368,
+      "data_offset": 232535,
+      "byte_length": 35,
+      "text": "BZip2InputStream Seek not supported"
+    },
+    {
+      "literal_index": 2369,
+      "data_offset": 232570,
+      "byte_length": 40,
+      "text": "BZip2InputStream SetLength not supported"
+    },
+    {
+      "literal_index": 2370,
+      "data_offset": 232610,
+      "byte_length": 36,
+      "text": "BZip2InputStream Write not supported"
+    },
+    {
+      "literal_index": 2371,
+      "data_offset": 232646,
+      "byte_length": 40,
+      "text": "BZip2InputStream WriteByte not supported"
+    },
+    {
+      "literal_index": 2372,
+      "data_offset": 232686,
+      "byte_length": 39,
+      "text": "BZip2InputStream position cannot be set"
+    },
+    {
+      "literal_index": 2373,
+      "data_offset": 232725,
+      "byte_length": 36,
+      "text": "BZip2OutputStream Read not supported"
+    },
+    {
+      "literal_index": 2374,
+      "data_offset": 232761,
+      "byte_length": 40,
+      "text": "BZip2OutputStream ReadByte not supported"
+    },
+    {
+      "literal_index": 2375,
+      "data_offset": 232801,
+      "byte_length": 36,
+      "text": "BZip2OutputStream Seek not supported"
+    },
+    {
+      "literal_index": 2376,
+      "data_offset": 232837,
+      "byte_length": 41,
+      "text": "BZip2OutputStream SetLength not supported"
+    },
+    {
+      "literal_index": 2377,
+      "data_offset": 232878,
+      "byte_length": 40,
+      "text": "BZip2OutputStream position cannot be set"
+    },
+    {
+      "literal_index": 2381,
+      "data_offset": 232955,
+      "byte_length": 61,
+      "text": "Bad CRC32 in GZIP trailer. (actual({0:X8})!=expected({1:X8}))"
+    },
+    {
+      "literal_index": 2382,
+      "data_offset": 233016,
+      "byte_length": 16,
+      "text": "Bad GZIP header."
+    },
+    {
+      "literal_index": 2387,
+      "data_offset": 233095,
+      "byte_length": 43,
+      "text": "Bad date/time format in the zip file. ({0})"
+    },
+    {
+      "literal_index": 2395,
+      "data_offset": 233498,
+      "byte_length": 54,
+      "text": "Bad size in GZIP trailer. (actual({0})!=expected({1}))"
+    },
+    {
+      "literal_index": 2396,
+      "data_offset": 233552,
+      "byte_length": 40,
+      "text": "Bad size in the ZIP64 Central Directory."
+    },
+    {
+      "literal_index": 2524,
+      "data_offset": 236879,
+      "byte_length": 15,
+      "text": "Bzip data error"
+    },
+    {
+      "literal_index": 2765,
+      "data_offset": 243007,
+      "byte_length": 114,
+      "text": "Can't use compressed functions. You need include the SharpZipLib and uncomment the define at the top of SimpleJSON"
+    },
+    {
+      "literal_index": 2865,
+      "data_offset": 248282,
+      "byte_length": 88,
+      "text": "Cannot extract: Entry {0} is encrypted with an algorithm not supported by DotNetZip: {1}"
+    },
+    {
+      "literal_index": 2868,
+      "data_offset": 248507,
+      "byte_length": 25,
+      "text": "Cannot find Zip64 locator"
+    },
+    {
+      "literal_index": 2914,
+      "data_offset": 250721,
+      "byte_length": 29,
+      "text": "Cannot read that as a ZipFile"
+    },
+    {
+      "literal_index": 2999,
+      "data_offset": 255347,
+      "byte_length": 39,
+      "text": "Caught exception when loading from zip\n"
+    },
+    {
+      "literal_index": 3091,
+      "data_offset": 257299,
+      "byte_length": 29,
+      "text": "ClearHttpAuthUsernamePassword"
+    },
+    {
+      "literal_index": 3178,
+      "data_offset": 258955,
+      "byte_length": 143,
+      "text": "Compressed or Uncompressed size, or offset exceeds the maximum value. Consider setting the UseZip64WhenSaving property on the ZipFile instance."
+    },
+    {
+      "literal_index": 3864,
+      "data_offset": 278508,
+      "byte_length": 10,
+      "text": "DotNetZip-"
+    },
+    {
+      "literal_index": 3946,
+      "data_offset": 279912,
+      "byte_length": 23,
+      "text": "EOS reading GZIP footer"
+    },
+    {
+      "literal_index": 3947,
+      "data_offset": 279935,
+      "byte_length": 23,
+      "text": "EOS reading GZIP header"
+    },
+    {
+      "literal_index": 4116,
+      "data_offset": 284103,
+      "byte_length": 49,
+      "text": "Entry requires zip64 but this has been turned off"
+    },
+    {
+      "literal_index": 4142,
+      "data_offset": 285099,
+      "byte_length": 51,
+      "text": "Error GZIP header,  second magic byte doesn't match"
+    },
+    {
+      "literal_index": 4143,
+      "data_offset": 285150,
+      "byte_length": 45,
+      "text": "Error GZIP header, data not in deflate format"
+    },
+    {
+      "literal_index": 4144,
+      "data_offset": 285195,
+      "byte_length": 49,
+      "text": "Error GZIP header, first magic byte doesn't match"
+    },
+    {
+      "literal_index": 4332,
+      "data_offset": 291796,
+      "byte_length": 55,
+      "text": "Extra data extended Zip64 information length is invalid"
+    },
+    {
+      "literal_index": 4716,
+      "data_offset": 302716,
+      "byte_length": 31,
+      "text": "GZIP crc sum mismatch, theirs \""
+    },
+    {
+      "literal_index": 4717,
+      "data_offset": 302747,
+      "byte_length": 10,
+      "text": "GZipStream"
+    },
+    {
+      "literal_index": 5586,
+      "data_offset": 319979,
+      "byte_length": 53,
+      "text": "Inconsistent metadata in the ZIP64 Central Directory."
+    },
+    {
+      "literal_index": 5812,
+      "data_offset": 327203,
+      "byte_length": 61,
+      "text": "Invalid URI: The username:password construct is badly formed."
+    },
+    {
+      "literal_index": 5824,
+      "data_offset": 327557,
+      "byte_length": 50,
+      "text": "Invalid Zip64 Central directory signature at {0:X}"
+    },
+    {
+      "literal_index": 5876,
+      "data_offset": 329911,
+      "byte_length": 28,
+      "text": "Invalid embedded zip archive"
+    },
+    {
+      "literal_index": 5920,
+      "data_offset": 331383,
+      "byte_length": 16,
+      "text": "Invalid password"
+    },
+    {
+      "literal_index": 5921,
+      "data_offset": 331399,
+      "byte_length": 24,
+      "text": "Invalid password for AES"
+    },
+    {
+      "literal_index": 6226,
+      "data_offset": 337964,
+      "byte_length": 73,
+      "text": "It is not possible to use PKZIP encryption on a non-seekable input stream"
+    },
+    {
+      "literal_index": 6847,
+      "data_offset": 351758,
+      "byte_length": 62,
+      "text": "Missing or incomplete GZIP trailer. Expected 8 bytes, got {0}."
+    },
+    {
+      "literal_index": 6849,
+      "data_offset": 351868,
+      "byte_length": 17,
+      "text": "Missing password."
+    },
+    {
+      "literal_index": 7168,
+      "data_offset": 360202,
+      "byte_length": 46,
+      "text": "No password available for AES encrypted stream"
+    },
+    {
+      "literal_index": 7169,
+      "data_offset": 360248,
+      "byte_length": 42,
+      "text": "No password available for encrypted stream"
+    },
+    {
+      "literal_index": 7170,
+      "data_offset": 360290,
+      "byte_length": 16,
+      "text": "No password set."
+    },
+    {
+      "literal_index": 7244,
+      "data_offset": 362390,
+      "byte_length": 24,
+      "text": "Not a valid GZIP stream."
+    },
+    {
+      "literal_index": 7408,
+      "data_offset": 367707,
+      "byte_length": 123,
+      "text": "Offset within the zip archive exceeds 0xFFFFFFFF. Consider setting the UseZip64WhenSaving property on the ZipFile instance."
+    },
+    {
+      "literal_index": 8093,
+      "data_offset": 383412,
+      "byte_length": 26,
+      "text": "Reading zip from stream..."
+    },
+    {
+      "literal_index": 8094,
+      "data_offset": 383438,
+      "byte_length": 18,
+      "text": "Reading zip {0}..."
+    },
+    {
+      "literal_index": 8290,
+      "data_offset": 389198,
+      "byte_length": 43,
+      "text": "Required Zip64 extended information missing"
+    },
+    {
+      "literal_index": 8298,
+      "data_offset": 389476,
+      "byte_length": 38,
+      "text": "Reserved flag bits in GZIP header != 0"
+    },
+    {
+      "literal_index": 9700,
+      "data_offset": 425899,
+      "byte_length": 75,
+      "text": "The Password property must be set before AES encrypted entries can be added"
+    },
+    {
+      "literal_index": 9746,
+      "data_offset": 429082,
+      "byte_length": 105,
+      "text": "The archive requires a ZIP64 Central Directory. Consider setting the ZipFile.UseZip64WhenSaving property."
+    },
+    {
+      "literal_index": 9747,
+      "data_offset": 429187,
+      "byte_length": 106,
+      "text": "The archive requires a ZIP64 Central Directory. Consider setting the ZipOutputStream.EnableZip64 property."
+    },
+    {
+      "literal_index": 9873,
+      "data_offset": 437192,
+      "byte_length": 75,
+      "text": "The library does not support the zip version required to extract this entry"
+    },
+    {
+      "literal_index": 9909,
+      "data_offset": 439317,
+      "byte_length": 116,
+      "text": "The number of entries is 65535 or greater. Consider setting the UseZip64WhenSaving property on the ZipFile instance."
+    },
+    {
+      "literal_index": 9912,
+      "data_offset": 439591,
+      "byte_length": 43,
+      "text": "The number of zip segments would exceed 99."
+    },
+    {
+      "literal_index": 9929,
+      "data_offset": 440808,
+      "byte_length": 27,
+      "text": "The password did not match."
+    },
+    {
+      "literal_index": 10167,
+      "data_offset": 455104,
+      "byte_length": 31,
+      "text": "This entry requires a password."
+    },
+    {
+      "literal_index": 10300,
+      "data_offset": 461474,
+      "byte_length": 29,
+      "text": "Too many entries for Zip file"
+    },
+    {
+      "literal_index": 10301,
+      "data_offset": 461503,
+      "byte_length": 63,
+      "text": "Too many entries. Consider setting ZipOutputStream.EnableZip64."
+    },
+    {
+      "literal_index": 10655,
+      "data_offset": 473575,
+      "byte_length": 35,
+      "text": "Unexpected EOF reading GZIP header."
+    },
+    {
+      "literal_index": 10692,
+      "data_offset": 475226,
+      "byte_length": 43,
+      "text": "Unexpected end-of-file reading GZIP header."
+    },
+    {
+      "literal_index": 11019,
+      "data_offset": 486355,
+      "byte_length": 32,
+      "text": "Use Extract() only with ZipFile."
+    },
+    {
+      "literal_index": 11333,
+      "data_offset": 498135,
+      "byte_length": 44,
+      "text": "You haven't specified where to save the zip."
+    },
+    {
+      "literal_index": 11339,
+      "data_offset": 498479,
+      "byte_length": 52,
+      "text": "You must call ZipFile.Save before calling OpenReader"
+    },
+    {
+      "literal_index": 11340,
+      "data_offset": 498531,
+      "byte_length": 60,
+      "text": "You must call ZipFile.Save before calling any Extract method"
+    },
+    {
+      "literal_index": 11348,
+      "data_offset": 499400,
+      "byte_length": 42,
+      "text": "You specified an EXE for a plain zip file."
+    },
+    {
+      "literal_index": 11354,
+      "data_offset": 499465,
+      "byte_length": 17,
+      "text": "ZIP64 is required"
+    },
+    {
+      "literal_index": 11359,
+      "data_offset": 499594,
+      "byte_length": 23,
+      "text": "Zip archive ends early."
+    },
+    {
+      "literal_index": 11360,
+      "data_offset": 499617,
+      "byte_length": 21,
+      "text": "Zip file Comment: {0}"
+    },
+    {
+      "literal_index": 11361,
+      "data_offset": 499638,
+      "byte_length": 51,
+      "text": "Zip64 Extended information required but is missing."
+    },
+    {
+      "literal_index": 11362,
+      "data_offset": 499689,
+      "byte_length": 26,
+      "text": "ZipAESStream only for read"
+    },
+    {
+      "literal_index": 11363,
+      "data_offset": 499715,
+      "byte_length": 13,
+      "text": "ZipEntry::{0}"
+    },
+    {
+      "literal_index": 11364,
+      "data_offset": 499728,
+      "byte_length": 7,
+      "text": "ZipFile"
+    },
+    {
+      "literal_index": 11365,
+      "data_offset": 499735,
+      "byte_length": 31,
+      "text": "ZipFile stream must be seekable"
+    },
+    {
+      "literal_index": 11366,
+      "data_offset": 499766,
+      "byte_length": 47,
+      "text": "ZipFile::Save: could not delete temp file: {0}."
+    },
+    {
+      "literal_index": 11367,
+      "data_offset": 499813,
+      "byte_length": 12,
+      "text": "ZipFile::{0}"
+    },
+    {
+      "literal_index": 11368,
+      "data_offset": 499825,
+      "byte_length": 28,
+      "text": "ZipOutputStream was finished"
+    },
+    {
+      "literal_index": 11369,
+      "data_offset": 499853,
+      "byte_length": 18,
+      "text": "ZipSegmentedStream"
+    },
+    {
+      "literal_index": 12619,
+      "data_offset": 520360,
+      "byte_length": 29,
+      "text": "clearHttpAuthUsernamePassword"
+    },
+    {
+      "literal_index": 13927,
+      "data_offset": 537627,
+      "byte_length": 4,
+      "text": "gzip"
+    },
+    {
+      "literal_index": 13928,
+      "data_offset": 537631,
+      "byte_length": 13,
+      "text": "gzip, deflate"
+    },
+    {
+      "literal_index": 14717,
+      "data_offset": 566679,
+      "byte_length": 59,
+      "text": "invalid arguments to SyntheticProphet.SeerBall constructor!"
+    },
+    {
+      "literal_index": 17066,
+      "data_offset": 639804,
+      "byte_length": 8,
+      "text": "password"
+    },
+    {
+      "literal_index": 19202,
+      "data_offset": 670167,
+      "byte_length": 9,
+      "text": "zipStream"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5483867645811225862
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -401926799996127650
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -5925036174169324458
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8376489361683223334
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4674614645310849889
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5139080171655342240
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "pre_ppl_hallview_Chat_more",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

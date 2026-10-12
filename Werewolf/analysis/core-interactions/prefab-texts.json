@@ -1,0 +1,1067 @@
+[
+  {
+    "bundle": "ui__room_new__prefab__dialogbox",
+    "path_id": "8115700941000836629",
+    "text": "移交警徽"
+  },
+  {
+    "bundle": "ui__room_new__prefab__dialogbox",
+    "path_id": "-8497254723626468663",
+    "text": "本局游戏警长有2.5票，单第二晚将会出局"
+  },
+  {
+    "bundle": "ui__room_new__prefab__dialogbox",
+    "path_id": "-9210478710292858891",
+    "text": "你可以<color=#ffcf00>【点击选择左右头像】</color>选择一名其他玩家，将警徽托付给他（她），他将继任成为新一任警长。"
+  },
+  {
+    "bundle": "ui__room_new__prefab__dialogbox",
+    "path_id": "-2059905359012392823",
+    "text": "你可以【点击左边或者右边的头像】选择一名上警的玩家投票"
+  },
+  {
+    "bundle": "ui__room_new__prefab__dialogbox",
+    "path_id": "-3630847369174259025",
+    "text": "转移警徽"
+  },
+  {
+    "bundle": "ui__room_new__prefab__dialogbox",
+    "path_id": "8177018866184694526",
+    "text": "请你选择发言顺序"
+  },
+  {
+    "bundle": "ui__room_new__prefab__dialogbox",
+    "path_id": "-2634006003428353601",
+    "text": "< 逆序发言"
+  },
+  {
+    "bundle": "ui__room_new__prefab__dialogbox",
+    "path_id": "-79985322482442193",
+    "text": "【是否参加竞选】"
+  },
+  {
+    "bundle": "ui__room_new__prefab__dialogbox",
+    "path_id": "-7413223908289095510",
+    "text": "你可以<color=#DDE102>【点击左边或者右边的头像】</color>"
+  },
+  {
+    "bundle": "ui__room_new__prefab__dialogbox",
+    "path_id": "-5768908637060594922",
+    "text": "你是否要参加警长竞选？"
+  },
+  {
+    "bundle": "ui__room_new__prefab__dialogbox",
+    "path_id": "1479967683807418116",
+    "text": "取消"
+  },
+  {
+    "bundle": "ui__room_new__prefab__dialogbox",
+    "path_id": "5126260312412714231",
+    "text": "警长投票"
+  },
+  {
+    "bundle": "ui__room_new__prefab__dialogbox",
+    "path_id": "8095325919776667099",
+    "text": "<color=#ffcf00>【逆序】</color>为从你的<color=#ffcf00>【上一座位号】</color>开始逆序发言\n<color=#ffcf00>【顺序】</color>为从你的<color=#ffcf00>【下一座位号】</color>开始顺序发言"
+  },
+  {
+    "bundle": "ui__room_new__prefab__dialogbox",
+    "path_id": "-1578832028745083137",
+    "text": "确认"
+  },
+  {
+    "bundle": "ui__room_new__prefab__dialogbox",
+    "path_id": "-7385233974817602452",
+    "text": "请警长选择白天放逐发言循序：  "
+  },
+  {
+    "bundle": "ui__room_new__prefab__dialogbox",
+    "path_id": "-4034468739408626242",
+    "text": "投票"
+  },
+  {
+    "bundle": "ui__room_new__prefab__dialogbox",
+    "path_id": "4816591583360964146",
+    "text": "顺序发言 >"
+  },
+  {
+    "bundle": "ui__room_new__prefab__dialogbox",
+    "path_id": "-8089992447451586409",
+    "text": "放逐投票"
+  },
+  {
+    "bundle": "ui__room_new__prefab__dialogbox",
+    "path_id": "1354465428505451160",
+    "text": "投票"
+  },
+  {
+    "bundle": "ui__room_new__prefab__dialogbox",
+    "path_id": "-8553788979842596342",
+    "text": "撕掉警徽"
+  },
+  {
+    "bundle": "ui__room_new__prefab__dialogbox",
+    "path_id": "-6547927873979379179",
+    "text": "※上警的玩家将通过发言和其他玩家投票决定谁是警长"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role__role2",
+    "path_id": "-38237549279650140",
+    "text": "杀"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role__role2",
+    "path_id": "3377743323995878960",
+    "text": "<color=#FFE102>【点击左右头像】</color>请选择爪击一名未出局玩家"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role__role2",
+    "path_id": "-1122596500761041512",
+    "text": "带走"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role__role5",
+    "path_id": "8528784859366896123",
+    "text": "【你被削弱了】"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role__role5",
+    "path_id": "-6756973821740185619",
+    "text": "毒杀？"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role__role5",
+    "path_id": "4241716561181112659",
+    "text": "你可以<color=#FFE102>【点击左右头像】</color><color=#FFFFFF>选择一名未死亡的玩家使用【毒药】</color>"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role__role5",
+    "path_id": "-5444041661084313508",
+    "text": "毒药"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role__role5",
+    "path_id": "-8166466213875196628",
+    "text": "x1"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role__role5",
+    "path_id": "2141907550610063711",
+    "text": "x1"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role__role5",
+    "path_id": "2754919216128613899",
+    "text": "不能使用"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role__role5",
+    "path_id": "5794211328804583235",
+    "text": "先选目标"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role__role5",
+    "path_id": "-3201327144101019008",
+    "text": "x0"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role__role5",
+    "path_id": "-4094757907009835713",
+    "text": "救ta"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role__role5",
+    "path_id": "-215174253320105523",
+    "text": "解药"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role__role5",
+    "path_id": "7808949174458193196",
+    "text": "x0"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "8474991409394875087",
+    "text": "·"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-1278306435515471618",
+    "text": "取消匹配"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-1980402023662805503",
+    "text": "文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "2659707585360382092",
+    "text": "送礼"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "1851512492345089865",
+    "text": "开启跨房匹配"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "4967077378431641075",
+    "text": "88"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "1131534490177657140",
+    "text": "狼人请行动...  <size=40><color=#FE0012>58</color></size>s"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-471288755036427062",
+    "text": "12人石像鬼/守墓人"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-6189980926456450171",
+    "text": "发言玩家屏蔽插麦"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-4036948206096566972",
+    "text": "位观众"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-3302555508510311564",
+    "text": "密码"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-4407661063652224967",
+    "text": "按住发言"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "2544273864672173675",
+    "text": "温馨提示：当前房间过多匹配较慢，建议邀请好友加入房间或退出房间进行个人匹配，以便加快开局速度！"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "9138097758793356683",
+    "text": "警长额外增加1票，但会在下一晚出局"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-7736891965680861397",
+    "text": "再来一局"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "2622033136384652801",
+    "text": "·"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "113484843012064947",
+    "text": "准 备"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "2503685579130339261",
+    "text": "跨房匹配速度更快，匹配成功后您将失去房主身份，和座位上玩家一起进入其他房间，房间人气也会被重置（升级人气房后禁止跨房匹配）"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-2876701339184789335",
+    "text": "1000+"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "8437361421192236080",
+    "text": "123"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-4183035921221988342",
+    "text": "房间热度:"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-3600245196138126876",
+    "text": "100+"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "4543778173409449703",
+    "text": "123456"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "5750800065337816704",
+    "text": "好友聊天"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-3353663641589568042",
+    "text": "房间信息"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-7922841983269142004",
+    "text": "未读消息5条"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-2840968623997951117",
+    "text": "5270"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "5801748321322857539",
+    "text": "+2秒发言时长"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-6290606622135029787",
+    "text": "12人标准场"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-8387406811902905574",
+    "text": "AI测试"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "4194761346701532566",
+    "text": "未录制"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-9106012792803767001",
+    "text": "."
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-3695576922264943858",
+    "text": "商店街"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-7297638786079500718",
+    "text": "正在发言 | 允许插麦"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-2456158636196133669",
+    "text": "AI笔记测试"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "1410557489495868960",
+    "text": "房间信息"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-6293181477063019585",
+    "text": "."
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-6444979218797052633",
+    "text": "未明之雾已生效，只能从这三名玩家中选择袭击目标，\n若放弃袭击，则系统会随机袭击三名玩家中的一名。"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "4111719198434349751",
+    "text": "送礼"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-6292535410041043906",
+    "text": "其他玩家努力进入中"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "154596341817667904",
+    "text": "不可插麦"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-1547175346052862111",
+    "text": "发言玩家允许插麦"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-4332502553292125279",
+    "text": "设置无限制入座，\r加速游戏开局呦！"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "404661732925195244",
+    "text": "点我写笔记"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-376255604513255960",
+    "text": "快速开始"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "6610731739658546473",
+    "text": "·"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "5231625187057170765",
+    "text": "装扮"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-4403446737838204275",
+    "text": "·"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-4045578339606791952",
+    "text": "12人石像鬼"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "3837902678155479174",
+    "text": "点击接受魔音共享"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "9042285060173820625",
+    "text": "点击接受魔音共享"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "1315777226872376396",
+    "text": "1000+"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "7945866987001827130",
+    "text": "现有"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "3348143361207027900",
+    "text": "现有"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "407016583366131891",
+    "text": "2"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "4830445039681735531",
+    "text": "你你你"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-5428489061834247519",
+    "text": "结束发言"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-5885417909059542580",
+    "text": "已准备：<color=#FFFCEFFF>10</color>/10"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-1361276059125766021",
+    "text": "0"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "5725900371793105332",
+    "text": "设置"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-113517560206053958",
+    "text": "点击输入文字..."
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-208930951755180336",
+    "text": "房间"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-717219065217330863",
+    "text": "切换url"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-960242598955380089",
+    "text": "12"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "6059040952944117794",
+    "text": "123456"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "9013592505983293970",
+    "text": "邀请"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-764019818359457661",
+    "text": "30s"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-1859584522312675015",
+    "text": "复制"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "4067157513257125624",
+    "text": "修改tts URL"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-406949256192922234",
+    "text": "文本文本文本文本文本文本文本文本"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "1387518129663812517",
+    "text": "邀请"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-6643774052007923069",
+    "text": "文本文本文本文本"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "4545619953158056359",
+    "text": "剩余时间：58 s"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "5518741416150521667",
+    "text": "以上内容由AI生成，仅供参考。"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-8541136744368470143",
+    "text": "你"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "5305552958646736340",
+    "text": "18ms"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "4668243902715581475",
+    "text": "停止音频"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-4745612087847408932",
+    "text": "发言参考"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-8098230809705654941",
+    "text": "点击接受魔音共享"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-7229933073220802415",
+    "text": "自动发言中"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "4954280099268970418",
+    "text": "AI发言参考测试"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "8622422324625205229",
+    "text": "·"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-2072437311254387604",
+    "text": "排位赛S1"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-3718156501726907908",
+    "text": "玩家名字七个字"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-6880522779520128295",
+    "text": "房间全服曝光中"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-3679849910400804016",
+    "text": "其他玩家努力进入中"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-1792940762905838221",
+    "text": "等待房主开始游戏"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "3235197202531142865",
+    "text": "已 准 备"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-4733940253658602012",
+    "text": "·"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "3742270937007065192",
+    "text": "新消息"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "5082343718786687873",
+    "text": "举报"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-4444391530892236814",
+    "text": "切换url"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "5811878198031221521",
+    "text": "观众"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "9001715895436468662",
+    "text": "关闭魔音"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "4313902298288990804",
+    "text": "."
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "1525779431088296322",
+    "text": "开始游戏"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-2519719199591075897",
+    "text": "查看围观"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "942796767624860666",
+    "text": "点我写笔记"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-1114414921794847735",
+    "text": "观战"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "2121542258022316817",
+    "text": "  没有发言思路？\r\n看看AI怎么说~"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-4045795323196193333",
+    "text": "好友聊天"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui",
+    "path_id": "-1999905779458366307",
+    "text": "(29s)"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role__role3",
+    "path_id": "2098944388524580930",
+    "text": "<color=#FFE102>【点击头像】</color><color=#FFFFFF>查验其他玩家是否为狼人</color>"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role__role3",
+    "path_id": "-3501067221141685291",
+    "text": "检 查"
+  },
+  {
+    "bundle": "ui__room_new__prefab__identity",
+    "path_id": "-5708238165733115981",
+    "text": "狼人"
+  },
+  {
+    "bundle": "ui__room_new__prefab__identity",
+    "path_id": "-123420894499483560",
+    "text": "白天，假装是一个好人，晚上可以杀一个玩家啊啊啊啊啊啊啊啊"
+  },
+  {
+    "bundle": "ui__room_new__prefab__identity",
+    "path_id": "2557858671439716238",
+    "text": "等待"
+  },
+  {
+    "bundle": "ui__room_new__prefab__identity",
+    "path_id": "-5818479435923112129",
+    "text": "OK"
+  },
+  {
+    "bundle": "ui__room_new__prefab__identity",
+    "path_id": "333104884609953842",
+    "text": "【任务】"
+  },
+  {
+    "bundle": "ui__room_new__prefab__identity",
+    "path_id": "-3290715694919972463",
+    "text": "可以每晚杀一个玩家哈哈哈哈哈哈哈哈哈"
+  },
+  {
+    "bundle": "ui__room_new__prefab__identity",
+    "path_id": "6888461358697355652",
+    "text": "身份发放"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role_skill__skill_prophet",
+    "path_id": "-2203629167746743293",
+    "text": "TA是好人"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role_skill__skill_prophet",
+    "path_id": "5505269686549550565",
+    "text": "TA是狼人"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role_skill__skill_prophet",
+    "path_id": "8179973800332358717",
+    "text": "2"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role_skill__skill_hunter",
+    "path_id": "-2015803043361036890",
+    "text": "TA被枪杀"
+  },
+  {
+    "bundle": "ui__room_new__prefab__pre_vote_public",
+    "path_id": "-4599804538570495645",
+    "text": "投票结果"
+  },
+  {
+    "bundle": "ui__room_new__prefab__pre_vote_public",
+    "path_id": "-5900439512164524798",
+    "text": "【5】"
+  },
+  {
+    "bundle": "ui__room_new__prefab__pre_vote_public",
+    "path_id": "-1739649083163360599",
+    "text": "放逐投票结果"
+  },
+  {
+    "bundle": "ui__room_new__prefab__pre_vote_public",
+    "path_id": "3857627914933930420",
+    "text": "【5】"
+  },
+  {
+    "bundle": "ui__room_new__prefab__pre_vote_public",
+    "path_id": "-8724805768071300052",
+    "text": "投票结果:"
+  },
+  {
+    "bundle": "ui__room_new__prefab__pre_vote_public",
+    "path_id": "-1414206157156887835",
+    "text": "确 定"
+  },
+  {
+    "bundle": "ui__room_new__prefab__pre_vote_public",
+    "path_id": "7136444731531957598",
+    "text": "号票数最多！"
+  },
+  {
+    "bundle": "ui__room_new__prefab__pre_vote_public",
+    "path_id": "-4183205815064124893",
+    "text": "投票结果:"
+  },
+  {
+    "bundle": "ui__room_new__prefab__pre_vote_public",
+    "path_id": "-3029479975588676122",
+    "text": "票型一览"
+  },
+  {
+    "bundle": "ui__room_new__prefab__pre_vote_public",
+    "path_id": "1159678396686533699",
+    "text": "号票数最多！"
+  },
+  {
+    "bundle": "ui__room_new__prefab__vote_settlement",
+    "path_id": "6388899422214110817",
+    "text": "好的"
+  },
+  {
+    "bundle": "ui__room_new__prefab__vote_settlement",
+    "path_id": "7844435330733242279",
+    "text": "弃票"
+  },
+  {
+    "bundle": "ui__room_new__prefab__vote_settlement",
+    "path_id": "384484428056705854",
+    "text": "当选"
+  },
+  {
+    "bundle": "ui__room_new__prefab__vote_settlement",
+    "path_id": "8036459868875646714",
+    "text": "放逐结果：【3号】玩家获得票数最多"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui_table",
+    "path_id": "-7881853937900008073",
+    "text": "房间全服曝光中"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui_table",
+    "path_id": "-6108497310566049386",
+    "text": "123456"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui_table",
+    "path_id": "-5157159703401078592",
+    "text": "新消息"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui_table",
+    "path_id": "-2154855846976313342",
+    "text": "100+"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui_table",
+    "path_id": "-2348857978264143695",
+    "text": "未读消息5条"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui_table",
+    "path_id": "-4885457020034664741",
+    "text": "现有"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui_table",
+    "path_id": "5992346992236684336",
+    "text": "位观众"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui_table",
+    "path_id": "1455218920897466017",
+    "text": "好友聊天"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui_table",
+    "path_id": "-2358276929074709174",
+    "text": "房间信息"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui_table",
+    "path_id": "46857446732543896",
+    "text": "好友聊天"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui_table",
+    "path_id": "3692351262820480982",
+    "text": "1000+"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui_table",
+    "path_id": "7571392493236376422",
+    "text": "0"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui_table",
+    "path_id": "1505980040252665609",
+    "text": "举报"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui_table",
+    "path_id": "-8542385397827730967",
+    "text": "复制"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui_table",
+    "path_id": "7237153869071802373",
+    "text": "房间热度:"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui_table",
+    "path_id": "2439870328343894886",
+    "text": "观众"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui_table",
+    "path_id": "5598386250282003589",
+    "text": "现有"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui_table",
+    "path_id": "5163320671371091081",
+    "text": "5270"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui_table",
+    "path_id": "-343426822703653956",
+    "text": "房间信息"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui_table",
+    "path_id": "-5811187376671542181",
+    "text": "查看围观"
+  },
+  {
+    "bundle": "ui__room_new__prefab__roomui_table",
+    "path_id": "-5343180143381990480",
+    "text": "1000+"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role_skill__skill_witch_revive",
+    "path_id": "1509562547076928868",
+    "text": "TA被救活"
+  },
+  {
+    "bundle": "ui__room_new__prefab__logicbtn",
+    "path_id": "-4473239633208446583",
+    "text": "等待游戏玩家【抢身份】和【分发身份】..."
+  },
+  {
+    "bundle": "ui__room_new__prefab__logicbtn",
+    "path_id": "-8559359335292913574",
+    "text": "诱导自曝"
+  },
+  {
+    "bundle": "ui__room_new__prefab__logicbtn",
+    "path_id": "-24837799794089533",
+    "text": "黑麦提醒"
+  },
+  {
+    "bundle": "ui__room_new__prefab__logicbtn",
+    "path_id": "6128025072262972328",
+    "text": "自 爆"
+  },
+  {
+    "bundle": "ui__room_new__prefab__logicbtn",
+    "path_id": "8097386904110141077",
+    "text": "投票"
+  },
+  {
+    "bundle": "ui__room_new__prefab__logicbtn",
+    "path_id": "8694071027906380299",
+    "text": "你已经出局"
+  },
+  {
+    "bundle": "ui__room_new__prefab__logicbtn",
+    "path_id": "6298776214659512022",
+    "text": "结算前将进入观战频道..."
+  },
+  {
+    "bundle": "ui__room_new__prefab__logicbtn",
+    "path_id": "271048386022578513",
+    "text": "决斗"
+  },
+  {
+    "bundle": "ui__room_new__prefab__logicbtn",
+    "path_id": "-4610214845855881002",
+    "text": "禁止插麦"
+  },
+  {
+    "bundle": "ui__room_new__prefab__logicbtn",
+    "path_id": "5350680934479541930",
+    "text": "自 爆"
+  },
+  {
+    "bundle": "ui__room_new__prefab__logicbtn",
+    "path_id": "4008961589876483700",
+    "text": "觉醒守护"
+  },
+  {
+    "bundle": "ui__room_new__prefab__logicbtn",
+    "path_id": "-6247218503127625131",
+    "text": "1"
+  },
+  {
+    "bundle": "ui__room_new__prefab__logicbtn",
+    "path_id": "-3038068358296465439",
+    "text": "8"
+  },
+  {
+    "bundle": "ui__room_new__prefab__logicbtn",
+    "path_id": "-7707010642311476772",
+    "text": "退水"
+  },
+  {
+    "bundle": "ui__room_new__prefab__logicbtn",
+    "path_id": "8669355186578696231",
+    "text": "放弃选择"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role__role8",
+    "path_id": "5981394433868162173",
+    "text": "你"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role__role8",
+    "path_id": "2209783224473017336",
+    "text": "新头像\n       审核中"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role__role8",
+    "path_id": "6180923025897963974",
+    "text": "1"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role__role8",
+    "path_id": "-2998958793285552733",
+    "text": "嘣"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role__role8",
+    "path_id": "-3936566651928335070",
+    "text": "你可以<color=#ffcf00>【点击选择左右头像】</color>选择其他一名未死亡的玩家开枪，将其杀死。"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role__role8",
+    "path_id": "-4803562792128653223",
+    "text": "开枪"
+  },
+  {
+    "bundle": "ui__room_new__prefab__pre_vote_room",
+    "path_id": "8154001505649811550",
+    "text": "查看详情"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role_skill__skill_witch",
+    "path_id": "-7859822944639692976",
+    "text": "TA被毒杀"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role_skill__skill_werewolf",
+    "path_id": "-3880764200414349973",
+    "text": "[No.1(you)]choice[No.2]\n[No.4]choice[No.3]"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role_skill__skill_werewolf",
+    "path_id": "8066687837261683060",
+    "text": "TA被杀"
+  },
+  {
+    "bundle": "ui__room_new__prefab__role_skill__skill_werewolf",
+    "path_id": "6422909694343446090",
+    "text": "[No.1(you)]choice[No.2]\n[No.4]choice[No.3]"
+  }
+]

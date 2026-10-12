@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1503275116686605139
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4826517224350615578
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5811788333261161447
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3465955237271100296
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "PlayerHead_honor_Common_small",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

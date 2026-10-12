@@ -1,0 +1,49 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 5378193283388103976
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7802755607570700153
+  },
+  "m_Name": "",
+  "bindDic": {
+    "m_keys": [
+      "MatchStartTip",
+      "FirstPoint",
+      "SecondPoint",
+      "ThirdPoint",
+      "timeoutMatchTip",
+      "MatchText"
+    ],
+    "m_values": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 6667467214277114092
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 7352370111671789967
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 1063255460743972050
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -4365805517628912365
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -7130868405973918103
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 7799207935124717282
+      }
+    ]
+  },
+  "animationEventList": []
+}

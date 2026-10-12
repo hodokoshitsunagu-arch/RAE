@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -104777245608698907
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5855665513057995340
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2814165396805408812
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3551402158975827899
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6459345091975126222
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "shou",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

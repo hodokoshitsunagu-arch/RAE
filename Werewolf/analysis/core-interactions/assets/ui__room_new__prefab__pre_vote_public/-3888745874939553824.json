@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -587028413407650150
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8091641435538393455
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -9168885884403551385
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4780286534280972466
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2270041399485600062
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "BlackMask178",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

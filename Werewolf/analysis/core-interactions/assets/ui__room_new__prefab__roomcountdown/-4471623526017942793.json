@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 381917474384356836
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7855127709999465163
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7404809201373025185
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "horiLayout",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

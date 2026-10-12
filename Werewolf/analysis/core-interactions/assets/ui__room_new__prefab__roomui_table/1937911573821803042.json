@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 474636460146519653
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4797247576902342818
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3112061602233998224
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -8634015520904129653
+      }
+    }
+  ],
+  "m_Layer": 0,
+  "m_Name": "posGO",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

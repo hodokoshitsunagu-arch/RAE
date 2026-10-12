@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 23777825683285247
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3453977807897741068
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7923851198902070435
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Mobility",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

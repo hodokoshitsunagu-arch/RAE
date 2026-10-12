@@ -1,0 +1,79 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7089474419482072754
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7802755607570700153
+  },
+  "m_Name": "",
+  "bindDic": {
+    "m_keys": [
+      "closeBtn",
+      "upButton",
+      "downButton",
+      "upSelect",
+      "upUnselect",
+      "downSelect",
+      "downUnselect",
+      "aiTxt",
+      "scroll",
+      "loadingNode",
+      "tipsNode",
+      "line"
+    ],
+    "m_values": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 3470248368812352747
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 2674997360300309329
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 1348220733697884043
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -1225668199937964848
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -1323124525912356808
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -8861344738708185168
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -9020644572562553309
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -7904971878909939132
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 6384840334613775478
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 7828952905532110197
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 5499809803071803932
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 3926413456302787089
+      }
+    ]
+  },
+  "animationEventList": []
+}

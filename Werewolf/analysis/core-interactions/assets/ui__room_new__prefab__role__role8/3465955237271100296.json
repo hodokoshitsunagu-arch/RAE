@@ -1,0 +1,74 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -5474604008015929565
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7802755607570700153
+  },
+  "m_Name": "",
+  "bindDic": {
+    "m_keys": [
+      "head",
+      "defaultHead",
+      "smallYou",
+      "headBorder",
+      "defaultHeadBorder",
+      "headBorderAnim",
+      "bpNode",
+      "bpLevelLabel",
+      "bpLevelBg",
+      "highLevelBg",
+      "examination"
+    ],
+    "m_values": [
+      {
+        "m_FileID": 0,
+        "m_PathID": -5546440102937099198
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -7498483891741745534
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -8583987242739382958
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -6533122173457244787
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 2494630489789423799
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 1847416148729445305
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -4694682300328132611
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -5312100789503324274
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -8277416783473856184
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -1489312853096585283
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 8215680744238733734
+      }
+    ]
+  },
+  "animationEventList": []
+}

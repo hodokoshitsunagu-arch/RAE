@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 9064584249503758798
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3491357552170450757
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5556378164621012347
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8838391645681689948
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "NewMessageLabel",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

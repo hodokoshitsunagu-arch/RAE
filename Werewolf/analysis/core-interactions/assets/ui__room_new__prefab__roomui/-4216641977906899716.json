@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6483589200400273952
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -555042285462882880
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6295562075610584216
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "recordingIconImg",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3115045869011898575
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4465781114568474872
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5089573938277417521
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "gameui_roomframe_bg_style01_woodiness_002b",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

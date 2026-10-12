@@ -1,0 +1,601 @@
+// Reconstructed from the exact packaged FileDescriptorProto.
+// Original source comments/formatting are unavailable.
+syntax = "proto3";
+
+import "draw-something.proto";
+
+option java_package = "com.soul.im.protos";
+option java_multiple_files = true;
+option go_package = "protos";
+option objc_class_prefix = "IMP";
+
+message SauthMessage {
+  string soulId = 1;
+  string uid = 2;
+  string sid = 3;
+  ClientType clientType = 4;
+  string clientVersion = 5;
+  string deviceId = 6;
+  string deviceVendor = 7;
+  string deviceModel = 8;
+  string deviceOsName = 9;
+  string deviceOsVersion = 10;
+  bool isRetrying = 11;
+  Label label = 12;
+}
+
+message Label {
+  enum Business {
+    DEFAULT_BUSINESS = 0;
+    IM = 1;
+    GAME = 2;
+  }
+  enum ChannelType {
+    DEFAULT_CHANNEL_TYPE = 0;
+    SOULAPP = 1;
+    WECHAT = 2;
+    FACEBOOK = 3;
+  }
+  Label.Business business = 1;
+  Label.ChannelType channelType = 2;
+}
+
+message CommandMessage {
+  enum Type {
+    MSG = 0;
+    SYNC = 1;
+    PSH = 2;
+    ACK = 3;
+    FIN = 4;
+    RESP = 5;
+    NOTIFY = 6;
+    PUSH = 7;
+    SYNC_FIN = 8;
+    MSG_FIN = 9;
+    FIRST_SYNC = 10;
+    TRANS_CMD = 11;
+    REPORT = 12;
+    ORDER = 13;
+    CHAT_ROOM = 14;
+    MAP = 15;
+    ROAM = 16;
+    GROUP = 17;
+  }
+  string soulId = 1;
+  string cmd_id = 2;
+  CommandMessage.Type type = 3;
+  string acceptedMsgId = 4;
+  ClientType clientType = 18;
+  string crc = 19;
+  string encryptedUserId = 20;
+  int64 timestamp = 25;
+  oneof cmd {
+    MsgCommand msgCommand = 5;
+    RespCommand respCommand = 6;
+    PshCommand pshCommand = 7;
+    AckCommand ackCommand = 8;
+    SyncCommand syncCommand = 9;
+    FinCommand finCommand = 10;
+    NotifyCommand notifyCommand = 11;
+    PushMessage pushMessage = 12;
+    SyncFin syncFin = 13;
+    MsgFin msgFin = 14;
+    TransCommand transCommand = 15;
+    ReportCommand reportCommand = 16;
+    OrderCommand orderCommand = 17;
+    ChatRoomCommand chatRoomCommand = 21;
+    MapCommand mapCommand = 23;
+    RoamCommand roamCommand = 24;
+    GroupCommand groupCommand = 26;
+  }
+}
+
+message CommandGroup {
+  repeated CommandMessage commands = 1;
+}
+
+message OrderCommand {
+  enum Type {
+    KICKOUT = 0;
+    DELETE = 1;
+  }
+  OrderCommand.Type type = 1;
+  oneof order {
+    KickoutOrderCommand kickoutOrderCommand = 2;
+    DeleteOrderCommand DeleteOrderCommand = 3;
+  }
+}
+
+message KickoutOrderCommand {
+  string userId = 1;
+  ClientType kicker = 2;
+  ClientType asser = 3;
+  string timestamp = 4;
+}
+
+message DeleteOrderCommand {
+  string userId = 1;
+  repeated DeleteItemOrderCommand deleteItem = 2;
+}
+
+message DeleteItemOrderCommand {
+  string msg_from = 1;
+  string msg_to = 2;
+  string cmd_id = 3;
+}
+
+message ReportCommand {
+  enum Type {
+    LOGIN_REPORT = 0;
+    RELATION_REPORT = 3;
+  }
+  ReportCommand.Type type = 1;
+  oneof report {
+    LoginReportCommand loginReportCommand = 2;
+    RelationReportCommand relationReportCommand = 4;
+  }
+}
+
+message LoginReportCommand {
+  enum LoginType {
+    CONNECT = 0;
+    DISCONNECT = 1;
+    LOGIN = 2;
+    LOGOUT = 3;
+    VICE_LOGOUT = 4;
+  }
+  LoginReportCommand.LoginType loginType = 1;
+  ClientType clientType = 2;
+  string from = 3;
+  string to = 4;
+  string timestamp = 5;
+  string deviceId = 6;
+  repeated string viceId = 7;
+}
+
+message RelationReportCommand {
+  string masterId = 1;
+  repeated string viceId = 2;
+  repeated string deleteMasterId = 3;
+  repeated string deleteViceId = 4;
+}
+
+message PshCommand {
+  enum Type {
+    SYNC = 0;
+    KICK = 1;
+  }
+  PshCommand.Type type = 1;
+  string errorMsg = 2;
+}
+
+message AckCommand {
+  enum Type {
+    MSG = 0;
+    SYNC = 1;
+  }
+  bool remain = 1;
+  string readLastMsgId = 2;
+  string timestamp = 3;
+  AckCommand.Type type = 4;
+}
+
+message SyncCommand {
+  enum Type {
+    SINGLECHAT = 0;
+    ROOMCHAT = 1;
+    ROAMINGCHAT = 2;
+    VICE_UNREAD = 3;
+  }
+  string startMsgId = 1;
+  string endMsgId = 2;
+  string startTimestamp = 3;
+  string endTimestamp = 4;
+  bool withFrom = 5;
+  SyncCommand.Type type = 6;
+  string roomId = 7;
+  string roamUserId = 8;
+  string requestId = 9;
+  repeated string viceId = 10;
+}
+
+message FinCommand {
+  oneof cmd {
+    SyncFin syncFin = 1;
+    MsgFin msgFin = 2;
+  }
+}
+
+message SyncFin {
+  string readLastMsgId = 1;
+  string timestamp = 2;
+}
+
+message MsgFin {
+  enum Status {
+    TODO = 0;
+    DOING = 1;
+    DONE = 2;
+  }
+  string readLastMsgId = 1;
+  string timestamp = 2;
+  MsgFin.Status status = 3;
+}
+
+message MsgCommand {
+  enum Type {
+    TEXT = 0;
+    PIC = 1;
+    MULTI_PIC = 2;
+    VIDEO = 3;
+    VOICE = 4;
+    REPOST = 5;
+    EXPRESSION = 6;
+    USER_EXPRESSION = 7;
+    RECALL = 8;
+    PROMPT = 9;
+    USER_CARD = 10;
+    FINGER_GUESS = 11;
+    ROLL_DICE = 12;
+    CUSTOM = 13;
+    SOULMATE_CARD = 14;
+    FOLLOW_TOAST = 15;
+    SHAREBG_INVITATION = 16;
+    SENSITIVE_WORD = 17;
+    INPUTSTART = 18;
+    INPUTEND = 19;
+    READALL = 20;
+    READ = 21;
+    SNAPCHAT = 22;
+    MATCH_CARD = 23;
+    EXT_CMD = 24;
+    VOICE_CHAT = 25;
+    REPORT = 26;
+    TAG = 27;
+    POST = 28;
+    POSITION = 29;
+    MUSIC = 30;
+    COMMON = 32;
+    UNREADCOUNT = 33;
+    GAME = 34;
+    MEDIACALL = 35;
+    STATISTICS = 36;
+  }
+  MsgCommand.Type type = 1;
+  string from = 2;
+  string to = 3;
+  int64 timestamp = 4;
+  int32 snapChat = 19;
+  string notice = 24;
+  map<string, string> extMap = 30;
+  oneof msg {
+    TextMsg textMsg = 6;
+    PicMessage picMessage = 7;
+    PicMessages PicMessages = 8;
+    VideoMessage videoMessage = 9;
+    VoiceMessage voiceMessage = 10;
+    RepostMessge repostMessge = 11;
+    ExpressionMessage expressionMessage = 12;
+    UserExpressionMessage userExpressionMessage = 13;
+    UserCardMessage userCardMessage = 14;
+    FingerGuessMessage fingerGuessMessage = 15;
+    RollDiceMessage rollDiceMessage = 16;
+    SoulmateCardMessage soulmateCardMessage = 17;
+    SensitiveWordMessage sensitiveWordMessage = 18;
+    SnapChatMessage snapChatMessage = 20;
+    ExtChatMessage extChatMessage = 21;
+    VoiceChatMessage voiceChatMessage = 22;
+    ShareTagMessage shareTagMessage = 23;
+    PositionMessage positionMessage = 25;
+    MusicMessage musicMessage = 26;
+    CommonMessage commonMessage = 28;
+    UnReadCountMessage unReadCountMessage = 29;
+    GameMessage gameMessage = 31;
+    CallMessage CallMessage = 32;
+    StatMessage statMessage = 33;
+  }
+}
+
+message GroupCommand {
+  enum OfflinePush {
+    PushAndMark = 0;
+    PushNoneMark = 1;
+    NonePushMark = 2;
+  }
+  int32 type = 1;
+  bool savedb = 2;
+  string text = 3;
+  string userId = 4;
+  map<string, string> dataMap = 5;
+  map<string, string> userInfoMap = 6;
+  string groupId = 7;
+  int64 timestamp = 8;
+  repeated string toUids = 9;
+  GroupCommand.OfflinePush offlinePush = 10;
+}
+
+message ChatRoomCommand {
+  enum Type {
+    MSG = 0;
+    ORDER = 1;
+    NOTIFY = 2;
+    PING = 3;
+    ROOMINFO = 4;
+  }
+  ChatRoomCommand.Type type = 1;
+  string roomId = 2;
+  string userId = 3;
+  int64 timestamp = 4;
+  string avatar = 8;
+  string bgColor = 9;
+  string nickName = 10;
+  map<string, string> roomMap = 11;
+  oneof room {
+    ChatRoomMsg chatRoomMsg = 5;
+    ChatRoomOrder chatRoomOrder = 6;
+    ChatRoomNofity chatRoomNofity = 7;
+  }
+}
+
+message MapCommand {
+  string type = 1;
+  map<string, string> contentMap = 2;
+}
+
+message RoamCommand {
+  string requestId = 1;
+  repeated CommandMessage commandMessage = 2;
+}
+
+message ChatRoomMsg {
+  enum Type {
+    TEXT = 0;
+    PIC = 1;
+    COMMON = 2;
+  }
+  ChatRoomMsg.Type type = 4;
+  string notice = 5;
+  oneof msg {
+    TextMsg textMsg = 1;
+    PicMessage picMessage = 2;
+    CommonMessage commonMessage = 3;
+  }
+}
+
+message ChatRoomOrder {
+  int32 orderType = 1;
+}
+
+message ChatRoomNofity {
+  enum Type {
+    ALL = 0;
+    OTHERS = 1;
+    ROOMOWNER = 2;
+    APPOINTED = 3;
+  }
+  ChatRoomNofity.Type type = 1;
+  int32 nofityType = 2;
+  string to = 3;
+}
+
+message UnReadCountMessage {
+  int32 unReadCount = 1;
+  int32 type = 2;
+}
+
+message CommonMessage {
+  string messageType = 1;
+  string content = 2;
+}
+
+message TransCommand {
+  string from = 1;
+  string to = 2;
+  int64 timestamp = 3;
+  string messageType = 4;
+  string content = 5;
+}
+
+message PositionMessage {
+  string title = 1;
+  string address = 2;
+  double lng = 3;
+  double lat = 4;
+}
+
+message MusicMessage {
+  string coverUrl = 1;
+  string author = 2;
+  string name = 3;
+  string url = 4;
+  string duration = 5;
+  string platform = 6;
+}
+
+message VoiceChatMessage {
+  string signature = 1;
+  string avatarColor = 2;
+  string avatarName = 3;
+  string channelId = 4;
+  string content = 5;
+  int32 type = 6;
+  int64 firstRequestTimeStamp = 7;
+}
+
+message CallMessage {
+  enum Type {
+    Voice = 0;
+    Video = 1;
+    SwitchVideo = 2;
+    PermitVideo = 3;
+    RefuseVideo = 4;
+    SwitchAudio = 5;
+    PermitAudio = 6;
+    RefuseAudio = 7;
+  }
+  enum CallType {
+    CallUp = 0;
+    Call_No_Res = 1;
+    Call_Reject = 2;
+    Call_Cancel = 3;
+    Call_Busy = 4;
+  }
+  CallMessage.Type type = 1;
+  CallMessage.CallType callType = 2;
+  VoiceChatMessage voiceChatMessage = 4;
+}
+
+message StatMessage {
+  enum Device {
+    Ios = 0;
+    Android = 1;
+  }
+  StatMessage.Device device = 1;
+  string msgId = 2;
+}
+
+message SnapChatMessage {
+  int32 mark = 1;
+}
+
+message SensitiveWordMessage {
+  string content = 1;
+}
+
+message SoulmateCardMessage {
+  int32 status = 1;
+}
+
+message RollDiceMessage {
+  int32 dicePoints = 1;
+}
+
+message FingerGuessMessage {
+  int32 finger = 1;
+}
+
+message UserExpressionMessage {
+  float imageW = 1;
+  float imageH = 2;
+  string imageUrl = 3;
+}
+
+message ExpressionMessage {
+  string info = 1;
+}
+
+message RepostMessge {
+  string info = 1;
+}
+
+message ShareTagMessage {
+  string tagId = 1;
+  string tagName = 2;
+}
+
+message UserCardMessage {
+  string userInfo = 1;
+}
+
+message UserExpression {
+  string url = 1;
+}
+
+message PicMessages {
+  repeated PicMessage picMessages = 1;
+}
+
+message VoiceMessage {
+  string remoteUrl = 1;
+  int32 duration = 2;
+  string word = 3;
+}
+
+message PicMessage {
+  float imageW = 1;
+  float imageH = 2;
+  string imageUrl = 3;
+}
+
+message VideoMessage {
+  string remoteUrl = 1;
+  int32 width = 2;
+  int32 height = 3;
+}
+
+message PushMessage {
+  string title = 1;
+  string text = 2;
+  map<string, string> extMap = 3;
+  string sender = 4;
+  string receiver = 5;
+}
+
+message TextMsg {
+  string text = 1;
+  int32 type = 2;
+}
+
+message ExtChatMessage {
+  string content = 1;
+  int32 type = 2;
+}
+
+message RespCommand {
+  enum Type {
+    SAUTH = 0;
+    MSG = 1;
+    GENERAL = 2;
+    CHATROOM = 3;
+    Group = 4;
+    REPORT = 5;
+  }
+  enum Status {
+    SUCCESS = 0;
+    ERROR = 1;
+  }
+  RespCommand.Type type = 1;
+  RespCommand.Status status = 2;
+  string errorMsg = 3;
+  int64 timestamp = 4;
+  int32 errorCode = 6;
+  oneof resp {
+    SauthParam sauthParam = 5;
+  }
+}
+
+message SauthParam {
+  string key = 1;
+}
+
+message NotifyCommand {
+  enum Type {
+    NORMAL = 0;
+    BLOCK = 1;
+  }
+  string content = 1;
+  NotifyCommand.Type type = 2;
+  string from = 3;
+  string to = 4;
+  int32 messageType = 5;
+  map<string, string> extMap = 6;
+}
+
+enum MessageType {
+  Ping = 0;
+  SAUTH = 1;
+  COMMAND = 2;
+  MESSAGE = 3;
+}
+
+enum ClientType {
+  APP = 0;
+  WEB = 1;
+  PC = 2;
+  PAD = 3;
+  GAME = 4;
+  WEB_SOCKET = 5;
+  QUICKAPP = 6;
+  MICROAPP = 7;
+  WECHAT_MICROAPP = 8;
+}

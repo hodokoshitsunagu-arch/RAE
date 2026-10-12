@@ -1,0 +1,44 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7550001208314059288
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 64266755187951412
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5799402527347861643
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 9128866129884828070
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1616761514772638473
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5048980992324878203
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "VoiceSpeak",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

@@ -1,0 +1,94 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": -7047028671984756104
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 0,
+    "m_PathID": -7802755607570700153
+  },
+  "m_Name": "",
+  "bindDic": {
+    "m_keys": [
+      "votePublicView",
+      "votePublicScrollView",
+      "closeBtn",
+      "titleCampaign",
+      "titleCampaignNum",
+      "titleExile",
+      "titleExileNum",
+      "ExileNode",
+      "CampaignNode",
+      "FanNode",
+      "tabScrollView",
+      "votePublicTabNode",
+      "votePublicBlockPrefab",
+      "votePublicTabPrefab"
+    ],
+    "m_values": [
+      {
+        "m_FileID": 0,
+        "m_PathID": 5946977909541401059
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 8589096978942420065
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -1682224653722528624
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -1612122167251758742
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -1634976758167718231
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 7758022129146384918
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 5160224688150668309
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -1336379485160992295
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -1147859556797532280
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -2650543111195638158
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": -9207505060181931617
+      },
+      {
+        "m_FileID": 0,
+        "m_PathID": 748327406679973874
+      },
+      {
+        "m_FileID": 8,
+        "m_PathID": 6328408320290763141
+      },
+      {
+        "m_FileID": 10,
+        "m_PathID": -5360132983545345300
+      }
+    ]
+  },
+  "animationEventList": [
+    {
+      "m_FileID": 0,
+      "m_PathID": 7337170064722851655
+    }
+  ]
+}

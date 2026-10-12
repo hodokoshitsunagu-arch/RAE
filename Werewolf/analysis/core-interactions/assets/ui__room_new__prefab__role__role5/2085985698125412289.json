@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7159748455421478984
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5675840676686969261
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3248479850017118324
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Arrow",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

@@ -1,0 +1,85 @@
+{
+  "source_apk_sha256": "5870d8ef15292cb7aedd91cd76fdc7c1b20f466cab5ec650692327e31a933373",
+  "assets": [
+    {
+      "source_export": "Werewolf/analysis/core-interactions/assets/backgrounds/mainmenu_UI_scene_BG.png",
+      "demo_asset": "scene.png",
+      "sha256": "70e1377becbe8106ff2152da361d663557be52980c5e6af0968c5f06da70dff3",
+      "source_member": "assets/texture/1/login/mainmenu_ui_scene_bg/mainmenu_ui_scene_bg_atlas.ab",
+      "source_member_sha256": "49fa7c569265543a7aa3c75fd903d1bccb6a77be82811aa63b125380d461ffd5",
+      "path_id": -8976472891709644027,
+      "sprite": "mainmenu_UI_scene_BG",
+      "provenance_file": "Werewolf/analysis/core-interactions/background-provenance.json"
+    },
+    {
+      "source_export": "Werewolf/analysis/core-interactions/assets/texture__1__playerhead/1_room_default_head.png",
+      "demo_asset": "avatar.png",
+      "sha256": "04bd0cbb94bf235ed66a449d4ff32923eaebdf9d947c736c9adcf676b4d5b009",
+      "source_member": "assets/texture/1/playerhead/astc6a_atlas.ab",
+      "source_member_sha256": "bd7b4406af7383cca8db34b8387065ffb21a844ce0b886cea38568881d950cd7",
+      "path_id": -5426260728128128641,
+      "sprite": "1_room_default_head",
+      "provenance_file": "Werewolf/analysis/core-interactions/asset-provenance.json"
+    },
+    {
+      "source_export": "Werewolf/analysis/core-interactions/assets/role-posters/prophet_prophet.png",
+      "demo_asset": "card-seer.png",
+      "sha256": "5b76da7d5985868c53a19bbb6c523dfacf65de3e2cd216619810aed459c0d8ad",
+      "source_member": "assets/animationtimelinescripts/effectandshader/posterdissolve/prophet_atlas.ab",
+      "source_member_sha256": "e76379f9c5fd03431bfe59b8fa6cf2b9ce5e81ec3c91b20a208e45c4a65892a9",
+      "path_id": -8770470320359398315,
+      "sprite": "prophet",
+      "provenance_file": "Werewolf/analysis/core-interactions/role-poster-provenance.json"
+    },
+    {
+      "source_export": "Werewolf/analysis/core-interactions/assets/role-posters/lanren_lanren.png",
+      "demo_asset": "card-wolf.png",
+      "sha256": "1471a0c0f1d5c5486150705b0d6fe27d168602b1105812413627cf58f58a0ee7",
+      "source_member": "assets/animationtimelinescripts/effectandshader/posterdissolve/lanren_atlas.ab",
+      "source_member_sha256": "ccbe392b36b687bf853c4da0df4ce7b43ac592cac7a1132bda42c5139667e86a",
+      "path_id": 7413348560896108082,
+      "sprite": "lanren",
+      "provenance_file": "Werewolf/analysis/core-interactions/role-poster-provenance.json"
+    },
+    {
+      "source_export": "Werewolf/analysis/core-interactions/assets/role-posters/witch_witch.png",
+      "demo_asset": "card-witch.png",
+      "sha256": "4972f33e7848b05bd026598788b2c68769bc6d096f45681498e4893893cbdd69",
+      "source_member": "assets/animationtimelinescripts/effectandshader/posterdissolve/witch_atlas.ab",
+      "source_member_sha256": "69a97c1858e1ec0bd2850c6a14af3404d8833c733a886246f44fe0004360e6c8",
+      "path_id": 495050438874053878,
+      "sprite": "witch",
+      "provenance_file": "Werewolf/analysis/core-interactions/role-poster-provenance.json"
+    },
+    {
+      "source_export": "Werewolf/analysis/core-interactions/assets/role-posters/hunter_hunter.png",
+      "demo_asset": "card-hunter.png",
+      "sha256": "6a541d495dc6c8736217ca0594eeede47f4af74d8b41535d839b6d85d14e31eb",
+      "source_member": "assets/animationtimelinescripts/effectandshader/posterdissolve/hunter_atlas.ab",
+      "source_member_sha256": "ac92d741d7af38e23901c1c64a4187fae732d3b2b9a10445be23f02a453d56f2",
+      "path_id": -3221522939609115280,
+      "sprite": "hunter",
+      "provenance_file": "Werewolf/analysis/core-interactions/role-poster-provenance.json"
+    },
+    {
+      "source_export": "Werewolf/analysis/core-interactions/assets/role-posters/idoit_idoit.png",
+      "demo_asset": "card-idiot.png",
+      "sha256": "67ccfa5dcf4a764b749fb0c6da8490fdccd543cdbae289b99f8b3669bf24647a",
+      "source_member": "assets/animationtimelinescripts/effectandshader/posterdissolve/idoit_atlas.ab",
+      "source_member_sha256": "04583ce58852677da6e6cdd160e345e39fe464463ac514a518bde781299996bd",
+      "path_id": 2263528921724179594,
+      "sprite": "idoit",
+      "provenance_file": "Werewolf/analysis/core-interactions/role-poster-provenance.json"
+    },
+    {
+      "source_export": "Werewolf/analysis/core-interactions/assets/role-posters/villager_villager.png",
+      "demo_asset": "card-villager.png",
+      "sha256": "66638e353f61d9d4203a21c5465aadf7d357e60816e2a8ab0766247a078591a8",
+      "source_member": "assets/animationtimelinescripts/effectandshader/posterdissolve/villager_atlas.ab",
+      "source_member_sha256": "82194fa398fef58f49f6e12dd779d676a142200bb91a2b90dffb42348e3024cd",
+      "path_id": -807984593760186227,
+      "sprite": "villager",
+      "provenance_file": "Werewolf/analysis/core-interactions/role-poster-provenance.json"
+    }
+  ]
+}

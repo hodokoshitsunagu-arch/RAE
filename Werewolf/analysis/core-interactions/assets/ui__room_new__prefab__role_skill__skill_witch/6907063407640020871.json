@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1683210722107112049
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6496117178978682409
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6227907863861972772
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "SS04",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

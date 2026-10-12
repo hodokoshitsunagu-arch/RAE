@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1051900121569762153
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2842669947430395943
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3029479975588676122
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7015553538220954484
+      }
+    }
+  ],
+  "m_Layer": 0,
+  "m_Name": "Txt",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

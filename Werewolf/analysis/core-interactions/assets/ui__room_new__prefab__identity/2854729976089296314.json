@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -6270311771324447650
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6822568618423243869
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6888461358697355652
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 5943110751839478544
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "RoleDeal_title_txt",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

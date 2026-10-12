@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3382897909994909836
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7901875193662906673
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 4443573775759371940
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3663637974843114095
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7728857518932245218
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Role8",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

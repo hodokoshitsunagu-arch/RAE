@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 7294628109719510271
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 8957901372401328120
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 2231426406199211117
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -7990240626565286916
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -1777045164563961741
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "btn_store",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

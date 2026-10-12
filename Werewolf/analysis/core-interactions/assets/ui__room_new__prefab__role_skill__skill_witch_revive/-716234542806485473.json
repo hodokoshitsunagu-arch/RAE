@@ -1,0 +1,32 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3769387897188003083
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6270149261937884871
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -4103796119658811773
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 6623223891054846246
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "playerhead_bg",
+  "m_Tag": 0,
+  "m_IsActive": true
+}

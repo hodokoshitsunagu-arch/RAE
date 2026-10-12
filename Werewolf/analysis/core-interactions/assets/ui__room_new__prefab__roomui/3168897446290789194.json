@@ -1,0 +1,38 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -3408345917153858589
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -308445096453788589
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -2333593267239076365
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 185146725728468702
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -850550310942194291
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "BarrageSwitch",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

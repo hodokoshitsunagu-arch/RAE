@@ -1,0 +1,26 @@
+{
+  "m_Component": [
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 3480980210368076093
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": -548394547431485393
+      }
+    },
+    {
+      "component": {
+        "m_FileID": 0,
+        "m_PathID": 1492610296023511679
+      }
+    }
+  ],
+  "m_Layer": 5,
+  "m_Name": "Night",
+  "m_Tag": 0,
+  "m_IsActive": false
+}

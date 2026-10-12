@@ -1,0 +1,21 @@
+{
+  "dex_member": "classes8.dex",
+  "dex_sha256": "6fc0a5913fcffa8756645582307052846f7115bab72dfd44922b80b0ecebf703",
+  "descriptor_sha256": "cd95dd7266d641b4b641a17997e77c6681e880997aa869b56b08e9cd83148e65",
+  "string_index": 351,
+  "string_data_offset": 3899653,
+  "string_payload_offset": 3899655,
+  "string_payload_end": 3909234,
+  "descriptor_bytes": 9480,
+  "references": [
+    {
+      "class": "Lfp/a;",
+      "method": "<clinit>",
+      "code_offset": 2979360,
+      "pc": 0,
+      "file_offset": 2979376,
+      "kind": "const-string",
+      "index": 351
+    }
+  ]
+}

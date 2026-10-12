@@ -1,0 +1,28 @@
+HTTP/2 200 
+server: Tengine
+content-type: application/vnd.android.package-archive
+content-length: 264160728
+date: Sat, 03 Oct 2026 12:32:14 GMT
+accept-ranges: bytes
+access-control-allow-origin: *
+access-control-expose-headers: X-Log, X-Reqid
+access-control-max-age: 2592000
+cache-control: public, max-age=31536000
+content-disposition: attachment; filename="xiya-latest.apk"; filename*=utf-8''xiya-latest.apk
+content-md5: C5G9m0B5lXM5sk3eBZ/Bmw==
+content-transfer-encoding: binary
+etag: "ntbrTMYRSlnC0RqLMgC9j89JeC24"
+last-modified: Tue, 29 Sep 2026 09:06:53 GMT
+x-reqid: ju0AAADi0b_2BNsY
+x-svr: IO
+x-qiniu-zone: 2
+x-log: X-Log
+via: cache10.l2jp1[0,0,206-0,H], cache2.l2jp1[0,0], cache17.jp6[3,3,200-0,M], cache2.jp6[4,0]
+age: 762743
+ali-swift-global-savetime: 1791030734
+x-cache: MISS TCP_MISS dirn:-2:-2 mlen:104857600
+x-swift-savetime: Mon, 12 Oct 2026 08:24:37 GMT
+x-swift-cachetime: 30341257
+timing-allow-origin: *
+eagleid: 80019d9617917934767714162e
+
