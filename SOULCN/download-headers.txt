@@ -1,0 +1,14 @@
+HTTP/2 200 
+last-modified: Mon, 28 Sep 2026 09:52:56 GMT
+etag: "0e4d341a5e6ef514fd9b58ab84016456-2"
+content-type: application/vnd.android.package-archive
+content-length: 166856887
+accept-ranges: bytes
+x-nws-log-uuid: 8443649694831935189
+server: Lego Server
+date: Thu, 15 Oct 2026 09:08:34 GMT
+x-cache-lookup: Cache Hit
+access-control-allow-origin: *
+cache-control: max-age=31536000
+x-cache: hit
+

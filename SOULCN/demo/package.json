@@ -1,0 +1,1 @@
+{"name":"soulcn-party-flow-reconstruction","private":true,"type":"module","scripts":{"test":"node --test model.test.mjs","serve":"python3 -m http.server 6390 --bind 127.0.0.1 --directory .."}}

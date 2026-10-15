@@ -1,0 +1,52 @@
+[
+  {
+    "page_id": "soul_rn_room_status_setting",
+    "version": "4.60.72",
+    "source_url_from_apk": "https://soul-bundles.soulapp.cn/rn_sources/prod/srn-prod-new/android_soul_rn_room_status_setting_4.60.72.zip",
+    "archive_size": 10191,
+    "archive_sha256": "10641a9364bc90d67cc917ca0a5d11f3a722bca6885767fcdecc1ea698b6efa7",
+    "archive_md5": "06dfa378829f6b3436a91038147a2b55",
+    "apk_config_dm5": "b44ded96205576b3d6ba504d62d0de6e",
+    "digest_scope": "bundle member; not the ZIP carrier",
+    "members": [
+      {
+        "name": "soul_rn_room_status_setting.bundle",
+        "bytes": 33407,
+        "sha256": "8d3b46e40ca19cb2581df36ddce98d9336d19c65631cd8ad7597e130c6e68629",
+        "md5": "b44ded96205576b3d6ba504d62d0de6e",
+        "matches_apk_config_dm5": true
+      },
+      {
+        "name": "version2",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "md5": "d41d8cd98f00b204e9800998ecf8427e"
+      }
+    ]
+  },
+  {
+    "page_id": "soul_rn_club_party",
+    "version": "4.82.21",
+    "source_url_from_apk": "https://soul-bundles.soulapp.cn/rn_sources/prod/srn-prod-new/android_soul_rn_club_party_4.82.21.zip",
+    "archive_size": 1893033,
+    "archive_sha256": "dcb9046e8b4c1ab39442467f92b16d40c1f3b4389a8463874af7edf75c37b311",
+    "archive_md5": "c22ede19fe04b91abbb20cb5afa4be88",
+    "apk_config_dm5": "c09585c33e2bea6db5d305a14f38c189",
+    "digest_scope": "bundle member; not the ZIP carrier",
+    "members": [
+      {
+        "name": "soul_rn_club_party.bundle",
+        "bytes": 2322610,
+        "sha256": "8f9e3ca0d58abab0ce8761c1737af9e43d9d3971740540be584d603248b83a78",
+        "md5": "c09585c33e2bea6db5d305a14f38c189",
+        "matches_apk_config_dm5": true
+      },
+      {
+        "name": "version2",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "md5": "d41d8cd98f00b204e9800998ecf8427e"
+      }
+    ]
+  }
+]

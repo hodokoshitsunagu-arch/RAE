@@ -1,0 +1,1330 @@
+{
+  "hash_scope": "Generated derivative files, not original source; source APK identity is separately recorded",
+  "files": [
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/ui/CreateChatRoomRouter.java",
+      "bytes": 126336,
+      "sha256": "a591750257db854c6cefdd5a6d4e15e80aa48de2f6e4a9b045cbc5e77c797bac"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/ui/chatroom/RoomMode.java",
+      "bytes": 2700,
+      "sha256": "808b906239aa05e4af6545d5caaac170a7ba4053f39630b4fa23377c54f862f7"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/createroom/CreateChatRoomNewActivity.java",
+      "bytes": 174659,
+      "sha256": "f8b0a679f97b9b4cfc41eb61dbc467c6b687484ef6cb9d3fc2381241ce1e02c7"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/createroom/CreateRoomPageCommonFragment.java",
+      "bytes": 5249,
+      "sha256": "cfd6e972d2288fa1a0e93cf401a474918963ad5b87e9cc39c1271f80d286edd1"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/createroom/ui/ICreateRoomInfoListener.java",
+      "bytes": 1157,
+      "sha256": "f2ee7a483358b4e0f4e3baf622acd5dc6caf4d3633d8d18cb9e9de996b9b04a8"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/createroom/ui/VerticalBannerView.java",
+      "bytes": 21198,
+      "sha256": "346518581b5c85f2514860c18cbd4a310e4659a0427db71305913052a94a7c76"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/createroom/ui/CreateRoomPageRoomInfoView.java",
+      "bytes": 42584,
+      "sha256": "af4c21ead2032167ce32139da3f253f0b01a3ebec981671192a910b7447a0070"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/createroom/ui/LeftTextRightIconCommonView.java",
+      "bytes": 5468,
+      "sha256": "8a23652708cc89821775d8b063c7d6be388a59ea5e44c7ffd9e022a7255fd206"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/createroom/adapter/CreateRoomPagerAdapter.java",
+      "bytes": 3886,
+      "sha256": "d821af92a422e7c2681527b572d9be826622932e219421fa664bbf93aea4240c"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/createroom/helper/TabEnum.java",
+      "bytes": 3727,
+      "sha256": "e77b6c0424eeb5c20e884fbcad3160160e34298347af2538d9f078cf14db0c99"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/widget/CreateChatRoomTopicView.java",
+      "bytes": 4806,
+      "sha256": "a98c5d99b4b515f091e5db2fecf6a63b51cb9c658042ff0cd8de6bafd3348ab8"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/util/e.java",
+      "bytes": 55226,
+      "sha256": "32d86d0ad5880d9c37ae40f33f4d6d9a16dad3b6091db5f515aa332ae6e4f8db"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/bean/RoomCreateCallbackState.java",
+      "bytes": 2410,
+      "sha256": "4ae89349cb41cf80f7cf1d6ba2a1a12e10b214f236ab1a8db2f9b169aa4ec84e"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/bean/ChildPlaySetups.java",
+      "bytes": 6312,
+      "sha256": "051b8ab08182e6ce6f2dc4d06efa3eed8fc0fc0083b47dc00fa3447b9e275983"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/bean/RoomCreateParams.java",
+      "bytes": 6026,
+      "sha256": "ca77355ff3c99a444f6b79cf0c26c22096948d89d7281481a0b3fcb384f7661f"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/bean/PlayFunctionTypeBean.java",
+      "bytes": 7321,
+      "sha256": "8831195490875ef83e8c30efed5c9d17285a2992cea1e9db073e09313aea9858"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/bean/RoomModeInfo.java",
+      "bytes": 6731,
+      "sha256": "3ea5926c5a3b000b2d03b8664ddfb72f832147bb684eb41c6126a8087648151d"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/bean/RoomBean.java",
+      "bytes": 8927,
+      "sha256": "afec16c6f95dff256021164b1c79ff52fc9424ce2a360bc77bccf769bdc529c2"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/bean/SideslipRoomModel.java",
+      "bytes": 2656,
+      "sha256": "0a3c455149b6e5e68157f6cf7833b05954f481c3ec4e9d82a172338df20d2927"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/bean/GroupConfigLimitModel.java",
+      "bytes": 1442,
+      "sha256": "2fe53b1c816a79153d5e874f1f84f403f3484bbd7f33a7e5aeecd28691d8a8b0"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/bean/PlayFunctionBean.java",
+      "bytes": 27909,
+      "sha256": "f22def0ebb52c22f4b710c8e0e246606ed48a8fa0974e34a0401d66eef928abb"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/bean/FunctionBean.java",
+      "bytes": 14796,
+      "sha256": "529fe085a231cc3c17b9903e241486703fc4e67561111c8ca03c7d683aacd930"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/rn/createroom/c.java",
+      "bytes": 19549,
+      "sha256": "87b673926541c16cf365c8ba7f88644a751bae342e6aedfdcded32a0191767d4"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/rn/createroom/VideoLiveCreateRoomDelegate.java",
+      "bytes": 205546,
+      "sha256": "586e076a35f86aa0a92ca2e08c74883ac1cf0246f88d3fa6a5470bed3b22f135"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/rn/createroom/CreateRoomRtcEventSender.java",
+      "bytes": 9309,
+      "sha256": "5eaaa4d8faf92668d456db9a15727d4499010f3b9eeda63e684f0cc15941cbc0"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/adapter/CreateChatRoomTopicAdapter.java",
+      "bytes": 3047,
+      "sha256": "461758eb990a5d6cfc0ecff25a3578038a5bf906fa7367bd13214396733ecb32"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/adapter/CreateChatRoomPlayTypeAdapter.java",
+      "bytes": 4533,
+      "sha256": "f40d5ffbcf7a72fec5b3783820bba8f6193371ae01a72a91355e378f22cc0313"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/adapter/RecentPlayFunctionAdapter.java",
+      "bytes": 6390,
+      "sha256": "239db7c0d8f4a5014c62c85c92e2bb325fcffa2dd9eb7513d83491edc2c3eac2"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/adapter/PlayFunctionTypeAdapter.java",
+      "bytes": 2538,
+      "sha256": "260c20fc6f715797e6b4ee91a7b3a1ab94222ff03e770ec71b2f77031879c834"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/adapter/CreateChatRoomClassifyAdapter.java",
+      "bytes": 3602,
+      "sha256": "6c36939f4f9fd99acc54b119cdd7ff6329d4d5def297705399829b2ed632e95f"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/adapter/PlayFunctionAdapter.java",
+      "bytes": 12826,
+      "sha256": "8920029f62cbff734b0c8e96719408c07221c31f2be8b1c964e9067fcf1bbcb5"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/b.java",
+      "bytes": 1144,
+      "sha256": "ba12e6914525230d5489d2b652727ce10cdf9e842a5762defabe290865cc7958"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/AuctionRoomFunction.java",
+      "bytes": 9252,
+      "sha256": "2ffae9b27d5cdb9650857aeb1f4fea8ccbf45b52112c05a32cf63233f5664720"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/w.java",
+      "bytes": 3653,
+      "sha256": "eeee92da55fcdf50051743b9c2044f77e8aa71094d77c633b108e5231e17a02a"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/c0.java",
+      "bytes": 1140,
+      "sha256": "d25f9ac7c54b8707fcda8b06890965ed3e3eada4380d5d0eacd676cdd894af1d"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/n.java",
+      "bytes": 1138,
+      "sha256": "c52419d58204aa6b96dfbf660e65a12b9a7e9fed2c9e9ebe2dea68cd6240d102"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/RoomFunctionDialogHelper.java",
+      "bytes": 31954,
+      "sha256": "6b6962b55a549de22222a490509ce28b953709731617af289748f0393790e550"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/g0.java",
+      "bytes": 6151,
+      "sha256": "c91f90777a8eacdb50669004c82635fe5666a2d41edffe6b095a993dca9d68da"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/o.java",
+      "bytes": 1589,
+      "sha256": "3b0f277017c74d0cce1f705e6f2e27fd4e914b8c949c2924189b6be621507304"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/v.java",
+      "bytes": 1132,
+      "sha256": "b744d08399e7d2c3479e33b11f01365f416a2d9b4ffce915947d01f11762d419"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/RoomFunctionSwitchManager.java",
+      "bytes": 129903,
+      "sha256": "eddb7dc27042fc21de56fd0f886b2220d18a19cbb485240710a4cb9f8e87a723"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/e0.java",
+      "bytes": 1141,
+      "sha256": "f5523dc9efc1efb698f99de4f90157c0c889fe134d384d742773906c4c373c74"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/AuctionPkRoomFunction.java",
+      "bytes": 11598,
+      "sha256": "350ac14e58ba6a11d6c1866197b0746df1ba10b12bb38c74b33bd21f5bf2e5da"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/c.java",
+      "bytes": 3138,
+      "sha256": "187d35946eca28c84a4b05ae44efdec429edc1d0de4f0d45f44cc4ca27531555"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/h.java",
+      "bytes": 1138,
+      "sha256": "223e76b948412c6065a8c9b69fe8a7e01237a970b7bb8cfc3a1cc8f8544b6386"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/b0.java",
+      "bytes": 78102,
+      "sha256": "31d4e7831f30b687449557f8a650111637b0e8d9bc757b7faf8afa2d5e62f506"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/d.java",
+      "bytes": 1137,
+      "sha256": "a0448c5bd8eaa022b116c0beefb8768caeadbab72aea71ca806d9e7f3bd6eebd"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/BaseRoomFunction.java",
+      "bytes": 15434,
+      "sha256": "d4dbbebefd950ff3af8c8cb60c999208e090980a3e4a22556ee4597f3419721d"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/q.java",
+      "bytes": 1133,
+      "sha256": "c9b95ac4077423d03a8545a74555784882c3f396a4bc3e7dff9e37727601857a"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/p.java",
+      "bytes": 4100,
+      "sha256": "5eefc64aaefafd49409253613b10e907dc2741e72ee48be48f4e075073890056"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/d0.java",
+      "bytes": 1601,
+      "sha256": "cdcd2c350688efc778b97e8bea7a6926c7dd4eb12f43338aa662fca293b60c90"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/e.java",
+      "bytes": 1146,
+      "sha256": "e2f8c920043996311c77bcb515bc7108f93e692adb8e04a2abc9f4209774eca9"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/f0.java",
+      "bytes": 3118,
+      "sha256": "9aca5b9ca2ad76468cc94caa2c791b777877bfc76626a50768b83b5e6e3e08b9"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/i.java",
+      "bytes": 1137,
+      "sha256": "6e111e68c0d85a95d8a4266f5845a551e7f1bd8033fcbc5ba42154769426944b"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/j0.java",
+      "bytes": 4873,
+      "sha256": "cceaffa95b65c7b6f306388a64cb844be29c536bb0c6c389b15559824794e06e"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/HeartBeatRoomFunction.java",
+      "bytes": 6902,
+      "sha256": "42386c75dcb7d7808edf2d4341d77719454ba9bc62d5ba8209f3d0ffa5581108"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/j.java",
+      "bytes": 1143,
+      "sha256": "778bc8c6f72a72a12a3eeb1dc7c57bc740b521bbce5a2628e05b4e1ab47680b3"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/s.java",
+      "bytes": 4367,
+      "sha256": "296e344a45793fe67be979edf7279d0e18848de8b43fc9a8ff533571d9eb3578"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/KTVRoomFunction.java",
+      "bytes": 6242,
+      "sha256": "f16c096e81cb50090a0163ee0bb4bba560c086fba72b8f9bd376024406429c0c"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/PvpRoomFunction.java",
+      "bytes": 5899,
+      "sha256": "6b4cb480e644fd173c55626a7cf58fe35f31490e35a89b7b539b27de0beabec8"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/f.java",
+      "bytes": 4346,
+      "sha256": "de5834b4d2523d9229bc89516cb2a67a54e88f1127a29a6d3860dc45370341c3"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/h0.java",
+      "bytes": 1331,
+      "sha256": "6dc6a8c9dab63f863cb1fb064706aea886fd7d99bbbf8fc7e6acefd40c6057d2"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/g.java",
+      "bytes": 4542,
+      "sha256": "ce501e48d3283ac3208b51625b522f73bd2f4edb2842ab7457a86ba9ebd54f94"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/l0.java",
+      "bytes": 1139,
+      "sha256": "a516a9bcf192bf30f918e8fdbe76df0edb73b19bc903c28c96470079ccd21cfe"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/r.java",
+      "bytes": 1135,
+      "sha256": "adc58915156475a0ef1b66eaf2aa70a4cabf005dd505e083b8fbb55199706946"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/k.java",
+      "bytes": 1335,
+      "sha256": "6ac07c46b1cb6edd4816ad44997d99237ee3ae19de23231495bc6fe6f198812f"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/n0.java",
+      "bytes": 4396,
+      "sha256": "217a218e02b53f8872fb2fc9259c51232f77f8333938f07821c23a400ebc496c"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/u.java",
+      "bytes": 1140,
+      "sha256": "6e5883e755ef306cdfcf4743c72f21c8ca519abb6d9cd851d1d8b9423a76fad3"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/i0.java",
+      "bytes": 1142,
+      "sha256": "9bea997e998a1bb8af6cb4279ff35383dd1198d0f4a72944c680b0247ab6322b"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/k0.java",
+      "bytes": 1904,
+      "sha256": "c57ef1d3d0ac6ac4c9e9837435cb82e2771e406175b28593e976ee28a62e9341"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/l.java",
+      "bytes": 4331,
+      "sha256": "5337700e59bedf90c7af6f99449315e66df28c8e16269a746a965ab20fdc51e5"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/PkRoomFunction.java",
+      "bytes": 5208,
+      "sha256": "18d11eb839383d8088d96e6cb30a11a286d2a1a46c9fe3bc4f755190c7bc259f"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/m.java",
+      "bytes": 4304,
+      "sha256": "7c1652781cc9cbb0974525d7f11a140943c6391afd8f73fbeaa70ca75df6f21e"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/TurtleSoupRoomFunction.java",
+      "bytes": 5168,
+      "sha256": "9a8fc4ba486f1a145345ae8fbce3c2d545972c6f40f98acd80fdf2322950ed8a"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/m0.java",
+      "bytes": 4375,
+      "sha256": "d3fe71a5b10ce3cceadc6cac66c9337d1757add4a51319e78985ad675f415a18"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/a.java",
+      "bytes": 1140,
+      "sha256": "6a46f919c3f2dcacff7cec84a56a1faf6772397ceb75f2e8dc6532b5dd52692c"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/function/t.java",
+      "bytes": 3121,
+      "sha256": "ffb4530e0a858323a294ded64969f3ebbff7a08fef07c2624ad06221f4c28e10"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/dialog/PartyPlayTypeDialog.java",
+      "bytes": 17670,
+      "sha256": "3d4d7d98b604d5e50c6874ff65e5c623f28eeb473e9c700d0633f91e76657b85"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/dialog/PartyChangeBgDialog.java",
+      "bytes": 9576,
+      "sha256": "e99d69d81e8a04a78e0127781efdaf3346d9fdf1015b13c69e6327a9685cd3d8"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/dialog/RoomPlayFunctionDialog.java",
+      "bytes": 44571,
+      "sha256": "f5af0137f3e6ba78a6f9c660f1dec88a1879689320dd897cd3a8a92c311c1e12"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/api/IRoomPlayApi.java",
+      "bytes": 40439,
+      "sha256": "0bf8c3e7483752f847520d0e99a94976c2ff14684986eccc781698d94f6d0e24"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/api/ISoulHouse.java",
+      "bytes": 297517,
+      "sha256": "28abc4808fc10cd17dc7d86fba0537172fafc51036cd7363a18d92702dce4b61"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/databinding/CVpPartyPlayTypeDialogItemBinding.java",
+      "bytes": 3326,
+      "sha256": "606d10b5b5559e83e52715edf01f4a482ca4b4f446c833f1c81a4294de123f15"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/databinding/CVpItemPlayFunctionBinding.java",
+      "bytes": 6112,
+      "sha256": "e3deeb6e76bd4dd93a0652cad903e8afb7acf07e38c8916eec0b355f563517aa"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/databinding/CVpViewCreateChatRoomTopicBinding.java",
+      "bytes": 4051,
+      "sha256": "87a10ebcd033b4546c46a33923a805a01b6e77df6414d3b8f9830c9e52ac17c8"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/databinding/CVpItemPlayFunctionTypeBinding.java",
+      "bytes": 3489,
+      "sha256": "da1054ec4b1271917cd18477c094e953faea01ba2178a203efac4d25b131ded0"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/databinding/CVpDialogRoomPlayFunctionBinding.java",
+      "bytes": 9414,
+      "sha256": "21c48786bbbc16a31177893ce8836b92fb2851e3c53d60dbbdc88620b58753d5"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/databinding/CVpActivityCreateChatRoomLayoutOldBinding.java",
+      "bytes": 16231,
+      "sha256": "80c8c8bf0fb6666f8497d063a297599b8e616905c458489b8206fc319885a5f6"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/databinding/CVpItemRecentPlayFunctionBinding.java",
+      "bytes": 4941,
+      "sha256": "4371da98fece1d3921a6b7f478088caa7c7f75edffeb40be753dc2d61fcef66a"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/databinding/CVpPartyChangeBgDialogBinding.java",
+      "bytes": 4291,
+      "sha256": "5a8cf5a00a5c0ca066d658168cdcb585f038819f9c7e6b8b4647885735d4f1cf"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/databinding/CVpDialogSoulHousePartyTypeBinding.java",
+      "bytes": 4951,
+      "sha256": "0a1979efaaf1f404dbc1dfef1c55710a51c18a130f6c3bccd731de2a044e5fe0"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/databinding/CVpPartyPlayTypeDialogBinding.java",
+      "bytes": 4350,
+      "sha256": "99e11635aa75411388721c09d653bd4b47e46ddd0d3290e533a90e122855955a"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/databinding/CVpActivityCreateChatRoomNewLayoutBinding.java",
+      "bytes": 10230,
+      "sha256": "ea2b0c829f723f733621f0e9bce0239a325d28a37793f9162a96364e991030c5"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/databinding/CVpItemCreateChatRoomTopicBinding.java",
+      "bytes": 4321,
+      "sha256": "961e9b9a99d79cf0c54839f4e24eab05dba60c3d3416bcdf6188551dd1e10367"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/databinding/CVpDialogRoomMoreFunctionBinding.java",
+      "bytes": 6841,
+      "sha256": "600592b17bb7a981a8efc1874e74270a62659951f3a1de1a51ea8339076046ee"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/databinding/CVpDialogRoomPlayFunctionSecBinding.java",
+      "bytes": 4963,
+      "sha256": "16e65a4515aaa1e5a37fdd433f0c41b832efa2ed7a0eff3541923615fa9604ba"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/setting/SwitchSettingItemModel.java",
+      "bytes": 4758,
+      "sha256": "9b3100863f3f26bdfbf7a8c8139c86f3d50fb52313c6dcbcff47f39972ae4896"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/setting/FeatureEntranceModel.java",
+      "bytes": 4256,
+      "sha256": "6e2813bfda9a2fe667a5b59a90a6152026529e30d2b3226f97df62a04175b1fc"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/setting/ButtonSettingItemModel.java",
+      "bytes": 5668,
+      "sha256": "ee39efe45f2fbebd7f37e951a13792f69f42e2ae82c5c653032af4ac2148b6c7"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/setting/SwitchSettingItemView.java",
+      "bytes": 6330,
+      "sha256": "88aff4868657064d5ab48004e99a5757373c9adcc05d92499ded0e8dfad345f8"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/setting/NormalSettingItemView.java",
+      "bytes": 7791,
+      "sha256": "6545c2b7406b300c63a28661896aeef840818bb7388c067ba8fd88770f1c4bd6"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/setting/ButtonSettingItemView.java",
+      "bytes": 5642,
+      "sha256": "be7024c9cbf0a01e946ad685b80f5e7210851706415fb9a121360d415b646419"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/setting/PartySettingContainerDialog.java",
+      "bytes": 29774,
+      "sha256": "98ad561a327f99c3c6bf6ae941e2c8ba6ecbfa565b80cbbbdb872094f8974b0c"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/setting/FeatureEntranceView.java",
+      "bytes": 5463,
+      "sha256": "5ae32342eb535033e29f97c3b0505d969751e4fb41a19103faf6e29abd6cf95f"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/setting/NormalSettingItemModel.java",
+      "bytes": 7025,
+      "sha256": "77dbac4ebd7bc0e80d441928b5e3835dc7ad70adf544602e84c0bd9bdd3cec08"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/setting/PartySettingDialog.java",
+      "bytes": 199442,
+      "sha256": "192a3b2805b3a648dd676aeea8e3950b8a8bf5eba66e2ac76e4f2688aa3c514b"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/interceptor/CreateChatRoomInterceptor.java",
+      "bytes": 26754,
+      "sha256": "877040a182b937398c6fe79586c24f81a7d0010857261ca24cb9e51c3de371e0"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/SoulHouseSettingActivity.java",
+      "bytes": 12617,
+      "sha256": "fe0681483e40b36154bc8909f3319f8f41d34ed9bdc8cf1fb027029bbee842c0"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/song/utils/enums/PlayModeEnum.java",
+      "bytes": 2877,
+      "sha256": "ec1c4f2a39eae4707a8e605f7a4c37038fe93d1aec90d0d5a10dfdf2f58f50d9"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/playmode/b.java",
+      "bytes": 3385,
+      "sha256": "30f5feb7e1eef3555d548d653b8560a78dc35a42d50589c66470e79c0a3f9b35"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/playmode/IPlayModeHandler.java",
+      "bytes": 1516,
+      "sha256": "073a8fe1446fdc28d3465e23b6cdba1f338e8f8b170a91d516a7cf2666be5ac5"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/playmode/ModeConflictConfiguration.java",
+      "bytes": 54703,
+      "sha256": "a9e64579e71c3b9b35cbd35ce41909241c3b9c858a19c4401c24cc3ce5649470"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/playmode/c.java",
+      "bytes": 3456,
+      "sha256": "9bc6abc3a9e3622acf8d0b8983dc815da8803c88200470cde332a34b396d7e08"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/playmode/h.java",
+      "bytes": 20089,
+      "sha256": "b0a710afb7232af5f7647128ae0db25e6e10951fb6f9ddaff81b9ccaaade724b"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/playmode/d.java",
+      "bytes": 5379,
+      "sha256": "a971530d3deabc28366949a05abed050cee325657bea3ac2f80cc23bc9da95b0"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/playmode/e.java",
+      "bytes": 5127,
+      "sha256": "29f5ed5f8e95150bc15dd3944052bf5eab2fc66bff8185e91e20826c21a94272"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/playmode/i.java",
+      "bytes": 3327,
+      "sha256": "1a01491ca5c6fb3214659d2c61489dab35b10ca4020df6a9451c03c3590c6d80"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/playmode/ModeConflictConfigurationV2.java",
+      "bytes": 41520,
+      "sha256": "be92d8f9dbf2343df0be9f0da71e2b1b061b27073c614828e9aab538cf0fe1ed"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/playmode/j.java",
+      "bytes": 4947,
+      "sha256": "194c0cd7eff884abb89e5ae714962afa3deddbee643d90d94c94417c115c3410"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/playmode/IModeViewProxy.java",
+      "bytes": 795,
+      "sha256": "22a0e32aa7e88fa14ec34e02ecdb020226a063661fabd595775a06c686bd7169"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/playmode/f.java",
+      "bytes": 3254,
+      "sha256": "518fbec0226597538ba69f695861589ec4fdbd295886956725d650ed47812812"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/playmode/g.java",
+      "bytes": 20811,
+      "sha256": "b64bd9e5124334ac327a86321a057a86f280f4a501ac176f629e931e8dd6b132"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/playmode/PlayMode.java",
+      "bytes": 3969,
+      "sha256": "8f335d5bd50879ef6f5f824f640dfce8fa3d8689ceca7dd9230f048c013c86d5"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/playmode/k.java",
+      "bytes": 3469,
+      "sha256": "5c31ea6601eb4d70e53680c6d7931cd47720d16807c7d570d97a86cf94305e2c"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/playmode/ThrowingThunderProxy.java",
+      "bytes": 23241,
+      "sha256": "acab1028dc1af1d11eadc793f37ff3adc097e8714ece25b90aff9157d840cecb"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/playmode/a.java",
+      "bytes": 3420,
+      "sha256": "b93aa545ed393ec25a97f792806e7f77965072d5eb6ca05649474bf43b8e5faa"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/dialog/RoomMoreFunctionDialog.java",
+      "bytes": 225061,
+      "sha256": "55a7c36d630c6032cc5130710e016c0052b28704b4cb2764593d7f679ceb8747"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/dialog/RoomPlayFunctionSecDialog.java",
+      "bytes": 23687,
+      "sha256": "e11a4a05558370e6578e5b448047f47c27afab1052d64592a345a52985a8a1f9"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/dialog/SoulHouseSelectPartyTypeDialog.java",
+      "bytes": 27494,
+      "sha256": "2021b2bffc723807ed325307535431ff3ccc958dc455b0f89f93f09ce8cb275c"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/common/CommonBusinessBlock.java",
+      "bytes": 148589,
+      "sha256": "109fa04937366bdff1d6682b5c3c6763928468a37bec2bea98f0e507cc6c7ce3"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/common/RoomInfoBlock.java",
+      "bytes": 143570,
+      "sha256": "8cc3a64801eef894e50920071facde6164cca5fdbeb65edef1c7f7feb9b079dd"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/common/FunctionAreaBlock.java",
+      "bytes": 13277,
+      "sha256": "90439a1a006386294d03632ee84db96fc1a8ae347529b890cfe75a9d194bf98d"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/data/RoomConfigListModel.java",
+      "bytes": 26326,
+      "sha256": "298d5d6561d46e193abba1009b3b5376f0e4681bd2d4ac4cdf683fe03b9cd6f2"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/data/TabConfigData.java",
+      "bytes": 7016,
+      "sha256": "daa2397e9f10207622005359de97520e5de9716245c887b943ac11426f961e82"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/data/PlayTypeModel.java",
+      "bytes": 9197,
+      "sha256": "57eb64feb5906880fe6b03234f7aabba372cf339166e9d3617de1633f5b40e65"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/bottom/BottomCommonBlock.java",
+      "bytes": 141968,
+      "sha256": "0eb9cfd8ec0d8f8e81daa1aec1ca05ca65c1903ad7cde7a975f5e24f6b4f1283"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/soulhouse/bottom/BottomGroupBlock.java",
+      "bytes": 3269,
+      "sha256": "625f9407037bcccfd41eeffdac4163a13e768a619d7cf6392d138e93b64c32be"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/mvvm/CreateChatRoomViewModel.java",
+      "bytes": 34136,
+      "sha256": "5fc5881c95241bd70ba6b1605c924a9ad5e8b2b20d2cbdc7a8ab903de3b4e66c"
+    },
+    {
+      "path": "java/cn/soulapp/cpnt_voiceparty/mvvm/GameViewModel.java",
+      "bytes": 49250,
+      "sha256": "d7e0f6ad15479a8dcb8573f1f6b384c11bfa5e91e19e72699ca6ff0aa2805ecb"
+    },
+    {
+      "path": "java/cn/soulapp/android/chatroom/bean/RoomTypeModel.java",
+      "bytes": 376,
+      "sha256": "eec31cab2ccd7a9195e0fe38539cf4b396ce566ba8b86d02ac61555670184a56"
+    },
+    {
+      "path": "java/cn/soulapp/android/chatroom/bean/CreateRoomModel.java",
+      "bytes": 529,
+      "sha256": "1053eb2f282adaa913b85cb70743bdc12d3d9a7971adcea5fcd1a7fe1ea8279b"
+    },
+    {
+      "path": "java/cn/soulapp/android/chatroom/bean/CreateGiftConfig.java",
+      "bytes": 2026,
+      "sha256": "b5a1ab1e98b20c542d9c5f788daf639e591aa641d8e45f852734ebb846ca800f"
+    },
+    {
+      "path": "java/cn/soulapp/android/chatroom/bean/GroupModifyCheckParentModel.java",
+      "bytes": 2848,
+      "sha256": "7dfa357396510e32f2df0d481ef670d24bfd1704dd7efd43ac2ed1d834b50104"
+    },
+    {
+      "path": "java/cn/soulapp/android/chatroom/bean/RoomPlayType.java",
+      "bytes": 7306,
+      "sha256": "7544b71de339a7762ff49a0d34e35c9c9dbd8b34919e467d0182841dcab5c7d7"
+    },
+    {
+      "path": "java/cn/soulapp/android/chatroom/bean/RoomTypeBean.java",
+      "bytes": 715,
+      "sha256": "58e003a2545b8ca6e5ddee2667d2b60962ab18d510316006c51d82be7a34dc5d"
+    },
+    {
+      "path": "java/cn/soulapp/android/chatroom/bean/GroupCreateRoomConfigParamReq.java",
+      "bytes": 491,
+      "sha256": "fc97926597d637d5d7f40e6d414bb0e528dd9825326c9aa99620beb9c49e7def"
+    },
+    {
+      "path": "java/cn/soulapp/android/chatroom/bean/ClassifyGroupCreateSuccessBean.java",
+      "bytes": 1518,
+      "sha256": "1053d31e1cdd1ffe7f9a78760d37a0e6767ad6aee9e8b9615f24b0cc7bfbc3af"
+    },
+    {
+      "path": "java/cn/soulapp/android/chatroom/bean/RoomTypeIconConfigBean.java",
+      "bytes": 3464,
+      "sha256": "8c8ad25cea88f8eb72ef2517f79dc568b0c1802c19b1f9dcbbd15e7a61992034"
+    },
+    {
+      "path": "java/cn/soulapp/android/chatroom/bean/GroupSettingModifyInfo.java",
+      "bytes": 2373,
+      "sha256": "13783bdc3dda337b1f93502cef9d3afb2ae2098dc8a92c8ded438f84ea807776"
+    },
+    {
+      "path": "java/cn/soulapp/android/chatroom/bean/CreateChatRoomPreCheckBean.java",
+      "bytes": 2066,
+      "sha256": "50fbba669d1671572f78c289ce0efc2f8a29c5e1e8fa636aa5a55a6fa6b7ab2a"
+    },
+    {
+      "path": "java/cn/soulapp/android/chatroom/bean/CreateGroupSource.java",
+      "bytes": 5851,
+      "sha256": "86f9c3068974bb3397c8145976479f374bd506548ce702e5576ef72236ccb1aa"
+    },
+    {
+      "path": "java/cn/soulapp/android/chatroom/bean/GroupModifyCheckModel.java",
+      "bytes": 8305,
+      "sha256": "0268c0089aa9b9ef971a364cb2b7ce367d7299d4e9d5edba1e32606f6eceff9a"
+    },
+    {
+      "path": "java/cn/android/lib/soul_entity/PlayTypeModel.java",
+      "bytes": 31776,
+      "sha256": "6fc26739d91153a5598b26b9a6e5501a6b086af3ac8b0544468fdb02f657f701"
+    },
+    {
+      "path": "java/k30/b.java",
+      "bytes": 7278,
+      "sha256": "248733444081158494cd5083fe317077d9656ca806fdf37494e3b58a8d91d70f"
+    },
+    {
+      "path": "java/h30/b.java",
+      "bytes": 3925,
+      "sha256": "ddfc676c7eed3382ff2aa4c43cd2766c984a45fa6f6b2a5479fc92176169803c"
+    },
+    {
+      "path": "java/h30/c.java",
+      "bytes": 24908,
+      "sha256": "e9d242be19f61376a22058f1c31a3f8e228388f2e138377726ab92c412685bdb"
+    },
+    {
+      "path": "java/h30/h.java",
+      "bytes": 2673,
+      "sha256": "2ed2b62cffe14f2acf5059379ac6c6eb651bd9d4dcd1714bd77b932541feb2fb"
+    },
+    {
+      "path": "java/h30/d.java",
+      "bytes": 4513,
+      "sha256": "6954522826f6dbe769ca671041843d1a0f96c94b5a9baa1513d1d658eb52dc03"
+    },
+    {
+      "path": "java/h30/e.java",
+      "bytes": 2458,
+      "sha256": "48ae1075973a56e5f9b79cae51d21f62ee2e2919be07c2ab2f55108c2f0340ae"
+    },
+    {
+      "path": "java/h30/f.java",
+      "bytes": 24289,
+      "sha256": "e2cde5fe80d4e04ee26fe8fd70b9d055936a3dd33dafd1ae70cfd5e241a3ba30"
+    },
+    {
+      "path": "java/h30/g.java",
+      "bytes": 620763,
+      "sha256": "94925dd2823b5346de3788741278d8839427527f9dde1f45ec15a058b706cd73"
+    },
+    {
+      "path": "java/h30/a.java",
+      "bytes": 42444,
+      "sha256": "e646056ca49583ccc8781f36e0b3ead629b03a3bb89d3b043c73b3527703a91c"
+    },
+    {
+      "path": "resources/resource-index.json",
+      "bytes": 97934,
+      "sha256": "2605e3481b859fea56be32350613789c871a5f8526adff43969c4e27491af22f"
+    },
+    {
+      "path": "resources/sha256-manifest.json",
+      "bytes": 18913,
+      "sha256": "633ec5d5a08995ae47e8e77dd96d83a4ab550ad424f82d09a92a606340b71e51"
+    },
+    {
+      "path": "resources/layout-verbatim.txt",
+      "bytes": 82876,
+      "sha256": "c0b19f7e2bd930724263e2f26c506c2df9350fb88f398d8f160c7b3d3b5ad030"
+    },
+    {
+      "path": "resources/style-values.json",
+      "bytes": 4703,
+      "sha256": "8adfc13968546959040b529840a3ff6cfc2b2b67d3f4e06ed13e666f791315ad"
+    },
+    {
+      "path": "resources/RESOURCE-FINDINGS.md",
+      "bytes": 10374,
+      "sha256": "b7d285fff6885a64aa25d244d13df6386d9f161b8b9a83a51fc12a08930be6d5"
+    },
+    {
+      "path": "resources/drawable/drawable-night-xxhdpi/c_ct_groupchat_icon_setting_switch_off.webp",
+      "bytes": 2138,
+      "sha256": "9bf295f3529dd3b42b9a4e0af5c1f595803a5925c94d8da3743ed46c95f17eb8"
+    },
+    {
+      "path": "resources/drawable/drawable-night-xxhdpi/icon_group_create_close.png",
+      "bytes": 757,
+      "sha256": "8b1a18d6636e904494d4671c1ec42a717a9d8b4b52cf85197ec23d05cc910eb7"
+    },
+    {
+      "path": "resources/drawable/drawable-night-xxhdpi/ic_setting_switch_on.webp",
+      "bytes": 860,
+      "sha256": "2ee7a039979df0f5a9599edd8295243e85f21bafc17e18cfc50a461d730d057b"
+    },
+    {
+      "path": "resources/drawable/drawable-night-xxhdpi/icon_message_more_topic.webp",
+      "bytes": 204,
+      "sha256": "263d914ca6677cee2d5bba685159369e384633398b362dc4ca6c331b9362fb46"
+    },
+    {
+      "path": "resources/drawable/drawable-night-xxhdpi/icon_room_random_new.png",
+      "bytes": 1430,
+      "sha256": "6334548c308cee14f9f8398a068037992e51bc073b390dbad83be6bd57b72115"
+    },
+    {
+      "path": "resources/drawable/drawable-night-xxhdpi/icon_back.webp",
+      "bytes": 190,
+      "sha256": "a5bfdc2ce2f50f5cf32f2c4251481c80ab4cf54fdbd6fac9524109ce32392002"
+    },
+    {
+      "path": "resources/drawable/drawable-night-xxhdpi/ic_setting_switch_off.webp",
+      "bytes": 2138,
+      "sha256": "9bf295f3529dd3b42b9a4e0af5c1f595803a5925c94d8da3743ed46c95f17eb8"
+    },
+    {
+      "path": "resources/drawable/drawable/bg_s14_corner_8.xml",
+      "bytes": 198,
+      "sha256": "8a75a14e6c814e5c2e33f3a71065e6dd7408ca7d872b8cddb1741defdabdf415"
+    },
+    {
+      "path": "resources/drawable/drawable/c_vp_s14_lt13.xml",
+      "bytes": 225,
+      "sha256": "d8e1093f25374cfbaf722534767862cdfa6654b1fa42179374970efe1719f1b7"
+    },
+    {
+      "path": "resources/drawable/drawable/c_vp_create_room_page_bg.xml",
+      "bytes": 287,
+      "sha256": "c3098d74fce52a1db5d6051faff50ff44b0df4d0fce8a0aa7bcfdc37be83398c"
+    },
+    {
+      "path": "resources/drawable/drawable/c_vp_create_room_corner_badge_bg.xml",
+      "bytes": 347,
+      "sha256": "54eed6d4c3c1b9b629b6ca19eb193908a17e9627dc8ea430e90a153a63c7387d"
+    },
+    {
+      "path": "resources/drawable/drawable/c_vp_recommend_arrow_selector.xml",
+      "bytes": 289,
+      "sha256": "6a5aaca07dffccd6485513b413213b3de95d9a80a3dbbc62f83cb041705c76d7"
+    },
+    {
+      "path": "resources/drawable/drawable/c_vp_1affffff_lt19.xml",
+      "bytes": 191,
+      "sha256": "0b4729ae8377a86690b8d17d2341b91c3c19b6c76d16f191383351615df92573"
+    },
+    {
+      "path": "resources/drawable/drawable/c_vp_create_room_page_indicator_bg.xml",
+      "bytes": 188,
+      "sha256": "4262e3c62fc3d3484a0d862e7f5c68976f138ec54d1450558346728e5cd26f9d"
+    },
+    {
+      "path": "resources/drawable/drawable/c_vp_13151a_corner_32.xml",
+      "bytes": 347,
+      "sha256": "be5a66831924b6cdd1a3b3f77943ac1b8a343b10178e021f310beab9754e4804"
+    },
+    {
+      "path": "resources/drawable/drawable/c_vp_ffffff_oval.xml",
+      "bytes": 173,
+      "sha256": "7212f1ce62dc626da147dce591c4dcec0dc6f5133885297ae0c3eb12b531ecb9"
+    },
+    {
+      "path": "resources/drawable/drawable/c_vp_ffffff_lt02.xml",
+      "bytes": 193,
+      "sha256": "8c137ecb7311907951b87670f5bf4a5f479019a44ef0925a7fe463e813f8c902"
+    },
+    {
+      "path": "resources/drawable/drawable/c_vp_selector_bg_create_room_btn.xml",
+      "bytes": 366,
+      "sha256": "7cea97ee0a8cdd32b8b2876df5f090f6a260e6c216f29cfc4947922bca5c18d0"
+    },
+    {
+      "path": "resources/drawable/drawable/c_vp_33000000_lt25.xml",
+      "bytes": 191,
+      "sha256": "8d969f3b8565c3722e3be17c9fc4fe9150045cfa089def3bad943777accd2396"
+    },
+    {
+      "path": "resources/drawable/drawable/c_vp_33ffffff_lt08.xml",
+      "bytes": 198,
+      "sha256": "031cb427cd1a7736276d9c15e6ee5cfdc1c6620e503881e85e148922f4b0029c"
+    },
+    {
+      "path": "resources/drawable/drawable/c_vp_0affffff_corner_24.xml",
+      "bytes": 217,
+      "sha256": "c2ce0f7c78547e0a0d2d1fcf8e9777ce0024f8097d7e3157ff9a7def9b3042bc"
+    },
+    {
+      "path": "resources/drawable/drawable/c_vp_bg_highlight_new_badge.xml",
+      "bytes": 214,
+      "sha256": "e1603bb0cbc15e1b323cef9d7fd9e6de198378d895b248e03da6af7619b03d9b"
+    },
+    {
+      "path": "resources/drawable/drawable-xhdpi/icon_back.png",
+      "bytes": 621,
+      "sha256": "979e203862a95341593dc03c8ea958e17842e2a6dcaa757293efe230eaabe44c"
+    },
+    {
+      "path": "resources/drawable/drawable-night-xhdpi/icon_back.png",
+      "bytes": 478,
+      "sha256": "494e5bb4421e43d8a8b2cdb1b9e794a389f87a9ceab4658b21479a7492593781"
+    },
+    {
+      "path": "resources/drawable/drawable-xxhdpi/arrow_right_white.png",
+      "bytes": 230,
+      "sha256": "670a34fe7bf6ca6946f9c6c9bad2e00c184a825f8e1ee33707b0e7c6e20e4828"
+    },
+    {
+      "path": "resources/drawable/drawable-xxhdpi/c_vp_nav_icon_back_white.png",
+      "bytes": 244,
+      "sha256": "49f57faffc93cfc9b9b6d260df9a47b667a635879eb5ab30cbe70f4dd678eaad"
+    },
+    {
+      "path": "resources/drawable/drawable-xxhdpi/c_vp_room_title_close.png",
+      "bytes": 899,
+      "sha256": "f123375f2258732a8f0c6f8d6ebfa3f43fe892710a1f8d70957b1637cf4c8a67"
+    },
+    {
+      "path": "resources/drawable/drawable-xxhdpi/c_ct_groupchat_icon_setting_switch_off.webp",
+      "bytes": 1718,
+      "sha256": "cd5ffa66ec164c90be2f36b6c7aa1e402a9f27e7a86865ff90c70d54d8347280"
+    },
+    {
+      "path": "resources/drawable/drawable-xxhdpi/c_vp_create_room_name_ai_change.webp",
+      "bytes": 1396,
+      "sha256": "669163aa9a067398f5d200429c82839f739675b8e8454e71666a32ee408e46bc"
+    },
+    {
+      "path": "resources/drawable/drawable-xxhdpi/icon_group_create_close.png",
+      "bytes": 738,
+      "sha256": "d5578c4e37fc1ba29c20568bc5a14bfee89690d81fc9b00571e9f70bb3450366"
+    },
+    {
+      "path": "resources/drawable/drawable-xxhdpi/ic_setting_switch_on.webp",
+      "bytes": 3282,
+      "sha256": "74650a7f70afcf95d5eb005681411ed2fd0b4369b8d8b892812377a07f94e913"
+    },
+    {
+      "path": "resources/drawable/drawable-xxhdpi/icon_message_more_topic.webp",
+      "bytes": 200,
+      "sha256": "b33aad2341db5a8e27d803be2471f12c1d5258036f9ada75eb77e17fc599b30f"
+    },
+    {
+      "path": "resources/drawable/drawable-xxhdpi/c_vp_fm_arrow_right.png",
+      "bytes": 380,
+      "sha256": "0fbdf783d4df4185aa6a28a1f3a1b3959476aa716bcc717ab838247e4f36d612"
+    },
+    {
+      "path": "resources/drawable/drawable-xxhdpi/icon_room_random_new.png",
+      "bytes": 1358,
+      "sha256": "8e555245d9d617db443705c7864e9af4507ac8f9e427ac333bfe915f13471fa8"
+    },
+    {
+      "path": "resources/drawable/drawable-xxhdpi/icon_back.webp",
+      "bytes": 206,
+      "sha256": "e7520877441913c32ef7691fb5e93abf44a05ee1d59df35d822110e9c0eb3af5"
+    },
+    {
+      "path": "resources/drawable/drawable-xxhdpi/c_vp_func_type_bg.9.png",
+      "bytes": 916,
+      "sha256": "784bd7b3b4d738e2707d78c164835341942224e99950b8eb967c8aabf4e3437d"
+    },
+    {
+      "path": "resources/drawable/drawable-xxhdpi/c_vp_nav_icon_close_white.webp",
+      "bytes": 176,
+      "sha256": "2eab8a8451c0ca1cc91e18fac6ad78523b401c101afbe0d3cfda676401525b41"
+    },
+    {
+      "path": "resources/drawable/drawable-xxhdpi/c_vp_room_warm.png",
+      "bytes": 1182,
+      "sha256": "1bb353ad47c8b934dd69ae8b0d719c6fbee8cf1c53eca8d248343b4f88a5e25a"
+    },
+    {
+      "path": "resources/drawable/drawable-xxhdpi/ic_setting_switch_off.webp",
+      "bytes": 1718,
+      "sha256": "cd5ffa66ec164c90be2f36b6c7aa1e402a9f27e7a86865ff90c70d54d8347280"
+    },
+    {
+      "path": "resources/drawable/drawable-xxhdpi/c_vp_ktv_audio_record_play.png",
+      "bytes": 272,
+      "sha256": "c90920a23875574e28d79653a1010c1efeea0a61ca6c46df9cf181ef1bd9727f"
+    },
+    {
+      "path": "resources/drawable/drawable-xxhdpi/c_vp_setting_item_go.webp",
+      "bytes": 140,
+      "sha256": "8f14c1007f37b71d64fe8d60f0cc96def3b59d4687214cb800a1cc12bb7c6dde"
+    },
+    {
+      "path": "resources/drawable/drawable-xxhdpi/c_vp_icon_func_open.webp",
+      "bytes": 3424,
+      "sha256": "8952a7382eaa59bb6dff26be05eca14dc774a469dccbf54fe35a69c2beb5024f"
+    },
+    {
+      "path": "resources/drawable/drawable-xxhdpi/c_vp_changebg_icon.webp",
+      "bytes": 888,
+      "sha256": "fdf5e63892f0390fb927d3312338fda6bdda691c5644c76347bb8fdc02526641"
+    },
+    {
+      "path": "resources/drawable/drawable-xxhdpi/c_vp_icon_recent_func_open.webp",
+      "bytes": 3782,
+      "sha256": "39d70556315b360b3c9e6d6dbc1451eef7e0c67adae02a62cb5b3ff6aad70e79"
+    },
+    {
+      "path": "resources/drawable/drawable-hdpi/icon_back.webp",
+      "bytes": 186,
+      "sha256": "4dba96480826223b6c3fc35c66f5db59a1fc1a3f979a07ad15aa5d4601612258"
+    },
+    {
+      "path": "resources/layout/c_vp_create_room_common_fragment_layout.xml",
+      "bytes": 232,
+      "sha256": "8d52858c5759fc916abb28275b90152cb8a0e242d041cf243fe46eb897067d72"
+    },
+    {
+      "path": "resources/layout/c_vp_activity_create_chat_room_layout_old.xml",
+      "bytes": 15631,
+      "sha256": "76eb756ff3741c7e1054320a941fa7dbdcdda2c12c8741b8c4b529efadf2e2d9"
+    },
+    {
+      "path": "resources/layout/c_vp_item_play_function_type.xml",
+      "bytes": 578,
+      "sha256": "1f78c6b43ec758b23b3de75c717a62d243fbff3571ff90165ebfeca2d7755365"
+    },
+    {
+      "path": "resources/layout/c_vp_create_room_tab_indicator_layout.xml",
+      "bytes": 1973,
+      "sha256": "a6f0d0ba73d663f4461fabe81f32e26f9e068795ced29dd8e4916488418dda7b"
+    },
+    {
+      "path": "resources/layout/c_vp_view_switch_setting_item.xml",
+      "bytes": 1590,
+      "sha256": "0fcec63855aea8a1013d8e00e855bbfe5877f95159cae5b5906ef35fa9019191"
+    },
+    {
+      "path": "resources/layout/c_vp_item_recent_play_function.xml",
+      "bytes": 1750,
+      "sha256": "b5b2212b11516460efb54895cd35ced1810173534e77dbfb9f287d0f05c3c6ad"
+    },
+    {
+      "path": "resources/layout/c_vp_party_play_type_dialog.xml",
+      "bytes": 1806,
+      "sha256": "27e8b6d8170e80610cf229cd23fca5e28d0c4487d6b225fbb2b4b7a4be5714c3"
+    },
+    {
+      "path": "resources/layout/c_vp_item_play_function.xml",
+      "bytes": 3559,
+      "sha256": "b4923f1fe8525b7bcb3b3f0601ea020fa505c526d9d34f7e7cfed7d81a2e045d"
+    },
+    {
+      "path": "resources/layout/c_vp_item_create_room_classify_tag.xml",
+      "bytes": 1350,
+      "sha256": "b449a20491008fc3474d365c41f6ff16791ae31d68d45da5c37b426314c4d8c2"
+    },
+    {
+      "path": "resources/layout/c_vp_dialog_room_play_function.xml",
+      "bytes": 6590,
+      "sha256": "e1540e20401796fddc40a0458346498a68ed1b4ca987a156a4ca2fe7305ab849"
+    },
+    {
+      "path": "resources/layout/c_vp_dialog_room_play_function_sec.xml",
+      "bytes": 2043,
+      "sha256": "43598d3f9d9167c704f7ac00943514c42cb45cd46cb20e9ac9cf90187378f1ba"
+    },
+    {
+      "path": "resources/layout/c_vp_dialog_party_setting.xml",
+      "bytes": 9766,
+      "sha256": "34deaef6d5ade5877ef9e3440ea49a95cb489d3caa9163c577e01d2ee6b5479d"
+    },
+    {
+      "path": "resources/layout/c_vp_activity_create_chat_room_new_layout.xml",
+      "bytes": 6496,
+      "sha256": "a2e9da7a01d361b9f5b4b777f0547ad75587eda2663e4a76d4a1fe3ba11cec40"
+    },
+    {
+      "path": "resources/layout/c_vp_view_normal_setting_item.xml",
+      "bytes": 2835,
+      "sha256": "990e23d863d0fd6c8e8277d5cb26a58e2838ccbf065f4eb7dca05516b717de95"
+    },
+    {
+      "path": "resources/layout/c_vp_create_room_page_room_info_layout.xml",
+      "bytes": 10331,
+      "sha256": "0410d0a18af7b17c76dead384e7c90a84e9e92e014df0ba6ab703b2f3ede813c"
+    },
+    {
+      "path": "resources/layout/c_vp_dialog_party_setting_container.xml",
+      "bytes": 285,
+      "sha256": "ae0b15e9efd12edd7bece56fd9e2f0958a60415e9f8e07ae3f7518ca4fca083d"
+    },
+    {
+      "path": "resources/layout/c_vp_party_play_type_dialog_item.xml",
+      "bytes": 501,
+      "sha256": "b1013ac218dc93883f8371f338827245270bd9d995d4c8afdbc18aecfe5cdf02"
+    },
+    {
+      "path": "resources/layout/c_vp_fragment_apply_mic_setting.xml",
+      "bytes": 1670,
+      "sha256": "02261d2e86496c83ab58e4cb185b92fa0fdcd5469f546a55fd50b3e7ca53f4f3"
+    },
+    {
+      "path": "resources/layout/c_vp_create_room_top_area_topic_item_layout.xml",
+      "bytes": 1206,
+      "sha256": "d7126fda2358aa8025dbd31b299783ef9d22091b4cddd92b9340a96dce72d3ac"
+    },
+    {
+      "path": "resources/layout/c_vp_view_button_setting_item.xml",
+      "bytes": 1599,
+      "sha256": "22fb4128a69afba786870b16a61dd61187c405752c1981e4bea81334d82e5dcd"
+    },
+    {
+      "path": "rn/disassembly/10000184.pseudo.js",
+      "bytes": 27827,
+      "sha256": "fb02875f9496906e9715191ae29b1ef89eb82cffe4ffb7ccad35691570662481"
+    },
+    {
+      "path": "rn/disassembly/10000173.pseudo.js",
+      "bytes": 14068,
+      "sha256": "41b49066279a7777c1dd1b5d3deb3e0cfb55a71681c091f26ec52ca30f302e50"
+    },
+    {
+      "path": "rn/disassembly/10000192.hasm",
+      "bytes": 22353,
+      "sha256": "67b70eee7783f4b6359e72a4889e8572a402b8910eb963ef55b358f8ef086596"
+    },
+    {
+      "path": "rn/disassembly/10000184.hasm",
+      "bytes": 77856,
+      "sha256": "49cd81542a12785e8043749e2f4417a139f45f05e9e37ae0c354192b59d2ba99"
+    },
+    {
+      "path": "rn/disassembly/10000096.hasm",
+      "bytes": 37675,
+      "sha256": "014cc0115e9950cd12f3f094a8716adb31b8c85d87a8d181732be0b4cc64a6dc"
+    },
+    {
+      "path": "rn/disassembly/10000002.hasm",
+      "bytes": 21383,
+      "sha256": "524440fdb538e279865fed3e2a91971f5207f15fef1f6b717fbd17db09fbed07"
+    },
+    {
+      "path": "rn/disassembly/10000171.hasm",
+      "bytes": 733279,
+      "sha256": "f19de7d35a03528d2661641d75371a73787978b444fd2e7fc604b0b0efdee363"
+    },
+    {
+      "path": "rn/disassembly/10000188.hasm",
+      "bytes": 137659,
+      "sha256": "c465ed487406f13198666335bd340470f35ea5894fa639aab160ee46dbb0f80c"
+    },
+    {
+      "path": "rn/disassembly/10000188.pseudo.js",
+      "bytes": 64526,
+      "sha256": "11d0228c3263cb705448f19c31cd37ab2987cec8eebc6e006d589d8af5924b34"
+    },
+    {
+      "path": "rn/disassembly/10000183.hasm",
+      "bytes": 32837,
+      "sha256": "dd35f792db6afcdd8cb7414ad1f413240ee4e0b077c66a78800f82d475a515ef"
+    },
+    {
+      "path": "rn/disassembly/10000232.hasm",
+      "bytes": 13447,
+      "sha256": "3a249b488db5bb5a9b8e60c899d089a5bc27f80b6cf9d8d1c13092c27140958f"
+    },
+    {
+      "path": "rn/disassembly/10000321.pseudo.js",
+      "bytes": 3285,
+      "sha256": "736da9dde3619e69498e5bcfcfe659a6a711fea656847beb7e67c7ba8489d0c3"
+    },
+    {
+      "path": "rn/disassembly/10000321.hasm",
+      "bytes": 9655,
+      "sha256": "2b57e7b547df06bf780ba7d63b79f8eafe3878cbf6775f0cb8269572efc284f0"
+    },
+    {
+      "path": "rn/disassembly/10000004.hasm",
+      "bytes": 48877,
+      "sha256": "3867e1f16e9398820963157320a9f2dd7bd1313a6908649d1f14b4ba0e763fbe"
+    },
+    {
+      "path": "rn/disassembly/10000183.pseudo.js",
+      "bytes": 12161,
+      "sha256": "d892a00d4a88e8f4f3787799beab644d649f8b178ccc177ff7d68b27fde00e0c"
+    },
+    {
+      "path": "rn/disassembly/10000096.pseudo.js",
+      "bytes": 14056,
+      "sha256": "de69a3b728618f9d2f16a701a2ce72bdfaa4e78aabdf050712815b7978239bab"
+    },
+    {
+      "path": "rn/disassembly/10000004.pseudo.js",
+      "bytes": 23970,
+      "sha256": "dcebe8122f5d05b2a578bd7190ad2fd5371b911119c18907919109620b65ceea"
+    },
+    {
+      "path": "rn/disassembly/10000232.pseudo.js",
+      "bytes": 4697,
+      "sha256": "971fad9a4535201865cd4a813a2bb82f37514f4df3db753fc039b1c9e7def852"
+    },
+    {
+      "path": "rn/disassembly/10000192.pseudo.js",
+      "bytes": 9483,
+      "sha256": "de6472513a38f6f01d18b73ee432c4febe5bf1efdd5093db37035e5de8727524"
+    },
+    {
+      "path": "rn/disassembly/10000002.pseudo.js",
+      "bytes": 6260,
+      "sha256": "17e3898ac41b56d9b8c6e4cb00f169f7fae5cefc021d417193f3b5694b310ae6"
+    },
+    {
+      "path": "rn/disassembly/10000171.pseudo.js",
+      "bytes": 469654,
+      "sha256": "d23fe6c605b55a77fa50d69edf32f7352488a44d75ce2295d549bb51656728f7"
+    },
+    {
+      "path": "rn/disassembly/10000187.hasm",
+      "bytes": 123621,
+      "sha256": "a7ec090d5ed0c10c11b68ef195fa79efa1c926dc33edfd3c037e3523bf959e47"
+    },
+    {
+      "path": "rn/disassembly/10000187.pseudo.js",
+      "bytes": 65436,
+      "sha256": "ef0f8dd06e1c67710cb0c492f44c7fa84a0bb4d99bf2b1132c538252e06ff13c"
+    },
+    {
+      "path": "rn/disassembly/10000173.hasm",
+      "bytes": 39659,
+      "sha256": "847835e3948b7c2a3c7302a219087404c12f2f1587e4b3147092d3bc9ed66f35"
+    },
+    {
+      "path": "tools/DecompileSelected.java",
+      "bytes": 890,
+      "sha256": "cc7559019ca3dba949fab3c4c50da32041a7135948f10fb45cd899ee23a91b40"
+    },
+    {
+      "path": "tools/split_hermes.py",
+      "bytes": 2169,
+      "sha256": "ad985c7f98ef27d1391c9feb94372240dfed165d2df53fb8db41344887f4ffcf"
+    },
+    {
+      "path": "rn/status-readable.js",
+      "bytes": 41798,
+      "sha256": "6b705a83c35e9249ab4d0337b8edf8f2ad863e6a367ddb943958e607ec6470f8"
+    },
+    {
+      "path": "rn/status-format.json",
+      "bytes": 2540,
+      "sha256": "1369df31c304be036ce5ff558fba418ca1f3a6bfab072807be5d77e2cd07dddc"
+    },
+    {
+      "path": "rn/format-status.py",
+      "bytes": 2117,
+      "sha256": "74c4c6634ed593814451d73849de551e6e7a7435fb7640584d6a2c65ed4fc614"
+    },
+    {
+      "path": "rn/provenance.json",
+      "bytes": 1984,
+      "sha256": "aa7b264cad8fa23aa3de9eb48aef996b5d3f0328ae05f12754915314494eee24"
+    },
+    {
+      "path": "rn/module-index.json",
+      "bytes": 444585,
+      "sha256": "0cc68aace551a1335f97965a990c4b1d9be326636ebaaef2bb11a81832343c0d"
+    },
+    {
+      "path": "mode-catalog.json",
+      "bytes": 8497,
+      "sha256": "affe017b79403778089e84f291d90ec0e2e11aed0bc089117b88071f103e30a1"
+    },
+    {
+      "path": "index_apk.py",
+      "bytes": 2741,
+      "sha256": "99040854259990ae6466f28913822dd4e79ffaa0a966c545db35714e395c9972"
+    }
+  ]
+}

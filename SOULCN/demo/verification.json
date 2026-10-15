@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "unit_tests": {
+    "tests": 20,
+    "pass": 20,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "command": "node --test --test-reporter=tap model.test.mjs",
+    "scope": "offline demo state transitions",
+    "checked_at_utc": "2026-10-15T09:32:06.975982+00:00"
+  },
+  "checked_at_utc": "2026-10-15T09:33:18.355Z",
+  "browser": "155.0.8059.40",
+  "checks": [
+    "Tab ordering, remote game-tab scenario, 15-unit input limit",
+    "RN five-column and Native horizontal mode selection; type selection immediately closes",
+    "RN status picker immediately commits and closes; Escape does not submit",
+    "Creation response failure retains form, retry enters offline room",
+    "Room settings → category picker → cancel/success conflict switching",
+    "Secondary function selection preserves primary mode",
+    "Manager role hides owner-only current-play card",
+    "390px and 320px layouts and dialogs fit viewport",
+    "Report links resolve; reduced-motion media accepted"
+  ],
+  "page_errors": [],
+  "failed_requests": [],
+  "external_requests": [],
+  "original_android_app_executed": false,
+  "live_business_api_called": false,
+  "scope": "Only offline reconstruction browser behavior; does not verify Soul runtime, backend, audio, multiplayer, or pixel equivalence"
+}

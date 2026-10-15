@@ -1,0 +1,70 @@
+{
+  "publication_scope": "Summary only; full canonical Evidence record retained locally and omitted from Git",
+  "full_record_filename": "rea-rn-status.json",
+  "full_record_bytes": 14387603,
+  "full_record_sha256": "6090a40f32dbf6d687be4d109f38f5967a079f54fe503a1fa8cd5952d920cb9f",
+  "evidence_id": "ev_ebe60328f459020dc153ed82b340cec54b894245e01b27d474bb8921ca8ef913",
+  "subject": {
+    "name": "status-js",
+    "digest": {
+      "sha256": "b231d10412bd124493b26024ac9550c56945e47f90af65ee73eef763f3a09a0a"
+    },
+    "format": "directory",
+    "architecture": null,
+    "local_path": "/Users/mark/Projects/REA/SOULCN/analysis/rn/status-js"
+  },
+  "provider": {
+    "id": "rea-javascript-application",
+    "name": "REA JavaScript application analyzer",
+    "version": "1"
+  },
+  "operation": "analyze_javascript_application",
+  "parameters": {
+    "format": "auto",
+    "integrity_policy": "fail"
+  },
+  "confidence": "derived",
+  "authority": "shipped-artifact",
+  "limitations": [
+    "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+    "Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.",
+    "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+    "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+    "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+    "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code."
+  ],
+  "result_summary": {
+    "browser_windows": 0,
+    "explicit_web_preferences": 0,
+    "preload_entrypoints": 0,
+    "context_bridge_apis": 0,
+    "exposed_api_members": 0,
+    "ipc": {
+      "operations": 0,
+      "literal_channels": 0,
+      "dynamic_channel_operations": 0,
+      "renderer_transmissions": 0,
+      "renderer_listeners": 0,
+      "main_handlers": 0,
+      "paired_renderer_transmissions": 0,
+      "ambiguous_renderer_transmissions": 0,
+      "unpaired_literal_renderer_transmissions": 0
+    },
+    "sender_validation_observations": 0,
+    "utility_processes": 0,
+    "resolved_utility_entrypoints": 0,
+    "native_addon_bindings": 0,
+    "resolved_native_addon_bindings": 0
+  },
+  "statistics": {
+    "relevant_files": 1,
+    "nested_asar_containers": 0,
+    "text_bytes_read": 33407,
+    "invalid_utf8_files": 0,
+    "parsed_javascript_files": 1,
+    "visited_ast_nodes": 10515,
+    "findings": 3,
+    "modules": 0,
+    "parse_failures": 0
+  }
+}

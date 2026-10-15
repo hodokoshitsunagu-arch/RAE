@@ -1,0 +1,130 @@
+TAP version 13
+# Subtest: creation validates identity-independent fields, background and classify-7 topic
+ok 1 - creation validates identity-independent fields, background and classify-7 topic
+  ---
+  duration_ms: 0.985667
+  type: 'test'
+  ...
+# Subtest: title and create responses are separate stages; failure never enters room
+ok 2 - title and create responses are separate stages; failure never enters room
+  ---
+  duration_ms: 0.260833
+  type: 'test'
+  ...
+# Subtest: creation respects microphone and other-room conditions
+ok 3 - creation respects microphone and other-room conditions
+  ---
+  duration_ms: 0.114083
+  type: 'test'
+  ...
+# Subtest: remote game tab is explicit; friend privacy resets when changing away from friend mode
+ok 4 - remote game tab is explicit; friend privacy resets when changing away from friend mode
+  ---
+  duration_ms: 0.085375
+  type: 'test'
+  ...
+# Subtest: background cancel preserves committed value; explicit apply submits draft
+ok 5 - background cancel preserves committed value; explicit apply submits draft
+  ---
+  duration_ms: 0.069375
+  type: 'test'
+  ...
+# Subtest: primary conflicts confirm atomically, cancellation preserves current room
+ok 6 - primary conflicts confirm atomically, cancellation preserves current room
+  ---
+  duration_ms: 0.117333
+  type: 'test'
+  ...
+# Subtest: type-2 features coexist with primary and close individually
+ok 7 - type-2 features coexist with primary and close individually
+  ---
+  duration_ms: 0.28125
+  type: 'test'
+  ...
+# Subtest: permission and rejected switch preserve committed mode
+ok 8 - permission and rejected switch preserve committed mode
+  ---
+  duration_ms: 0.078709
+  type: 'test'
+  ...
+# Subtest: leaving clears room and pending transaction; retains form and recent history
+ok 9 - leaving clears room and pending transaction; retains form and recent history
+  ---
+  duration_ms: 0.075833
+  type: 'test'
+  ...
+# Subtest: RN status selection immediately commits and closes; status 3 intentionally does nothing
+ok 10 - RN status selection immediately commits and closes; status 3 intentionally does nothing
+  ---
+  duration_ms: 0.398666
+  type: 'test'
+  ...
+# Subtest: RN close-friend option requires both mode and remote switch
+ok 11 - RN close-friend option requires both mode and remote switch
+  ---
+  duration_ms: 0.077708
+  type: 'test'
+  ...
+# Subtest: specific handlers reject running speed match / thunder and unfinished music market
+ok 12 - specific handlers reject running speed match / thunder and unfinished music market
+  ---
+  duration_ms: 0.180208
+  type: 'test'
+  ...
+# Subtest: changing permission before confirmation prevents commit
+ok 13 - changing permission before confirmation prevents commit
+  ---
+  duration_ms: 0.077792
+  type: 'test'
+  ...
+# Subtest: room status is committed only by room owner, and backdrop cancel does not change it
+ok 14 - room status is committed only by room owner, and backdrop cancel does not change it
+  ---
+  duration_ms: 0.062792
+  type: 'test'
+  ...
+# Subtest: switching Native / RN branch preserves caller-selected mode and form
+ok 15 - switching Native / RN branch preserves caller-selected mode and form
+  ---
+  duration_ms: 0.046917
+  type: 'test'
+  ...
+# Subtest: party type selection immediately commits and dismisses in both branches
+ok 16 - party type selection immediately commits and dismisses in both branches
+  ---
+  duration_ms: 0.07
+  type: 'test'
+  ...
+# Subtest: RN gating is kept distinct from Native classify / topic / background checks
+ok 17 - RN gating is kept distinct from Native classify / topic / background checks
+  ---
+  duration_ms: 0.027417
+  type: 'test'
+  ...
+# Subtest: PK and turtle-soup initial opening require mode-specific confirmation; cancel preserves room
+ok 18 - PK and turtle-soup initial opening require mode-specific confirmation; cancel preserves room
+  ---
+  duration_ms: 0.091375
+  type: 'test'
+  ...
+# Subtest: RN unowned paymentType-2 background cannot apply; owned background can
+ok 19 - RN unowned paymentType-2 background cannot apply; owned background can
+  ---
+  duration_ms: 0.032291
+  type: 'test'
+  ...
+# Subtest: RN tab switches normalize friend privacy and removing game tab normalizes selected mode
+ok 20 - RN tab switches normalize friend privacy and removing game tab normalizes selected mode
+  ---
+  duration_ms: 0.062167
+  type: 'test'
+  ...
+1..20
+# tests 20
+# suites 0
+# pass 20
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 37.344542

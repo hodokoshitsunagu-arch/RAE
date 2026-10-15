@@ -1,0 +1,18 @@
+*.apk
+*.part
+analysis/decoded/
+analysis/dex-index.json
+analysis/tools/*.class
+analysis/evidence/*.log
+demo/node_modules/
+demo/test-results/
+analysis/rn/*.zip
+analysis/rn/modules/
+analysis/rn/soul_rn_club_party/
+analysis/evidence/rea-artifact.json
+analysis/evidence/rea-rn-status.json
+demo/preview-*.png
+
+# Binary artifacts remain local; publication contains text evidence and the CSS demo.
+analysis/resources/drawable/**/*.png
+analysis/resources/drawable/**/*.webp

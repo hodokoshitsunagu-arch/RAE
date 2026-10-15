@@ -1,0 +1,628 @@
+=> [Function #0 "global" of 40 bytes]: 1 params, frame size=15, strict=0, exc handler=0, debug info=0  @ offset 0x0000079c
+
+Bytecode listing:
+
+==> 00000000: <GetGlobalObject>: <Reg8: 0>
+==> 00000002: <TryGetById>: <Reg8: 4, Reg8: 0, UInt8: 1, string_id: 61>  # String: '__d' (Identifier)
+==> 00000008: <LoadConstUndefined>: <Reg8: 3>
+==> 0000000a: <CreateEnvironment>: <Reg8: 0>
+==> 0000000c: <CreateClosure>: <Reg8: 2, Reg8: 0, function_id: 1>  # Function: [#1  of 149 bytes]: 8 params @ offset 0x000007c4
+==> 00000011: <LoadConstInt>: <Reg8: 1, Imm32: 10000096>
+==> 00000017: <NewArrayWithBuffer>: <Reg8: 0, UInt16: 4, UInt16: 4, UInt16: 0>  # Array: [7, 10, 11, 976]
+==> 0000001f: <Call4>: <Reg8: 0, Reg8: 4, Reg8: 3, Reg8: 2, Reg8: 1, Reg8: 0>
+==> 00000026: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #1 "" of 149 bytes]: 8 params, frame size=18, strict=0, exc handler=0, debug info=0  @ offset 0x000007c4
+
+Bytecode listing:
+
+==> 00000000: <CreateEnvironment>: <Reg8: 1>
+==> 00000002: <LoadParam>: <Reg8: 5, UInt8: 2>
+==> 00000005: <LoadParam>: <Reg8: 3, UInt8: 6>
+==> 00000008: <LoadParam>: <Reg8: 6, UInt8: 7>
+==> 0000000b: <StoreToEnvironment>: <Reg8: 1, UInt8: 0, Reg8: 5>
+==> 0000000f: <StoreToEnvironment>: <Reg8: 1, UInt8: 1, Reg8: 6>
+==> 00000013: <GetGlobalObject>: <Reg8: 0>
+==> 00000015: <TryGetById>: <Reg8: 7, Reg8: 0, UInt8: 1, string_id: 59>  # String: 'Object' (Identifier)
+==> 0000001b: <GetByIdShort>: <Reg8: 4, Reg8: 7, UInt8: 2, string_id: 58>  # String: 'defineProperty' (Identifier)
+==> 00000020: <NewObject>: <Reg8: 2>
+==> 00000022: <LoadConstTrue>: <Reg8: 0>
+==> 00000024: <PutNewOwnByIdShort>: <Reg8: 2, Reg8: 0, string_id: 55>  # String: 'value' (Identifier)
+==> 00000028: <LoadConstString>: <Reg8: 0, string_id: 21>  # String: '__esModule' (String)
+==> 0000002c: <Call4>: <Reg8: 0, Reg8: 4, Reg8: 7, Reg8: 3, Reg8: 0, Reg8: 2>
+==> 00000033: <LoadConstUndefined>: <Reg8: 0>
+==> 00000035: <PutById>: <Reg8: 3, Reg8: 0, UInt8: 1, string_id: 46>  # String: 'CreateRoomTrackPoint' (Identifier)
+==> 0000003b: <LoadConstZero>: <Reg8: 2>
+==> 0000003d: <GetByVal>: <Reg8: 4, Reg8: 6, Reg8: 2>
+==> 00000041: <Call2>: <Reg8: 7, Reg8: 5, Reg8: 0, Reg8: 4>
+==> 00000046: <LoadConstUInt8>: <Reg8: 4, UInt8: 1>
+==> 00000049: <GetByVal>: <Reg8: 4, Reg8: 6, Reg8: 4>
+==> 0000004d: <Call2>: <Reg8: 4, Reg8: 5, Reg8: 0, Reg8: 4>
+==> 00000052: <Call2>: <Reg8: 4, Reg8: 7, Reg8: 0, Reg8: 4>
+==> 00000057: <StoreToEnvironment>: <Reg8: 1, UInt8: 2, Reg8: 4>
+==> 0000005b: <GetByVal>: <Reg8: 2, Reg8: 6, Reg8: 2>
+==> 0000005f: <Call2>: <Reg8: 4, Reg8: 5, Reg8: 0, Reg8: 2>
+==> 00000064: <LoadConstUInt8>: <Reg8: 2, UInt8: 2>
+==> 00000067: <GetByVal>: <Reg8: 2, Reg8: 6, Reg8: 2>
+==> 0000006b: <Call2>: <Reg8: 2, Reg8: 5, Reg8: 0, Reg8: 2>
+==> 00000070: <Call2>: <Reg8: 2, Reg8: 4, Reg8: 0, Reg8: 2>
+==> 00000075: <StoreToEnvironment>: <Reg8: 1, UInt8: 3, Reg8: 2>
+==> 00000079: <CreateClosure>: <Reg8: 2, Reg8: 1, function_id: 2>  # Function: [#2  of 408 bytes]: 1 params @ offset 0x00000859
+==> 0000007e: <Call1>: <Reg8: 2, Reg8: 2, Reg8: 0>
+==> 00000082: <PutById>: <Reg8: 3, Reg8: 2, UInt8: 1, string_id: 46>  # String: 'CreateRoomTrackPoint' (Identifier)
+==> 00000088: <CreateClosure>: <Reg8: 1, Reg8: 1, function_id: 20>  # Function: [#20  of 4 bytes]: 1 params @ offset 0x00000e85
+==> 0000008d: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 2, string_id: 47>  # String: 'trackPoint' (Identifier)
+==> 00000093: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #2 "" of 408 bytes]: 1 params, frame size=16, strict=0, exc handler=0, debug info=0  @ offset 0x00000859
+
+Bytecode listing:
+
+==> 00000000: <CreateEnvironment>: <Reg8: 1>
+==> 00000002: <GetEnvironment>: <Reg8: 0, UInt8: 0>
+==> 00000005: <LoadFromEnvironment>: <Reg8: 0, Reg8: 0, UInt8: 3>
+==> 00000009: <GetByIdShort>: <Reg8: 4, Reg8: 0, UInt8: 1, string_id: 62>  # String: 'default' (Identifier)
+==> 0000000e: <CreateClosure>: <Reg8: 3, Reg8: 1, function_id: 3>  # Function: [#3 o of 31 bytes]: 1 params @ offset 0x000009f1
+==> 00000013: <StoreToEnvironment>: <Reg8: 1, UInt8: 0, Reg8: 3>
+==> 00000017: <NewObject>: <Reg8: 0>
+==> 00000019: <LoadConstString>: <Reg8: 2, string_id: 23>  # String: 'eventCreateRoomPageView' (String)
+==> 0000001d: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 2, string_id: 39>  # String: 'key' (Identifier)
+==> 00000021: <CreateClosure>: <Reg8: 2, Reg8: 1, function_id: 4>  # Function: [#4 value of 66 bytes]: 2 params @ offset 0x00000a10
+==> 00000026: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 2, string_id: 55>  # String: 'value' (Identifier)
+==> 0000002a: <NewArray>: <Reg8: 2, UInt16: 16>
+==> 0000002e: <PutOwnByIndex>: <Reg8: 2, Reg8: 0, UInt8: 0>
+==> 00000032: <NewObject>: <Reg8: 0>
+==> 00000034: <LoadConstString>: <Reg8: 5, string_id: 20>  # String: 'eventCreateRoomClick' (String)
+==> 00000038: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 39>  # String: 'key' (Identifier)
+==> 0000003c: <CreateClosure>: <Reg8: 5, Reg8: 1, function_id: 5>  # Function: [#5 value of 120 bytes]: 4 params @ offset 0x00000a52
+==> 00000041: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 55>  # String: 'value' (Identifier)
+==> 00000045: <PutOwnByIndex>: <Reg8: 2, Reg8: 0, UInt8: 1>
+==> 00000049: <NewObject>: <Reg8: 0>
+==> 0000004b: <LoadConstString>: <Reg8: 5, string_id: 31>  # String: 'eventPartyLiveSettingClick' (String)
+==> 0000004f: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 39>  # String: 'key' (Identifier)
+==> 00000053: <CreateClosure>: <Reg8: 5, Reg8: 1, function_id: 6>  # Function: [#6 value of 81 bytes]: 3 params @ offset 0x00000aca
+==> 00000058: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 55>  # String: 'value' (Identifier)
+==> 0000005c: <PutOwnByIndex>: <Reg8: 2, Reg8: 0, UInt8: 2>
+==> 00000060: <NewObject>: <Reg8: 0>
+==> 00000062: <LoadConstString>: <Reg8: 5, string_id: 29>  # String: 'eventPartyLiveCameraPermissionSettingClick' (String)
+==> 00000066: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 39>  # String: 'key' (Identifier)
+==> 0000006a: <CreateClosure>: <Reg8: 5, Reg8: 1, function_id: 7>  # Function: [#7 value of 62 bytes]: 1 params @ offset 0x00000b1b
+==> 0000006f: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 55>  # String: 'value' (Identifier)
+==> 00000073: <PutOwnByIndex>: <Reg8: 2, Reg8: 0, UInt8: 3>
+==> 00000077: <NewObject>: <Reg8: 0>
+==> 00000079: <LoadConstString>: <Reg8: 5, string_id: 30>  # String: 'eventPartyLiveScreenShareStartClick' (String)
+==> 0000007d: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 39>  # String: 'key' (Identifier)
+==> 00000081: <CreateClosure>: <Reg8: 5, Reg8: 1, function_id: 8>  # Function: [#8 value of 62 bytes]: 1 params @ offset 0x00000b59
+==> 00000086: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 55>  # String: 'value' (Identifier)
+==> 0000008a: <PutOwnByIndex>: <Reg8: 2, Reg8: 0, UInt8: 4>
+==> 0000008e: <NewObject>: <Reg8: 0>
+==> 00000090: <LoadConstString>: <Reg8: 5, string_id: 32>  # String: 'eventPartyTypeClick' (String)
+==> 00000094: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 39>  # String: 'key' (Identifier)
+==> 00000098: <CreateClosure>: <Reg8: 5, Reg8: 1, function_id: 9>  # Function: [#9 value of 69 bytes]: 2 params @ offset 0x00000b97
+==> 0000009d: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 55>  # String: 'value' (Identifier)
+==> 000000a1: <PutOwnByIndex>: <Reg8: 2, Reg8: 0, UInt8: 5>
+==> 000000a5: <NewObject>: <Reg8: 0>
+==> 000000a7: <LoadConstString>: <Reg8: 5, string_id: 16>  # String: 'eventBackgroundChangeClick' (String)
+==> 000000ab: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 39>  # String: 'key' (Identifier)
+==> 000000af: <CreateClosure>: <Reg8: 5, Reg8: 1, function_id: 10>  # Function: [#10 value of 69 bytes]: 2 params @ offset 0x00000bdc
+==> 000000b4: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 55>  # String: 'value' (Identifier)
+==> 000000b8: <PutOwnByIndex>: <Reg8: 2, Reg8: 0, UInt8: 6>
+==> 000000bc: <NewObject>: <Reg8: 0>
+==> 000000be: <LoadConstString>: <Reg8: 5, string_id: 33>  # String: 'eventPrivateClick' (String)
+==> 000000c2: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 39>  # String: 'key' (Identifier)
+==> 000000c6: <CreateClosure>: <Reg8: 5, Reg8: 1, function_id: 11>  # Function: [#11 value of 69 bytes]: 2 params @ offset 0x00000c21
+==> 000000cb: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 55>  # String: 'value' (Identifier)
+==> 000000cf: <PutOwnByIndex>: <Reg8: 2, Reg8: 0, UInt8: 7>
+==> 000000d3: <NewObject>: <Reg8: 0>
+==> 000000d5: <LoadConstString>: <Reg8: 5, string_id: 34>  # String: 'eventTopicClick' (String)
+==> 000000d9: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 39>  # String: 'key' (Identifier)
+==> 000000dd: <CreateClosure>: <Reg8: 5, Reg8: 1, function_id: 12>  # Function: [#12 value of 54 bytes]: 1 params @ offset 0x00000c66
+==> 000000e2: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 55>  # String: 'value' (Identifier)
+==> 000000e6: <PutOwnByIndex>: <Reg8: 2, Reg8: 0, UInt8: 8>
+==> 000000ea: <NewObject>: <Reg8: 0>
+==> 000000ec: <LoadConstString>: <Reg8: 5, string_id: 27>  # String: 'eventMoreButtonClick' (String)
+==> 000000f0: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 39>  # String: 'key' (Identifier)
+==> 000000f4: <CreateClosure>: <Reg8: 5, Reg8: 1, function_id: 13>  # Function: [#13 value of 54 bytes]: 1 params @ offset 0x00000c9c
+==> 000000f9: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 55>  # String: 'value' (Identifier)
+==> 000000fd: <PutOwnByIndex>: <Reg8: 2, Reg8: 0, UInt8: 9>
+==> 00000101: <NewObject>: <Reg8: 0>
+==> 00000103: <LoadConstString>: <Reg8: 5, string_id: 35>  # String: 'eventTopicsClick' (String)
+==> 00000107: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 39>  # String: 'key' (Identifier)
+==> 0000010b: <CreateClosure>: <Reg8: 5, Reg8: 1, function_id: 14>  # Function: [#14 value of 54 bytes]: 1 params @ offset 0x00000cd2
+==> 00000110: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 55>  # String: 'value' (Identifier)
+==> 00000114: <PutOwnByIndex>: <Reg8: 2, Reg8: 0, UInt8: 10>
+==> 00000118: <NewObject>: <Reg8: 0>
+==> 0000011a: <LoadConstString>: <Reg8: 5, string_id: 26>  # String: 'eventListenPlayCreateRoom' (String)
+==> 0000011e: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 39>  # String: 'key' (Identifier)
+==> 00000122: <CreateClosure>: <Reg8: 5, Reg8: 1, function_id: 15>  # Function: [#15 value of 75 bytes]: 4 params @ offset 0x00000d08
+==> 00000127: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 55>  # String: 'value' (Identifier)
+==> 0000012b: <PutOwnByIndex>: <Reg8: 2, Reg8: 0, UInt8: 11>
+==> 0000012f: <NewObject>: <Reg8: 0>
+==> 00000131: <LoadConstString>: <Reg8: 5, string_id: 22>  # String: 'eventCreateRoomPageSwitchTabClick' (String)
+==> 00000135: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 39>  # String: 'key' (Identifier)
+==> 00000139: <CreateClosure>: <Reg8: 5, Reg8: 1, function_id: 16>  # Function: [#16 value of 75 bytes]: 4 params @ offset 0x00000d53
+==> 0000013e: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 55>  # String: 'value' (Identifier)
+==> 00000142: <PutOwnByIndex>: <Reg8: 2, Reg8: 0, UInt8: 12>
+==> 00000146: <NewObject>: <Reg8: 0>
+==> 00000148: <LoadConstString>: <Reg8: 5, string_id: 25>  # String: 'eventCreateRoomTimeClick' (String)
+==> 0000014c: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 39>  # String: 'key' (Identifier)
+==> 00000150: <CreateClosure>: <Reg8: 5, Reg8: 1, function_id: 17>  # Function: [#17 value of 95 bytes]: 1 params @ offset 0x00000d9e
+==> 00000155: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 55>  # String: 'value' (Identifier)
+==> 00000159: <PutOwnByIndex>: <Reg8: 2, Reg8: 0, UInt8: 13>
+==> 0000015d: <NewObject>: <Reg8: 0>
+==> 0000015f: <LoadConstString>: <Reg8: 5, string_id: 24>  # String: 'eventCreateRoomSuccessClick' (String)
+==> 00000163: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 39>  # String: 'key' (Identifier)
+==> 00000167: <CreateClosure>: <Reg8: 5, Reg8: 1, function_id: 18>  # Function: [#18 value of 61 bytes]: 2 params @ offset 0x00000dfd
+==> 0000016c: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 55>  # String: 'value' (Identifier)
+==> 00000170: <PutOwnByIndex>: <Reg8: 2, Reg8: 0, UInt8: 14>
+==> 00000174: <NewObject>: <Reg8: 0>
+==> 00000176: <LoadConstString>: <Reg8: 5, string_id: 28>  # String: 'eventOpenPrivateChatRoom' (String)
+==> 0000017a: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 39>  # String: 'key' (Identifier)
+==> 0000017e: <CreateClosure>: <Reg8: 1, Reg8: 1, function_id: 19>  # Function: [#19 value of 75 bytes]: 4 params @ offset 0x00000e3a
+==> 00000183: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 1, string_id: 55>  # String: 'value' (Identifier)
+==> 00000187: <PutOwnByIndex>: <Reg8: 2, Reg8: 0, UInt8: 15>
+==> 0000018b: <LoadConstUndefined>: <Reg8: 1>
+==> 0000018d: <LoadConstNull>: <Reg8: 0>
+==> 0000018f: <Call4>: <Reg8: 0, Reg8: 4, Reg8: 1, Reg8: 3, Reg8: 0, Reg8: 2>
+==> 00000196: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #3 "o" of 31 bytes]: 1 params, frame size=13, strict=0, exc handler=0, debug info=0  @ offset 0x000009f1
+
+Bytecode listing:
+
+==> 00000000: <GetEnvironment>: <Reg8: 0, UInt8: 1>
+==> 00000003: <LoadFromEnvironment>: <Reg8: 0, Reg8: 0, UInt8: 2>
+==> 00000007: <GetByIdShort>: <Reg8: 3, Reg8: 0, UInt8: 1, string_id: 62>  # String: 'default' (Identifier)
+==> 0000000c: <GetEnvironment>: <Reg8: 0, UInt8: 0>
+==> 0000000f: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 0>
+==> 00000013: <LoadConstUndefined>: <Reg8: 0>
+==> 00000015: <LoadThisNS>: <Reg8: 1>
+==> 00000017: <Call3>: <Reg8: 1, Reg8: 3, Reg8: 0, Reg8: 1, Reg8: 2>
+==> 0000001d: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #4 "value" of 66 bytes]: 2 params, frame size=14, strict=0, exc handler=0, debug info=0  @ offset 0x00000a10
+
+Bytecode listing:
+
+==> 00000000: <GetEnvironment>: <Reg8: 0, UInt8: 1>
+==> 00000003: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 0>
+==> 00000007: <LoadFromEnvironment>: <Reg8: 1, Reg8: 0, UInt8: 1>
+==> 0000000b: <LoadConstUInt8>: <Reg8: 0, UInt8: 3>
+==> 0000000e: <GetByVal>: <Reg8: 1, Reg8: 1, Reg8: 0>
+==> 00000012: <LoadConstUndefined>: <Reg8: 0>
+==> 00000014: <Call2>: <Reg8: 1, Reg8: 2, Reg8: 0, Reg8: 1>
+==> 00000019: <GetByIdShort>: <Reg8: 4, Reg8: 1, UInt8: 1, string_id: 60>  # String: 'SRNApiEventTrack' (Identifier)
+==> 0000001e: <GetByIdShort>: <Reg8: 3, Reg8: 4, UInt8: 2, string_id: 54>  # String: 'eventPv' (Identifier)
+==> 00000023: <NewObjectWithBuffer>: <Reg8: 2, UInt16: 3, UInt16: 3, UInt16: 0, UInt16: 0>  # Object: {'createroom_source': null, 'createroom_version': 'yuliao,ktv,wanfa,youxi', 'createroom_tab': 'yuliao'}
+==> 0000002d: <LoadParam>: <Reg8: 1, UInt8: 1>
+==> 00000030: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 1, string_id: 45>  # String: 'createroom_source' (Identifier)
+==> 00000036: <LoadConstString>: <Reg8: 1, string_id: 8>  # String: 'GroupChat_CreateRoom' (String)
+==> 0000003a: <Call3>: <Reg8: 1, Reg8: 3, Reg8: 4, Reg8: 1, Reg8: 2>
+==> 00000040: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #5 "value" of 120 bytes]: 4 params, frame size=16, strict=0, exc handler=0, debug info=0  @ offset 0x00000a52
+
+Bytecode listing:
+
+==> 00000000: <LoadParam>: <Reg8: 2, UInt8: 3>
+==> 00000003: <NewObject>: <Reg8: 5>
+==> 00000005: <LoadParam>: <Reg8: 0, UInt8: 1>
+==> 00000008: <PutNewOwnByIdShort>: <Reg8: 5, Reg8: 0, string_id: 45>  # String: 'createroom_source' (Identifier)
+==> 0000000c: <LoadConstString>: <Reg8: 0, string_id: 13>  # String: 'yuliao,ktv,wanfa,youxi' (String)
+==> 00000010: <PutNewOwnByIdShort>: <Reg8: 5, Reg8: 0, string_id: 66>  # String: 'createroom_version' (Identifier)
+==> 00000014: <LoadParam>: <Reg8: 0, UInt8: 2>
+==> 00000017: <PutNewOwnByIdShort>: <Reg8: 5, Reg8: 0, string_id: 64>  # String: 'createroom_block' (Identifier)
+==> 0000001b: <LoadConstUInt8>: <Reg8: 0, UInt8: 27>
+==> 0000001e: <StrictNeq>: <Reg8: 0, Reg8: 0, Reg8: 2>
+==> 00000022: <JmpFalse>: <Addr8: 10, Reg8: 0>  # Address: 0000002c
+==> 00000025: <LoadConstUInt8>: <Reg8: 1, UInt8: 28>
+==> 00000028: <StrictNeq>: <Reg8: 0, Reg8: 1, Reg8: 2>
+==> 0000002c: <JmpTrue>: <Addr8: 24, Reg8: 0>  # Address: 00000044
+==> 0000002f: <GetGlobalObject>: <Reg8: 0>
+==> 00000031: <TryGetById>: <Reg8: 1, Reg8: 0, UInt8: 1, string_id: 56>  # String: 'String' (Identifier)
+==> 00000037: <LoadConstUndefined>: <Reg8: 0>
+==> 00000039: <Call2>: <Reg8: 0, Reg8: 1, Reg8: 0, Reg8: 2>
+==> 0000003e: <PutById>: <Reg8: 5, Reg8: 0, UInt8: 1, string_id: 51>  # String: 'play_type' (Identifier)
+==> 00000044: <GetEnvironment>: <Reg8: 0, UInt8: 1>
+==> 00000047: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 0>
+==> 0000004b: <LoadFromEnvironment>: <Reg8: 1, Reg8: 0, UInt8: 1>
+==> 0000004f: <LoadConstUInt8>: <Reg8: 0, UInt8: 3>
+==> 00000052: <GetByVal>: <Reg8: 1, Reg8: 1, Reg8: 0>
+==> 00000056: <LoadConstUndefined>: <Reg8: 0>
+==> 00000058: <Call2>: <Reg8: 1, Reg8: 2, Reg8: 0, Reg8: 1>
+==> 0000005d: <GetByIdShort>: <Reg8: 4, Reg8: 1, UInt8: 2, string_id: 60>  # String: 'SRNApiEventTrack' (Identifier)
+==> 00000062: <GetByIdShort>: <Reg8: 3, Reg8: 4, UInt8: 3, string_id: 67>  # String: 'eventClick' (Identifier)
+==> 00000067: <LoadConstString>: <Reg8: 2, string_id: 14>  # String: 'GroupChat_CreateRoomPage_CreateClk' (String)
+==> 0000006b: <LoadConstString>: <Reg8: 1, string_id: 0>  # String: '' (String)
+==> 0000006f: <Call4>: <Reg8: 1, Reg8: 3, Reg8: 4, Reg8: 2, Reg8: 1, Reg8: 5>
+==> 00000076: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #6 "value" of 81 bytes]: 3 params, frame size=16, strict=0, exc handler=0, debug info=0  @ offset 0x00000aca
+
+Bytecode listing:
+
+==> 00000000: <GetEnvironment>: <Reg8: 0, UInt8: 1>
+==> 00000003: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 0>
+==> 00000007: <LoadFromEnvironment>: <Reg8: 1, Reg8: 0, UInt8: 1>
+==> 0000000b: <LoadConstUInt8>: <Reg8: 0, UInt8: 3>
+==> 0000000e: <GetByVal>: <Reg8: 1, Reg8: 1, Reg8: 0>
+==> 00000012: <LoadConstUndefined>: <Reg8: 0>
+==> 00000014: <Call2>: <Reg8: 1, Reg8: 2, Reg8: 0, Reg8: 1>
+==> 00000019: <GetByIdShort>: <Reg8: 5, Reg8: 1, UInt8: 1, string_id: 60>  # String: 'SRNApiEventTrack' (Identifier)
+==> 0000001e: <GetByIdShort>: <Reg8: 4, Reg8: 5, UInt8: 2, string_id: 67>  # String: 'eventClick' (Identifier)
+==> 00000023: <GetGlobalObject>: <Reg8: 1>
+==> 00000025: <TryGetById>: <Reg8: 2, Reg8: 1, UInt8: 3, string_id: 56>  # String: 'String' (Identifier)
+==> 0000002b: <LoadParam>: <Reg8: 1, UInt8: 2>
+==> 0000002e: <Call2>: <Reg8: 1, Reg8: 2, Reg8: 0, Reg8: 1>
+==> 00000033: <NewObject>: <Reg8: 3>
+==> 00000035: <LoadParam>: <Reg8: 2, UInt8: 1>
+==> 00000038: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 2, string_id: 52>  # String: 'type' (Identifier)
+==> 0000003c: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 1, string_id: 51>  # String: 'play_type' (Identifier)
+==> 00000040: <LoadConstString>: <Reg8: 2, string_id: 18>  # String: 'PartyLive_SettingClick' (String)
+==> 00000044: <LoadConstString>: <Reg8: 1, string_id: 8>  # String: 'GroupChat_CreateRoom' (String)
+==> 00000048: <Call4>: <Reg8: 1, Reg8: 4, Reg8: 5, Reg8: 2, Reg8: 1, Reg8: 3>
+==> 0000004f: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #7 "value" of 62 bytes]: 1 params, frame size=16, strict=0, exc handler=0, debug info=0  @ offset 0x00000b1b
+
+Bytecode listing:
+
+==> 00000000: <GetEnvironment>: <Reg8: 0, UInt8: 1>
+==> 00000003: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 0>
+==> 00000007: <LoadFromEnvironment>: <Reg8: 1, Reg8: 0, UInt8: 1>
+==> 0000000b: <LoadConstUInt8>: <Reg8: 0, UInt8: 3>
+==> 0000000e: <GetByVal>: <Reg8: 1, Reg8: 1, Reg8: 0>
+==> 00000012: <LoadConstUndefined>: <Reg8: 0>
+==> 00000014: <Call2>: <Reg8: 1, Reg8: 2, Reg8: 0, Reg8: 1>
+==> 00000019: <GetByIdShort>: <Reg8: 5, Reg8: 1, UInt8: 1, string_id: 60>  # String: 'SRNApiEventTrack' (Identifier)
+==> 0000001e: <GetByIdShort>: <Reg8: 4, Reg8: 5, UInt8: 2, string_id: 67>  # String: 'eventClick' (Identifier)
+==> 00000023: <NewObject>: <Reg8: 3>
+==> 00000025: <LoadConstString>: <Reg8: 1, string_id: 1>  # String: '27' (String)
+==> 00000029: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 1, string_id: 51>  # String: 'play_type' (Identifier)
+==> 0000002d: <LoadConstString>: <Reg8: 2, string_id: 3>  # String: 'PartyLive_CameraPermissionSettingClick' (String)
+==> 00000031: <LoadConstString>: <Reg8: 1, string_id: 8>  # String: 'GroupChat_CreateRoom' (String)
+==> 00000035: <Call4>: <Reg8: 1, Reg8: 4, Reg8: 5, Reg8: 2, Reg8: 1, Reg8: 3>
+==> 0000003c: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #8 "value" of 62 bytes]: 1 params, frame size=16, strict=0, exc handler=0, debug info=0  @ offset 0x00000b59
+
+Bytecode listing:
+
+==> 00000000: <GetEnvironment>: <Reg8: 0, UInt8: 1>
+==> 00000003: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 0>
+==> 00000007: <LoadFromEnvironment>: <Reg8: 1, Reg8: 0, UInt8: 1>
+==> 0000000b: <LoadConstUInt8>: <Reg8: 0, UInt8: 3>
+==> 0000000e: <GetByVal>: <Reg8: 1, Reg8: 1, Reg8: 0>
+==> 00000012: <LoadConstUndefined>: <Reg8: 0>
+==> 00000014: <Call2>: <Reg8: 1, Reg8: 2, Reg8: 0, Reg8: 1>
+==> 00000019: <GetByIdShort>: <Reg8: 5, Reg8: 1, UInt8: 1, string_id: 60>  # String: 'SRNApiEventTrack' (Identifier)
+==> 0000001e: <GetByIdShort>: <Reg8: 4, Reg8: 5, UInt8: 2, string_id: 67>  # String: 'eventClick' (Identifier)
+==> 00000023: <NewObject>: <Reg8: 3>
+==> 00000025: <LoadConstString>: <Reg8: 1, string_id: 2>  # String: '28' (String)
+==> 00000029: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 1, string_id: 51>  # String: 'play_type' (Identifier)
+==> 0000002d: <LoadConstString>: <Reg8: 2, string_id: 6>  # String: 'PartyLive_ScreenShareStartClick' (String)
+==> 00000031: <LoadConstString>: <Reg8: 1, string_id: 8>  # String: 'GroupChat_CreateRoom' (String)
+==> 00000035: <Call4>: <Reg8: 1, Reg8: 4, Reg8: 5, Reg8: 2, Reg8: 1, Reg8: 3>
+==> 0000003c: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #9 "value" of 69 bytes]: 2 params, frame size=16, strict=0, exc handler=0, debug info=0  @ offset 0x00000b97
+
+Bytecode listing:
+
+==> 00000000: <GetEnvironment>: <Reg8: 0, UInt8: 1>
+==> 00000003: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 0>
+==> 00000007: <LoadFromEnvironment>: <Reg8: 1, Reg8: 0, UInt8: 1>
+==> 0000000b: <LoadConstUInt8>: <Reg8: 0, UInt8: 3>
+==> 0000000e: <GetByVal>: <Reg8: 1, Reg8: 1, Reg8: 0>
+==> 00000012: <LoadConstUndefined>: <Reg8: 0>
+==> 00000014: <Call2>: <Reg8: 1, Reg8: 2, Reg8: 0, Reg8: 1>
+==> 00000019: <GetByIdShort>: <Reg8: 5, Reg8: 1, UInt8: 1, string_id: 60>  # String: 'SRNApiEventTrack' (Identifier)
+==> 0000001e: <GetByIdShort>: <Reg8: 4, Reg8: 5, UInt8: 2, string_id: 67>  # String: 'eventClick' (Identifier)
+==> 00000023: <NewObject>: <Reg8: 3>
+==> 00000025: <LoadParam>: <Reg8: 1, UInt8: 1>
+==> 00000028: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 1, string_id: 45>  # String: 'createroom_source' (Identifier)
+==> 0000002c: <LoadConstString>: <Reg8: 1, string_id: 13>  # String: 'yuliao,ktv,wanfa,youxi' (String)
+==> 00000030: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 1, string_id: 66>  # String: 'createroom_version' (Identifier)
+==> 00000034: <LoadConstString>: <Reg8: 2, string_id: 11>  # String: 'GroupChat_CreateRoomPage_Classify' (String)
+==> 00000038: <LoadConstString>: <Reg8: 1, string_id: 0>  # String: '' (String)
+==> 0000003c: <Call4>: <Reg8: 1, Reg8: 4, Reg8: 5, Reg8: 2, Reg8: 1, Reg8: 3>
+==> 00000043: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #10 "value" of 69 bytes]: 2 params, frame size=16, strict=0, exc handler=0, debug info=0  @ offset 0x00000bdc
+
+Bytecode listing:
+
+==> 00000000: <GetEnvironment>: <Reg8: 0, UInt8: 1>
+==> 00000003: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 0>
+==> 00000007: <LoadFromEnvironment>: <Reg8: 1, Reg8: 0, UInt8: 1>
+==> 0000000b: <LoadConstUInt8>: <Reg8: 0, UInt8: 3>
+==> 0000000e: <GetByVal>: <Reg8: 1, Reg8: 1, Reg8: 0>
+==> 00000012: <LoadConstUndefined>: <Reg8: 0>
+==> 00000014: <Call2>: <Reg8: 1, Reg8: 2, Reg8: 0, Reg8: 1>
+==> 00000019: <GetByIdShort>: <Reg8: 5, Reg8: 1, UInt8: 1, string_id: 60>  # String: 'SRNApiEventTrack' (Identifier)
+==> 0000001e: <GetByIdShort>: <Reg8: 4, Reg8: 5, UInt8: 2, string_id: 67>  # String: 'eventClick' (Identifier)
+==> 00000023: <NewObject>: <Reg8: 3>
+==> 00000025: <LoadParam>: <Reg8: 1, UInt8: 1>
+==> 00000028: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 1, string_id: 45>  # String: 'createroom_source' (Identifier)
+==> 0000002c: <LoadConstString>: <Reg8: 1, string_id: 13>  # String: 'yuliao,ktv,wanfa,youxi' (String)
+==> 00000030: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 1, string_id: 66>  # String: 'createroom_version' (Identifier)
+==> 00000034: <LoadConstString>: <Reg8: 2, string_id: 9>  # String: 'GroupChat_CreateRoomPage_ChangePic' (String)
+==> 00000038: <LoadConstString>: <Reg8: 1, string_id: 0>  # String: '' (String)
+==> 0000003c: <Call4>: <Reg8: 1, Reg8: 4, Reg8: 5, Reg8: 2, Reg8: 1, Reg8: 3>
+==> 00000043: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #11 "value" of 69 bytes]: 2 params, frame size=16, strict=0, exc handler=0, debug info=0  @ offset 0x00000c21
+
+Bytecode listing:
+
+==> 00000000: <GetEnvironment>: <Reg8: 0, UInt8: 1>
+==> 00000003: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 0>
+==> 00000007: <LoadFromEnvironment>: <Reg8: 1, Reg8: 0, UInt8: 1>
+==> 0000000b: <LoadConstUInt8>: <Reg8: 0, UInt8: 3>
+==> 0000000e: <GetByVal>: <Reg8: 1, Reg8: 1, Reg8: 0>
+==> 00000012: <LoadConstUndefined>: <Reg8: 0>
+==> 00000014: <Call2>: <Reg8: 1, Reg8: 2, Reg8: 0, Reg8: 1>
+==> 00000019: <GetByIdShort>: <Reg8: 5, Reg8: 1, UInt8: 1, string_id: 60>  # String: 'SRNApiEventTrack' (Identifier)
+==> 0000001e: <GetByIdShort>: <Reg8: 4, Reg8: 5, UInt8: 2, string_id: 67>  # String: 'eventClick' (Identifier)
+==> 00000023: <NewObject>: <Reg8: 3>
+==> 00000025: <LoadParam>: <Reg8: 1, UInt8: 1>
+==> 00000028: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 1, string_id: 45>  # String: 'createroom_source' (Identifier)
+==> 0000002c: <LoadConstString>: <Reg8: 1, string_id: 13>  # String: 'yuliao,ktv,wanfa,youxi' (String)
+==> 00000030: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 1, string_id: 66>  # String: 'createroom_version' (Identifier)
+==> 00000034: <LoadConstString>: <Reg8: 2, string_id: 15>  # String: 'GroupChat_CreateRoomPage_Private' (String)
+==> 00000038: <LoadConstString>: <Reg8: 1, string_id: 8>  # String: 'GroupChat_CreateRoom' (String)
+==> 0000003c: <Call4>: <Reg8: 1, Reg8: 4, Reg8: 5, Reg8: 2, Reg8: 1, Reg8: 3>
+==> 00000043: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #12 "value" of 54 bytes]: 1 params, frame size=16, strict=0, exc handler=0, debug info=0  @ offset 0x00000c66
+
+Bytecode listing:
+
+==> 00000000: <GetEnvironment>: <Reg8: 0, UInt8: 1>
+==> 00000003: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 0>
+==> 00000007: <LoadFromEnvironment>: <Reg8: 1, Reg8: 0, UInt8: 1>
+==> 0000000b: <LoadConstUInt8>: <Reg8: 0, UInt8: 3>
+==> 0000000e: <GetByVal>: <Reg8: 1, Reg8: 1, Reg8: 0>
+==> 00000012: <LoadConstUndefined>: <Reg8: 0>
+==> 00000014: <Call2>: <Reg8: 1, Reg8: 2, Reg8: 0, Reg8: 1>
+==> 00000019: <GetByIdShort>: <Reg8: 5, Reg8: 1, UInt8: 1, string_id: 60>  # String: 'SRNApiEventTrack' (Identifier)
+==> 0000001e: <GetByIdShort>: <Reg8: 4, Reg8: 5, UInt8: 2, string_id: 48>  # String: 'eventExpose' (Identifier)
+==> 00000023: <LoadConstString>: <Reg8: 3, string_id: 19>  # String: 'Topic_exposure' (String)
+==> 00000027: <LoadConstString>: <Reg8: 2, string_id: 0>  # String: '' (String)
+==> 0000002b: <NewObject>: <Reg8: 1>
+==> 0000002d: <Call4>: <Reg8: 1, Reg8: 4, Reg8: 5, Reg8: 3, Reg8: 2, Reg8: 1>
+==> 00000034: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #13 "value" of 54 bytes]: 1 params, frame size=16, strict=0, exc handler=0, debug info=0  @ offset 0x00000c9c
+
+Bytecode listing:
+
+==> 00000000: <GetEnvironment>: <Reg8: 0, UInt8: 1>
+==> 00000003: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 0>
+==> 00000007: <LoadFromEnvironment>: <Reg8: 1, Reg8: 0, UInt8: 1>
+==> 0000000b: <LoadConstUInt8>: <Reg8: 0, UInt8: 3>
+==> 0000000e: <GetByVal>: <Reg8: 1, Reg8: 1, Reg8: 0>
+==> 00000012: <LoadConstUndefined>: <Reg8: 0>
+==> 00000014: <Call2>: <Reg8: 1, Reg8: 2, Reg8: 0, Reg8: 1>
+==> 00000019: <GetByIdShort>: <Reg8: 5, Reg8: 1, UInt8: 1, string_id: 60>  # String: 'SRNApiEventTrack' (Identifier)
+==> 0000001e: <GetByIdShort>: <Reg8: 4, Reg8: 5, UInt8: 2, string_id: 67>  # String: 'eventClick' (Identifier)
+==> 00000023: <LoadConstString>: <Reg8: 3, string_id: 4>  # String: 'Click_Morebutton' (String)
+==> 00000027: <LoadConstString>: <Reg8: 2, string_id: 0>  # String: '' (String)
+==> 0000002b: <NewObject>: <Reg8: 1>
+==> 0000002d: <Call4>: <Reg8: 1, Reg8: 4, Reg8: 5, Reg8: 3, Reg8: 2, Reg8: 1>
+==> 00000034: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #14 "value" of 54 bytes]: 1 params, frame size=16, strict=0, exc handler=0, debug info=0  @ offset 0x00000cd2
+
+Bytecode listing:
+
+==> 00000000: <GetEnvironment>: <Reg8: 0, UInt8: 1>
+==> 00000003: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 0>
+==> 00000007: <LoadFromEnvironment>: <Reg8: 1, Reg8: 0, UInt8: 1>
+==> 0000000b: <LoadConstUInt8>: <Reg8: 0, UInt8: 3>
+==> 0000000e: <GetByVal>: <Reg8: 1, Reg8: 1, Reg8: 0>
+==> 00000012: <LoadConstUndefined>: <Reg8: 0>
+==> 00000014: <Call2>: <Reg8: 1, Reg8: 2, Reg8: 0, Reg8: 1>
+==> 00000019: <GetByIdShort>: <Reg8: 5, Reg8: 1, UInt8: 1, string_id: 60>  # String: 'SRNApiEventTrack' (Identifier)
+==> 0000001e: <GetByIdShort>: <Reg8: 4, Reg8: 5, UInt8: 2, string_id: 67>  # String: 'eventClick' (Identifier)
+==> 00000023: <LoadConstString>: <Reg8: 3, string_id: 7>  # String: 'Click_Topics' (String)
+==> 00000027: <LoadConstString>: <Reg8: 2, string_id: 0>  # String: '' (String)
+==> 0000002b: <NewObject>: <Reg8: 1>
+==> 0000002d: <Call4>: <Reg8: 1, Reg8: 4, Reg8: 5, Reg8: 3, Reg8: 2, Reg8: 1>
+==> 00000034: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #15 "value" of 75 bytes]: 4 params, frame size=16, strict=0, exc handler=0, debug info=0  @ offset 0x00000d08
+
+Bytecode listing:
+
+==> 00000000: <GetEnvironment>: <Reg8: 0, UInt8: 1>
+==> 00000003: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 0>
+==> 00000007: <LoadFromEnvironment>: <Reg8: 1, Reg8: 0, UInt8: 1>
+==> 0000000b: <LoadConstUInt8>: <Reg8: 0, UInt8: 3>
+==> 0000000e: <GetByVal>: <Reg8: 1, Reg8: 1, Reg8: 0>
+==> 00000012: <LoadConstUndefined>: <Reg8: 0>
+==> 00000014: <Call2>: <Reg8: 1, Reg8: 2, Reg8: 0, Reg8: 1>
+==> 00000019: <GetByIdShort>: <Reg8: 5, Reg8: 1, UInt8: 1, string_id: 60>  # String: 'SRNApiEventTrack' (Identifier)
+==> 0000001e: <GetByIdShort>: <Reg8: 4, Reg8: 5, UInt8: 2, string_id: 67>  # String: 'eventClick' (Identifier)
+==> 00000023: <NewObject>: <Reg8: 3>
+==> 00000025: <LoadParam>: <Reg8: 1, UInt8: 1>
+==> 00000028: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 1, string_id: 68>  # String: 'listen_clk' (Identifier)
+==> 0000002c: <LoadParam>: <Reg8: 1, UInt8: 2>
+==> 0000002f: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 1, string_id: 45>  # String: 'createroom_source' (Identifier)
+==> 00000033: <LoadParam>: <Reg8: 1, UInt8: 3>
+==> 00000036: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 1, string_id: 66>  # String: 'createroom_version' (Identifier)
+==> 0000003a: <LoadConstString>: <Reg8: 2, string_id: 37>  # String: 'listen_play_createRoom' (String)
+==> 0000003e: <LoadConstString>: <Reg8: 1, string_id: 0>  # String: '' (String)
+==> 00000042: <Call4>: <Reg8: 1, Reg8: 4, Reg8: 5, Reg8: 2, Reg8: 1, Reg8: 3>
+==> 00000049: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #16 "value" of 75 bytes]: 4 params, frame size=16, strict=0, exc handler=0, debug info=0  @ offset 0x00000d53
+
+Bytecode listing:
+
+==> 00000000: <GetEnvironment>: <Reg8: 0, UInt8: 1>
+==> 00000003: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 0>
+==> 00000007: <LoadFromEnvironment>: <Reg8: 1, Reg8: 0, UInt8: 1>
+==> 0000000b: <LoadConstUInt8>: <Reg8: 0, UInt8: 3>
+==> 0000000e: <GetByVal>: <Reg8: 1, Reg8: 1, Reg8: 0>
+==> 00000012: <LoadConstUndefined>: <Reg8: 0>
+==> 00000014: <Call2>: <Reg8: 1, Reg8: 2, Reg8: 0, Reg8: 1>
+==> 00000019: <GetByIdShort>: <Reg8: 5, Reg8: 1, UInt8: 1, string_id: 60>  # String: 'SRNApiEventTrack' (Identifier)
+==> 0000001e: <GetByIdShort>: <Reg8: 4, Reg8: 5, UInt8: 2, string_id: 67>  # String: 'eventClick' (Identifier)
+==> 00000023: <NewObject>: <Reg8: 3>
+==> 00000025: <LoadParam>: <Reg8: 1, UInt8: 1>
+==> 00000028: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 1, string_id: 40>  # String: 'before_tab' (Identifier)
+==> 0000002c: <LoadParam>: <Reg8: 1, UInt8: 2>
+==> 0000002f: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 1, string_id: 63>  # String: 'after_tab' (Identifier)
+==> 00000033: <LoadParam>: <Reg8: 1, UInt8: 3>
+==> 00000036: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 1, string_id: 45>  # String: 'createroom_source' (Identifier)
+==> 0000003a: <LoadConstString>: <Reg8: 2, string_id: 17>  # String: 'GroupChat_CreateRoomPage_SwitchTab' (String)
+==> 0000003e: <LoadConstString>: <Reg8: 1, string_id: 0>  # String: '' (String)
+==> 00000042: <Call4>: <Reg8: 1, Reg8: 4, Reg8: 5, Reg8: 2, Reg8: 1, Reg8: 3>
+==> 00000049: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #17 "value" of 95 bytes]: 1 params, frame size=16, strict=0, exc handler=0, debug info=0  @ offset 0x00000d9e
+
+Bytecode listing:
+
+==> 00000000: <GetEnvironment>: <Reg8: 0, UInt8: 1>
+==> 00000003: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 0>
+==> 00000007: <LoadFromEnvironment>: <Reg8: 1, Reg8: 0, UInt8: 1>
+==> 0000000b: <LoadConstUInt8>: <Reg8: 0, UInt8: 3>
+==> 0000000e: <GetByVal>: <Reg8: 1, Reg8: 1, Reg8: 0>
+==> 00000012: <LoadConstUndefined>: <Reg8: 0>
+==> 00000014: <Call2>: <Reg8: 1, Reg8: 2, Reg8: 0, Reg8: 1>
+==> 00000019: <GetByIdShort>: <Reg8: 5, Reg8: 1, UInt8: 1, string_id: 60>  # String: 'SRNApiEventTrack' (Identifier)
+==> 0000001e: <GetByIdShort>: <Reg8: 4, Reg8: 5, UInt8: 2, string_id: 67>  # String: 'eventClick' (Identifier)
+==> 00000023: <GetGlobalObject>: <Reg8: 1>
+==> 00000025: <TryGetById>: <Reg8: 1, Reg8: 1, UInt8: 3, string_id: 41>  # String: 'Date' (Identifier)
+==> 0000002b: <GetByIdShort>: <Reg8: 2, Reg8: 1, UInt8: 4, string_id: 53>  # String: 'prototype' (Identifier)
+==> 00000030: <CreateThis>: <Reg8: 2, Reg8: 2, Reg8: 1>
+==> 00000034: <Mov>: <Reg8: 9, Reg8: 2>
+==> 00000037: <Construct>: <Reg8: 1, Reg8: 1, UInt8: 1>
+==> 0000003b: <SelectObject>: <Reg8: 2, Reg8: 2, Reg8: 1>
+==> 0000003f: <GetByIdShort>: <Reg8: 1, Reg8: 2, UInt8: 5, string_id: 49>  # String: 'getTime' (Identifier)
+==> 00000044: <Call1>: <Reg8: 1, Reg8: 1, Reg8: 2>
+==> 00000048: <NewObject>: <Reg8: 3>
+==> 0000004a: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 1, string_id: 43>  # String: 'create_chatroom_time' (Identifier)
+==> 0000004e: <LoadConstString>: <Reg8: 2, string_id: 43>  # String: 'create_chatroom_time' (Identifier)
+==> 00000052: <LoadConstString>: <Reg8: 1, string_id: 0>  # String: '' (String)
+==> 00000056: <Call4>: <Reg8: 1, Reg8: 4, Reg8: 5, Reg8: 2, Reg8: 1, Reg8: 3>
+==> 0000005d: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #18 "value" of 61 bytes]: 2 params, frame size=16, strict=0, exc handler=0, debug info=0  @ offset 0x00000dfd
+
+Bytecode listing:
+
+==> 00000000: <GetEnvironment>: <Reg8: 0, UInt8: 1>
+==> 00000003: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 0>
+==> 00000007: <LoadFromEnvironment>: <Reg8: 1, Reg8: 0, UInt8: 1>
+==> 0000000b: <LoadConstUInt8>: <Reg8: 0, UInt8: 3>
+==> 0000000e: <GetByVal>: <Reg8: 1, Reg8: 1, Reg8: 0>
+==> 00000012: <LoadConstUndefined>: <Reg8: 0>
+==> 00000014: <Call2>: <Reg8: 1, Reg8: 2, Reg8: 0, Reg8: 1>
+==> 00000019: <GetByIdShort>: <Reg8: 5, Reg8: 1, UInt8: 1, string_id: 60>  # String: 'SRNApiEventTrack' (Identifier)
+==> 0000001e: <GetByIdShort>: <Reg8: 4, Reg8: 5, UInt8: 2, string_id: 67>  # String: 'eventClick' (Identifier)
+==> 00000023: <NewObject>: <Reg8: 3>
+==> 00000025: <LoadParam>: <Reg8: 1, UInt8: 1>
+==> 00000028: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 1, string_id: 42>  # String: 'create_chatroom_source' (Identifier)
+==> 0000002c: <LoadConstString>: <Reg8: 2, string_id: 10>  # String: 'create_chatroom_success' (String)
+==> 00000030: <LoadConstString>: <Reg8: 1, string_id: 0>  # String: '' (String)
+==> 00000034: <Call4>: <Reg8: 1, Reg8: 4, Reg8: 5, Reg8: 2, Reg8: 1, Reg8: 3>
+==> 0000003b: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #19 "value" of 75 bytes]: 4 params, frame size=16, strict=0, exc handler=0, debug info=0  @ offset 0x00000e3a
+
+Bytecode listing:
+
+==> 00000000: <GetEnvironment>: <Reg8: 0, UInt8: 1>
+==> 00000003: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 0>
+==> 00000007: <LoadFromEnvironment>: <Reg8: 1, Reg8: 0, UInt8: 1>
+==> 0000000b: <LoadConstUInt8>: <Reg8: 0, UInt8: 3>
+==> 0000000e: <GetByVal>: <Reg8: 1, Reg8: 1, Reg8: 0>
+==> 00000012: <LoadConstUndefined>: <Reg8: 0>
+==> 00000014: <Call2>: <Reg8: 1, Reg8: 2, Reg8: 0, Reg8: 1>
+==> 00000019: <GetByIdShort>: <Reg8: 5, Reg8: 1, UInt8: 1, string_id: 60>  # String: 'SRNApiEventTrack' (Identifier)
+==> 0000001e: <GetByIdShort>: <Reg8: 4, Reg8: 5, UInt8: 2, string_id: 67>  # String: 'eventClick' (Identifier)
+==> 00000023: <NewObject>: <Reg8: 3>
+==> 00000025: <LoadParam>: <Reg8: 1, UInt8: 1>
+==> 00000028: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 1, string_id: 44>  # String: 'time' (Identifier)
+==> 0000002c: <LoadParam>: <Reg8: 1, UInt8: 2>
+==> 0000002f: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 1, string_id: 57>  # String: 'roomId' (Identifier)
+==> 00000033: <LoadParam>: <Reg8: 1, UInt8: 3>
+==> 00000036: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 1, string_id: 50>  # String: 'pagesource' (Identifier)
+==> 0000003a: <LoadConstString>: <Reg8: 2, string_id: 38>  # String: 'openprivatechatroom' (String)
+==> 0000003e: <LoadConstString>: <Reg8: 1, string_id: 0>  # String: '' (String)
+==> 00000042: <Call4>: <Reg8: 1, Reg8: 4, Reg8: 5, Reg8: 2, Reg8: 1, Reg8: 3>
+==> 00000049: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #20 "" of 4 bytes]: 1 params, frame size=1, strict=0, exc handler=0, debug info=0  @ offset 0x00000e85
+
+Bytecode listing:
+
+==> 00000000: <LoadConstUndefined>: <Reg8: 0>
+==> 00000002: <Ret>: <Reg8: 0>
+
+
+===============
+

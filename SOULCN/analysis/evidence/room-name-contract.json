@@ -1,0 +1,40 @@
+[
+  {
+    "dex_member": "classes11.dex",
+    "dex_sha256": "a33ff9712ed0e553e89e38d2efc820c0dd7340b917ecd077bd0e45f866f31033",
+    "class": "Lcn/soulapp/android/chatroom/api/IRoomApi;",
+    "method": {
+      "class": "Lcn/soulapp/android/chatroom/api/IRoomApi;",
+      "name": "validateTopic",
+      "proto_index": 6518,
+      "index": 22248,
+      "code_offset": 0,
+      "annotations": [
+        {
+          "type": "Ldalvik/annotation/Signature;",
+          "values": {
+            "value": [
+              "(",
+              "Ljava/lang/String;",
+              ")",
+              "Lrs0/e<",
+              "Lcn/soulapp/android/net/HttpResult<",
+              "Ljava/lang/Object;",
+              ">;>;"
+            ]
+          }
+        },
+        {
+          "type": "Lretrofit2/http/FormUrlEncoded;",
+          "values": {}
+        },
+        {
+          "type": "Lretrofit2/http/POST;",
+          "values": {
+            "value": "chatroom/validate/room-name"
+          }
+        }
+      ]
+    }
+  }
+]

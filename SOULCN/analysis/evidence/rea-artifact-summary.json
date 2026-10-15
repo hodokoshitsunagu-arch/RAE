@@ -1,0 +1,34 @@
+{
+  "publication_scope": "Summary only; full canonical Evidence record retained locally and omitted from Git",
+  "full_record_filename": "rea-artifact.json",
+  "full_record_bytes": 29019417,
+  "full_record_sha256": "20735d53f5521af1d927b0487b690090210690c595dc6059661de2083b9f06f0",
+  "evidence_id": "ev_f0be4823c90b0a266ded291c46b4fc9d49bf32f297219c319ce8f56a9aaa6e6d",
+  "subject": {
+    "name": "Soul-CN-6.38.0-arm64-v8a.apk",
+    "digest": {
+      "sha256": "af8031d67553fade39e091576c88a6a9f67db3d863fdfcaaa5fe11ce51abf558"
+    },
+    "format": "apk",
+    "architecture": null,
+    "local_path": "/Users/mark/Projects/REA/SOULCN/Soul-CN-6.38.0-arm64-v8a.apk"
+  },
+  "provider": {
+    "id": "rea-artifact-graph",
+    "name": "REA safe artifact graph provider",
+    "version": "1"
+  },
+  "operation": "inspect_artifact",
+  "parameters": {
+    "integrity_policy": "fail"
+  },
+  "confidence": "observed",
+  "authority": "shipped-artifact",
+  "limitations": [
+    "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+    "Logical archive names collide under English (en-US) Unicode case folding; a case-insensitive destination cannot store both spellings. This comparison is not a filesystem observation.",
+    "ZIP inventory lists central-directory entries only. Bytes after the central directory, including an APK Signing Block or a ZIP comment, are not occurrences."
+  ],
+  "result_summary": null,
+  "statistics": null
+}

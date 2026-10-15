@@ -1,0 +1,10 @@
+{
+  "tests": 20,
+  "pass": 20,
+  "fail": 0,
+  "cancelled": 0,
+  "skipped": 0,
+  "command": "node --test --test-reporter=tap model.test.mjs",
+  "scope": "offline demo state transitions",
+  "checked_at_utc": "2026-10-15T09:32:06.975982+00:00"
+}

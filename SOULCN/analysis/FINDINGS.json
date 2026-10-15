@@ -1,0 +1,126 @@
+{
+  "scope": "This APK and byte-matching fixed RN dependencies only",
+  "runtime_observed": false,
+  "findings": [
+    {
+      "id": "F01",
+      "finding": "开房Native/RN路由分流",
+      "evidence_type": "observed static branch",
+      "source": "java/cn/soulapp/cpnt_voiceparty/ui/CreateChatRoomRouter.java",
+      "line_start": 1143,
+      "line_end": 1155
+    },
+    {
+      "id": "F02",
+      "finding": "Native开房tabs与目录模型",
+      "evidence_type": "derived from decompilation",
+      "source": "java/cn/soulapp/cpnt_voiceparty/createroom/CreateChatRoomNewActivity.java",
+      "line_start": 1009,
+      "line_end": 1040
+    },
+    {
+      "id": "F03",
+      "finding": "Native模式选择联动",
+      "evidence_type": "derived from decompilation",
+      "source": "java/cn/soulapp/cpnt_voiceparty/createroom/CreateChatRoomNewActivity.java",
+      "line_start": 1725,
+      "line_end": 1756
+    },
+    {
+      "id": "F04",
+      "finding": "Native创建按钮gating",
+      "evidence_type": "derived from decompilation",
+      "source": "java/cn/soulapp/cpnt_voiceparty/createroom/CreateChatRoomNewActivity.java",
+      "line_start": 2450,
+      "line_end": 2475
+    },
+    {
+      "id": "F05",
+      "finding": "API声明live/create",
+      "evidence_type": "observed static declaration",
+      "source": "java/cn/soulapp/cpnt_voiceparty/api/ISoulHouse.java",
+      "line_start": 712,
+      "line_end": 715
+    },
+    {
+      "id": "F06",
+      "finding": "新旧房内入口实验",
+      "evidence_type": "derived from decompilation",
+      "source": "java/cn/soulapp/cpnt_voiceparty/soulhouse/bottom/BottomCommonBlock.java",
+      "line_start": 2138,
+      "line_end": 2143
+    },
+    {
+      "id": "F07",
+      "finding": "类型与游戏/附加功能不同",
+      "evidence_type": "derived semantics",
+      "source": "mode-catalog.json",
+      "line_start": 1,
+      "line_end": null
+    },
+    {
+      "id": "F08",
+      "finding": "派对状态0/1/2即时callback",
+      "evidence_type": "static JS observed",
+      "source": "rn/status-readable.js",
+      "line_start": 273,
+      "line_end": 308
+    },
+    {
+      "id": "F09",
+      "finding": "仅挚友两项字符串开关",
+      "evidence_type": "static JS observed",
+      "source": "rn/status-readable.js",
+      "line_start": 1142,
+      "line_end": 1216
+    },
+    {
+      "id": "F10",
+      "finding": "RN5列选择模式",
+      "evidence_type": "derived with disassembly corroboration",
+      "source": "rn/disassembly/10000171.pseudo.js",
+      "line_start": 8690,
+      "line_end": 8743
+    },
+    {
+      "id": "F11",
+      "finding": "RN创建APIs与权限",
+      "evidence_type": "derived with disassembly corroboration",
+      "source": "rn/CREATE-RN-FINDINGS.md",
+      "line_start": 1,
+      "line_end": null
+    },
+    {
+      "id": "F12",
+      "finding": "房内角色矩阵",
+      "evidence_type": "derived from independent handlers",
+      "source": "room-settings/REPORT.md",
+      "line_start": 1,
+      "line_end": null
+    },
+    {
+      "id": "F13",
+      "finding": "全部/最近/二级玩法目录",
+      "evidence_type": "derived from decompilation",
+      "source": "room-settings/REPORT.md",
+      "line_start": 1,
+      "line_end": null
+    },
+    {
+      "id": "F14",
+      "finding": "PK/海龟汤/进行中专用确认",
+      "evidence_type": "derived from independent handlers",
+      "source": "room-settings/REPORT.md",
+      "line_start": 1,
+      "line_end": null
+    }
+  ],
+  "unknowns": [
+    "Live account experiments and hotfix",
+    "Current server catalogue/order/images",
+    "Backend authorization and responses",
+    "Full conflict matrix and all game stages",
+    "Android runtime screenshots, voice and multiplayer",
+    "RN create button secondary zero-value gate source"
+  ]
+}

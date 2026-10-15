@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.com.hjq.shape.view.ShapeTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:textColor="#bababa"
+    android:gravity="center"
+    android:id="@+id/text"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    app:shape_radius="8dp"
+    app:shape_solidColor="#1affffff"
+    app:shape_solidSelectedColor="#3325d4d0"
+    app:shape_textSelectedColor="#25d4d0"/>

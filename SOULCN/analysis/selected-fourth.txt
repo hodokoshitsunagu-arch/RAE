@@ -1,0 +1,6 @@
+cn.soulapp.cpnt_voiceparty.bean.FunctionBean
+cn.soulapp.cpnt_voiceparty.soulhouse.bottom.BottomGroupBlock
+cn.soulapp.cpnt_voiceparty.soulhouse.common.CommonBusinessBlock
+cn.soulapp.cpnt_voiceparty.soulhouse.common.RoomInfoBlock
+cn.soulapp.cpnt_voiceparty.util.e
+cn.soulapp.cpnt_voiceparty.soulhouse.videolive.dialog.AuctionPkSwitchDialog

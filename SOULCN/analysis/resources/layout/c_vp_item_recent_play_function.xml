@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/ivFuncIcon"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ImageView
+        android:id="@+id/ivFuncOpened"
+        android:background="@drawable/c_vp_icon_recent_func_open"
+        android:visibility="gone"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        app:layout_constraintEnd_toEndOf="@+id/ivFuncIcon"
+        app:layout_constraintStart_toStartOf="@+id/ivFuncIcon"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textSize="12sp"
+        android:textColor="@color/color_bababa"
+        android:id="@+id/tvFuncName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="@+id/ivFuncIcon"
+        app:layout_constraintStart_toStartOf="@+id/ivFuncIcon"
+        app:layout_constraintTop_toBottomOf="@+id/ivFuncIcon"/>
+    <cn.soulapp.android.chatroom.dynamic.PartyMateImageView
+        android:id="@+id/tag"
+        android:layout_width="26dp"
+        android:layout_height="16dp"
+        app:layout_constraintRight_toRightOf="@+id/ivFuncIcon"
+        app:layout_constraintTop_toTopOf="@+id/ivFuncIcon"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

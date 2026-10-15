@@ -1,0 +1,229 @@
+{
+  "target": {
+    "app": "Soul 中国版",
+    "package_name": "cn.soulapp.android",
+    "version_name": "6.38.0",
+    "version_code": 26092202,
+    "abis": [
+      "arm64-v8a"
+    ],
+    "filename": "Soul-CN-6.38.0-arm64-v8a.apk",
+    "size_bytes": 166856887,
+    "sha256": "af8031d67553fade39e091576c88a6a9f67db3d863fdfcaaa5fe11ce51abf558",
+    "official_page": "https://www.soulapp.cn/",
+    "download_url": "https://china-img.soulapp.cn/apk/channel/soul_channel_soul64.apk",
+    "version_crosscheck": {
+      "url": "https://sj.qq.com/appdetail/cn.soulapp.android",
+      "listed_version": "6.38.0",
+      "listed_update_date": "2026-09-28"
+    },
+    "retrieved_at_utc": "2026-10-15T09:09:00.235107+00:00",
+    "validation": {
+      "zip_crc": "all entries passed",
+      "manifest": "binary AndroidManifest.xml parsed",
+      "signature_verification": "not performed"
+    }
+  },
+  "investigation_date": "2026-10-15",
+  "original_android_app_executed": false,
+  "live_business_api_called": false,
+  "rea": {
+    "version": "6.4.0",
+    "launch": "existing cached npm package public scripts/rea.mjs",
+    "artifact_evidence_id": "ev_f0be4823c90b0a266ded291c46b4fc9d49bf32f297219c319ce8f56a9aaa6e6d",
+    "rn_status_evidence_id": "ev_ebe60328f459020dc153ed82b340cec54b894245e01b27d474bb8921ca8ef913",
+    "android_provider": "unavailable: required MCP jar not supplied; error retained"
+  },
+  "jadx": {
+    "version": "1.5.6",
+    "jar_path": "/Users/mark/Projects/REA/ToResearch/SOUL/analysis/drawsomething/jadx/lib/jadx-1.5.6-all.jar",
+    "jar_sha256": "fe3e12c45acf75f92369685fd02d1d7a7323385dc725680a9b98a0dac0ea554b",
+    "generated_top_level_files": 162,
+    "method_decompilation_failure_markers": []
+  },
+  "java": {
+    "version": "26.0.1",
+    "vendor": "existing Homebrew OpenJDK",
+    "home": "/opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home"
+  },
+  "dex_inventory": [
+    {
+      "member": "classes.dex",
+      "sha256": "1df8df7afabe9343717473f06feb086731b4443b30d255ced2c1c4b3788d5386",
+      "class_rows": 9962,
+      "strings": 69903
+    },
+    {
+      "member": "classes10.dex",
+      "sha256": "a62d1f5c0dcbf8e84a69f5ac72efe298f3c26d5f57ed508ff64a0709d08f5ad4",
+      "class_rows": 9274,
+      "strings": 80223
+    },
+    {
+      "member": "classes11.dex",
+      "sha256": "a33ff9712ed0e553e89e38d2efc820c0dd7340b917ecd077bd0e45f866f31033",
+      "class_rows": 9223,
+      "strings": 56643
+    },
+    {
+      "member": "classes12.dex",
+      "sha256": "9e8ab05c64820248b05a1541e950031cd4204543bd20f866c09cc34522a62ff7",
+      "class_rows": 9532,
+      "strings": 53118
+    },
+    {
+      "member": "classes13.dex",
+      "sha256": "e6e8f752dd62f25ec43b0dcd11bf4d1686e9b27a4194c396a17c8d47723117ba",
+      "class_rows": 9635,
+      "strings": 56059
+    },
+    {
+      "member": "classes14.dex",
+      "sha256": "64026c6c5fce0925383f9a429e0b1a90a4569ca9703829947c2111735cdf7a0f",
+      "class_rows": 9813,
+      "strings": 51927
+    },
+    {
+      "member": "classes15.dex",
+      "sha256": "2c63f143379f1ec52b2d60ccf0c31a3a048dbb073669436b3222242bd75aba9e",
+      "class_rows": 9501,
+      "strings": 51631
+    },
+    {
+      "member": "classes16.dex",
+      "sha256": "45fb48564ea21a6d25ab4726f6417ae94fbc5e0a9466de0b5ed10fbd9e48db4c",
+      "class_rows": 5982,
+      "strings": 52985
+    },
+    {
+      "member": "classes17.dex",
+      "sha256": "78d6eac7a1b0116ab61f857cfb657b16354acb1435068b9e2606c060a41354ff",
+      "class_rows": 9024,
+      "strings": 59955
+    },
+    {
+      "member": "classes2.dex",
+      "sha256": "1b9eef8a256a96e29a41155ac8d75db32e1877e73475338e75d852c096307783",
+      "class_rows": 9746,
+      "strings": 55243
+    },
+    {
+      "member": "classes3.dex",
+      "sha256": "3110d0ec1e67a26cf4083e14104edbe6982e26cfd4fa7048cecce10f0cf22cc0",
+      "class_rows": 9512,
+      "strings": 58827
+    },
+    {
+      "member": "classes4.dex",
+      "sha256": "b351f0a7890aec5c29baf003e51c3965774245d0495870bdcced769f7b1c6ac0",
+      "class_rows": 8429,
+      "strings": 66166
+    },
+    {
+      "member": "classes5.dex",
+      "sha256": "08aa9fd11bceaee019b1869ec15ca0136fa3c5c6e006f93feeca2b7a7eb7dc09",
+      "class_rows": 7268,
+      "strings": 51296
+    },
+    {
+      "member": "classes6.dex",
+      "sha256": "acd60505765a8e27c99495b011b5f8aa015e546fb749b584f7e71a22f2b5f48a",
+      "class_rows": 6963,
+      "strings": 57667
+    },
+    {
+      "member": "classes7.dex",
+      "sha256": "9be1ab3d180fcfc467eab965df0ad989c0d1f6b37d9988831248ea3452dd1d50",
+      "class_rows": 8137,
+      "strings": 87686
+    },
+    {
+      "member": "classes8.dex",
+      "sha256": "c82dab0edfd8e8c56a59fce63b6fa96a50634eb77a6e1a32acf6a8660aa7f4c4",
+      "class_rows": 9849,
+      "strings": 72258
+    },
+    {
+      "member": "classes9.dex",
+      "sha256": "afeb29751cde25a17446d23afbfe4dc246b18a2406337c7c2ed9c045c8b1fcdb",
+      "class_rows": 3773,
+      "strings": 30671
+    }
+  ],
+  "hermes": {
+    "tool": "P1sec/hermes-dec",
+    "source": "https://github.com/P1sec/hermes-dec",
+    "commit": "2e796663e1fedb93dca51060797ebf3327b3fedb",
+    "bundle_version": 94,
+    "carrier_modules": 348,
+    "selected_modules": 12,
+    "unparsed_ranges": [
+      {
+        "offset": 857260,
+        "length": 1465350,
+        "sha256": "ed3b016b77e8a7372b70f74acf56ba02fa794dcffab5c6e07f8de5f0a9b8f393"
+      }
+    ],
+    "interpretation": "12 selected modules disassembled; all348module headers parsed; trailing1465350carrier bytes not decoded asJS"
+  },
+  "rn_dependencies": [
+    {
+      "page_id": "soul_rn_room_status_setting",
+      "version": "4.60.72",
+      "source_url_from_apk": "https://soul-bundles.soulapp.cn/rn_sources/prod/srn-prod-new/android_soul_rn_room_status_setting_4.60.72.zip",
+      "archive_size": 10191,
+      "archive_sha256": "10641a9364bc90d67cc917ca0a5d11f3a722bca6885767fcdecc1ea698b6efa7",
+      "archive_md5": "06dfa378829f6b3436a91038147a2b55",
+      "apk_config_dm5": "b44ded96205576b3d6ba504d62d0de6e",
+      "digest_scope": "bundle member; not the ZIP carrier",
+      "members": [
+        {
+          "name": "soul_rn_room_status_setting.bundle",
+          "bytes": 33407,
+          "sha256": "8d3b46e40ca19cb2581df36ddce98d9336d19c65631cd8ad7597e130c6e68629",
+          "md5": "b44ded96205576b3d6ba504d62d0de6e",
+          "matches_apk_config_dm5": true
+        },
+        {
+          "name": "version2",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "md5": "d41d8cd98f00b204e9800998ecf8427e"
+        }
+      ]
+    },
+    {
+      "page_id": "soul_rn_club_party",
+      "version": "4.82.21",
+      "source_url_from_apk": "https://soul-bundles.soulapp.cn/rn_sources/prod/srn-prod-new/android_soul_rn_club_party_4.82.21.zip",
+      "archive_size": 1893033,
+      "archive_sha256": "dcb9046e8b4c1ab39442467f92b16d40c1f3b4389a8463874af7edf75c37b311",
+      "archive_md5": "c22ede19fe04b91abbb20cb5afa4be88",
+      "apk_config_dm5": "c09585c33e2bea6db5d305a14f38c189",
+      "digest_scope": "bundle member; not the ZIP carrier",
+      "members": [
+        {
+          "name": "soul_rn_club_party.bundle",
+          "bytes": 2322610,
+          "sha256": "8f9e3ca0d58abab0ce8761c1737af9e43d9d3971740540be584d603248b83a78",
+          "md5": "c09585c33e2bea6db5d305a14f38c189",
+          "matches_apk_config_dm5": true
+        },
+        {
+          "name": "version2",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "md5": "d41d8cd98f00b204e9800998ecf8427e"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "No Android runtime or account observation",
+    "Server catalog/experiments/current hotfix unknown",
+    "Client declarations are not backend authorization",
+    "Some JADX methods have broken control-flow",
+    "Only selected Hermes modules disassembled; pseudocode is not runnable source",
+    "No APK signature verification"
+  ]
+}

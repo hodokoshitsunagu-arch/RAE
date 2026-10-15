@@ -1,0 +1,2789 @@
+{
+  "scope": "Selected layout definitions only; resource presence is not proof of active runtime route. Line numbers refer to JADX decoded XML.",
+  "layouts": [
+    {
+      "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_activity_create_chat_room_layout_old.xml",
+      "controls": [
+        {
+          "tag": "FrameLayout",
+          "line": 4,
+          "attributes": {
+            "orientation": "vertical",
+            "id": "@+id/rl_room_name",
+            "background": "@color/color_s_00",
+            "layout_width": "match_parent",
+            "layout_height": "match_parent"
+          }
+        },
+        {
+          "tag": "View",
+          "line": 12,
+          "attributes": {
+            "id": "@+id/image_close",
+            "background": "@drawable/icon_group_create_close",
+            "layout_width": "30dp",
+            "layout_height": "30dp",
+            "layout_marginLeft": "16dp",
+            "layout_marginRight": "16dp",
+            "layout_alignParentLeft": "true",
+            "layout_centerVertical": "true"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 25,
+          "attributes": {
+            "textSize": "16sp",
+            "textStyle": "bold",
+            "textColor": "@color/color_s_02",
+            "layout_gravity": "center",
+            "id": "@+id/tv_title",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "text": "@string/create_new_chatroom",
+            "layout_centerInParent": "true"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 35,
+          "attributes": {
+            "enabled": "false",
+            "textSize": "14sp",
+            "textColor": "@color/group_item_confirm_text",
+            "gravity": "center",
+            "id": "@+id/tv_college",
+            "background": "@drawable/c_vp_selector_bg_create_room_btn",
+            "paddingLeft": "@dimen/dp_10",
+            "paddingTop": "3dp",
+            "paddingRight": "@dimen/dp_10",
+            "paddingBottom": "3dp",
+            "layout_width": "wrap_content",
+            "layout_height": "28dp",
+            "minWidth": "52dp",
+            "text": "群主学院",
+            "layout_alignParentRight": "true",
+            "layout_centerVertical": "true",
+            "layout_marginStart": "15dp",
+            "layout_marginEnd": "@dimen/dp_10"
+          }
+        },
+        {
+          "tag": "LinearLayout",
+          "line": 57,
+          "attributes": {
+            "orientation": "vertical",
+            "id": "@+id/ll_room_name",
+            "paddingBottom": "16dp",
+            "layout_width": "match_parent",
+            "layout_height": "wrap_content"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 72,
+          "attributes": {
+            "textSize": "14dp",
+            "textStyle": "bold",
+            "textColor": "@color/color_s_02",
+            "gravity": "center_vertical",
+            "paddingLeft": "16dp",
+            "paddingRight": "16dp",
+            "layout_width": "match_parent",
+            "layout_height": "wrap_content",
+            "layout_marginTop": "16dp",
+            "layout_marginBottom": "16dp",
+            "text": "选择一个派对类型"
+          }
+        },
+        {
+          "tag": "androidx.recyclerview.widget.RecyclerView",
+          "line": 74,
+          "attributes": {
+            "id": "@+id/rv_classify",
+            "layout_width": "match_parent",
+            "layout_height": "wrap_content",
+            "requiresFadingEdge": "vertical",
+            "paddingStart": "4dp",
+            "paddingEnd": "16dp"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 85,
+          "attributes": {
+            "textSize": "14dp",
+            "textStyle": "bold",
+            "textColor": "@color/color_s_02",
+            "gravity": "center_vertical",
+            "id": "@+id/tv_play_type",
+            "paddingLeft": "16dp",
+            "paddingRight": "16dp",
+            "layout_width": "match_parent",
+            "layout_height": "wrap_content",
+            "layout_marginTop": "6dp",
+            "layout_marginBottom": "4dp",
+            "text": "选择派对主题"
+          }
+        },
+        {
+          "tag": "cn.soulapp.cpnt_voiceparty.widget.TagRecyclerView",
+          "line": 94,
+          "attributes": {
+            "id": "@+id/rv_room_tag",
+            "layout_width": "match_parent",
+            "layout_height": "wrap_content",
+            "requiresFadingEdge": "vertical",
+            "paddingStart": "16dp",
+            "paddingEnd": "16dp"
+          }
+        },
+        {
+          "tag": "EditText",
+          "line": 115,
+          "attributes": {
+            "textSize": "15sp",
+            "textColor": "@color/color_s_02",
+            "textColorHint": "@color/color_s_06",
+            "gravity": "center_vertical",
+            "id": "@+id/et_room_name",
+            "background": "@color/transparent",
+            "layout_width": "0dp",
+            "layout_height": "match_parent",
+            "hint": "@string/c_vp_create_chat_room_remainder_times",
+            "singleLine": "true",
+            "maxLength": "15",
+            "layout_weight": "1",
+            "paddingStart": "15dp"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 129,
+          "attributes": {
+            "textSize": "13sp",
+            "textColor": "@color/color_s_01",
+            "gravity": "center",
+            "layout_gravity": "center",
+            "id": "@+id/tv_random",
+            "layout_width": "wrap_content",
+            "layout_height": "match_parent",
+            "drawablePadding": "3dp",
+            "drawableStart": "@drawable/icon_room_random_new",
+            "paddingStart": "16dp",
+            "paddingEnd": "16dp"
+          }
+        },
+        {
+          "tag": "androidx.constraintlayout.widget.ConstraintLayout",
+          "line": 141,
+          "attributes": {
+            "id": "@+id/vg_history_name",
+            "visibility": "gone",
+            "layout_width": "match_parent",
+            "layout_height": "40dp"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 148,
+          "attributes": {
+            "textSize": "14dp",
+            "textColor": "@color/color_s_15",
+            "id": "@+id/tv_history_title",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "text": "历史群名",
+            "layout_marginStart": "16dp",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintLeft_toLeftOf": "parent",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 160,
+          "attributes": {
+            "textSize": "14dp",
+            "textColor": "@color/color_s03",
+            "ellipsize": "end",
+            "id": "@+id/tv_first_history_name",
+            "background": "@drawable/c_vp_s14_lt13",
+            "paddingLeft": "10dp",
+            "paddingTop": "3dp",
+            "paddingRight": "10dp",
+            "paddingBottom": "3dp",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "lines": "1",
+            "layout_marginStart": "4dp",
+            "layout_marginEnd": "9dp",
+            "layout_constrainedWidth": "true",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintHorizontal_bias": "0",
+            "layout_constraintLeft_toRightOf": "@+id/tv_history_title",
+            "layout_constraintRight_toLeftOf": "@+id/tv_history_more",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 175,
+          "attributes": {
+            "textSize": "13dp",
+            "textColor": "@color/color_s_19",
+            "gravity": "center_vertical",
+            "id": "@+id/tv_history_more",
+            "visibility": "gone",
+            "layout_width": "wrap_content",
+            "layout_height": "match_parent",
+            "text": "更多",
+            "drawablePadding": "2dp",
+            "drawableEnd": "@drawable/icon_message_more_topic",
+            "paddingEnd": "16dp",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintRight_toRightOf": "parent",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 198,
+          "attributes": {
+            "textSize": "14dp",
+            "textStyle": "bold",
+            "textColor": "@color/color_s_02",
+            "gravity": "center_vertical",
+            "id": "@+id/tv_select_fm_code",
+            "paddingLeft": "16dp",
+            "paddingRight": "16dp",
+            "layout_width": "match_parent",
+            "layout_height": "40dp",
+            "layout_marginBottom": "4dp",
+            "text": "选择房间FM号"
+          }
+        },
+        {
+          "tag": "androidx.constraintlayout.widget.ConstraintLayout",
+          "line": 207,
+          "attributes": {
+            "orientation": "horizontal",
+            "id": "@+id/selectFmContainer",
+            "background": "@drawable/bg_s14_corner_8",
+            "focusable": "true",
+            "focusableInTouchMode": "true",
+            "clickable": "true",
+            "layout_width": "match_parent",
+            "layout_height": "48dp",
+            "layout_marginLeft": "16dp",
+            "layout_marginTop": "16dp",
+            "layout_marginRight": "16dp"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 220,
+          "attributes": {
+            "textSize": "14sp",
+            "textColor": "@color/color_s_02",
+            "id": "@+id/lastFmCode",
+            "background": "@drawable/bg_s14_corner_8",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "layout_marginStart": "15dp",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "cn.com.hjq.shape.view.ShapeTextView",
+          "line": 233,
+          "attributes": {
+            "textSize": "12dp",
+            "textStyle": "bold",
+            "textColor": "@color/color_bababa",
+            "gravity": "center_vertical",
+            "id": "@+id/selectFmCode",
+            "layout_width": "wrap_content",
+            "layout_height": "match_parent",
+            "text": "更多FM号",
+            "drawableRight": "@drawable/c_vp_fm_arrow_right",
+            "paddingEnd": "10dp",
+            "layout_constraintBottom_toBottomOf": "@+id/lastFmCode",
+            "layout_constraintEnd_toEndOf": "parent",
+            "layout_constraintTop_toTopOf": "@+id/lastFmCode"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 254,
+          "attributes": {
+            "textSize": "14dp",
+            "textStyle": "bold",
+            "textColor": "@color/color_s_02",
+            "gravity": "center_vertical",
+            "paddingLeft": "16dp",
+            "paddingRight": "16dp",
+            "layout_width": "match_parent",
+            "layout_height": "wrap_content",
+            "layout_marginTop": "24dp",
+            "layout_marginBottom": "18dp",
+            "text": "选择派对背景图"
+          }
+        },
+        {
+          "tag": "FrameLayout",
+          "line": 257,
+          "attributes": {
+            "layout_gravity": "center_horizontal",
+            "id": "@+id/fl_bg_container",
+            "layout_width": "match_parent",
+            "layout_height": "wrap_content"
+          }
+        },
+        {
+          "tag": "androidx.constraintlayout.widget.ConstraintLayout",
+          "line": 261,
+          "attributes": {
+            "id": "@+id/groupContainer",
+            "visibility": "gone",
+            "layout_width": "match_parent",
+            "layout_height": "wrap_content",
+            "layout_marginTop": "20dp"
+          }
+        },
+        {
+          "tag": "ImageView",
+          "line": 267,
+          "attributes": {
+            "id": "@+id/img_join_status",
+            "layout_width": "45dp",
+            "layout_height": "26dp",
+            "src": "@drawable/c_ct_groupchat_icon_setting_switch_off",
+            "layout_marginEnd": "16dp",
+            "layout_constraintRight_toRightOf": "parent"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 276,
+          "attributes": {
+            "textSize": "15dp",
+            "textColor": "@color/color_s_02",
+            "id": "@+id/tv_party_show",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "text": "允许所有souler加入该派对",
+            "layout_marginStart": "16dp",
+            "layout_constraintBottom_toBottomOf": "@+id/img_join_status",
+            "layout_constraintLeft_toLeftOf": "parent",
+            "layout_constraintTop_toTopOf": "@+id/img_join_status"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 287,
+          "attributes": {
+            "textSize": "13sp",
+            "textColor": "@color/color_s_06",
+            "id": "@+id/tv_join_promt",
+            "paddingBottom": "16dp",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "layout_marginLeft": "16dp",
+            "layout_marginTop": "6dp",
+            "text": "关闭时，派对入口仅本群成员及其关注者可见",
+            "layout_constraintLeft_toLeftOf": "parent",
+            "layout_constraintTop_toBottomOf": "@+id/img_join_status"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 305,
+          "attributes": {
+            "enabled": "false",
+            "textSize": "14sp",
+            "textColor": "@color/group_item_confirm_text",
+            "gravity": "center",
+            "layout_gravity": "bottom|center_horizontal",
+            "id": "@+id/tv_confirm",
+            "background": "@drawable/c_vp_selector_bg_create_room_btn",
+            "paddingLeft": "10dp",
+            "paddingTop": "3dp",
+            "paddingRight": "10dp",
+            "paddingBottom": "3dp",
+            "visibility": "gone",
+            "layout_width": "248dp",
+            "layout_height": "40dp",
+            "layout_marginBottom": "66dp",
+            "minWidth": "52dp",
+            "text": "创建派对",
+            "layout_marginStart": "15dp",
+            "layout_marginEnd": "20dp"
+          }
+        }
+      ]
+    },
+    {
+      "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_activity_create_chat_room_new_layout.xml",
+      "controls": [
+        {
+          "tag": "ImageView",
+          "line": 6,
+          "attributes": {
+            "id": "@+id/backgroundIv",
+            "layout_width": "match_parent",
+            "layout_height": "match_parent",
+            "src": "@drawable/c_vp_create_room_page_bg",
+            "scaleType": "centerCrop"
+          }
+        },
+        {
+          "tag": "cn.soulapp.android.chatroom.dynamic.PartyLottieAnimationView",
+          "line": 12,
+          "attributes": {
+            "id": "@+id/playDemoLv",
+            "background": "@drawable/c_vp_create_room_page_bg",
+            "visibility": "gone",
+            "layout_width": "match_parent",
+            "layout_height": "match_parent",
+            "scaleType": "centerCrop",
+            "lottie_loop": "true"
+          }
+        },
+        {
+          "tag": "androidx.viewpager2.widget.ViewPager2",
+          "line": 24,
+          "attributes": {
+            "id": "@+id/viewPager",
+            "layout_width": "match_parent",
+            "layout_height": "match_parent"
+          }
+        },
+        {
+          "tag": "com.google.android.material.tabs.TabLayout",
+          "line": 28,
+          "attributes": {
+            "id": "@+id/tabLayout",
+            "clipChildren": "false",
+            "clipToPadding": "false",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "layout_marginTop": "34dp",
+            "indicator_height": "0dp",
+            "layout_constraintEnd_toEndOf": "parent",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toTopOf": "parent",
+            "tabGravity": "center",
+            "tabIndicatorHeight": "0dp",
+            "tabMode": "fixed",
+            "tabPaddingEnd": "0dp",
+            "tabPaddingStart": "0dp",
+            "tabRippleColor": "@null"
+          }
+        },
+        {
+          "tag": "ImageView",
+          "line": 45,
+          "attributes": {
+            "id": "@+id/closeIv",
+            "layout_width": "30dp",
+            "layout_height": "30dp",
+            "src": "@drawable/icon_group_create_close",
+            "layout_marginStart": "10dp",
+            "layout_constraintBottom_toBottomOf": "@+id/tabLayout",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toTopOf": "@+id/tabLayout",
+            "tint": "@color/white"
+          }
+        },
+        {
+          "tag": "androidx.recyclerview.widget.RecyclerView",
+          "line": 56,
+          "attributes": {
+            "orientation": "horizontal",
+            "id": "@+id/playTypeRv",
+            "visibility": "gone",
+            "layout_width": "0dp",
+            "layout_height": "74dp",
+            "layout_marginTop": "8dp",
+            "minHeight": "74dp",
+            "layout_marginStart": "16dp",
+            "layoutManager": "androidx.recyclerview.widget.LinearLayoutManager",
+            "layout_constraintEnd_toEndOf": "parent",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toBottomOf": "@+id/tabLayout"
+          }
+        },
+        {
+          "tag": "androidx.recyclerview.widget.RecyclerView",
+          "line": 69,
+          "attributes": {
+            "orientation": "horizontal",
+            "id": "@+id/gameTypeRv",
+            "visibility": "gone",
+            "layout_width": "0dp",
+            "layout_height": "74dp",
+            "layout_marginTop": "8dp",
+            "minHeight": "74dp",
+            "layout_marginStart": "16dp",
+            "layoutManager": "androidx.recyclerview.widget.LinearLayoutManager",
+            "layout_constraintEnd_toEndOf": "parent",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toBottomOf": "@+id/tabLayout"
+          }
+        },
+        {
+          "tag": "androidx.constraintlayout.widget.Barrier",
+          "line": 81,
+          "attributes": {
+            "id": "@+id/cardBarrier",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "barrierDirection": "bottom",
+            "constraint_referenced_ids": "playTypeRv,gameTypeRv"
+          }
+        },
+        {
+          "tag": "cn.soulapp.cpnt_voiceparty.createroom.ui.CreateRoomPageRoomInfoView",
+          "line": 87,
+          "attributes": {
+            "id": "@+id/roomInfoContainer",
+            "layout_width": "match_parent",
+            "layout_height": "wrap_content",
+            "layout_marginTop": "8dp",
+            "layout_marginStart": "16dp",
+            "layout_marginEnd": "16dp",
+            "layout_constraintTop_toBottomOf": "@+id/cardBarrier"
+          }
+        },
+        {
+          "tag": "cn.soulapp.cpnt_voiceparty.createroom.ui.VerticalBannerView",
+          "line": 95,
+          "attributes": {
+            "id": "@+id/bannerView",
+            "visibility": "gone",
+            "layout_width": "match_parent",
+            "layout_height": "36dp",
+            "layout_marginLeft": "28dp",
+            "layout_marginRight": "28dp",
+            "layout_marginBottom": "8dp",
+            "layout_constraintBottom_toTopOf": "@+id/createRoomBtn",
+            "layout_constraintEnd_toEndOf": "parent",
+            "layout_constraintStart_toStartOf": "parent"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 109,
+          "attributes": {
+            "textSize": "12dp",
+            "textColor": "@color/white",
+            "gravity": "center",
+            "id": "@+id/changeBgBtn",
+            "layout_width": "48dp",
+            "layout_height": "wrap_content",
+            "layout_marginBottom": "16dp",
+            "text": "换背景",
+            "drawablePadding": "6dp",
+            "layout_marginStart": "16dp",
+            "drawableTopCompat": "@drawable/c_vp_changebg_icon",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintStart_toStartOf": "parent"
+          }
+        },
+        {
+          "tag": "cn.com.hjq.shape.view.ShapeTextView",
+          "line": 102,
+          "attributes": {
+            "textSize": "16dp",
+            "gravity": "center",
+            "id": "@+id/createRoomBtn",
+            "layout_width": "0dp",
+            "layout_height": "48dp",
+            "text": "创建房间",
+            "layout_marginStart": "16dp",
+            "layout_marginEnd": "16dp",
+            "layout_constraintEnd_toEndOf": "parent",
+            "layout_constraintStart_toEndOf": "@+id/changeBgBtn",
+            "layout_constraintTop_toTopOf": "@+id/changeBgBtn",
+            "shape_radius": "26dp",
+            "shape_solidColor": "#25d4d0",
+            "shape_solidDisabledColor": "#1affffff",
+            "shape_textColor": "@color/white",
+            "shape_textDisabledColor": "#99ffffff"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 140,
+          "attributes": {
+            "textSize": "12dp",
+            "textColor": "@color/white",
+            "gravity": "center",
+            "id": "@+id/createRoomRemainCountTv",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "layout_marginTop": "8dp",
+            "layout_constraintEnd_toEndOf": "@+id/createRoomBtn",
+            "layout_constraintStart_toStartOf": "@+id/createRoomBtn",
+            "layout_constraintTop_toBottomOf": "@+id/createRoomBtn"
+          }
+        }
+      ]
+    },
+    {
+      "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_create_room_common_fragment_layout.xml",
+      "controls": []
+    },
+    {
+      "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_create_room_page_room_info_layout.xml",
+      "controls": [
+        {
+          "tag": "androidx.constraintlayout.widget.ConstraintLayout",
+          "line": 6,
+          "attributes": {
+            "id": "@+id/roomInfoContainer",
+            "background": "@drawable/c_vp_33ffffff_lt08",
+            "padding": "16dp",
+            "layout_width": "match_parent",
+            "layout_height": "wrap_content",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "cn.com.hjq.shape.view.ShapeEditText",
+          "line": 17,
+          "attributes": {
+            "textSize": "14dp",
+            "textColor": "@color/white",
+            "textColorHint": "@color/c_vp_alpha_white_70",
+            "gravity": "center_vertical",
+            "id": "@+id/roomNameEt",
+            "layout_width": "0dp",
+            "layout_height": "wrap_content",
+            "hint": "输入派对名，AI帮你生成或润色",
+            "singleLine": "true",
+            "includeFontPadding": "false",
+            "maxLength": "15",
+            "paddingStart": "8dp",
+            "paddingEnd": "26dp",
+            "layout_constraintEnd_toStartOf": "@+id/randomNameBtn",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toTopOf": "parent",
+            "shape_radius": "8dp",
+            "shape_solidColor": "#33000000"
+          }
+        },
+        {
+          "tag": "ImageView",
+          "line": 26,
+          "attributes": {
+            "id": "@+id/randomNameBtn",
+            "layout_width": "55dp",
+            "layout_height": "26dp",
+            "src": "@drawable/c_vp_create_room_name_ai_change",
+            "layout_marginStart": "8dp",
+            "layout_constraintBottom_toBottomOf": "@+id/roomNameEt",
+            "layout_constraintEnd_toEndOf": "parent",
+            "layout_constraintStart_toEndOf": "@+id/roomNameEt",
+            "layout_constraintTop_toTopOf": "@+id/roomNameEt"
+          }
+        },
+        {
+          "tag": "ImageView",
+          "line": 42,
+          "attributes": {
+            "id": "@+id/clearNameBtn",
+            "padding": "2dp",
+            "visibility": "gone",
+            "layout_width": "20dp",
+            "layout_height": "20dp",
+            "src": "@drawable/c_vp_room_title_close",
+            "layout_marginEnd": "12dp",
+            "layout_constraintBottom_toBottomOf": "@+id/roomNameEt",
+            "layout_constraintEnd_toEndOf": "@+id/roomNameEt",
+            "layout_constraintTop_toTopOf": "@+id/roomNameEt"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 56,
+          "attributes": {
+            "textSize": "12dp",
+            "textColor": "@color/color_s_01",
+            "gravity": "center",
+            "id": "@+id/warmContentTv",
+            "visibility": "gone",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "layout_marginTop": "4dp",
+            "layout_marginBottom": "2dp",
+            "drawableStartCompat": "@drawable/c_vp_room_warm",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toBottomOf": "@+id/roomNameEt"
+          }
+        },
+        {
+          "tag": "View",
+          "line": 66,
+          "attributes": {
+            "id": "@+id/splitLine",
+            "background": "#14ffffff",
+            "visibility": "gone",
+            "layout_width": "match_parent",
+            "layout_height": "0.5dp",
+            "layout_marginTop": "12dp",
+            "layout_constraintTop_toBottomOf": "@+id/warmContentTv"
+          }
+        },
+        {
+          "tag": "androidx.recyclerview.widget.RecyclerView",
+          "line": 75,
+          "attributes": {
+            "orientation": "horizontal",
+            "id": "@+id/topicRv",
+            "visibility": "gone",
+            "layout_width": "0dp",
+            "layout_height": "22dp",
+            "layout_marginTop": "12dp",
+            "layout_marginEnd": "8dp",
+            "layoutManager": "androidx.recyclerview.widget.LinearLayoutManager",
+            "layout_constraintEnd_toStartOf": "@+id/moreTopicIcon",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toBottomOf": "@+id/splitLine"
+          }
+        },
+        {
+          "tag": "LinearLayout",
+          "line": 82,
+          "attributes": {
+            "gravity": "center",
+            "orientation": "horizontal",
+            "id": "@+id/moreTopicIcon",
+            "background": "@drawable/c_vp_1affffff_lt19",
+            "visibility": "gone",
+            "layout_width": "30dp",
+            "layout_height": "22dp",
+            "layout_marginTop": "12dp",
+            "layout_constraintEnd_toEndOf": "parent",
+            "layout_constraintTop_toBottomOf": "@+id/splitLine"
+          }
+        },
+        {
+          "tag": "LinearLayout",
+          "line": 115,
+          "attributes": {
+            "gravity": "center_vertical",
+            "orientation": "horizontal",
+            "id": "@+id/bottomOptionRow",
+            "background": "@drawable/c_vp_33ffffff_lt08",
+            "layout_width": "match_parent",
+            "layout_height": "40dp",
+            "layout_marginTop": "10dp",
+            "layout_constraintTop_toBottomOf": "@+id/roomInfoContainer"
+          }
+        },
+        {
+          "tag": "LinearLayout",
+          "line": 122,
+          "attributes": {
+            "id": "@+id/vgFmCodeView",
+            "layout_width": "0dp",
+            "layout_height": "wrap_content",
+            "layout_weight": "1"
+          }
+        },
+        {
+          "tag": "cn.soulapp.cpnt_voiceparty.createroom.ui.LeftTextRightIconCommonView",
+          "line": 127,
+          "attributes": {
+            "id": "@+id/fmCodeView",
+            "layout_width": "0dp",
+            "layout_height": "wrap_content",
+            "layout_weight": "1",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "View",
+          "line": 135,
+          "attributes": {
+            "id": "@+id/horizontalSpilt1",
+            "background": "#14ffffff",
+            "layout_width": "0.5dp",
+            "layout_height": "16dp"
+          }
+        },
+        {
+          "tag": "cn.soulapp.cpnt_voiceparty.createroom.ui.LeftTextRightIconCommonView",
+          "line": 147,
+          "attributes": {
+            "id": "@+id/partyTypeView",
+            "layout_width": "0dp",
+            "layout_height": "wrap_content",
+            "layout_weight": "1",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "View",
+          "line": 156,
+          "attributes": {
+            "gravity": "end",
+            "id": "@+id/horizontalSpilt2",
+            "background": "#14ffffff",
+            "layout_width": "0.5dp",
+            "layout_height": "16dp"
+          }
+        },
+        {
+          "tag": "cn.soulapp.cpnt_voiceparty.createroom.ui.LeftTextRightIconCommonView",
+          "line": 162,
+          "attributes": {
+            "id": "@+id/partyStateView",
+            "layout_width": "0dp",
+            "layout_height": "wrap_content",
+            "layout_weight": "1"
+          }
+        },
+        {
+          "tag": "cn.com.hjq.shape.layout.ShapeConstraintLayout",
+          "line": 168,
+          "attributes": {
+            "id": "@+id/creatorHallEntry",
+            "paddingLeft": "16dp",
+            "paddingRight": "16dp",
+            "visibility": "gone",
+            "layout_width": "match_parent",
+            "layout_height": "48dp",
+            "layout_marginTop": "10dp",
+            "layout_constraintTop_toBottomOf": "@+id/bottomOptionRow",
+            "shape_angle": "0",
+            "shape_endColor": "#805e457e",
+            "shape_radius": "12dp",
+            "shape_startColor": "#1a5e457e",
+            "shape_strokeColor": "#4dffffff",
+            "shape_strokeWidth": "0.5dp"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 186,
+          "attributes": {
+            "textSize": "14dp",
+            "textStyle": "bold",
+            "textColor": "@color/white",
+            "id": "@+id/creatorHallTitleTv",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "text": "创作大厅",
+            "includeFontPadding": "false",
+            "layout_constraintBottom_toTopOf": "@+id/creatorHallSubtitleTv",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toTopOf": "parent",
+            "layout_constraintVertical_chainStyle": "packed"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 191,
+          "attributes": {
+            "textSize": "11dp",
+            "textColor": "#ccffffff",
+            "ellipsize": "end",
+            "id": "@+id/creatorHallSubtitleTv",
+            "layout_width": "0dp",
+            "layout_height": "wrap_content",
+            "layout_marginTop": "4dp",
+            "text": "超多派对模版，还可亲手打造你自己的挚友派对",
+            "singleLine": "true",
+            "includeFontPadding": "false",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintEnd_toStartOf": "@+id/creatorHallArrowIv",
+            "layout_constraintHorizontal_bias": "0",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toBottomOf": "@+id/creatorHallTitleTv"
+          }
+        },
+        {
+          "tag": "ImageView",
+          "line": 207,
+          "attributes": {
+            "id": "@+id/creatorHallArrowIv",
+            "layout_width": "16dp",
+            "layout_height": "16dp",
+            "src": "@drawable/arrow_right_white",
+            "scaleType": "center",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintEnd_toEndOf": "parent",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        }
+      ]
+    },
+    {
+      "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_create_room_tab_indicator_layout.xml",
+      "controls": [
+        {
+          "tag": "TextView",
+          "line": 14,
+          "attributes": {
+            "textSize": "16dp",
+            "textColor": "#ffffff",
+            "gravity": "center",
+            "id": "@+id/titleTv",
+            "layout_width": "wrap_content",
+            "layout_height": "22dp",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 22,
+          "attributes": {
+            "textSize": "8dp",
+            "textColor": "#ffffff",
+            "id": "@+id/cornerIcon",
+            "background": "@drawable/c_vp_create_room_corner_badge_bg",
+            "paddingLeft": "4dp",
+            "paddingTop": "1dp",
+            "paddingRight": "4dp",
+            "paddingBottom": "1dp",
+            "visibility": "gone",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "includeFontPadding": "false",
+            "translationY": "-9dp",
+            "layout_marginStart": "24dp",
+            "layout_constraintStart_toStartOf": "@+id/titleTv",
+            "layout_constraintTop_toTopOf": "@+id/titleTv"
+          }
+        },
+        {
+          "tag": "View",
+          "line": 37,
+          "attributes": {
+            "id": "@+id/indicatorView",
+            "background": "@drawable/c_vp_create_room_page_indicator_bg",
+            "visibility": "invisible",
+            "layout_width": "18dp",
+            "layout_height": "3dp",
+            "layout_marginTop": "2dp",
+            "layout_constraintEnd_toEndOf": "@+id/titleTv",
+            "layout_constraintStart_toStartOf": "@+id/titleTv",
+            "layout_constraintTop_toBottomOf": "@+id/titleTv"
+          }
+        }
+      ]
+    },
+    {
+      "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_create_room_top_area_topic_item_layout.xml",
+      "controls": [
+        {
+          "tag": "ImageView",
+          "line": 11,
+          "attributes": {
+            "id": "@+id/iconIv",
+            "layout_width": "9dp",
+            "layout_height": "9dp",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 20,
+          "attributes": {
+            "textSize": "12sp",
+            "textColor": "#ffffff",
+            "id": "@+id/contentTv",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "layout_marginStart": "2dp",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintStart_toEndOf": "@+id/iconIv",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        }
+      ]
+    },
+    {
+      "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_dialog_party_setting.xml",
+      "controls": [
+        {
+          "tag": "androidx.constraintlayout.widget.ConstraintLayout",
+          "line": 7,
+          "attributes": {
+            "id": "@+id/clTitle",
+            "layout_width": "match_parent",
+            "layout_height": "58dp",
+            "layout_constraintEnd_toEndOf": "parent",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "ImageView",
+          "line": 14,
+          "attributes": {
+            "id": "@+id/ivClose",
+            "layout_width": "30dp",
+            "layout_height": "30dp",
+            "src": "@drawable/c_vp_nav_icon_close_white",
+            "layout_marginStart": "10dp",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 28,
+          "attributes": {
+            "textSize": "16dp",
+            "textStyle": "bold",
+            "textColor": "@color/color_ffffff",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "text": "派对设置",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintEnd_toEndOf": "parent",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "LinearLayout",
+          "line": 42,
+          "attributes": {
+            "orientation": "vertical",
+            "id": "@+id/llFeature",
+            "layout_width": "match_parent",
+            "layout_height": "match_parent"
+          }
+        },
+        {
+          "tag": "LinearLayout",
+          "line": 47,
+          "attributes": {
+            "orientation": "horizontal",
+            "id": "@+id/llFeatureEntrances",
+            "layout_width": "match_parent",
+            "layout_height": "wrap_content",
+            "layout_marginLeft": "8dp",
+            "layout_marginRight": "8dp",
+            "layout_marginBottom": "12dp"
+          }
+        },
+        {
+          "tag": "androidx.constraintlayout.widget.ConstraintLayout",
+          "line": 54,
+          "attributes": {
+            "id": "@+id/clCurrentMode",
+            "background": "@drawable/c_vp_0affffff_corner_24",
+            "layout_width": "match_parent",
+            "layout_height": "68dp",
+            "layout_marginLeft": "16dp",
+            "layout_marginRight": "16dp"
+          }
+        },
+        {
+          "tag": "ImageView",
+          "line": 61,
+          "attributes": {
+            "id": "@+id/ivPlayMode",
+            "layout_width": "48dp",
+            "layout_height": "48dp",
+            "src": "@drawable/c_vp_ktv_audio_record_play",
+            "layout_marginStart": "12dp",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 73,
+          "attributes": {
+            "textSize": "15dp",
+            "textStyle": "bold",
+            "textColor": "@color/color_ffffff",
+            "id": "@+id/tvPlayName",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "layout_marginTop": "14dp",
+            "text": "当前玩法:KTV",
+            "layout_marginStart": "4dp",
+            "layout_constraintStart_toEndOf": "@+id/ivPlayMode",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 85,
+          "attributes": {
+            "textSize": "12dp",
+            "textColor": "@color/color_888888",
+            "ellipsize": "end",
+            "id": "@+id/tvPlayModeDesc",
+            "layout_width": "0dp",
+            "layout_height": "wrap_content",
+            "layout_marginTop": "2dp",
+            "text": "玩法介绍玩法介绍玩法介绍",
+            "maxLines": "1",
+            "layout_constraintEnd_toStartOf": "@+id/llSwitchMode",
+            "layout_constraintHorizontal_bias": "0",
+            "layout_constraintStart_toEndOf": "@+id/ivPlayMode",
+            "layout_constraintStart_toStartOf": "@+id/tvPlayName",
+            "layout_constraintTop_toBottomOf": "@+id/tvPlayName"
+          }
+        },
+        {
+          "tag": "LinearLayout",
+          "line": 91,
+          "attributes": {
+            "orientation": "horizontal",
+            "id": "@+id/llSwitchMode",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "layout_marginEnd": "16dp",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintEnd_toEndOf": "parent",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 109,
+          "attributes": {
+            "textSize": "12dp",
+            "textColor": "@color/color_888888",
+            "layout_gravity": "center_vertical",
+            "id": "@+id/tvSwitchModeAction",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "text": "切换"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 124,
+          "attributes": {
+            "textSize": "12dp",
+            "textColor": "#99ffffff",
+            "id": "@+id/tvSectionUserManage",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "layout_marginTop": "23dp",
+            "text": "用户管理",
+            "layout_marginStart": "16dp"
+          }
+        },
+        {
+          "tag": "LinearLayout",
+          "line": 132,
+          "attributes": {
+            "orientation": "vertical",
+            "id": "@+id/llUserManageCard",
+            "background": "@drawable/c_vp_0affffff_corner_24",
+            "layout_width": "match_parent",
+            "layout_height": "wrap_content",
+            "layout_marginLeft": "16dp",
+            "layout_marginTop": "8dp",
+            "layout_marginRight": "16dp"
+          }
+        },
+        {
+          "tag": "LinearLayout",
+          "line": 141,
+          "attributes": {
+            "orientation": "vertical",
+            "id": "@+id/llUserManageItems",
+            "layout_width": "match_parent",
+            "layout_height": "wrap_content"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 148,
+          "attributes": {
+            "textSize": "12dp",
+            "textColor": "#99ffffff",
+            "id": "@+id/tvSectionRoomSetting",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "layout_marginTop": "23dp",
+            "text": "房间设置",
+            "layout_marginStart": "16dp"
+          }
+        },
+        {
+          "tag": "LinearLayout",
+          "line": 156,
+          "attributes": {
+            "orientation": "vertical",
+            "id": "@+id/llRoomSettingCard",
+            "background": "@drawable/c_vp_0affffff_corner_24",
+            "layout_width": "match_parent",
+            "layout_height": "wrap_content",
+            "layout_marginLeft": "16dp",
+            "layout_marginTop": "8dp",
+            "layout_marginRight": "16dp"
+          }
+        },
+        {
+          "tag": "LinearLayout",
+          "line": 165,
+          "attributes": {
+            "orientation": "vertical",
+            "id": "@+id/llRoomSettingItems",
+            "layout_width": "match_parent",
+            "layout_height": "wrap_content"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 172,
+          "attributes": {
+            "textSize": "12dp",
+            "textColor": "#99ffffff",
+            "id": "@+id/tvSectionOtherSetting",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "layout_marginTop": "23dp",
+            "text": "其他设置",
+            "layout_marginStart": "16dp"
+          }
+        },
+        {
+          "tag": "LinearLayout",
+          "line": 180,
+          "attributes": {
+            "orientation": "vertical",
+            "id": "@+id/llOtherSettingCard",
+            "background": "@drawable/c_vp_0affffff_corner_24",
+            "layout_width": "match_parent",
+            "layout_height": "wrap_content",
+            "layout_marginLeft": "16dp",
+            "layout_marginTop": "8dp",
+            "layout_marginRight": "16dp"
+          }
+        },
+        {
+          "tag": "LinearLayout",
+          "line": 189,
+          "attributes": {
+            "orientation": "vertical",
+            "id": "@+id/llOtherSettingItems",
+            "layout_width": "match_parent",
+            "layout_height": "wrap_content"
+          }
+        }
+      ]
+    },
+    {
+      "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_dialog_party_setting_container.xml",
+      "controls": [
+        {
+          "tag": "FrameLayout",
+          "line": 3,
+          "attributes": {
+            "id": "@+id/flContainer",
+            "background": "@drawable/c_vp_13151a_corner_32",
+            "layout_width": "match_parent",
+            "layout_height": "match_parent"
+          }
+        }
+      ]
+    },
+    {
+      "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_dialog_room_play_function.xml",
+      "controls": [
+        {
+          "tag": "androidx.constraintlayout.widget.ConstraintLayout",
+          "line": 3,
+          "attributes": {
+            "id": "@+id/rootLayout",
+            "layout_width": "match_parent",
+            "layout_height": "match_parent"
+          }
+        },
+        {
+          "tag": "androidx.constraintlayout.widget.ConstraintLayout",
+          "line": 7,
+          "attributes": {
+            "id": "@+id/clTitle",
+            "layout_width": "match_parent",
+            "layout_height": "wrap_content",
+            "layout_constraintEnd_toEndOf": "parent",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "ImageView",
+          "line": 14,
+          "attributes": {
+            "id": "@+id/ivClose",
+            "visibility": "gone",
+            "layout_width": "30dp",
+            "layout_height": "30dp",
+            "src": "@drawable/c_vp_nav_icon_back_white",
+            "layout_marginStart": "10dp",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 28,
+          "attributes": {
+            "textSize": "15sp",
+            "textStyle": "bold",
+            "textColor": "@color/white",
+            "gravity": "center",
+            "id": "@+id/tvTitle",
+            "layout_width": "wrap_content",
+            "layout_height": "36dp",
+            "text": "派对玩法",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintEnd_toEndOf": "parent",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "androidx.recyclerview.widget.RecyclerView",
+          "line": 46,
+          "attributes": {
+            "id": "@+id/rvRecentPlay",
+            "layout_width": "match_parent",
+            "layout_height": "wrap_content",
+            "layout_marginTop": "20dp",
+            "layout_marginStart": "24dp",
+            "layout_marginEnd": "24dp",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "View",
+          "line": 54,
+          "attributes": {
+            "id": "@+id/divider",
+            "background": "@color/c_vp_color_1affffff",
+            "layout_width": "0dp",
+            "layout_height": "0.5dp",
+            "layout_marginTop": "18dp",
+            "layout_constraintEnd_toEndOf": "parent",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toBottomOf": "@+id/rvRecentPlay"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 66,
+          "attributes": {
+            "textSize": "12dp",
+            "textStyle": "bold",
+            "textColor": "#4dffffff",
+            "id": "@+id/tvMorePlayFunc",
+            "layout_width": "wrap_content",
+            "layout_height": "18dp",
+            "layout_marginTop": "16dp",
+            "text": "更多玩法",
+            "layout_marginStart": "20dp",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toBottomOf": "@+id/divider"
+          }
+        },
+        {
+          "tag": "LinearLayout",
+          "line": 77,
+          "attributes": {
+            "gravity": "center_vertical",
+            "orientation": "horizontal",
+            "id": "@+id/llRecommendPlay",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "layout_marginEnd": "16dp",
+            "layout_constraintBottom_toBottomOf": "@+id/tvMorePlayFunc",
+            "layout_constraintEnd_toEndOf": "parent",
+            "layout_constraintTop_toTopOf": "@+id/tvMorePlayFunc"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 87,
+          "attributes": {
+            "textSize": "12sp",
+            "textColor": "@color/color_s_15",
+            "id": "@+id/tvRecommendPlay",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "text": "全部玩法"
+          }
+        },
+        {
+          "tag": "ImageView",
+          "line": 93,
+          "attributes": {
+            "layout_gravity": "center_vertical",
+            "id": "@+id/ivRecommendPlayArrow",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "src": "@drawable/c_vp_recommend_arrow_selector",
+            "layout_marginStart": "2dp"
+          }
+        },
+        {
+          "tag": "androidx.recyclerview.widget.RecyclerView",
+          "line": 100,
+          "attributes": {
+            "id": "@+id/rvAllPlayFunc",
+            "layout_width": "match_parent",
+            "layout_height": "wrap_content",
+            "layout_marginTop": "6dp",
+            "layout_constraintEnd_toEndOf": "parent",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toBottomOf": "@+id/tvMorePlayFunc"
+          }
+        },
+        {
+          "tag": "View",
+          "line": 110,
+          "attributes": {
+            "id": "@+id/maskOverlay",
+            "background": "@android:color/transparent",
+            "focusable": "true",
+            "visibility": "gone",
+            "clickable": "true",
+            "layout_width": "0dp",
+            "layout_height": "0dp",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintEnd_toEndOf": "parent",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "FrameLayout",
+          "line": 122,
+          "attributes": {
+            "id": "@+id/playFuncSelectPop",
+            "background": "@drawable/c_vp_func_type_bg",
+            "visibility": "gone",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "layout_marginEnd": "9dp",
+            "layout_constraintEnd_toEndOf": "parent",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "androidx.recyclerview.widget.RecyclerView",
+          "line": 131,
+          "attributes": {
+            "id": "@+id/rvPlayFuncType",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "maxHeight": "200dp"
+          }
+        }
+      ]
+    },
+    {
+      "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_dialog_room_play_function_sec.xml",
+      "controls": [
+        {
+          "tag": "androidx.constraintlayout.widget.ConstraintLayout",
+          "line": 6,
+          "attributes": {
+            "id": "@+id/clTitle",
+            "layout_width": "match_parent",
+            "layout_height": "36dp",
+            "layout_constraintLeft_toLeftOf": "parent",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "ImageView",
+          "line": 12,
+          "attributes": {
+            "id": "@+id/iv_back",
+            "layout_width": "30dp",
+            "layout_height": "30dp",
+            "src": "@drawable/icon_back",
+            "tint": "@color/white",
+            "layout_marginStart": "14dp",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintLeft_toLeftOf": "parent",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 25,
+          "attributes": {
+            "textSize": "15sp",
+            "textStyle": "bold",
+            "textColor": "@color/white",
+            "id": "@+id/tv_title",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "text": "ta上次建的派对",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintLeft_toLeftOf": "parent",
+            "layout_constraintRight_toRightOf": "parent",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "androidx.recyclerview.widget.RecyclerView",
+          "line": 35,
+          "attributes": {
+            "id": "@+id/recycler_view",
+            "layout_width": "match_parent",
+            "layout_height": "0dp",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintLeft_toLeftOf": "parent",
+            "layout_constraintTop_toBottomOf": "@+id/clTitle",
+            "layout_constraintVertical_weight": "1"
+          }
+        }
+      ]
+    },
+    {
+      "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_fragment_apply_mic_setting.xml",
+      "controls": [
+        {
+          "tag": "androidx.constraintlayout.widget.ConstraintLayout",
+          "line": 3,
+          "attributes": {
+            "id": "@+id/flAll",
+            "background": "@color/color_s_00",
+            "paddingTop": "18dp",
+            "layout_width": "match_parent",
+            "layout_height": "match_parent",
+            "paddingStart": "20dp",
+            "paddingEnd": "15dp"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 13,
+          "attributes": {
+            "textSize": "15sp",
+            "textColor": "@color/color_s_02",
+            "id": "@+id/tvTitle",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "text": "@string/c_vp_cm_setting_title",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 25,
+          "attributes": {
+            "textSize": "14sp",
+            "textColor": "@color/color_s_06",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "layout_marginTop": "4dp",
+            "text": "@string/c_vp_cm_setting_desc",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toBottomOf": "@+id/tvTitle"
+          }
+        },
+        {
+          "tag": "cn.soulapp.android.view.SwitchButton",
+          "line": 29,
+          "attributes": {
+            "id": "@+id/swcAllowCMM",
+            "layout_width": "45dp",
+            "layout_height": "26dp",
+            "layout_marginTop": "5dp",
+            "layout_constraintEnd_toEndOf": "parent",
+            "layout_constraintTop_toTopOf": "parent",
+            "switchOffSrc": "@drawable/ic_setting_switch_off",
+            "switchOnSrc": "@drawable/ic_setting_switch_on"
+          }
+        }
+      ]
+    },
+    {
+      "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_item_create_room_classify_tag.xml",
+      "controls": [
+        {
+          "tag": "cn.com.hjq.shape.view.ShapeImageView",
+          "line": 11,
+          "attributes": {
+            "id": "@+id/image",
+            "layout_width": "48dp",
+            "layout_height": "48dp",
+            "scaleType": "center",
+            "shape_radius": "8.5dp",
+            "shape_strokeSelectedColor": "#25d4d0",
+            "shape_strokeWidth": "2dp"
+          }
+        },
+        {
+          "tag": "ImageView",
+          "line": 20,
+          "attributes": {
+            "layout_gravity": "end",
+            "id": "@+id/ivTopTestTag",
+            "visibility": "gone",
+            "layout_width": "22dp",
+            "layout_height": "12dp"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 30,
+          "attributes": {
+            "textSize": "10dp",
+            "textColor": "@color/white",
+            "ellipsize": "end",
+            "gravity": "center",
+            "id": "@+id/text",
+            "layout_width": "match_parent",
+            "layout_height": "wrap_content",
+            "layout_marginTop": "4dp",
+            "maxLines": "1"
+          }
+        }
+      ]
+    },
+    {
+      "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_item_play_function.xml",
+      "controls": [
+        {
+          "tag": "ImageView",
+          "line": 6,
+          "attributes": {
+            "id": "@+id/ivFuncIcon",
+            "layout_width": "48dp",
+            "layout_height": "48dp",
+            "layout_marginTop": "12dp",
+            "layout_marginStart": "16dp",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "ImageView",
+          "line": 14,
+          "attributes": {
+            "id": "@+id/ivFuncOpened",
+            "background": "@drawable/c_vp_icon_func_open",
+            "visibility": "gone",
+            "layout_width": "48dp",
+            "layout_height": "48dp",
+            "layout_constraintBottom_toBottomOf": "@+id/ivFuncIcon",
+            "layout_constraintEnd_toEndOf": "@+id/ivFuncIcon",
+            "layout_constraintStart_toStartOf": "@+id/ivFuncIcon",
+            "layout_constraintTop_toTopOf": "@+id/ivFuncIcon"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 28,
+          "attributes": {
+            "textSize": "15sp",
+            "textStyle": "bold",
+            "textColor": "@color/white",
+            "ellipsize": "end",
+            "id": "@+id/tvFuncName",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "layout_marginTop": "14dp",
+            "maxLines": "1",
+            "layout_marginStart": "12dp",
+            "layout_constrainedWidth": "true",
+            "layout_constraintEnd_toStartOf": "@+id/newTagIcon",
+            "layout_constraintHorizontal_bias": "0",
+            "layout_constraintHorizontal_chainStyle": "packed",
+            "layout_constraintStart_toEndOf": "@+id/ivFuncIcon",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "ImageView",
+          "line": 35,
+          "attributes": {
+            "id": "@+id/newTagIcon",
+            "visibility": "gone",
+            "layout_width": "wrap_content",
+            "layout_height": "15dp",
+            "layout_marginStart": "6dp",
+            "layout_constraintBottom_toBottomOf": "@+id/tvFuncName",
+            "layout_constraintStart_toEndOf": "@+id/tvFuncName",
+            "layout_constraintTop_toTopOf": "@+id/tvFuncName"
+          }
+        },
+        {
+          "tag": "LinearLayout",
+          "line": 51,
+          "attributes": {
+            "orientation": "horizontal",
+            "id": "@+id/linMark",
+            "layout_width": "wrap_content",
+            "layout_height": "15dp",
+            "layout_marginStart": "4dp",
+            "layout_marginEnd": "20dp",
+            "layout_constraintBottom_toBottomOf": "@+id/newTagIcon",
+            "layout_constraintStart_toEndOf": "@+id/newTagIcon",
+            "layout_constraintTop_toTopOf": "@+id/newTagIcon"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 63,
+          "attributes": {
+            "textSize": "13sp",
+            "textColor": "@color/color_bababa",
+            "ellipsize": "end",
+            "id": "@+id/tvFuncDesc",
+            "paddingBottom": "15dp",
+            "layout_width": "0dp",
+            "layout_height": "wrap_content",
+            "layout_marginTop": "1dp",
+            "maxLines": "2",
+            "layout_marginEnd": "40dp",
+            "layout_constraintEnd_toEndOf": "parent",
+            "layout_constraintStart_toStartOf": "@+id/tvFuncName",
+            "layout_constraintTop_toBottomOf": "@+id/tvFuncName"
+          }
+        },
+        {
+          "tag": "View",
+          "line": 74,
+          "attributes": {
+            "id": "@+id/divider",
+            "background": "#393941",
+            "layout_width": "0dp",
+            "layout_height": "0.5dp",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintEnd_toEndOf": "parent",
+            "layout_constraintStart_toStartOf": "@+id/tvFuncName"
+          }
+        }
+      ]
+    },
+    {
+      "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_item_play_function_type.xml",
+      "controls": [
+        {
+          "tag": "TextView",
+          "line": 10,
+          "attributes": {
+            "textSize": "14sp",
+            "textColor": "#ffffff",
+            "ellipsize": "end",
+            "gravity": "center",
+            "id": "@+id/tvPlayFuncType",
+            "layout_width": "wrap_content",
+            "layout_height": "20dp",
+            "maxLines": "1",
+            "paddingStart": "16dp",
+            "paddingEnd": "16dp"
+          }
+        }
+      ]
+    },
+    {
+      "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_item_recent_play_function.xml",
+      "controls": [
+        {
+          "tag": "ImageView",
+          "line": 6,
+          "attributes": {
+            "id": "@+id/ivFuncIcon",
+            "layout_width": "56dp",
+            "layout_height": "56dp",
+            "layout_constraintEnd_toEndOf": "parent",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "ImageView",
+          "line": 13,
+          "attributes": {
+            "id": "@+id/ivFuncOpened",
+            "background": "@drawable/c_vp_icon_recent_func_open",
+            "visibility": "gone",
+            "layout_width": "56dp",
+            "layout_height": "56dp",
+            "layout_constraintEnd_toEndOf": "@+id/ivFuncIcon",
+            "layout_constraintStart_toStartOf": "@+id/ivFuncIcon",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 24,
+          "attributes": {
+            "textSize": "12sp",
+            "textColor": "@color/color_bababa",
+            "id": "@+id/tvFuncName",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "layout_marginTop": "4dp",
+            "layout_constraintEnd_toEndOf": "@+id/ivFuncIcon",
+            "layout_constraintStart_toStartOf": "@+id/ivFuncIcon",
+            "layout_constraintTop_toBottomOf": "@+id/ivFuncIcon"
+          }
+        },
+        {
+          "tag": "cn.soulapp.android.chatroom.dynamic.PartyMateImageView",
+          "line": 32,
+          "attributes": {
+            "id": "@+id/tag",
+            "layout_width": "26dp",
+            "layout_height": "16dp",
+            "layout_constraintRight_toRightOf": "@+id/ivFuncIcon",
+            "layout_constraintTop_toTopOf": "@+id/ivFuncIcon"
+          }
+        }
+      ]
+    },
+    {
+      "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_party_play_type_dialog.xml",
+      "controls": [
+        {
+          "tag": "View",
+          "line": 10,
+          "attributes": {
+            "layout_gravity": "center_horizontal",
+            "id": "@+id/touchClose",
+            "background": "@drawable/c_vp_ffffff_lt02",
+            "layout_width": "35dp",
+            "layout_height": "4dp",
+            "layout_marginTop": "14dp",
+            "alpha": "0.6",
+            "layout_constraintLeft_toLeftOf": "parent",
+            "layout_constraintRight_toRightOf": "parent",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 22,
+          "attributes": {
+            "textColor": "@color/white",
+            "gravity": "center",
+            "id": "@+id/title",
+            "layout_width": "0dp",
+            "layout_height": "wrap_content",
+            "layout_marginTop": "7dp",
+            "text": "派对类型",
+            "layout_constraintLeft_toLeftOf": "parent",
+            "layout_constraintRight_toRightOf": "parent",
+            "layout_constraintTop_toBottomOf": "@+id/touchClose"
+          }
+        },
+        {
+          "tag": "androidx.recyclerview.widget.RecyclerView",
+          "line": 31,
+          "attributes": {
+            "id": "@+id/recyclerView",
+            "layout_width": "match_parent",
+            "layout_height": "match_parent",
+            "layout_marginTop": "18dp",
+            "layoutManager": "androidx.recyclerview.widget.GridLayoutManager",
+            "layout_constrainedHeight": "true",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintTop_toBottomOf": "@+id/title",
+            "spanCount": "2"
+          }
+        }
+      ]
+    },
+    {
+      "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_party_play_type_dialog_item.xml",
+      "controls": [
+        {
+          "tag": "cn.com.hjq.shape.view.ShapeTextView",
+          "line": 5,
+          "attributes": {
+            "textColor": "#bababa",
+            "gravity": "center",
+            "id": "@+id/text",
+            "layout_width": "match_parent",
+            "layout_height": "40dp",
+            "shape_radius": "8dp",
+            "shape_solidColor": "#1affffff",
+            "shape_solidSelectedColor": "#3325d4d0",
+            "shape_textSelectedColor": "#25d4d0"
+          }
+        }
+      ]
+    },
+    {
+      "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_view_button_setting_item.xml",
+      "controls": [
+        {
+          "tag": "TextView",
+          "line": 7,
+          "attributes": {
+            "textSize": "15dp",
+            "textStyle": "bold",
+            "textColor": "@color/color_ffffff",
+            "id": "@+id/tvTitle",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "layout_constraintBottom_toTopOf": "@+id/tvDesc",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toTopOf": "parent",
+            "layout_constraintVertical_chainStyle": "packed"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 10,
+          "attributes": {
+            "textSize": "12dp",
+            "textColor": "@color/color_888888",
+            "ellipsize": "end",
+            "id": "@+id/tvDesc",
+            "layout_width": "0dp",
+            "layout_height": "wrap_content",
+            "maxLines": "1",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintEnd_toStartOf": "@+id/tvButton",
+            "layout_constraintStart_toStartOf": "@+id/tvTitle",
+            "layout_constraintTop_toBottomOf": "@+id/tvTitle"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 23,
+          "attributes": {
+            "textSize": "12dp",
+            "gravity": "center",
+            "id": "@+id/tvButton",
+            "paddingLeft": "12dp",
+            "paddingRight": "12dp",
+            "layout_width": "wrap_content",
+            "layout_height": "28dp",
+            "minWidth": "56dp",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintEnd_toEndOf": "parent",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        }
+      ]
+    },
+    {
+      "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_view_normal_setting_item.xml",
+      "controls": [
+        {
+          "tag": "TextView",
+          "line": 7,
+          "attributes": {
+            "textSize": "15dp",
+            "textStyle": "bold",
+            "textColor": "@color/color_ffffff",
+            "id": "@+id/tvTitle",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "layout_constraintBottom_toTopOf": "@+id/tvDesc",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toTopOf": "parent",
+            "layout_constraintVertical_chainStyle": "packed"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 19,
+          "attributes": {
+            "textSize": "9dp",
+            "textStyle": "bold",
+            "textColor": "@color/color_ffffff",
+            "gravity": "center",
+            "id": "@+id/tvNewBadge",
+            "background": "@drawable/c_vp_bg_highlight_new_badge",
+            "paddingLeft": "6dp",
+            "paddingRight": "6dp",
+            "visibility": "gone",
+            "layout_width": "wrap_content",
+            "layout_height": "16dp",
+            "text": "new",
+            "includeFontPadding": "false",
+            "layout_marginStart": "4dp",
+            "layout_constraintBottom_toBottomOf": "@+id/tvTitle",
+            "layout_constraintStart_toEndOf": "@+id/tvTitle",
+            "layout_constraintTop_toTopOf": "@+id/tvTitle"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 10,
+          "attributes": {
+            "textSize": "12dp",
+            "textColor": "@color/color_888888",
+            "ellipsize": "end",
+            "id": "@+id/tvDesc",
+            "layout_width": "0dp",
+            "layout_height": "wrap_content",
+            "maxLines": "1",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintEnd_toStartOf": "@+id/llRight",
+            "layout_constraintStart_toStartOf": "@+id/tvTitle",
+            "layout_constraintTop_toBottomOf": "@+id/tvTitle"
+          }
+        },
+        {
+          "tag": "LinearLayout",
+          "line": 41,
+          "attributes": {
+            "gravity": "center_vertical",
+            "orientation": "horizontal",
+            "id": "@+id/llRight",
+            "layout_width": "wrap_content",
+            "layout_height": "0dp",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintEnd_toEndOf": "parent",
+            "layout_constraintTop_toTopOf": "parent"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 56,
+          "attributes": {
+            "textSize": "12dp",
+            "textColor": "@color/color_888888",
+            "id": "@+id/tvRightHint",
+            "visibility": "gone",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content"
+          }
+        },
+        {
+          "tag": "ImageView",
+          "line": 61,
+          "attributes": {
+            "id": "@+id/ivArrow",
+            "layout_width": "16dp",
+            "layout_height": "16dp",
+            "src": "@drawable/c_vp_setting_item_go",
+            "scaleType": "fitXY",
+            "layout_marginStart": "4dp"
+          }
+        }
+      ]
+    },
+    {
+      "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_view_switch_setting_item.xml",
+      "controls": [
+        {
+          "tag": "TextView",
+          "line": 7,
+          "attributes": {
+            "textSize": "15dp",
+            "textStyle": "bold",
+            "textColor": "@color/color_ffffff",
+            "id": "@+id/tvTitle",
+            "layout_width": "wrap_content",
+            "layout_height": "wrap_content",
+            "layout_constraintBottom_toTopOf": "@+id/tvDesc",
+            "layout_constraintStart_toStartOf": "parent",
+            "layout_constraintTop_toTopOf": "parent",
+            "layout_constraintVertical_chainStyle": "packed"
+          }
+        },
+        {
+          "tag": "TextView",
+          "line": 10,
+          "attributes": {
+            "textSize": "12dp",
+            "textColor": "@color/color_888888",
+            "ellipsize": "end",
+            "id": "@+id/tvDesc",
+            "layout_width": "0dp",
+            "layout_height": "wrap_content",
+            "maxLines": "1",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintEnd_toStartOf": "@+id/switchView",
+            "layout_constraintStart_toStartOf": "@+id/tvTitle",
+            "layout_constraintTop_toBottomOf": "@+id/tvTitle"
+          }
+        },
+        {
+          "tag": "cn.android.lib.soul_view.SwitchView",
+          "line": 23,
+          "attributes": {
+            "id": "@+id/switchView",
+            "layout_width": "45dp",
+            "layout_height": "26dp",
+            "containerOffColor": "#1affffff",
+            "containerOnColor": "@color/color_s_01",
+            "layout_constraintBottom_toBottomOf": "parent",
+            "layout_constraintEnd_toEndOf": "parent",
+            "layout_constraintTop_toTopOf": "parent",
+            "thumbColor": "@color/color_ffffff"
+          }
+        }
+      ]
+    }
+  ],
+  "drawables": {
+    "icon_group_create_close": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_activity_create_chat_room_layout_old.xml",
+          "attribute": "background",
+          "value": "@drawable/icon_group_create_close"
+        },
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_activity_create_chat_room_new_layout.xml",
+          "attribute": "src",
+          "value": "@drawable/icon_group_create_close"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-night-xxhdpi/icon_group_create_close.png",
+          "bytes": 757
+        },
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-xxhdpi/icon_group_create_close.png",
+          "bytes": 738
+        }
+      ]
+    },
+    "c_vp_selector_bg_create_room_btn": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_activity_create_chat_room_layout_old.xml",
+          "attribute": "background",
+          "value": "@drawable/c_vp_selector_bg_create_room_btn"
+        },
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_activity_create_chat_room_layout_old.xml",
+          "attribute": "background",
+          "value": "@drawable/c_vp_selector_bg_create_room_btn"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable/c_vp_selector_bg_create_room_btn.xml",
+          "bytes": 366,
+          "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n    <item\n        android:state_enabled=\"false\"\n        android:drawable=\"@drawable/c_vp_shape_rec_color_s_04_radius_39\"/>\n    <item\n        android:state_enabled=\"true\"\n        android:drawable=\"@drawable/c_vp_shape_rec_color_s_01_radius_39\"/>\n</selector>\n"
+        }
+      ]
+    },
+    "bg_s14_corner_8": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_activity_create_chat_room_layout_old.xml",
+          "attribute": "background",
+          "value": "@drawable/bg_s14_corner_8"
+        },
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_activity_create_chat_room_layout_old.xml",
+          "attribute": "background",
+          "value": "@drawable/bg_s14_corner_8"
+        },
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_activity_create_chat_room_layout_old.xml",
+          "attribute": "background",
+          "value": "@drawable/bg_s14_corner_8"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable/bg_s14_corner_8.xml",
+          "bytes": 198,
+          "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<shape xmlns:android=\"http://schemas.android.com/apk/res/android\">\n    <solid android:color=\"@color/color_s_14\"/>\n    <corners android:radius=\"8dp\"/>\n</shape>\n"
+        }
+      ]
+    },
+    "icon_room_random_new": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_activity_create_chat_room_layout_old.xml",
+          "attribute": "drawableStart",
+          "value": "@drawable/icon_room_random_new"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-night-xxhdpi/icon_room_random_new.png",
+          "bytes": 1430
+        },
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-xxhdpi/icon_room_random_new.png",
+          "bytes": 1358
+        }
+      ]
+    },
+    "c_vp_s14_lt13": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_activity_create_chat_room_layout_old.xml",
+          "attribute": "background",
+          "value": "@drawable/c_vp_s14_lt13"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable/c_vp_s14_lt13.xml",
+          "bytes": 225,
+          "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<shape xmlns:android=\"http://schemas.android.com/apk/res/android\" android:shape=\"rectangle\">\n    <corners android:radius=\"13dp\"/>\n    <solid android:color=\"@color/color_s_14\"/>\n</shape>\n"
+        }
+      ]
+    },
+    "icon_message_more_topic": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_activity_create_chat_room_layout_old.xml",
+          "attribute": "drawableEnd",
+          "value": "@drawable/icon_message_more_topic"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-night-xxhdpi/icon_message_more_topic.webp",
+          "bytes": 204
+        },
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-xxhdpi/icon_message_more_topic.webp",
+          "bytes": 200
+        }
+      ]
+    },
+    "c_vp_fm_arrow_right": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_activity_create_chat_room_layout_old.xml",
+          "attribute": "drawableRight",
+          "value": "@drawable/c_vp_fm_arrow_right"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-xxhdpi/c_vp_fm_arrow_right.png",
+          "bytes": 380
+        }
+      ]
+    },
+    "c_ct_groupchat_icon_setting_switch_off": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_activity_create_chat_room_layout_old.xml",
+          "attribute": "src",
+          "value": "@drawable/c_ct_groupchat_icon_setting_switch_off"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-night-xxhdpi/c_ct_groupchat_icon_setting_switch_off.webp",
+          "bytes": 2138
+        },
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-xxhdpi/c_ct_groupchat_icon_setting_switch_off.webp",
+          "bytes": 1718
+        }
+      ]
+    },
+    "c_vp_create_room_page_bg": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_activity_create_chat_room_new_layout.xml",
+          "attribute": "src",
+          "value": "@drawable/c_vp_create_room_page_bg"
+        },
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_activity_create_chat_room_new_layout.xml",
+          "attribute": "background",
+          "value": "@drawable/c_vp_create_room_page_bg"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable/c_vp_create_room_page_bg.xml",
+          "bytes": 287,
+          "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<shape xmlns:android=\"http://schemas.android.com/apk/res/android\" android:shape=\"rectangle\">\n    <gradient\n        android:startColor=\"#283a50\"\n        android:endColor=\"#111d37\"\n        android:angle=\"270\"\n        android:type=\"linear\"/>\n</shape>\n"
+        }
+      ]
+    },
+    "c_vp_changebg_icon": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_activity_create_chat_room_new_layout.xml",
+          "attribute": "drawableTopCompat",
+          "value": "@drawable/c_vp_changebg_icon"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-xxhdpi/c_vp_changebg_icon.webp",
+          "bytes": 888
+        }
+      ]
+    },
+    "c_vp_33ffffff_lt08": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_create_room_page_room_info_layout.xml",
+          "attribute": "background",
+          "value": "@drawable/c_vp_33ffffff_lt08"
+        },
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_create_room_page_room_info_layout.xml",
+          "attribute": "background",
+          "value": "@drawable/c_vp_33ffffff_lt08"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable/c_vp_33ffffff_lt08.xml",
+          "bytes": 198,
+          "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<shape xmlns:android=\"http://schemas.android.com/apk/res/android\">\n    <solid android:color=\"#33ffffff\"/>\n    <corners android:radius=\"@dimen/dp_8\"/>\n</shape>\n"
+        }
+      ]
+    },
+    "c_vp_create_room_name_ai_change": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_create_room_page_room_info_layout.xml",
+          "attribute": "src",
+          "value": "@drawable/c_vp_create_room_name_ai_change"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-xxhdpi/c_vp_create_room_name_ai_change.webp",
+          "bytes": 1396
+        }
+      ]
+    },
+    "c_vp_room_title_close": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_create_room_page_room_info_layout.xml",
+          "attribute": "src",
+          "value": "@drawable/c_vp_room_title_close"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-xxhdpi/c_vp_room_title_close.png",
+          "bytes": 899
+        }
+      ]
+    },
+    "c_vp_room_warm": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_create_room_page_room_info_layout.xml",
+          "attribute": "drawableStartCompat",
+          "value": "@drawable/c_vp_room_warm"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-xxhdpi/c_vp_room_warm.png",
+          "bytes": 1182
+        }
+      ]
+    },
+    "c_vp_1affffff_lt19": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_create_room_page_room_info_layout.xml",
+          "attribute": "background",
+          "value": "@drawable/c_vp_1affffff_lt19"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable/c_vp_1affffff_lt19.xml",
+          "bytes": 191,
+          "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<shape xmlns:android=\"http://schemas.android.com/apk/res/android\">\n    <corners android:radius=\"19dp\"/>\n    <solid android:color=\"#1affffff\"/>\n</shape>\n"
+        }
+      ]
+    },
+    "c_vp_ffffff_oval": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_create_room_page_room_info_layout.xml",
+          "attribute": "background",
+          "value": "@drawable/c_vp_ffffff_oval"
+        },
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_create_room_page_room_info_layout.xml",
+          "attribute": "background",
+          "value": "@drawable/c_vp_ffffff_oval"
+        },
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_create_room_page_room_info_layout.xml",
+          "attribute": "background",
+          "value": "@drawable/c_vp_ffffff_oval"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable/c_vp_ffffff_oval.xml",
+          "bytes": 173,
+          "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<shape xmlns:android=\"http://schemas.android.com/apk/res/android\" android:shape=\"oval\">\n    <solid android:color=\"#ffffff\"/>\n</shape>\n"
+        }
+      ]
+    },
+    "arrow_right_white": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_create_room_page_room_info_layout.xml",
+          "attribute": "src",
+          "value": "@drawable/arrow_right_white"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-xxhdpi/arrow_right_white.png",
+          "bytes": 230
+        }
+      ]
+    },
+    "c_vp_create_room_corner_badge_bg": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_create_room_tab_indicator_layout.xml",
+          "attribute": "background",
+          "value": "@drawable/c_vp_create_room_corner_badge_bg"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable/c_vp_create_room_corner_badge_bg.xml",
+          "bytes": 347,
+          "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<shape xmlns:android=\"http://schemas.android.com/apk/res/android\" android:shape=\"rectangle\">\n    <corners\n        android:topLeftRadius=\"7dp\"\n        android:topRightRadius=\"7dp\"\n        android:bottomLeftRadius=\"2dp\"\n        android:bottomRightRadius=\"7dp\"/>\n    <solid android:color=\"#4dffffff\"/>\n</shape>\n"
+        }
+      ]
+    },
+    "c_vp_create_room_page_indicator_bg": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_create_room_tab_indicator_layout.xml",
+          "attribute": "background",
+          "value": "@drawable/c_vp_create_room_page_indicator_bg"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable/c_vp_create_room_page_indicator_bg.xml",
+          "bytes": 188,
+          "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<shape xmlns:android=\"http://schemas.android.com/apk/res/android\">\n    <solid android:color=\"#ffffff\"/>\n    <corners android:radius=\"2dp\"/>\n</shape>\n"
+        }
+      ]
+    },
+    "c_vp_33000000_lt25": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_create_room_top_area_topic_item_layout.xml",
+          "attribute": "background",
+          "value": "@drawable/c_vp_33000000_lt25"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable/c_vp_33000000_lt25.xml",
+          "bytes": 191,
+          "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<shape xmlns:android=\"http://schemas.android.com/apk/res/android\">\n    <corners android:radius=\"25dp\"/>\n    <solid android:color=\"#33000000\"/>\n</shape>\n"
+        }
+      ]
+    },
+    "c_vp_13151a_corner_32": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_dialog_party_setting.xml",
+          "attribute": "background",
+          "value": "@drawable/c_vp_13151a_corner_32"
+        },
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_dialog_party_setting_container.xml",
+          "attribute": "background",
+          "value": "@drawable/c_vp_13151a_corner_32"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable/c_vp_13151a_corner_32.xml",
+          "bytes": 347,
+          "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<shape xmlns:android=\"http://schemas.android.com/apk/res/android\" android:shape=\"rectangle\">\n    <corners\n        android:topLeftRadius=\"32dp\"\n        android:topRightRadius=\"32dp\"\n        android:bottomLeftRadius=\"0dp\"\n        android:bottomRightRadius=\"0dp\"/>\n    <solid android:color=\"#13151a\"/>\n</shape>\n"
+        }
+      ]
+    },
+    "c_vp_nav_icon_close_white": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_dialog_party_setting.xml",
+          "attribute": "src",
+          "value": "@drawable/c_vp_nav_icon_close_white"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-xxhdpi/c_vp_nav_icon_close_white.webp",
+          "bytes": 176
+        }
+      ]
+    },
+    "c_vp_0affffff_corner_24": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_dialog_party_setting.xml",
+          "attribute": "background",
+          "value": "@drawable/c_vp_0affffff_corner_24"
+        },
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_dialog_party_setting.xml",
+          "attribute": "background",
+          "value": "@drawable/c_vp_0affffff_corner_24"
+        },
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_dialog_party_setting.xml",
+          "attribute": "background",
+          "value": "@drawable/c_vp_0affffff_corner_24"
+        },
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_dialog_party_setting.xml",
+          "attribute": "background",
+          "value": "@drawable/c_vp_0affffff_corner_24"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable/c_vp_0affffff_corner_24.xml",
+          "bytes": 217,
+          "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<shape xmlns:android=\"http://schemas.android.com/apk/res/android\" android:shape=\"rectangle\">\n    <corners android:radius=\"24dp\"/>\n    <solid android:color=\"#0affffff\"/>\n</shape>\n"
+        }
+      ]
+    },
+    "c_vp_ktv_audio_record_play": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_dialog_party_setting.xml",
+          "attribute": "src",
+          "value": "@drawable/c_vp_ktv_audio_record_play"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-xxhdpi/c_vp_ktv_audio_record_play.png",
+          "bytes": 272
+        }
+      ]
+    },
+    "c_vp_setting_item_go": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_dialog_party_setting.xml",
+          "attribute": "src",
+          "value": "@drawable/c_vp_setting_item_go"
+        },
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_view_normal_setting_item.xml",
+          "attribute": "src",
+          "value": "@drawable/c_vp_setting_item_go"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-xxhdpi/c_vp_setting_item_go.webp",
+          "bytes": 140
+        }
+      ]
+    },
+    "c_vp_nav_icon_back_white": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_dialog_room_play_function.xml",
+          "attribute": "src",
+          "value": "@drawable/c_vp_nav_icon_back_white"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-xxhdpi/c_vp_nav_icon_back_white.png",
+          "bytes": 244
+        }
+      ]
+    },
+    "c_vp_recommend_arrow_selector": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_dialog_room_play_function.xml",
+          "attribute": "src",
+          "value": "@drawable/c_vp_recommend_arrow_selector"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable/c_vp_recommend_arrow_selector.xml",
+          "bytes": 289,
+          "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n    <item\n        android:state_selected=\"true\"\n        android:drawable=\"@drawable/c_vp_func_arrow_up\"/>\n    <item android:drawable=\"@drawable/c_vp_func_arrow_down\"/>\n</selector>\n"
+        }
+      ]
+    },
+    "c_vp_func_type_bg": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_dialog_room_play_function.xml",
+          "attribute": "background",
+          "value": "@drawable/c_vp_func_type_bg"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-xxhdpi/c_vp_func_type_bg.9.png",
+          "bytes": 916
+        }
+      ]
+    },
+    "icon_back": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_dialog_room_play_function_sec.xml",
+          "attribute": "src",
+          "value": "@drawable/icon_back"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-night-xxhdpi/icon_back.webp",
+          "bytes": 190
+        },
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-xhdpi/icon_back.png",
+          "bytes": 621
+        },
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-night-xhdpi/icon_back.png",
+          "bytes": 478
+        },
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-xxhdpi/icon_back.webp",
+          "bytes": 206
+        },
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-hdpi/icon_back.webp",
+          "bytes": 186
+        }
+      ]
+    },
+    "ic_setting_switch_off": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_fragment_apply_mic_setting.xml",
+          "attribute": "switchOffSrc",
+          "value": "@drawable/ic_setting_switch_off"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-night-xxhdpi/ic_setting_switch_off.webp",
+          "bytes": 2138
+        },
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-xxhdpi/ic_setting_switch_off.webp",
+          "bytes": 1718
+        }
+      ]
+    },
+    "ic_setting_switch_on": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_fragment_apply_mic_setting.xml",
+          "attribute": "switchOnSrc",
+          "value": "@drawable/ic_setting_switch_on"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-night-xxhdpi/ic_setting_switch_on.webp",
+          "bytes": 860
+        },
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-xxhdpi/ic_setting_switch_on.webp",
+          "bytes": 3282
+        }
+      ]
+    },
+    "c_vp_icon_func_open": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_item_play_function.xml",
+          "attribute": "background",
+          "value": "@drawable/c_vp_icon_func_open"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-xxhdpi/c_vp_icon_func_open.webp",
+          "bytes": 3424
+        }
+      ]
+    },
+    "c_vp_icon_recent_func_open": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_item_recent_play_function.xml",
+          "attribute": "background",
+          "value": "@drawable/c_vp_icon_recent_func_open"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable-xxhdpi/c_vp_icon_recent_func_open.webp",
+          "bytes": 3782
+        }
+      ]
+    },
+    "c_vp_ffffff_lt02": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_party_play_type_dialog.xml",
+          "attribute": "background",
+          "value": "@drawable/c_vp_ffffff_lt02"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable/c_vp_ffffff_lt02.xml",
+          "bytes": 193,
+          "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<shape xmlns:android=\"http://schemas.android.com/apk/res/android\">\n    <solid android:color=\"@color/white\"/>\n    <corners android:radius=\"2dp\"/>\n</shape>\n"
+        }
+      ]
+    },
+    "c_vp_bg_highlight_new_badge": {
+      "references": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/layout/c_vp_view_normal_setting_item.xml",
+          "attribute": "background",
+          "value": "@drawable/c_vp_bg_highlight_new_badge"
+        }
+      ],
+      "files": [
+        {
+          "path": "SOULCN/analysis/decoded/resources/res/drawable/c_vp_bg_highlight_new_badge.xml",
+          "bytes": 214,
+          "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<shape xmlns:android=\"http://schemas.android.com/apk/res/android\" android:shape=\"rectangle\">\n    <solid android:color=\"#fe6063\"/>\n    <corners android:radius=\"8dp\"/>\n</shape>\n"
+        }
+      ]
+    }
+  }
+}

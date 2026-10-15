@@ -1,0 +1,269 @@
+=> [Function #0 "global" of 40 bytes]: 1 params, frame size=15, strict=0, exc handler=0, debug info=0  @ offset 0x0000054c
+
+Bytecode listing:
+
+==> 00000000: <GetGlobalObject>: <Reg8: 0>
+==> 00000002: <TryGetById>: <Reg8: 4, Reg8: 0, UInt8: 1, string_id: 48>  # String: '__d' (Identifier)
+==> 00000008: <LoadConstUndefined>: <Reg8: 3>
+==> 0000000a: <CreateEnvironment>: <Reg8: 0>
+==> 0000000c: <CreateClosure>: <Reg8: 2, Reg8: 0, function_id: 1>  # Function: [#1  of 959 bytes]: 8 params @ offset 0x00000574
+==> 00000011: <LoadConstInt>: <Reg8: 1, Imm32: 10000002>
+==> 00000017: <NewArrayWithBuffer>: <Reg8: 0, UInt16: 21, UInt16: 21, UInt16: 0>  # Array: [10000003, 10000097, 10000105, 10000129, 10000135, 10000139, 10000144, 10000150, 10000171, 10000226, 10000240, 10000241, 10000248, 10000249, 10000252, 10000263, 10000270, 10000275, 10000293, 10000309, 10000322]
+==> 0000001f: <Call4>: <Reg8: 0, Reg8: 4, Reg8: 3, Reg8: 2, Reg8: 1, Reg8: 0>
+==> 00000026: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #1 "" of 959 bytes]: 8 params, frame size=37, strict=0, exc handler=0, debug info=0  @ offset 0x00000574
+
+Bytecode listing:
+
+==> 00000000: <LoadParam>: <Reg8: 2, UInt8: 6>
+==> 00000003: <LoadParam>: <Reg8: 25, UInt8: 7>
+==> 00000006: <GetGlobalObject>: <Reg8: 1>
+==> 00000008: <TryGetById>: <Reg8: 5, Reg8: 1, UInt8: 1, string_id: 43>  # String: 'Object' (Identifier)
+==> 0000000e: <GetByIdShort>: <Reg8: 4, Reg8: 5, UInt8: 2, string_id: 49>  # String: 'defineProperty' (Identifier)
+==> 00000013: <NewObject>: <Reg8: 3>
+==> 00000015: <LoadConstTrue>: <Reg8: 0>
+==> 00000017: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 0, string_id: 57>  # String: 'value' (Identifier)
+==> 0000001b: <LoadConstString>: <Reg8: 0, string_id: 1>  # String: '__esModule' (String)
+==> 0000001f: <Call4>: <Reg8: 0, Reg8: 4, Reg8: 5, Reg8: 2, Reg8: 0, Reg8: 3>
+==> 00000026: <LoadConstUndefined>: <Reg8: 0>
+==> 00000028: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 1, string_id: 47>  # String: 'RouterConfig' (Identifier)
+==> 0000002e: <TryGetById>: <Reg8: 4, Reg8: 1, UInt8: 3, string_id: 54>  # String: 'srnRequire' (Identifier)
+==> 00000034: <LoadConstZero>: <Reg8: 3>
+==> 00000036: <GetByVal>: <Reg8: 3, Reg8: 25, Reg8: 3>
+==> 0000003a: <Call2>: <Reg8: 5, Reg8: 4, Reg8: 0, Reg8: 3>
+==> 0000003f: <NewObject>: <Reg8: 4>
+==> 00000041: <LoadConstString>: <Reg8: 3, string_id: 3>  # String: 'transparentModal' (String)
+==> 00000045: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 3, string_id: 56>  # String: 'presentation' (Identifier)
+==> 00000049: <NewObjectWithBuffer>: <Reg8: 23, UInt16: 4, UInt16: 2, UInt16: 0, UInt16: 0>  # Object: {'description': '房间状态设置', 'initPage': true}
+==> 00000053: <PutNewOwnByIdShort>: <Reg8: 23, Reg8: 5, string_id: 55>  # String: 'pageModule' (Identifier)
+==> 00000057: <PutNewOwnByIdShort>: <Reg8: 23, Reg8: 4, string_id: 53>  # String: 'options' (Identifier)
+==> 0000005b: <TryGetById>: <Reg8: 5, Reg8: 1, UInt8: 3, string_id: 54>  # String: 'srnRequire' (Identifier)
+==> 00000061: <LoadConstUInt8>: <Reg8: 4, UInt8: 1>
+==> 00000064: <GetByVal>: <Reg8: 4, Reg8: 25, Reg8: 4>
+==> 00000068: <Call2>: <Reg8: 5, Reg8: 5, Reg8: 0, Reg8: 4>
+==> 0000006d: <NewObject>: <Reg8: 4>
+==> 0000006f: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 3, string_id: 56>  # String: 'presentation' (Identifier)
+==> 00000073: <NewObject>: <Reg8: 22>
+==> 00000075: <LoadConstString>: <Reg8: 6, string_id: 7>  # String: '在线用户列表' (String)
+==> 00000079: <PutNewOwnByIdShort>: <Reg8: 22, Reg8: 6, string_id: 51>  # String: 'description' (Identifier)
+==> 0000007d: <PutNewOwnByIdShort>: <Reg8: 22, Reg8: 5, string_id: 55>  # String: 'pageModule' (Identifier)
+==> 00000081: <PutNewOwnByIdShort>: <Reg8: 22, Reg8: 4, string_id: 53>  # String: 'options' (Identifier)
+==> 00000085: <TryGetById>: <Reg8: 5, Reg8: 1, UInt8: 3, string_id: 54>  # String: 'srnRequire' (Identifier)
+==> 0000008b: <LoadConstUInt8>: <Reg8: 4, UInt8: 2>
+==> 0000008e: <GetByVal>: <Reg8: 4, Reg8: 25, Reg8: 4>
+==> 00000092: <Call2>: <Reg8: 5, Reg8: 5, Reg8: 0, Reg8: 4>
+==> 00000097: <NewObject>: <Reg8: 4>
+==> 00000099: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 3, string_id: 56>  # String: 'presentation' (Identifier)
+==> 0000009d: <NewObject>: <Reg8: 21>
+==> 0000009f: <LoadConstString>: <Reg8: 6, string_id: 17>  # String: '首充礼包' (String)
+==> 000000a3: <PutNewOwnByIdShort>: <Reg8: 21, Reg8: 6, string_id: 51>  # String: 'description' (Identifier)
+==> 000000a7: <PutNewOwnByIdShort>: <Reg8: 21, Reg8: 5, string_id: 55>  # String: 'pageModule' (Identifier)
+==> 000000ab: <PutNewOwnByIdShort>: <Reg8: 21, Reg8: 4, string_id: 53>  # String: 'options' (Identifier)
+==> 000000af: <TryGetById>: <Reg8: 5, Reg8: 1, UInt8: 3, string_id: 54>  # String: 'srnRequire' (Identifier)
+==> 000000b5: <LoadConstUInt8>: <Reg8: 4, UInt8: 3>
+==> 000000b8: <GetByVal>: <Reg8: 4, Reg8: 25, Reg8: 4>
+==> 000000bc: <Call2>: <Reg8: 5, Reg8: 5, Reg8: 0, Reg8: 4>
+==> 000000c1: <NewObject>: <Reg8: 4>
+==> 000000c3: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 3, string_id: 56>  # String: 'presentation' (Identifier)
+==> 000000c7: <NewObject>: <Reg8: 20>
+==> 000000c9: <LoadConstString>: <Reg8: 6, string_id: 16>  # String: '旧版首充礼包' (String)
+==> 000000cd: <PutNewOwnByIdShort>: <Reg8: 20, Reg8: 6, string_id: 51>  # String: 'description' (Identifier)
+==> 000000d1: <PutNewOwnByIdShort>: <Reg8: 20, Reg8: 5, string_id: 55>  # String: 'pageModule' (Identifier)
+==> 000000d5: <PutNewOwnByIdShort>: <Reg8: 20, Reg8: 4, string_id: 53>  # String: 'options' (Identifier)
+==> 000000d9: <TryGetById>: <Reg8: 5, Reg8: 1, UInt8: 3, string_id: 54>  # String: 'srnRequire' (Identifier)
+==> 000000df: <LoadConstUInt8>: <Reg8: 4, UInt8: 4>
+==> 000000e2: <GetByVal>: <Reg8: 4, Reg8: 25, Reg8: 4>
+==> 000000e6: <Call2>: <Reg8: 5, Reg8: 5, Reg8: 0, Reg8: 4>
+==> 000000eb: <NewObject>: <Reg8: 4>
+==> 000000ed: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 3, string_id: 56>  # String: 'presentation' (Identifier)
+==> 000000f1: <NewObject>: <Reg8: 19>
+==> 000000f3: <LoadConstString>: <Reg8: 6, string_id: 23>  # String: '进场动画' (String)
+==> 000000f7: <PutNewOwnByIdShort>: <Reg8: 19, Reg8: 6, string_id: 51>  # String: 'description' (Identifier)
+==> 000000fb: <PutNewOwnByIdShort>: <Reg8: 19, Reg8: 5, string_id: 55>  # String: 'pageModule' (Identifier)
+==> 000000ff: <PutNewOwnByIdShort>: <Reg8: 19, Reg8: 4, string_id: 53>  # String: 'options' (Identifier)
+==> 00000103: <TryGetById>: <Reg8: 5, Reg8: 1, UInt8: 3, string_id: 54>  # String: 'srnRequire' (Identifier)
+==> 00000109: <LoadConstUInt8>: <Reg8: 4, UInt8: 5>
+==> 0000010c: <GetByVal>: <Reg8: 4, Reg8: 25, Reg8: 4>
+==> 00000110: <Call2>: <Reg8: 5, Reg8: 5, Reg8: 0, Reg8: 4>
+==> 00000115: <NewObject>: <Reg8: 4>
+==> 00000117: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 3, string_id: 56>  # String: 'presentation' (Identifier)
+==> 0000011b: <NewObject>: <Reg8: 18>
+==> 0000011d: <LoadConstString>: <Reg8: 6, string_id: 21>  # String: '禁言管理' (String)
+==> 00000121: <PutNewOwnByIdShort>: <Reg8: 18, Reg8: 6, string_id: 51>  # String: 'description' (Identifier)
+==> 00000125: <PutNewOwnByIdShort>: <Reg8: 18, Reg8: 5, string_id: 55>  # String: 'pageModule' (Identifier)
+==> 00000129: <PutNewOwnByIdShort>: <Reg8: 18, Reg8: 4, string_id: 53>  # String: 'options' (Identifier)
+==> 0000012d: <TryGetById>: <Reg8: 5, Reg8: 1, UInt8: 3, string_id: 54>  # String: 'srnRequire' (Identifier)
+==> 00000133: <LoadConstUInt8>: <Reg8: 4, UInt8: 6>
+==> 00000136: <GetByVal>: <Reg8: 4, Reg8: 25, Reg8: 4>
+==> 0000013a: <Call2>: <Reg8: 5, Reg8: 5, Reg8: 0, Reg8: 4>
+==> 0000013f: <NewObject>: <Reg8: 4>
+==> 00000141: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 3, string_id: 56>  # String: 'presentation' (Identifier)
+==> 00000145: <NewObject>: <Reg8: 17>
+==> 00000147: <LoadConstString>: <Reg8: 6, string_id: 24>  # String: '连麦管理' (String)
+==> 0000014b: <PutNewOwnByIdShort>: <Reg8: 17, Reg8: 6, string_id: 51>  # String: 'description' (Identifier)
+==> 0000014f: <PutNewOwnByIdShort>: <Reg8: 17, Reg8: 5, string_id: 55>  # String: 'pageModule' (Identifier)
+==> 00000153: <PutNewOwnByIdShort>: <Reg8: 17, Reg8: 4, string_id: 53>  # String: 'options' (Identifier)
+==> 00000157: <TryGetById>: <Reg8: 5, Reg8: 1, UInt8: 3, string_id: 54>  # String: 'srnRequire' (Identifier)
+==> 0000015d: <LoadConstUInt8>: <Reg8: 4, UInt8: 7>
+==> 00000160: <GetByVal>: <Reg8: 4, Reg8: 25, Reg8: 4>
+==> 00000164: <Call2>: <Reg8: 5, Reg8: 5, Reg8: 0, Reg8: 4>
+==> 00000169: <NewObject>: <Reg8: 4>
+==> 0000016b: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 3, string_id: 56>  # String: 'presentation' (Identifier)
+==> 0000016f: <NewObject>: <Reg8: 16>
+==> 00000171: <LoadConstString>: <Reg8: 6, string_id: 12>  # String: '礼物福袋流量卡' (String)
+==> 00000175: <PutNewOwnByIdShort>: <Reg8: 16, Reg8: 6, string_id: 51>  # String: 'description' (Identifier)
+==> 00000179: <PutNewOwnByIdShort>: <Reg8: 16, Reg8: 5, string_id: 55>  # String: 'pageModule' (Identifier)
+==> 0000017d: <PutNewOwnByIdShort>: <Reg8: 16, Reg8: 4, string_id: 53>  # String: 'options' (Identifier)
+==> 00000181: <TryGetById>: <Reg8: 5, Reg8: 1, UInt8: 3, string_id: 54>  # String: 'srnRequire' (Identifier)
+==> 00000187: <LoadConstUInt8>: <Reg8: 4, UInt8: 8>
+==> 0000018a: <GetByVal>: <Reg8: 4, Reg8: 25, Reg8: 4>
+==> 0000018e: <Call2>: <Reg8: 4, Reg8: 5, Reg8: 0, Reg8: 4>
+==> 00000193: <NewObject>: <Reg8: 15>
+==> 00000195: <LoadConstString>: <Reg8: 5, string_id: 4>  # String: '创建房间' (String)
+==> 00000199: <PutNewOwnByIdShort>: <Reg8: 15, Reg8: 5, string_id: 51>  # String: 'description' (Identifier)
+==> 0000019d: <PutNewOwnByIdShort>: <Reg8: 15, Reg8: 4, string_id: 55>  # String: 'pageModule' (Identifier)
+==> 000001a1: <TryGetById>: <Reg8: 5, Reg8: 1, UInt8: 3, string_id: 54>  # String: 'srnRequire' (Identifier)
+==> 000001a7: <LoadConstUInt8>: <Reg8: 4, UInt8: 9>
+==> 000001aa: <GetByVal>: <Reg8: 4, Reg8: 25, Reg8: 4>
+==> 000001ae: <Call2>: <Reg8: 4, Reg8: 5, Reg8: 0, Reg8: 4>
+==> 000001b3: <NewObject>: <Reg8: 14>
+==> 000001b5: <LoadConstString>: <Reg8: 5, string_id: 15>  # String: '新房主建房 - 模式选择' (String)
+==> 000001b9: <PutNewOwnByIdShort>: <Reg8: 14, Reg8: 5, string_id: 51>  # String: 'description' (Identifier)
+==> 000001bd: <PutNewOwnByIdShort>: <Reg8: 14, Reg8: 4, string_id: 55>  # String: 'pageModule' (Identifier)
+==> 000001c1: <TryGetById>: <Reg8: 5, Reg8: 1, UInt8: 3, string_id: 54>  # String: 'srnRequire' (Identifier)
+==> 000001c7: <LoadConstUInt8>: <Reg8: 4, UInt8: 10>
+==> 000001ca: <GetByVal>: <Reg8: 4, Reg8: 25, Reg8: 4>
+==> 000001ce: <Call2>: <Reg8: 5, Reg8: 5, Reg8: 0, Reg8: 4>
+==> 000001d3: <NewObject>: <Reg8: 4>
+==> 000001d5: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 3, string_id: 56>  # String: 'presentation' (Identifier)
+==> 000001d9: <NewObject>: <Reg8: 13>
+==> 000001db: <LoadConstString>: <Reg8: 6, string_id: 9>  # String: '打开福袋' (String)
+==> 000001df: <PutNewOwnByIdShort>: <Reg8: 13, Reg8: 6, string_id: 51>  # String: 'description' (Identifier)
+==> 000001e3: <PutNewOwnByIdShort>: <Reg8: 13, Reg8: 5, string_id: 55>  # String: 'pageModule' (Identifier)
+==> 000001e7: <PutNewOwnByIdShort>: <Reg8: 13, Reg8: 4, string_id: 53>  # String: 'options' (Identifier)
+==> 000001eb: <TryGetById>: <Reg8: 5, Reg8: 1, UInt8: 3, string_id: 54>  # String: 'srnRequire' (Identifier)
+==> 000001f1: <LoadConstUInt8>: <Reg8: 4, UInt8: 11>
+==> 000001f4: <GetByVal>: <Reg8: 4, Reg8: 25, Reg8: 4>
+==> 000001f8: <Call2>: <Reg8: 5, Reg8: 5, Reg8: 0, Reg8: 4>
+==> 000001fd: <NewObject>: <Reg8: 4>
+==> 000001ff: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 3, string_id: 56>  # String: 'presentation' (Identifier)
+==> 00000203: <NewObject>: <Reg8: 12>
+==> 00000205: <LoadConstString>: <Reg8: 6, string_id: 11>  # String: '拍拍交换礼物' (String)
+==> 00000209: <PutNewOwnByIdShort>: <Reg8: 12, Reg8: 6, string_id: 51>  # String: 'description' (Identifier)
+==> 0000020d: <PutNewOwnByIdShort>: <Reg8: 12, Reg8: 5, string_id: 55>  # String: 'pageModule' (Identifier)
+==> 00000211: <PutNewOwnByIdShort>: <Reg8: 12, Reg8: 4, string_id: 53>  # String: 'options' (Identifier)
+==> 00000215: <TryGetById>: <Reg8: 5, Reg8: 1, UInt8: 3, string_id: 54>  # String: 'srnRequire' (Identifier)
+==> 0000021b: <LoadConstUInt8>: <Reg8: 4, UInt8: 12>
+==> 0000021e: <GetByVal>: <Reg8: 4, Reg8: 25, Reg8: 4>
+==> 00000222: <Call2>: <Reg8: 5, Reg8: 5, Reg8: 0, Reg8: 4>
+==> 00000227: <NewObject>: <Reg8: 4>
+==> 00000229: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 3, string_id: 56>  # String: 'presentation' (Identifier)
+==> 0000022d: <NewObject>: <Reg8: 11>
+==> 0000022f: <LoadConstString>: <Reg8: 6, string_id: 10>  # String: '福袋设置' (String)
+==> 00000233: <PutNewOwnByIdShort>: <Reg8: 11, Reg8: 6, string_id: 51>  # String: 'description' (Identifier)
+==> 00000237: <PutNewOwnByIdShort>: <Reg8: 11, Reg8: 5, string_id: 55>  # String: 'pageModule' (Identifier)
+==> 0000023b: <PutNewOwnByIdShort>: <Reg8: 11, Reg8: 4, string_id: 53>  # String: 'options' (Identifier)
+==> 0000023f: <TryGetById>: <Reg8: 5, Reg8: 1, UInt8: 3, string_id: 54>  # String: 'srnRequire' (Identifier)
+==> 00000245: <LoadConstUInt8>: <Reg8: 4, UInt8: 13>
+==> 00000248: <GetByVal>: <Reg8: 4, Reg8: 25, Reg8: 4>
+==> 0000024c: <Call2>: <Reg8: 4, Reg8: 5, Reg8: 0, Reg8: 4>
+==> 00000251: <NewObject>: <Reg8: 10>
+==> 00000253: <LoadConstString>: <Reg8: 5, string_id: 20>  # String: '热门话题列表' (String)
+==> 00000257: <PutNewOwnByIdShort>: <Reg8: 10, Reg8: 5, string_id: 51>  # String: 'description' (Identifier)
+==> 0000025b: <PutNewOwnByIdShort>: <Reg8: 10, Reg8: 4, string_id: 55>  # String: 'pageModule' (Identifier)
+==> 0000025f: <NewObjectWithBuffer>: <Reg8: 4, UInt16: 2, UInt16: 2, UInt16: 3, UInt16: 3>  # Object: {'presentation': 'transparentModal', 'animationEnabled': false}
+==> 00000269: <PutNewOwnByIdShort>: <Reg8: 10, Reg8: 4, string_id: 53>  # String: 'options' (Identifier)
+==> 0000026d: <TryGetById>: <Reg8: 5, Reg8: 1, UInt8: 3, string_id: 54>  # String: 'srnRequire' (Identifier)
+==> 00000273: <LoadConstUInt8>: <Reg8: 4, UInt8: 14>
+==> 00000276: <GetByVal>: <Reg8: 4, Reg8: 25, Reg8: 4>
+==> 0000027a: <Call2>: <Reg8: 4, Reg8: 5, Reg8: 0, Reg8: 4>
+==> 0000027f: <NewObject>: <Reg8: 9>
+==> 00000281: <LoadConstString>: <Reg8: 5, string_id: 14>  # String: '歌单' (String)
+==> 00000285: <PutNewOwnByIdShort>: <Reg8: 9, Reg8: 5, string_id: 51>  # String: 'description' (Identifier)
+==> 00000289: <PutNewOwnByIdShort>: <Reg8: 9, Reg8: 4, string_id: 55>  # String: 'pageModule' (Identifier)
+==> 0000028d: <TryGetById>: <Reg8: 5, Reg8: 1, UInt8: 3, string_id: 54>  # String: 'srnRequire' (Identifier)
+==> 00000293: <LoadConstUInt8>: <Reg8: 4, UInt8: 15>
+==> 00000296: <GetByVal>: <Reg8: 4, Reg8: 25, Reg8: 4>
+==> 0000029a: <Call2>: <Reg8: 5, Reg8: 5, Reg8: 0, Reg8: 4>
+==> 0000029f: <NewObject>: <Reg8: 4>
+==> 000002a1: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 3, string_id: 56>  # String: 'presentation' (Identifier)
+==> 000002a5: <NewObject>: <Reg8: 8>
+==> 000002a7: <LoadConstString>: <Reg8: 6, string_id: 13>  # String: '新建歌单' (String)
+==> 000002ab: <PutNewOwnByIdShort>: <Reg8: 8, Reg8: 6, string_id: 51>  # String: 'description' (Identifier)
+==> 000002af: <PutNewOwnByIdShort>: <Reg8: 8, Reg8: 5, string_id: 55>  # String: 'pageModule' (Identifier)
+==> 000002b3: <PutNewOwnByIdShort>: <Reg8: 8, Reg8: 4, string_id: 53>  # String: 'options' (Identifier)
+==> 000002b7: <TryGetById>: <Reg8: 5, Reg8: 1, UInt8: 3, string_id: 54>  # String: 'srnRequire' (Identifier)
+==> 000002bd: <LoadConstUInt8>: <Reg8: 4, UInt8: 16>
+==> 000002c0: <GetByVal>: <Reg8: 4, Reg8: 25, Reg8: 4>
+==> 000002c4: <Call2>: <Reg8: 4, Reg8: 5, Reg8: 0, Reg8: 4>
+==> 000002c9: <NewObject>: <Reg8: 7>
+==> 000002cb: <LoadConstString>: <Reg8: 5, string_id: 6>  # String: '设置封面' (String)
+==> 000002cf: <PutNewOwnByIdShort>: <Reg8: 7, Reg8: 5, string_id: 51>  # String: 'description' (Identifier)
+==> 000002d3: <PutNewOwnByIdShort>: <Reg8: 7, Reg8: 4, string_id: 55>  # String: 'pageModule' (Identifier)
+==> 000002d7: <TryGetById>: <Reg8: 5, Reg8: 1, UInt8: 3, string_id: 54>  # String: 'srnRequire' (Identifier)
+==> 000002dd: <LoadConstUInt8>: <Reg8: 4, UInt8: 17>
+==> 000002e0: <GetByVal>: <Reg8: 4, Reg8: 25, Reg8: 4>
+==> 000002e4: <Call2>: <Reg8: 4, Reg8: 5, Reg8: 0, Reg8: 4>
+==> 000002e9: <NewObject>: <Reg8: 6>
+==> 000002eb: <LoadConstString>: <Reg8: 5, string_id: 19>  # String: '派对动态列表' (String)
+==> 000002ef: <PutNewOwnByIdShort>: <Reg8: 6, Reg8: 5, string_id: 51>  # String: 'description' (Identifier)
+==> 000002f3: <PutNewOwnByIdShort>: <Reg8: 6, Reg8: 4, string_id: 55>  # String: 'pageModule' (Identifier)
+==> 000002f7: <TryGetById>: <Reg8: 5, Reg8: 1, UInt8: 3, string_id: 54>  # String: 'srnRequire' (Identifier)
+==> 000002fd: <LoadConstUInt8>: <Reg8: 4, UInt8: 18>
+==> 00000300: <GetByVal>: <Reg8: 4, Reg8: 25, Reg8: 4>
+==> 00000304: <Call2>: <Reg8: 4, Reg8: 5, Reg8: 0, Reg8: 4>
+==> 00000309: <NewObject>: <Reg8: 5>
+==> 0000030b: <LoadConstString>: <Reg8: 24, string_id: 22>  # String: '群主中心' (String)
+==> 0000030f: <PutNewOwnByIdShort>: <Reg8: 5, Reg8: 24, string_id: 51>  # String: 'description' (Identifier)
+==> 00000313: <PutNewOwnByIdShort>: <Reg8: 5, Reg8: 4, string_id: 55>  # String: 'pageModule' (Identifier)
+==> 00000317: <TryGetById>: <Reg8: 24, Reg8: 1, UInt8: 3, string_id: 54>  # String: 'srnRequire' (Identifier)
+==> 0000031d: <LoadConstUInt8>: <Reg8: 4, UInt8: 19>
+==> 00000320: <GetByVal>: <Reg8: 4, Reg8: 25, Reg8: 4>
+==> 00000324: <Call2>: <Reg8: 24, Reg8: 24, Reg8: 0, Reg8: 4>
+==> 00000329: <NewObject>: <Reg8: 4>
+==> 0000032b: <LoadConstString>: <Reg8: 26, string_id: 8>  # String: '建房技能选择（方案一：新房主建房前选择技能）' (String)
+==> 0000032f: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 26, string_id: 51>  # String: 'description' (Identifier)
+==> 00000333: <PutNewOwnByIdShort>: <Reg8: 4, Reg8: 24, string_id: 55>  # String: 'pageModule' (Identifier)
+==> 00000337: <TryGetById>: <Reg8: 24, Reg8: 1, UInt8: 3, string_id: 54>  # String: 'srnRequire' (Identifier)
+==> 0000033d: <LoadConstUInt8>: <Reg8: 1, UInt8: 20>
+==> 00000340: <GetByVal>: <Reg8: 1, Reg8: 25, Reg8: 1>
+==> 00000344: <Call2>: <Reg8: 24, Reg8: 24, Reg8: 0, Reg8: 1>
+==> 00000349: <NewObject>: <Reg8: 1>
+==> 0000034b: <PutNewOwnByIdShort>: <Reg8: 1, Reg8: 3, string_id: 56>  # String: 'presentation' (Identifier)
+==> 0000034f: <NewObject>: <Reg8: 3>
+==> 00000351: <LoadConstString>: <Reg8: 25, string_id: 18>  # String: '派对互动设置（房主态：自我介绍 / 投票PK / 互动问答）' (String)
+==> 00000355: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 25, string_id: 51>  # String: 'description' (Identifier)
+==> 00000359: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 24, string_id: 55>  # String: 'pageModule' (Identifier)
+==> 0000035d: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 1, string_id: 53>  # String: 'options' (Identifier)
+==> 00000361: <NewObject>: <Reg8: 1>
+==> 00000363: <PutNewOwnByIdShort>: <Reg8: 1, Reg8: 23, string_id: 46>  # String: 'RoomStatusSetting' (Identifier)
+==> 00000367: <PutNewOwnByIdShort>: <Reg8: 1, Reg8: 22, string_id: 41>  # String: 'LiveRoomUserListPage' (Identifier)
+==> 0000036b: <PutNewOwnByIdShort>: <Reg8: 1, Reg8: 21, string_id: 39>  # String: 'FirstCharge' (Identifier)
+==> 0000036f: <PutNewOwnByIdShort>: <Reg8: 1, Reg8: 20, string_id: 38>  # String: 'OldFirstCharge' (Identifier)
+==> 00000373: <PutNewOwnByIdShort>: <Reg8: 1, Reg8: 19, string_id: 36>  # String: 'EnterAnimation' (Identifier)
+==> 00000377: <PutNewOwnByIdShort>: <Reg8: 1, Reg8: 18, string_id: 45>  # String: 'RoomManagement' (Identifier)
+==> 0000037b: <PutNewOwnByIdShort>: <Reg8: 1, Reg8: 17, string_id: 40>  # String: 'LiveConnection' (Identifier)
+==> 0000037f: <PutNewOwnByIdShort>: <Reg8: 1, Reg8: 16, string_id: 25>  # String: 'DataCardPage' (Identifier)
+==> 00000383: <PutNewOwnByIdShort>: <Reg8: 1, Reg8: 15, string_id: 33>  # String: 'CreateRoomPage' (Identifier)
+==> 00000387: <PutNewOwnByIdShort>: <Reg8: 1, Reg8: 14, string_id: 42>  # String: 'NewOwnerCreatePage' (Identifier)
+==> 0000038b: <PutNewOwnByIdShort>: <Reg8: 1, Reg8: 13, string_id: 37>  # String: 'FetchLuckyBag' (Identifier)
+==> 0000038f: <PutNewOwnByIdShort>: <Reg8: 1, Reg8: 12, string_id: 32>  # String: 'CreateAuction' (Identifier)
+==> 00000393: <PutNewOwnByIdShort>: <Reg8: 1, Reg8: 11, string_id: 26>  # String: 'DataCardPageConfig' (Identifier)
+==> 00000397: <PutNewOwnByIdShort>: <Reg8: 1, Reg8: 10, string_id: 27>  # String: 'HotTopicList' (Identifier)
+==> 0000039b: <PutNewOwnByIdShort>: <Reg8: 1, Reg8: 9, string_id: 28>  # String: 'CPPickSongList' (Identifier)
+==> 0000039f: <PutNewOwnByIdShort>: <Reg8: 1, Reg8: 8, string_id: 35>  # String: 'CreateSongListPage' (Identifier)
+==> 000003a3: <PutNewOwnByIdShort>: <Reg8: 1, Reg8: 7, string_id: 29>  # String: 'SongListCoverSelectPage' (Identifier)
+==> 000003a7: <PutNewOwnByIdShort>: <Reg8: 1, Reg8: 6, string_id: 31>  # String: 'ClubPartyFeedListPage' (Identifier)
+==> 000003ab: <PutNewOwnByIdShort>: <Reg8: 1, Reg8: 5, string_id: 30>  # String: 'ClubOwnerCenter' (Identifier)
+==> 000003af: <PutNewOwnByIdShort>: <Reg8: 1, Reg8: 4, string_id: 34>  # String: 'CreateRoomSelectSkill' (Identifier)
+==> 000003b3: <PutNewOwnByIdShort>: <Reg8: 1, Reg8: 3, string_id: 44>  # String: 'PartyInteractionSetting' (Identifier)
+==> 000003b7: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 1, string_id: 47>  # String: 'RouterConfig' (Identifier)
+==> 000003bd: <Ret>: <Reg8: 0>
+
+
+===============
+

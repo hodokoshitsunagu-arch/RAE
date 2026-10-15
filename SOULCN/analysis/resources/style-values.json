@@ -1,0 +1,107 @@
+{
+  "scope": "Default values explicitly referenced by the 20 retained layouts; not a complete runtime Android resource resolution. Theme/night overrides and custom-view code may change effective appearance.",
+  "values": {
+    "@color/c_vp_alpha_white_70": {
+      "source": "SOULCN/analysis/decoded/resources/res/values/colors.xml",
+      "line": 487,
+      "xml": "<color name=\"c_vp_alpha_white_70\">#4dffffff</color>\n    "
+    },
+    "@color/c_vp_color_1affffff": {
+      "source": "SOULCN/analysis/decoded/resources/res/values/colors.xml",
+      "line": 491,
+      "xml": "<color name=\"c_vp_color_1affffff\">#1affffff</color>\n    "
+    },
+    "@color/color_888888": {
+      "source": "SOULCN/analysis/decoded/resources/res/values/colors.xml",
+      "line": 789,
+      "xml": "<color name=\"color_888888\">#888888</color>\n    "
+    },
+    "@color/color_bababa": {
+      "source": "SOULCN/analysis/decoded/resources/res/values/colors.xml",
+      "line": 822,
+      "xml": "<color name=\"color_bababa\">#bababa</color>\n    "
+    },
+    "@color/color_ffffff": {
+      "source": "SOULCN/analysis/decoded/resources/res/values/colors.xml",
+      "line": 855,
+      "xml": "<color name=\"color_ffffff\">#ffffff</color>\n    "
+    },
+    "@color/color_s03": {
+      "source": "SOULCN/analysis/decoded/resources/res/values/colors.xml",
+      "line": 890,
+      "xml": "<color name=\"color_s03\">#474747</color>\n    "
+    },
+    "@color/color_s_00": {
+      "source": "SOULCN/analysis/decoded/resources/res/values/colors.xml",
+      "line": 899,
+      "xml": "<color name=\"color_s_00\">#ffffff</color>\n    "
+    },
+    "@color/color_s_01": {
+      "source": "SOULCN/analysis/decoded/resources/res/values/colors.xml",
+      "line": 902,
+      "xml": "<color name=\"color_s_01\">#25d4d0</color>\n    "
+    },
+    "@color/color_s_02": {
+      "source": "SOULCN/analysis/decoded/resources/res/values/colors.xml",
+      "line": 906,
+      "xml": "<color name=\"color_s_02\">#282828</color>\n    "
+    },
+    "@color/color_s_06": {
+      "source": "SOULCN/analysis/decoded/resources/res/values/colors.xml",
+      "line": 921,
+      "xml": "<color name=\"color_s_06\">#bababa</color>\n    "
+    },
+    "@color/color_s_15": {
+      "source": "SOULCN/analysis/decoded/resources/res/values/colors.xml",
+      "line": 950,
+      "xml": "<color name=\"color_s_15\">#888888</color>\n    "
+    },
+    "@color/color_s_19": {
+      "source": "SOULCN/analysis/decoded/resources/res/values/colors.xml",
+      "line": 961,
+      "xml": "<color name=\"color_s_19\">#c1c1c1</color>\n    "
+    },
+    "@color/transparent": {
+      "source": "SOULCN/analysis/decoded/resources/res/values/colors.xml",
+      "line": 1442,
+      "xml": "<color name=\"transparent\">#00000000</color>\n    "
+    },
+    "@color/white": {
+      "source": "SOULCN/analysis/decoded/resources/res/values/colors.xml",
+      "line": 1488,
+      "xml": "<color name=\"white\">#ffffff</color>\n    "
+    },
+    "@dimen/dp_10": {
+      "source": "SOULCN/analysis/decoded/resources/res/values/dimens.xml",
+      "line": 220,
+      "xml": "<dimen name=\"dp_10\">10dp</dimen>\n    "
+    },
+    "@string/c_vp_cm_setting_desc": {
+      "source": "SOULCN/analysis/decoded/resources/res/values/strings.xml",
+      "line": 2658,
+      "xml": "<string name=\"c_vp_cm_setting_desc\">关闭后，派对内所有成员将不可申请上麦</string>\n    "
+    },
+    "@string/c_vp_cm_setting_title": {
+      "source": "SOULCN/analysis/decoded/resources/res/values/strings.xml",
+      "line": 2659,
+      "xml": "<string name=\"c_vp_cm_setting_title\">允许所有群成员申请</string>\n    "
+    },
+    "@string/c_vp_create_chat_room_remainder_times": {
+      "source": "SOULCN/analysis/decoded/resources/res/values/strings.xml",
+      "line": 2672,
+      "xml": "<string name=\"c_vp_create_chat_room_remainder_times\">今日剩余%s次</string>\n    "
+    },
+    "@string/create_new_chatroom": {
+      "source": "SOULCN/analysis/decoded/resources/res/values/strings.xml",
+      "line": 3333,
+      "xml": "<string name=\"create_new_chatroom\">创建派对</string>\n    "
+    },
+    "@color/group_item_confirm_text": {
+      "source": "SOULCN/analysis/decoded/resources/res/color/group_item_confirm_text.xml",
+      "line": 1,
+      "xml": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<selector xmlns:android=\"http://schemas.android.com/apk/res/android\">\n    <item\n        android:state_enabled=\"false\"\n        android:color=\"@color/color_s_19\"/>\n    <item\n        android:state_enabled=\"true\"\n        android:color=\"@color/color_s_00\"/>\n</selector>\n",
+      "kind": "ColorStateList selector, not a scalar color"
+    }
+  },
+  "unresolved": []
+}

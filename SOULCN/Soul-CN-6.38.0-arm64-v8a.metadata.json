@@ -1,0 +1,25 @@
+{
+  "app": "Soul 中国版",
+  "package_name": "cn.soulapp.android",
+  "version_name": "6.38.0",
+  "version_code": 26092202,
+  "abis": [
+    "arm64-v8a"
+  ],
+  "filename": "Soul-CN-6.38.0-arm64-v8a.apk",
+  "size_bytes": 166856887,
+  "sha256": "af8031d67553fade39e091576c88a6a9f67db3d863fdfcaaa5fe11ce51abf558",
+  "official_page": "https://www.soulapp.cn/",
+  "download_url": "https://china-img.soulapp.cn/apk/channel/soul_channel_soul64.apk",
+  "version_crosscheck": {
+    "url": "https://sj.qq.com/appdetail/cn.soulapp.android",
+    "listed_version": "6.38.0",
+    "listed_update_date": "2026-09-28"
+  },
+  "retrieved_at_utc": "2026-10-15T09:09:00.235107+00:00",
+  "validation": {
+    "zip_crc": "all entries passed",
+    "manifest": "binary AndroidManifest.xml parsed",
+    "signature_verification": "not performed"
+  }
+}

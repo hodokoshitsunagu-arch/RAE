@@ -1,0 +1,170 @@
+=> [Function #0 "global" of 40 bytes]: 1 params, frame size=15, strict=0, exc handler=0, debug info=0  @ offset 0x000002c0
+
+Bytecode listing:
+
+==> 00000000: <GetGlobalObject>: <Reg8: 0>
+==> 00000002: <TryGetById>: <Reg8: 4, Reg8: 0, UInt8: 1, string_id: 14>  # String: '__d' (Identifier)
+==> 00000008: <LoadConstUndefined>: <Reg8: 3>
+==> 0000000a: <CreateEnvironment>: <Reg8: 0>
+==> 0000000c: <CreateClosure>: <Reg8: 2, Reg8: 0, function_id: 1>  # Function: [#1  of 138 bytes]: 8 params @ offset 0x000002e8
+==> 00000011: <LoadConstInt>: <Reg8: 1, Imm32: 10000321>
+==> 00000017: <NewArrayWithBuffer>: <Reg8: 0, UInt16: 4, UInt16: 4, UInt16: 0>  # Array: [7, 10, 11, 976]
+==> 0000001f: <Call4>: <Reg8: 0, Reg8: 4, Reg8: 3, Reg8: 2, Reg8: 1, Reg8: 0>
+==> 00000026: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #1 "" of 138 bytes]: 8 params, frame size=18, strict=0, exc handler=0, debug info=0  @ offset 0x000002e8
+
+Bytecode listing:
+
+==> 00000000: <CreateEnvironment>: <Reg8: 1>
+==> 00000002: <LoadParam>: <Reg8: 5, UInt8: 2>
+==> 00000005: <LoadParam>: <Reg8: 2, UInt8: 6>
+==> 00000008: <LoadParam>: <Reg8: 6, UInt8: 7>
+==> 0000000b: <StoreToEnvironment>: <Reg8: 1, UInt8: 0, Reg8: 5>
+==> 0000000f: <StoreToEnvironment>: <Reg8: 1, UInt8: 1, Reg8: 6>
+==> 00000013: <GetGlobalObject>: <Reg8: 0>
+==> 00000015: <TryGetById>: <Reg8: 7, Reg8: 0, UInt8: 1, string_id: 12>  # String: 'Object' (Identifier)
+==> 0000001b: <GetByIdShort>: <Reg8: 4, Reg8: 7, UInt8: 2, string_id: 25>  # String: 'defineProperty' (Identifier)
+==> 00000020: <NewObject>: <Reg8: 3>
+==> 00000022: <LoadConstTrue>: <Reg8: 0>
+==> 00000024: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 0, string_id: 22>  # String: 'value' (Identifier)
+==> 00000028: <LoadConstString>: <Reg8: 0, string_id: 4>  # String: '__esModule' (String)
+==> 0000002c: <Call4>: <Reg8: 0, Reg8: 4, Reg8: 7, Reg8: 2, Reg8: 0, Reg8: 3>
+==> 00000033: <LoadConstUndefined>: <Reg8: 0>
+==> 00000035: <PutById>: <Reg8: 2, Reg8: 0, UInt8: 1, string_id: 11>  # String: 'CreateRoomSelectSkillTrackPoint' (Identifier)
+==> 0000003b: <LoadConstZero>: <Reg8: 3>
+==> 0000003d: <GetByVal>: <Reg8: 4, Reg8: 6, Reg8: 3>
+==> 00000041: <Call2>: <Reg8: 7, Reg8: 5, Reg8: 0, Reg8: 4>
+==> 00000046: <LoadConstUInt8>: <Reg8: 4, UInt8: 1>
+==> 00000049: <GetByVal>: <Reg8: 4, Reg8: 6, Reg8: 4>
+==> 0000004d: <Call2>: <Reg8: 4, Reg8: 5, Reg8: 0, Reg8: 4>
+==> 00000052: <Call2>: <Reg8: 4, Reg8: 7, Reg8: 0, Reg8: 4>
+==> 00000057: <StoreToEnvironment>: <Reg8: 1, UInt8: 2, Reg8: 4>
+==> 0000005b: <GetByVal>: <Reg8: 3, Reg8: 6, Reg8: 3>
+==> 0000005f: <Call2>: <Reg8: 4, Reg8: 5, Reg8: 0, Reg8: 3>
+==> 00000064: <LoadConstUInt8>: <Reg8: 3, UInt8: 2>
+==> 00000067: <GetByVal>: <Reg8: 3, Reg8: 6, Reg8: 3>
+==> 0000006b: <Call2>: <Reg8: 3, Reg8: 5, Reg8: 0, Reg8: 3>
+==> 00000070: <Call2>: <Reg8: 3, Reg8: 4, Reg8: 0, Reg8: 3>
+==> 00000075: <StoreToEnvironment>: <Reg8: 1, UInt8: 3, Reg8: 3>
+==> 00000079: <CreateClosure>: <Reg8: 1, Reg8: 1, function_id: 2>  # Function: [#2  of 86 bytes]: 1 params @ offset 0x00000372
+==> 0000007e: <Call1>: <Reg8: 1, Reg8: 1, Reg8: 0>
+==> 00000082: <PutById>: <Reg8: 2, Reg8: 1, UInt8: 1, string_id: 11>  # String: 'CreateRoomSelectSkillTrackPoint' (Identifier)
+==> 00000088: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #2 "" of 86 bytes]: 1 params, frame size=16, strict=0, exc handler=0, debug info=0  @ offset 0x00000372
+
+Bytecode listing:
+
+==> 00000000: <CreateEnvironment>: <Reg8: 1>
+==> 00000002: <GetEnvironment>: <Reg8: 0, UInt8: 0>
+==> 00000005: <LoadFromEnvironment>: <Reg8: 0, Reg8: 0, UInt8: 3>
+==> 00000009: <GetByIdShort>: <Reg8: 4, Reg8: 0, UInt8: 1, string_id: 15>  # String: 'default' (Identifier)
+==> 0000000e: <CreateClosure>: <Reg8: 3, Reg8: 1, function_id: 3>  # Function: [#3 t of 31 bytes]: 1 params @ offset 0x000003c8
+==> 00000013: <StoreToEnvironment>: <Reg8: 1, UInt8: 0, Reg8: 3>
+==> 00000017: <NewObject>: <Reg8: 0>
+==> 00000019: <LoadConstString>: <Reg8: 2, string_id: 6>  # String: 'eventPageView' (String)
+==> 0000001d: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 2, string_id: 9>  # String: 'key' (Identifier)
+==> 00000021: <CreateClosure>: <Reg8: 2, Reg8: 1, function_id: 4>  # Function: [#4 value of 83 bytes]: 3 params @ offset 0x000003e7
+==> 00000026: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 2, string_id: 22>  # String: 'value' (Identifier)
+==> 0000002a: <NewArray>: <Reg8: 2, UInt16: 2>
+==> 0000002e: <PutOwnByIndex>: <Reg8: 2, Reg8: 0, UInt8: 0>
+==> 00000032: <NewObject>: <Reg8: 0>
+==> 00000034: <LoadConstString>: <Reg8: 5, string_id: 5>  # String: 'eventCreateClick' (String)
+==> 00000038: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 5, string_id: 9>  # String: 'key' (Identifier)
+==> 0000003c: <CreateClosure>: <Reg8: 1, Reg8: 1, function_id: 5>  # Function: [#5 value of 90 bytes]: 5 params @ offset 0x0000043a
+==> 00000041: <PutNewOwnByIdShort>: <Reg8: 0, Reg8: 1, string_id: 22>  # String: 'value' (Identifier)
+==> 00000045: <PutOwnByIndex>: <Reg8: 2, Reg8: 0, UInt8: 1>
+==> 00000049: <LoadConstUndefined>: <Reg8: 1>
+==> 0000004b: <LoadConstNull>: <Reg8: 0>
+==> 0000004d: <Call4>: <Reg8: 0, Reg8: 4, Reg8: 1, Reg8: 3, Reg8: 0, Reg8: 2>
+==> 00000054: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #3 "t" of 31 bytes]: 1 params, frame size=13, strict=0, exc handler=0, debug info=0  @ offset 0x000003c8
+
+Bytecode listing:
+
+==> 00000000: <GetEnvironment>: <Reg8: 0, UInt8: 1>
+==> 00000003: <LoadFromEnvironment>: <Reg8: 0, Reg8: 0, UInt8: 2>
+==> 00000007: <GetByIdShort>: <Reg8: 3, Reg8: 0, UInt8: 1, string_id: 15>  # String: 'default' (Identifier)
+==> 0000000c: <GetEnvironment>: <Reg8: 0, UInt8: 0>
+==> 0000000f: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 0>
+==> 00000013: <LoadConstUndefined>: <Reg8: 0>
+==> 00000015: <LoadThisNS>: <Reg8: 1>
+==> 00000017: <Call3>: <Reg8: 1, Reg8: 3, Reg8: 0, Reg8: 1, Reg8: 2>
+==> 0000001d: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #4 "value" of 83 bytes]: 3 params, frame size=15, strict=0, exc handler=0, debug info=0  @ offset 0x000003e7
+
+Bytecode listing:
+
+==> 00000000: <LoadParam>: <Reg8: 1, UInt8: 1>
+==> 00000003: <GetEnvironment>: <Reg8: 0, UInt8: 1>
+==> 00000006: <LoadFromEnvironment>: <Reg8: 3, Reg8: 0, UInt8: 0>
+==> 0000000a: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 1>
+==> 0000000e: <LoadConstUInt8>: <Reg8: 0, UInt8: 3>
+==> 00000011: <GetByVal>: <Reg8: 2, Reg8: 2, Reg8: 0>
+==> 00000015: <LoadConstUndefined>: <Reg8: 0>
+==> 00000017: <Call2>: <Reg8: 2, Reg8: 3, Reg8: 0, Reg8: 2>
+==> 0000001c: <GetByIdShort>: <Reg8: 4, Reg8: 2, UInt8: 1, string_id: 13>  # String: 'SRNApiEventTrack' (Identifier)
+==> 00000021: <GetByIdShort>: <Reg8: 3, Reg8: 4, UInt8: 2, string_id: 21>  # String: 'eventPv' (Identifier)
+==> 00000026: <NewObject>: <Reg8: 2>
+==> 00000028: <PutNewOwnByIdShort>: <Reg8: 2, Reg8: 1, string_id: 10>  # String: 'Source' (Identifier)
+==> 0000002c: <PutNewOwnByIdShort>: <Reg8: 2, Reg8: 1, string_id: 20>  # String: 'createroom_source' (Identifier)
+==> 00000030: <LoadConstString>: <Reg8: 1, string_id: 0>  # String: '' (String)
+==> 00000034: <PutNewOwnByIdShort>: <Reg8: 2, Reg8: 1, string_id: 23>  # String: 'createroom_tab' (Identifier)
+==> 00000038: <LoadConstString>: <Reg8: 1, string_id: 1>  # String: '3' (String)
+==> 0000003c: <PutNewOwnByIdShort>: <Reg8: 2, Reg8: 1, string_id: 24>  # String: 'createroom_version' (Identifier)
+==> 00000040: <LoadParam>: <Reg8: 1, UInt8: 2>
+==> 00000043: <PutNewOwnByIdShort>: <Reg8: 2, Reg8: 1, string_id: 17>  # String: 'createroom_purpose' (Identifier)
+==> 00000047: <LoadConstString>: <Reg8: 1, string_id: 2>  # String: 'GroupChat_CreateRoom' (String)
+==> 0000004b: <Call3>: <Reg8: 1, Reg8: 3, Reg8: 4, Reg8: 1, Reg8: 2>
+==> 00000051: <Ret>: <Reg8: 0>
+
+
+===============
+
+=> [Function #5 "value" of 90 bytes]: 5 params, frame size=16, strict=0, exc handler=0, debug info=0  @ offset 0x0000043a
+
+Bytecode listing:
+
+==> 00000000: <GetEnvironment>: <Reg8: 0, UInt8: 1>
+==> 00000003: <LoadFromEnvironment>: <Reg8: 2, Reg8: 0, UInt8: 0>
+==> 00000007: <LoadFromEnvironment>: <Reg8: 1, Reg8: 0, UInt8: 1>
+==> 0000000b: <LoadConstUInt8>: <Reg8: 0, UInt8: 3>
+==> 0000000e: <GetByVal>: <Reg8: 1, Reg8: 1, Reg8: 0>
+==> 00000012: <LoadConstUndefined>: <Reg8: 0>
+==> 00000014: <Call2>: <Reg8: 1, Reg8: 2, Reg8: 0, Reg8: 1>
+==> 00000019: <GetByIdShort>: <Reg8: 5, Reg8: 1, UInt8: 1, string_id: 13>  # String: 'SRNApiEventTrack' (Identifier)
+==> 0000001e: <GetByIdShort>: <Reg8: 4, Reg8: 5, UInt8: 2, string_id: 18>  # String: 'eventClick' (Identifier)
+==> 00000023: <NewObject>: <Reg8: 3>
+==> 00000025: <LoadParam>: <Reg8: 1, UInt8: 1>
+==> 00000028: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 1, string_id: 20>  # String: 'createroom_source' (Identifier)
+==> 0000002c: <LoadConstString>: <Reg8: 1, string_id: 1>  # String: '3' (String)
+==> 00000030: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 1, string_id: 24>  # String: 'createroom_version' (Identifier)
+==> 00000034: <LoadParam>: <Reg8: 1, UInt8: 4>
+==> 00000037: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 1, string_id: 16>  # String: 'createroom_block' (Identifier)
+==> 0000003b: <LoadParam>: <Reg8: 1, UInt8: 3>
+==> 0000003e: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 1, string_id: 19>  # String: 'createroom_skill' (Identifier)
+==> 00000042: <LoadParam>: <Reg8: 1, UInt8: 2>
+==> 00000045: <PutNewOwnByIdShort>: <Reg8: 3, Reg8: 1, string_id: 17>  # String: 'createroom_purpose' (Identifier)
+==> 00000049: <LoadConstString>: <Reg8: 2, string_id: 3>  # String: 'GroupChat_CreateRoomPage_CreateClk' (String)
+==> 0000004d: <LoadConstString>: <Reg8: 1, string_id: 2>  # String: 'GroupChat_CreateRoom' (String)
+==> 00000051: <Call4>: <Reg8: 1, Reg8: 4, Reg8: 5, Reg8: 2, Reg8: 1, Reg8: 3>
+==> 00000058: <Ret>: <Reg8: 0>
+
+
+===============
+

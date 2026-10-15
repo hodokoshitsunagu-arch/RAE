@@ -1,0 +1,393 @@
+{
+  "scope": "client declarations, not live server catalogue",
+  "source": "SOULCN/analysis/java/cn/soulapp/cpnt_voiceparty/soulhouse/playmode/h.java",
+  "entries": [
+    {
+      "symbol": "hVar",
+      "id": 0,
+      "name": "非游戏模式",
+      "funcType": 1,
+      "groupType": 0,
+      "source_line": 265,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar2",
+      "id": 1,
+      "name": "KTV",
+      "funcType": 1,
+      "groupType": 0,
+      "source_line": 271,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar3",
+      "id": 2,
+      "name": "欢乐PK",
+      "funcType": 1,
+      "groupType": 0,
+      "source_line": 277,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar4",
+      "id": 3,
+      "name": "娱乐拍拍",
+      "funcType": 1,
+      "groupType": 0,
+      "source_line": 279,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar5",
+      "id": 4,
+      "name": "心动模式",
+      "funcType": 1,
+      "groupType": 0,
+      "source_line": 281,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar6",
+      "id": 5,
+      "name": "速配模式",
+      "funcType": 1,
+      "groupType": 0,
+      "source_line": 283,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar7",
+      "id": 6,
+      "name": "欢乐预言",
+      "funcType": 1,
+      "groupType": 0,
+      "source_line": 285,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar8",
+      "id": 7,
+      "name": "超凡拍战",
+      "funcType": 1,
+      "groupType": 0,
+      "source_line": 287,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar9",
+      "id": 8,
+      "name": "虚拟现场",
+      "funcType": 1,
+      "groupType": 0,
+      "source_line": 289,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar10",
+      "id": 9,
+      "name": "豚豚鼠之王",
+      "funcType": 1,
+      "groupType": 0,
+      "source_line": 291,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar11",
+      "id": 10,
+      "name": "冒险之雷",
+      "funcType": 1,
+      "groupType": 0,
+      "source_line": 293,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar12",
+      "id": 13,
+      "name": "音乐小酒馆",
+      "funcType": 1,
+      "groupType": 0,
+      "source_line": 296,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "f154994s",
+      "id": 15,
+      "name": "仪式房",
+      "funcType": 1,
+      "groupType": 0,
+      "source_line": 298,
+      "registered_in_local_list": false
+    },
+    {
+      "symbol": "f154995t",
+      "id": 16,
+      "name": "大咖模式",
+      "funcType": 1,
+      "groupType": 0,
+      "source_line": 303,
+      "registered_in_local_list": false
+    },
+    {
+      "symbol": "f154996u",
+      "id": 17,
+      "name": "兴趣陪伴",
+      "funcType": 1,
+      "groupType": 0,
+      "source_line": 308,
+      "registered_in_local_list": false
+    },
+    {
+      "symbol": "hVar13",
+      "id": 18,
+      "name": "挚友小屋",
+      "funcType": 1,
+      "groupType": 0,
+      "source_line": 309,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar14",
+      "id": 19,
+      "name": "豚豚鼠之王",
+      "funcType": 1,
+      "groupType": 0,
+      "source_line": 311,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar15",
+      "id": 20,
+      "name": "趣宝秀",
+      "funcType": 1,
+      "groupType": 0,
+      "source_line": 317,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar16",
+      "id": 21,
+      "name": "弹唱房",
+      "funcType": 1,
+      "groupType": 0,
+      "source_line": 319,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar17",
+      "id": 22,
+      "name": "AI播客",
+      "funcType": 1,
+      "groupType": 0,
+      "source_line": 321,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar18",
+      "id": 23,
+      "name": "树洞模式",
+      "funcType": 1,
+      "groupType": 0,
+      "source_line": 327,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar19",
+      "id": 24,
+      "name": "点唱房",
+      "funcType": 1,
+      "groupType": 0,
+      "source_line": 329,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar20",
+      "id": 25,
+      "name": "AI游乐园",
+      "funcType": 1,
+      "groupType": 0,
+      "source_line": 331,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar21",
+      "id": 26,
+      "name": "赛事直播房",
+      "funcType": 1,
+      "groupType": 0,
+      "source_line": 333,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar22",
+      "id": 27,
+      "name": "视频直播",
+      "funcType": 1,
+      "groupType": 0,
+      "source_line": 335,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar23",
+      "id": 28,
+      "name": "手机投屏",
+      "funcType": 1,
+      "groupType": 0,
+      "source_line": 337,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar24",
+      "id": -1,
+      "name": "弹幕游戏",
+      "funcType": 1,
+      "groupType": 3,
+      "source_line": 339,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar25",
+      "id": 14,
+      "name": "强音对决",
+      "funcType": 1,
+      "groupType": 4,
+      "source_line": 341,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar26",
+      "id": -1,
+      "name": "Luk游戏",
+      "funcType": 1,
+      "groupType": 5,
+      "source_line": 343,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar27",
+      "id": 100001,
+      "name": "SooFun游戏",
+      "funcType": 1,
+      "groupType": 7,
+      "source_line": 345,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar28",
+      "id": 400001,
+      "name": "海龟汤",
+      "funcType": 1,
+      "groupType": 0,
+      "source_line": 347,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar29",
+      "id": 400002,
+      "name": "谁是卧底",
+      "funcType": 1,
+      "groupType": 2,
+      "source_line": 349,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar30",
+      "id": 400003,
+      "name": "你说我猜",
+      "funcType": 1,
+      "groupType": 2,
+      "source_line": 351,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar31",
+      "id": 400004,
+      "name": "Ai剧本杀",
+      "funcType": 1,
+      "groupType": 6,
+      "source_line": 353,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar32",
+      "id": 400005,
+      "name": "狼人魅影",
+      "funcType": 1,
+      "groupType": 0,
+      "source_line": 358,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar33",
+      "id": 500001,
+      "name": "唱片机",
+      "funcType": 2,
+      "groupType": 0,
+      "source_line": 364,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar34",
+      "id": 500002,
+      "name": "随机话题",
+      "funcType": 2,
+      "groupType": 0,
+      "source_line": 367,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar35",
+      "id": 500003,
+      "name": "音乐集市",
+      "funcType": 2,
+      "groupType": 0,
+      "source_line": 369,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar36",
+      "id": 500004,
+      "name": "心动大冒险",
+      "funcType": 2,
+      "groupType": 0,
+      "source_line": 371,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar37",
+      "id": 500005,
+      "name": "音乐小酒馆",
+      "funcType": 2,
+      "groupType": 0,
+      "source_line": 377,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar38",
+      "id": 500006,
+      "name": "钓鱼达人",
+      "funcType": 2,
+      "groupType": 0,
+      "source_line": 383,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar39",
+      "id": 500007,
+      "name": "国王派对",
+      "funcType": 2,
+      "groupType": 0,
+      "source_line": 385,
+      "registered_in_local_list": true
+    },
+    {
+      "symbol": "hVar40",
+      "id": 500008,
+      "name": "派对互动",
+      "funcType": 2,
+      "groupType": 0,
+      "source_line": 387,
+      "registered_in_local_list": true
+    }
+  ]
+}
